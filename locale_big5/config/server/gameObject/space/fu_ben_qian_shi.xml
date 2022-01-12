@@ -1,0 +1,16 @@
+<root>
+		<spaceName>	10級副本	</spaceName>
+		<EntityType>	SpaceCopyBeforeNirvana</EntityType>
+		<SpaceType>	SPACE_TYPE_BEFORE_NIRVANA </SpaceType>
+		<DomainType>	SpaceDomainCopy	</DomainType>
+		<script>	SpaceCopyBeforeNirvana </script>
+		<className>	fu_ben_qian_shi	</className>
+		<TimeOfDay>	50400	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_ju_qing_001	</dirMapping>
+		<spawnFile>	config/server/spawn/fu_ben_ju_qing_001.xml	</spawnFile>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+		<canArrest>	1	</canArrest>
+		<Space>	
+		</Space>
+</root>

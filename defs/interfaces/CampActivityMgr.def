@@ -1,0 +1,44 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<onNotice/>
+		<onStart/>
+		<onEnd/>
+		
+		<addLocationSpawnPoint>
+			<Arg>		UINT8		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		UINT16		</Arg>
+		</addLocationSpawnPoint>
+		<onLocationMonsterDie>
+			<Arg>		UINT8		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</onLocationMonsterDie>
+		<onLocationMonsterRedivious>
+			<Arg>		UINT8		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</onLocationMonsterRedivious>
+
+		<addActivityMonsterSpawnPoint>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		UINT8		</Arg>
+		</addActivityMonsterSpawnPoint>
+		<start>
+			<Arg>		INT8		</Arg>
+			<Arg>	ARRAY <of>STRING</of>	</Arg>
+			<Arg>		INT8		</Arg>
+		</start>
+		<addDailyQuestNpcBases>
+			<Arg>		MAILBOX		</Arg>
+		</addDailyQuestNpcBases>
+	</BaseMethods>
+</root>

@@ -1,0 +1,37 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<onRequestRobWar>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</onRequestRobWar>
+
+		<onReceiveRequestRobWar>
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+		</onReceiveRequestRobWar>
+
+		<onAnswerRobWar>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>
+			<Arg>	INT16				</Arg>
+			<Arg>	INT16				</Arg>
+		</onAnswerRobWar>
+
+		<onRobWarFailed>
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	STRING				</Arg>	<!-- name -->
+		</onRobWarFailed>
+
+		<onRobWarSuccessfully>
+			<Arg>	STRING				</Arg>	<!-- name -->
+			<Arg>	INT32				</Arg>
+		</onRobWarSuccessfully>
+
+		<setRobWarTargetTong>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</setRobWarTargetTong>
+	</BaseMethods>
+</root>

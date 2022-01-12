@@ -1,0 +1,20 @@
+<root>
+		<spaceName>	巫妖王宝藏	</spaceName>
+		<EntityType>	SpaceCopyWuYaoWang	</EntityType>
+		<DomainType>	SpaceDomainWuYaoWang	</DomainType>
+		<script>	SpaceCopyWuYaoWang	</script>
+		<SpaceType>	SPACE_TYPE_WU_YAO_WANG_BAO_ZANG	</SpaceType>
+		<className>	fu_ben_wu_yao_wang_bao_zang	</className>
+		<dirMapping>	universes/fu_ben_wu_yao_wang_bao_zang	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canGetAccum>	1	</canGetAccum>				<!-- 允许召唤守护，打怪能获得气运 -->
+		<canConjurePet>	1	</canConjurePet>			<!-- 禁制召唤宠物-->
+		<TimeOfDay>	52200	</TimeOfDay>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<spawnFile>	config/server/spawn/fu_ben_wu_yao_wang_bao_zang.xml		</spawnFile>
+		
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

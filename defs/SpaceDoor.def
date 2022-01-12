@@ -1,0 +1,68 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Properties>
+		<useRectangle>	<!-- 标识是否使用矩形陷阱 -->
+			<Type>		BOOL		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</useRectangle>
+		<!-- 用于服务器确定能跳转的距离（无论useRectangle值为True或False），
+			所以当useRectangle为True时，必须确保此值能包括整个炬形区域（由程序内部处理）,
+			用于客户端确定能跳转的距离（当useRectangle为False）；-->
+		<radius>
+			<Type>		FLOAT		</Type>
+			<Flags>	OTHER_CLIENTS		</Flags>
+		</radius>
+		<volume>	<!-- 宽(x)、高(y)、长(z)；只在useRectangle为true时有用 -->
+			<Type>		VECTOR3		</Type>
+			<Flags>	OTHER_CLIENTS		</Flags>
+		</volume>
+		<modelNumber>
+			<Type>			STRING			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+		</modelNumber>
+		<modelScale>
+			<Type>			FLOAT				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>			1.0		</Default>
+		</modelScale>
+
+		<uname>	<!-- 传送门的名字 -->
+			<Type>		STRING		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</uname>
+		<opentime> <!--传送门开启时间段-->
+			<Type>		STRING		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</opentime>
+		<destSpace>	<!-- 目标space name -->
+			<Type>		STRING		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</destSpace>
+		<destPosition>	<!-- 目标坐标 -->
+			<Type>		VECTOR3		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</destPosition>
+		<destDirection>	<!-- 目标朝向 -->
+			<Type>		VECTOR3		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</destDirection>
+	</Properties>
+	<ClientMethods>
+		<receiverDestination>
+			<Arg>	STRING	</Arg>
+			<Arg>	POSITION	</Arg>
+		</receiverDestination>
+	</ClientMethods>
+	<CellMethods>
+		<enterDoor>
+			<Exposed/>
+		</enterDoor>
+		<requestDestination>
+			<Exposed/>
+		</requestDestination>
+	</CellMethods>
+
+</root>

@@ -1,0 +1,201 @@
+<root>
+	<Properties>
+		<!-- 当前交易状态
+		- 0	玩家无交易状态
+		- 1	交易请求状态，表示发起方请求交易,等待目标应答
+		- 2	交易等待状态，对方申请与己方交易，己方进入等待状态
+		- 3	物品交易进行状态，双方正式开始交易，此状态下可转换为宠物交易状态
+		- 4	交易锁定状态，如果任意一方改变交易内容则会自动转到状态2(影响双方)
+		- 5	宠物交易开始状态
+		- 6	宠物交易锁定状态
+		- 7	交易确认状态，此状态下仅能进行取消交易的操作，取消交易的操作仅在双方都确认前才有效
+		- 8 	交易2次确认状态，这种状态下拒绝玩家关于交易的所有操作，仅接受服务器撤销交易的操作
+		-->
+		<si_targetID>	<!-- 当前与哪个玩家进行交易 -->
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+			<Editable>		false				</Editable>
+			<Default>		0				</Default>
+			<Persistent>		false				</Persistent>
+		</si_targetID>
+
+		<si_myState>	<!-- 自己当前的交易状态 -->
+			<Type>			UINT8				</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN		</Flags>
+			<Editable>		false				</Editable>
+			<Default>		0				</Default>
+			<Persistent>		false				</Persistent>
+		</si_myState>
+
+		<si_myItem>	<!-- dict type, key is swap order, value is tuple like as [kitOrder, uid] -->
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>		false				</Persistent>
+			<Default>		dict()				</Default>
+		</si_myItem>
+		<si_myMoney>
+			<Type>			UINT32				</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+			<Editable>		false				</Editable>
+			<Default>		0				</Default>
+			<Persistent>		false				</Persistent>
+		</si_myMoney>
+
+		<si_dstItem>		<!-- 要交换的物品 -->
+			<Type>			ITEMDICT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>		false				</Persistent>
+		</si_dstItem>
+		<si_dstMoney>
+			<Type>			UINT32				</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+			<Editable>		false				</Editable>
+			<Default>		0				</Default>
+			<Persistent>		false				</Persistent>
+		</si_dstMoney>
+		<si_myPetDBID>
+			<Type>			DATABASE_ID			</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+			<Editable>		false				</Editable>
+			<Default>		0				</Default>
+			<Persistent>		false				</Persistent>
+		</si_myPetDBID>
+		<si_dstPetDBID> <!--如果以后允许交易多个宠物，这个数据可以改成对方交易宠物的数量-->
+			<Type>			DATABASE_ID			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Editable>		false				</Editable>
+			<Default>		0				</Default>
+			<Persistent>		false				</Persistent>
+		</si_dstPetDBID>
+	</Properties>
+
+	<ClientMethods>
+		<si_dstChangeItem>	<!-- 交换对像改变交易物品 -->
+			<Arg>			UINT8				</Arg>	<!-- which order to change -->
+			<Arg>			ITEM				</Arg>	<!-- itemData -->
+		</si_dstChangeItem>
+
+		<si_meChangeItem>
+			<Arg>			UINT8				</Arg>	<!-- swapOrder -->
+			<Arg>			UINT8				</Arg>	<!-- kitOrder -->
+			<Arg>			UID				</Arg>	<!-- uid -->
+		</si_meChangeItem>
+
+		<si_removeSwapItem>	<!-- 删除一个交易物品 -->
+			<Arg>			UINT8				</Arg>	<!-- 删除的交易栏位, 0 表示删除自己的栏位, 1 表示删除目标的栏位 -->
+			<Arg>			UINT8				</Arg>	<!-- which order want to remove -->
+		</si_removeSwapItem>
+
+		<si_dstStateChange>	<!-- 交换对像删除一个交易物品 -->
+			<Arg>			UINT8				</Arg>	<!-- state -->
+		</si_dstStateChange>
+
+		<si_dstChangePet>	<!-- 交易对象改变宠物 -->
+			<Arg>			PET_EPITOME			</Arg>	<!-- state -->
+		</si_dstChangePet>
+
+		<si_dstRemovePet>	<!-- 改变用于交易的宠物 -->
+			<Arg>			DATABASE_ID			</Arg>	<!-- dstBaseMailbox -->
+		</si_dstRemovePet>
+	</ClientMethods>
+
+	<CellMethods>
+		<!-- 请求与谁进行物品交换(易) -->
+		<si_requestSwapFC>
+			<Exposed/>
+			<Arg>			OBJECT_ID			</Arg>	<!-- target entityID -->
+			<Arg>			UINT8				</Arg>	<!-- 请求交易的类型 -->
+		</si_requestSwapFC>
+		<si_changeItemFC>
+			<Exposed/>
+			<Arg>			UINT8				</Arg>	<!-- which order to change -->
+			<Arg>			UINT8				</Arg>	<!-- kitOrder -->
+			<Arg>			UID				</Arg>	<!-- uid -->
+		</si_changeItemFC>
+		<si_removeItemFC>
+			<Exposed/>	<!-- 删除一个交易物品 -->
+			<Arg>			UINT8				</Arg>	<!-- which order want to remove -->
+		</si_removeItemFC>
+		<si_changeMoneyFC>
+			<Exposed/>
+			<Arg>			UINT32				</Arg>	<!-- amount -->
+		</si_changeMoneyFC>
+
+		<si_changeStateFC>
+			<Exposed/>
+			<Arg>			UINT8				</Arg>	<!-- value, 交易确认值；与si_myState意思一样；0 == 取消交易状态，2 == 交易中状态(取消确定交易), 3 == 确定交易, 4 == 再次确定交易 -->
+		</si_changeStateFC>
+		<si_tradeCancelFC>
+			<Exposed/>
+		</si_tradeCancelFC>
+		<si_changePetFC>
+			<Exposed/>
+			<Arg>			DATABASE_ID			</Arg>	<!-- petDBID -->
+		</si_changePetFC>
+		<si_removePetFC>
+			<Exposed/>
+		</si_removePetFC>
+
+		<si_onDstStateChanged>	<!-- 交易对象状态改变-->
+			<Arg>			UINT8				</Arg>	<!-- dstState -->
+			<Arg>			OBJECT_ID			</Arg>	<!-- entityID -->
+		</si_onDstStateChanged>
+		<si_dstChangeItem>	<!-- 改变/添加交易目标的交易物品-->
+			<Arg>			UINT8				</Arg>	<!-- which order to change -->
+			<Arg>			ITEM				</Arg>	<!-- itemData -->
+			<Arg>			OBJECT_ID			</Arg>	<!-- entityID -->
+		</si_dstChangeItem>
+
+		<si_removeDstItem>	<!-- 移除交易目标的交易物品-->
+			<Arg>			UINT8				</Arg>	<!-- which order to change -->
+			<Arg>			OBJECT_ID			</Arg>	<!-- entityID -->
+		</si_removeDstItem>
+
+		<si_dstChangeMoney>	<!-- 改变交易目标的money-->
+			<Arg>			UINT32				</Arg>	<!--amount-->
+			<Arg>			OBJECT_ID			</Arg>	<!-- entityID -->
+		</si_dstChangeMoney>
+
+		<si_clearSwapPet>		<!-- 宠物交易 -->
+		</si_clearSwapPet>
+
+		<si_dstChangePet>
+			<Arg>			DATABASE_ID			</Arg>	<!-- petDBID -->
+			<Arg>			OBJECT_ID			</Arg>	<!-- entityID -->
+		</si_dstChangePet>
+		<si_dstRemovePet>
+			<Arg>			OBJECT_ID			</Arg>	<!-- entityID -->
+		</si_dstRemovePet>
+		<si_trading>		<!-- 交易 -->
+		</si_trading>
+		<si_receiveUID>
+			<Arg>	INT64		</Arg>
+			<Arg>	STRING		</Arg>
+		</si_receiveUID>
+	</CellMethods>
+	<BaseMethods>
+		<si_changeMyPet>	<!-- 改变用于交易的宠物 -->
+			<Arg>			DATABASE_ID			</Arg>	<!-- petDBID -->
+			<Arg>			MAILBOX				</Arg>	<!-- dstBaseMailbox -->
+		</si_changeMyPet>
+		<si_dstChangePet>	<!-- 对方改变用于交易的宠物 -->
+			<Arg>			PET_EPITOME			</Arg>	<!-- PET_EPITOME -->
+			<Arg>			OBJECT_ID			</Arg>	<!-- entityID -->
+		</si_dstChangePet>
+		<si_petTrading>		<!-- 宠物交易 -->
+		</si_petTrading>
+		<si_removeMyPet>	<!-- 改变用于交易的宠物 -->
+			<Arg>			MAILBOX				</Arg>	<!-- dstBaseMailbox -->
+		</si_removeMyPet>
+		<si_dstRemovePet>	<!-- 对方移除交易宠物数据 -->
+			<Arg>			OBJECT_ID			</Arg>	<!-- entityID -->
+		</si_dstRemovePet>
+		<si_setTargetID>	<!-- 设置交易对象 -->
+			<Arg>			OBJECT_ID			</Arg>	<!-- entityID -->
+		</si_setTargetID>
+		<si_clearSwapPet>
+		</si_clearSwapPet>
+	</BaseMethods>
+</root>

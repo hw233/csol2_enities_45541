@@ -1,0 +1,808 @@
+<root>
+		<spaceName>	潛能副本10	</spaceName>
+		<EntityType>	SpaceCopyPotential	</EntityType>
+		<SpaceType>	SPACE_TYPE_POTENTIAL	</SpaceType>
+		<DomainType>	SpaceDomainPotential	</DomainType>
+		<script>	SpaceCopyPotential	</script>
+		<className>	fu_ben_li_hen_shan_lin_001	</className>
+		<TimeOfDay>	50400	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_li_hen_shan_lin_001	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+		<canArrest>	1	</canArrest>
+		<Space>
+			<doorPoint>
+				<pos>	150.959,11.423,99.904
+	</pos>
+				<radius>	2.600000	</radius>
+			</doorPoint>
+			<monsterPoint>
+				<item>
+					<item>
+						<pos>	114.592102,7.552733,84.868919
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	112.615768,6.669921,79.195770
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	116.048676,7.011718,79.176697
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	116.201965,7.162108,80.908806
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	115.814232,7.351562,83.075439
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	113.969421,6.664062,77.538101
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	112.307808,7.285155,84.646652
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	110.952797,6.941405,83.508102
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	110.635101,6.675780,81.465698
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	111.110054,6.558593,79.400276
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	112.189499,6.816405,81.171700
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	113.348053,7.085937,82.768555
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	114.218170,7.042968,81.493187
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	114.081108,6.832030,79.543640
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	112.265205,6.515624,77.805977
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+				</item>
+				<item>
+					<item>
+						<pos>	67.641357,2.445312,77.549194
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	69.992882,2.437500,73.773529
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	70.829704,2.619140,75.591713
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	67.543686,2.205078,73.223183
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	69.467743,2.546875,77.053360
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	67.001862,2.105468,71.859482
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	69.137939,2.277343,71.541634
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	68.229660,2.390625,75.642288
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	66.982925,2.287109,74.762367
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	65.815010,2.349609,76.397835
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	65.614128,2.392578,77.746773
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	64.875809,2.251953,75.106613
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	65.803864,2.175781,73.517365
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	64.551384,2.320312,76.721428
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	67.154510,2.496093,79.143997
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+				</item>
+				<item>
+					<item>
+						<pos>	21.069838,3.503906,70.357193
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	25.329090,2.900390,72.075150
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	22.787674,3.199218,73.203064
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	22.875887,3.232421,71.098518
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	23.863894,3.070312,72.329529
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	24.991152,2.912109,73.419823
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	23.657213,3.013671,74.701805
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	21.453842,3.439453,72.148537
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	20.041683,3.656250,71.216003
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	21.404898,3.281250,74.238197
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	20.281755,3.537109,72.790756
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	22.337875,3.046875,75.606064
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	24.550026,3.095703,70.868317
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	22.307371,3.388671,69.519974
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	23.604286,3.326171,69.325005
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+				</item>
+				<item>
+					<item>
+						<pos>	33.265598,4.896483,6.919063
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	35.442093,5.251952,5.737484
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	32.036987,4.783202,6.990562
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	30.611637,4.511718,8.191582
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	35.242226,4.935546,7.629373
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	35.181416,5.445312,4.401785
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	33.874386,5.136718,5.807110
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	33.376808,5.296874,4.584950
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	32.198692,5.060546,5.462259
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	30.681105,4.898437,5.694107
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	31.428265,5.261718,3.957539
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	32.864170,5.466796,3.173140
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	33.968407,4.689452,8.521961
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	32.364620,4.490233,8.986126
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	34.565186,5.632812,2.770208
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+				</item>
+				<item>
+					<item>
+						<pos>	61.120811,6.187499,-4.023018
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	61.648460,5.691405,-0.817307
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	59.983822,5.998046,-2.336754
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	59.373924,6.369140,-4.950706
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	60.780064,6.544921,-6.933617
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	58.841248,6.601562,-6.893181
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	62.140392,6.367187,-6.104752
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	56.893047,6.550780,-5.921043
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	58.494312,5.876952,-1.065536
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	56.312153,6.380858,-3.745331
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	58.049984,6.269530,-3.530479
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	63.715809,6.134765,-4.916435
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	63.057102,5.878905,-2.614632
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	56.664452,6.023437,-1.305695
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	60.009121,5.595702,0.466370
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+				</item>
+				<item>
+					<item>
+						<pos>	29.436642,10.671873,-38.063396
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	27.038839,10.746093,-38.978428
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	27.483980,10.642576,-37.873959
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	26.277662,10.523436,-36.698536
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	23.974979,10.498045,-36.677490
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	30.487991,10.568357,-36.845139
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	29.623167,10.287107,-34.886093
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	28.484987,10.505857,-36.387432
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	27.319424,10.371092,-35.306168
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	27.469049,10.191404,-33.855713
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	25.194399,10.308592,-34.966461
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	25.984558,10.904295,-40.463120
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	25.313820,10.759764,-39.021191
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	25.264965,10.615232,-37.647129
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+					<item>
+						<pos>	23.798864,10.712889,-38.706459
+	</pos>
+						<direction>	0,0,0
+	</direction>
+						<randomWalkRange>	3.0
+	</randomWalkRange>
+					</item>
+				</item>
+			</monsterPoint>
+			<playerEnterPoint>
+				<pos>	144.115,10.874,99.046
+	</pos>
+				<direction>	0,-100,0
+	</direction>
+			</playerEnterPoint>
+			<BossPoint>
+				<pos>	73.809761,22.070309,-74.247093
+	</pos>
+				<direction>	0,0,0	</direction>
+				<randomWalkRange>	3.0	</randomWalkRange>
+			</BossPoint>
+			<smallBossPoint>
+				<item>
+					<pos>	78.572159,22.089840,-74.173950
+	</pos>
+					<direction>	0,0,0
+	</direction>
+					<randomWalkRange>	3.0
+	</randomWalkRange>
+				</item>
+				<item>
+					<pos>	75.146004,22.117184,-69.979744
+	</pos>
+					<direction>	0,0,0
+	</direction>
+					<randomWalkRange>	3.0
+	</randomWalkRange>
+				</item>
+				<item>
+					<pos>	73.491486,22.080074,-78.687935
+	</pos>
+					<direction>	0,0,0
+	</direction>
+					<randomWalkRange>	3.0
+	</randomWalkRange>
+				</item>
+				<item>
+					<pos>	77.732666,22.117184,-78.767639
+	</pos>
+					<direction>	0,0,0
+	</direction>
+					<randomWalkRange>	3.0
+	</randomWalkRange>
+				</item>
+				<item>
+					<pos>	70.692955,21.970699,-71.357956
+	</pos>
+					<direction>	0,0,0
+	</direction>
+					<randomWalkRange>	3.0
+	</randomWalkRange>
+				</item>
+			</smallBossPoint>
+		</Space>
+</root>

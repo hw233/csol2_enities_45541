@@ -1,0 +1,22 @@
+<root>
+	<Properties>
+	</Properties>
+	<CellMethods>
+		<upgradeSkills>
+			<Exposed/>
+			<Arg>			PY_DICT			</Arg>		
+		</upgradeSkills>
+		<gm_upGradeSkLitToMax>
+			<Exposed/>
+			<Arg>			SKILLID			</Arg>		
+		</gm_upGradeSkLitToMax>
+		<gm_upGradeSkToMax>
+			<Exposed/>
+			<Arg>			SKILLID			</Arg>		
+		</gm_upGradeSkToMax>
+		<gm_removeSkill>
+			<Exposed/>
+			<Arg>			SKILLID			</Arg>		
+		</gm_removeSkill>
+	</CellMethods>
+</root>

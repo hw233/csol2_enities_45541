@@ -1,0 +1,3 @@
+# -*- coding: gb18030 -*-
+
+REPAIRCOST = "–ﬁ¿Ì∑—”√:"

@@ -1,0 +1,79 @@
+<root>
+	<Parent>		SlaveMonster			</Parent>
+	<Properties>
+		<isRideOwner>
+			<Type>			BOOL		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</isRideOwner>
+		<databaseID>
+			<Type>			DATABASE_ID		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</databaseID>
+		<factionID>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</factionID>
+		<uid>
+			<Type>			UID			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</uid>
+		<enemyForTongDart>
+			<Type>		ARRAY <of> DATABASE_ID </of>	</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</enemyForTongDart>
+	</Properties>
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<mountEntity>
+			<Exposed/>
+			<Arg>			OBJECT_ID		</Arg> <!-- 装载目标的ID -->
+			<Arg>			UINT8			</Arg> <!-- 装载位置 -->
+		</mountEntity>
+		<disMountEntity>
+			<Exposed/>
+			<Arg>			OBJECT_ID		</Arg> <!-- 装载目标的ID -->
+		</disMountEntity>
+		<onReceiveDartInfo>
+			<Arg>			STRING			</Arg> 
+			<Arg>			INT32			</Arg> 
+			<Arg>			INT32			</Arg> 
+			<Arg>			INT32			</Arg> 
+			<Arg>			INT32			</Arg> 
+			<Arg>			INT32			</Arg> 
+		</onReceiveDartInfo>
+		<sendOwnerToSelf>
+			<Arg>			MAILBOX			</Arg>
+		</sendOwnerToSelf>
+		<updateOwnerID>
+			<Arg>			OBJECT_ID		</Arg>
+		</updateOwnerID>
+		<updateOwnerBaseMailbox>
+			<Arg>			MAILBOX			</Arg>
+		</updateOwnerBaseMailbox>
+		<setDartMember>
+			<Arg>		UINT32		</Arg>
+		</setDartMember>
+	</CellMethods>
+
+	<ClientMethods>
+		<onMountEntity>
+			<Arg>			OBJECT_ID		</Arg> <!-- 装载目标的ID -->
+			<Arg>			UINT8			</Arg> <!-- 装载位置 -->
+		</onMountEntity>
+		<onDisMountEntity>
+			<Arg>			OBJECT_ID		</Arg> <!-- 装载目标的ID -->
+			<Arg>			UINT8			</Arg> <!-- 装载位置 -->
+		</onDisMountEntity>
+	</ClientMethods>
+
+</root>

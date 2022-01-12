@@ -1,0 +1,47 @@
+<root>
+        <Implements>
+                <Interface>	GameObject		</Interface>
+        </Implements>
+        <Volatile>
+		<position/>
+		<yaw/>
+	</Volatile>
+        <Properties>
+                <modelNumber>
+                        <Type>		STRING			</Type>
+                        <Flags>		ALL_CLIENTS		</Flags>
+                </modelNumber>
+                <modelScale>
+                    <Type>		FLOAT			</Type>
+                    <Flags>		ALL_CLIENTS		</Flags>
+                    <Default>		1.0		</Default>
+                </modelScale>
+                <moveSpeed>
+                    <Type>		UINT8			</Type>
+                    <Flags>		ALL_CLIENTS		</Flags>
+                    <Default>		0		</Default>
+                </moveSpeed>
+                <flagID>
+                    <Type>		UINT32			</Type>
+                    <Flags>		ALL_CLIENTS		</Flags>
+                    <Default>		0		</Default>
+                </flagID>
+                <isFall>
+                    <Type>		BOOL			</Type>
+                    <Flags>		ALL_CLIENTS		</Flags>
+                    <Default>		True		</Default>
+                </isFall>
+                <isShow>
+                    <Type>		BOOL			</Type>
+                    <Flags>		ALL_CLIENTS		</Flags>
+                    <Default>		True		</Default>
+                </isShow> 
+        </Properties>
+        <ClientMethods>
+        </ClientMethods>
+        <CellMethods>
+        </CellMethods>
+        <BaseMethods>
+        </BaseMethods>
+</root>
+

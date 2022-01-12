@@ -1,0 +1,90 @@
+<root>
+		<spaceName>	摄魂迷阵	</spaceName>
+		<EntityType>	SpaceCopyShehunmizhen	</EntityType>
+		<DomainType>	SpaceDomainCopyMapsTeam	</DomainType>
+		<shareDomain> she_hun_mi_zhen_zhen2;fu_ben_she_hun_2_1;fu_ben_she_hun_2_2;fu_ben_she_hun_2_3</shareDomain> 
+		<script>	SpaceCopyShehunmizhen	</script>
+		<SpaceType>	SPACE_TYPE_SHE_HUN_MI_ZHEN	</SpaceType>
+		<className>	she_hun_mi_zhen_zhen2	</className>
+		<dirMapping>	universes/she_hun_mi_zhen	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canGetAccum>	0	</canGetAccum>		<!-- 能召唤守护，打怪能获得气运值 -->
+		<canConjurePet>	1	</canConjurePet>	<!-- 能否召唤宠物-->
+		<TimeOfDay>	55800	</TimeOfDay>
+		<spawnFile>	config/server/spawn/she_hun_mi_zhen_zhen2.xml		</spawnFile>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<spaceLife>	  45	</spaceLife>		<!-- 副本时间（分钟） -->
+			<closeTime>	  90	</closeTime>		<!-- 战场关闭倒计时（秒） -->
+			<difficulty>  2		</difficulty><!-- 0：普通， 1：困难， 2：噩梦 -->
+			<copyBossNum> 4	</copyBossNum>
+			<copyMonsterNum> 22	</copyMonsterNum>
+			<curBossNum> 4	</curBossNum>
+			<curMonsterNum> 0	</curMonsterNum>
+			<bossID>20114019;20144099;20744042;20714034	 </bossID>
+			<spaceMapsInfos> <!-- 关联副本地图 -->
+				<item>
+					<className>	she_hun_mi_zhen_zhen2	</className> 
+					<position>	-153.6 286.0 44.1	</position>
+					<direction>	0 0 0					</direction>
+				</item>
+				<item>
+					<className>	fu_ben_she_hun_2_1	</className>
+					<position>	49.709 0.212 14.188	</position>
+					<direction>	0 0 0					</direction>
+				</item>
+				<item>
+					<className>	fu_ben_she_hun_2_2	</className>
+					<position>	49.709 0.212 14.188	</position>
+					<direction>	0 0 0					</direction>
+				</item>
+				<item>
+					<className>	fu_ben_she_hun_2_3	</className>
+					<position>	49.709 0.212 14.188	</position>
+					<direction>	0 0 0					</direction>
+				</item>
+			</spaceMapsInfos>
+			<pickMembers>	1	</pickMembers><!--是否传送队友-->
+			<deathDepth>	-90	</deathDepth>
+			<spaceDoorInfo>		<!-- 出生平台传送门配置 -->
+				<item>
+					<useRectangle>	0	</useRectangle> <!--是否是矩形传送门-->
+					<radius>	4.000000	</radius> <!--半径-->
+					<volume>	5.000000 30.000000 5.000000	</volume> <!-- 宽，高，长 -->
+					<destSpace>	fu_ben_she_hun_2_1 </destSpace> 
+					<uname>	传送到假1	</uname>
+					<destPosition>	49.709 0.212 14.188	</destPosition> 
+				</item>
+				<item>
+					<useRectangle>	0	</useRectangle> <!--是否是矩形传送门-->
+					<radius>	4.000000	</radius> <!--半径-->
+					<volume>	5.000000 30.000000 5.000000	</volume> <!-- 宽，高，长 -->
+					<destSpace>	fu_ben_she_hun_2_2 </destSpace> 
+					<uname>	传送到假2	</uname>
+					<destPosition>	49.709 0.212 14.188	</destPosition> 
+				</item>
+				<item>
+					<useRectangle>	0	</useRectangle> <!--是否是矩形传送门-->
+					<radius>	4.000000	</radius> <!--半径-->
+					<volume>	5.000000 30.000000 5.000000	</volume> <!-- 宽，高，长 -->
+					<destSpace>	fu_ben_she_hun_2_3 </destSpace> 
+					<uname>	传送到假3	</uname>
+					<destPosition>	49.709 0.212 14.188	</destPosition> 
+				</item>
+				<item>
+					<useRectangle>	0	</useRectangle> <!--是否是矩形传送门-->
+					<radius>	4.000000	</radius> <!--半径-->
+					<volume>	5.000000 30.000000 5.000000	</volume> <!-- 宽，高，长 -->
+					<destSpace>	she_hun_mi_zhen_zhen2 </destSpace> 
+					<uname>	传送到真迷阵	</uname>
+					<destPosition>	136.141 48.688 -137.232	</destPosition> 
+				</item>
+			</spaceDoorInfo>
+			<spaceDoorPos> -153.019165 286.657684 19.496367;-130.336929 286.695435 43.932854;-153.238831 286.694855 69.197754;-177.692993 286.502045 43.222767 </spaceDoorPos>	<!-- 出生平台刷新点位置 -->
+			<spaceDoorDir>0 0 0;0 0 -1.5;0 0 -3;0 0 1.5  </spaceDoorDir>	<!-- 出生平台传送门朝向 -->
+			<spaceDoorMode> gw7143,1.0;gw7143_1,1.0;gw7143_2,0.5;gw7143_3,1.0	</spaceDoorMode>		<!-- 出生平台传送门模型,模型缩放比例 -->
+		</Space>
+
+</root>

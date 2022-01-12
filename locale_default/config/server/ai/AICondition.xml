@@ -1,0 +1,1885 @@
+<root>
+	<row>
+		<id>	12	</id>
+		<name>	战斗开始后X秒内	</name>
+		<scriptName>	AIConditions:AICnd1	</scriptName>
+		<group>	1	</group>
+		<param1>	秒	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	从AI个体本身进入战斗时开始记时，X秒之内	</comment>
+	</row>
+	<row>
+		<id>	13	</id>
+		<name>	战斗开始后X秒后	</name>
+		<scriptName>	AIConditions:AICnd2	</scriptName>
+		<group>	1	</group>
+		<param1>	秒	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	从AI个体本身进入战斗时开始记时，X秒之后	</comment>
+	</row>
+	<row>
+		<id>	15	</id>
+		<name>	战斗开始后每隔X秒	</name>
+		<scriptName>	AIConditions:AICnd3	</scriptName>
+		<group>	1	</group>
+		<param1>	秒	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	从AI个体本身进入战斗时开始记时，每隔X秒	</comment>
+	</row>
+	<row>
+		<id>	16	</id>
+		<name>	战斗列表中的单位数量达到某个值	</name>
+		<scriptName>	AIConditions:AICnd4	</scriptName>
+		<group>	2	</group>
+		<param1>	单位数量	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	战斗列表中所有单位的总数量	</comment>
+	</row>
+	<row>
+		<id>	17	</id>
+		<name>	战斗列表为空	</name>
+		<scriptName>	AIConditions:AICnd5	</scriptName>
+		<group>	2	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	18	</id>
+		<name>	伤害列表中的单位数量达到某个值	</name>
+		<scriptName>	AIConditions:AICnd6	</scriptName>
+		<group>	2	</group>
+		<param1>	数量	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	伤害列表中所有单位的总数量	</comment>
+	</row>
+	<row>
+		<id>	19	</id>
+		<name>	伤害列表为空	</name>
+		<scriptName>	AIConditions:AICnd7	</scriptName>
+		<group>	2	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	20	</id>
+		<name>	治疗列表中的单位数量达到某个值	</name>
+		<scriptName>	AIConditions:AICnd8	</scriptName>
+		<group>	2	</group>
+		<param1>	数量	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	治疗列表中所有单位的总数量	</comment>
+	</row>
+	<row>
+		<id>	21	</id>
+		<name>	治疗列表为空	</name>
+		<scriptName>	AIConditions:AICnd9	</scriptName>
+		<group>	2	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	22	</id>
+		<name>	治疗列表中某个单位的治疗总量超过某值	</name>
+		<scriptName>	AIConditions:AICnd10	</scriptName>
+		<group>	2	</group>
+		<param1>	治疗值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	对自己治疗量最大的单位，其治疗量是否达到某值	</comment>
+	</row>
+	<row>
+		<id>	23	</id>
+		<name>	战斗列表中的某类职业的数量超过某个值	</name>
+		<scriptName>	AIConditions:AICnd11	</scriptName>
+		<group>	2	</group>
+		<param1>	职业类别	</param1>
+		<param2>	数量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	职业类别和对应的参数值为：
+战士 —— 16
+剑客 —— 32
+射手 —— 48
+法师 —— 64
+强防型战士（NPC专用）—— 80
+	</comment>
+	</row>
+	<row>
+		<id>	24	</id>
+		<name>	处于非战斗状态	</name>
+		<scriptName>	AIConditions:AICnd13	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	25	</id>
+		<name>	处于战斗状态	</name>
+		<scriptName>	AIConditions:AICnd14	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	26	</id>
+		<name>	处于逃跑状态(子状态)	</name>
+		<scriptName>	AIConditions:AICnd15	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	27	</id>
+		<name>	处于追击状态(子状态)	</name>
+		<scriptName>	AIConditions:AICnd16	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	28	</id>
+		<name>	处于复位状态(子状态)	</name>
+		<scriptName>	AIConditions:AICnd17	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	29	</id>
+		<name>	自身生命高于某个百分比值	</name>
+		<scriptName>	AIConditions:AICnd21	</scriptName>
+		<group>	6	</group>
+		<param1>	生值（百分比）使用整型,32%就是32	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	30	</id>
+		<name>	自身生命值低于某个百分比值	</name>
+		<scriptName>	AIConditions:AICnd22	</scriptName>
+		<group>	6	</group>
+		<param1>	生命值（百分比）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	31	</id>
+		<name>	自身存在某BUFF/DEBUFF时	</name>
+		<scriptName>	AIConditions:AICnd23	</scriptName>
+		<group>	6	</group>
+		<param1>	BUFF/DEBUFF编号	</param1>
+		<param2>	等级	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	等级为-1 表示不检查等级 只查编号	</comment>
+	</row>
+	<row>
+		<id>	33	</id>
+		<name>	自身不存在某BUFF/DEBUFF时	</name>
+		<scriptName>	AIConditions:AICnd24	</scriptName>
+		<group>	6	</group>
+		<param1>	BUFF/DEBUFF编号	</param1>
+		<param2>	等级	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	等级为-1 表示不检查等级 只查编号	</comment>
+	</row>
+	<row>
+		<id>	39	</id>
+		<name>	上一个使用的技能是某技能	</name>
+		<scriptName>	AIConditions:AICnd25	</scriptName>
+		<group>	7	</group>
+		<param1>	技能编号	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	42	</id>
+		<name>	在一定范围内没有战斗列表中的单位时	</name>
+		<scriptName>	AIConditions:AICnd26	</scriptName>
+		<group>	8	</group>
+		<param1>	范围半径（米）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	战斗列表为空时返回false。如果战斗列表不为空，只要有一个战斗列表中的对象在范围内就返回false	</comment>
+	</row>
+	<row>
+		<id>	43	</id>
+		<name>	当前目标处于一定范围内	</name>
+		<scriptName>	AIConditions:AICnd27	</scriptName>
+		<group>	8	</group>
+		<param1>	范围半径（米）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	44	</id>
+		<name>	当前目标处于一定范围之外	</name>
+		<scriptName>	AIConditions:AICnd28	</scriptName>
+		<group>	8	</group>
+		<param1>	范围半径（米）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	45	</id>
+		<name>	一定范围内的己方单位数量大于某值	</name>
+		<scriptName>	AIConditions:AICnd29	</scriptName>
+		<group>	8	</group>
+		<param1>	范围半径（米）	</param1>
+		<param2>	己方单位数量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	46	</id>
+		<name>	一定范围内的己方单位数量小于某值	</name>
+		<scriptName>	AIConditions:AICnd30	</scriptName>
+		<group>	8	</group>
+		<param1>	范围半径（米）	</param1>
+		<param2>	己方单位数量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	47	</id>
+		<name>	一定范围内的战斗列表中的单位数量大于某值	</name>
+		<scriptName>	AIConditions:AICnd31	</scriptName>
+		<group>	8	</group>
+		<param1>	范围半径（米）	</param1>
+		<param2>	单数量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	48	</id>
+		<name>	一定范围内的战斗列表中的单位数量小于某值	</name>
+		<scriptName>	AIConditions:AICnd32	</scriptName>
+		<group>	8	</group>
+		<param1>	范围半径	</param1>
+		<param2>	单位数量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	49	</id>
+		<name>	参与战斗的某一指定己方单位生命低于某值	</name>
+		<scriptName>	AIConditions:AICnd33	</scriptName>
+		<group>	9	</group>
+		<param1>	NPCMONSTER_ID	</param1>
+		<param2>	生命值（百分比）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	己方列表中只要有一个ID为param1且生命值低于param2的单位则返回True	</comment>
+	</row>
+	<row>
+		<id>	50	</id>
+		<name>	参与战斗的任意己方单位生命值低于某值	</name>
+		<scriptName>	AIConditions:AICnd34	</scriptName>
+		<group>	9	</group>
+		<param1>	生命值（百分比）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	己方列表中任一单位生命值低于param1，返回true	</comment>
+	</row>
+	<row>
+		<id>	53	</id>
+		<name>	当前目标生命值低于某个百分比值	</name>
+		<scriptName>	AIConditions:AICnd35	</scriptName>
+		<group>	11	</group>
+		<param1>	生命值（百分比）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	54	</id>
+		<name>	目标等级低于某值	</name>
+		<scriptName>	AIConditions:AICnd36	</scriptName>
+		<group>	11	</group>
+		<param1>	等级	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	55	</id>
+		<name>	目标等级高于某值	</name>
+		<scriptName>	AIConditions:AICnd37	</scriptName>
+		<group>	11	</group>
+		<param1>	等级	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	56	</id>
+		<name>	当前目标为某职业	</name>
+		<scriptName>	AIConditions:AICnd38	</scriptName>
+		<group>	11	</group>
+		<param1>	职业类别	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	57	</id>
+		<name>	当前目标存在某BUFF/DEBUFF时	</name>
+		<scriptName>	AIConditions:AICnd39	</scriptName>
+		<group>	11	</group>
+		<param1>	BUFF/DEBUFF编号	</param1>
+		<param2>	等级	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	58	</id>
+		<name>	当前目标不存在某BUFF/DEBUFF时	</name>
+		<scriptName>	AIConditions:AICnd40	</scriptName>
+		<group>	11	</group>
+		<param1>	BUFF/DEBUFF编号	</param1>
+		<param2>	等级	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	59	</id>
+		<name>	当前最终作用对象为某类型	</name>
+		<scriptName>	AIConditions:AICnd46	</scriptName>
+		<group>	11	</group>
+		<param1>	类型（怪物，宠物，Role）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	1		# 角色
+2		# NPC
+3		# 怪物
+4		# 宠物
+6		# 掉下物品
+7		# 出生点
+8		# 传送门
+9		# 传送点
+10	# 传送师
+11	# 天气系统
+12	# 任务箱子
+13	# ？
+14	# 杂物（其它没有特殊需要判断的类型都归为此类）	</comment>
+	</row>
+	<row>
+		<id>	60	</id>
+		<name>	当前目标为某类型	</name>
+		<scriptName>	AIConditions:AICnd47	</scriptName>
+		<group>	11	</group>
+		<param1>	类型（怪物，宠物，Role）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	1		# 角色
+2		# NPC
+3		# 怪物
+4		# 宠物
+6		# 掉下物品
+7		# 出生点
+8		# 传送门
+9		# 传送点
+10	# 传送师
+11	# 天气系统
+12	# 任务箱子
+13	# ？
+14	# 杂物（其它没有特殊需要判断的类型都归为此类）	</comment>
+	</row>
+	<row>
+		<id>	61	</id>
+		<name>	伤害列表增加时（事件：伤害列表被被改变）	</name>
+		<scriptName>	AIConditions:AICnd48	</scriptName>
+		<group>	2	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	增加的伤害单位是否在伤害列表中，是则通过判断	</comment>
+	</row>
+	<row>
+		<id>	62	</id>
+		<name>	当前目标正在吟唱一个法术时	</name>
+		<scriptName>	AIConditions:AICnd42	</scriptName>
+		<group>	11	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	63	</id>
+		<name>	当前目标生命值高于某个百分比值	</name>
+		<scriptName>	AIConditions:AICnd43	</scriptName>
+		<group>	11	</group>
+		<param1>	生命值（百分比）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	66	</id>
+		<name>	伤害列表中某个单位的伤害总量超过某值	</name>
+		<scriptName>	AIConditions:AICnd12	</scriptName>
+		<group>	2	</group>
+		<param1>	伤害值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	伤害列表中对我伤害最大的对象，伤害量是否达到某值	</comment>
+	</row>
+	<row>
+		<id>	67	</id>
+		<name>	AI命令是否合法	</name>
+		<scriptName>	AIConditions:AICnd44	</scriptName>
+		<group>	12	</group>
+		<param1>	NPCID列表(逗号间隔)，如果不填则表示接受任何entity的ai命令	</param1>
+		<param2>	AI命令列表 uint16(逗号间隔)	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	在事件“收到其他单位的AI信息时”，判断NPCID已确定是谁发来的什么消息	</comment>
+	</row>
+	<row>
+		<id>	70	</id>
+		<name>	脱离追击状态（子状态改变事件）	</name>
+		<scriptName>	AIConditions:AICnd18	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	上一个子状态为追击状态，而当前不处于追击状态	</comment>
+	</row>
+	<row>
+		<id>	71	</id>
+		<name>	脱离逃跑状态（子状态改变事件）	</name>
+		<scriptName>	AIConditions:AICnd19	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	上一个子状态为逃跑状态，而当前不处于逃跑状态	</comment>
+	</row>
+	<row>
+		<id>	72	</id>
+		<name>	处于死亡状态	</name>
+		<scriptName>	AIConditions:AICnd20	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	73	</id>
+		<name>	战斗列表增加时（事件：战斗列表被被改变）	</name>
+		<scriptName>	AIConditions:AICnd45	</scriptName>
+		<group>	2	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	增加的战斗单位是否在战斗列表中，是则通过判断	</comment>
+	</row>
+	<row>
+		<id>	74	</id>
+		<name>	当前目标不是某职业时	</name>
+		<scriptName>	AIConditions:AICnd41	</scriptName>
+		<group>	11	</group>
+		<param1>	职业类别	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	75	</id>
+		<name>	指定技能可对当前目标使用	</name>
+		<scriptName>	AIConditions:AICnd49	</scriptName>
+		<group>	7	</group>
+		<param1>	SKILL_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	76	</id>
+		<name>	指定自身等级技能可对当前目标使用	</name>
+		<scriptName>	AIConditions:AICnd50	</scriptName>
+		<group>	7	</group>
+		<param1>	技能未展开编号	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	参数中的技能指未展开的技能ID，需要配上该NPC的等级成为展开后的技能ID。
+如：NPC等级为32，技能ID为123456，需要判断的技能ID应为123456032	</comment>
+	</row>
+	<row>
+		<id>	77	</id>
+		<name>	检测嘲讽施放者有效性	</name>
+		<scriptName>	AIConditions:AICnd51	</scriptName>
+		<group>	11	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	检查对我使用嘲讽技能的目标 当前的有效性（可否对其攻击）	</comment>
+	</row>
+	<row>
+		<id>	78	</id>
+		<name>	脱离重置状态(子状态)	</name>
+		<scriptName>	AIConditions:AICnd52	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	上一个子状态为重置状态，而当前不处于重置状态	</comment>
+	</row>
+	<row>
+		<id>	79	</id>
+		<name>	某记录时间是否到达	</name>
+		<scriptName>	AIConditions:AICnd53	</scriptName>
+		<group>	1	</group>
+		<param1>	记录标签名	</param1>
+		<param2>	到达X秒	</param2>
+		<param3>	第0次是否返回为假	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	主要用于一些时间查询等操作：
+如 一段时间内 NPC没有做什么就怎么样。
+
+要实现这个当然还需要配合一个相关动作：
+”记录当前时间“   参数是和该标签名一样的
+
+
+param3:是否和未初始化值计算
+如果你计划设置了一个标签去存储时间， 当这个标签还未被写入的时候 也就是说你未初始化一个时间到你的标签里， 这个时候默认值为0，  当条件
+某记录时间是否到达   被判断的时候 如果这个参数设置为1他就会用当前时间和这个0做计算得到时间差， 否则发现未被初始化时 则返回时间未到达， 做这个参数的原因是 某些功能可能希望未被初始化的时候不去响应， 某些功能可能希望 未被初始化时间时 默认当作时间到达.	</comment>
+	</row>
+	<row>
+		<id>	80	</id>
+		<name>	NPC拥有者与NPC之间距离是否小等于某值	</name>
+		<scriptName>	AIConditions:AICnd54	</scriptName>
+		<group>	30	</group>
+		<param1>	半径大小	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	这里指所有权拥有者	</comment>
+	</row>
+	<row>
+		<id>	81	</id>
+		<name>	NPC拥有者与NPC之间距离是否大等于某值	</name>
+		<scriptName>	AIConditions:AICnd55	</scriptName>
+		<group>	30	</group>
+		<param1>	半径大小	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	82	</id>
+		<name>	NPC是否到达指定范围内	</name>
+		<scriptName>	AIConditions:AICnd56	</scriptName>
+		<group>	30	</group>
+		<param1>	POSITION_TYPE	</param1>
+		<param2>	半径	</param2>
+		<param3>	地图名称	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	83	</id>
+		<name>	NPC是否未到达指定范围	</name>
+		<scriptName>	AIConditions:AICnd57	</scriptName>
+		<group>	30	</group>
+		<param1>	POSITION_TYPE	</param1>
+		<param2>	半径	</param2>
+		<param3>	地图名称	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	84	</id>
+		<name>	检测NPC是否可以变成Monster	</name>
+		<scriptName>	AIConditions:AICnd58	</scriptName>
+		<group>	30	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	当entity的是NPC时条件成立	</comment>
+	</row>
+	<row>
+		<id>	85	</id>
+		<name>	从属怪物和主人大于某一设定距离	</name>
+		<scriptName>	AIConditions:AICnd59	</scriptName>
+		<group>	31	</group>
+		<param1>	距离	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	86	</id>
+		<name>	从属怪物和主人小于某一设定距离	</name>
+		<scriptName>	AIConditions:AICnd60	</scriptName>
+		<group>	31	</group>
+		<param1>	距离	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	87	</id>
+		<name>	从属怪物找不到主人	</name>
+		<scriptName>	AIConditions:AICnd61	</scriptName>
+		<group>	31	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	从属怪物找不到主人	</comment>
+	</row>
+	<row>
+		<id>	88	</id>
+		<name>	处于休闲状态	</name>
+		<scriptName>	AIConditions:AICnd62	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	89	</id>
+		<name>	从属怪物和主人不在一个空间中	</name>
+		<scriptName>	AIConditions:AICnd63	</scriptName>
+		<group>	31	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	90	</id>
+		<name>	主人进入战斗状态	</name>
+		<scriptName>	AIConditions:AICnd64	</scriptName>
+		<group>	31	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	91	</id>
+		<name>	和主人失去联系大于某一个设定时间	</name>
+		<scriptName>	AIConditions:AICnd65	</scriptName>
+		<group>	31	</group>
+		<param1>	时间	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	92	</id>
+		<name>	任务完成	</name>
+		<scriptName>	AIConditions:AICnd66	</scriptName>
+		<group>	30	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	运镖任务完成	</comment>
+	</row>
+	<row>
+		<id>	93	</id>
+		<name>	(城战AI)进入视野的玩家是否为敌对帮会	</name>
+		<scriptName>	AIConditions:AICnd67	</scriptName>
+		<group>	12	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	94	</id>
+		<name>	记录某个时间段完成某事情	</name>
+		<scriptName>	AIConditions:AICnd68	</scriptName>
+		<group>	1	</group>
+		<param1>	对象的临时key	</param1>
+		<param2>	间隔时间	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	每隔一段时间做某事
+需要事先执行动作“记录当前时间”，当间隔时间（param2表示间隔时间）到来时，判断通过，并重新记录当前时间，记录的key值为param1	</comment>
+	</row>
+	<row>
+		<id>	95	</id>
+		<name>	镖车能否找到运镖者	</name>
+		<scriptName>	AIConditions:AICnd69	</scriptName>
+		<group>	31	</group>
+		<param1>	与运镖者距离	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	镖车能否找到运镖者	</comment>
+	</row>
+	<row>
+		<id>	96	</id>
+		<name>	NPC拥有者的某任务的某TASK是否未完成	</name>
+		<scriptName>	AIConditions:AICnd70	</scriptName>
+		<group>	30	</group>
+		<param1>	任务ID	</param1>
+		<param2>	任务目标索引	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	例如：NPC死亡时通知拥有者某个任务失败	</comment>
+	</row>
+	<row>
+		<id>	97	</id>
+		<name>	NPC的拥有者是否被杀死了或者下线了	</name>
+		<scriptName>	AIConditions:AICnd71	</scriptName>
+		<group>	12	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	这里的拥有者指NPC所有权拥有者	</comment>
+	</row>
+	<row>
+		<id>	98	</id>
+		<name>	自身等级在指定范围内	</name>
+		<scriptName>	AIConditions:AICnd72	</scriptName>
+		<group>	6	</group>
+		<param1>	等级下限	</param1>
+		<param2>	等级上限	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	判断自身等级是否在指定的等级上下限范围中（包括上下限）。	</comment>
+	</row>
+	<row>
+		<id>	99	</id>
+		<name>	是否处于某状态下达到某时间	</name>
+		<scriptName>	AIConditions:AICnd73	</scriptName>
+		<group>	12	</group>
+		<param1>	处于某状态下	</param1>
+		<param2>	多长时间	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	100	</id>
+		<name>	水晶存活时间	</name>
+		<scriptName>	AIConditions:AICnd74	</scriptName>
+		<group>	12	</group>
+		<param1>	存活时间值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	第一次执行判断的时候记录当前时间为存活起始时间，之后判断时用当前时间减去起始时间，大于param1则返回True	</comment>
+	</row>
+	<row>
+		<id>	101	</id>
+		<name>	怪物血量少于某百分比	</name>
+		<scriptName>	AIConditions:AICnd75	</scriptName>
+		<group>	12	</group>
+		<param1>	百分比(浮点值)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	102	</id>
+		<name>	是否大于NPC发言后一定时间	</name>
+		<scriptName>	AIConditions:AICnd76	</scriptName>
+		<group>	1	</group>
+		<param1>	间隔时间	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	是否大于NPC发言后一定时间	</comment>
+	</row>
+	<row>
+		<id>	103	</id>
+		<name>	是否存在某标记	</name>
+		<scriptName>	AIConditions:AICnd77	</scriptName>
+		<group>	12	</group>
+		<param1>	标记名称	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	存在某标记条件成立，这里的标记是一个以字符串（param1）为key值的变量	</comment>
+	</row>
+	<row>
+		<id>	104	</id>
+		<name>	一定范围内是否有特定类型的怪物	</name>
+		<scriptName>	AIConditions:AICnd78	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	怪物id	</param2>
+		<param3>	怪物类型EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	一定范围内是否有(某一个)特定类型的怪物
+可增加多个，用“|”间隔，多个怪物是“或”的关系
+当填写多个的时候只要有一个怪物存在条件即为真	</comment>
+	</row>
+	<row>
+		<id>	105	</id>
+		<name>	一定范围内特定类型的怪物，血量是否在特定范围内	</name>
+		<scriptName>	AIConditions:AICnd79	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	怪物id	</param2>
+		<param3>	血量范围值(10:80)	</param3>
+		<param4>	怪物类型EntityType	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	一定范围内特定类型的怪物，血量是否在特定范围内
+参数三为血量范围（最小：最大）	</comment>
+	</row>
+	<row>
+		<id>	106	</id>
+		<name>	指定范围内是否有pk值大于某数的玩家	</name>
+		<scriptName>	AIConditions:AICnd80	</scriptName>
+		<group>	12	</group>
+		<param1>	搜索半径	</param1>
+		<param2>	搜索pk值在多少以上	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	107	</id>
+		<name>	指定技能可对自身使用	</name>
+		<scriptName>	AIConditions:AICnd81	</scriptName>
+		<group>	7	</group>
+		<param1>	SKILL_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	把技能的使用分为对当前目标和对自身两个部分。	</comment>
+	</row>
+	<row>
+		<id>	108	</id>
+		<name>	指定自身等级技能可对自身使用	</name>
+		<scriptName>	AIConditions:AICnd82	</scriptName>
+		<group>	7	</group>
+		<param1>	技能未展开编号	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	把等级技能使用区分来 对自身和当前目标	</comment>
+	</row>
+	<row>
+		<id>	110	</id>
+		<name>	不存在某标记时	</name>
+		<scriptName>	AIConditions:AICnd83	</scriptName>
+		<group>	12	</group>
+		<param1>	标记名称	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	不存在某标记时返回True，与103相反	</comment>
+	</row>
+	<row>
+		<id>	111	</id>
+		<name>	（城战AI）进入视野的entity是否为战场塔楼	</name>
+		<scriptName>	AIConditions:AICnd84	</scriptName>
+		<group>	12	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	城战专用	</comment>
+	</row>
+	<row>
+		<id>	112	</id>
+		<name>	当范围内有某类型的怪物	</name>
+		<scriptName>	AIConditions:AICnd85	</scriptName>
+		<group>	12	</group>
+		<param1>	搜索半径	</param1>
+		<param2>	怪物类型EntityType	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	param2的值可以为：
+”Monster“
+”Role“
+”NPC“
+.....
+	</comment>
+	</row>
+	<row>
+		<id>	113	</id>
+		<name>	当范围内没有某类型的怪物	</name>
+		<scriptName>	AIConditions:AICnd86	</scriptName>
+		<group>	12	</group>
+		<param1>	搜索半径	</param1>
+		<param2>	怪物类型EntityType	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	114	</id>
+		<name>	一定范围内没有某些特定类型的怪物	</name>
+		<scriptName>	AIConditions:AICnd87	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	className(使用 | 分隔)	</param2>
+		<param3>	怪物EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	一定范围内是否没有特定类型的怪物
+可增加多个，用“|”间隔，多个怪物是“与”的关系
+当填写多个的时候所有填写的怪物都不存在条件即为真	</comment>
+	</row>
+	<row>
+		<id>	115	</id>
+		<name>	战斗列表中有某className的怪物	</name>
+		<scriptName>	AIConditions:AICnd88	</scriptName>
+		<group>	12	</group>
+		<param1>	NPCMONSTER_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	116	</id>
+		<name>	一定范围内是否有特定类型的有特定buff的entity	</name>
+		<scriptName>	AIConditions:AICnd89	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	117	</id>
+		<name>	一定范围内是否没有特定类型的有特定buff的entity	</name>
+		<scriptName>	AIConditions:AICnd90	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	118	</id>
+		<name>	一定范围内是否有特定类型的entity	</name>
+		<scriptName>	AIConditions:AICnd91	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	EntityType	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	119	</id>
+		<name>	一定范围内是否没有特定类型的entity	</name>
+		<scriptName>	AIConditions:AICnd92	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	EntityType	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	120	</id>
+		<name>	一定范围内有特定类型的特定className的有特定buff的entity	</name>
+		<scriptName>	AIConditions:AICnd93	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType	</param3>
+		<param4>	className	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	121	</id>
+		<name>	一定范围内没有特定类型的特定className的有特定buff的entity	</name>
+		<scriptName>	AIConditions:AICnd94	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType	</param3>
+		<param4>	className	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	122	</id>
+		<name>	血量减少值大于%时（要配合动作中的记录当前血量一起使用）	</name>
+		<scriptName>	AIConditions:AICnd95	</scriptName>
+		<group>	12	</group>
+		<param1>	变化值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	123	</id>
+		<name>	对方是否是兔子	</name>
+		<scriptName>	AIConditions:AICnd96	</scriptName>
+		<group>	12	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	小兔快跑专用，当目标有变身为兔子的buff时条件成立	</comment>
+	</row>
+	<row>
+		<id>	124	</id>
+		<name>	指定怪物不处于死亡状态	</name>
+		<scriptName>	AIConditions:AICnd97	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	EntityType	</param2>
+		<param3>	className	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	在指定范围内找得到一个className为param2且不处于死亡状态的entity	</comment>
+	</row>
+	<row>
+		<id>	125	</id>
+		<name>	是否不具有某个标志位	</name>
+		<scriptName>	AIConditions:AICnd98	</scriptName>
+		<group>	12	</group>
+		<param1>	标志位	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	126	</id>
+		<name>	由某状态切换到特定状态	</name>
+		<scriptName>	AIConditions:AICnd99	</scriptName>
+		<group>	12	</group>
+		<param1>	老状态	</param1>
+		<param2>	新状态	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	127	</id>
+		<name>	每隔一定时间检测周围有多少运镖的玩家	</name>
+		<scriptName>	AIConditions:AICnd100	</scriptName>
+		<group>	31	</group>
+		<param1>	为玩家与镖车的最大距离（米）	</param1>
+		<param2>	为离开镖车最大时间（秒）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	每隔一定时间检测周围有多少运镖的玩家，对于持续离开运镖队伍一定时间的玩家，任务直接让其失败	</comment>
+	</row>
+	<row>
+		<id>	128	</id>
+		<name>	自身存在战利品拥有者	</name>
+		<scriptName>	AIConditions:AICnd101	</scriptName>
+		<group>	12	</group>
+		<param1>	不需要填任何参数，只作为判断是否拥有权的条件	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	129	</id>
+		<name>	entity是否处于某些地图	</name>
+		<scriptName>	AIConditions:AICnd102	</scriptName>
+		<group>	12	</group>
+		<param1>	空间配置的className，如果多个空间则用&quot;;&quot;隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	判断entity当前所在的地图是否包括在param1指定的地图中	</comment>
+	</row>
+	<row>
+		<id>	130	</id>
+		<name>	从属怪物和主人间大于某一距离( 找不到主人返回True )	</name>
+		<scriptName>	AIConditions:AICnd103	</scriptName>
+		<group>	31	</group>
+		<param1>	距离	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	131	</id>
+		<name>	在一定范围内有特定类型且没有特定BUFF的entity	</name>
+		<scriptName>	AIConditions:AICnd104
+	</scriptName>
+		<group>	12	</group>
+		<param1>	范围	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType
+	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	132	</id>
+		<name>	怪物和攻击目标的距离是不是大于指定值	</name>
+		<scriptName>	AIConditions:AICnd105	</scriptName>
+		<group>	12	</group>
+		<param1>	distance(距离：整数)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	133	</id>
+		<name>	怪物和攻击目标的距离是不是小于指定值	</name>
+		<scriptName>	AIConditions:AICnd106	</scriptName>
+		<group>	12	</group>
+		<param1>	distance(距离：整数)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	134	</id>
+		<name>	判断一定范围内特定className的怪物数量是否满足特定的数量关系	</name>
+		<scriptName>	AIConditions:AICnd107	</scriptName>
+		<group>	30	</group>
+		<param1>	范围	</param1>
+		<param2>	NPCMONSTER_ID	</param2>
+		<param3>	怪物数量	</param3>
+		<param4>	关系符号(必须填数字，0代表‘=’，1代表‘&lt;’,2代表‘&gt;’)	</param4>
+		<param5>	EntityType	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	param4：
+           0代表“=”
+           1代表“&lt;”
+           2代表“&gt;”
+
+一定范围内某类型的className为某值的entity数量是否等于（大于或小于）某数量	</comment>
+	</row>
+	<row>
+		<id>	135	</id>
+		<name>	是否没有到达AI要去的位置的一定范围	</name>
+		<scriptName>	AIConditions:AICnd108	</scriptName>
+		<group>	12	</group>
+		<param1>	距离（浮点数）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	需要事先用AI动作203或204记录下要去的位置。	</comment>
+	</row>
+	<row>
+		<id>	136	</id>
+		<name>	是否达到和攻击目标在x轴大于一定距离的位置	</name>
+		<scriptName>	AIConditions:AICnd109	</scriptName>
+		<group>	12	</group>
+		<param1>	距离（浮点数）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	137	</id>
+		<name>	是否达到和攻击目标在z轴大于一定距离的位置	</name>
+		<scriptName>	AIConditions:AICnd110	</scriptName>
+		<group>	12	</group>
+		<param1>	距离（浮点数）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	138	</id>
+		<name>	队长是否不存在	</name>
+		<scriptName>	AIConditions:AICnd111	</scriptName>
+		<group>	12	</group>
+		<param1>	范围（浮点数）	</param1>
+		<param2>	队长标记（字符）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	需要配合动作AIAction201、AIAction202使用	</comment>
+	</row>
+	<row>
+		<id>	139	</id>
+		<name>	怪物自身是队长	</name>
+		<scriptName>	AIConditions:AICnd112	</scriptName>
+		<group>	12	</group>
+		<param1>	队长标记（字符串）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	通过AIAction201可以将自己设置为队长	</comment>
+	</row>
+	<row>
+		<id>	140	</id>
+		<name>	是否在攻击目标的左右一定范围外	</name>
+		<scriptName>	AIConditions:AICnd113	</scriptName>
+		<group>	12	</group>
+		<param1>	水平距离（浮点数）	</param1>
+		<param2>	范围（浮点数）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	141	</id>
+		<name>	判断NPC的拥有者的状态（使用于任务怪NPC）	</name>
+		<scriptName>	AIConditions:AICnd114	</scriptName>
+		<group>	30	</group>
+		<param1>	NPC拥有者的状态	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	本条AI条件只有在执行“与任务怪NPC的对话FuncQuestNPCMonster”这条对话后，才有效。
+参数1可填参数：
+0 # 自由状态
+1 # 死亡状态
+2 # 休息状态
+3 # 战斗状态
+4 # 未决状态
+5 # 挂起状态(中断交互并隐藏模型)
+6 # 摆摊状态
+7 # 比赛状态（例如：赛马）
+8 # 变身状态（如：钓鱼，变身大赛等）
+9 # 问答状态
+10 # 跳舞状态
+11 # 邀请跳舞状态
+12 # 双人跳舞状态(区分ENTITY_STATE_DANCE，为了客户端播放动作)
+13 # 场景物件状态 	</comment>
+	</row>
+	<row>
+		<id>	142	</id>
+		<name>	判断当前巡逻路线是否已经准备好	</name>
+		<scriptName>	AIConditions:AICnd115	</scriptName>
+		<group>	12	</group>
+		<param1>	巡逻路径的首个路点id（可选）	</param1>
+		<param2>	巡逻路径id（可选）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	巡逻路径没准备好会巡逻失败	</comment>
+	</row>
+	<row>
+		<id>	144	</id>
+		<name>	判断NPC的战利品拥有者的状态(使用于非ConvoyMonster类型的任务怪NPC)	</name>
+		<scriptName>	AIConditions:AICnd116	</scriptName>
+		<group>	30	</group>
+		<param1>	NPC拥有者的状态	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	用于判断NPC的战利品拥有者的状态
+参数1可填参数：
+0 # 自由状态
+1 # 死亡状态
+2 # 休息状态
+3 # 战斗状态
+4 # 未决状态
+5 # 挂起状态(中断交互并隐藏模型)
+6 # 摆摊状态
+7 # 比赛状态（例如：赛马）
+8 # 变身状态（如：钓鱼，变身大赛等）
+9 # 问答状态
+10 # 跳舞状态
+11 # 邀请跳舞状态
+12 # 双人跳舞状态(区分ENTITY_STATE_DANCE，为了客户端播放动作)
+13 # 场景物件状态 	</comment>
+	</row>
+	<row>
+		<id>	145	</id>
+		<name>	判断上一拨同classname并且具有相同的战利品拥有者的怪物是否全部死亡	</name>
+		<scriptName>	AIConditions:AICnd117	</scriptName>
+		<group>	30	</group>
+		<param1>	范围	</param1>
+		<param2>	NPCMONSTER_ID	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	范围内特定className且与自身战利品拥有者相同的entity都死亡了，条件成立	</comment>
+	</row>
+	<row>
+		<id>	146	</id>
+		<name>	拥有者（即主人）是否为某状态	</name>
+		<scriptName>	AIConditions:AICnd118	</scriptName>
+		<group>	31	</group>
+		<param1>	主人的状态	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	用于判断NPC主人的状态
+参数1可填参数：
+0 # 自由状态
+1 # 死亡状态
+2 # 休息状态
+3 # 战斗状态
+4 # 未决状态
+5 # 挂起状态(中断交互并隐藏模型)
+6 # 摆摊状态
+7 # 比赛状态（例如：赛马）
+8 # 变身状态（如：钓鱼，变身大赛等）
+9 # 问答状态
+10 # 跳舞状态
+11 # 邀请跳舞状态
+12 # 双人跳舞状态(区分ENTITY_STATE_DANCE，为了客户端播放动作)
+13 # 场景物件状态 	</comment>
+	</row>
+	<row>
+		<id>	147	</id>
+		<name>	NPC是否有拥有者	</name>
+		<scriptName>	AIConditions:AICnd119	</scriptName>
+		<group>	31	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	限定于有主人的怪物使用	</comment>
+	</row>
+	<row>
+		<id>	148	</id>
+		<name>	一定范围内某一阵营的NPC数量小于某值	</name>
+		<scriptName>	AIConditions:AICnd120	</scriptName>
+		<group>	8	</group>
+		<param1>	范围半径	</param1>
+		<param2>	阵营	</param2>
+		<param3>	数量	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	149	</id>
+		<name>	一定范围内某一阵营的NPC数量大于某值	</name>
+		<scriptName>	AIConditions:AICnd121	</scriptName>
+		<group>	8	</group>
+		<param1>	范围半径	</param1>
+		<param2>	阵营	</param2>
+		<param3>	数量	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	150	</id>
+		<name>	伤害列表中是否有特定类型的className的entity	</name>
+		<scriptName>	AIConditions:AICnd122	</scriptName>
+		<group>	2	</group>
+		<param1>	怪物类型	</param1>
+		<param2>	NPCMONSTER_ID	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	如果参数2className为空则,只需满足该Entity类型	</comment>
+	</row>
+	<row>
+		<id>	151	</id>
+		<name>	当前副本进行是否大于等于X秒	</name>
+		<scriptName>	AIConditions:AICnd123	</scriptName>
+		<group>	1	</group>
+		<param1>	时间（秒）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	152	</id>
+		<name>	当前副本进行是否小于X秒	</name>
+		<scriptName>	AIConditions:AICnd124	</scriptName>
+		<group>	1	</group>
+		<param1>	时间（秒）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	153	</id>
+		<name>	是否有任务跟随者	</name>
+		<scriptName>	AIConditions:AICnd125	</scriptName>
+		<group>	30	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	配合对话设置任务跟随者使用	</comment>
+	</row>
+	<row>
+		<id>	154	</id>
+		<name>	检查是否到达某条巡逻路线离怪物自身位置最近的巡逻点的XZ平面一定范围内	</name>
+		<scriptName>	AIConditions:AICnd126	</scriptName>
+		<group>	8	</group>
+		<param1>	巡逻路径id	</param1>
+		<param2>	范围	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	检查是否到达某条巡逻路线离怪物自身位置最近的巡逻点的XZ平面一定范围内
+参数1：巡逻路径id，字符串型
+参数2：范围，怪物自身位置与最近巡逻点之间的xz平面距离范围	</comment>
+	</row>
+	<row>
+		<id>	155	</id>
+		<name>	ai目标是否是pk值大于某数的玩家	</name>
+		<scriptName>	AIConditions:AICnd127	</scriptName>
+		<group>	12	</group>
+		<param1>	pk值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	ai目标是否是pk值大于某数的玩家	</comment>
+	</row>
+	<row>
+		<id>	156	</id>
+		<name>	一定范围内，是否有其他相同className的怪物当前的目标和自身的目标(targetID)一致	</name>
+		<scriptName>	AIConditions:AICnd128	</scriptName>
+		<group>	12	</group>
+		<param1>	多大范围	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	一定范围内，是否有其他相同className的怪物当前的目标和自身的目标(targetID)一致
+	</comment>
+	</row>
+	<row>
+		<id>	157	</id>
+		<name>	一定范围内，相同className的怪物,是否只有我的目标(targetID)是这个entitiy(可以是玩家) 	</name>
+		<scriptName>	AIConditions:AICnd129	</scriptName>
+		<group>	12	</group>
+		<param1>	多大范围	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	一定范围内，相同className的怪物,是否只有我的目标(targetID)是这个entitiy(可以是玩家) 
+	</comment>
+	</row>
+	<row>
+		<id>	158	</id>
+		<name>	查询怪物的某个临时属性是否等于某个值	</name>
+		<scriptName>	AIConditions:AICnd130	</scriptName>
+		<group>	12	</group>
+		<param1>	怪物的临时属性	</param1>
+		<param2>	临时属性的值是否大于某个值	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	查询怪物的某个临时属性是否等于某个值
+
+等于某个值返回True，否则返回False	</comment>
+	</row>
+	<row>
+		<id>	159	</id>
+		<name>	是否开启了相应的阵营活动	</name>
+		<scriptName>	AIConditions:AICnd131	</scriptName>
+		<group>	12	</group>
+		<param1>	阵营活动类型，可填多项用分号隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	活动类型说明：
+1		# 破坏据点
+2		# 获得积分
+3		# 击杀Boss
+4		# 攻占据点
+5		# 拦截支援部队
+6		# 小攻防
+7		# 全面战争
+	</comment>
+	</row>
+	<row>
+		<id>	160	</id>
+		<name>	是否没有开启相应的阵营活动 	</name>
+		<scriptName>	AIConditions:AICnd132	</scriptName>
+		<group>	12	</group>
+		<param1>	阵营活动类型，可填多项，用分号隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	活动类型说明：
+1		# 破坏据点
+2		# 获得积分
+3		# 击杀Boss
+4		# 攻占据点
+5		# 拦截支援部队
+6		# 小攻防
+7		# 全面战争
+	</comment>
+	</row>
+	<row>
+		<id>	161	</id>
+		<name>	是否处于指定时间（段）	</name>
+		<scriptName>	AIConditions:AICnd133	</scriptName>
+		<group>	1	</group>
+		<param1>	时间(分 时 日 月 周，如 0 9 * * *)	</param1>
+		<param2>	持续时间(单位秒)	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	参数1与活动日程表里面配的时间格式一样，如 0 9 * * * 每天的9点0分。参数2持续时间表示从参数1指定的时间开始，多长时间内，单位为秒	</comment>
+	</row>
+	<row>
+		<id>	162	</id>
+		<name>	当前目标是否在某阵营列表中	</name>
+		<scriptName>	AIConditions:AICnd134	</scriptName>
+		<group>	11	</group>
+		<param1>	阵营，可填多项，用分号隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	判断当前目标是否在某阵营列表中，在则返回True，否则返回False	</comment>
+	</row>
+	<row>
+		<id>	163	</id>
+		<name>	AI对象对某任务的进行状态是否处于指定的任务状态列表中	</name>
+		<scriptName>	AIConditions:AICnd135	</scriptName>
+		<group>	30	</group>
+		<param1>	任务ID	</param1>
+		<param2>	任务状态列表	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	使用这个条件要现有AI 对象。
+
+AI对象对某任务的进行状态是否处于指定的任务状态列表中，是则返回 True， 否则False。
+	</comment>
+	</row>
+</root>

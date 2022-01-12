@@ -1,0 +1,118 @@
+<root>
+	<effect>
+		<id>	1	</id>
+		<scale>	1.0	</scale>
+		<duration>	0.0	</duration>
+		<description>	forward	</description>
+		<particles>
+			<item>
+				<source>	particles/gw2164_yuji2.xml	</source>
+				<hard_points>	HP_sfx3	</hard_points>
+			</item>
+			<item>
+				<source>	particles/gw2164_yuji3.xml	</source>
+				<hard_points>	HP_sfx4	</hard_points>
+			</item>
+			<item>
+				<source>	particles/gw2164_yuji1.xml	</source>
+				<hard_points>	HP_sfx1 HP_sfx2	</hard_points>
+			</item>
+		</particles>
+	</effect>
+	<effect>
+		<id>	2	</id>
+		<scale>	1.0	</scale>
+		<duration>	0.0	</duration>
+		<description>	turn	</description>
+		<particles>
+			<item>
+				<source>	particles/gw2164_zhuanwan2.xml	</source>
+				<hard_points>	HP_sfx3	</hard_points>
+			</item>
+			<item>
+				<source>	particles/gw2164_zhuanwan3.xml	</source>
+				<hard_points>	HP_sfx4	</hard_points>
+			</item>
+			<item>
+				<source>	particles/gw2164_zhuanwan1.xml	</source>
+				<hard_points>	HP_sfx1 HP_sfx2	</hard_points>
+			</item>
+		</particles>
+	</effect>
+	<effect>
+		<id>	3	</id>
+		<scale>	1.0	</scale>
+		<duration>	0.0	</duration>
+		<description>	forward	</description>
+		<particles>
+			<item>
+				<source>	particles/gw2166_yuji3.xml	</source>
+				<hard_points>	HP_sfx1	</hard_points>
+			</item>
+			<item>
+				<source>	particles/gw2166_yuji2.xml	</source>
+				<hard_points>	HP_sfx5	</hard_points>
+			</item>
+			<item>
+				<source>	particles/gw2166_yuji1.xml	</source>
+				<hard_points>	HP_sfx3 HP_sfx4	</hard_points>
+			</item>
+		</particles>
+	</effect>
+	<effect>
+		<id>	4	</id>
+		<scale>	1.0	</scale>
+		<duration>	0.0	</duration>
+		<description>	turn	</description>
+		<particles>
+			<item>
+				<source>	particles/gw2166_zhuanwan3.xml	</source>
+				<hard_points>	HP_sfx1	</hard_points>
+			</item>
+			<item>
+				<source>	particles/gw2166_zhuanwan2.xml	</source>
+				<hard_points>	HP_sfx5	</hard_points>
+			</item>
+			<item>
+				<source>	particles/gw2166_zhuanwan1.xml	</source>
+				<hard_points>	HP_sfx3 HP_sfx4	</hard_points>
+			</item>
+		</particles>
+	</effect>
+	<effect>
+		<id>	5	</id>
+		<scale>	1.0	</scale>
+		<duration>	1.0	</duration>
+		<description>	fire	</description>
+		<particles>
+			<item>
+				<source>	particles/buyu_paotaikaipao.xml	</source>
+				<hard_points>	HP_sfx1	</hard_points>
+			</item>
+		</particles>
+	</effect>
+	<effect>
+		<id>	6	</id>
+		<scale>	1.0	</scale>
+		<duration>	0.0	</duration>
+		<description>	forward	</description>
+		<particles>
+			<item>
+				<source>	particles/buyu_paodantuowei.xml	</source>
+				<hard_points>	HP_sfx1	</hard_points>
+			</item>
+		</particles>
+	</effect>
+	<effect>
+		<id>	7	</id>
+		<scale>	1.0	</scale>
+		<duration>	0.0	</duration>
+		<description>	forward	</description>
+		<particles>
+			<item>
+				<source>	particles/buyu_jinyuanbao.xml	</source>
+				<hard_points>	HP_sfx1	</hard_points>
+			</item>
+		</particles>
+	</effect>
+</root>

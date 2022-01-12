@@ -1,0 +1,20 @@
+<root>
+	<spaceName>	日光浴海滩	</spaceName>
+	<EntityType>SpaceCopySunBath</EntityType>
+	<DomainType>SpaceDomain</DomainType>
+	<script>SpaceSunBath</script>
+	<SpaceType>	SPACE_TYPE_SUN_BATHING	</SpaceType>
+	<className>	fu_ben_ri_guang_yu	</className>
+	<dirMapping> universes/fu_ben_ri_guang_yu </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<TimeOfDay>	48600	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_ri_guang_yu.xml	</spawnFile>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<spellNum>		20			</spellNum>	<!-->每次刷新贝壳数量<-->
+	<removeItems>	  60101013|60101014|60101015|60101016|60101017|60101018|60101019|60101020	</removeItems>	<!-->需要没收的物品列表<-->
+	<spellBuffIDs>	022006|022007|022105|022106|108003|106001|022110|022111|022112|022113|022114|022115|022116	</spellBuffIDs>	<!-->出日光浴地图后，需要删除的buff的id编号<-->
+		<deathDepth>	-90	</deathDepth>
+	<Space>	</Space>
+</root>

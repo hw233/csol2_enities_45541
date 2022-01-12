@@ -1,0 +1,231 @@
+<root>
+	<Properties>
+		<daoXinBags>			<!-- 道心包裹 -->
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Editable>		false			</Editable>
+			<Persistent>		false			</Persistent>
+			<Default>		{}			</Default>
+		</daoXinBags>
+
+		<activeGrid>			<!-- 激活的包裹位 -->
+			<Type>			ACTIVE_DAOXIN_ORDERS	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</activeGrid>
+
+		<daofa>				<!-- 玩家身上的道法 -->
+			<Type>			DAOFAS			</Type>
+			<Flags>			BASE			</Flags>
+			<Editable>		false			</Editable>
+			<Persistent>		true			</Persistent>
+		</daofa>
+
+		<activeGuide>			<!-- 激活导师 -->
+			<Type>			ARRAY <of> UINT8 </of> 	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</activeGuide>
+
+		<jiyuan>			<!-- 机缘 -->
+			<Type>			INT32			</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		true			</Persistent>
+		</jiyuan>
+
+		<ZDScore>			<!-- 积分 -->
+			<Type>			INT32			</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		true			</Persistent>
+		</ZDScore>
+
+		<ZDRecord>		<!-- 玩家每天可以证道的次数记录 -->
+			<Type>			DAILYRECORD		</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+			<Persistent>		true			</Persistent>
+		</ZDRecord>
+
+		<equipedDaofa>
+			<Type>			DAOFAS			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		[]			</Default>
+			<Persistent>		true			</Persistent>
+		</equipedDaofa>
+
+		<ybActGuideRecord>		<!-- 元宝召唤导师次数记录 -->
+			<Type>			DAILYRECORD		</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+			<Persistent>		true			</Persistent>
+		</ybActGuideRecord>
+	</Properties>
+
+	<BaseMethods>
+		<clickGuide>			<!-- 点击导师 -->
+			<Exposed/>
+			<Arg>			UINT8			</Arg>
+		</clickGuide>
+
+		<sellDaofa>			<!-- 卖出道法 -->
+			<Exposed/>
+			<Arg>			UID			</Arg>
+		</sellDaofa>
+
+		<pickUpDaofa>			<!-- 拾取道法 -->
+			<Exposed/>
+			<Arg>			UID			</Arg>
+		</pickUpDaofa>
+
+		<autoZhengDao>			<!-- 一键证道 -->
+			<Exposed/>
+		</autoZhengDao>
+
+		<autoPickUp>			<!-- 一键拾取 -->
+			<Exposed/>
+		</autoPickUp>
+
+		<autoCompose>			<!-- 一键合成 -->
+			<Exposed/>
+			<Arg>			UINT8			</Arg>
+		</autoCompose>
+
+		<confirmAutoCompose>		<!-- 确认一键合成 -->
+			<Exposed/>
+			<Arg>			UINT8			</Arg>
+		</confirmAutoCompose>
+
+		<getActiveGridCost>		<!-- 获取激活格子消耗 -->
+			<Exposed/>
+			<Arg>			UINT8			</Arg>
+		</getActiveGridCost>
+
+		<confirmActiveGrid>		<!-- 确认激活 -->
+			<Exposed/>
+			<Arg>			UINT8			</Arg>
+		</confirmActiveGrid>
+
+		<moveDaofaTo>			<!-- 拖动道法 -->
+			<Exposed/>
+			<Arg>			UID			</Arg>
+			<Arg>			UINT8			</Arg>
+			<Arg>			UINT8			</Arg>
+		</moveDaofaTo>
+
+		<confirmComposeDaofa>		<!-- 确认合成道法 -->
+			<Exposed/>
+			<Arg>			UID			</Arg>
+			<Arg>			UID			</Arg>
+		</confirmComposeDaofa>
+
+		<yuanBaoActiveGuide>		<!-- 元宝激活导师 -->
+			<Exposed/>
+			<Arg>			INT8			</Arg>
+			<Arg>			UINT32			</Arg>
+		</yuanBaoActiveGuide>
+
+		<lockDaofa>
+			<Exposed/>
+			<Arg>			UID			</Arg>
+		</lockDaofa>
+
+		<request_scoreShopData>		<!-- 客户端请求积分兑换道法数据 -->
+			<Exposed/>
+		</request_scoreShopData>
+
+		<scoreExchangeDaofa>		<!-- 积分兑换道法 -->
+			<Exposed/>
+			<Arg>			INT8			</Arg>
+			<Arg>			INT32			</Arg>
+		</scoreExchangeDaofa>
+
+		<confirmRemoveDaofa>		<!-- 丢弃道法 -->
+			<Exposed/>
+			<Arg>			UID			</Arg>
+		</confirmRemoveDaofa>
+		<autoMoveDaofaTo>
+			<Exposed/>
+			<Arg>			UID			</Arg>
+			<Arg>			UINT8			</Arg>
+		</autoMoveDaofaTo>
+	</BaseMethods>
+
+	<CellMethods>
+		<wieldDaofa>			<!-- 装备道法 -->
+			<Arg>			DAOFA			</Arg>
+		</wieldDaofa>
+
+		<unwieldDaofa>			<!-- 卸载道法 -->
+			<Arg>			DAOFA			</Arg>
+		</unwieldDaofa>
+	</CellMethods>
+
+	<ClientMethods>
+		<onJiYuanChanged>		<!-- 通知客户端机缘改变 -->
+			<Arg>			INT32			</Arg>
+		</onJiYuanChanged>
+
+		<onDaofaChanged>		<!-- 通知客户端道法改变 -->
+			<Arg>			DAOFA			</Arg>
+		</onDaofaChanged>
+
+		<onActiveGuideChanged>		<!-- 通知客户端某一个导师被激活 -->
+			<Arg>			ARRAY <of> UINT8 </of>	</Arg>
+		</onActiveGuideChanged>
+
+		<onActiveGridChanged>		<!-- 通知客户端激活的道心格子 -->
+			<Arg>			ACTIVE_DAOXIN_ORDERS	</Arg>
+		</onActiveGridChanged>
+
+		<onZDScoreChanged>		<!-- 通知客户端证道积分改变 -->
+			<Arg>			INT32			</Arg>
+		</onZDScoreChanged>
+
+		<onZDRecordChanged>		<!-- 通知客户端证道次数改变 -->
+			<Arg>			DAILYRECORD		</Arg>
+		</onZDRecordChanged>
+
+		<onAddDaofa>			<!-- 通知客户端添加道法 -->
+			<Arg>			DAOFA			</Arg>
+		</onAddDaofa>
+
+		<onRemoveDaofa>			<!-- 通知客户端移除道法 -->
+			<Arg>			UID			</Arg>
+			<Arg>			BOOL			</Arg>
+		</onRemoveDaofa>
+
+		<onActiveGridCost>		<!-- 通知客户端激活格子消耗元宝数 -->
+			<Arg>			UINT8			</Arg>
+			<Arg>			UINT32			</Arg>
+		</onActiveGridCost>
+
+		<grid_activeResult>		<!-- 格子激活结果 -->
+			<Arg>			UINT8			</Arg>
+			<Arg>			UINT8			</Arg>
+			<Arg>			BOOL			</Arg>
+		</grid_activeResult>
+
+		<onComposeDaofa>		<!-- 通知客户端合成道法所得经验 -->
+			<Arg>			UID			</Arg>
+			<Arg>			UID			</Arg>
+			<Arg>			INT32			</Arg>
+		</onComposeDaofa>
+
+		<onYBActGuideChanged>		<!-- 通知客户端元宝召唤导师次数改变 -->
+			<Arg>			DAILYRECORD		</Arg>
+		</onYBActGuideChanged>
+
+		<onLockDaofa>			<!-- 道法锁定结果 -->
+			<Arg>			UID		</Arg>
+		</onLockDaofa>
+
+		<receive_scoreShopData>		<!-- 接受积分兑换道法数据 -->
+			<Arg>			PYTHON		</Arg>
+		</receive_scoreShopData>
+
+		<onAutoCompose>			<!-- 通知客户端是否一键合成道法 -->
+			<Arg>			UINT8			</Arg>
+			<Arg>			UID		</Arg>
+		</onAutoCompose>
+	</ClientMethods>
+</root>

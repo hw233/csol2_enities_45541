@@ -1,0 +1,20 @@
+<root>
+	<Properties>
+		<monsterCount>
+			<Type>		UINT16			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</monsterCount>
+		<bossCount>
+			<Type>		UINT16			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</bossCount>
+	</Properties>
+	<CellMethods>
+		<onSetSpawnInfos>
+			<Arg>	UINT16	</Arg>
+			<Arg>	UINT16	</Arg>
+		</onSetSpawnInfos>
+	</CellMethods>
+</root>

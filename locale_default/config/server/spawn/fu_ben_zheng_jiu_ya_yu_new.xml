@@ -1,0 +1,73 @@
+<root>
+	<entity_1>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYayu	</type>
+		<transform>
+			<row0>	0.707105 0.000000 -0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.707106 0.000000 0.707105	</row2>
+			<row3>	-7.478981 2.890625 -12.823860	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20154022	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYayuMonsterNew	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	14.121974 2.393443 -5.287979	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>		</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYayuMonsterNew	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	14.156582 2.656250 8.798611	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>		</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_3>
+</root>

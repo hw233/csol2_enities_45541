@@ -1,0 +1,24 @@
+<root>
+	<spaceName>	组队擂台	</spaceName>
+	<EntityType>	SpaceCopyTeamChallenge	</EntityType>
+	<DomainType>	SpaceDomainTeamChallenge	</DomainType>
+	<script>	SpaceCopyTeamChallenge	</script>
+	<SpaceType>	SPACE_TYPE_TEAM_CHALLENGE	</SpaceType>
+	<className> fu_ben_team_challenge </className>
+	<dirMapping>	universes/fu_ben_wu_dao_da_hui	</dirMapping>
+	<TimeOn>	0	</TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	55800	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_zu_dui_lei_tai.xml </spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<Space>
+
+		<enterLimitLevel>	30	</enterLimitLevel>
+		<Transport>
+		</Transport>
+		
+		<Door>
+		</Door>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

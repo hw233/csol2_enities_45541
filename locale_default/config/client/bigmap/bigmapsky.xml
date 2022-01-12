@@ -1,0 +1,241 @@
+<root>
+	<kun_lun>	À¥ÂØ
+		<spaceFolder>	kun_lun	</spaceFolder>
+		<texture>	space/kun_lun/kun_lun_air.tga	</texture>
+		<mapSize>	4096.0 4096.0	</mapSize>
+		<ceilHeight>	1000	</ceilHeight>
+		<floorHeight>	800	</floorHeight>
+		<effectiveRect>	6 4 4084 4088	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	ÁèÏö±¦µî
+				<polygon>	[(384,438),(383,210),(517,210),(517,438),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÄÏÌìÃÅ
+				<polygon>	[(321,376),(321,291),(383,291),(384,376),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	¶·Õ½ÔÆº£
+				<polygon>	[(-230,490),(-230,65),(22,4),(289,32),(383,210),(383,291),(321,291),(321,376),(384,376),(384,438),(350,526),(234,613),(78,656),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÈýÊ®ÈýÖØÌì
+				<polygon>	[(517,438),(384,438),(350,526),(234,613),(78,656),(-230,490),(-230,65),(22,4),(289,32),(383,210),(517,210),(518,-898),(-900,-897),(-899,1000),(518,1000),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÁèÏöºóº£
+				<polygon>	[(518,1000),(517,438),(517,210),(518,-898),(1096,-898),(1097,1000),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</kun_lun>
+	<peng_lai>	ÅîÀ³
+		<spaceFolder>	peng_lai	</spaceFolder>
+		<texture>	space/peng_lai/peng_lai_air.dds	</texture>
+		<mapSize>	4096 3407	</mapSize>
+		<ceilHeight>	500	</ceilHeight>
+		<floorHeight>	400	</floorHeight>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	ó´ÌÒÔ°
+				<polygon>	[(-994,-439),(-994,346),(-321,347),(-322,-438),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÕæÈËÏÉ¸®
+				<polygon>	[(-394,-438),(-322,-438),(-322,-195),(379,-194),(380,-813),(-393,-813),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÁèÏö±¦µî
+				<polygon>	[(-321,844),(602,843),(603,60),(-321,59),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÅîÀ³ÔÆº£
+				<polygon>	[(602,843),(603,60),(-321,59),(-322,-195),(379,-194),(380,-813),(964,-814),(964,844),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÅîÀ³ÔÆº£
+				<polygon>	[(-995,844),(-994,346),(-321,347),(-321,844),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÅîÀ³ÔÆº£
+				<polygon>	[(-994,-439),(-993,-811),(-393,-813),(-394,-438),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	350 267 3348 2822	</effectiveRect>
+	</peng_lai>
+	<zly_ban_quan_xiang>	Ì«Ñô¹¬
+		<spaceFolder>	zly_ban_quan_xiang	</spaceFolder>
+		<texture>	space/zly_ban_quan_xiang/zly_ban_quan_xiang_air_high_definition.tga	</texture>
+		<mapSize>	3511.0 4096.0	</mapSize>
+		<ceilHeight>	350	</ceilHeight>
+		<floorHeight>	250	</floorHeight>
+		<effectiveRect>	370 393 2765 3319	</effectiveRect>
+		<areas>
+			<area>	Ì«Ñô¹¬
+				<polygon>	[(236,693),(457,730),(625,696),(686,542),(614,381),(536,382),(487,341),(428,332),(348,348),(230,451),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	µ¤Ï¼µº
+				<polygon>	[(288,277),(348,348),(230,451),(160,414),(140,352),(183,284),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	Ôª³¿µº
+				<polygon>	[(493,266),(592,254),(635,307),(614,381),(536,382),(487,341),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÓôÄ¾µº
+				<polygon>	[(686,-256),(599,-408),(683,-529),(808,-491),(865,-426),(841,-313),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	Ì«Ñô¹¬ÔÆº£
+				<polygon>	[(-497,707),(-498,-528),(683,-529),(599,-408),(686,-256),(841,-313),(865,-426),(1298,-426),(1297,709),(625,696),(686,542),(614,381),(635,307),(592,254),(493,266),(487,341),(428,332),(348,348),(288,277),(183,284),(140,352),(160,414),(230,451),(236,693),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÚæÈªÌì¿Õ
+				<polygon>	[(-498,-528),(683,-529),(808,-491),(865,-426),(1298,-426),(1295,-896),(-498,-894),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÚæÈªÌì¿Õ
+				<polygon>	[(-497,1196),(1296,1196),(1297,709),(625,696),(457,730),(236,693),(-497,707),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</zly_ban_quan_xiang>
+	<zly_ying_ke_cun>	À×ÒôËÂ
+		<spaceFolder>	zly_ying_ke_cun	</spaceFolder>
+		<texture>	space/zly_ying_ke_cun/zly_ying_ke_cun_air_high_definition.tga	</texture>
+		<mapSize>	4096.0 4096.0	</mapSize>
+		<ceilHeight>	350	</ceilHeight>
+		<floorHeight>	250	</floorHeight>
+		<effectiveRect>	483 473 3145 3150	</effectiveRect>
+		<areas>
+			<area>	À×ÒôËÂºóÉ½ÔÆº£
+				<polygon>	[(-1197,988),(-1198,1199),(498,1199),(496,988),(-175,762),(-258,782),(-380,781),(-456,754),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	À×ÒôËÂ
+				<polygon>	[(-469,561),(-482,696),(-456,754),(-380,781),(-258,782),(-175,762),(-141,696),(-145,612),(-187,554),(-252,501),(-372,497),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	²ñè¤µº
+				<polygon>	[(80,621),(147,565),(159,494),(101,434),(-34,439),(-38,562),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÕÃÁúµº
+				<polygon>	[(-145,612),(-187,554),(-252,501),(-212,409),(-93,415),(-34,439),(-38,562),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	Óñ¬™µº
+				<polygon>	[(-372,497),(-396,402),(-523,400),(-528,513),(-469,561),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	Î÷ÏÉµº
+				<polygon>	[(-608,532),(-671,487),(-668,396),(-523,400),(-528,513),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	À×ÒôËÂÔÆº£
+				<polygon>	[(-1197,988),(-1199,-497),(496,-496),(496,988),(-175,762),(-141,696),(-145,612),(-38,562),(80,621),(147,565),(159,494),(101,434),(-34,439),(-93,415),(-212,409),(-252,501),(-372,497),(-396,402),(-523,400),(-668,396),(-671,487),(-608,532),(-528,513),(-469,561),(-482,696),(-456,754),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</zly_ying_ke_cun>
+	<zly_bi_shi_jian>	°Ë¾°¹¬
+		<spaceFolder>	zly_bi_shi_jian	</spaceFolder>
+		<texture>	space/zly_bi_shi_jian/zly_bi_shi_jian_air_high_definition.tga	</texture>
+		<mapSize>	4096 3234	</mapSize>
+		<ceilHeight>	350	</ceilHeight>
+		<floorHeight>	250	</floorHeight>
+		<effectiveRect>	421.0 440 3263 2382	</effectiveRect>
+		<areas>
+			<area>	°Ë¾°¹¬
+				<polygon>	[(-620,-418),(-678,-573),(-617,-689),(-500,-762),(-377,-692),(-319,-580),(-379,-418),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÁéÐæµº
+				<polygon>	[(-808,-693),(-859,-760),(-820,-837),(-618,-834),(-500,-762),(-617,-689),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÁéÔ´µº
+				<polygon>	[(-500,-762),(-353,-849),(-53,-845),(-10,-779),(-63,-693),(-377,-692),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	°Ë¾°¹¬ÔÆº£
+				<polygon>	[(-1295,-163),(-1300,-1065),(596,-1062),(595,-163),(-379,-418),(-319,-580),(-377,-692),(-63,-693),(-10,-779),(-53,-845),(-353,-849),(-500,-762),(-618,-834),(-820,-837),(-859,-760),(-808,-693),(-617,-689),(-678,-573),(-620,-418),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	±ÜÊÀ½§Ìì¿Õ
+				<polygon>	[(-1300,-1065),(596,-1062),(597,-1292),(-1298,-1282),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	±ÜÊÀ½§Ìì¿Õ
+				<polygon>	[(-1295,-163),(-1295,196),(596,198),(595,-163),(-379,-418),(-620,-418),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</zly_bi_shi_jian>
+	<yun_meng_ze_01>	»ðÔÆ¹¬
+		<spaceFolder>	yun_meng_ze_01	</spaceFolder>
+		<texture>	space/yun_meng_ze_01/yun_meng_ze_01_air_high_definition.tga	</texture>
+		<mapSize>	3351 4096	</mapSize>
+		<ceilHeight>	300	</ceilHeight>
+		<floorHeight>	200	</floorHeight>
+		<effectiveRect>	365 374 2621 3361	</effectiveRect>
+		<areas>
+			<area>	»ðÔÆ¹¬
+				<polygon>	[(-937,458),(-936,131),(-640,134),(-644,458),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	»ðÔÆ¹¬ÔÆº£
+				<polygon>	[(-1078,584),(-1082,11),(-477,19),(-478,585),(-644,584),(-644,458),(-640,134),(-936,131),(-937,458),(-939,583),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	ÔÆÃÎÔóÌì¿Õ
+				<polygon>	[(-937,458),(-939,583),(-1078,584),(-1295,587),(-1296,1300),(488,1300),(495,584),(-478,585),(-644,584),(-644,458),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	Çà·ïÔ­Ìì¿Õ
+				<polygon>	[(-1297,-896),(495,-895),(495,584),(-478,585),(-477,19),(-1082,11),(-1078,584),(-1295,587),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</yun_meng_ze_01>
+	<yun_meng_ze_02>	ÓñÐé¹¬
+		<spaceFolder>	yun_meng_ze_02	</spaceFolder>
+		<texture>	space/yun_meng_ze_02/yun_meng_ze_02_air_high_definition.tga	</texture>
+		<mapSize>	3482 4096	</mapSize>
+		<ceilHeight>	300	</ceilHeight>
+		<floorHeight>	200	</floorHeight>
+		<effectiveRect>	398 403 2688 3283	</effectiveRect>
+		<areas>
+			<area>	ÓñÐé¹¬
+				<polygon>	[(-386,1292),(1290,1288),(1290,-687),(-387,-684),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</yun_meng_ze_02>
+	<zly_ying_ke_cun_45_dao>	·ÉÔÆÆÂ
+		<spaceFolder>	zly_ying_ke_cun	</spaceFolder>
+		<texture>	space\zly_ying_ke_cun\zly_ying_ke_cun_air_high_definition.tga	</texture>
+		<mapSize>	4096.0 4096.0	</mapSize>
+		<ceilHeight>	350	</ceilHeight>
+		<floorHeight>	250	</floorHeight>
+		<effectiveRect>	1648 1014 1014 822	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	À×ÒôËÂºóÉ½ÔÆº£
+				<polygon>	[(-510,791),(-86,792),(-87,418),(-511,416),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	À×ÒôËÂ
+				<polygon>	[(-511,416),(-87,418),(-86,792),(-510,791),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	À×ÒôËÂÔÆº£
+				<polygon>	[(-87,418),(-510,791),(-511,416),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</zly_ying_ke_cun_45_dao>
+</root>

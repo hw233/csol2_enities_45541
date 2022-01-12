@@ -1,0 +1,31 @@
+<root>
+		<spaceName>	潜能乱斗	</spaceName>
+		<EntityType>	SpaceCopyPotentialMelee	</EntityType>
+		<SpaceType>	SPACE_TYPE_POTENTIAL_MELEE	</SpaceType>
+		<DomainType>	SpaceDomainCopyTeam	</DomainType>
+		<script>	SpaceCopyPotentialMelee	</script>
+		<className>	fu_ben_xuan_tian_huan_jie	</className>
+		<TimeOfDay>	50400	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_xuan_tian_huan_jie.xml	</spawnFile>
+		<dirMapping>	universes/fu_ben_xuan_tian_huan_jie	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canArrest/>
+		<Space>
+			<doorPoint>
+				<pos>	23.0, 0.832, 45.985	</pos>
+				<radius>	2.500000	</radius>
+			</doorPoint>
+			<playerEnterPoint>
+				<pos>	27.535,0.832,45.778	</pos>
+				<direction>	0,0,0	</direction>
+			</playerEnterPoint>
+			<BossPoint>
+				<pos>	45.842,0.361,46.13	</pos>
+				<direction>	0,0,1.500	</direction>
+				<randomWalkRange>	0.0	</randomWalkRange>
+			</BossPoint>
+			<smallBossPoint>	</smallBossPoint>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

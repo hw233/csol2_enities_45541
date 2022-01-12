@@ -1,0 +1,1299 @@
+<root>
+	<entity_1>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	-46.635239 22.047884 -153.267761	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_003.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	-28.582870 9.642921 -70.315170	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_003.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	15.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.258819 0.000000 0.965924	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.965924 0.000000 0.258819	</row2>
+			<row3>	-31.505035 -6.005858 -72.147415	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.965924 0.000000 0.258819	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.258819 0.000000 -0.965924	</row2>
+			<row3>	-33.047791 -6.105468 -66.817566	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.000001 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999997 0.000000 -0.000001	</row2>
+			<row3>	-37.117008 -6.228515 -72.677628	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.707106 0.000000 0.707105	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.707105 0.000000 0.707106	</row2>
+			<row3>	-39.992161 -6.546874 -77.123718	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.707105 0.000000 -0.707105	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.707105 0.000000 -0.707105	</row2>
+			<row3>	-40.840977 -6.046874 -66.025124	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.965924 0.000000 -0.258818	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.258818 0.000000 -0.965924	</row2>
+			<row3>	-42.903011 -6.220702 -72.091263	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 -0.866023	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.866023 0.000000 -0.499999	</row2>
+			<row3>	-7.610718 -6.035155 -77.043709	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 -0.499999	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.499999 0.000000 -0.866024	</row2>
+			<row3>	-0.650551 -6.044921 -64.857574	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.707104 0.000000 -0.707105	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.707105 0.000000 0.707104	</row2>
+			<row3>	-3.854515 -6.044921 -70.785400	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	-10.080070 -6.048827 -68.771400	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999997	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.999997 0.000000 0.000000	</row2>
+			<row3>	-0.668037 -6.009765 -77.741127	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	54.027592 9.371117 -47.067062	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_003.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	15.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	35.773075 -2.064651 -71.813225	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 -0.499999	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.499999 0.000000 -0.866024	</row2>
+			<row3>	15.189007 -6.033202 -57.479492	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.258819 0.000000 -0.965924	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.965924 0.000000 -0.258819	</row2>
+			<row3>	21.815386 -6.072265 -50.300438	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.258818 0.000000 -0.965924	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.965924 0.000000 0.258818	</row2>
+			<row3>	17.463263 -6.048827 -51.767742	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 -0.866023	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.866023 0.000000 -0.499999	</row2>
+			<row3>	19.290190 -6.029296 -62.970837	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.707105 0.000000 -0.707105	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.707105 0.000000 0.707105	</row2>
+			<row3>	23.347717 -6.072265 -58.439785	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	38.923141 -3.890625 -83.931305	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.258817 0.000000 0.965919	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.965919 0.000000 0.258817	</row2>
+			<row3>	43.108707 -4.039062 -81.624420	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.965919 0.000000 0.258817	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.258817 0.000000 0.965919	</row2>
+			<row3>	39.418289 -4.425780 -79.142982	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.866019 0.000000 -0.499996	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.499996 0.000000 -0.866019	</row2>
+			<row3>	44.282791 -4.554687 -78.145683	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.707101 0.000000 0.707102	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.707102 0.000000 -0.707101	</row2>
+			<row3>	42.020908 -3.460937 -86.262924	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.499996 0.000000 0.866019	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.866019 0.000000 0.499996	</row2>
+			<row3>	35.503441 -4.197265 -81.368431	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.258816 0.000000 0.965917	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.965917 0.000000 -0.258816	</row2>
+			<row3>	72.057831 -5.990233 -55.592842	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.499996 0.000000 0.866017	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.866017 0.000000 0.499996	</row2>
+			<row3>	74.653534 -6.039062 -51.071766	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.707098 0.000000 0.707100	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.707100 0.000000 -0.707098	</row2>
+			<row3>	75.898689 -6.007812 -53.967445	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.499994 0.000000 0.866016	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.866016 0.000000 -0.499994	</row2>
+			<row3>	71.290230 -6.044921 -50.699917	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.965915 0.000000 0.258817	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.258817 0.000000 -0.965915	</row2>
+			<row3>	76.471077 -6.048827 -49.133980	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.258817 0.000000 0.965914	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.965914 0.000000 0.258817	</row2>
+			<row3>	73.236267 -6.058593 -47.178112	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.965917 0.000000 0.258816	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.258816 0.000000 0.965917	</row2>
+			<row3>	85.893654 -3.193359 -7.934731	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.999990 0.000000 -0.000001	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000001 0.000000 0.999990	</row2>
+			<row3>	81.269066 -4.013671 -10.187592	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.866017 0.000000 -0.499996	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.499996 0.000000 0.866017	</row2>
+			<row3>	81.309273 -3.371093 -5.698097	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.258817 0.000000 0.965917	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.965917 0.000000 0.258817	</row2>
+			<row3>	77.832802 -4.015624 -6.901367	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.965917 0.000000 -0.258817	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.258817 0.000000 0.965917	</row2>
+			<row3>	81.110184 -2.859375 -2.528992	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.499995 0.000000 -0.866018	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.866018 0.000000 0.499995	</row2>
+			<row3>	74.802116 -3.839843 -1.183060	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866024 0.000000 -0.499999	</row2>
+			<row3>	0.488579 -6.033202 -69.023819	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	21.596107 -6.087890 -53.259808	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.866017 0.000000 -0.499996	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.499996 0.000000 0.866017	</row2>
+			<row3>	49.925457 -6.013671 -61.418224	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.866018 0.000000 -0.499995	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.499995 0.000000 -0.866018	</row2>
+			<row3>	48.579170 -6.042968 -58.971329	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.000001 0.000000 -0.999990	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999990 0.000000 -0.000001	</row2>
+			<row3>	52.829948 -6.023437 -56.813271	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.707101 0.000000 0.707101	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.707101 0.000000 -0.707101	</row2>
+			<row3>	43.627361 -5.960937 -58.482830	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.258817 0.000000 -0.965917	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.965917 0.000000 -0.258817	</row2>
+			<row3>	47.973377 -6.062499 -54.820946	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.000001 0.000000 -0.999991	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999991 0.000000 -0.000001	</row2>
+			<row3>	48.798943 -6.042968 -52.531528	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.866019 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.499997 0.000000 0.866019	</row2>
+			<row3>	54.028969 -6.291015 -20.563652	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.965920 0.000000 0.258818	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.258818 0.000000 0.965920	</row2>
+			<row3>	56.718666 -6.427733 -17.485062	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.866022 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.499997 0.000000 0.866022	</row2>
+			<row3>	57.347099 -6.013671 -13.177063	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.965920 0.000000 -0.258817	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.258817 0.000000 0.965920	</row2>
+			<row3>	49.088203 -6.230468 -20.518410	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.499998 0.000000 -0.866021	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.866021 0.000000 0.499998	</row2>
+			<row3>	53.240208 -5.984374 -14.949783	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.965922 0.000000 0.258819	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.258819 0.000000 0.965922	</row2>
+			<row3>	46.765701 -5.447265 -17.065758	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.965917 0.000000 0.258816	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.258816 0.000000 0.965917	</row2>
+			<row3>	41.398781 -6.169921 -40.230324	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.999991 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999991	</row2>
+			<row3>	34.869717 -6.111327 -42.608109	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.499995 0.000000 -0.866017	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.866017 0.000000 0.499995	</row2>
+			<row3>	44.289803 -6.117187 -37.791592	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.258818 0.000000 -0.965916	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.965916 0.000000 -0.258818	</row2>
+			<row3>	38.716591 -6.099608 -39.452068	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.707098 0.000000 -0.707100	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.707100 0.000000 0.707098	</row2>
+			<row3>	40.196369 -5.900390 -34.920334	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.707099 0.000000 -0.707101	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.707101 0.000000 0.707099	</row2>
+			<row3>	34.318375 -5.878905 -34.743042	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.999989 0.000000 0.000001	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.000001 0.000000 -0.999989	</row2>
+			<row3>	98.572281 -6.115233 -45.509449	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20354002	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.866013 0.000000 -0.499994	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.499994 0.000000 0.866013	</row2>
+			<row3>	83.909248 -4.386718 -24.850327	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	81.569687 -4.566405 -24.334175	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.000001 0.000000 -0.999987	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.999987 0.000000 -0.000001	</row2>
+			<row3>	80.146530 -4.771483 -25.410339	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.707097 0.000000 -0.707097	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.707097 0.000000 -0.707097	</row2>
+			<row3>	78.229210 -5.156249 -29.356819	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.866014 0.000000 -0.499993	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.499993 0.000000 -0.866014	</row2>
+			<row3>	73.950424 -5.232421 -26.739006	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	-0.258816 0.000000 -0.965912	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.965912 0.000000 -0.258816	</row2>
+			<row3>	73.316185 -5.441405 -29.887894	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<type>	SpawnPointCopyPig	</type>
+		<transform>
+			<row0>	0.499992 0.000000 -0.866014	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.866014 0.000000 0.499992	</row2>
+			<row3>	70.200638 -5.542968 -27.294777	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	145.150146 13.193654 -12.051979	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_003.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_67>
+</root>

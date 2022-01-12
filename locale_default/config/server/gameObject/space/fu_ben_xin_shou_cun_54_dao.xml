@@ -1,0 +1,22 @@
+<root>
+	<EntityType>SpaceCopySingle</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopySingle</script>
+	<className>fu_ben_xin_shou_cun_54_dao</className>
+	<dirMapping> universes/fu_ben_xin_shou_cun_10 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_xin_shou_cun_54_dao.xml		</spawnFile>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<Space>
+		<spaceBBoxMin>	-175,-100,40	</spaceBBoxMin>
+		<spaceBBoxMax>	-95,150,155	</spaceBBoxMax>
+		<deathDepth>	-250	</deathDepth>
+	</Space>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>                                  		
+	<initLine>1</initLine>
+	<maxPlayerAmount>525</maxPlayerAmount>                           
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 	
+</root>

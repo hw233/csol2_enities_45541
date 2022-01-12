@@ -1,0 +1,19 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Implements>
+		<Interface>	SpaceCopyYeWaiInterface		</Interface>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onGodWeaponWuYao>
+		</onGodWeaponWuYao>
+	</CellMethods>
+</root>

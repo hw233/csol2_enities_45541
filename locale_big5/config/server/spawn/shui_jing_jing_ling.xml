@@ -1,0 +1,4023 @@
+<root>
+	<entity_1>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.866019 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.499997 0.000000 -0.866019	</row2>
+			<row3>	-12.126480 22.588820 -53.590290	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.499996 0.000000 -0.866019	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.866019 0.000000 -0.499996	</row2>
+			<row3>	-16.837891 19.591187 -57.404087	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-10.140594 17.426199 -0.513733	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-7.913124 17.426199 -4.628067	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-7.106468 17.426199 -6.407799	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-3.622856 17.426199 -9.243431	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-2.049072 17.426199 -9.211479	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-0.453194 17.426199 -9.248489	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-8.974655 17.426197 -7.225891	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-9.869072 17.426199 -5.355797	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-11.046722 17.426199 -3.180565	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-11.904144 17.426199 -1.466064	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-6.481461 17.426197 -10.040543	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-3.802193 17.426197 -10.912727	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000135 -0.000041	</row0>
+			<row1>	-0.000139 0.999951 0.009841	</row1>
+			<row2>	0.000042 -0.009841 0.999953	</row2>
+			<row3>	-15.058784 17.484015 -27.314507	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	3	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-12.915474 17.455639 -27.143219	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	3	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008681 -0.000022	</row0>
+			<row1>	0.008681 0.999950 0.005012	</row1>
+			<row2>	-0.000022 -0.005012 0.999987	</row2>
+			<row3>	-15.573135 17.469145 -24.689301	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	3	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000002 0.000043	</row0>
+			<row1>	-0.000002 0.999950 0.010012	</row1>
+			<row2>	-0.000044 -0.010012 0.999949	</row2>
+			<row3>	-13.525223 17.448364 -23.753662	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	3	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000187 0.000041	</row0>
+			<row1>	0.000187 0.999951 0.009897	</row1>
+			<row2>	-0.000044 -0.009897 0.999950	</row2>
+			<row3>	-10.999847 17.448029 -23.720184	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	3	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000201 0.000045	</row0>
+			<row1>	-0.000201 0.999949 0.010133	</row1>
+			<row2>	-0.000044 -0.010133 0.999948	</row2>
+			<row3>	-8.857491 17.471678 -26.082199	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	3	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008687 -0.000022	</row0>
+			<row1>	0.008688 0.999950 0.004995	</row1>
+			<row2>	-0.000022 -0.004995 0.999987	</row2>
+			<row3>	-15.539352 17.455637 -22.048897	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	3	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999967 -0.008100 -0.000019	</row0>
+			<row1>	0.008101 0.999953 0.005326	</row1>
+			<row2>	-0.000025 -0.005326 0.999985	</row2>
+			<row3>	-12.250885 17.416191 -19.864807	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	3	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000043	</row0>
+			<row1>	0.000001 0.999950 0.010010	</row1>
+			<row2>	-0.000044 -0.010010 0.999949	</row2>
+			<row3>	-9.644234 17.426172 -21.536957	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	3	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000359 0.000047	</row0>
+			<row1>	-0.000358 0.999947 0.010292	</row1>
+			<row2>	-0.000044 -0.010292 0.999946	</row2>
+			<row3>	-7.490601 17.448391 -23.756378	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	3	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008669 0.000023	</row0>
+			<row1>	0.008670 0.999950 0.005031	</row1>
+			<row2>	-0.000067 -0.005031 0.999986	</row2>
+			<row3>	-29.012009 17.470242 -1.631683	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	4	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008668 0.000023	</row0>
+			<row1>	0.008670 0.999950 0.005022	</row1>
+			<row2>	-0.000067 -0.005023 0.999986	</row2>
+			<row3>	-24.805832 17.431190 -1.115623	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	4	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008651 0.000023	</row0>
+			<row1>	0.008653 0.999953 0.004318	</row1>
+			<row2>	-0.000061 -0.004319 0.999989	</row2>
+			<row3>	-27.050842 17.469870 -4.954239	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	4	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008673 0.000023	</row0>
+			<row1>	0.008675 0.999948 0.005215	</row1>
+			<row2>	-0.000069 -0.005216 0.999985	</row2>
+			<row3>	-25.297173 17.455730 -5.166771	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	4	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008667 0.000023	</row0>
+			<row1>	0.008670 0.999948 0.005026	</row1>
+			<row2>	-0.000067 -0.005027 0.999986	</row2>
+			<row3>	-22.440163 17.408384 -0.657257	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	4	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999948 0.010217	</row1>
+			<row2>	0.000000 -0.010217 0.999948	</row2>
+			<row3>	-3.269417 17.477282 -26.642021	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	10	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999953 0.009731	</row1>
+			<row2>	0.000000 -0.009731 0.999953	</row2>
+			<row3>	-1.269958 17.441013 -23.019310	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	10	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999947 0.010289	</row1>
+			<row2>	0.000000 -0.010289 0.999947	</row2>
+			<row3>	-2.862915 17.414791 -20.400108	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	10	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999952 0.009815	</row1>
+			<row2>	0.000000 -0.009815 0.999952	</row2>
+			<row3>	-0.410034 17.407221 -19.644012	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	10	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008681 -0.000065	</row0>
+			<row1>	0.008682 0.999949 0.004998	</row1>
+			<row2>	0.000022 -0.004999 0.999987	</row2>
+			<row3>	-21.372688 17.463343 -13.484680	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	11	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999966 -0.008218 -0.000063	</row0>
+			<row1>	0.008219 0.999951 0.005273	</row1>
+			<row2>	0.000020 -0.005274 0.999986	</row2>
+			<row3>	-18.329048 17.444664 -15.025177	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	11	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999966 -0.008219 -0.000062	</row0>
+			<row1>	0.000022 -0.004999 0.999986	</row1>
+			<row2>	-0.008219 -0.999953 -0.004999	</row2>
+			<row3>	-22.190819 18.421457 -12.124352	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	11	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008666 -0.000516	</row0>
+			<row1>	0.008670 0.999948 0.005005	</row1>
+			<row2>	0.000473 -0.005010 0.999986	</row2>
+			<row3>	-19.501465 17.429901 -10.045670	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	11	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999965 -0.008342 -0.000514	</row0>
+			<row1>	0.008346 0.999949 0.005295	</row1>
+			<row2>	0.000471 -0.005300 0.999984	</row2>
+			<row3>	-22.266235 17.448519 -8.976212	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	11	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 -0.008879 -0.000517	</row0>
+			<row1>	0.008883 0.999947 0.004814	</row1>
+			<row2>	0.000475 -0.004819 0.999986	</row2>
+			<row3>	-20.914536 17.470102 -15.628799	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	11	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999964 -0.008388 -0.000515	</row0>
+			<row1>	0.008392 0.999949 0.005254	</row1>
+			<row2>	0.000471 -0.005259 0.999984	</row2>
+			<row3>	-17.242355 17.443527 -16.680466	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	11	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 -0.008842 -0.000517	</row0>
+			<row1>	0.008846 0.999947 0.004848	</row1>
+			<row2>	0.000475 -0.004853 0.999986	</row2>
+			<row3>	-14.806534 17.403765 -12.955833	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	11	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999963 -0.008462 -0.000515	</row0>
+			<row1>	0.008466 0.999949 0.005187	</row1>
+			<row2>	0.000472 -0.005191 0.999984	</row2>
+			<row3>	-16.844643 17.404425 -9.557732	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	11	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 -0.008824 -0.000517	</row0>
+			<row1>	0.008828 0.999947 0.004864	</row1>
+			<row2>	0.000475 -0.004868 0.999986	</row2>
+			<row3>	-18.347786 17.439993 -12.455772	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	11	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999999 -0.000273 -0.000135	</row0>
+			<row1>	0.000276 0.999949 0.010119	</row1>
+			<row2>	0.000130 -0.010119 0.999947	</row2>
+			<row3>	-2.128181 17.367496 -15.675995	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	16	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999999 0.000113 -0.000131	</row0>
+			<row1>	-0.000110 0.999951 0.009968	</row1>
+			<row2>	0.000130 -0.009968 0.999949	</row2>
+			<row3>	-5.022667 17.360779 -15.005081	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	16	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 -0.008682 -0.000196	</row0>
+			<row1>	0.008685 0.999950 0.004997	</row1>
+			<row2>	0.000151 -0.004999 0.999986	</row2>
+			<row3>	-12.091415 17.363342 -9.583168	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	17	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999966 -0.008072 -0.000193	</row0>
+			<row1>	0.008075 0.999953 0.005333	</row1>
+			<row2>	0.000148 -0.005335 0.999984	</row2>
+			<row3>	-14.400681 17.373598 -7.632133	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	17	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 -0.008786 -0.000197	</row0>
+			<row1>	0.008789 0.999949 0.004940	</row1>
+			<row2>	0.000151 -0.004942 0.999986	</row2>
+			<row3>	-15.436546 17.363438 -3.808212	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	17	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999963 -0.008388 -0.000195	</row0>
+			<row1>	0.008391 0.999951 0.005158	</row1>
+			<row2>	0.000149 -0.005160 0.999985	</row2>
+			<row3>	-13.164169 17.351709 -5.400948	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	17	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999958 -0.008939 -0.000198	</row0>
+			<row1>	0.008942 0.999948 0.004856	</row1>
+			<row2>	0.000152 -0.004858 0.999986	</row2>
+			<row3>	-15.956924 17.357063 -1.633789	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	17	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.866019 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.499997 0.000000 -0.866019	</row2>
+			<row3>	-43.295681 34.314079 21.156052	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965918 0.000000 -0.258818	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258818 0.000000 -0.965918	</row2>
+			<row3>	-45.474316 30.418024 25.033808	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-0.131538 17.426199 0.114993	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	-1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-0.387054 17.426189 9.215344	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-4.769447 17.426199 9.225634	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-7.740417 17.426195 5.147848	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-10.081314 17.426199 1.470821	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-10.942398 17.426199 3.619522	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-9.286720 17.426197 5.781447	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-7.944321 17.426199 8.168850	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-6.911911 17.426199 9.633712	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-4.679642 17.426199 11.089863	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-2.733543 17.426199 11.254078	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008673 0.000023	</row0>
+			<row1>	0.008674 0.999950 -0.005013	</row1>
+			<row2>	0.000020 0.005013 0.999986	</row2>
+			<row3>	-31.909035 17.488274 0.214111	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	4	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008668 0.000023	</row0>
+			<row1>	0.008670 0.999950 -0.005014	</row1>
+			<row2>	0.000020 0.005013 0.999986	</row2>
+			<row3>	-26.885574 17.451841 1.636802	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	4	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008667 0.000023	</row0>
+			<row1>	0.008670 0.999949 -0.005010	</row1>
+			<row2>	0.000020 0.005009 0.999986	</row2>
+			<row3>	-24.142334 17.435400 3.103830	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	4	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008637 0.000023	</row0>
+			<row1>	0.008640 0.999951 -0.004639	</row1>
+			<row2>	0.000017 0.004638 0.999988	</row2>
+			<row3>	-27.266953 17.471676 4.938720	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	4	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_67>
+	<entity_68>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008660 0.000023	</row0>
+			<row1>	0.008663 0.999949 -0.004923	</row1>
+			<row2>	0.000019 0.004922 0.999987	</row2>
+			<row3>	-22.514175 17.421427 3.132090	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	4	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_68>
+	<entity_69>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008666 0.000023	</row0>
+			<row1>	0.008670 0.999948 -0.005016	</row1>
+			<row2>	0.000020 0.005015 0.999986	</row2>
+			<row3>	-15.384399 17.476563 26.495893	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	5	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_69>
+	<entity_70>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008641 0.000023	</row0>
+			<row1>	0.008645 0.999951 -0.004453	</row1>
+			<row2>	0.000015 0.004452 0.999989	</row2>
+			<row3>	-16.244789 17.467936 23.282022	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	5	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_70>
+	<entity_71>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008677 0.000023	</row0>
+			<row1>	0.008681 0.999947 -0.005268	</row1>
+			<row2>	0.000022 0.005267 0.999985	</row2>
+			<row3>	-13.440598 17.442207 22.999517	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	5	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_71>
+	<entity_72>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000005 -0.000043	</row0>
+			<row1>	-0.000002 0.999948 -0.010012	</row1>
+			<row2>	0.000043 0.010011 0.999949	</row2>
+			<row3>	-11.626343 17.464365 25.349495	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	5	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_72>
+	<entity_73>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000344 -0.000040	</row0>
+			<row1>	0.000347 0.999950 -0.009797	</row1>
+			<row2>	0.000043 0.009796 0.999951	</row2>
+			<row3>	-11.005013 17.437754 22.691427	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	5	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_73>
+	<entity_74>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008683 0.000022	</row0>
+			<row1>	0.008686 0.999948 -0.004996	</row1>
+			<row2>	0.000021 0.004995 0.999986	</row2>
+			<row3>	-13.288124 17.423914 19.608921	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	5	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_74>
+	<entity_75>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999965 -0.008257 0.000020	</row0>
+			<row1>	0.008260 0.999950 -0.005239	</row1>
+			<row2>	0.000023 0.005238 0.999985	</row2>
+			<row3>	-16.227676 17.452837 20.295511	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	5	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_75>
+	<entity_76>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 -0.008737 0.000022	</row0>
+			<row1>	0.008740 0.999947 -0.004965	</row1>
+			<row2>	0.000021 0.004964 0.999986	</row2>
+			<row3>	-18.579117 17.466181 18.887905	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	5	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_76>
+	<entity_77>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999999 0.000011 -0.000044	</row0>
+			<row1>	-0.000009 0.999947 -0.010016	</row1>
+			<row2>	0.000043 0.010015 0.999948	</row2>
+			<row3>	-11.114639 17.416479 20.566479	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	5	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_77>
+	<entity_78>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000205 0.000003	</row0>
+			<row1>	0.000205 0.999948 -0.010173	</row1>
+			<row2>	-0.000002 0.010172 0.999947	</row2>
+			<row3>	-0.317863 17.479548 26.865919	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	7	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_78>
+	<entity_79>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000082 0.000000	</row0>
+			<row1>	-0.000082 0.999950 -0.009947	</row1>
+			<row2>	-0.000002 0.009946 0.999949	</row2>
+			<row3>	-1.526680 17.452433 24.157717	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	7	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_79>
+	<entity_80>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000232 0.000003	</row0>
+			<row1>	0.000232 0.999947 -0.010191	</row1>
+			<row2>	-0.000002 0.010190 0.999946	</row2>
+			<row3>	-3.084007 17.445543 22.535702	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	7	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_80>
+	<entity_81>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000072 0.000001	</row0>
+			<row1>	0.000072 0.999948 -0.010067	</row1>
+			<row2>	-0.000002 0.010066 0.999947	</row2>
+			<row3>	-0.743652 17.422897 21.207415	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	7	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_81>
+	<entity_82>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000092 0.000000	</row0>
+			<row1>	-0.000092 0.999949 -0.009939	</row1>
+			<row2>	-0.000002 0.009938 0.999948	</row2>
+			<row3>	-2.120827 17.488216 27.731951	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	7	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_82>
+	<entity_83>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999950 -0.010019	</row1>
+			<row2>	0.000000 0.010019 0.999950	</row2>
+			<row3>	-3.990196 17.420311 20.949104	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	7	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_83>
+	<entity_84>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 -0.008671 -0.000517	</row0>
+			<row1>	0.008670 0.999947 -0.005012	</row1>
+			<row2>	0.000561 0.005007 0.999985	</row2>
+			<row3>	-22.645638 17.462624 11.134238	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	12	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_84>
+	<entity_85>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008676 0.000022	</row0>
+			<row1>	0.008676 0.999950 -0.005009	</row1>
+			<row2>	0.000022 0.005009 0.999987	</row2>
+			<row3>	-18.735214 17.440260 13.439342	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	12	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_85>
+	<entity_86>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999966 -0.008213 0.000020	</row0>
+			<row1>	0.008213 0.999955 -0.004748	</row1>
+			<row2>	0.000020 0.004748 0.999988	</row2>
+			<row3>	-19.033340 17.432890 11.450673	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	12	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_86>
+	<entity_87>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 -0.008787 0.000023	</row0>
+			<row1>	0.008787 0.999948 -0.005071	</row1>
+			<row2>	0.000023 0.005071 0.999986	</row2>
+			<row3>	-20.524307 17.429855 8.262009	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	12	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_87>
+	<entity_88>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999964 -0.008483 0.000021	</row0>
+			<row1>	0.008483 0.999951 -0.004901	</row1>
+			<row2>	0.000022 0.004901 0.999987	</row2>
+			<row3>	-17.650879 17.410475 9.367502	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	12	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_88>
+	<entity_89>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 -0.008854 0.000023	</row0>
+			<row1>	0.008854 0.999947 -0.005108	</row1>
+			<row2>	0.000024 0.005108 0.999986	</row2>
+			<row3>	-16.005424 17.406803 11.484122	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	12	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_89>
+	<entity_90>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999964 -0.008528 0.000021	</row0>
+			<row1>	0.008528 0.999951 -0.004927	</row1>
+			<row2>	0.000022 0.004927 0.999987	</row2>
+			<row3>	-24.551712 17.468410 8.988980	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	12	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_90>
+	<entity_91>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 -0.008796 0.000022	</row0>
+			<row1>	0.008796 0.999948 -0.005075	</row1>
+			<row2>	0.000023 0.005075 0.999986	</row2>
+			<row3>	-17.788071 17.403460 7.728510	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	12	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_91>
+	<entity_92>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999965 -0.008441 0.000020	</row0>
+			<row1>	0.008441 0.999952 -0.004880	</row1>
+			<row2>	0.000021 0.004880 0.999987	</row2>
+			<row3>	-15.898781 17.392424 8.796094	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	12	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_92>
+	<entity_93>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000001 -0.000043	</row0>
+			<row1>	0.000001 0.999949 -0.010010	</row1>
+			<row2>	0.000043 0.010010 0.999949	</row2>
+			<row3>	-3.792030 17.365850 15.509542	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	13	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_93>
+	<entity_94>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999954 -0.009628	</row1>
+			<row2>	0.000000 0.009628 0.999954	</row2>
+			<row3>	-2.201431 17.388632 17.784742	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	13	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_94>
+	<entity_95>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 -0.008668 -0.000198	</row0>
+			<row1>	0.008669 0.999950 -0.005016	</row1>
+			<row2>	0.000239 0.005014 0.999985	</row2>
+			<row3>	-13.729942 17.358049 5.685704	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	18	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_95>
+	<entity_96>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 -0.008707 -0.000198	</row0>
+			<row1>	0.008708 0.999953 -0.004259	</row1>
+			<row2>	0.000232 0.004257 0.999988	</row2>
+			<row3>	-11.738724 17.371698 11.861169	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	18	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_96>
+	<entity_97>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 -0.008658 -0.000198	</row0>
+			<row1>	0.008659 0.999949 -0.005217	</row1>
+			<row2>	0.000240 0.005215 0.999983	</row2>
+			<row3>	-9.113419 17.358545 13.780137	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	18	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_97>
+	<entity_98>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 -0.008694 -0.000198	</row0>
+			<row1>	0.008695 0.999952 -0.004494	</row1>
+			<row2>	0.000234 0.004492 0.999986	</row2>
+			<row3>	-11.794220 17.357199 8.868907	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	18	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_98>
+	<entity_99>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 -0.008671 -0.000198	</row0>
+			<row1>	0.008672 0.999950 -0.004964	</row1>
+			<row2>	0.000238 0.004962 0.999984	</row2>
+			<row3>	-16.219864 17.369268 3.614237	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	18	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_99>
+	<entity_100>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	0.866020 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.499997 0.000000 0.866020	</row2>
+			<row3>	-35.727463 20.058174 16.988817	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10111226	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_100>
+	<entity_101>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258818 0.000000 -0.965917	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.965917 0.000000 0.258818	</row2>
+			<row3>	1.133300 63.883026 -0.093414	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_101>
+	<entity_102>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	3.255615 17.426197 -9.216095	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_102>
+	<entity_103>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	5.320684 17.426197 -8.521217	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_103>
+	<entity_104>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	6.625643 17.426199 -7.055954	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_104>
+	<entity_105>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	7.595099 17.426197 -5.276390	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_105>
+	<entity_106>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	9.615699 17.426199 -2.251953	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_106>
+	<entity_107>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	10.171605 17.426199 -0.788414	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_107>
+	<entity_108>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	10.076516 17.426199 -4.975693	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_108>
+	<entity_109>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	8.560757 17.426199 -7.172432	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_109>
+	<entity_110>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	7.419209 17.426199 -8.882584	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_110>
+	<entity_111>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	2.636077 17.426199 -11.253212	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_111>
+	<entity_112>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.260161 17.426197 -11.139023	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_112>
+	<entity_113>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	12.025868 17.426199 -1.708885	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_113>
+	<entity_114>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	11.260815 17.426193 -3.351158	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_114>
+	<entity_115>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	6.365476 17.426199 -10.314743	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_115>
+	<entity_116>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	4.345180 17.426199 -11.014618	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_116>
+	<entity_117>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008674 0.000022	</row0>
+			<row1>	-0.008676 0.999949 0.005201	</row1>
+			<row2>	0.000023 -0.005201 0.999987	</row2>
+			<row3>	28.799212 17.465847 -1.111473	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_117>
+	<entity_118>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008667 0.000022	</row0>
+			<row1>	-0.008670 0.999950 0.005004	</row1>
+			<row2>	0.000021 -0.005005 0.999988	</row2>
+			<row3>	26.744602 17.459887 -3.479729	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_118>
+	<entity_119>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999963 0.008555 0.000021	</row0>
+			<row1>	-0.008558 0.999949 0.005435	</row1>
+			<row2>	0.000025 -0.005436 0.999986	</row2>
+			<row3>	23.635542 17.432545 -3.402458	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_119>
+	<entity_120>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008666 0.000021	</row0>
+			<row1>	-0.008670 0.999950 0.005018	</row1>
+			<row2>	0.000022 -0.005018 0.999988	</row2>
+			<row3>	27.229040 17.480703 -6.799622	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_120>
+	<entity_121>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008650 0.000021	</row0>
+			<row1>	-0.008654 0.999953 0.004473	</row1>
+			<row2>	0.000017 -0.004473 0.999991	</row2>
+			<row3>	21.519041 17.397577 -0.082947	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_121>
+	<entity_122>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008676 0.000021	</row0>
+			<row1>	-0.008680 0.999948 0.005360	</row1>
+			<row2>	0.000025 -0.005360 0.999987	</row2>
+			<row3>	15.965685 17.485029 -27.171997	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	2	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_122>
+	<entity_123>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008652 0.000021	</row0>
+			<row1>	-0.008657 0.999952 0.004563	</row1>
+			<row2>	0.000018 -0.004563 0.999991	</row2>
+			<row3>	16.112963 17.470030 -23.920410	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	2	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_123>
+	<entity_124>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999999 -0.000004 -0.000042	</row0>
+			<row1>	0.000000 0.999950 0.010011	</row1>
+			<row2>	0.000042 -0.010011 0.999951	</row2>
+			<row3>	13.069052 17.460363 -24.952301	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	2	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_124>
+	<entity_125>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008684 0.000023	</row0>
+			<row1>	-0.008688 0.999950 0.004995	</row1>
+			<row2>	0.000020 -0.004995 0.999989	</row2>
+			<row3>	13.284368 17.428881 -20.598572	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	2	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_125>
+	<entity_126>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999966 0.008097 0.000020	</row0>
+			<row1>	-0.008101 0.999953 0.005327	</row1>
+			<row2>	0.000023 -0.005327 0.999987	</row2>
+			<row3>	16.117956 17.447107 -19.332916	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	2	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_126>
+	<entity_127>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008721 0.000023	</row0>
+			<row1>	-0.008725 0.999950 0.004974	</row1>
+			<row2>	0.000020 -0.004974 0.999989	</row2>
+			<row3>	18.874264 17.474737 -20.077347	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	2	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_127>
+	<entity_128>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999965 0.008277 0.000021	</row0>
+			<row1>	-0.008281 0.999952 0.005226	</row1>
+			<row2>	0.000022 -0.005226 0.999988	</row2>
+			<row3>	19.459272 17.464190 -16.957802	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	2	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_128>
+	<entity_129>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008762 0.000023	</row0>
+			<row1>	-0.008766 0.999949 0.004951	</row1>
+			<row2>	0.000020 -0.004951 0.999989	</row2>
+			<row3>	16.241570 17.433378 -16.375618	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	2	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_129>
+	<entity_130>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999965 0.008319 0.000021	</row0>
+			<row1>	-0.008323 0.999951 0.005201	</row1>
+			<row2>	0.000022 -0.005201 0.999988	</row2>
+			<row3>	11.840740 17.414135 -20.153946	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	2	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_130>
+	<entity_131>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000005 -0.000042	</row0>
+			<row1>	0.000001 0.999949 0.010012	</row1>
+			<row2>	0.000042 -0.010012 0.999951	</row2>
+			<row3>	9.402781 17.458378 -24.753815	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	2	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_131>
+	<entity_132>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008670 -0.000062	</row0>
+			<row1>	-0.008670 0.999949 0.005006	</row1>
+			<row2>	0.000106 -0.005006 0.999986	</row2>
+			<row3>	23.698263 17.474669 -11.708916	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	9	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_132>
+	<entity_133>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008676 0.000022	</row0>
+			<row1>	-0.008676 0.999950 0.005009	</row1>
+			<row2>	0.000022 -0.005009 0.999987	</row2>
+			<row3>	21.729736 17.463751 -12.937622	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	9	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_133>
+	<entity_134>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999966 0.008213 0.000020	</row0>
+			<row1>	-0.008213 0.999955 0.004748	</row1>
+			<row2>	0.000020 -0.004748 0.999988	</row2>
+			<row3>	19.182039 17.441519 -12.909035	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	9	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_134>
+	<entity_135>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008787 0.000023	</row0>
+			<row1>	-0.008787 0.999948 0.005071	</row1>
+			<row2>	0.000023 -0.005071 0.999986	</row2>
+			<row3>	23.079798 17.454618 -8.774796	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	9	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_135>
+	<entity_136>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999964 0.008483 0.000021	</row0>
+			<row1>	-0.008483 0.999951 0.004901	</row1>
+			<row2>	0.000022 -0.004901 0.999987	</row2>
+			<row3>	20.786671 17.428930 -7.614685	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	9	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_136>
+	<entity_137>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008854 0.000023	</row0>
+			<row1>	-0.008854 0.999947 0.005108	</row1>
+			<row2>	0.000024 -0.005108 0.999986	</row2>
+			<row3>	18.534475 17.418882 -9.508659	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	9	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_137>
+	<entity_138>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999964 0.008528 0.000021	</row0>
+			<row1>	-0.008528 0.999951 0.004927	</row1>
+			<row2>	0.000022 -0.004927 0.999987	</row2>
+			<row3>	18.543652 17.405586 -6.836418	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	9	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_138>
+	<entity_139>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008796 0.000022	</row0>
+			<row1>	-0.008796 0.999948 0.005075	</row1>
+			<row2>	0.000023 -0.005075 0.999986	</row2>
+			<row3>	16.873970 17.408884 -10.387024	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	9	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_139>
+	<entity_140>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999965 0.008441 0.000020	</row0>
+			<row1>	-0.008441 0.999952 0.004880	</row1>
+			<row2>	0.000021 -0.004880 0.999987	</row2>
+			<row3>	20.452785 17.414217 -5.254402	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	9	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_140>
+	<entity_141>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000001 -0.000043	</row0>
+			<row1>	-0.000001 0.999949 0.010010	</row1>
+			<row2>	0.000043 -0.010010 0.999949	</row2>
+			<row3>	2.989637 17.470240 -25.938690	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	10	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_141>
+	<entity_142>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	4.389852 17.477289 -22.581421	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	10	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_142>
+	<entity_143>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999950 0.010013	</row1>
+			<row2>	0.000000 -0.010013 0.999950	</row2>
+			<row3>	1.063806 17.458616 -24.777603	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	10	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_143>
+	<entity_144>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999954 0.009628	</row1>
+			<row2>	0.000000 -0.009628 0.999954	</row2>
+			<row3>	1.975758 17.430153 -21.934509	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	10	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_144>
+	<entity_145>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999946 0.010361	</row1>
+			<row2>	0.000000 -0.010361 0.999946	</row2>
+			<row3>	2.437734 17.403120 -19.234375	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	10	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_145>
+	<entity_146>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999949 0.010054	</row1>
+			<row2>	0.000000 -0.010054 0.999949	</row2>
+			<row3>	5.801278 17.423063 -21.226563	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	10	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_146>
+	<entity_147>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008670 -0.000066	</row0>
+			<row1>	-0.008669 0.999950 0.005025	</row1>
+			<row2>	0.000108 -0.005024 0.999987	</row2>
+			<row3>	14.122619 17.363565 -6.098946	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	15	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_147>
+	<entity_148>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008689 -0.000066	</row0>
+			<row1>	-0.008688 0.999953 0.004329	</row1>
+			<row2>	0.000102 -0.004328 0.999990	</row2>
+			<row3>	13.279931 17.368540 -8.552223	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	15	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_148>
+	<entity_149>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008663 -0.000066	</row0>
+			<row1>	-0.008662 0.999949 0.005290	</row1>
+			<row2>	0.000110 -0.005289 0.999985	</row2>
+			<row3>	12.452464 17.388998 -14.072540	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	15	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_149>
+	<entity_150>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008681 -0.000066	</row0>
+			<row1>	-0.008680 0.999952 0.004615	</row1>
+			<row2>	0.000104 -0.004614 0.999988	</row2>
+			<row3>	10.585238 17.354252 -10.365341	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	15	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_150>
+	<entity_151>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008666 -0.000066	</row0>
+			<row1>	-0.008664 0.999949 0.005201	</row1>
+			<row2>	0.000109 -0.005200 0.999985	</row2>
+			<row3>	15.353869 17.363476 -3.948578	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	15	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_151>
+	<entity_152>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999999 0.000005 -0.000132	</row0>
+			<row1>	-0.000002 0.999950 0.010010	</row1>
+			<row2>	0.000130 -0.010010 0.999948	</row2>
+			<row3>	0.725669 17.358154 -14.742813	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	16	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_152>
+	<entity_153>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999999 -0.000319 -0.000135	</row0>
+			<row1>	0.000322 0.999949 0.010136	</row1>
+			<row2>	0.000130 -0.010136 0.999947	</row2>
+			<row3>	2.637143 17.375299 -16.455559	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	16	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_153>
+	<entity_154>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999999 0.000198 -0.000130	</row0>
+			<row1>	-0.000195 0.999951 0.009935	</row1>
+			<row2>	0.000130 -0.009935 0.999949	</row2>
+			<row3>	4.476989 17.354609 -14.388573	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	16	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_154>
+	<entity_155>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965917 0.000000 -0.258818	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.258818 0.000000 -0.965917	</row2>
+			<row3>	62.267273 16.627901 54.066875	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_155>
+	<entity_156>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.995706 0.000000 -0.092487	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.092487 0.000000 -0.995706	</row2>
+			<row3>	66.090393 18.031546 56.777489	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_156>
+	<entity_157>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499996 0.000000 -0.866018	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.866018 0.000000 0.499996	</row2>
+			<row3>	5.011097 66.135674 2.085238	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_157>
+	<entity_158>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	4.533729 17.426197 8.993817	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_158>
+	<entity_159>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	2.105248 17.426197 9.204790	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_159>
+	<entity_160>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	10.053014 17.426199 0.795179	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_160>
+	<entity_161>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	9.295432 17.426199 2.112967	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_161>
+	<entity_162>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	8.335654 17.426199 4.354590	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_162>
+	<entity_163>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	7.322416 17.426197 6.056579	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_163>
+	<entity_164>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	7.546604 17.426199 9.123550	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_164>
+	<entity_165>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	8.855144 17.426197 7.168904	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_165>
+	<entity_166>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	9.868293 17.426199 5.374838	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_166>
+	<entity_167>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.283640 17.426197 11.303671	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_167>
+	<entity_168>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	5.304453 17.426199 11.147491	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_168>
+	<entity_169>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	11.936829 17.426199 0.593992	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	0	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_169>
+	<entity_170>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008668 0.000022	</row0>
+			<row1>	-0.008670 0.999950 -0.005023	</row1>
+			<row2>	-0.000066 0.005022 0.999988	</row2>
+			<row3>	29.074915 17.475138 2.487781	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_170>
+	<entity_171>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008652 0.000022	</row0>
+			<row1>	-0.008654 0.999953 -0.004326	</row1>
+			<row2>	-0.000060 0.004325 0.999991	</row2>
+			<row3>	27.201971 17.466078 3.921773	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_171>
+	<entity_172>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008671 0.000022	</row0>
+			<row1>	-0.008673 0.999949 -0.005166	</row1>
+			<row2>	-0.000067 0.005165 0.999987	</row2>
+			<row3>	24.736509 17.426424 0.270142	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_172>
+	<entity_173>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008657 0.000022	</row0>
+			<row1>	-0.008659 0.999952 -0.004509	</row1>
+			<row2>	-0.000061 0.004508 0.999990	</row2>
+			<row3>	23.488153 17.430998 3.346720	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_173>
+	<entity_174>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008667 0.000021	</row0>
+			<row1>	-0.008670 0.999950 -0.005023	</row1>
+			<row2>	-0.000065 0.005022 0.999988	</row2>
+			<row3>	25.241148 17.470392 8.179822	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	1	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_174>
+	<entity_175>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-7.073019 17.460703 24.983892	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	5	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_175>
+	<entity_176>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999950 -0.010013	</row1>
+			<row2>	0.000000 0.010013 0.999950	</row2>
+			<row3>	15.005788 17.482386 27.149603	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_176>
+	<entity_177>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999954 -0.009628	</row1>
+			<row2>	0.000000 0.009628 0.999954	</row2>
+			<row3>	12.000763 17.486414 27.552130	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_177>
+	<entity_178>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008689 -0.000064	</row0>
+			<row1>	-0.008689 0.999950 -0.004995	</row1>
+			<row2>	0.000020 0.004995 0.999988	</row2>
+			<row3>	15.603792 17.466078 24.010946	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_178>
+	<entity_179>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000003 0.000001	</row0>
+			<row1>	0.000003 0.999950 -0.010013	</row1>
+			<row2>	-0.000002 0.010012 0.999950	</row2>
+			<row3>	12.520194 17.443008 23.216318	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_179>
+	<entity_180>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000307 -0.000002	</row0>
+			<row1>	-0.000307 0.999952 -0.009784	</row1>
+			<row2>	-0.000002 0.009783 0.999952	</row2>
+			<row3>	9.923911 17.458817 24.795424	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_180>
+	<entity_181>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008688 -0.000064	</row0>
+			<row1>	-0.008688 0.999950 -0.004995	</row1>
+			<row2>	0.000020 0.004994 0.999987	</row2>
+			<row3>	15.567489 17.455500 21.959553	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_181>
+	<entity_182>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999967 0.008101 -0.000061	</row0>
+			<row1>	-0.008101 0.999953 -0.005326	</row1>
+			<row2>	0.000017 0.005325 0.999985	</row2>
+			<row3>	12.883847 17.425917 20.698542	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_182>
+	<entity_183>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000001 0.000001	</row0>
+			<row1>	-0.000001 0.999950 -0.010010	</row1>
+			<row2>	-0.000002 0.010009 0.999949	</row2>
+			<row3>	12.519321 17.466516 25.564529	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_183>
+	<entity_184>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000358 0.000005	</row0>
+			<row1>	0.000358 0.999947 -0.010292	</row1>
+			<row2>	-0.000002 0.010291 0.999946	</row2>
+			<row3>	8.894772 17.476139 26.525589	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_184>
+	<entity_185>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000210 -0.000001	</row0>
+			<row1>	-0.000210 0.999951 -0.009846	</row1>
+			<row2>	-0.000002 0.009845 0.999950	</row2>
+			<row3>	7.781371 17.448156 23.730497	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_185>
+	<entity_186>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000063 0.000000	</row0>
+			<row1>	-0.000063 0.999950 -0.009961	</row1>
+			<row2>	-0.000002 0.009960 0.999949	</row2>
+			<row3>	10.196354 17.430933 22.010260	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	6	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_186>
+	<entity_187>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000041 0.000001	</row0>
+			<row1>	0.000041 0.999949 -0.010043	</row1>
+			<row2>	-0.000002 0.010042 0.999948	</row2>
+			<row3>	0.975009 17.448442 23.758842	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	7	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_187>
+	<entity_188>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000041 0.000000	</row0>
+			<row1>	-0.000041 0.999949 -0.009979	</row1>
+			<row2>	-0.000002 0.009978 0.999948	</row2>
+			<row3>	1.631876 17.430042 21.921053	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	7	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_188>
+	<entity_189>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 -0.000225 0.000003	</row0>
+			<row1>	0.000225 0.999947 -0.010185	</row1>
+			<row2>	-0.000002 0.010184 0.999946	</row2>
+			<row3>	2.729213 17.468279 25.740568	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	7	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_189>
+	<entity_190>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-4.371811 17.465414 25.454275	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	7	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_190>
+	<entity_191>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008691 -0.000065	</row0>
+			<row1>	-0.008691 0.999950 -0.004993	</row1>
+			<row2>	0.000022 0.004993 0.999988	</row2>
+			<row3>	21.350342 17.471399 15.119958	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	8	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_191>
+	<entity_192>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999967 0.008128 -0.000062	</row0>
+			<row1>	-0.008128 0.999953 -0.005319	</row1>
+			<row2>	0.000019 0.005319 0.999986	</row2>
+			<row3>	19.046192 17.445496 13.936042	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	8	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_192>
+	<entity_193>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008863 -0.000066	</row0>
+			<row1>	-0.008863 0.999949 -0.004893	</row1>
+			<row2>	0.000023 0.004893 0.999988	</row2>
+			<row3>	17.612902 17.438005 14.922297	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	8	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_193>
+	<entity_194>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999966 0.008272 -0.000063	</row0>
+			<row1>	-0.008272 0.999952 -0.005237	</row1>
+			<row2>	0.000020 0.005237 0.999986	</row2>
+			<row3>	22.297022 17.465218 12.245206	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	8	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_194>
+	<entity_195>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 0.008939 -0.000066	</row0>
+			<row1>	-0.008939 0.999948 -0.004848	</row1>
+			<row2>	0.000023 0.004848 0.999988	</row2>
+			<row3>	18.872057 17.428473 10.837334	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	8	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_195>
+	<entity_196>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999965 0.008370 -0.000063	</row0>
+			<row1>	-0.008370 0.999951 -0.005181	</row1>
+			<row2>	0.000020 0.005181 0.999986	</row2>
+			<row3>	16.742008 17.418087 12.451838	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	8	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_196>
+	<entity_197>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008836 -0.000065	</row0>
+			<row1>	-0.008836 0.999948 -0.004908	</row1>
+			<row2>	0.000022 0.004908 0.999987	</row2>
+			<row3>	19.376387 17.465023 17.265343	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	8	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_197>
+	<entity_198>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999966 0.008272 -0.000062	</row0>
+			<row1>	-0.008272 0.999951 -0.005238	</row1>
+			<row2>	0.000019 0.005238 0.999985	</row2>
+			<row3>	20.614811 17.453943 12.906937	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	8	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_198>
+	<entity_199>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999961 0.008862 -0.000065	</row0>
+			<row1>	-0.008862 0.999948 -0.004893	</row1>
+			<row2>	0.000022 0.004893 0.999987	</row2>
+			<row3>	15.745801 17.419905 14.540711	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	8	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_199>
+	<entity_200>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999965 0.008340 -0.000062	</row0>
+			<row1>	-0.008340 0.999951 -0.005198	</row1>
+			<row2>	0.000019 0.005198 0.999985	</row2>
+			<row3>	17.372282 17.408945 9.533456	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	8	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_200>
+	<entity_201>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	20.707861 17.441145 -10.191467	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	9	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_201>
+	<entity_202>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-22.786535 17.479336 14.229163	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	12	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_202>
+	<entity_203>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.255699 17.356588 15.484097	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	13	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_203>
+	<entity_204>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	3.072592 17.365480 15.472316	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	13	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_204>
+	<entity_205>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999950 -0.010013	</row1>
+			<row2>	0.000000 0.010013 0.999950	</row2>
+			<row3>	5.679206 17.395552 18.475973	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	13	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_205>
+	<entity_206>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999962 0.008689 -0.000064	</row0>
+			<row1>	-0.008689 0.999950 -0.004995	</row1>
+			<row2>	0.000020 0.004995 0.999988	</row2>
+			<row3>	13.667422 17.373610 8.891715	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	14	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_206>
+	<entity_207>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999967 0.008108 -0.000061	</row0>
+			<row1>	-0.008108 0.999953 -0.005309	</row1>
+			<row2>	0.000017 0.005309 0.999986	</row2>
+			<row3>	15.998279 17.377535 5.639147	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	14	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_207>
+	<entity_208>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999960 0.008900 -0.000065	</row0>
+			<row1>	-0.008900 0.999948 -0.004881	</row1>
+			<row2>	0.000021 0.004881 0.999988	</row2>
+			<row3>	15.654653 17.361214 2.973818	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	14	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_208>
+	<entity_209>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999964 0.008416 -0.000063	</row0>
+			<row1>	-0.008416 0.999951 -0.005142	</row1>
+			<row2>	0.000019 0.005142 0.999987	</row2>
+			<row3>	13.551425 17.354914 5.357805	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	14	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_209>
+	<entity_210>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.999959 0.008945 -0.000066	</row0>
+			<row1>	-0.008945 0.999948 -0.004857	</row1>
+			<row2>	0.000021 0.004857 0.999988	</row2>
+			<row3>	11.542914 17.366844 11.220399	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<group>	14	</group>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_210>
+</root>

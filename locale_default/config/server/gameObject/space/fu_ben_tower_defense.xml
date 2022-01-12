@@ -1,0 +1,27 @@
+<root>
+		<spaceName>	塔防副本	</spaceName>
+		<EntityType>	SpaceCopyTowerDefense	</EntityType>
+		<DomainType>	SpaceDomainCopyTeam	</DomainType>
+		<script>	SpaceCopyTowerDefense	</script>
+		<SpaceType>	SPACE_TYPE_TOWER_DEFENSE	</SpaceType>
+		<className>	fu_ben_tower_defense	</className>
+		<dirMapping>	universes/fu_ben_shen_gui_mi_jing	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canGetAccum>	1	</canGetAccum>		<!-- 能召唤守护，打怪能获得气运值 -->
+		<canConjurePet>	1	</canConjurePet>	<!-- 能否召唤宠物-->
+		<TimeOfDay>	55800	</TimeOfDay>
+		<spawnFile>	</spawnFile>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<spawnMonsterIntervels>	30	</spawnMonsterIntervels>
+			<spawnMonsterBatchNum>	1	</spawnMonsterBatchNum>
+			<lieZhenMonstersID>	20121024;20121025	</lieZhenMonstersID>
+			<lieZhenMonstersNum>	30	</lieZhenMonstersNum>
+			<aiCommandIDs>	20;40;60	</aiCommandIDs>
+			<energy>	0;100	</energy>
+			<bossClassName>	20121026	</bossClassName>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

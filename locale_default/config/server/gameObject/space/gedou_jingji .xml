@@ -1,0 +1,33 @@
+<root>
+	<EntityType>	SpaceMultiLine	</EntityType>
+	<DomainType>	SpaceDomainMultiLine</DomainType>
+	<script>	SpaceMultiLine	</script>
+	<className>	gedou_jingji	</className>
+	<dirMapping>	universes/fu_ben_gdfb_hai_dao	</dirMapping>
+	<CanPk>	1	</CanPk>
+	<TimeOn>	0	</TimeOn>
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/gedou_jingji.xml	</spawnFile>
+	<TimeOn>	0	</TimeOn>
+	<canFly>	1	</canFly>
+	<CanQieCuo>	1	</CanQieCuo>		<!-- ÔÊÐíÇÐ´è -->
+	<canArrest>	</canArrest>
+	<maxLine>	1	</maxLine>
+	<initLine>	1	</initLine>
+	<newLineByPlayerAmount>	50	</newLineByPlayerAmount>
+	<maxPlayerAmount>	263	</maxPlayerAmount>
+	<Space>
+		<Transport>	</Transport>
+		<Door>	</Door>
+		<Tomb>
+			<fengming01>
+				<SpaceName>	gedou_jingji	</SpaceName>
+				<Position>	910.364 208.160 213.759	</Position>
+				<Direction>	0.0 0.0 -180.0	</Direction>
+			</fengming01>
+		</Tomb>
+		<spaceBBoxMin> -999, -999, -999 </spaceBBoxMin>
+		<spaceBBoxMax> 999, 999, 999 </spaceBBoxMax>
+		<deathDepth>	-999	</deathDepth>
+	</Space>
+</root>

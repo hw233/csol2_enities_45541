@@ -1,0 +1,132 @@
+<root>
+	<RealType>			REAL_TYPE_NO_CELL	</RealType>
+	<BaseType>			BASE_TYPE_NORMAL	</BaseType>
+	<InstantiationType>	NEVER				</InstantiationType>
+
+	<Properties>		
+		
+		<duplicateSpaceID>
+			<Type>		INT32		</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	true		</Persistent>
+		</duplicateSpaceID>
+		
+		<logSpaceName>
+			<Type>		STRING		</Type>
+			<Flags>		BASE		</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	true		</Persistent>
+		</logSpaceName>
+		
+		<history>
+			<Type>		HISTORYINFOS	</Type>
+			<Flags>		BASE		</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	true		</Persistent>
+		</history>
+		
+		<leave>
+			<Type>		LEAVEINFO	</Type>
+			<Flags>		BASE		</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	true		</Persistent>
+		</leave>
+		
+		<sign>
+			<Type>		DUPLICATESIGN	</Type>
+			<Flags>		BASE		</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	true		</Persistent>
+		</sign>	
+		
+		<worldPosition>
+			<Type>		VECTOR3		</Type>
+			<Flags>		BASE		</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	true		</Persistent>
+		</worldPosition>	
+					
+		<!--<currDuplicate>
+			<Type>		DUPLICATESIGN	</Type>
+			<Flags>		BASE		</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	true		</Persistent>
+		</currDuplicate>-->
+	</Properties>
+		
+	<BaseMethods>		
+		
+		<moveToSpace>
+			<Arg>		STRING		</Arg>
+			<Arg>		VECTOR3		</Arg>
+		</moveToSpace>
+		
+		<enterToDuplicate>
+		</enterToDuplicate>
+		
+		<checkEnterDuplicate>					
+			<Arg>		PYTHON		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>	
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		STRING		</Arg>	
+			<Arg>		STRING		</Arg>	
+		</checkEnterDuplicate>	
+			
+		<onEuplicateState>					
+		</onEuplicateState>
+		
+		<onOffLine>
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		INT8		</Arg>
+		</onOffLine>
+		
+		<onLineEnter>
+			<Arg>		STRING		</Arg>	
+			<Arg>		MAILBOX		</Arg> <!-- sapceCellMailbox -->		
+		</onLineEnter>
+		
+		<enterDuplicate>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</enterDuplicate>
+		
+		<exitDuplicate>			
+		</exitDuplicate>
+		
+		<clearDuplicateLog>			
+		</clearDuplicateLog>
+		
+		<clearDuplicateSign>			
+		</clearDuplicateSign>
+					
+		<offLineForDuplicate>			
+		</offLineForDuplicate>
+		
+		<onLineForDuplicate>			
+		</onLineForDuplicate>
+
+		<setDuplicateSign>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		INT64			</Arg>
+			<Arg>		STRING			</Arg>
+		</setDuplicateSign>
+		
+	</BaseMethods>
+			
+	<CellMethods>
+					
+		<logDuplicateSpaceID>
+			<Arg>		DATABASE_ID	</Arg>
+		</logDuplicateSpaceID>
+		
+		<checkPlayerCondition>
+			<Arg>		PYTHON		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</checkPlayerCondition>
+				
+	</CellMethods>
+	
+</root>

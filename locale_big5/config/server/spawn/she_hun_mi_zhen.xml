@@ -1,0 +1,2591 @@
+<root>
+	<entity_1>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.866022 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.499997 0.000000 -0.866022	</row2>
+			<row3>	-210.526932 -23.317331 -137.348801	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	32.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	-169.507599 1.613605 9.701513	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-144.459320 0.235713 45.621593	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-147.154602 0.730428 71.363747	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-179.118149 0.561272 59.531536	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-175.957962 1.718406 48.041122	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	-165.314728 1.493035 0.741084	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	0.965924 0.000000 0.258819	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.258819 0.000000 0.965924	</row2>
+			<row3>	-136.067047 -2.769531 66.877121	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10111395	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.434933 0.018054 -0.900269	</row0>
+			<row1>	-0.011712 0.999820 0.014390	</row1>
+			<row2>	0.900374 0.004286 0.435068	</row2>
+			<row3>	-158.324020 -3.001953 26.261673	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20744006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	3	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.483180 -0.000004 -0.875508	</row0>
+			<row1>	0.000004 0.999991 -0.000005	</row1>
+			<row2>	0.875508 -0.000001 0.483179	</row2>
+			<row3>	-163.100372 -3.009765 35.514488	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20714004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	3	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<type>	SpawnPointCopyDoor	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999997	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.999997 0.000000 0.000000	</row2>
+			<row3>	-127.952019 -2.769531 60.026993	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10111397	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	4	</monsterType>
+			<useRectangle>	1	</useRectangle>
+			<radius>	0.000000	</radius>
+			<volume>	12.400000 6.000000 1.000000	</volume>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.807838 -0.312064 -0.499996	</row0>
+			<row1>	0.360342 0.932813 0.000000	</row1>
+			<row2>	0.466406 -0.180171 0.866015	</row2>
+			<row3>	-108.948967 -1.799003 28.135845	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741014	</entityName>
+			<rediviousTime>	2.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.707100 0.000102 -0.707100	</row0>
+			<row1>	-0.000143 0.999993 0.000000	</row1>
+			<row2>	0.707100 0.000102 0.707099	</row2>
+			<row3>	-120.387978 -0.225464 21.386574	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741014	</entityName>
+			<rediviousTime>	2.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.466406 -0.180170 -0.866018	</row0>
+			<row1>	-0.360342 0.932813 0.000000	</row1>
+			<row2>	0.807838 0.312064 -0.499996	</row2>
+			<row3>	-131.755173 -1.674356 27.595190	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741014	</entityName>
+			<rediviousTime>	2.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965922 0.000000 0.258819	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.258819 0.000000 -0.965922	</row2>
+			<row3>	-3.110344 30.400637 -232.292007	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	32.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.707102 0.002123 -0.707098	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.707101 0.002829 -0.707096	</row2>
+			<row3>	-93.156860 15.514406 -115.736641	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-42.590031 20.028307 -105.985924	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.258818 0.003253 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965918 0.001389 -0.258814	</row2>
+			<row3>	-36.103012 25.350979 -101.741081	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965918 0.001390 -0.258814	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	0.258818 -0.003253 0.965914	</row2>
+			<row3>	-26.417923 25.979635 -65.382515	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-88.106026 15.081193 -29.895401	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-51.482666 13.331718 -22.542252	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-82.947861 19.582457 -85.784409	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-87.336555 14.814709 -25.234566	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-60.890324 14.419551 -5.566727	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	-24.541412 25.405117 -85.981056	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.965921 0.000000 -0.258818	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258818 0.000000 -0.965921	</row2>
+			<row3>	-8.355942 3.277343 -1.001030	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.866019 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.499997 0.000000 -0.866019	</row2>
+			<row3>	-4.473648 3.267578 -4.795586	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.258817 0.000000 -0.965918	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.965918 0.000000 0.258817	</row2>
+			<row3>	-9.640579 3.306640 -4.719307	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.258818 0.000000 0.965921	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	-0.965921 0.000000 0.258818	</row2>
+			<row3>	-6.595978 3.207031 -10.095772	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.707102 0.000000 -0.707101	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.707101 0.000000 -0.707102	</row2>
+			<row3>	-13.003777 3.488281 -7.113647	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.258817 0.000000 -0.965919	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.965919 0.000000 0.258817	</row2>
+			<row3>	-16.344475 19.183588 -77.994293	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.258817 0.000000 -0.965921	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.965921 0.000000 -0.258817	</row2>
+			<row3>	-19.314232 19.367182 -70.912842	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.965918 0.000000 -0.258817	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258817 0.000000 0.965918	</row2>
+			<row3>	-16.736435 19.249994 -73.884506	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.000001 0.000000 -0.999993	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.999993 0.000000 0.000001	</row2>
+			<row3>	-14.086914 19.499994 -69.447945	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.707103 0.000000 0.707103	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	-0.707103 0.000000 -0.707103	</row2>
+			<row3>	-10.557983 19.365229 -73.936035	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.258817 0.000000 -0.965921	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.965921 0.000000 -0.258817	</row2>
+			<row3>	-85.287735 12.115232 -52.739025	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.258817 0.000000 -0.965919	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.965919 0.000000 0.258817	</row2>
+			<row3>	-82.317970 13.109372 -59.820473	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.965918 0.000000 -0.258817	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258817 0.000000 0.965918	</row2>
+			<row3>	-82.709930 12.570310 -55.710686	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.000001 0.000000 -0.999993	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.999993 0.000000 0.000001	</row2>
+			<row3>	-80.060410 12.199216 -51.274136	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.707103 0.000000 0.707103	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	-0.707103 0.000000 -0.707103	</row2>
+			<row3>	-76.531479 13.275388 -55.762215	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999993	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	-0.999993 0.000000 0.000000	</row2>
+			<row3>	-47.417130 10.208982 -15.208069	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	4DF7DB26.41CED7D1.5549D4AD.99992040	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	713B3A8C.454D4B12.73CBC98F.0002B5A3	</patrolPathNode>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	-0.999994 0.000000 0.000000	</row2>
+			<row3>	-44.767918 9.888669 -14.533630	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	4DF7DB26.41CED7D1.5549D4AD.99992040	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	713B3A8C.454D4B12.73CBC98F.0002B5A3	</patrolPathNode>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999991	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	-0.999991 0.000000 0.000000	</row2>
+			<row3>	-41.542553 9.312497 -13.671944	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	4DF7DB26.41CED7D1.5549D4AD.99992040	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	713B3A8C.454D4B12.73CBC98F.0002B5A3	</patrolPathNode>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999992	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	-0.999992 0.000000 0.000000	</row2>
+			<row3>	-38.604626 8.687497 -12.844460	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	4DF7DB26.41CED7D1.5549D4AD.99992040	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	713B3A8C.454D4B12.73CBC98F.0002B5A3	</patrolPathNode>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.000001 0.000000 0.999992	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	-0.999992 0.000000 -0.000001	</row2>
+			<row3>	-35.341019 7.853515 -11.928604	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	4DF7DB26.41CED7D1.5549D4AD.99992040	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	713B3A8C.454D4B12.73CBC98F.0002B5A3	</patrolPathNode>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.436603 0.000000 -0.899644	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.899644 0.000000 0.436603	</row2>
+			<row3>	-55.171410 18.900385 -89.919464	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	7E32E916.485153DA.0A51F3AF.B762A6F3	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	32A71329.465EE629.FD7F94B5.E818E769	</patrolPathNode>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.436602 0.000000 -0.899645	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.899645 0.000000 0.436602	</row2>
+			<row3>	-51.246033 18.900385 -87.925529	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	7E32E916.485153DA.0A51F3AF.B762A6F3	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	32A71329.465EE629.FD7F94B5.E818E769	</patrolPathNode>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.436602 0.000000 -0.899644	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.899644 0.000000 0.436602	</row2>
+			<row3>	-48.482780 18.900385 -86.349251	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	7E32E916.485153DA.0A51F3AF.B762A6F3	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	32A71329.465EE629.FD7F94B5.E818E769	</patrolPathNode>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.436603 0.000000 -0.899646	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.899646 0.000000 0.436603	</row2>
+			<row3>	-44.963707 18.906244 -84.542023	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	7E32E916.485153DA.0A51F3AF.B762A6F3	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	32A71329.465EE629.FD7F94B5.E818E769	</patrolPathNode>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.436603 0.000000 -0.899645	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.899645 0.000000 0.436603	</row2>
+			<row3>	-42.329433 18.919916 -83.064308	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	7E32E916.485153DA.0A51F3AF.B762A6F3	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	32A71329.465EE629.FD7F94B5.E818E769	</patrolPathNode>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	-100.855934 0.187229 71.204422	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	-60.351383 14.867199 0.015014	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	-31.028442 3.861094 75.262787	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-94.417297 0.862551 46.599598	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.258818 0.003253 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965918 0.001389 -0.258814	</row2>
+			<row3>	-54.903214 3.856852 38.323860	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-7.179344 3.801757 78.297241	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-93.196472 1.431116 73.243538	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-80.483192 0.525939 22.366758	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.866023 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.499999 0.000000 -0.866023	</row2>
+			<row3>	-13.333099 48.944054 61.355038	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	32.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	-77.842499 -0.027549 24.383842	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.499997 0.000000 -0.866021	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.866021 0.000000 0.499997	</row2>
+			<row3>	-13.447197 0.017578 55.088821	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20144004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	2	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<type>	SpawnPointCopyDoor	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 0.000000	</row2>
+			<row3>	-95.749001 -2.820312 59.519001	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10111397	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	4	</monsterType>
+			<useRectangle>	1	</useRectangle>
+			<radius>	0.000000	</radius>
+			<volume>	12.400000 6.000000 1.000000	</volume>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.707098 0.000202 -0.707098	</row0>
+			<row1>	0.000285 0.999991 0.000000	</row1>
+			<row2>	0.707097 -0.000202 -0.707099	</row2>
+			<row3>	-97.796280 -2.820002 33.231964	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741014	</entityName>
+			<rediviousTime>	2.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.731234 0.000016 -0.682111	</row0>
+			<row1>	-0.000022 0.999992 0.000000	</row1>
+			<row2>	0.682110 0.000015 0.731234	</row2>
+			<row3>	-98.690636 -2.819997 21.944113	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741014	</entityName>
+			<rediviousTime>	2.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	95.041115 58.851158 -3.763229	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	72.372200 54.576962 -18.239754	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	57.809128 45.801220 -40.580555	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_67>
+	<entity_68>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	1.054703 30.012621 -76.586937	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_68>
+	<entity_69>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	2.488447 6.756952 -4.259720	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_69>
+	<entity_70>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.258817 0.000000 -0.965919	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.965919 0.000000 0.258817	</row2>
+			<row3>	54.808720 38.681629 -33.138992	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_70>
+	<entity_71>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258817	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.258817 0.000000 0.965919	</row2>
+			<row3>	54.416767 39.775379 -29.029213	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_71>
+	<entity_72>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.707103 0.000000 0.707103	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.707103 0.000000 -0.707103	</row2>
+			<row3>	60.595203 40.714832 -29.080742	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_72>
+	<entity_73>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.258817 0.000000 -0.965921	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.965921 0.000000 -0.258817	</row2>
+			<row3>	51.838970 40.261707 -26.057549	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_73>
+	<entity_74>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.000001 0.000000 -0.999993	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.999993 0.000000 0.000001	</row2>
+			<row3>	57.066280 41.380848 -24.592659	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_74>
+	<entity_75>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.654571 0.000000 0.755989	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	-0.755989 0.000000 -0.654571	</row2>
+			<row3>	35.461071 30.771479 -52.609715	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	5EC0120C.41CDB971.3E3B229B.EDDAD3A6	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	CB83B9BE.4A8003EB.AA80D0BD.A04611DA	</patrolPathNode>
+		</properties>
+	</entity_75>
+	<entity_76>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.654571 0.000000 0.755989	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	-0.755989 0.000000 -0.654571	</row2>
+			<row3>	37.707836 31.810541 -50.268951	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	5EC0120C.41CDB971.3E3B229B.EDDAD3A6	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	CB83B9BE.4A8003EB.AA80D0BD.A04611DA	</patrolPathNode>
+		</properties>
+	</entity_76>
+	<entity_77>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.654569 0.000000 0.755987	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	-0.755987 0.000000 -0.654569	</row2>
+			<row3>	40.591984 32.972645 -47.993031	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	5EC0120C.41CDB971.3E3B229B.EDDAD3A6	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	CB83B9BE.4A8003EB.AA80D0BD.A04611DA	</patrolPathNode>
+		</properties>
+	</entity_77>
+	<entity_78>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.654570 0.000000 0.755987	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	-0.755987 0.000000 -0.654570	</row2>
+			<row3>	46.010864 35.083973 -43.423683	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	5EC0120C.41CDB971.3E3B229B.EDDAD3A6	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	CB83B9BE.4A8003EB.AA80D0BD.A04611DA	</patrolPathNode>
+		</properties>
+	</entity_78>
+	<entity_79>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.654569 0.000000 0.755988	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	-0.755988 0.000000 -0.654569	</row2>
+			<row3>	43.277733 34.056629 -45.697266	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	5EC0120C.41CDB971.3E3B229B.EDDAD3A6	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	CB83B9BE.4A8003EB.AA80D0BD.A04611DA	</patrolPathNode>
+		</properties>
+	</entity_79>
+	<entity_80>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	89.379692 59.148777 9.545661	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_80>
+	<entity_81>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	81.026123 56.651207 25.093048	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_81>
+	<entity_82>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	76.018005 57.350189 46.189671	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_82>
+	<entity_83>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	3.325359 6.528292 1.100855	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_83>
+	<entity_84>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	4.724441 2.551035 46.024792	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_84>
+	<entity_85>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	10.156775 3.013250 40.362118	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_85>
+	<entity_86>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.866022 0.000000 0.499998	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.499998 0.000000 -0.866022	</row2>
+			<row3>	88.576447 53.562489 41.285553	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_86>
+	<entity_87>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.258818 0.000000 -0.965919	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.965919 0.000000 0.258818	</row2>
+			<row3>	84.006149 53.486317 44.707352	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_87>
+	<entity_88>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.000001 0.000000 -0.999995	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.999995 0.000000 0.000001	</row2>
+			<row3>	79.336075 53.212879 41.939449	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_88>
+	<entity_89>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.499997 0.000000 -0.866020	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.866020 0.000000 0.499997	</row2>
+			<row3>	84.037468 53.310535 35.867966	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_89>
+	<entity_90>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	82.595169 53.271473 39.736263	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_90>
+	<entity_91>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.953412 0.000000 0.301641	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	-0.301641 0.000000 -0.953412	</row2>
+			<row3>	70.254097 51.400379 15.414506	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	07F390D9.482D7E77.42E15698.FAD48ED7	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	6C275C75.401ED269.2600AF9B.0126C61C	</patrolPathNode>
+		</properties>
+	</entity_91>
+	<entity_92>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.953412 0.000000 0.301641	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	-0.301641 0.000000 -0.953412	</row2>
+			<row3>	71.221657 51.835926 18.663172	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	07F390D9.482D7E77.42E15698.FAD48ED7	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	6C275C75.401ED269.2600AF9B.0126C61C	</patrolPathNode>
+		</properties>
+	</entity_92>
+	<entity_93>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.953409 0.000000 0.301640	</row0>
+			<row1>	0.000000 0.999990 0.000000	</row1>
+			<row2>	-0.301640 0.000000 -0.953409	</row2>
+			<row3>	72.550743 52.201160 22.425810	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	07F390D9.482D7E77.42E15698.FAD48ED7	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	6C275C75.401ED269.2600AF9B.0126C61C	</patrolPathNode>
+		</properties>
+	</entity_93>
+	<entity_94>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.953411 0.000000 0.301640	</row0>
+			<row1>	0.000000 0.999990 0.000000	</row1>
+			<row2>	-0.301640 0.000000 -0.953411	</row2>
+			<row3>	73.679680 52.437489 25.896814	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	07F390D9.482D7E77.42E15698.FAD48ED7	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	6C275C75.401ED269.2600AF9B.0126C61C	</patrolPathNode>
+		</properties>
+	</entity_94>
+	<entity_95>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.953410 0.000000 0.301639	</row0>
+			<row1>	0.000000 0.999990 0.000000	</row1>
+			<row2>	-0.301639 0.000000 -0.953410	</row2>
+			<row3>	74.978699 52.570301 29.448898	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	07F390D9.482D7E77.42E15698.FAD48ED7	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	6C275C75.401ED269.2600AF9B.0126C61C	</patrolPathNode>
+		</properties>
+	</entity_95>
+	<entity_96>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999996 0.000345 0.000000	</row0>
+			<row1>	-0.000345 0.999996 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999995	</row2>
+			<row3>	94.195778 79.688820 219.958176	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	32.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_96>
+	<entity_97>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	123.318031 50.909134 -108.219666	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_97>
+	<entity_98>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	146.578705 51.625687 -104.559486	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_98>
+	<entity_99>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	144.011322 51.581810 -141.657776	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_99>
+	<entity_100>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	146.772461 50.422180 -135.697418	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_100>
+	<entity_101>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	120.846710 51.366547 -117.353378	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_101>
+	<entity_102>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	-0.707105 0.000000 0.707104	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.707104 0.000000 -0.707105	</row2>
+			<row3>	144.179993 48.679676 -105.470078	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10111396	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_102>
+	<entity_103>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	151.085571 51.593422 -52.268822	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_103>
+	<entity_104>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	126.590126 54.684589 -28.715958	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_104>
+	<entity_105>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.965923 0.000000 0.258818	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.258818 0.000000 -0.965923	</row2>
+			<row3>	137.785645 52.679676 -19.035202	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_105>
+	<entity_106>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.999996 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999996	</row2>
+			<row3>	132.657227 52.869129 -17.672737	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_106>
+	<entity_107>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.707105 0.000000 0.707105	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.707105 0.000000 0.707105	</row2>
+			<row3>	144.061462 52.822254 -17.824837	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_107>
+	<entity_108>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.258818 0.000000 -0.965922	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.965922 0.000000 -0.258818	</row2>
+			<row3>	140.632141 53.390614 -13.029007	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_108>
+	<entity_109>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.965923 0.000000 -0.258818	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.258818 0.000000 -0.965923	</row2>
+			<row3>	134.998077 53.296864 -12.636749	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_109>
+	<entity_110>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	139.600372 48.689442 -57.140064	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_110>
+	<entity_111>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 0.866024	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866024 0.000000 -0.499999	</row2>
+			<row3>	134.985046 48.689442 -55.862778	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_111>
+	<entity_112>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499999 0.000000 -0.866024	</row2>
+			<row3>	133.471954 48.685535 -52.424129	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_112>
+	<entity_113>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 -0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.499999 0.000000 -0.866024	</row2>
+			<row3>	138.924835 48.664051 -49.963081	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_113>
+	<entity_114>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.707105 0.000000 0.707105	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707105 0.000000 -0.707105	</row2>
+			<row3>	142.724457 48.689442 -53.321903	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_114>
+	<entity_115>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	112.022797 59.448627 26.769213	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_115>
+	<entity_116>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	118.306015 58.991875 22.802505	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_116>
+	<entity_117>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	112.068512 60.061359 66.753143	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_117>
+	<entity_118>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965919 -0.000423 0.258817	</row0>
+			<row1>	-0.000500 0.999988 0.003502	</row1>
+			<row2>	-0.258817 -0.003512 0.965914	</row2>
+			<row3>	159.926758 59.837425 20.080534	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_118>
+	<entity_119>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258816 0.003512 -0.965913	</row0>
+			<row1>	-0.000500 0.999987 0.003502	</row1>
+			<row2>	0.965919 -0.000424 0.258817	</row2>
+			<row3>	153.385956 59.379959 68.104805	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	4.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_119>
+	<entity_120>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999995	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.999995 0.000000 0.000000	</row2>
+			<row3>	172.271057 58.139713 43.191189	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20154003	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	2	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_120>
+	<entity_121>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.965922 0.000000 0.258818	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.258818 0.000000 -0.965922	</row2>
+			<row3>	137.183899 56.210926 34.506092	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_121>
+	<entity_122>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.258818 0.000000 -0.965921	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.965921 0.000000 -0.258818	</row2>
+			<row3>	130.283752 56.210926 38.523712	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20142007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_122>
+	<entity_123>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.965922 0.000000 -0.258818	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.258818 0.000000 -0.965922	</row2>
+			<row3>	131.915344 56.210926 33.112724	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20122008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_123>
+	<entity_124>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	0.707104 0.000000 0.707104	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.707104 0.000000 0.707104	</row2>
+			<row3>	133.857941 56.210926 28.187321	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20112008	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_124>
+	<entity_125>
+		<type>	SpawnPointCopyShehunmizhen	</type>
+		<transform>
+			<row0>	-0.999995 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999995	</row2>
+			<row3>	126.766327 56.210926 32.613739	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20132004	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_125>
+</root>

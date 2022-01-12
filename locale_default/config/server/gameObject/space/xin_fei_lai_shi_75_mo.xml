@@ -1,0 +1,23 @@
+<root>
+	<EntityType>SpaceCopySingle</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopySingle</script>
+	<className>xin_fei_lai_shi_75_mo</className>
+	<dirMapping> universes/xin_fei_lai_shi_001_25_dao </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<playerAoI>	100	</playerAoI>				<!--玩家的视野范围-->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/xin_fei_lai_shi_75_mo.xml		</spawnFile>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<Space>
+		<spaceBBoxMin>	-125,-100,-375	</spaceBBoxMin>
+		<spaceBBoxMax>	-25,200,-275	</spaceBBoxMax>
+		<deathDepth>	-250	</deathDepth>
+	</Space>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>                                  		
+	<initLine>1</initLine>
+	<maxPlayerAmount>525</maxPlayerAmount>                           
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 	
+</root>

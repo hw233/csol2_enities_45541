@@ -1,0 +1,22 @@
+<root>
+		<spaceName>	炼妖壶	</spaceName>
+		<EntityType>	CopyTemplate	</EntityType>
+		<DomainType>	SpaceDomainCopyTeam		</DomainType>
+		<script>	CopyMeltMonsterPot	</script>
+		<SpaceType>	SPACE_TYPE_MELT_MONSTER_POT	</SpaceType>
+		<className>	fu_ben_lian_yao_hu	</className>
+		<dirMapping>	universes/fu_ben_hu_zhong_jie_001	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<playerAoI>	200	</playerAoI>				<!--玩家的视野范围-->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_lian_yao_hu.xml		</spawnFile>
+		<waitingCycle>	10	</waitingCycle>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+		<CopyStageFile>	config/server/copyStage/CopyStage_meltmonsterpot.xml	</CopyStageFile>
+		<extended_shown>	20	</extended_shown>		<!--加上妖气百分比显示-->
+</root>

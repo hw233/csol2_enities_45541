@@ -1,0 +1,12 @@
+# -*- coding: gb18030 -*-
+
+from CEquip import CEquip
+
+class CTalisman( CEquip ):
+	"""
+	·¨±¦-¼Ì³Ð×°±¸
+	"""
+	def __init__( self, srcData ):
+		"""
+		"""
+		CEquip.__init__( self, srcData )

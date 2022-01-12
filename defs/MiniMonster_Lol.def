@@ -1,0 +1,25 @@
+<root>
+	<Parent>		MiniMonster			</Parent>
+	<ClientName>		MiniMonster_Lol			</ClientName>
+
+	<Properties>
+		<belong>
+			<Type>		OBJECT_ID			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Default>		0			</Default>
+		</belong>
+	</Properties>
+
+	<ClientMethods>
+		<requestNearByEnemy><!-- 服务器请求最近的怪物ID -->
+			<Arg>		FLOAT				</Arg>
+		</requestNearByEnemy>
+	</ClientMethods>
+
+	<CellMethods>
+		<receiveNearByEnemy>
+			<Exposed/>
+			<Arg>		OBJECT_ID	</Arg>
+		</receiveNearByEnemy>
+	</CellMethods>
+</root>

@@ -1,0 +1,3137 @@
+<root>
+	<row>
+		<name>	天降奇獸	</name>
+		<description>	開始通報	</description>
+		<cmd>	50 23,12 * * *	</cmd>
+		<key>	tianjiangqishou_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	天降奇獸	</name>
+		<description>	@S{4}在這世界上一直流傳著一個傳說，在遠古時代的猛獸大頭暴龍並沒有滅絕，而一直在飛雲坡的密林中生活著。許多勇士為了得到它在留仙臺、避世澗、青鳥邑野外探索了很多年，但一直都找不到暴龍一族的蹤跡。隨著混沌氏族的入侵，異獸族的力量得到了增強，隱匿的暴龍開始頻繁的現身，並且會攻擊這裡的居民。如果你想得到暴龍蛋，那就叫上你的戰友，一起去那裡和暴龍群戰鬥吧。@B{2}@S{4}每天0:00、13:00在留仙臺、避世澗、青鳥邑附近會刷新許多大頭暴龍。通過對話進入副本進行戰鬥，就有機會在最終BOSS身上得到稀有的大頭暴龍蛋。	</description>
+		<cmd>	0 0,13 * * *	</cmd>
+		<key>	tianjiangqishou_Start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	40	</condition>
+		<area>	40-60級地圖	</area>
+		<act>	1	</act>
+		<activityType>	珍寵	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	天降奇獸	</name>
+		<description>	結束	</description>
+		<cmd>	30 0,13 * * *	</cmd>
+		<key>	tianjiangqishou_End	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	嘟嘟豬	</name>
+		<description>	開始通報	</description>
+		<cmd>	20 0 * * *	</cmd>
+		<key>	duduzhu_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	嘟嘟豬	</name>
+		<description>	@S{4}邪惡嘟嘟豬帶領著狂暴嘟嘟豬企圖破壞巫苗寨、東華紫府以及太阿城，可憐的嘟嘟豬被洗腦變成了狂暴軍團的一員。勇士趕快拿起你的武器去打敗邪惡嘟嘟豬吧！成功消滅邪惡嘟嘟豬可以獲得嘟嘟豬的寵物蛋哦！@B{2}@S{4}每天的0:30，在巫苗寨、東華紫府以及太阿城附近會出現許多狂暴嘟嘟豬。組成至少3人的隊伍，通過對話進入副本進行戰鬥，就有機會在副本boss身上得到稀有的嘟嘟豬寵物蛋。	</description>
+		<cmd>	30 0 * * *	</cmd>
+		<key>	duduzhu_Start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	70	</condition>
+		<area>	70-110級地圖	</area>
+		<act>	1	</act>
+		<activityType>	珍寵	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	嘟嘟豬	</name>
+		<description>	結束	</description>
+		<cmd>	0 1 * * *	</cmd>
+		<key>	duduzhu_End	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	兵臨城下	</name>
+		<description>	開始通報	</description>
+		<cmd>	50 0 * * *	</cmd>
+		<key>	MonsterActivityMgr_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	兵臨城下	</name>
+		<description>	@S{4}外來邪惡力量意圖占領並毀滅整個世界，而人類頑強抵抗。為了摧毀人類的反抗並占領整個世界，它們組織了各色妖魔對各補給點進行了瘋狂的進攻。一旦補給點被攻陷，人類將遭受重大損失。@B{2}@S{4}兵臨城下定時在每天1:00、19:30刷新，玩家只需準時到達各補給點門口（銀沙村除外），與怪物頭領對話後便可開始戰鬥，擊退怪物的入侵。	</description>
+		<cmd>	0 1 * * *	</cmd>
+		<key>	MonsterActivityMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	各城鎮門口	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	兵臨城下	</name>
+		<description>	結束	</description>
+		<cmd>	0 3 * * *	</cmd>
+		<key>	MonsterActivityMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	兵臨城下	</name>
+		<description>	開始通報	</description>
+		<cmd>	20 19 * * *	</cmd>
+		<key>	MonsterActivityMgr_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	兵臨城下	</name>
+		<description>	@S{4}外來邪惡力量意圖占領並毀滅整個世界，而人類頑強抵抗。為了摧毀人類的反抗並占領整個世界，它們組織了各色妖魔對各補給點進行了瘋狂的進攻。一旦補給點被攻陷，人類將遭受重大損失。@B{2}@S{4}兵臨城下定時在每天1:00、19:30刷新，玩家只需準時到達各補給點門口（銀沙村除外），與怪物頭領對話後便可開始戰鬥，擊退怪物的入侵。	</description>
+		<cmd>	30 19 * * *	</cmd>
+		<key>	MonsterActivityMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	各城鎮門口	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	兵臨城下	</name>
+		<description>	結束	</description>
+		<cmd>	30 21 * * *	</cmd>
+		<key>	MonsterActivityMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	千年毒蛙	</name>
+		<description>	開始通報	</description>
+		<cmd>	20 1,20 * * *	</cmd>
+		<key>	ToxinFrogMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	千年毒蛙	</name>
+		<description>	@S{4}能夠污染環境的千年毒蛙會威脅到鳳鳴人民的性命安全，每天的1:30、20:30混沌就會傳送千年毒蛙到各城鎮外（除銀沙村），企圖污染水源。@B{2}@S{4}成功消滅千年毒蛙能獲得豐厚的獎勵。	</description>
+		<cmd>	30 1,20 * * *	</cmd>
+		<key>	ToxinFrogMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	各城鎮門口	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	千年毒蛙	</name>
+		<description>	結束	</description>
+		<cmd>	0 2,21 * * *	</cmd>
+		<key>	ToxinFrogMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	變身大賽	</name>
+		<description>	@S{4}在每天11:30-11:50、17:30-17:50鳳鳴城海灘上的變身小丑@L{t=&apos;馬夕($xz{10111211})&apos;;m=goto:10111211;cfc=c4;hfc=c3}會召開變身大賽，歡迎各位玩家前去報名參加。@B{2}@S{4}注意：這一活動的報名時間為活動召開前10分鐘，超過時間將無法報名參加。	</description>
+		<cmd>	30 11,17 * * *	</cmd>
+		<key>	BCGameMgr_start_notice	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	鳳鳴海灘	</area>
+		<act>	1	</act>
+		<activityType>	1	</activityType>
+		<line>	1	</line>
+		<star>	4	</star>
+		<persist>	20	</persist>
+	</row>
+	<row>
+		<name>	變身大賽	</name>
+		<description>	變身大賽結束	</description>
+		<cmd>	50 11,17 * * *	</cmd>
+		<key>	BCGameMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	賽馬	</name>
+		<description>	開始通報	</description>
+		<cmd>	50 11,17 * * *	</cmd>
+		<key>	RacehorseManager_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	賽馬	</name>
+		<description>	@S{4}每天12:00、18:00在鳳鳴都會召開賽馬大賽，只要玩家達到20級以上，便可以去鳳鳴尋找@L{t=&apos;採薇($xz{10111005})&apos;;m=goto:10111005;cfc=c4;hfc=c3}報名參加賽馬大賽，在賽馬大賽中勝出的玩家將獲得豐厚的回報。@B{2}@S{4}注意：這個活動只有在前2分鐘可以報名，之後將無法報名。@B{2}@S{4}完成比賽後可找賽馬管理員採薇領取一份獎品。	</description>
+		<cmd>	0 12,18 * * *	</cmd>
+		<key>	RacehorseManager_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	20	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	10	</persist>
+	</row>
+	<row>
+		<name>	賽馬	</name>
+		<description>	結束	</description>
+		<cmd>	15 12,18 * * *	</cmd>
+		<key>	RacehorseManager_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	智力問答	</name>
+		<description>	開始通報	</description>
+		<cmd>	20 12,18 * * *	</cmd>
+		<key>	QuizGameMgr_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	智力問答	</name>
+		<description>	@S{4}想挑戰自己的知識極限嗎？每天12:30、18:30將舉行知識問答活動!@B{2}@S{4}奮戰在天上人間的您想不想在休息之餘獲取經驗和神秘獎勵呢，請馬上脫離戰鬥參加到活動中來吧!	</description>
+		<cmd>	30 12,18 * * *	</cmd>
+		<key>	QuizGameMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	10	</condition>
+		<area>	任意地點	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	4	</star>
+		<persist>	10	</persist>
+	</row>
+	<row>
+		<name>	智力問答	</name>
+		<description>	結束	</description>
+		<cmd>	45 12,18 * * *	</cmd>
+		<key>	QuizGameMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	擊退牛魔王	</name>
+		<description>	開始通報	</description>
+		<cmd>	20 13 * * *	</cmd>
+		<key>	BovineDevilMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	擊退牛魔王	</name>
+		<description>	@S{4}屢敗屢戰，屢戰屢敗。每天的13:30、20:00牛魔王就會在各城鎮外（除銀沙村外）叫囂。勇士們，拿起手中的武器，把這只矬牛趕跑。@B{2}@S{4}成功擊退牛魔王能獲得豐厚的獎勵。	</description>
+		<cmd>	30 13 * * *	</cmd>
+		<key>	BovineDevilMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	各城鎮門口	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	擊退牛魔王	</name>
+		<description>	結束	</description>
+		<cmd>	0 14 * * *	</cmd>
+		<key>	BovineDevilMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	擊退牛魔王	</name>
+		<description>	開始通報	</description>
+		<cmd>	50 19 * * *	</cmd>
+		<key>	BovineDevilMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	擊退牛魔王	</name>
+		<description>	@S{4}屢敗屢戰，屢戰屢敗。每天的13:30、20:00牛魔王就會在各城鎮外（除銀沙村外）叫囂。勇士們，拿起手中的武器，把這只矬牛趕跑。@B{2}@S{4}成功擊退牛魔王能獲得豐厚的獎勵。	</description>
+		<cmd>	0 20 * * *	</cmd>
+		<key>	BovineDevilMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	各城鎮門口	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	擊退牛魔王	</name>
+		<description>	結束	</description>
+		<cmd>	30 20 * * *	</cmd>
+		<key>	BovineDevilMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	保護幫派	</name>
+		<description>	開始通報	</description>
+		<cmd>	50 14 * * *	</cmd>
+		<key>	ProtectTong_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	保護幫派	</name>
+		<description>	@S{4}喜歡搗亂的魔怪胖大丑盯上了玩家的幫會領地。每天的15:00、22:30胖大丑會到任意一個幫會的幫會領地進行破壞活動。	</description>
+		<cmd>	0 15 * * *	</cmd>
+		<key>	ProtectTong_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	10	</condition>
+		<area>	幫派領地	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	保護幫派	</name>
+		<description>	結束	</description>
+		<cmd>	30 15 * * *	</cmd>
+		<key>	ProtectTong_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	保護幫派	</name>
+		<description>	開始通報	</description>
+		<cmd>	20 22 * * *	</cmd>
+		<key>	ProtectTong_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	保護幫派	</name>
+		<description>	@S{4}喜歡搗亂的魔怪胖大丑盯上了玩家的幫會領地。每天的15:00、22:30胖大丑會到任意一個幫會的幫會領地進行破壞活動。	</description>
+		<cmd>	30 22 * * *	</cmd>
+		<key>	ProtectTong_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	10	</condition>
+		<area>	幫派領地	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	保護幫派	</name>
+		<description>	結束	</description>
+		<cmd>	0 23 * * *	</cmd>
+		<key>	ProtectTong_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	水晶副本	</name>
+		<description>	開始通報	</description>
+		<cmd>	20 14 * * *	</cmd>
+		<key>	Shuijing_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	水晶副本	</name>
+		<description>	@S{4}為了保衛鳳鳴，金烏大神設計了一個強大的水晶結界，但是狡猾的妖魔污染了結界水晶，使得純潔的水晶精靈成為人類的敵人，為了消除隱患，金烏王派遣使者雲舒召集天下勇士來除掉這些被怪物污染的水晶。@B{2}@S{4}水晶副本在每天14:30-17:30、21:00-24:00召開，30級以上玩家組成3人以上隊伍即可在鳳鳴城的水晶副本管理員@L{t=&apos;雲舒($xz{10111220})&apos;;m=goto:10111220;cfc=c4;hfc=c3}處報名參與，水晶副本能提供給玩家大量經驗，還有其他物品獎勵。每天可以進行兩次。	</description>
+		<cmd>	30 14 * * *	</cmd>
+		<key>	shuijing_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	180	</persist>
+	</row>
+	<row>
+		<name>	水晶副本	</name>
+		<description>	結束	</description>
+		<cmd>	30 17 * * *	</cmd>
+		<key>	shuijing_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	水晶副本	</name>
+		<description>	開始通報	</description>
+		<cmd>	50 20 * * *	</cmd>
+		<key>	Shuijing_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	水晶副本	</name>
+		<description>	@S{4}為了保衛鳳鳴，金烏大神設計了一個強大的水晶結界，但是狡猾的妖魔污染了結界水晶，使得純潔的水晶精靈成為人類的敵人，為了消除隱患，金烏王派遣使者雲舒召集天下勇士來除掉這些被怪物污染的水晶。@B{2}@S{4}水晶副本在每天14:30-17:30、21:00-24:00召開，30級以上玩家組成3人以上隊伍即可在鳳鳴城的水晶副本管理員@L{t=&apos;雲舒($xz{10111220})&apos;;m=goto:10111220;cfc=c4;hfc=c3}處報名參與，水晶副本能提供給玩家大量經驗，還有其他物品獎勵。每天可以進行兩次。	</description>
+		<cmd>	0 21 * * *	</cmd>
+		<key>	shuijing_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	180	</persist>
+	</row>
+	<row>
+		<name>	水晶副本	</name>
+		<description>	結束	</description>
+		<cmd>	0 0 * * *	</cmd>
+		<key>	shuijing_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	混沌入侵	</name>
+		<description>	開始通報	</description>
+		<cmd>	50 18 * * *	</cmd>
+		<key>	hundun_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	混沌入侵	</name>
+		<description>	@S{4}混沌入侵以來，糾集這個世界上各種邪惡勢力對人類進行著殘酷的攻擊。伴隨混沌力量在這個世界上肆虐，盤古的結界力量不斷減弱。混沌族群中體型較小的一些魔物終於來到了這個世界。他們接受的第一個命令就是攻擊人類的補給點。人類在眾神的幫助下，捍衛自己最後的家園。@B{2}@S{4}每天的19:00在各補給點門口（銀沙村除外）會出現大量混沌精兵。各位勇士在30級以後，組織3人以上的隊伍，就可以與其對抗。戰鬥中可以獲得大量積分，在鳳鳴城金烏守防衛統帥@L{t=&apos;天佑($xz{10144028})&apos;;m=goto:10144028;cfc=c4;hfc=c3}那裡換取稱號。	</description>
+		<cmd>	0 19 * * *	</cmd>
+		<key>	hundun_Start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	各城鎮門口	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	混沌入侵	</name>
+		<description>	結束	</description>
+		<cmd>	30 19 * * *	</cmd>
+		<key>	hundun_End	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會掠奪戰	</name>
+		<description>	開始通報	</description>
+		<cmd>	20 21 * * *	</cmd>
+		<key>	TongRobWarManager_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會掠奪戰	</name>
+		<description>	@S{4}以殺掉對方幫會神獸為勝利條件，勝利者可以掠奪對方幫會中的大量幫會資金和幫會聲望。你們幫會真的足夠強大麼？來鳳鳴城@L{t=&apos;肖業($xz{10111003})&apos;;m=goto:10111003;cfc=c4;hfc=c3}這裡報名掠奪其他幫會吧！向他們證明你們的實力。@B{2}@S{4}強者從不欺凌弱小，被掠奪的目標幫會等級不能比貴幫會等級低2級以上。12:00-18:00為報名時間，報名成功後戰爭將於本日晚21:30正式舉行。	</description>
+		<cmd>	30 21 * * *	</cmd>
+		<key>	TongRobWarManager_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	幫會領地	</area>
+		<act>	1	</act>
+		<activityType>	競技	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	幫會掠奪戰	</name>
+		<description>	戰爭結束時間 提前1分鐘通報	</description>
+		<cmd>	30 22 * * *	</cmd>
+		<key>	TongRobWarManager_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會掠奪戰報名	</name>
+		<description>	@S{4}以殺掉對方幫會神獸為勝利條件，勝利者可以掠奪對方幫會中的大量幫會資金和幫會聲望。你們幫會真的足夠強大麼？來鳳鳴城@L{t=&apos;肖業($xz{10111003})&apos;;m=goto:10111003;cfc=c4;hfc=c3}這裡報名掠奪其他幫會吧！向他們證明你們的實力。@B{2}@S{4}強者從不欺凌弱小，被掠奪的目標幫會等級不能比貴幫會等級低2級以上。12:00-18:00為報名時間，報名成功後戰爭將於本日晚21:30正式舉行。	</description>
+		<cmd>	0 12 * * *	</cmd>
+		<key>	TongRobWarManagerSignUp_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	報名	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	360	</persist>
+	</row>
+	<row>
+		<name>	幫會掠奪戰	</name>
+		<description>	幫會掠奪戰報名結束	</description>
+		<cmd>	0 18 * * *	</cmd>
+		<key>	TongRobWarManagerSignUp_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會掠奪戰	</name>
+		<description>	每月1號 積分公示	</description>
+		<cmd>	0 1 * * *	</cmd>
+		<key>	registerPreMonthRobWarPoint	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	國運	</name>
+		<description>	開始通知	</description>
+		<cmd>	50 17 * * *	</cmd>
+		<key>	DartActivity_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	國運	</name>
+		<description>	@S{4}為了鼓勵運鏢的勇士，昌平、興隆兩大鏢局不約而同的決定在每天18:00-22:30內，給予運鏢的勇士雙倍獎勵，請各位勇士千萬不要浪費機會，過時不侯哦。	</description>
+		<cmd>	0 18 * * *	</cmd>
+		<key>	DartActivity_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	各地鏢局	</area>
+		<act>	1	</act>
+		<activityType>	金錢	</activityType>
+		<line>	全線	</line>
+		<star>	4	</star>
+		<persist>	270	</persist>
+	</row>
+	<row>
+		<name>	國運	</name>
+		<description>	國運結束一次通知	</description>
+		<cmd>	20 22 * * *	</cmd>
+		<key>	DartActivity_end_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	國運	</name>
+		<description>	國運結束二次通知	</description>
+		<cmd>	25 22 * * *	</cmd>
+		<key>	DartActivity_end_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	國運	</name>
+		<description>	國運結束三次通知	</description>
+		<cmd>	29 22 * * *	</cmd>
+		<key>	DartActivity_end_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	國運	</name>
+		<description>	國運結束	</description>
+		<cmd>	30 22 * * *	</cmd>
+		<key>	DartActivity_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	個人競技	</name>
+		<description>	開始通知	</description>
+		<cmd>	50 12,17,21 * * *	</cmd>
+		<key>	roleCompetition_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	個人競技	</name>
+		<description>	@S{4}人與人鬥，其樂無窮！每天的13:00-15:00，18:00-20:00，22:00-24:00，鳳鳴的@L{t=&apos;迢斬($xz{10111376})&apos;;m=goto:10111376;cfc=c4;hfc=c3}將舉辦大型個人競技活動，60級以上每個十級段可以有30個人參加，如果比賽中有人離開，其他人可以立即進入。@B{2}@S{4}在其中進行PK，不會受到任何PK懲罰，殺死對方可以獲得榮譽點。榮譽點可以用來換取各種裝備和道具。	</description>
+		<cmd>	0 13,18,22 * * *	</cmd>
+		<key>	roleCompetition_Start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	60	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	競技	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	個人競技	</name>
+		<description>	結束	</description>
+		<cmd>	0 15,20,24 * * *	</cmd>
+		<key>	roleCompetition_End	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	家族競技	</name>
+		<description>	開始通知	</description>
+		<cmd>	50 15,20 * * *	</cmd>
+		<key>	familyCompetition_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	家族競技	</name>
+		<description>	@S{4}人與人鬥，其樂無窮！每天的16:00-17:00，21:00-22:00，鳳鳴的@L{t=&apos;峮歐($xz{10111377})&apos;;m=goto:10111377;cfc=c4;hfc=c3}將舉辦大型家族競技活動，60級以上榮譽超過100的玩家可以參加。如果比賽中有人離開，其他人可以立即進入。@B{2}@S{4}在其中進行PK，不會受到任何PK懲罰，殺死對手，戰場中同一家族成員都可以獲得榮譽，當然被殺死同一家族都會被懲罰。榮譽點可以用來換取寶盒。	</description>
+		<cmd>	0 16,21 * * *	</cmd>
+		<key>	familyCompetition_Start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	60	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	競技	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	家族競技	</name>
+		<description>	結束	</description>
+		<cmd>	0 17,22 * * *	</cmd>
+		<key>	familyCompetition_End	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	潛能亂鬥	</name>
+		<description>	@S{4}為了使天下的勇士們能夠更快的成長起來以對抗混沌勢力，吳霜懇請金烏大神施展神力，在每周打開一次“玄天幻界”，進入此幻界的人將看到自己的心魔，所謂魔由心生。心魔在幻界中凝化為實體，成為各種妖魔。斬除妖魔，就可平心靜氣、大徹大悟，本身的能力又進入一個新的境界，即有更多的潛能可以學習新的技能。@B{2}@S{4}潛能亂鬥在每周日召開，十五級以上玩家均可組隊去鳳鳴城的@L{t=&apos;吳霜($xz{10111224})&apos;;m=goto:10111224;cfc=c4;hfc=c3}處報名參加，每個角色一周只能參加一次，參加潛能亂鬥可迅速獲得大量潛能。	</description>
+		<cmd>	0 0 * * 7	</cmd>
+		<key>	PotentialMelee_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	15	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	潛能	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	1440	</persist>
+	</row>
+	<row>
+		<name>	潛能亂鬥	</name>
+		<description>	結束	</description>
+		<cmd>	0 0 * * 1	</cmd>
+		<key>	PotentialMelee_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	經驗亂鬥	</name>
+		<description>	@S{4}為了使天下的勇士們能夠更快得成長起來以對抗混沌勢力，雙倍經驗管理員懇請金烏大神施展神力，在每周打開一次“諸天勝地”，進入此地進行修煉，驅除心中雜念。消滅這些雜念幻化為的妖魔即可獲得大量經驗。@B{2}@S{4}經驗亂鬥在每周六召開，十級以上玩家均可組隊去鳳鳴城的@L{t=&apos;吳霜($xz{10111224})&apos;;m=goto:10111224;cfc=c4;hfc=c3}處報名參加，每個角色一周只能參與一次，參加經驗亂鬥可迅速獲得大量經驗。	</description>
+		<cmd>	0 0 * * 6	</cmd>
+		<key>	ExpMelee_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	10	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	1440	</persist>
+	</row>
+	<row>
+		<name>	經驗亂鬥	</name>
+		<description>	結束	</description>
+		<cmd>	0 0 * * 7	</cmd>
+		<key>	ExpMelee_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	家族擂臺賽	</name>
+		<description>	開始通知	</description>
+		<cmd>	20 20 * * 1,3,5	</cmd>
+		<key>	TongAbattoirWar_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	家族擂臺賽	</name>
+		<description>	@S{4}家族擂臺賽在星期1、3、5的20:30召開，本家族參與家族擂臺賽的家族成員可以在家族管理員@L{t=&apos;少帝($xz{10111004})&apos;;m=goto:10111004;cfc=c4;hfc=c3}處參與家族擂臺賽，最終獲得勝利的家族，其成員可獲得大量經驗獎勵。@B{2}@S{4}注意：家族擂臺賽需要提前報名，報名時間為20:30-20:40，每次前八個報名、家族聲望超過一百的家族獲得參與資格；只有族長才有資格在家族管理員處報名。幫會成員必須達到55級才能進入。	</description>
+		<cmd>	30 20 * * 1,3,5	</cmd>
+		<key>	TongAbattoirWar_signup_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	55	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	競技	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	家族擂臺賽	</name>
+		<description>	報名結束	</description>
+		<cmd>	40 20 * * 1,3,5	</cmd>
+		<key>	TongAbattoirWar_signup_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	雙倍經驗	</name>
+		<description>	開始通知	</description>
+		<cmd>	50 19 * * 3,5,6,7	</cmd>
+		<key>	SysMultExpMgr_ready	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	雙倍經驗	</name>
+		<description>	@S{4}為了獎勵奮勇殺敵的勇士，神明將在星期三和星期五的20:00-22:00、星期六和星期天14：30-16：30、20:00-22:00內賜予勇士福音，在這段時間內戰鬥所獲得的經驗是平時所獲得的2倍，請各位勇士不要浪費這難得的修煉機會，奮勇戰鬥，努力殺敵，讓自己更快的成長。	</description>
+		<cmd>	0 20 * * 3,5,6,7	</cmd>
+		<key>	SysMultExpMgr_start2	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	全世界殺怪	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	雙倍經驗	</name>
+		<description>	結束	</description>
+		<cmd>	0 22 * * 3,5,6,7	</cmd>
+		<key>	SysMultExpMgr_end2	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	雙倍經驗	</name>
+		<description>	開始通知	</description>
+		<cmd>	20 14 * * 6,7	</cmd>
+		<key>	SysMultExpMgr_ready	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	雙倍經驗	</name>
+		<description>	@S{4}為了獎勵奮勇殺敵的勇士，神明將在星期三和星期五的20:00-22:00、星期六和星期天14：30-16：30、20:00-22:00內賜予勇士福音，在這段時間內戰鬥所獲得的經驗是平時所獲得的2倍，請各位勇士不要浪費這難得的修煉機會，奮勇戰鬥，努力殺敵，讓自己更快的成長。	</description>
+		<cmd>	30 14 * * 6,7	</cmd>
+		<key>	SysMultExpMgr_start2	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	全世界殺怪	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	雙倍經驗	</name>
+		<description>	結束	</description>
+		<cmd>	30 16 * * 6,7	</cmd>
+		<key>	SysMultExpMgr_end2	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	天降寶盒	</name>
+		<description>	開始通知	</description>
+		<cmd>	50 19 * * 3,5,6,7	</cmd>
+		<key>	LuckyBoxActivity_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	天降寶盒	</name>
+		<description>	@S{4}為了獎勵奮勇殺敵的勇士，神明每隔一段時間便會賜予勇士福音，降下寶盒，打開之後便能獲得相當豐厚的獎勵，包括金錢、經驗、潛能以及各項物品等等。@B{2}@S{4}天賜福音降下寶盒的事件將在星期三和星期五的20:00-22:00、星期六和星期天14：30-16：30、20:00-22:00開啟，開啟後只要在野外殺怪，都有可能獲得上天賜予的寶盒。	</description>
+		<cmd>	0 20 * * 3,5,6,7	</cmd>
+		<key>	LuckyBoxActivity_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	20	</condition>
+		<area>	怪物掉落	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	天降寶盒	</name>
+		<description>	結束	</description>
+		<cmd>	0 22 * * 3,5,6,7	</cmd>
+		<key>	LuckyBoxActivity_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	天降寶盒	</name>
+		<description>	開始通知	</description>
+		<cmd>	20 14 * * 6,7	</cmd>
+		<key>	LuckyBoxActivity_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	天降寶盒	</name>
+		<description>	@S{4}為了獎勵奮勇殺敵的勇士，神明每隔一段時間便會賜予勇士福音，降下寶盒，打開之後便能獲得相當豐厚的獎勵，包括金錢、經驗、潛能以及各項物品等等。@B{2}@S{4}天賜福音降下寶盒的事件將在星期三和星期五的20:00-22:00、星期六和星期天14：30-16：30、20:00-22:00開啟，開啟後只要在野外殺怪，都有可能獲得上天賜予的寶盒。	</description>
+		<cmd>	30 14 * * 6,7	</cmd>
+		<key>	LuckyBoxActivity_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	20	</condition>
+		<area>	怪物掉落	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	天降寶盒	</name>
+		<description>	結束	</description>
+		<cmd>	30 16 * * 6,7	</cmd>
+		<key>	LuckyBoxActivity_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	武道大會	</name>
+		<description>	@S{4}這是玩家比試的平臺，在周六21:00-22:30，60級以上的玩家到鳳鳴城@L{t=&apos;賽刑天($xz{10111212})&apos;;m=goto:10111212;cfc=c4;hfc=c3}那裡可以報名參加比武大會。每10級一個等級段一一對決，決出冠軍。冠軍將獲得大量獎勵。	</description>
+		<cmd>	0 21 * * 6	</cmd>
+		<key>	WuDaoMgr_start_notice	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	60	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	競技	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	90	</persist>
+	</row>
+	<row>
+		<name>	武道大會	</name>
+		<description>	結束	</description>
+		<cmd>	10 21 * * 6	</cmd>
+		<key>	WuDaoMgr_end_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	科舉鄉試	</name>
+		<description>	@S{4}科舉鄉試在星期一到星期五12:00-21:00舉行，等級超過十級的玩家可以前往鳳鳴的@L{t=&apos;科舉報名官員($xz{10111183})&apos;;m=goto:10111183;cfc=c4;hfc=c3}處報名參加，科舉鄉試需要在回答十五道題，根據回答者的等級題數和回答正確與否，每答一題都將獲得相應的豐厚經驗獎勵。另外還可能有機率獲得考官賜予的額外獎勵。@B{2}@S{4}答題正確率在60%以上的玩家可以獲得秀才稱號並擁有參加會試的資格。	</description>
+		<cmd>	0 12 * * 1-5	</cmd>
+		<key>	ImperialExaminationsMgr_xiangshi_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	10	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	4	</star>
+		<persist>	540	</persist>
+	</row>
+	<row>
+		<name>	科舉鄉試	</name>
+		<description>	星期1-5 21點鄉試結束	</description>
+		<cmd>	0 21 * * 1-5	</cmd>
+		<key>	ImperialExaminationsMgr_xiangshi_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	科舉會試	</name>
+		<description>	@S{4}科舉會試在星期六13:00-17:00舉行，在科舉鄉試中獲得秀才稱號的玩家均可在鳳鳴的@L{t=&apos;科舉報名官員($xz{10111183})&apos;;m=goto:10111183;cfc=c4;hfc=c3}處報名參加，科舉會試需要在回答十五道題，根據回答者的等級、題數和回答正確與否，每答一題都將獲得相應的豐厚經驗獎勵。另外還可能有機率獲得考官賜予的額外獎勵。@B{2}@S{4}答題正確率速度綜合排名前二十位的玩家可以獲得舉人稱號並擁有參加殿試的資格。	</description>
+		<cmd>	0 13 * * 6	</cmd>
+		<key>	ImperialExaminationsMgr_huishi_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	10	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	4	</star>
+		<persist>	240	</persist>
+	</row>
+	<row>
+		<name>	科舉會試	</name>
+		<description>	星期6 17點會試結束	</description>
+		<cmd>	0 17 * * 6	</cmd>
+		<key>	ImperialExaminationsMgr_huishi_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	科舉殿試	</name>
+		<description>	@S{4}科舉會試在星期天15:00-17:00舉行，在科舉會試中獲得舉人稱號的玩家均可在@L{t=&apos;殿試考官($xz{10111199})&apos;;m=goto:10111199;cfc=c4;hfc=c3}報名參加，科舉殿試需要在回答二十道題，根據回答者的等級題數和回答正確與否，每答一題都將獲得相應的豐厚經驗獎勵。另外還可能有機率獲得考官賜予的額外獎勵。@B{2}@S{4}答題正確率、速度的綜合排名前三位的玩家可以獲得狀元、榜眼、探花稱號，四至十名可獲得進士稱號。	</description>
+		<cmd>	0 15 * * 7	</cmd>
+		<key>	ImperialExaminationsMgr_dianshi_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	10	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	經驗	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	科舉殿試	</name>
+		<description>	星期7 17點殿試結束	</description>
+		<cmd>	0 17 * * 7	</cmd>
+		<key>	ImperialExaminationsMgr_dianshi_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	組隊競技	</name>
+		<description>	開始通知	</description>
+		<cmd>	20 21 * * 2,4	</cmd>
+		<key>	teamCompetition_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	組隊競技	</name>
+		<description>	@S{4}人與人鬥，其樂無窮！周二和周四21:30-22:00，鳳鳴的@L{t=&apos;戰八方($xz{10114002})&apos;;m=goto:10114002;cfc=c4;hfc=c3}將舉辦大型組隊競技場，50級以上每個十級段可以有10個隊伍參加，來奪取優勝大獎！@B{2}@S{4}任何參加活動的隊伍，即使沒有獲得優勝獎，也會獲得豐厚的經驗獎勵。@B{2}@S{4}報名時間：活動開始後3分鐘內。	</description>
+		<cmd>	30 21 * * 2,4	</cmd>
+		<key>	teamCompetition_Start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	鳳鳴城	</area>
+		<act>	1	</act>
+		<activityType>	競技	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	30	</persist>
+	</row>
+	<row>
+		<name>	組隊競技	</name>
+		<description>	結束	</description>
+		<cmd>	0 22 * * 2,4	</cmd>
+		<key>	teamCompetition_End	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	家族戰爭	</name>
+		<description>	星期2,4,6 20:55點開始通知開始	</description>
+		<cmd>	25 20 * * 2,4,6	</cmd>
+		<key>	FamilyWar_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	家族戰爭	</name>
+		<description>	星期2,4,6 12:00點允許報名	</description>
+		<cmd>	0 12 * * 2,4,6	</cmd>
+		<key>	FamilyWar_signup_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	360	</persist>
+	</row>
+	<row>
+		<name>	家族戰爭	</name>
+		<description>	星期2,4,6 18:00點結束報名	</description>
+		<cmd>	0 18 * * 2,4,6	</cmd>
+		<key>	FamilyWar_signup_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	戰爭開始時間 提前5分鐘通報	</description>
+		<cmd>	55 19 * * 1,2,3,4,5,7	</cmd>
+		<key>	TongCityWarManager_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	戰爭結束時間 結束5分鐘通報	</description>
+		<cmd>	25 21 * * 1,2,3,4,5,7	</cmd>
+		<key>	TongCityWarManager_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	發布戰爭結果公告	</description>
+		<cmd>	35 21 * * 1,2,3,4,5,7	</cmd>
+		<key>	TongCityWarManager_warResultNotify	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	發佈下一輪戰爭信息公告	</description>
+		<cmd>	36 21 * * 1,2,3,4,5	</cmd>
+		<key>	TongCityWarManager_nextWarNotify	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	允許競拍爭奪時間	</description>
+		<cmd>	0 * * * 1,2,3,4,5,6	</cmd>
+		<key>	TongCityWarManager_signup_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	結束競拍爭奪時間	</description>
+		<cmd>	0 * * * 7	</cmd>
+		<key>	TongCityWarManager_signup_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	發布可以參與競拍通告	</description>
+		<cmd>	45 *\2 * * 1,2,3,4,5,6	</cmd>
+		<key>	TongCityWarManager_signupNotify	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	發布競拍結果通告	</description>
+		<cmd>	0 1 * * 7	</cmd>
+		<key>	TongCityWarManager_signupResultNotify	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	發布競拍結果通告2	</description>
+		<cmd>	45 2,4,6,8,10,12,14 * * 1	</cmd>
+		<key>	TongCityWarManager_signupResultNotify2	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	發布競拍結果通告2	</description>
+		<cmd>	45 *\2 * * 7	</cmd>
+		<key>	TongCityWarManager_signupResultNotify2	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	計算城市消費稅	</description>
+		<cmd>	59 23 * * *	</cmd>
+		<key>	TongCityWarManager_calcCityRevenue	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	封印白蛇妖	</name>
+		<description>	@S{4}上古魔物白蛇妖想要沖破結界，每天的8點、16點、24點，是封印最弱的時候，這時白蛇妖會想盡辦法突破帝王古墓三層的結界，試圖擺脫封印。@B{2}@S{4}強力的BOSS，豐厚的獎勵，先到先得，等著您來參與。（BOSS等級70級。）	</description>
+		<cmd>	0 8,16,0 * * *	</cmd>
+		<key>	SealSnakeMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	64	</condition>
+		<area>	帝王古墓3層	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	封印白蛇妖	</name>
+		<description>	結束	</description>
+		<cmd>	10 8,16,0 * * *	</cmd>
+		<key>	SealSnakeMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	封印巨靈魔	</name>
+		<description>	@S{4}號外！號外！被鎮壓在帝王古墓六層的魔物統領據說要出來了！上古魔物統領巨靈魔，會在每天7點、15點、23點這幾個封印力量最弱的時候，試圖打破帝王古墓六層的結界。@B{2}@S{4}發揮你的小宇宙，搶先把BOSS轟殺吧！大量經驗獎勵在等著您！（BOSS等級80級。）	</description>
+		<cmd>	0 7,15,23 * * *	</cmd>
+		<key>	SealJuLingMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	74	</condition>
+		<area>	帝王古墓6層	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	封印巨靈魔	</name>
+		<description>	結束	</description>
+		<cmd>	10 7,15,23 * * *	</cmd>
+		<key>	SealJuLingMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	封印白蛇妖	</name>
+		<description>	公告	</description>
+		<cmd>	50 7,15,23 * * *	</cmd>
+		<key>	SealSnakeMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	封印巨靈魔	</name>
+		<description>	公告	</description>
+		<cmd>	50 6,14,22 * * *	</cmd>
+		<key>	SealJuLingMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阻止墮落獵人	</name>
+		<description>	阻止墮落獵人公告	</description>
+		<cmd>	50 5,13,21 * * *	</cmd>
+		<key>	DuoLuoHunterMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阻止墮落獵人	</name>
+		<description>	@S{4}墮落獵人原本是金烏的優秀獵人，在一次戰役中失去了自己的生命後被混沌迷惑而墮落，他帶著獵鷹來到帝王古墓，打算解開封印在帝王古墓裡強大魔物。古墓外邊的偵察兵回城報告異常狀況，向鳳鳴請求支援。每天6點、14點、22點在帝王古墓1層刷新，BOSS等級60級。各位勇士，千萬要阻止墮落獵人的行動！	</description>
+		<cmd>	0 6,14,22 * * *	</cmd>
+		<key>	DuoLuoHunterMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	57	</condition>
+		<area>	帝王古墓1層	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阻止墮落獵人	</name>
+		<description>	阻止墮落獵人結束	</description>
+		<cmd>	10 6,14,22 * * *	</cmd>
+		<key>	DuoLuoHunterMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阻止瘋狂祭師	</name>
+		<description>	公告	</description>
+		<cmd>	50 4,12,20 * * *	</cmd>
+		<key>	CrazyJiShiMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阻止瘋狂祭師	</name>
+		<description>	@S{4}瘋狂祭師原本是巫苗裡面的一名祭師，但過去一直沉迷於不老不死之術而被巫苗流放到異地，隨後加入混沌軍團作為他們的一名先鋒。這次他準備在帝王古墓裡進行一些實驗，而且還帶著他親手製作的機關人。每天5點、13點、21點在帝王古墓2層刷新，BOSS等級65級。各位勇士，一定要破壞瘋狂祭師的實驗啊！	</description>
+		<cmd>	0 5,13,21 * * *	</cmd>
+		<key>	CrazyJiShiMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	60	</condition>
+		<area>	帝王古墓2層	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阻止瘋狂祭師	</name>
+		<description>	結束	</description>
+		<cmd>	10 5,13,21 * * *	</cmd>
+		<key>	CrazyJiShiMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	消滅撼地大將	</name>
+		<description>	公告	</description>
+		<cmd>	50 3,11,19 * * *	</cmd>
+		<key>	HanDiDaJiangMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	消滅撼地大將	</name>
+		<description>	@S{4}撼地大將是追隨巨靈魔多年的一名猛將，與嘯天大將並稱巨靈魔的左右手。此次他來到帝王古墓是想幫助巨靈魔逃離封印，重回混沌大軍。如果讓撼地大將的行動成功，鳳鳴免不了又要承受一次戰爭的摧殘。每天4點、12點、20點在帝王古墓4層刷新，BOSS等級75級。各位勇士，絕對不能讓混沌的目的達成啊。	</description>
+		<cmd>	0 4,12,20 * * *	</cmd>
+		<key>	HanDiDaJiangMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	67	</condition>
+		<area>	帝王古墓4層	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	消滅撼地大將	</name>
+		<description>	結束	</description>
+		<cmd>	10 4,12,20 * * *	</cmd>
+		<key>	HanDiDaJiangMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	擊敗嘯天大將	</name>
+		<description>	公告	</description>
+		<cmd>	50 2,10,18 * * *	</cmd>
+		<key>	XiaoTianDaJiangMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	擊敗嘯天大將	</name>
+		<description>	@S{4}嘯天大將與撼地大將並稱巨靈魔的左右手，此次他來到帝王古墓同樣是為了幫助巨靈魔逃離封印，與空有武力的撼地大將不同，嘯天大將是一個比較狡猾的對手，表面上他是為了幫助巨靈魔而來，但實際上他自己有什麼其他想法，只有他自己知道。每天3點、11點、19點在帝王古墓5層刷新，BOSS等級78級。勇士們，別讓嘯天大將走出古墓！	</description>
+		<cmd>	0 3,11,19 * * *	</cmd>
+		<key>	XiaoTianDaJiangMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	70	</condition>
+		<area>	帝王古墓5層	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全線	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	擊敗嘯天大將	</name>
+		<description>	結束	</description>
+		<cmd>	10 3,11,19 * * *	</cmd>
+		<key>	XiaoTianDaJiangMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	投機商人	</name>
+		<description>	每小時的15分 刷投機商人	</description>
+		<cmd>	50 *\2 * * *	</cmd>
+		<key>	DarkTraderMgr_createNPC	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	金錢	</activityType>
+		<line>	一線	</line>
+		<star>	4	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	跑商	</name>
+		<description>	每雙數點條件改變	</description>
+		<cmd>	0 *\2 * * *	</cmd>
+		<key>	Merchant_Area_Condition_Change	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	科舉	</name>
+		<description>	星期天晚上23點科舉所有數據清理	</description>
+		<cmd>	0 23 * * 7	</cmd>
+		<key>	ImperialExaminationsMgr_reset	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	闖天關	</name>
+		<description>	公告	</description>
+		<cmd>	25 * * * *	</cmd>
+		<key>	TianguanMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	工具發送公告數據更新	</name>
+		<description>	工具發送公告數據更新	</description>
+		<cmd>	*\10 * * * *	</cmd>
+		<key>	GameBroadcast	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會行動力增長	</name>
+		<description>	每天晚上24點整增加幫會行動力	</description>
+		<cmd>	58 23 * * *	</cmd>
+		<key>	SysAddTongActionVal	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	拯救猰貐	</name>
+		<description>	拯救猰貐公告	</description>
+		<cmd>	50 * * * *	</cmd>
+		<key>	yayu_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	神鬼秘境	</name>
+		<description>	神鬼秘境公告	</description>
+		<cmd>	15 * * * *	</cmd>
+		<key>	shengui_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	巫妖前哨	</name>
+		<description>	巫妖前哨公告	</description>
+		<cmd>	25 * * * *	</cmd>
+		<key>	wuyao_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	失落寶藏	</name>
+		<description>	失落寶藏公告	</description>
+		<cmd>	40 * * * *	</cmd>
+		<key>	shiluo_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會維護費檢查	</name>
+		<description>	每天晚上24點檢查維護費是否不足	</description>
+		<cmd>	58 23 * * *	</cmd>
+		<key>	CheckBuildingSpendMoney	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會活躍度	</name>
+		<description>	每晚24點活躍度記錄重置	</description>
+		<cmd>	58 23 * * *	</cmd>
+		<key>	calcTongActivity	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	非誠勿擾	</name>
+		<description>	非誠勿擾開啟	</description>
+		<cmd>	0 20 12 8 *	</cmd>
+		<key>	feichengwurao_Start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	10080	</persist>
+	</row>
+	<row>
+		<name>	非誠勿擾	</name>
+		<description>	非誠勿擾結束	</description>
+		<cmd>	0 20 19 8 *	</cmd>
+		<key>	feichengwurao_End	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	非誠勿擾	</name>
+		<description>	非誠勿擾結果	</description>
+		<cmd>	1 20 19 8 *	</cmd>
+		<key>	feichengwurao_handle_result	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	1440	</persist>
+	</row>
+	<row>
+		<name>	感情大考驗	</name>
+		<description>	感情大考驗公告	</description>
+		<cmd>	50 11,18 13,14,15,16,17,18,19 8 *	</cmd>
+		<key>	tanabata_quiz_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	感情大考驗	</name>
+		<description>	感情大考驗開始	</description>
+		<cmd>	0 12,19 13,14,15,16,17,18,19 8 *	</cmd>
+		<key>	TanabataQuizMgr_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	感情大考驗	</name>
+		<description>	感情大考驗結束	</description>
+		<cmd>	0 13,20 13,14,15,16,17,18,19 8 *	</cmd>
+		<key>	TanabataQuizMgr_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	銀河落九天	</name>
+		<description>	銀河落九天公告	</description>
+		<cmd>	0 20 12 8 *	</cmd>
+		<key>	collect_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	銀河落九天	</name>
+		<description>	銀河落九天開始	</description>
+		<cmd>	0 20 12 8 *	</cmd>
+		<key>	collect_Start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	10080	</persist>
+	</row>
+	<row>
+		<name>	銀河落九天	</name>
+		<description>	銀河落九天結束	</description>
+		<cmd>	50 19 19 8 *	</cmd>
+		<key>	collect_End	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	七夕活動	</name>
+		<description>	每天每隔3小時公布一次	</description>
+		<cmd>	0 20,23 12 8 *	</cmd>
+		<key>	tanabata_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	七夕活動	</name>
+		<description>	每天每隔3小時公布一次	</description>
+		<cmd>	0 */3 13-18 8 *	</cmd>
+		<key>	tanabata_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	七夕活動	</name>
+		<description>	每天每隔3小時公布一次	</description>
+		<cmd>	0 0,3,6,9,12,15,18 19 8 *	</cmd>
+		<key>	tanabata_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	非誠勿擾	</name>
+		<description>	每天整點20分公告	</description>
+		<cmd>	20 20-23 12 8 *	</cmd>
+		<key>	tanabata_fcwr_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	非誠勿擾	</name>
+		<description>	每天整點20分公告	</description>
+		<cmd>	20 * 13-18 8 *	</cmd>
+		<key>	tanabata_fcwr_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	非誠勿擾	</name>
+		<description>	每天整點20分公告	</description>
+		<cmd>	20 0-19 19 8 *	</cmd>
+		<key>	tanabata_fcwr_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	魅力果實	</name>
+		<description>	魅力果實公告	</description>
+		<cmd>	30 20-23 12 8 *	</cmd>
+		<key>	tanabata_mlzz_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	魅力果實	</name>
+		<description>	魅力果實公告	</description>
+		<cmd>	30 * 13-18 8 *	</cmd>
+		<key>	tanabata_mlzz_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	魅力果實	</name>
+		<description>	魅力果實公告	</description>
+		<cmd>	30 0-19 19 8 *	</cmd>
+		<key>	tanabata_mlzz_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	銀河落九天	</name>
+		<description>	銀河落九天公告	</description>
+		<cmd>	0 20,22 12 8 *	</cmd>
+		<key>	tanabata_yhxc_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	銀河落九天	</name>
+		<description>	銀河落九天公告	</description>
+		<cmd>	0 */2 13-18 8 *	</cmd>
+		<key>	tanabata_yhxc_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	銀河落九天	</name>
+		<description>	銀河落九天公告	</description>
+		<cmd>	0 0,2,4,6,8,10,12,14,16,18 19 8 *	</cmd>
+		<key>	tanabata_yhxc_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	魅力果實	</name>
+		<description>	魅力果樹活動開啟	</description>
+		<cmd>	0 20 12 8 *	</cmd>
+		<key>	FruitMgr_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	10080	</persist>
+	</row>
+	<row>
+		<name>	魅力果實	</name>
+		<description>	魅力果樹活動結束	</description>
+		<cmd>	0 20 19 8 *	</cmd>
+		<key>	FruitMgr_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幫會城市戰	</name>
+		<description>	戰果公告	</description>
+		<cmd>	45 21 * * 5	</cmd>
+		<key>	TongCityWarManager_finalWarNotify	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	豪禮慶中秋	</name>
+		<description>	開啟公告	</description>
+		<cmd>	0 0 22 9 *	</cmd>
+		<key>	MidAutumnActivity_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	10080	</persist>
+	</row>
+	<row>
+		<name>	豪禮慶中秋	</name>
+		<description>	結束公告	</description>
+		<cmd>	0 0 29 9 *	</cmd>
+		<key>	MidAutumnActivity_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	豪禮慶中秋	</name>
+		<description>	活動公告	</description>
+		<cmd>	20 * 22-28 9 *	</cmd>
+		<key>	midAutumn_zqlb_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	小兔快跑	</name>
+		<description>	小兔快跑活動開啟	</description>
+		<cmd>	0 12,18,23 22-28 9 *	</cmd>
+		<key>	midAutumn_rabbitRun_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	30	</persist>
+	</row>
+	<row>
+		<name>	小兔快跑	</name>
+		<description>	小兔快跑活動關閉	</description>
+		<cmd>	30 12,18,23 22-28 9 *	</cmd>
+		<key>	midAutumn_rabbitRun_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	小兔快跑	</name>
+		<description>	小兔快跑公告	</description>
+		<cmd>	50 11,17,22 22-28 9 *	</cmd>
+		<key>	midAutumn_rabbitRun_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	月餅大亂鬥	</name>
+		<description>	月餅大亂鬥活動開啟	</description>
+		<cmd>	30 13 22-28 9 *	</cmd>
+		<key>	ProtectTong_mid_autumn_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	30	</persist>
+	</row>
+	<row>
+		<name>	月餅大亂鬥	</name>
+		<description>	月餅大亂鬥活動關閉	</description>
+		<cmd>	0 14 22-28 9 *	</cmd>
+		<key>	ProtectTong_mid_autumn_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	月餅大亂鬥	</name>
+		<description>	月餅大亂鬥活動公告	</description>
+		<cmd>	20 13 22-28 9 *	</cmd>
+		<key>	ProtectTong_mid_autumn_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	中秋活動總公告	</name>
+		<description>	中秋活動總公告	</description>
+		<cmd>	0 */3 22-28 9 *	</cmd>
+		<key>	midAutumn_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	家和萬事興	</name>
+		<description>	家和萬事興活動開啟	</description>
+		<cmd>	0 0 22 9 *	</cmd>
+		<key>	midAutumn_quest_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	10080	</persist>
+	</row>
+	<row>
+		<name>	家和萬事興	</name>
+		<description>	家和萬事興活動關閉	</description>
+		<cmd>	0 0 29 9 *	</cmd>
+		<key>	midAutumn_quest_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	家和萬事興	</name>
+		<description>	家和萬事興活動公告	</description>
+		<cmd>	30 * 22-28 9 *	</cmd>
+		<key>	midAutumn_jhwsx_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	BOSS喜相逢	</name>
+		<description>	BOSS喜相逢活動開啟	</description>
+		<cmd>	0 0 22 9 *	</cmd>
+		<key>	midAutumn_monster_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	10080	</persist>
+	</row>
+	<row>
+		<name>	BOSS喜相逢	</name>
+		<description>	BOSS喜相逢活動關閉	</description>
+		<cmd>	0 0 29 9 *	</cmd>
+		<key>	midAutumn_monster_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	BOSS喜相逢	</name>
+		<description>	BOSS喜相逢活動公告	</description>
+		<cmd>	0 1,3,5,7,9,11,13,15,17,19,21,23 22-28 9 *	</cmd>
+		<key>	midAutumn_boss_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	千里共嬋娟	</name>
+		<description>	千里共嬋娟活動公告	</description>
+		<cmd>	0 */2 22-28 9 *	</cmd>
+		<key>	midAutumn_qlgcj_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	月餅大亂鬥	</name>
+		<description>	月餅大亂鬥活動開啟	</description>
+		<cmd>	0 19 22-28 9 *	</cmd>
+		<key>	ProtectTong_mid_autumn_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	30	</persist>
+	</row>
+	<row>
+		<name>	月餅大亂鬥	</name>
+		<description>	月餅大亂鬥活動關閉	</description>
+		<cmd>	30 19 22-28 9 *	</cmd>
+		<key>	ProtectTong_mid_autumn_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	月餅大亂鬥	</name>
+		<description>	月餅大亂鬥活動公告	</description>
+		<cmd>	50 18 22-28 9 *	</cmd>
+		<key>	ProtectTong_mid_autumn_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	月餅大亂鬥	</name>
+		<description>	月餅大亂鬥活動廣播	</description>
+		<cmd>	30 */2 22-28 9 *	</cmd>
+		<key>	midAutumn_ybdld_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	聖誕賽馬	</name>
+		<description>	聖誕賽馬開啟	</description>
+		<cmd>	0 18 23 12 *	</cmd>
+		<key>	RacehorseType_christmas_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	5460	</persist>
+	</row>
+	<row>
+		<name>	聖誕賽馬	</name>
+		<description>	聖誕賽馬關閉	</description>
+		<cmd>	0 13 27 12 *	</cmd>
+		<key>	RacehorseType_christmas_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	雪人聖誕樹特別任務	</name>
+		<description>	雪人聖誕樹特別任務活動開啟	</description>
+		<cmd>	0 18 23 12 *	</cmd>
+		<key>	xmanStart	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	5460	</persist>
+	</row>
+	<row>
+		<name>	雪人聖誕樹特別任務	</name>
+		<description>	雪人聖誕樹特別任務活動關閉	</description>
+		<cmd>	0 13 27 12 *	</cmd>
+		<key>	xmanEnd	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	雪人	</name>
+		<description>	雪人活動公告	</description>
+		<cmd>	30 * 24-26 12 *	</cmd>
+		<key>	cms_notice_01	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	特別任務	</name>
+		<description>	特別任務活動公告	</description>
+		<cmd>	10 * 24-26 12 *	</cmd>
+		<key>	cms_notice_02	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	聖誕樹	</name>
+		<description>	聖誕樹活動公告	</description>
+		<cmd>	0 * 24-26 12 *	</cmd>
+		<key>	cms_notice_03	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	雪人	</name>
+		<description>	雪人活動公告	</description>
+		<cmd>	30 18-23 23 12 *	</cmd>
+		<key>	cms_notice_01	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	雪人	</name>
+		<description>	雪人活動公告	</description>
+		<cmd>	30 0-12 27 12 *	</cmd>
+		<key>	cms_notice_01	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	特別任務	</name>
+		<description>	特別任務活動公告	</description>
+		<cmd>	10 18-23 23 12 *	</cmd>
+		<key>	cms_notice_02	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	特別任務	</name>
+		<description>	特別任務活動公告	</description>
+		<cmd>	10 0-12 27 12 *	</cmd>
+		<key>	cms_notice_02	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	聖誕樹	</name>
+		<description>	聖誕樹活動公告	</description>
+		<cmd>	0 18-23 23 12 *	</cmd>
+		<key>	cms_notice_03	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	聖誕樹	</name>
+		<description>	聖誕樹活動公告	</description>
+		<cmd>	0 1-12 27 12 *	</cmd>
+		<key>	cms_notice_03	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	春節小兔快跑	</name>
+		<description>	小兔快跑活動開啟	</description>
+		<cmd>	0 12,18,23 1-9 2 *	</cmd>
+		<key>	midAutumn_rabbitRun_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	30	</persist>
+	</row>
+	<row>
+		<name>	春節小兔快跑	</name>
+		<description>	小兔快跑活動關閉	</description>
+		<cmd>	30 12,18,23 1-9 2 *	</cmd>
+		<key>	midAutumn_rabbitRun_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	春節小兔快跑	</name>
+		<description>	小兔快跑活動公告	</description>
+		<cmd>	50 11,17,22 1-9 2 *	</cmd>
+		<key>	newYear_rabbitRun_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	春節活動總公告	</name>
+		<description>	春節活動總公告	</description>
+		<cmd>	0 */2 2-9 2 *	</cmd>
+		<key>	chunjie_notice_01	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	兔年有獎問答	</name>
+		<description>	兔年有獎問答科舉問答公告	</description>
+		<cmd>	40 * 2-9 2 *	</cmd>
+		<key>	chunjie_notice_04	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	兔年有獎問答	</name>
+		<description>	兔年有獎問答智力問答公告	</description>
+		<cmd>	30 * 2-9 2 *	</cmd>
+		<key>	chunjie_notice_05	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	春節放鞭炮活動	</name>
+		<description>	放鞭炮活動公告	</description>
+		<cmd>	10 * 2-9 2 *	</cmd>
+		<key>	chunjie_notice_06	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	春節趕年獸活動	</name>
+		<description>	趕年獸活動公告	</description>
+		<cmd>	20 * 2-9 2 *	</cmd>
+		<key>	chunjie_notice_02	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	春節趕年獸活動	</name>
+		<description>	趕年獸活動開啟	</description>
+		<cmd>	0 0 2 2 *	</cmd>
+		<key>	yearMonsterStart	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	11520	</persist>
+	</row>
+	<row>
+		<name>	春節趕年獸活動	</name>
+		<description>	趕年獸活動關閉	</description>
+		<cmd>	0 0 10 2 *	</cmd>
+		<key>	yearMonsterEnd	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幸福玫瑰活動	</name>
+		<description>	幸福玫瑰活動開啟	</description>
+		<cmd>	0 0 12 2 *	</cmd>
+		<key>	minAutStart	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	4320	</persist>
+	</row>
+	<row>
+		<name>	幸福玫瑰活動	</name>
+		<description>	幸福玫瑰活動關閉	</description>
+		<cmd>	0 0 15 2 *	</cmd>
+		<key>	minAutEnd	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	幸福玫瑰活動	</name>
+		<description>	幸福玫瑰活動公告	</description>
+		<cmd>	50 * 12-14 2 *	</cmd>
+		<key>	tanabata_love_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	春節活動	</name>
+		<description>	春節活動場景開啟	</description>
+		<cmd>	0 0 2 2 *	</cmd>
+		<key>	newYear_env_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	11520	</persist>
+	</row>
+	<row>
+		<name>	春節活動	</name>
+		<description>	春節活動場景關閉	</description>
+		<cmd>	0 0 10 2 *	</cmd>
+		<key>	newYear_env_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+</root>

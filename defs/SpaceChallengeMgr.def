@@ -1,0 +1,93 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<registerSpaceInfo>
+			<Arg>	ARRAY <of>UINT32</of>		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	POSITION	</Arg>
+			<Arg>	DIRECTION	</Arg>
+		</registerSpaceInfo>
+		<registerSpaceIns>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</registerSpaceIns>
+		<onRequestChallengeTeam>
+			<Arg>	ARRAY <of> MAILBOX </of>	</Arg>
+			<Arg>	ARRAY <of> DATABASE_ID </of>	</Arg>
+			<Arg>	UINT32				</Arg>
+			<Arg>	MAILBOX				</Arg>
+		</onRequestChallengeTeam>
+		<onRequestChallenge>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	UINT32				</Arg>
+		</onRequestChallenge>
+		<playerRequestEnter>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</playerRequestEnter>
+		<playerRequestLogin>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</playerRequestLogin>
+		<onDestroyChallenge>
+			<Arg>	STRING		</Arg>
+		</onDestroyChallenge>
+		<passGateDoor>
+			<Arg>	STRING		</Arg>
+		</passGateDoor>
+		<reEnter>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</reEnter>
+		<newJoin>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</newJoin>
+		<newJoinRequestEnter>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</newJoinRequestEnter>
+		<playerLeave>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</playerLeave>
+		<playerTempLeave>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT32		</Arg>
+		</playerTempLeave>
+		<enterPiShan>
+			<Arg>	STRING		</Arg>
+		</enterPiShan>
+		<levelPiShan>
+			<Arg>	STRING		</Arg>
+		</levelPiShan>
+		<enterBaoXiang>
+			<Arg>	STRING		</Arg>
+		</enterBaoXiang>
+		<destroyChallenge>
+			<Arg>	STRING		</Arg>
+		</destroyChallenge>
+		<callPiShanEnterNpc>
+			<Arg>	STRING		</Arg>
+		</callPiShanEnterNpc>
+		<endChallenge>
+			<Arg>	STRING		</Arg>
+		</endChallenge>
+		<playerDisconnected>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</playerDisconnected>
+		<playerConnected>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</playerConnected>
+	</BaseMethods>
+</root>

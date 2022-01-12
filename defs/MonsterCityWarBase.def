@@ -1,0 +1,77 @@
+<root>
+	<Parent> 		Monster				</Parent>
+
+	<Properties>
+		<belong>
+			<Type>			INT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</belong>
+
+		<energy>
+			<Type>			PY_DICT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		{}			</Default>
+		</energy>
+
+		<integral>
+			<Type>			INT16			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</integral>
+
+		<ownerID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0			</Default>
+		</ownerID>
+	
+		<baseType>
+			<Type>			UINT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</baseType>
+
+		<sameBelongs>			<!-- same camp bases -->
+			<Type>			PY_DICT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		[]			</Default>
+		</sameBelongs>
+	</Properties>
+
+	<CellMethods>
+		<onActivated/>
+
+		<onOccupied>
+			<Arg>			UINT8			</Arg>	<!-- belong -->
+		</onOccupied>
+
+		<setOwner>
+			<Arg>			OBJECT_ID		</Arg>	<!-- ownerID -->
+		</setOwner>
+
+		<setBelong>
+			<Arg>			UINT8			</Arg>	<!-- belong -->
+		</setBelong>
+
+		<getBelong/>
+
+		<provideEnergy/>
+
+		<cityWarBaseReset/>
+
+		<taskStatus>
+			<Exposed/>
+		</taskStatus>
+
+		<updateSameBelongs>
+			<Arg>			ARRAY <of> STRING </of> </Arg>	<!-- classNames -->
+		</updateSameBelongs>
+	</CellMethods>
+
+	<ClientMethods>
+		<onTaskStatus>
+			<Arg>			INT8			</Arg>	
+		</onTaskStatus>
+	</ClientMethods>
+</root>

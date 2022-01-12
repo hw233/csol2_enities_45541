@@ -1,0 +1,53 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onShenguiNotice/>
+		<onWuyaoNotice/>
+		<onShiluoNotice/>
+		<onCMSNotice01/>
+		<onCMSNotice02/>
+		<onCMSNotice03/>
+		<onChunjieNotice01/>
+		<onChunjieNotice02/>
+		<onChunjieNotice03/>
+		<onChunjieNotice04/>
+		<onChunjieNotice05/>
+		<onChunjieNotice06/>
+		<onActivityLogHandle/>
+		<onTanabataQuizNotice/>
+		<onTanabataNotice/>
+		<onTanabataFcwrNotice/>
+		<onTanabataMlzzNotice/>
+		<onTanabataYhxcNotice/>
+		<onTanabataLoveNotice/>
+		<onTongAutummQuestStart/> 
+		<onTongAutummQuestEnd/>
+		<onTongAutummMonsterStart/>
+		<onTongAutummMonsterEnd/>
+		<onMidAutumnNotice/>
+		<onMidAutumnRabbitRunNotice/>
+		<onMidAutumnRabbitRunStart/>
+		<onMidAutumnRabbitRunEnd/>
+		<onMidAutumnTongQuestNotice/>
+		<onMidAutumnWordFindNotice/>
+		<onMidAutumnTongProtectNotice/>
+		<onMidAutumnZhouNianGiftNotice/>
+		<onMidAutumnWordMakeNotice/>
+		<onMidAutumnKillMoonCakeNotice/>
+		<onNewYearRabbitRunNotice/>
+		<registeSpawnPoint>
+			<Arg>	STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</registeSpawnPoint>
+		<xmanStartCB/>
+		<xmanEndCB/>
+		<minAutStartCB/>
+		<minAutEndCB/>
+		<tongCityWarStartCB/>
+		<tongCityWarEndCB/>
+		<yearMonsterStartCB/>
+		<yearMonsterEndCB/>
+	</BaseMethods>
+</root>

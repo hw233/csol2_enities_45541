@@ -1,0 +1,15 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onRegisterSpace>
+			<Arg>		MAILBOX		</Arg> 
+		</onRegisterSpace>
+		<onUnRegisterSpace>
+			<Arg>		OBJECT_ID		</Arg> 
+		</onUnRegisterSpace>
+		<onStart/>
+		<onEnd/>
+	</BaseMethods>
+</root>

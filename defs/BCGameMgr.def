@@ -1,0 +1,30 @@
+<root>
+	<Properties>
+		<_canLogin>
+			<Type>		BOOL			</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	false			</Persistent>
+		</_canLogin>
+		<_loginTime>
+			<Type>		INT32			</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	false			</Persistent>
+		</_loginTime>
+	</Properties>
+
+	<BaseMethods>
+		<onStartNotice/>
+		<setMemberCount>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT8	</Arg>
+		</setMemberCount>
+
+		<registerBCNPC>
+			<Arg>	UINT8	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</registerBCNPC>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

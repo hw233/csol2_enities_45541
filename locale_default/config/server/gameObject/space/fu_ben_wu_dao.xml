@@ -1,0 +1,25 @@
+<root>
+		<spaceName>	武道大会	</spaceName>
+		<EntityType>	SpaceCopyWuDao	</EntityType>
+		<DomainType>	SpaceDomainWuDao	</DomainType>
+		<script>	SpaceCopyWuDao	</script>
+		<SpaceType>	SPACE_TYPE_WU_DAO	</SpaceType>
+		<className>	wu_dao	</className>
+		<dirMapping>	universes/fu_ben_wu_dao_da_hui	</dirMapping>
+		<CanPk>	1	</CanPk>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<TimeOfDay>	55800	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_wu_dao_da_hui.xml </spawnFile>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+	<Space>
+
+		<enterLimitLevel>	30	</enterLimitLevel>
+		<Transport>
+		</Transport>
+		
+		<Door>
+		</Door>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

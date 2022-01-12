@@ -1,0 +1,1566 @@
+<root>
+	<entity_1>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-2.296860 16.757460 -17.599808	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/maque/ty_niao_002.model	</modelFile>
+			<amount>	9	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	200.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.300000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 -0.499998	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499998 0.000000 -0.866024	</row2>
+			<row3>	-5.763077 5.363280 56.358593	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	53.545601 12.835037 -25.091240	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/maque/ty_niao_002.model	</modelFile>
+			<amount>	6	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	150.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.300000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 -0.499999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499999 0.000000 -0.866024	</row2>
+			<row3>	42.922688 1.529297 -15.950974	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.258819 0.000000 -0.965924	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965924 0.000000 -0.258819	</row2>
+			<row3>	44.518383 2.585937 -2.657654	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 -0.866023	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.866023 0.000000 -0.499999	</row2>
+			<row3>	37.349651 2.158203 -10.025345	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.866023 0.000000 -0.499998	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499998 0.000000 -0.866023	</row2>
+			<row3>	34.536953 1.689453 -17.720688	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.258819 0.000000 -0.965923	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965923 0.000000 -0.258819	</row2>
+			<row3>	43.578491 0.882812 -23.412552	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258818 0.000000 -0.965924	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965924 0.000000 0.258818	</row2>
+			<row3>	37.819004 0.683594 -25.062805	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866023 0.000000 -0.499999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499999 0.000000 0.866023	</row2>
+			<row3>	29.640139 1.595703 -8.912827	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866021 0.000000 0.499996	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.499996 0.000000 0.866021	</row2>
+			<row3>	12.110033 1.775390 -0.480865	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.499998 0.000000 0.866018	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866018 0.000000 0.499998	</row2>
+			<row3>	12.000461 0.390625 -26.144539	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.000002 0.000000 0.999993	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.999993 0.000000 0.000002	</row2>
+			<row3>	6.133302 -0.029297 -31.614647	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.499995 0.000000 0.866020	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866020 0.000000 -0.499995	</row2>
+			<row3>	11.796660 0.005859 -33.427841	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258818 0.000000 0.965919	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965919 0.000000 0.258818	</row2>
+			<row3>	14.372854 -0.158203 -41.700096	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258818 0.000000 0.965918	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965918 0.000000 0.258818	</row2>
+			<row3>	16.027493 0.201172 -30.443535	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.499995 0.000000 0.866019	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866019 0.000000 -0.499995	</row2>
+			<row3>	21.902744 -0.757812 -44.893517	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.499997 0.000000 -0.866018	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.866018 0.000000 -0.499997	</row2>
+			<row3>	10.923591 -0.007812 -46.092789	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866018 0.000000 -0.499997	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499997 0.000000 0.866018	</row2>
+			<row3>	2.932422 0.017578 -37.984646	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.707103 0.000000 0.707101	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707101 0.000000 0.707103	</row2>
+			<row3>	5.545028 0.074219 -43.529591	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258816 0.000000 -0.965918	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965918 0.000000 0.258816	</row2>
+			<row3>	8.406205 -0.048828 -37.775688	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.965917 0.000000 -0.258818	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.258818 0.000000 0.965917	</row2>
+			<row3>	8.155693 1.009765 -3.709435	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.999999 0.000000 0.000000	</row2>
+			<row3>	85.117256 -1.214844 -23.800148	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10111321	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	84.938896 32.302940 93.121895	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/maque/ty_niao_002.model	</modelFile>
+			<amount>	8	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	250.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.300000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866023 0.000000 -0.499999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499999 0.000000 0.866023	</row2>
+			<row3>	77.293503 3.658203 28.436995	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866023 0.000000 -0.499999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499999 0.000000 0.866023	</row2>
+			<row3>	71.845787 3.742187 28.983650	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866023 0.000000 -0.499999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499999 0.000000 0.866023	</row2>
+			<row3>	70.072563 4.757812 36.157612	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258818 0.000000 -0.965923	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965923 0.000000 0.258818	</row2>
+			<row3>	72.625793 3.115234 21.080151	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.707104 0.000000 -0.707105	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.707105 0.000000 0.707104	</row2>
+			<row3>	61.524693 4.771483 31.569193	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.999997 0.000000 -0.000001	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000001 0.000000 0.999997	</row2>
+			<row3>	67.453865 2.162109 15.136657	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866021 0.000000 -0.499999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499999 0.000000 0.866021	</row2>
+			<row3>	63.713451 3.015625 19.696508	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.965922 0.000000 0.258817	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258817 0.000000 0.965922	</row2>
+			<row3>	21.043522 4.277343 24.547550	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258819 0.000000 0.965921	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965921 0.000000 0.258819	</row2>
+			<row3>	25.906910 4.490233 20.105673	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.499999 0.000000 0.866021	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866021 0.000000 0.499999	</row2>
+			<row3>	25.503128 6.082030 31.209560	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.965922 0.000000 0.258817	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258817 0.000000 0.965922	</row2>
+			<row3>	32.287922 4.804687 18.794998	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.000001	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000001 0.000000 0.999996	</row2>
+			<row3>	40.683174 7.310546 30.775728	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.707103 0.000000 -0.707105	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.707105 0.000000 0.707103	</row2>
+			<row3>	35.311241 7.613280 33.456676	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.965921 0.000000 -0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.258819 0.000000 0.965921	</row2>
+			<row3>	0.673584 0.181641 6.465737	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258819 0.000000 0.965920	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965920 0.000000 0.258819	</row2>
+			<row3>	7.335067 0.689453 9.425141	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.499999 0.000000 0.866020	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866020 0.000000 0.499999	</row2>
+			<row3>	5.275917 1.726562 22.130711	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.000002 0.000000 0.999994	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.999994 0.000000 0.000002	</row2>
+			<row3>	8.271009 1.234375 16.941063	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.866020 0.000000 0.499999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.499999 0.000000 -0.866020	</row2>
+			<row3>	6.726660 0.646484 4.429471	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.258816 0.000000 0.965921	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.965921 0.000000 -0.258816	</row2>
+			<row3>	2.991504 0.541016 0.671036	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258816 0.000000 -0.965917	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965917 0.000000 0.258816	</row2>
+			<row3>	12.062228 1.345703 4.713291	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.707100 0.000000 -0.707099	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.707099 0.000000 -0.707100	</row2>
+			<row3>	6.745594 2.416015 25.693087	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258816 0.000000 -0.965916	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965916 0.000000 0.258816	</row2>
+			<row3>	32.062061 3.324218 12.869483	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866016 0.000000 -0.499995	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499995 0.000000 0.866016	</row2>
+			<row3>	38.660759 6.242187 24.381601	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866022 0.000000 0.499997	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.499997 0.000000 0.866022	</row2>
+			<row3>	31.882294 6.513671 27.398058	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258819 0.000000 0.965921	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965921 0.000000 0.258819	</row2>
+			<row3>	24.585049 2.775390 14.958829	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.707102 0.000000 0.707104	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707104 0.000000 -0.707102	</row2>
+			<row3>	73.283447 2.056640 14.004036	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.707102 0.000000 0.707104	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707104 0.000000 -0.707102	</row2>
+			<row3>	56.740261 2.611328 14.684428	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.965923 0.000000 -0.258819	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.258819 0.000000 0.965923	</row2>
+			<row3>	30.418652 6.851562 53.482811	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.499997 0.000000 0.866021	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866021 0.000000 -0.499997	</row2>
+			<row3>	34.311623 7.058593 56.206039	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866023 0.000000 0.499998	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499998 0.000000 0.866023	</row2>
+			<row3>	40.626320 7.281249 55.344276	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.499997 0.000000 0.866022	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866022 0.000000 -0.499997	</row2>
+			<row3>	42.840111 7.179687 59.558270	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.499998 0.000000 0.866022	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866022 0.000000 0.499998	</row2>
+			<row3>	42.934242 7.505858 49.105301	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.000001 0.000000 0.999996	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.999996 0.000000 0.000001	</row2>
+			<row3>	49.151352 6.902343 53.103313	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	2.187294 5.718749 55.748714	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	11.637983 5.916015 55.279049	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 -0.866024	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.866024 0.000000 -0.499999	</row2>
+			<row3>	1.984909 5.347655 62.932903	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.999999 0.000000 0.000000	</row2>
+			<row3>	12.475607 6.062499 63.257076	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 0.866024	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866024 0.000000 -0.499999	</row2>
+			<row3>	7.689216 5.607421 68.370674	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.965924 0.000000 0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258819 0.000000 -0.965924	</row2>
+			<row3>	35.389500 6.941405 61.369778	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258817	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.258817 0.000000 0.965919	</row2>
+			<row3>	90.105629 10.591796 52.421638	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.965918 0.000000 0.258816	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.258816 0.000000 -0.965918	</row2>
+			<row3>	64.215195 8.417967 99.983391	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.258816 0.000000 -0.965917	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.965917 0.000000 -0.258816	</row2>
+			<row3>	94.787254 10.894529 77.442741	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866019 0.000000 0.499997	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.499997 0.000000 0.866019	</row2>
+			<row3>	70.970123 9.816404 64.797844	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_67>
+	<entity_68>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.258818 0.000000 -0.965920	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.965920 0.000000 -0.258818	</row2>
+			<row3>	42.379547 7.685546 83.422714	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_68>
+	<entity_69>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.707102 0.000000 0.707104	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707104 0.000000 -0.707102	</row2>
+			<row3>	80.814148 3.544921 19.590605	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_69>
+	<entity_70>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.707102 0.000000 0.707103	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.707103 0.000000 -0.707102	</row2>
+			<row3>	93.861160 10.626951 93.872368	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352008	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_70>
+	<entity_71>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.707102 0.000000 0.707103	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.707103 0.000000 -0.707102	</row2>
+			<row3>	94.596458 10.636717 96.460457	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20314005	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_71>
+	<entity_72>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.499996 0.000000 -0.866017	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.866017 0.000000 0.499996	</row2>
+			<row3>	77.848007 10.484373 99.906296	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_72>
+	<entity_73>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258817	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.258817 0.000000 0.965919	</row2>
+			<row3>	87.489372 10.501951 65.328094	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_73>
+	<entity_74>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.499997 0.000000 0.866018	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.866018 0.000000 -0.499997	</row2>
+			<row3>	59.198330 9.630857 86.158821	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_74>
+	<entity_75>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.866018 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.499997 0.000000 -0.866018	</row2>
+			<row3>	87.464966 10.814451 113.318283	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_75>
+	<entity_76>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258816 0.000000 0.965919	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.965919 0.000000 0.258816	</row2>
+			<row3>	32.737240 5.210937 104.527031	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_76>
+	<entity_77>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.499997 0.000000 -0.866020	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.866020 0.000000 0.499997	</row2>
+			<row3>	73.252785 9.427732 111.741257	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_77>
+	<entity_78>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.866019 0.000000 0.499996	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.499996 0.000000 0.866019	</row2>
+			<row3>	102.248131 9.839842 66.415077	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_78>
+	<entity_79>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.707101 0.000000 0.707099	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.707099 0.000000 -0.707101	</row2>
+			<row3>	127.536392 10.699217 92.779724	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_79>
+	<entity_80>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.499997 0.000000 0.866016	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.866016 0.000000 -0.499997	</row2>
+			<row3>	115.142990 10.697264 96.634003	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_80>
+	<entity_81>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	-0.999990 0.000000 -0.000002	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000002 0.000000 -0.999990	</row2>
+			<row3>	102.799805 10.703123 87.930374	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_81>
+	<entity_82>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258815 0.000000 0.965917	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.965917 0.000000 0.258815	</row2>
+			<row3>	115.992302 10.080076 83.073425	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_82>
+	<entity_83>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.000001 0.000000 -0.999992	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.999992 0.000000 0.000001	</row2>
+			<row3>	113.526367 10.699217 136.894302	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_83>
+	<entity_84>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.258815 0.000000 0.965918	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.965918 0.000000 0.258815	</row2>
+			<row3>	128.759995 10.714842 110.267540	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_84>
+	<entity_85>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.707102 0.000000 -0.707100	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.707100 0.000000 0.707102	</row2>
+			<row3>	117.415436 10.701170 117.942680	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_85>
+	<entity_86>
+		<type>	SpawnPointCopyWuYaoQianShao	</type>
+		<transform>
+			<row0>	0.965917 0.000000 0.258818	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.258818 0.000000 0.965917	</row2>
+			<row3>	102.017204 10.699217 120.322243	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322020	</entityName>
+			<rediviousTime>	5.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_86>
+</root>

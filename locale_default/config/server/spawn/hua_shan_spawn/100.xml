@@ -1,0 +1,5330 @@
+<root>
+	<entity_1>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258817 0.000000 0.965919	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	-0.965919 0.000000 0.258817	</row2>
+			<row3>	-113.038322 31.131676 -79.182747	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	18.000000	</heightClipMin>
+			<heightClipMax>	40.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	2.000000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999996	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.999996 0.000000 0.000000	</row2>
+			<row3>	-112.205719 16.218998 24.220325	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	0.600000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	17.000000	</heightClipMin>
+			<heightClipMax>	15.620000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	-109.836021 16.499187 24.338961	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_002.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	0.600000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	17.000000	</heightClipMin>
+			<heightClipMax>	15.620000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258817 0.000000 0.965919	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	-0.965919 0.000000 0.258817	</row2>
+			<row3>	-119.933830 30.178789 6.674241	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	18.000000	</heightClipMin>
+			<heightClipMax>	50.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	2.000000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	-106.588081 18.559925 18.593191	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10121098	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-106.573433 18.559952 16.146034	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10122013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258817 0.000000 0.965918	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	-0.965918 0.000000 0.258817	</row2>
+			<row3>	-30.216713 36.506321 -108.069672	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	6	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	18.000000	</heightClipMin>
+			<heightClipMax>	50.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	2.000000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999996 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999996	</row2>
+			<row3>	-93.844940 7.829412 -8.225189	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<heightClipMin>	4.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	-99.342178 15.984882 -17.796326	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	0.600000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	17.000000	</heightClipMin>
+			<heightClipMax>	15.620000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499996 0.000000 -0.866019	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.866019 0.000000 0.499996	</row2>
+			<row3>	-12.112030 23.334908 -51.817810	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-22.978172 23.915922 -40.717007	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999996 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999996	</row2>
+			<row3>	-93.844940 7.829412 -8.225197	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<heightClipMin>	4.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-79.652473 19.814926 -17.277275	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-80.232155 20.226971 -9.337334	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.002328	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.002328 0.000000 0.999997	</row2>
+			<row3>	-82.690498 18.970697 -1.030952	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-80.910561 19.089840 -1.264755	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-78.107407 19.302731 -1.430893	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-30.272163 22.199217 -13.612526	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-33.075317 22.199217 -13.446388	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.002328	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.002328 0.000000 0.999997	</row2>
+			<row3>	-34.855255 22.199217 -13.212593	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-37.282810 22.199217 -11.841736	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-32.267838 22.199217 -11.453209	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999970 0.000345 0.007315	</row0>
+			<row1>	-0.000345 0.999999 -0.000003	</row1>
+			<row2>	-0.007315 0.000000 0.999972	</row2>
+			<row3>	-29.572716 22.199217 -10.475197	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20732029	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.862474 0.000000 0.506098	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.506099 0.000000 0.862475	</row2>
+			<row3>	-34.592316 22.199217 -10.202751	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999973 0.000000 -0.007281	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.007281 0.000000 0.999973	</row2>
+			<row3>	-37.262032 22.199217 -10.318359	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999974 0.000000 0.007057	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.007057 0.000000 0.999975	</row2>
+			<row3>	-32.613205 22.199217 -8.481476	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-37.051414 22.199217 -8.420532	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999972 0.000000 0.007315	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.007315 0.000000 0.999973	</row2>
+			<row3>	-35.451256 22.199217 -7.884651	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-31.290367 22.199217 -7.007851	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-38.799530 22.199217 -7.432480	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-35.387329 22.199217 -5.418777	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-38.445000 22.199217 -5.551270	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-31.507790 22.199217 -4.619781	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-33.403053 22.199217 -2.610931	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999970 0.000000 0.007315	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.007315 0.000000 0.999971	</row2>
+			<row3>	-38.280159 22.199215 -31.629578	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20742050	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999970 0.000000 0.007315	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.007315 0.000000 0.999971	</row2>
+			<row3>	-40.293808 22.199215 -33.233719	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20732029	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.862474 0.000000 0.506098	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.506099 0.000000 0.862475	</row2>
+			<row3>	-16.569214 22.199215 -43.414837	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-24.064835 22.199215 -44.090530	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-18.072395 22.208981 -39.256645	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-23.833435 22.199215 -40.669327	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999972 0.000000 0.007315	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.007315 0.000000 0.999973	</row2>
+			<row3>	-22.233276 22.199215 -40.133446	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-25.581558 22.199215 -39.681274	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.967790 0.000345 -0.251745	</row0>
+			<row1>	-0.000334 0.999999 0.000086	</row1>
+			<row2>	0.251746 0.000000 0.967791	</row2>
+			<row3>	-20.612579 22.199215 -38.296291	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20742050	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-18.289818 22.220699 -36.868576	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-22.169357 22.199215 -37.667572	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-25.227020 22.199215 -37.800064	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-20.185074 22.199215 -34.859726	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-17.502991 22.199215 -46.962387	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-20.306145 22.199215 -46.796249	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.002328	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.002328 0.000000 0.999997	</row2>
+			<row3>	-22.086082 22.199215 -46.562454	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-19.498665 22.199215 -44.803070	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999974 0.000000 0.007057	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.007057 0.000000 0.999975	</row2>
+			<row3>	-19.844032 22.199215 -41.831337	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999973 0.000000 -0.007281	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.007281 0.000000 0.999973	</row2>
+			<row3>	-16.204430 22.199215 -40.341263	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999996	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.999996 0.000000 0.000000	</row2>
+			<row3>	-93.638954 16.340534 -20.843994	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_004.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	0.600000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	17.000000	</heightClipMin>
+			<heightClipMax>	15.620000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999996 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999996	</row2>
+			<row3>	-30.738609 22.887835 -26.647781	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<heightClipMin>	10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-47.458298 20.300625 19.780376	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-39.207199 20.796886 12.812439	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-92.007835 14.474607 7.715797	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-90.655067 16.429695 28.956327	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-87.648720 16.771935 28.847567	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-47.458302 20.300623 19.780375	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-39.207203 20.796885 12.812438	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-92.007835 14.474607 7.715796	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-90.655067 16.429693 28.956326	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-87.648720 16.771933 28.847565	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	-32.340302 31.805418 9.357646	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/maque/ty_niao_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-91.455849 19.668457 13.558114	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_67>
+	<entity_68>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999970 0.000345 0.007315	</row0>
+			<row1>	-0.000345 0.999999 -0.000003	</row1>
+			<row2>	-0.007315 0.000000 0.999972	</row2>
+			<row3>	-77.407959 19.361322 1.706444	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20732029	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_68>
+	<entity_69>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-79.125610 19.275385 5.173792	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_69>
+	<entity_70>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-79.343033 19.269526 7.561859	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_70>
+	<entity_71>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-81.238297 19.191402 9.570709	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_71>
+	<entity_72>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-83.222572 19.083979 6.762868	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_72>
+	<entity_73>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-86.634773 18.792963 4.749163	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_73>
+	<entity_74>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-84.886658 18.904291 3.761108	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_74>
+	<entity_75>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999973 0.000000 -0.007281	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.007281 0.000000 0.999973	</row2>
+			<row3>	-85.097275 18.832026 1.863286	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_75>
+	<entity_76>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000000 -0.002468	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.002468 0.000000 0.999996	</row2>
+			<row3>	-85.118065 18.812496 0.339905	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_76>
+	<entity_77>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999972 0.000000 0.007315	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.007315 0.000000 0.999973	</row2>
+			<row3>	-83.286499 19.033197 4.296990	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_77>
+	<entity_78>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-80.103088 19.203121 0.728434	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_78>
+	<entity_79>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.862474 0.000000 0.506098	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.506099 0.000000 0.862475	</row2>
+			<row3>	-82.427567 19.066402 1.978892	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_79>
+	<entity_80>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999974 0.000000 0.007057	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.007057 0.000000 0.999975	</row2>
+			<row3>	-80.448456 19.214840 3.700164	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_80>
+	<entity_81>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999996 0.000345 -0.002462	</row0>
+			<row1>	-0.000301 0.999839 0.017924	</row1>
+			<row2>	0.002468 -0.017924 0.999836	</row2>
+			<row3>	-86.280243 18.886711 6.630370	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_81>
+	<entity_82>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	-87.072922 21.346220 26.558796	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_82>
+	<entity_83>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999992 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999992	</row2>
+			<row3>	46.202606 30.133705 -57.238804	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_83>
+	<entity_84>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999992 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999992	</row2>
+			<row3>	48.822704 29.046494 -20.289742	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_84>
+	<entity_85>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	60.604244 28.416014 -45.917110	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_85>
+	<entity_86>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	52.353153 28.599607 -38.949184	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_86>
+	<entity_87>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.866022 0.000000 0.499998	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.499998 0.000000 0.866022	</row2>
+			<row3>	94.061363 30.021481 -90.967400	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<heightClipMin>	10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_87>
+	<entity_88>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999992 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999992	</row2>
+			<row3>	86.099220 30.831367 -76.019508	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_88>
+	<entity_89>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999992 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999992	</row2>
+			<row3>	46.202602 30.133703 -57.238808	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_89>
+	<entity_90>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999992 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999992	</row2>
+			<row3>	55.338993 29.494358 -29.825081	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_90>
+	<entity_91>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	60.604240 28.416012 -45.917114	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_91>
+	<entity_92>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	52.353149 28.599606 -38.949188	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_92>
+	<entity_93>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.866022 0.000000 0.499998	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.499998 0.000000 0.866022	</row2>
+			<row3>	94.061356 30.021479 -90.967400	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<heightClipMin>	10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_93>
+	<entity_94>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999992 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999992	</row2>
+			<row3>	86.099213 30.831366 -76.019508	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_94>
+	<entity_95>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999992 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999992	</row2>
+			<row3>	90.052391 31.136194 -80.901428	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_95>
+	<entity_96>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999974 0.000000 0.007057	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.007057 0.000000 0.999974	</row2>
+			<row3>	8.608175 27.897999 -24.646393	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_96>
+	<entity_97>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999972 0.000000 -0.007281	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.007281 0.000000 0.999973	</row2>
+			<row3>	8.677924 27.966787 -26.873749	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_97>
+	<entity_98>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.258819 0.000000 -0.965926	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965926 0.000000 0.258819	</row2>
+			<row3>	7.502717 27.892998 -18.853477	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_98>
+	<entity_99>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.258819 0.000000 -0.965926	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965926 0.000000 0.258819	</row2>
+			<row3>	5.362154 27.876945 -19.460068	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_99>
+	<entity_100>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.258819 0.000000 -0.965926	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965926 0.000000 0.258819	</row2>
+			<row3>	3.575146 27.861322 -17.856171	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_100>
+	<entity_101>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.258819 0.000000 -0.965926	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965926 0.000000 0.258819	</row2>
+			<row3>	4.896536 27.886713 -16.088074	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_101>
+	<entity_102>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.258819 0.000000 -0.965926	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965926 0.000000 0.258819	</row2>
+			<row3>	7.109254 27.953117 -16.318321	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_102>
+	<entity_103>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	5.301795 27.861322 -26.497955	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_103>
+	<entity_104>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.002328	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.002328 0.000000 0.999996	</row2>
+			<row3>	6.165863 27.860998 -24.505219	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_104>
+	<entity_105>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999972 0.000000 -0.007281	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.007281 0.000000 0.999973	</row2>
+			<row3>	6.762335 27.942999 -28.570145	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_105>
+	<entity_106>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.964015 0.000000 -0.265845	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.265845 0.000000 0.964015	</row2>
+			<row3>	50.526146 28.617182 -38.899200	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_106>
+	<entity_107>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965284 0.000345 -0.261196	</row0>
+			<row1>	0.004348 0.999839 0.017391	</row1>
+			<row2>	0.261160 -0.017924 0.965128	</row2>
+			<row3>	49.787956 28.460932 -35.713730	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_107>
+	<entity_108>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	51.220764 28.443354 -37.120560	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_108>
+	<entity_109>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965284 0.000345 -0.261196	</row0>
+			<row1>	0.004348 0.999839 0.017391	</row1>
+			<row2>	0.261160 -0.017924 0.965128	</row2>
+			<row3>	50.617302 28.296869 -33.988373	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_109>
+	<entity_110>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.967727 0.000000 -0.251996	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.251996 0.000000 0.967728	</row2>
+			<row3>	53.620304 28.597652 -40.145077	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_110>
+	<entity_111>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.967796 0.000000 -0.251731	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.251731 0.000000 0.967797	</row2>
+			<row3>	52.905102 28.380852 -37.017094	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_111>
+	<entity_112>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	53.605049 28.230463 -34.651764	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_112>
+	<entity_113>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	55.775246 28.441401 -38.841469	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_113>
+	<entity_114>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	57.559196 28.185541 -34.884109	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_114>
+	<entity_115>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	48.426010 28.226559 -32.603683	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_115>
+	<entity_116>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.966525 0.000000 -0.256569	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.256569 0.000000 0.966525	</row2>
+			<row3>	55.944443 28.291012 -36.826584	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_116>
+	<entity_117>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	56.012993 28.064449 -30.691452	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_117>
+	<entity_118>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965284 0.000345 -0.261196	</row0>
+			<row1>	0.004348 0.999839 0.017391	</row1>
+			<row2>	0.261160 -0.017924 0.965128	</row2>
+			<row3>	47.084122 28.554684 -35.505722	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_118>
+	<entity_119>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.967727 0.000000 -0.251996	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.251996 0.000000 0.967728	</row2>
+			<row3>	53.470016 28.499996 -38.680092	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_119>
+	<entity_120>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.967790 0.000345 -0.251745	</row0>
+			<row1>	-0.000334 0.999999 0.000086	</row1>
+			<row2>	0.251746 0.000000 0.967792	</row2>
+			<row3>	54.207054 28.138668 -33.068497	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20742050	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_120>
+	<entity_121>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965284 0.000345 -0.261196	</row0>
+			<row1>	0.004348 0.999839 0.017391	</row1>
+			<row2>	0.261160 -0.017924 0.965128	</row2>
+			<row3>	57.611809 28.353512 -37.867935	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_121>
+	<entity_122>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965284 0.000345 -0.261196	</row0>
+			<row1>	0.004348 0.999839 0.017391	</row1>
+			<row2>	0.261160 -0.017924 0.965128	</row2>
+			<row3>	51.463413 28.070309 -30.904274	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_122>
+	<entity_123>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.967727 0.000000 -0.251996	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.251996 0.000000 0.967728	</row2>
+			<row3>	82.376152 30.228514 -67.317497	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_123>
+	<entity_124>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	84.531090 30.201170 -66.013901	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_124>
+	<entity_125>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000345 -0.261196	</row0>
+			<row1>	0.004348 0.999838 0.017391	</row1>
+			<row2>	0.261160 -0.017924 0.965127	</row2>
+			<row3>	86.367653 30.156248 -65.040352	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_125>
+	<entity_126>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.967726 0.000000 -0.251996	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.251996 0.000000 0.967727	</row2>
+			<row3>	82.225861 30.212889 -65.852509	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_126>
+	<entity_127>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.966525 0.000000 -0.256569	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.256569 0.000000 0.966525	</row2>
+			<row3>	84.700287 30.175779 -63.999004	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_127>
+	<entity_128>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999993	</row2>
+			<row3>	81.109001 30.216795 -66.121613	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_128>
+	<entity_129>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.964015 0.000000 -0.265845	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.265845 0.000000 0.964015	</row2>
+			<row3>	79.281990 30.208982 -66.071625	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_129>
+	<entity_130>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	86.315041 30.152342 -62.056541	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_130>
+	<entity_131>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.967796 0.000000 -0.251731	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.251731 0.000000 0.967797	</row2>
+			<row3>	81.660950 30.193357 -64.189514	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_131>
+	<entity_132>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	79.976616 30.195311 -64.292984	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_132>
+	<entity_133>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965284 0.000345 -0.261196	</row0>
+			<row1>	0.004348 0.999839 0.017391	</row1>
+			<row2>	0.261160 -0.017924 0.965128	</row2>
+			<row3>	78.543800 30.150389 -62.886162	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_133>
+	<entity_134>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965284 0.000345 -0.261196	</row0>
+			<row1>	0.004348 0.999839 0.017391	</row1>
+			<row2>	0.261160 -0.017924 0.965128	</row2>
+			<row3>	79.373146 30.126951 -61.160805	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_134>
+	<entity_135>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965284 0.000345 -0.261196	</row0>
+			<row1>	0.004348 0.999839 0.017391	</row1>
+			<row2>	0.261160 -0.017924 0.965128	</row2>
+			<row3>	75.839966 30.097654 -62.678143	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_135>
+	<entity_136>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	84.768837 30.160154 -57.863873	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_136>
+	<entity_137>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	77.181854 30.044920 -59.776104	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_137>
+	<entity_138>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965284 0.000345 -0.261196	</row0>
+			<row1>	0.004348 0.999839 0.017391	</row1>
+			<row2>	0.261160 -0.017924 0.965128	</row2>
+			<row3>	80.219261 30.089842 -58.076694	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_138>
+	<entity_139>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965283 0.000000 -0.261202	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.261202 0.000000 0.965283	</row2>
+			<row3>	82.360863 30.173824 -61.824196	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_139>
+	<entity_140>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.967790 0.000345 -0.251745	</row0>
+			<row1>	-0.000334 0.999999 0.000086	</row1>
+			<row2>	0.251746 0.000000 0.967792	</row2>
+			<row3>	82.962898 30.150389 -60.240917	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712037	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_140>
+	<entity_141>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866024 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499999 0.000000 0.866024	</row2>
+			<row3>	84.975037 30.523432 -80.362389	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20742050	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_141>
+	<entity_142>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866024 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499999 0.000000 0.866024	</row2>
+			<row3>	90.052208 30.246088 -82.249977	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20732029	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_142>
+	<entity_143>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866024 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499999 0.000000 0.866024	</row2>
+			<row3>	88.492325 30.294916 -79.169495	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712037	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_143>
+	<entity_144>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999992 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999992	</row2>
+			<row3>	46.484844 30.269760 -65.451683	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_144>
+	<entity_145>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258817 0.000000 0.965918	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	-0.965918 0.000000 0.258817	</row2>
+			<row3>	157.063202 37.126942 -127.279961	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	6	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	18.000000	</heightClipMin>
+			<heightClipMax>	30.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	2.000000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_145>
+	<entity_146>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999991 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999991	</row2>
+			<row3>	127.384750 38.074116 -41.785534	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_146>
+	<entity_147>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999996 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999996	</row2>
+			<row3>	128.044891 51.534409 -43.660664	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/maque/ty_niao_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	15.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_147>
+	<entity_148>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.258818 0.000000 -0.965920	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.965920 0.000000 -0.258818	</row2>
+			<row3>	116.259491 25.791996 -72.501358	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_007.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	0.600000	</modelScale>
+			<radius>	0.400000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	26.000000	</heightClipMin>
+			<heightClipMax>	25.670000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_148>
+	<entity_149>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.999994 0.000000 0.000001	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	-0.000001 0.000000 -0.999994	</row2>
+			<row3>	115.178589 25.724604 -73.135292	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_006.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	0.800000	</modelScale>
+			<radius>	0.200000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	26.000000	</heightClipMin>
+			<heightClipMax>	25.670000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_149>
+	<entity_150>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.999994 0.000000 0.000001	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	-0.000001 0.000000 -0.999994	</row2>
+			<row3>	116.050804 25.863276 -70.446487	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_005.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	0.500000	</modelScale>
+			<radius>	0.300000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	26.000000	</heightClipMin>
+			<heightClipMax>	25.670000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_150>
+	<entity_151>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999990 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999990	</row2>
+			<row3>	128.002289 36.950649 -16.407433	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_151>
+	<entity_152>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999991 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999991	</row2>
+			<row3>	127.384750 38.074112 -41.785538	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_152>
+	<entity_153>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999996 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999996	</row2>
+			<row3>	117.369583 28.864754 -89.862801	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<heightClipMin>	10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_153>
+	<entity_154>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999996 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999996	</row2>
+			<row3>	127.591965 37.923683 -27.303902	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	5.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<heightClipMin>	10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_154>
+	<entity_156>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	130.875610 31.689449 -24.111069	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20744028	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	2	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_156>
+	<entity_157>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	134.514587 31.689449 -46.946781	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_157>
+	<entity_158>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	134.164276 31.689449 -44.749905	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_158>
+	<entity_159>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	136.511230 31.689449 -43.713696	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_159>
+	<entity_160>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	138.075653 31.689449 -46.054905	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_160>
+	<entity_161>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	136.564423 31.689449 -47.765545	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	3	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_161>
+	<entity_162>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	125.567093 31.689449 -37.548626	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712037	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_162>
+	<entity_163>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	117.193306 31.689449 -29.247787	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_163>
+	<entity_164>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	115.682076 31.689449 -30.958427	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_164>
+	<entity_165>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	113.632240 31.689449 -30.139671	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_165>
+	<entity_166>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	115.628883 31.689449 -26.906578	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_166>
+	<entity_167>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	113.281929 31.689449 -27.942787	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_167>
+	<entity_168>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	131.205872 27.689449 -88.604828	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_168>
+	<entity_169>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	132.717102 27.720699 -86.894188	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_169>
+	<entity_170>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	131.152679 27.699215 -84.552979	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711034	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_170>
+	<entity_171>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	128.805725 27.673824 -85.589188	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741023	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_171>
+	<entity_172>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.866025 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 0.866025	</row2>
+			<row3>	129.156036 27.685543 -87.786072	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20731013	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_172>
+	<entity_173>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	134.814453 28.478512 -76.994865	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712037	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_173>
+</root>

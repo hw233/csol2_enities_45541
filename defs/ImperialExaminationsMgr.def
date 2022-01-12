@@ -1,0 +1,90 @@
+<root>
+	<Properties>
+		<jurenDict>		<!-- 获得举人的玩家-->
+			<Type>		PY_DICT		</Type>
+			<Flags>		BASE		</Flags>
+		</jurenDict>
+		<jinshiDict>		<!-- 获得进士的玩家-->
+			<Type>		PY_DICT		</Type>
+			<Flags>		BASE		</Flags>
+		</jinshiDict>
+		<_zhuangyuan>
+			<Type>		STRING		</Type>
+			<Flags>		BASE		</Flags>
+		</_zhuangyuan>
+		<_bangyan>
+			<Type>		STRING		</Type>
+			<Flags>		BASE		</Flags>
+		</_bangyan>
+		<_tanhua>
+			<Type>		STRING		</Type>
+			<Flags>		BASE		</Flags>
+		</_tanhua>
+		<_examinationType>
+			<Type>		INT8		</Type>
+			<Flags>		BASE		</Flags>
+		</_examinationType>
+		<_todayExamType>
+			<Type>		INT8		</Type>
+			<Flags>		BASE		</Flags>
+		</_todayExamType>
+		<_examLostTime>
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+		</_examLostTime>
+	</Properties>
+
+	<BaseMethods>
+		<addPlayerQuestion>
+			<Arg>		STRING		</Arg>
+			<Arg>		UINT32		</Arg>
+		</addPlayerQuestion>
+
+		<requestPlayerQuestion>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</requestPlayerQuestion>
+
+		<requestIEExpReward>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT16		</Arg>
+			<Arg>		INT8		</Arg>
+			<Arg>		INT8		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</requestIEExpReward>
+
+		<submitResults>
+			<Arg>	DATABASE_ID	</Arg> <!-- 玩家databaseID -->
+			<Arg>	FLOAT		</Arg> <!-- 正确率 -->
+			<Arg>	FLOAT		</Arg> <!-- 答题时间 -->
+			<Arg>	STRING		</Arg> <!-- 玩家姓名 -->
+		</submitResults>
+
+		<requestIETitleReward>
+			<Arg>	MAILBOX		</Arg> <!-- 玩家MailBox -->
+			<Arg>	DATABASE_ID	</Arg> <!-- 玩家databaseID -->
+			<Arg>	STRING		</Arg> <!-- 玩家姓名 -->
+			<Arg>	INT8		</Arg> <!-- 考试类型(4为会试、5为殿试) -->zhuangyuanItemID
+			<Arg> 	ITEM_ID		</Arg> <!-- itemID -->
+			<Arg> 	BOOL		</Arg> <!-- 包裹是否已满 -->
+		</requestIETitleReward>
+
+		<onXiangshiStart/>
+
+		<onXiangshiEnd/>
+
+		<onHuishiStart/>
+
+		<onHuishiEnd/>
+
+		<onDianshiStart/>
+
+		<onDianshiEnd/>
+
+		<onReset/>
+
+	</BaseMethods>
+</root>

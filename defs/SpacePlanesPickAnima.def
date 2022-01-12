@@ -1,0 +1,27 @@
+<root>
+	<Parent>	SpacePlanes	</Parent>
+
+	<Properties>
+		<pickAnimaData>
+			<Type>	PICK_ANIMA_PLANES_RECORDS	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</pickAnimaData>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onTriggerTrap>
+			<Arg>	PLANESID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	FLOAT		</Arg>
+			<Arg>	INT32		</Arg>
+		</onTriggerTrap>
+		<resertAddition>
+			<Arg>	PLANESID	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</resertAddition>
+		<onGameOver/>
+	</CellMethods>
+</root>

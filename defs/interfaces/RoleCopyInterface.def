@@ -1,0 +1,31 @@
+<root>
+	<Properties>
+	</Properties>
+	<CellMethods>
+		<pickAnima_reqStart>
+			<Exposed/>
+		</pickAnima_reqStart>
+		<pickAnima_onEnd/>
+		<pickAnima_confirmQuitSpace>
+			<Exposed/>
+		</pickAnima_confirmQuitSpace>
+		
+		<fangShou_addAreaGearStartMark>
+			<Arg>	STRING		</Arg>	<!-- areaName   : 防守副本区域名称 -->
+		</fangShou_addAreaGearStartMark>
+		<fangShou_onEnterCopy/>
+		<fangShou_onLeaveCopy/>
+	</CellMethods>
+	<ClientMethods>
+		<pickAnima_enterSpace/>
+		<pickAnima_upPickInfos>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</pickAnima_upPickInfos>
+		<pickAnima_triggerZhaDan/>
+		<pickAnima_overReport>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</pickAnima_overReport>
+	</ClientMethods>
+</root>

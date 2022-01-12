@@ -1,0 +1,2259 @@
+<root>
+	<entity_1>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	-0.707105 0.000000 0.707106	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707106 0.000000 -0.707105	</row2>
+			<row3>	-125.598953 15.962889 -2.427895	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	-0.258818 0.000000 0.965924	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965924 0.000000 -0.258818	</row2>
+			<row3>	-110.056206 16.253902 -8.342422	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	0.258819 0.000000 0.965923	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965923 0.000000 0.258819	</row2>
+			<row3>	-119.538239 15.810545 -10.999374	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 0.000000	</row2>
+			<row3>	-195.194122 11.436450 -28.837830	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.707105 0.000000 0.707105	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.707105 0.000000 0.707105	</row2>
+			<row3>	-145.044418 9.635568 -68.153618	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_003.model	</modelFile>
+			<amount>	6	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	1.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<collisionFraction>	0.100000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.040000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-145.285156 40.780853 -51.657360	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	35.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-194.539673 20.344391 -8.820877	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-182.959183 18.197500 15.298146	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	0.499999 0.000000 0.866023	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866023 0.000000 0.499999	</row2>
+			<row3>	-131.955521 16.230465 13.627768	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999994	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.999994 0.000000 0.000000	</row2>
+			<row3>	-104.067078 12.609373 84.334030	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	-0.707102 0.000000 -0.707103	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.707103 0.000000 -0.707102	</row2>
+			<row3>	-116.515007 13.568357 77.202957	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	-0.965921 0.000000 -0.258818	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.258818 0.000000 -0.965921	</row2>
+			<row3>	-126.970985 13.843748 70.743942	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	-0.499998 0.000000 -0.866021	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.866021 0.000000 -0.499998	</row2>
+			<row3>	-136.638885 14.138670 61.298977	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-173.840820 10.808150 26.291143	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_002.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 0.000000	</row2>
+			<row3>	-166.636398 11.640896 28.771894	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-177.816696 10.608841 27.818647	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_sha_yu.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.300000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-106.564339 19.390425 48.545116	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-102.060295 18.863304 53.441013	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	-115.876770 17.744650 0.977346	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	4.500000	</modelScale>
+			<radius>	6.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	-107.346924 10.349637 107.608162	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-87.204109 24.008551 -122.653206	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	0.500000 0.000000 0.866025	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866025 0.000000 0.500000	</row2>
+			<row3>	-18.547287 16.089840 -34.614319	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707106 0.000000 0.707106	</row2>
+			<row3>	-97.933594 16.078121 -13.471573	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.999999 0.000000 0.000000	</row2>
+			<row3>	-62.296654 16.230465 -23.338936	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-6.852776 10.707412 -99.624413	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_sha_yu.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.300000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-19.119370 12.897418 -89.146355	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_002.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.866023 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.499999 0.000000 -0.866023	</row2>
+			<row3>	-34.997528 11.876454 -95.116615	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499999 0.000000 -0.866024	</row2>
+			<row3>	-81.889130 11.341057 -97.425659	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	-34.082092 19.452976 -4.860123	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	4.500000	</modelScale>
+			<radius>	6.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-30.815681 21.106211 32.375404	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-32.222305 20.702950 31.409098	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-29.857941 20.401762 35.490776	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-70.351250 21.319994 24.554075	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-66.863564 21.381994 23.131535	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-70.205360 21.644581 21.647448	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-67.481331 21.226572 38.297657	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-69.420914 21.475866 38.372807	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-48.149860 23.549450 80.117409	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-47.029057 23.153488 79.445549	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	-87.633919 18.365793 69.670998	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	4.500000	</modelScale>
+			<radius>	6.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<type>	NPCObject	</type>
+		<transform>
+			<row0>	-0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707106 0.000000 -0.707106	</row2>
+			<row3>	-17.923294 18.490231 6.498750	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111325	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<type>	NPCObject	</type>
+		<transform>
+			<row0>	-0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707106 0.000000 -0.707106	</row2>
+			<row3>	-24.587250 18.599606 12.843443	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111325	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-4.242699 23.568476 183.849152	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	-0.707104 0.000000 0.707105	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707105 0.000000 -0.707104	</row2>
+			<row3>	-17.516418 15.851561 110.733566	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	-0.707103 0.000000 0.707105	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707105 0.000000 -0.707103	</row2>
+			<row3>	-39.887054 15.970701 110.165131	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	-0.965921 0.000000 0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258819 0.000000 -0.965921	</row2>
+			<row3>	-51.906380 15.923826 108.662445	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	0.258819 0.000000 0.965923	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965923 0.000000 0.258819	</row2>
+			<row3>	-5.848579 15.882809 122.849159	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	-0.999997 0.000000 0.000001	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.000001 0.000000 -0.999997	</row2>
+			<row3>	-17.777985 16.304684 107.991928	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258816	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258816 0.000000 0.965919	</row2>
+			<row3>	-40.117008 15.042967 124.848114	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	0.499997 0.000000 -0.866019	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.866019 0.000000 0.499997	</row2>
+			<row3>	-52.965134 14.148436 122.304337	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258816	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258816 0.000000 0.965919	</row2>
+			<row3>	-27.163017 15.308592 126.764000	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258816	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258816 0.000000 0.965919	</row2>
+			<row3>	-19.118011 15.507811 125.941002	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258816	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258816 0.000000 0.965919	</row2>
+			<row3>	-14.707024 15.249998 139.899048	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258816	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258816 0.000000 0.965919	</row2>
+			<row3>	-2.128006 15.160154 149.041962	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-21.220161 25.325092 201.483276	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	62.648750 22.560173 -138.453949	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	25.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	7.098999 19.550297 -80.986259	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	3.704218 16.296331 -30.169220	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	10.781173 16.437498 -27.067787	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	34.270947 16.496092 -16.691101	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	30.858305 16.406248 -19.790672	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999997	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.999997 0.000000 0.000000	</row2>
+			<row3>	58.263115 15.873045 -35.042130	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.707106 0.000000 -0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.707106 0.000000 -0.707106	</row2>
+			<row3>	30.891277 11.157589 -71.398979	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	99.369064 9.689844 -2.215889	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_002.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707106 0.000000 0.707106	</row2>
+			<row3>	18.492933 11.270589 -75.896812	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hai_gui_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	40.273609 18.032242 -15.566223	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	4.500000	</modelScale>
+			<radius>	6.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999996 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999996	</row2>
+			<row3>	90.376961 25.357044 -62.963261	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	4.500000	</modelScale>
+			<radius>	6.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_67>
+	<entity_68>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	95.410164 26.268026 -53.125580	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_68>
+	<entity_69>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	99.349579 25.677431 -59.205948	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_69>
+	<entity_70>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	95.426613 26.181187 -75.502342	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_70>
+	<entity_71>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	93.886032 26.533978 -74.383659	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_71>
+	<entity_72>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	88.132767 25.136688 -67.459305	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_72>
+	<entity_73>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	68.746414 21.860237 43.442825	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_73>
+	<entity_74>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	68.148369 21.521885 42.434032	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_74>
+	<entity_75>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	24.352932 21.431856 4.002572	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_75>
+	<entity_76>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	24.243013 21.186668 1.545323	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_76>
+	<entity_77>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	18.385851 21.316486 19.652857	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_77>
+	<entity_78>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	22.002808 21.459017 21.328968	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_78>
+	<entity_79>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	43.621651 27.462965 66.491669	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_79>
+	<entity_80>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	41.989304 28.149788 67.839981	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_80>
+	<entity_81>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	-0.707105 0.000000 0.707105	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707105 0.000000 -0.707105	</row2>
+			<row3>	32.073879 15.986326 145.657272	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_81>
+	<entity_82>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	-0.499998 0.000000 0.866023	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866023 0.000000 -0.499998	</row2>
+			<row3>	3.011412 16.124996 134.126373	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_82>
+	<entity_83>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999997	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.999997 0.000000 0.000000	</row2>
+			<row3>	16.590124 16.595699 133.976685	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_83>
+	<entity_84>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258816	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258816 0.000000 0.965919	</row2>
+			<row3>	9.184995 14.205076 154.566956	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_84>
+	<entity_85>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258816	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258816 0.000000 0.965919	</row2>
+			<row3>	24.696997 14.349607 159.767975	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_85>
+	<entity_86>
+		<type>	SpecialHideEntity	</type>
+		<transform>
+			<row0>	0.965919 0.000000 -0.258816	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.258816 0.000000 0.965919	</row2>
+			<row3>	33.081985 13.826170 161.230988	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111321	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_86>
+	<entity_87>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 0.000000	</row2>
+			<row3>	82.332977 7.073908 155.635376	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_87>
+	<entity_88>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 0.000000	</row2>
+			<row3>	96.148788 6.491796 154.402100	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_88>
+	<entity_89>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	65.802307 7.410914 175.324738	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hai_gui_001.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_89>
+	<entity_90>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499999 0.000000 -0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.866024 0.000000 0.499999	</row2>
+			<row3>	6.710167 12.675035 182.179657	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_90>
+	<entity_91>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	9.633552 17.510468 133.887817	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	4.500000	</modelScale>
+			<radius>	6.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_91>
+	<entity_92>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 0.000000	</row2>
+			<row3>	102.303841 10.067114 -4.406723	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_92>
+	<entity_93>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	100.162430 9.751360 -6.419838	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hai_gui_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_93>
+	<entity_94>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	181.201691 20.262941 63.274483	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_94>
+	<entity_95>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	114.281387 16.306637 66.593796	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_95>
+	<entity_96>
+		<type>	QuestShellBox	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	125.851974 16.771482 72.931709	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111195	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_96>
+	<entity_97>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 -0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.499999 0.000000 -0.866024	</row2>
+			<row3>	170.197357 9.834189 58.791718	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_97>
+	<entity_98>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	167.390442 11.392959 55.789902	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_98>
+	<entity_99>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	117.548157 22.282816 82.333160	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_99>
+	<entity_100>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	117.183853 21.807270 81.074921	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.500000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_100>
+	<entity_101>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	109.629791 31.649412 99.815491	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_101>
+	<entity_102>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	110.571396 18.301867 69.415932	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	4.500000	</modelScale>
+			<radius>	6.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_102>
+	<entity_103>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965924 0.000002 0.258818	</row0>
+			<row1>	0.099961 0.922402 -0.373066	</row1>
+			<row2>	-0.238736 0.386226 0.890972	</row2>
+			<row3>	192.132462 95.259018 122.061279	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_ying_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_103>
+	<entity_104>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	106.970825 33.194256 110.020981	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_104>
+	<entity_105>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	107.610329 32.807373 107.738617	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_105>
+	<entity_106>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	159.870819 44.395828 122.682144	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_106>
+	<entity_107>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	159.379059 43.694752 121.202934	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	2.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_107>
+	<entity_108>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999996 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999996	</row2>
+			<row3>	133.038361 36.872681 113.162453	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	4.500000	</modelScale>
+			<radius>	6.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_108>
+	<entity_109>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	260.973938 23.208134 155.312012	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_109>
+	<entity_110>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	266.176453 25.293013 155.103973	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_110>
+	<entity_111>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	211.109436 49.991100 126.082932	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	4.500000	</modelScale>
+			<radius>	6.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_111>
+</root>

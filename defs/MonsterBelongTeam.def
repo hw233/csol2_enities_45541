@@ -1,0 +1,18 @@
+<root>
+	<Parent>		Monster	</Parent>
+	<ClientName>		MonsterBelongTeam	</ClientName>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	<Properties>
+		<belong>
+			<Type>		OBJECT_ID			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Default>		0			</Default>
+		</belong>
+	</Properties>
+	<CellMethods>
+	</CellMethods>
+</root>

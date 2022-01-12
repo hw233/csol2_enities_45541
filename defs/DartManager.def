@@ -1,0 +1,67 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<add>									 <!-- 增加镖局相关声望（仇恶）值 -->
+			<Arg>   STRING		</Arg>  
+			<Arg>	STRING		</Arg>	
+			<Arg>	INT32		</Arg>	
+		</add>
+
+		<query>									 <!-- 查询镖局相关声望（仇恶）值 -->
+			<Arg>   STRING		</Arg>  
+			<Arg>   INT8		</Arg>  
+			<Arg>	MAILBOX		</Arg>	
+		</query>
+
+		<requestPlayerDartPrestige>						<!-- 玩家获取镖局相关声望（仇恶）值 -->
+			<Arg>   STRING		</Arg>  
+			<Arg>	MAILBOX		</Arg>	
+		</requestPlayerDartPrestige>
+
+		<addDartMessage>							<!-- 加入运镖消息 -->
+			<Arg>   STRING		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	BOOL		</Arg>	<!--  是否保存 -->
+		</addDartMessage>
+
+		<queryAboutDart>							<!-- 玩家上线查询运镖相关情况-->	
+			<Arg>   STRING		</Arg>  
+			<Arg>	MAILBOX		</Arg>				
+		</queryAboutDart>
+
+		<buildDartRelation>
+			<Arg>   STRING		</Arg>  <!-- 玩家名字 -->
+			<Arg>	STRING		</Arg>	<!-- 空间名字 -->
+			<Arg>	MAILBOX		</Arg>	<!-- 镖车CELLMAILBOX-->
+			<Arg>	UINT16		</Arg>	<!-- 镖车所属factionID -->
+		</buildDartRelation>
+
+		<onReceiveDestoryCommand>
+			<Arg>   STRING		</Arg>  <!-- 玩家名字 -->
+		</onReceiveDestoryCommand>
+
+		<requestToDestoryDartRelation>
+			<Arg>   STRING		</Arg>  <!-- 玩家名字 -->
+		</requestToDestoryDartRelation>
+		
+		<onStart/>
+		<onEnd/>
+		<onStartNotice/>
+		<onEndNotice/>
+
+		<sendOwnerToDart>
+			<Arg>	STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</sendOwnerToDart>
+		<findOwnerByName>
+			<Arg>	STRING	</Arg>
+		</findOwnerByName>
+		<querySpaceDartInfo>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT16	</Arg>
+		</querySpaceDartInfo>
+	</BaseMethods>
+</root>

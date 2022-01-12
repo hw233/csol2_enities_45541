@@ -1,0 +1,272 @@
+<root>
+	<Stage1>
+		<event1>
+			<type>	1	</type>
+			<comment> 关卡开始事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	11	</id>
+							<comment> 混沌副本数据初始化	</comment>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event1>
+		<event2>
+			<type>	7	</type>
+			<comment> 第一个玩家进入副本事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	1	</id>
+							<comment> 记录进入该副本的队伍ID	</comment>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	2	</id>
+							<comment> 10秒后结束当前关卡	</comment>
+							<delayTime>		10	</delayTime>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event2>
+	</Stage1>
+	<Stage2>
+		<event1>
+			<type>	1	</type>
+			<comment> 副本关卡开始事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	5	</id>
+							<comment> 刷新MonsterType编号为0的怪物	</comment>
+							<param1>	0	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event1>
+		<event2>
+			<type>	2	</type>
+			<comment> 怪物死亡事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	6	</id>
+							<comment> 增加 1 分混沌积分	</comment>
+							<param1>	1	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	7	</id>
+							<comment> 副本剩余小怪显示数量减 1	</comment>
+							<param1>	273	</param1>
+							<param2>	-1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	1	</id>
+							<comment> 副本剩余小怪数量为 0	</comment>
+							<param1>	273	</param1>
+							<param2>	0	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	2	</id>
+							<comment> 3秒后结束当前关卡	</comment>
+							<delayTime>		3	</delayTime>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event2>
+	</Stage2>
+	<Stage3>
+		<event1>
+			<type>	1	</type>
+			<comment> 副本关卡开始事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	5	</id>
+							<comment> 刷新MonsterType编号为1的怪物，即混沌BOSS	</comment>
+							<param1>	1	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	4	</id>
+							<comment> 混沌副本BOSS出场喊话	</comment>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event1>
+		<event2>
+			<type>	2	</type>
+			<comment> 怪物死亡事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	6	</id>
+							<comment> 增加20分混沌副本积分	</comment>
+							<param1>	20	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	7	</id>
+							<comment> 副本剩余BOSS数量减 1	</comment>
+							<param1>	274	</param1>
+							<param2>	-1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	8	</id>
+							<comment> 创建混沌副本BOSS死亡后的传送门	</comment>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	9	</id>
+							<comment> 销毁混沌副本进入NPC	</comment>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	1	</id>
+							<comment> 副本剩余BOSS数量为 0	</comment>
+							<param1>	274	</param1>
+							<param2>	0	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	2	</id>
+							<comment> 结束当前关卡	</comment>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event2>
+	</Stage3>
+	<Stage4>
+		<event1>
+			<type>	1	</type>
+			<comment> 副本关卡开始事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	10	</id>
+							<comment> 3秒后广播副本结束消息	</comment>
+							<delayTime>		3	</delayTime>
+							<param1>	24740	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	3	</id>
+							<comment> 60秒后踢出所有玩家，关闭副本	</comment>
+							<delayTime>		60	</delayTime>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event1>
+	</Stage4>
+</root>

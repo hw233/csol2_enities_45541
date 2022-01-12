@@ -1,0 +1,16 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onEnterTeamChallenge>
+			<Arg>	VECTOR3		</Arg>
+			<Arg>	VECTOR3		</Arg>
+			<Arg>	BOOL		</Arg>	<!--空间不存在时是否创建-->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	UINT32		</Arg>	<!-- params -->
+		</onEnterTeamChallenge>
+	</BaseMethods>
+</root>

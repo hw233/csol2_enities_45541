@@ -1,0 +1,16 @@
+<root>
+	<EntityType>SpaceNormal</EntityType>
+	<DomainType>SpaceDomain</DomainType>
+	<script>Space</script>
+
+	<className>fu_ben_long_qi_dong_01</className>
+	<dirMapping> universes/fu_ben_long_qi_dong_01 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>config/server/spawn/fu_ben_long_qi_dong_01.xml	</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入獄<-->
+	<CalcPkValue/>
+	<Space>
+	</Space>
+</root>

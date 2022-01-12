@@ -1,0 +1,29 @@
+<root>
+	<Properties>
+		<courseHelpRecords>					<!-- 保存角色过程帮助的历史记录（hyw--2008.08.04） -->
+			<Type>		ARRAY <of> INT16 </of>	</Type>
+			<Flags>		BASE_AND_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</courseHelpRecords>
+	</Properties>
+
+	<BaseMethods>
+		<addCourseHelpHistory>				<!-- 添加一条过程帮助历史记录( hyw -- 2008.08.04 )-->
+			<Exposed/>
+			<Arg>		INT16				</Arg>
+		</addCourseHelpHistory>
+
+		<opr_saveRecord>
+			<Exposed/>
+			<Arg>		INT8				</Arg>
+			<Arg>		INT16				</Arg>
+		</opr_saveRecord>
+	</BaseMethods>
+
+	<ClientMethods>
+		<opr_onRcvUnRecords>
+			<Arg>		INT8				</Arg>
+			<Arg> ARRAY <of>	INT16 </of> </Arg>
+		</opr_onRcvUnRecords>
+	</ClientMethods>
+</root>

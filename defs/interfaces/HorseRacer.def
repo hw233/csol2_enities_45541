@@ -1,0 +1,84 @@
+<root>
+	<Properties>
+
+		<affectAfeard>
+			<Type>		BOOL			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</affectAfeard>
+
+		<raceItemsBag>
+			<Type>			KITBAG 			</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Editable>		false			</Editable>
+			<Persistent>		false			</Persistent>
+		</raceItemsBag>
+
+	</Properties>
+
+	<ClientMethods>
+		<onRacehorseStart>
+		</onRacehorseStart>
+
+		<onRacehorseEnd>
+		</onRacehorseEnd>
+		<addRaceItemCB>
+			<Arg>		INT16			</Arg>
+			<Arg>		ITEM			</Arg>
+		</addRaceItemCB>
+	
+		<swapRaceItemCB>
+			<Arg>		INT16			</Arg>
+			<Arg>		INT16			</Arg>
+		</swapRaceItemCB>
+
+		<onRemoveRaceItem>
+			<Arg>		INT16			</Arg>
+		</onRemoveRaceItem>
+
+		<showRaceTime>
+		</showRaceTime>
+
+		<hideRaceTime>
+		</hideRaceTime>
+
+		<updateRaceCircle>
+		</updateRaceCircle>
+		
+	</ClientMethods>
+
+	<CellMethods>
+		<onBecomeRacer>
+		</onBecomeRacer>
+
+		<onBecomeNonRacer>
+		</onBecomeNonRacer>
+
+		<addRaceItem>
+			<Arg>		ITEM			</Arg>
+		</addRaceItem>
+		<!-- 对目标使用某道具 -->
+		<useRacehorseItem>
+			<Exposed/>
+			<Arg>	UID		</Arg>	<!-- uid -->
+			<Arg>	INT32		</Arg>	<!-- dstEntityID -->
+		</useRacehorseItem>
+		<swapRaceItems>
+			<Exposed/>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT16		</Arg>
+		</swapRaceItems>
+		<addRaceRewards>
+			<Arg>	UINT8		</Arg>  <!-- 名次 -->
+		</addRaceRewards>
+
+		<waitForStart>
+			<Arg>	INT32		</Arg>	<!-- 赛马开始时间-->
+		</waitForStart>
+		<addRacePointIndex>
+			<Arg>	UINT8		</Arg>  <!-- 路点 -->
+			<Arg>	UINT8		</Arg>  <!-- 是否终点 -->
+		</addRacePointIndex>
+	</CellMethods>
+</root>

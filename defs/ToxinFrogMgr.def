@@ -1,0 +1,26 @@
+<root>
+	<Properties>
+	</Properties>
+	<Implements>
+		<Interface>	NormalActivityManager			</Interface>
+	</Implements>
+	<BaseMethods>
+		<onNotifySpawnBoss>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		INT16		</Arg>
+			<Arg>		INT8		</Arg>
+		</onNotifySpawnBoss>
+		<onBossExitFight>
+			<Arg>		MAILBOX		</Arg>
+		</onBossExitFight>
+		<onBossDie>
+			<Arg>		MAILBOX		</Arg>
+		</onBossDie>
+		<addActivityDoorSpawnPoint>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</addActivityDoorSpawnPoint>
+	</BaseMethods>
+
+</root>

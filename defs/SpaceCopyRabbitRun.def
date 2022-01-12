@@ -1,0 +1,16 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+		<onArriveDestination>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</onArriveDestination>
+	</BaseMethods>
+	<CellMethods>
+	</CellMethods>
+</root>

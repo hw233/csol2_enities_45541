@@ -1,0 +1,70 @@
+<root>
+	<Properties>
+		<spaceChallengeKey>
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</spaceChallengeKey>
+	</Properties>
+
+	<ClientMethods>
+		<challengeSpaceShow>
+			<Arg> UINT8  </Arg>
+		</challengeSpaceShow>
+		<challengeSpaceReceivesSetAvatar>
+			<Arg> OBJECT_ID  </Arg>
+			<Arg> STRING  </Arg>
+		</challengeSpaceReceivesSetAvatar>
+		<challengeSpaceOnEnter>
+			<Arg> STRING  </Arg>
+			<Arg> UINT8   </Arg>
+		</challengeSpaceOnEnter>
+		<challengeSpaceOnEnd>
+			<Arg> PY_DICT  </Arg>
+		</challengeSpaceOnEnd>
+	</ClientMethods>
+
+	<CellMethods>
+		<challengeSpaceEnter>
+			<Exposed/>
+		</challengeSpaceEnter>
+		<challengeSpaceOnStart>
+			<Arg> STRING  </Arg>
+			<Arg> UINT32   </Arg>
+			<Arg> STRING   </Arg>
+			<Arg> VECTOR3   </Arg>
+			<Arg> VECTOR3   </Arg>
+		</challengeSpaceOnStart>
+		<challengeSpaceGotoGate>
+			<Arg> UINT32   </Arg>
+			<Arg> STRING   </Arg>
+			<Arg> VECTOR3   </Arg>
+			<Arg> VECTOR3   </Arg>
+		</challengeSpaceGotoGate>
+		<challengeSpaceOnEnd>
+		</challengeSpaceOnEnd>
+		<challengeSpaceIsTimeOut/>
+		<challengeSpaceSetAvatar>
+			<Exposed/>
+			<Arg> STRING   </Arg>
+		</challengeSpaceSetAvatar>
+		<challengeSpaceOnLeaveSpecial/>
+		<challengeSpacePassDoor>
+		</challengeSpacePassDoor>
+		<challengeSpaceEnterBaoXiang>
+		</challengeSpaceEnterBaoXiang>
+		<challengeSpaceEnterPiShan>
+		</challengeSpaceEnterPiShan>
+
+		<registerCallMonster>
+			<Arg>	MAILBOX		</Arg>
+		</registerCallMonster>
+		<removeCallMonster>
+			<Arg>	MAILBOX		</Arg>
+		</removeCallMonster>
+		<onRemoteFollowCallMonster>
+			<Arg>	MAILBOX		</Arg>
+		</onRemoteFollowCallMonster>
+	</CellMethods>
+
+</root>

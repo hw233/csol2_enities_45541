@@ -1,0 +1,137 @@
+<root>
+	<Implements>
+		<Interface>	CombatUnit </Interface>
+	</Implements>
+
+	<Properties>
+		<_PetAI__qbItems>					<!-- 宠物技能栏 -->
+			<Type> ARRAY <of> PET_QB_ITEM </of> </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	true			</Persistent>
+		</_PetAI__qbItems>
+
+		<_PetAI__tmpSpellID>				<!-- 当前正在使用的技能 -->
+			<Type>			SKILLID			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</_PetAI__tmpSpellID>
+
+		<_PetAI__keepPosition>
+			<Type>			POSITION		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</_PetAI__keepPosition>
+
+		<_PetAI__isForceFollow>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</_PetAI__isForceFollow>
+		<_PetAI__autoAttackTimerID>
+			<Type>			CONTROLLER_ID	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</_PetAI__autoAttackTimerID>
+
+		<_PetAI__chaseEntityID>
+			<Type>			OBJECT_ID	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</_PetAI__chaseEntityID>
+
+		<_PetAI__chaseFlatRange>	<!-- 记录chaseEntity失败并且doRandomRun成功时，距离追踪目标多远时认为到达 -->
+			<Type>			FLOAT	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</_PetAI__chaseFlatRange>
+
+		<_PetAI__isAutoAttack>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</_PetAI__isAutoAttack>
+
+		<_PetAI__controlPowerStatus>
+			<Type>			INT8		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</_PetAI__controlPowerStatus>
+
+		<actionMode>											<!-- 行为状态（战斗状态和移动状态的合值） -->
+			<Type>			UINT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</actionMode>
+		<tussleMode>											<!-- 行为状态（战斗状态和移动状态的合值） -->
+			<Type>			UINT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</tussleMode>
+		<wuxue> <!-- 武学属性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	1				</Default>
+			<Persistent>	true				</Persistent>
+		</wuxue>
+	</Properties>
+
+	<CellMethods>
+		<teleportToEntity>			<!-- 将宠物 teleport 到entity身边 -->
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		POSITION	</Arg>
+			<Arg>		DIRECTION	</Arg>
+		</teleportToEntity>
+
+		<!-- exposed methods -->
+		<requestQBItems>
+			<Exposed/>
+		</requestQBItems>
+		<updateQBItem>
+			<Exposed/>
+			<Arg>	UINT8			</Arg>
+			<Arg>	PET_QB_ITEM	</Arg>
+		</updateQBItem>
+
+		<setActionMode>
+			<Exposed/>
+			<Arg>			UINT8			</Arg>
+		</setActionMode>
+		<setTussleMode>
+			<Exposed/>
+			<Arg>			UINT8			</Arg>
+		</setTussleMode>
+
+		<attackTarget>				<!-- 攻击敌人 -->
+			<Exposed/>
+			<Arg>			OBJECT_ID		</Arg>
+			<Arg>			SKILLID			</Arg>
+		</attackTarget>
+
+		<teleportOver>
+		</teleportOver>
+
+		<onClientReady>
+			<Exposed/>
+		</onClientReady>
+		<setKeepPosition>			<!-- 设置停留位置 -->
+			<Exposed/>
+			<Arg>			POSITION		</Arg>
+		</setKeepPosition>
+
+		<synchronisePositionFromClient>
+			<Exposed/>
+			<Arg>			POSITION		</Arg>
+		</synchronisePositionFromClient>
+	</CellMethods>
+
+	<ClientMethods>
+		<onSetKeepPosition>
+			<Arg>		POSITION	</Arg>
+		</onSetKeepPosition>
+
+		<onClientControlled>
+			<Arg>		BOOL		</Arg>
+		</onClientControlled>
+	</ClientMethods>
+</root>

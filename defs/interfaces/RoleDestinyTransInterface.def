@@ -1,0 +1,98 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<openBoardInterface>		<!-- 打开棋盘界面 -->
+			<Arg>			INT8			</Arg>	<!-- 棋盘编号 -->
+			<Arg>			PY_DICT			</Arg>
+			<Arg>			PY_DICT			</Arg>
+		</openBoardInterface>
+
+		<onCountDown>			<!-- 开始掷筛子倒计时 -->
+			<Arg>			INT16			</Arg>	<!-- 时间 -->
+		</onCountDown>
+
+		<onGetSievePoint>		<!-- 获得筛子点数 -->
+			<Arg>			INT8			</Arg>
+		</onGetSievePoint>
+
+		<onMoveRoleChess>		<!-- 移动棋子 -->
+			<Arg>			DATABASE_ID		</Arg>
+			<Arg>			INT8			</Arg>
+		</onMoveRoleChess>
+
+		<onMoveRoleChessToStart>	<!-- 移动棋子到起始位置 -->
+			<Arg>			DATABASE_ID		</Arg>
+		</onMoveRoleChessToStart>
+
+		<closeBoardInterface>		<!-- 关闭棋盘界面 -->
+			<Arg>			BOOL			</Arg>	<!-- 是否销毁 -->
+		</closeBoardInterface>
+
+		<onRoleLivePointChanged>	<!-- 玩家复活点数发生变化 -->
+			<Arg>			DATABASE_ID		</Arg>
+			<Arg>			INT8			</Arg>
+		</onRoleLivePointChanged>
+
+		<desTrans_msgs>			<!-- 提示信息 -->
+			<Arg>			INT8			</Arg>
+		</desTrans_msgs>
+	</ClientMethods>
+
+	<CellMethods>
+		<destinyTransSpaceStart>	<!-- 天命副本开启 -->
+			<Arg>			INT8			</Arg>
+			<Arg>			PY_DICT			</Arg>
+			<Arg>			PY_DICT			</Arg>
+			<Arg>			STRING			</Arg>
+		</destinyTransSpaceStart>
+
+		<throwSieve>			<!-- 掷筛子 -->
+			<Exposed/>
+		</throwSieve>
+
+		<endPlaySieveAnimation>		<!-- 播放掷筛子动作结束 -->
+			<Exposed/>
+		</endPlaySieveAnimation>
+
+		<endMoveChess>			<!-- 移动棋子结束 -->
+			<Exposed/>
+		</endMoveChess>
+
+		<onEnterDestinyTransGate/>	<!-- 进入关卡内 -->
+
+		<onLeaveDestinyTransGate/>	<!-- 离开关卡 -->
+
+		<roleReviveCostLivePoint>	<!-- 玩家点击复活按钮 -->
+			<Exposed/>
+		</roleReviveCostLivePoint>
+
+		<openBoardInterface>		<!-- 打开棋盘界面 -->
+			<Arg>			INT8		</Arg>	<!-- 棋盘编号 -->
+			<Arg>			PY_DICT		</Arg>
+			<Arg>			PY_DICT		</Arg>
+		</openBoardInterface>
+
+		<reOpenBoardInterface>		<!-- 重新进入打开棋盘界面 -->
+			<Arg>			INT8		</Arg>	<!-- 棋盘编号 -->
+			<Arg>			PY_DICT		</Arg>
+			<Arg>			PY_DICT		</Arg>
+			<Arg>			STRING		</Arg>
+		</reOpenBoardInterface>
+
+		<dt_onLeaveTeamCB/>		<!-- 离队回调 -->
+
+		<onPassedAllGate/>		<!-- 通关 -->
+
+		<resetDestinyTransData/>	<!-- 重置数据 -->
+
+		<onPassedGate/>			<!-- 完成某个关卡 -->
+
+		<onFailedGate/>			<!-- 通关失败 -->
+
+		<roleEnterDestinyTransCheck>	<!-- 进入条件检测 -->
+			<Arg>			INT16		</Arg>
+		</roleEnterDestinyTransCheck>
+	</CellMethods>
+</root>

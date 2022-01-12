@@ -1,0 +1,26 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onStartNotice/>
+		<onStart/>
+		<onEnd/>
+
+		<onRegisterProtectTongSpace>
+			<Arg>	MAILBOX	</Arg>
+		</onRegisterProtectTongSpace>
+
+		<protectTongOver>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT8	</Arg>
+		</protectTongOver>
+
+		<onStartNoticeMidAutumn/>
+		<onStartMidAutumn/>
+		<onEndMidAutumn/>
+		<receiveMonsterCount>
+			<Arg>	UINT16	</Arg>
+		</receiveMonsterCount>
+	</BaseMethods>
+</root>

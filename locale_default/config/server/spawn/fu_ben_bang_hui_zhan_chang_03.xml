@@ -1,0 +1,195 @@
+<root>
+	<entity_1>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	-0.258819 0.000000 -0.965926	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965926 0.000000 -0.258819	</row2>
+			<row3>	-9.476196 8.263670 -25.503578	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10121114	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	-89.454399 38.165997 98.687798	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_003.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	25.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	23.829975 34.038849 17.173956	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_003.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	35.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	11.231626 51.974419 172.434174	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_003.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	30.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	49.091324 26.344439 113.429306	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_003.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	40.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	178.268524 100.348747 -133.338318	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_niao_003.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	30.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.999999 0.000000 0.000000	</row2>
+			<row3>	103.816772 8.476561 145.664917	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10121114	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_7>
+</root>

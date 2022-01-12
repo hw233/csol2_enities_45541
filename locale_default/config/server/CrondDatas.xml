@@ -1,0 +1,1805 @@
+<root>
+	<row>
+		<name>	变身大赛	</name>
+		<description>	@S{4}在每天9:00-9:20、14:00-14:20凤鸣城海滩上的变身小丑@L{t=&apos;马夕($xz{10111211})&apos;;m=goto:10111211;cfc=c4;hfc=c3}会召开变身大赛，欢迎各位玩家前去报名参加。@B{2}@S{4}注意：这一活动的报名时间为活动召开前10分钟，超过时间将无法报名参加。	</description>
+		<cmd>	0 9 * * *	</cmd>
+		<key>	BCGameMgr_start_notice	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	凤鸣海滩	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	20	</persist>
+	</row>
+	<row>
+		<name>	变身大赛	</name>
+		<description>	变身大赛结束	</description>
+		<cmd>	20 9 * * *	</cmd>
+		<key>	BCGameMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	变身大赛	</name>
+		<description>	@S{4}在每天9:00-9:20、14:00-14:20凤鸣城海滩上的变身小丑@L{t=&apos;马夕($xz{10111211})&apos;;m=goto:10111211;cfc=c4;hfc=c3}会召开变身大赛，欢迎各位玩家前去报名参加。@B{2}@S{4}注意：这一活动的报名时间为活动召开前10分钟，超过时间将无法报名参加。	</description>
+		<cmd>	0 14 * * *	</cmd>
+		<key>	BCGameMgr_start_notice	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	凤鸣海滩	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	20	</persist>
+	</row>
+	<row>
+		<name>	变身大赛	</name>
+		<description>	变身大赛结束	</description>
+		<cmd>	20 14 * * *	</cmd>
+		<key>	BCGameMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	赛马	</name>
+		<description>	开始公告	</description>
+		<cmd>	25 11 * * *	</cmd>
+		<key>	RacehorseManager_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	赛马	</name>
+		<description>	@S{4}每天11:30-11:50在凤鸣会召开赛马大赛，只要玩家达到20级以上，便可以去凤鸣寻找@L{t=&apos;采薇($xz{10111005})&apos;;m=goto:10111005;cfc=c4;hfc=c3}报名参加赛马大赛，在赛马大赛中胜出的玩家将获得丰厚的回报。@B{2}@S{4}注意：这个活动只有在前2分钟可以报名，之后将无法报名。@B{2}@S{4}完成比赛后可找赛马管理员采薇领取一份奖品。	</description>
+		<cmd>	30 11 * * *	</cmd>
+		<key>	RacehorseManager_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	20	</condition>
+		<area>	凤鸣城	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	20	</persist>
+	</row>
+	<row>
+		<name>	赛马	</name>
+		<description>	活动结束	</description>
+		<cmd>	50 11 * * *	</cmd>
+		<key>	RacehorseManager_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	知识问答	</name>
+		<description>	开始公告	</description>
+		<cmd>	55 11 * * *	</cmd>
+		<key>	QuizGameMgr_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	知识问答	</name>
+		<description>	@S{4}想挑战自己的知识极限吗？每天12:00-12:15将举行知识问答活动!@B{2}@S{4}奋战在创世大陆的您想不想在休息之余获取经验和神秘奖励呢，请马上脱离战斗参加到活动中来吧!	</description>
+		<cmd>	0 12 * * *	</cmd>
+		<key>	QuizGameMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	10	</condition>
+		<area>	自认为安全的地点	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	15	</persist>
+	</row>
+	<row>
+		<name>	知识问答	</name>
+		<description>	活动结束	</description>
+		<cmd>	15 12 * * *	</cmd>
+		<key>	QuizGameMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	捕鱼高手	</name>
+		<description>	开始公告	</description>
+		<cmd>	25 11 * * *	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	捕鱼高手	</name>
+		<description>	@S{4}每天11:30-12:30在凤鸣海滩会开启捕鱼高手活动，只要玩家达到10级以上，便可以去凤鸣寻找@L{t=&apos;羡鱼($xz{10121811})&apos;;m=goto:10121811;cfc=c4;hfc=c3}参加捕鱼高手活动。@B{2}	</description>
+		<cmd>	30 11 * * *	</cmd>
+		<key>	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	10	</condition>
+		<area>	凤鸣城	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	捕鱼高手	</name>
+		<description>	活动结束	</description>
+		<cmd>	30 12 * * *	</cmd>
+		<key>	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	暗影之门	</name>
+		<description>	开始公告	</description>
+		<cmd>	25 11 * * *	</cmd>
+		<key>	ToxinFrogMgr_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	暗影之门	</name>
+		<description>	@S{4}凡是在仙魔对抗中亡故的魂灵，若能做到死前强烈的意念致使力量不散，寄宿于暗影石之上，经过一段时间的黑暗力量修炼，能在暗影空间凝聚成形体，同时化去生前的一切记忆，重生为新的黑暗力量个体。每天的11:30-12:00暗影之门就会开启。这些黑暗力量就会通过暗影之门入侵洪荒。@B{2}@S{4}成功阻止黑暗力量的入侵就能获得丰厚的奖励。	</description>
+		<cmd>	30 11 * * *	</cmd>
+		<key>	ToxinFrogMgr_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	10	</condition>
+		<area>	凤鸣、飞来石、九河渡、留仙台、避世涧	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	30	</persist>
+	</row>
+	<row>
+		<name>	暗影之门	</name>
+		<description>	活动结束	</description>
+		<cmd>	00 12 * * *	</cmd>
+		<key>	ToxinFrogMgr_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	仙魔论战活动	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 23 * * *	</cmd>
+		<key>	TaoismDemonBattle_Notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	仙魔论战	</name>
+		<description>	@S{4}洪荒战火开斗志，群英并起论天下。经历仙魔大战的仙魔两道各自沉寂百年之后，各自迎来了阵营势力的飞速发展。文思方面有各自阵营的最高领袖鸿钧老祖和魔祖罗睺二者亲自以讲道的方式亲授，武学则是各自派遣旗下弟子分别是通天教主和冥河老祖来督促门人修炼，希望洪荒参与众志士能在次场论战中有突出表现，并使得道行更为精进。每天0:00-0:30、12：00-15：00，通天教主将会在太阳宫门口、冥河老祖会在修罗殿门前等待各位前去试炼。@B{2}@S{4}完成试炼能获得丰厚的奖励。	</description>
+		<cmd>	0 0 * * *	</cmd>
+		<key>	TaoismDemonBattle_Start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	1	</condition>
+		<area>	太阳宫、修罗殿	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	180	</persist>
+	</row>
+	<row>
+		<name>	仙魔论战	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 3 * * *	</cmd>
+		<key>	TaoismDemonBattle_End	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	仙魔论战活动	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 11 * * *	</cmd>
+		<key>	TaoismDemonBattle_Notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	仙魔论战	</name>
+		<description>	@S{4}洪荒战火开斗志，群英并起论天下。经历仙魔大战的仙魔两道各自沉寂百年之后，各自迎来了阵营势力的飞速发展。文思方面有各自阵营的最高领袖鸿钧老祖和魔祖罗睺二者亲自以讲道的方式亲授，武学则是各自派遣旗下弟子分别是通天教主和冥河老祖来督促门人修炼，希望洪荒参与众志士能在次场论战中有突出表现，并使得道行更为精进。每天0:00-0:30、12：00-15：00，通天教主将会在太阳宫门口、冥河老祖会在修罗殿门前等待各位前去试炼。@B{2}@S{4完成试炼能获得丰厚的奖励。	</description>
+		<cmd>	0 12 * * *	</cmd>
+		<key>	TaoismDemonBattle_Start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	1	</condition>
+		<area>	太阳宫、修罗殿	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	180	</persist>
+	</row>
+	<row>
+		<name>	仙魔论战	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 15 * * *	</cmd>
+		<key>	TaoismDemonBattle_End	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	夜战凤栖镇	</name>
+		<description>	开始公告	</description>
+		<cmd>	25 11 * * *	</cmd>
+		<key>	YeZhanFengQi_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	夜战凤栖镇	</name>
+		<description>	@S{4}被扭曲的时间和混乱的空间包围着的凤栖镇，每天11:30—12:00、19:30—20:00会出现时空裂隙，玩家可以通过和皇宫的@L{t=&apos;大内总管历练英($xz{10121475})&apos;;m=goto:10121475;cfc=c4;hfc=c3}对话，进入凤鸣城地下世界中的凤栖镇。	</description>
+		<cmd>	30 11 * * *	</cmd>
+		<key>	YeZhanFengQi_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	凤鸣城皇宫	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	20	</persist>
+	</row>
+	<row>
+		<name>	夜战凤栖镇	</name>
+		<description>	活动结束	</description>
+		<cmd>	50 11 * * *	</cmd>
+		<key>	YeZhanFengQi_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	夜战凤栖镇	</name>
+		<description>	开始公告	</description>
+		<cmd>	25 19 * * *	</cmd>
+		<key>	YeZhanFengQi_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	夜战凤栖镇	</name>
+		<description>	@S{4}被扭曲的时间和混乱的空间包围着的凤栖镇，每天11:30—12:00、19:30—20:00会出现时空裂隙，玩家可以通过和皇宫的@L{t=&apos;大内总管历练英($xz{10121475})&apos;;m=goto:10121475;cfc=c4;hfc=c3}对话，进入凤鸣城地下世界中的凤栖镇。	</description>
+		<cmd>	30 19 * * *	</cmd>
+		<key>	YeZhanFengQi_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	凤鸣城皇宫	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	20	</persist>
+	</row>
+	<row>
+		<name>	夜战凤栖镇	</name>
+		<description>	活动结束	</description>
+		<cmd>	50 19 * * *	</cmd>
+		<key>	YeZhanFengQi_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会掠夺战报名	</name>
+		<description>	@S{4}以杀掉对方帮会神兽为胜利条件，胜利者可以掠夺对方帮会中的大量帮会资金和帮会声望。你们帮会真的足够强大么？来凤鸣城@L{t=&apos;肖业($xz{10111003})&apos;;m=goto:10111003;cfc=c4;hfc=c3}这里报名掠夺其他帮会吧！向他们证明你们的实力。@B{2}@S{4}强者从不欺凌弱小，被掠夺的目标帮会等级不能比贵帮会等级低2级以上。周六12:00-14:00为报名时间，报名成功后战争将于本日下午15:00正式举行。	</description>
+		<cmd>	0 12 * * 6	</cmd>
+		<key>	TongRobWarManagerSignUp_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	凤鸣城帮会区	</area>
+		<act>	1	</act>
+		<activityType>	报名	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	帮会掠夺战报名	</name>
+		<description>	帮会掠夺战报名结束	</description>
+		<cmd>	0 14 * * 6	</cmd>
+		<key>	TongRobWarManagerSignUp_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会掠夺战	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 14 * * 6	</cmd>
+		<key>	TongRobWarManager_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会掠夺战	</name>
+		<description>	@S{4}以杀掉对方帮会神兽为胜利条件，胜利者可以掠夺对方帮会中的大量帮会资金和帮会声望。你们帮会真的足够强大么？来凤鸣城@L{t=&apos;肖业($xz{10111003})&apos;;m=goto:10111003;cfc=c4;hfc=c3}这里报名掠夺其他帮会吧！向他们证明你们的实力。@B{2}@S{4}强者从不欺凌弱小，被掠夺的目标帮会等级不能比贵帮会等级低2级以上。周六12:00-18:00为报名时间，报名成功后战争将于本日晚19:00正式举行。	</description>
+		<cmd>	0 15 * * 6	</cmd>
+		<key>	TongRobWarManager_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	帮会领地	</area>
+		<act>	1	</act>
+		<activityType>	竞技	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	帮会掠夺战	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 17 * * 6	</cmd>
+		<key>	TongRobWarManager_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会掠夺战	</name>
+		<description>	每月1号 积分公示	</description>
+		<cmd>	0 1 * * *	</cmd>
+		<key>	registerPreMonthRobWarPoint	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	国运	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 18 * * *	</cmd>
+		<key>	DartActivity_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	国运	</name>
+		<description>	@S{4}为了鼓励运镖的勇士，昌平、兴隆两大镖局不约而同的决定在每天19:00-23:00内，给予运镖的勇士双倍奖励，请各位勇士千万不要浪费机会，过时不侯哦。	</description>
+		<cmd>	00 19 * * *	</cmd>
+		<key>	DartActivity_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	各地镖局	</area>
+		<act>	1	</act>
+		<activityType>	金钱	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	240	</persist>
+	</row>
+	<row>
+		<name>	国运	</name>
+		<description>	国运结束一次通知	</description>
+		<cmd>	50 22 * * *	</cmd>
+		<key>	DartActivity_end_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	国运	</name>
+		<description>	国运结束二次通知	</description>
+		<cmd>	55 22 * * *	</cmd>
+		<key>	DartActivity_end_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	国运	</name>
+		<description>	国运结束三次通知	</description>
+		<cmd>	59 22 * * *	</cmd>
+		<key>	DartActivity_end_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	国运	</name>
+		<description>	国运结束	</description>
+		<cmd>	0 23 * * *	</cmd>
+		<key>	DartActivity_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	异界战场	</name>
+		<description>	开始公告	</description>
+		<cmd>	55 19 * * *	</cmd>
+		<key>	YiJieZhanChang_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	异界战场	</name>
+		<description>	@S{4}异界战场的战斗号角已经打响，请各位勇士前往异界战场接引人黄三月处，为自己的荣誉战斗吧！”。	</description>
+		<cmd>	00 20 * * *	</cmd>
+		<key>	YiJieZhanChang_start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	异界战场	</name>
+		<description>	@S{4}今天异界战场的开启时间已过，勇士请明天再来吧。”。	</description>
+		<cmd>	40 20 * * *	</cmd>
+		<key>	YiJieZhanChang_JoinTimeOver
+	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	异界战场	</name>
+		<description>	活动结束	</description>
+		<cmd>	00 21 * * *	</cmd>
+		<key>	YiJieZhanChang_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	绝地反击	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 20 * * *	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	绝地反击	</name>
+		<description>	暂无公告支持	</description>
+		<cmd>	0 21 * * *	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	0	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	绝地反击	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 22 * * *	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	鏖战群雄	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 21 * * *	</cmd>
+		<key>	AoZhan_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	鏖战群雄	</name>
+		<description>	@S{4}每晚22:00将会开启鏖战群雄活动，届时可通过界面图标报名传送。一骑当千赢取无上荣誉，更有机会获得绝世宝物和大量经验，战起来吧英雄！	</description>
+		<cmd>	0 22 * * *	</cmd>
+		<key>	AoZhan_singn	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	鏖战群雄	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 23 * * *	</cmd>
+		<key>	AoZhan_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	组队竞技	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 21 * * 1	</cmd>
+		<key>	teamCompetition_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	组队竞技	</name>
+		<description>	@S{4}人与人斗，其乐无穷！周一的22:00-23:00，凤鸣的@L{t=&apos;战八方($xz{10114002})&apos;;m=goto:10114002;cfc=c4;hfc=c3}将举办大型组队竞技场，50级以上每个十级段可以有10个队伍参加，来夺取优胜大奖！@B{2}@S{4}任何参加活动的队伍，即使没有获得优胜奖，也会获得丰厚的经验奖励。@B{2}@S{4}报名时间：活动开始后3分钟内。	</description>
+		<cmd>	0 22 * * 1	</cmd>
+		<key>	teamCompetition_Start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	组队竞技	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 23 * * 1	</cmd>
+		<key>	teamCompetition_End	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阵营车轮战	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 21 * * 2	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阵营车轮战	</name>
+		<description>	阵营活动	</description>
+		<cmd>	0 22 * * 2	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	0	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	阵营车轮战	</name>
+		<description>	活动结束	</description>
+		<cmd>	00 23 * * 2	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阵营烽火连天	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 21 * * 3	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阵营烽火连天	</name>
+		<description>	阵营活动	</description>
+		<cmd>	0 22 * * 3	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	0	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	阵营烽火连天	</name>
+		<description>	活动结束	</description>
+		<cmd>	00 23 * * 3	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阵营英雄联盟	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 14 * * 7	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阵营英雄联盟	</name>
+		<description>	阵营活动	</description>
+		<cmd>	0 15 * * 7	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	0	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	阵营英雄联盟	</name>
+		<description>	活动结束	</description>
+		<cmd>	00 17 * * 7	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会车轮战	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 21 * * 4	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会车轮战	</name>
+		<description>	帮会初赛	</description>
+		<cmd>	0 22 * * 4	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	0	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	帮会车轮战	</name>
+		<description>	活动结束	</description>
+		<cmd>	00 23 * * 4	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会烽火连天	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 21 * * 5	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会烽火连天	</name>
+		<description>	帮会复赛	</description>
+		<cmd>	0 22 * * 5	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	0	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	帮会烽火连天	</name>
+		<description>	活动结束	</description>
+		<cmd>	00 23 * * 5	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会争霸战	</name>
+		<description>	开始公告	</description>
+		<cmd>	20 20 * * 6	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会争霸战	</name>
+		<description>	帮会决赛	</description>
+		<cmd>	30 20 * * 6	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	0	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	帮会争霸战	</name>
+		<description>	活动结束	</description>
+		<cmd>	30 21 * * 6	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	凤鸣争霸赛	</name>
+		<description>	开始公告	</description>
+		<cmd>	20 20 * * 7	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	凤鸣争霸赛	</name>
+		<description>	阵营总决赛	</description>
+		<cmd>	30 20 * * 7	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	50	</condition>
+		<area>	各大地图	</area>
+		<act>	0	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	凤鸣争霸赛	</name>
+		<description>	活动结束	</description>
+		<cmd>	30 21 * * 7	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	重置帮会物品	</name>
+		<description>	每周日晚24点重置帮会物品	</description>
+		<cmd>	0 0 * * 1	</cmd>
+		<key>	ResetTongItem	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	重置帮众购买记录 	</name>
+		<description>	每周日晚24点重置帮众购买帮会物品记录	</description>
+		<cmd>	0 0 * * 1	</cmd>
+		<key>	ResetMemberBuyItemRecord	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会日常活动和帮会运镖	</name>
+		<description>	每天24点关闭帮会运镖和帮会日常任务	</description>
+		<cmd>	0 0 * * *	</cmd>
+		<key>	resetTongQuest	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	收取帮会维护费	</name>
+		<description>	每天24点收取帮会维护费	</description>
+		<cmd>	0 0 * * *	</cmd>
+		<key>	chargeSpendMoney	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会维护费检查	</name>
+		<description>	每天晚上24点检查维护费是否不足， 3天后解散	</description>
+		<cmd>	58 23 * * *	</cmd>
+		<key>	CheckBuildingSpendMoney	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	重置帮会特殊商品	</name>
+		<description>	每周日晚24点重置帮会特殊商品	</description>
+		<cmd>	0 0 * * 1	</cmd>
+		<key>	ResetTongSpecialItems	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	工具发送公告数据更新	</name>
+		<description>	工具发送公告数据更新	</description>
+		<cmd>	*\10 * * * *	</cmd>
+		<key>	GameBroadcast	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帮会兑换俸禄	</name>
+		<description>	每周一零点开始可以兑换本周俸禄	</description>
+		<cmd>	1 0 * * 1	</cmd>
+		<key>	CalTongSalary	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	潜能乱斗	</name>
+		<description>	@S{4}为了使天下的勇士们能够更快的成长起来以对抗混沌势力，吴霜恳请金乌大神施展神力，在每周打开一次“玄天幻界”，进入此幻界的人将看到自己的心魔，所谓魔由心生。心魔在幻界中凝化为实体，成为各种妖魔。斩除妖魔，就可平心静气、大彻大悟，本身的能力又进入一个新的境界，即有更多的潜能可以学习新的技能。@B{2}@S{4}潜能乱斗在每周三召开，二十级以上玩家均可组队去凤鸣城的@L{t=&apos;吴霜($xz{10111224})&apos;;m=goto:10111224;cfc=c4;hfc=c3}处报名参加，每个角色一周只能参加一次，参加潜能乱斗可迅速获得大量潜能。	</description>
+		<cmd>	0 0 * * 3	</cmd>
+		<key>	PotentialMelee_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	20	</condition>
+		<area>	凤鸣城	</area>
+		<act>	1	</act>
+		<activityType>	潜能	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	1440	</persist>
+	</row>
+	<row>
+		<name>	潜能乱斗	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 0 * * 4	</cmd>
+		<key>	PotentialMelee_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	嘟嘟猪的叛逆	</name>
+		<description>	开始公告	</description>
+		<cmd>	55 9 * * *	</cmd>
+		<key>	duduzhu_Start	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	嘟嘟猪的叛逆	</name>
+		<description>	@S{4}沼泽中的嘟嘟王，带领着众珍宠开始暴动了。每天的10:00-11:00是嘟嘟王最虚弱的时刻。凤鸣城的@L{t=&apos;蓝熙($xz{10121707})&apos;;m=goto:10121707;cfc=c4;hfc=c3}正在发布任务寻找玩家前去讨伐嘟嘟王。@B{2}@S{4}成功消灭嘟嘟王能获得丰厚的奖励。	</description>
+		<cmd>	0 10 * * *	</cmd>
+		<key>	duduzhu_start_notice	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	25	</condition>
+		<area>	凤鸣城	</area>
+		<act>	1	</act>
+		<activityType>	珍宠	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	嘟嘟猪的叛逆	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 11 * * *	</cmd>
+		<key>	duduzhu_End	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	水晶精灵副本	</name>
+		<description>	开始公告	</description>
+		<cmd>	55 18 * * *	</cmd>
+		<key>	Shuijing_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	水晶精灵副本	</name>
+		<description>	@S{4}为了保卫凤鸣，金乌大神设计了一个强大的水晶结界，但是狡猾的妖魔污染了结界水晶，使得纯洁的水晶精灵成为人类的敌人，为了消除隐患，金乌王派遣使者云舒召集天下勇士来除掉这些被怪物污染的水晶。@B{2}@S{4}水晶副本在每天19:00-20:00召开，30级以上玩家组成3人以上队伍即可在凤鸣城的水晶副本管理员@L{t=&apos;云舒($xz{10111220})&apos;;m=goto:10111220;cfc=c4;hfc=c3}处报名参与，水晶副本能提供给玩家大量经验，还有其他物品奖励。每天可以进行两次。	</description>
+		<cmd>	00 19 * * *	</cmd>
+		<key>	shuijing_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	凤鸣城	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	水晶精灵副本	</name>
+		<description>	活动结束	</description>
+		<cmd>	00 20 * * *	</cmd>
+		<key>	shuijing_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	英雄王座	</name>
+		<description>	英雄王座公告	</description>
+		<cmd>	5 * * * *	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	35	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	神鬼秘境	</name>
+		<description>	神鬼秘境公告	</description>
+		<cmd>	15 * * * *	</cmd>
+		<key>	shengui_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	40	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	巫妖前哨	</name>
+		<description>	巫妖前哨公告	</description>
+		<cmd>	25 * * * *	</cmd>
+		<key>	wuyao_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	48	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	拯救猰貐	</name>
+		<description>	拯救猰貐公告	</description>
+		<cmd>	35 * * * *	</cmd>
+		<key>	yayu_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	55	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	摄魂迷阵	</name>
+		<description>	摄魂迷阵公告	</description>
+		<cmd>	45 * * * *	</cmd>
+		<key>	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	60	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帝王古墓	</name>
+		<description>	帝王古墓还有10分钟开启，请大家做好准备!	</description>
+		<cmd>	50 19 * * 4,6	</cmd>
+		<key>	liuwangmu_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帝王古墓	</name>
+		<description>	@S{4}久远以前的一次仙魔大战，为抚慰征战中陨落的无数灵魂，仙魔两道共建帝王古墓，让百万英魂得以安息。帝王古墓本身沉寂千年怨灵阴暗之气，运化洪荒大陆阴阳两气，渐渐地融汇无穷无尽的黑暗力量，孕化出实力坚强的邪灵大军，并不断吸引着洪荒大陆凋零的生命个体，承接他们的怒气，怨恨和生灵百态。这股前所未有的庞大邪灵力量集结所在的帝王古墓，将为洪荒大陆带来一波莫大的危机浩劫。请勇士们前去帝王古墓调查，驱除古墓中的怨灵。
+@S{4}每周四晚上20:00-22:00，是古墓中怨气最为薄弱的时候，古墓外的结界将会解除，古墓将会准许所有勇士通行。	</description>
+		<cmd>	0 20 * * 4,6	</cmd>
+		<key>	liuwangmu_Start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	帝王古墓	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	帝王古墓	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 22 * * 4,6	</cmd>
+		<key>	liuwangmu_End	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帝王古墓	</name>
+		<description>	BOSS刷新	</description>
+		<cmd>	0 21 * * 1,3,5	</cmd>
+		<key>	liuwangmu_DiJiang	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	帝王古墓	</name>
+		<description>	BOSS刷新	</description>
+		<cmd>	0 21 * * 2,4,6	</cmd>
+		<key>	liuwangmu_WuDangShenMu	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阵营活动	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 9,17 * * *	</cmd>
+		<key>	CampActivity_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阵营活动	</name>
+		<description>	@S{4}和谐安宁的创世世界，幸福平淡生活着的人们，哼！那只是表象，这是正一仙道和混元魔道酝酿暴风前的宁静。	</description>
+		<cmd>	00 18,0 * * *	</cmd>
+		<key>	CampActivity_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	30	</condition>
+		<area>	各大地图	</area>
+		<act>	0	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	640	</persist>
+	</row>
+	<row>
+		<name>	阵营活动	</name>
+		<description>	活动结束	</description>
+		<cmd>	00 18,2 * * *	</cmd>
+		<key>	CampActivity_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	0	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	系统双倍经验	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 14 * * 2,4	</cmd>
+		<key>	SysMultExpMgr_ready	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	系统双倍经验	</name>
+		<description>	@S{4}为了奖励奋勇杀敌的勇士，神明将在星期二和星期四的15:00-17:00，星期六和星期天9：30-11：30内赐予勇士福音，在这段时间内战斗所获得的经验是平时所获得的2倍，请各位勇士不要浪费这难得的修炼机会，奋勇战斗，努力杀敌，让自己更快的成长。	</description>
+		<cmd>	0 15 * * 2,4	</cmd>
+		<key>	SysMultExpMgr_start2	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	全世界杀怪	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	系统双倍经验	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 17 * * 2,4	</cmd>
+		<key>	SysMultExpMgr_end2	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	系统双倍经验	</name>
+		<description>	开始公告	</description>
+		<cmd>	20 9 * * 6,7	</cmd>
+		<key>	SysMultExpMgr_ready	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	系统双倍经验	</name>
+		<description>	@S{4}为了奖励奋勇杀敌的勇士，神明将在星期二和星期四的15:00-17:00，星期六和星期天9：30-11：30内赐予勇士福音，在这段时间内战斗所获得的经验是平时所获得的2倍，请各位勇士不要浪费这难得的修炼机会，奋勇战斗，努力杀敌，让自己更快的成长。	</description>
+		<cmd>	30 9 * * 6,7	</cmd>
+		<key>	SysMultExpMgr_start2	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	全世界杀怪	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	系统双倍经验	</name>
+		<description>	活动结束	</description>
+		<cmd>	30 11 * * 6,7	</cmd>
+		<key>	SysMultExpMgr_end2	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	天降宝盒	</name>
+		<description>	开始公告	</description>
+		<cmd>	20 19 * * 3,5,6,7	</cmd>
+		<key>	LuckyBoxActivity_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	天降宝盒	</name>
+		<description>	@S{4}为了奖励奋勇杀敌的勇士，神明每隔一段时间便会赐予勇士福音，降下宝盒，打开之后便能获得相当丰厚的奖励，包括金钱、经验、潜能以及各项物品等等。@B{2}@S{4}天赐福音降下宝盒的事件将在星期三和星期五的19:30-21:30、星期六和星期天14:30-16:30、19:30-21:30开启，开启后只要在野外杀怪，都有可能获得上天赐予的宝盒。	</description>
+		<cmd>	30 19 * * 3,5,6,7	</cmd>
+		<key>	LuckyBoxActivity_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	20	</condition>
+		<area>	20级以上怪物掉落	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	天降宝盒	</name>
+		<description>	活动结束	</description>
+		<cmd>	30 21 * * 3,5,6,7	</cmd>
+		<key>	LuckyBoxActivity_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	天降宝盒	</name>
+		<description>	开始公告	</description>
+		<cmd>	20 14 * * 6,7	</cmd>
+		<key>	LuckyBoxActivity_start_notice	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	天降宝盒	</name>
+		<description>	@S{4}为了奖励奋勇杀敌的勇士，神明每隔一段时间便会赐予勇士福音，降下宝盒，打开之后便能获得相当丰厚的奖励，包括金钱、经验、潜能以及各项物品等等。@B{2}@S{4}天赐福音降下宝盒的事件将在星期三和星期五的19:30-21:30、星期六和星期天14:30-16:30、19:30-21:30开启，开启后只要在野外杀怪，都有可能获得上天赐予的宝盒。	</description>
+		<cmd>	30 14 * * 6,7	</cmd>
+		<key>	LuckyBoxActivity_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	20	</condition>
+		<area>	20级以上怪物掉落	</area>
+		<act>	1	</act>
+		<activityType>	道具	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	120	</persist>
+	</row>
+	<row>
+		<name>	天降宝盒	</name>
+		<description>	活动结束	</description>
+		<cmd>	30 16 * * 6,7	</cmd>
+		<key>	LuckyBoxActivity_end	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	黑市商人	</name>
+		<description>	每双数点的50分 刷黑市商人	</description>
+		<cmd>	50 *\2 * * *	</cmd>
+		<key>	DarkTraderMgr_createNPC	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	一线	</line>
+		<star>	5	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	跑商	</name>
+		<description>	每双数点条件改变	</description>
+		<cmd>	0 *\2 * * *	</cmd>
+		<key>	Merchant_Area_Condition_Change	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阵营车轮战	</name>
+		<description>	开始公告	</description>
+		<cmd>	50 21 * * 2	</cmd>
+		<key>	CampTurnWar_start_notify	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+	<row>
+		<name>	阵营车轮战	</name>
+		<description>	@S{4}阵营车轮战已经开启，请各阵营参赛队伍前往NPC处报名进入战场开始战斗!
+@S{4}每周二晚上22:00-23:00，仙魔两阵营将会在擂台厮杀，获胜队伍将会为己方阵营赢得荣耀。	</description>
+		<cmd>	0 22 * * 2	</cmd>
+		<key>	CampTurnWar_sign_up_start	</key>
+		<showOnClient>	1	</showOnClient>
+		<isStart>	1	</isStart>
+		<condition>	1	</condition>
+		<area>	阵营大本营	</area>
+		<act>	1	</act>
+		<activityType>	经验	</activityType>
+		<line>	全线	</line>
+		<star>	5	</star>
+		<persist>	60	</persist>
+	</row>
+	<row>
+		<name>	阵营车轮战	</name>
+		<description>	活动结束	</description>
+		<cmd>	0 23 * * 2	</cmd>
+		<key>	CampTurnWar_activity_end	</key>
+		<showOnClient>	0	</showOnClient>
+		<isStart>	0	</isStart>
+		<condition>	</condition>
+		<area>	</area>
+		<act>	1	</act>
+		<activityType>	</activityType>
+		<line>	</line>
+		<star>	0	</star>
+		<persist>	0	</persist>
+	</row>
+</root>

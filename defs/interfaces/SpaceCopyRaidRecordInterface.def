@@ -1,0 +1,15 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<queryBossesKilled>
+			<Arg>	MAILBOX	</Arg>		<!-- querist -->
+			<Arg>	INT32	</Arg>		<!-- userData -->
+		</queryBossesKilled>
+		<incBossesKilled/>
+		<setRaidFinish>
+			<Arg>	BOOL	</Arg>		<!-- finish -->
+		</setRaidFinish>
+	</BaseMethods>
+</root>

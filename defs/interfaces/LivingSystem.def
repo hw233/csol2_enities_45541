@@ -1,0 +1,47 @@
+<root>
+	<Properties>
+		<livingskill>	<!--生活技能-->
+			<Type>		LIVINGSKILLS	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	true		</Persistent>
+		</livingskill>
+		<vim>
+			<Type>		UINT32			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>	5			</Default>
+		</vim>
+	</Properties>
+
+	<ClientMethods>
+		<livingTeacherTalkResult>
+			<Arg>		UINT8	</Arg>
+			<Arg>		UINT32	</Arg>
+			<Arg>		UINT8	</Arg>
+			<Arg>		UINT32	</Arg>
+		</livingTeacherTalkResult>
+		<onClientGetLivingSkill>
+			<Arg>		UINT32	</Arg>
+			<Arg>		UINT32	</Arg>
+			<Arg>		UINT32	</Arg>
+		</onClientGetLivingSkill>
+	</ClientMethods>
+
+	<CellMethods>		<!-- 充值活力值 -->
+		<chargeVim>
+		</chargeVim>
+		<onTeachTalkObliveSkill>
+			<Exposed/>
+			<Arg>		UINT32	</Arg>
+		</onTeachTalkObliveSkill>
+		<onTeachTalkLVUPSkill>
+			<Exposed/>
+			<Arg>		UINT32	</Arg>
+			<Arg>		UINT32	</Arg>
+		</onTeachTalkLVUPSkill>
+
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

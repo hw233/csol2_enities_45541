@@ -1,0 +1,28 @@
+<root>
+	<item>
+		<formation>
+			<item> 0 0 </item>
+			<item>	 1 0 </item>
+			<item> 2 0	 </item>
+			<item> 3 0	 </item>
+			<item> 4 0 </item>
+		</formation>
+		<formationName>
+			一字长蛇阵
+		</formationName>
+		<formationType>	1 </formationType>
+	</item>
+	<item>
+		<formation>
+			<item> 0 0 </item>
+			<item>	 -1 -1 </item>
+			<item> -2 -1	 </item>
+			<item> -1 1	 </item>
+			<item> -2 1 </item>
+		</formation>
+		<formationName>
+			雁形之阵
+		</formationName>
+		<formationType>	2 </formationType>
+	</item>
+</root>

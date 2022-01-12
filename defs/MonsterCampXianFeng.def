@@ -1,0 +1,29 @@
+<root>
+	<Parent> 				Monster					</Parent>
+	<Properties>
+		<integral>
+			<Type>			INT16			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false			</Persistent>
+		</integral>
+		<ownCamp> 
+			<Type>			DATABASE_ID	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownCamp>
+		<road>
+			<Type>			STRING	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		false			</Persistent>
+		</road>
+	</Properties>
+	<CellMethods>
+		<addIntegral>
+			<Arg>	INT16		</Arg>
+		</addIntegral>
+	</CellMethods>
+	<ClientMethods>
+	</ClientMethods>
+	<BaseMethods>
+	</BaseMethods>
+</root>

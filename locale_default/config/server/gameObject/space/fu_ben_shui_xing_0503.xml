@@ -1,0 +1,23 @@
+<root>
+	<EntityType>SpaceCopyStarMap</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopyStarMap</script>
+	<className>fu_ben_shui_xing_0503</className>
+	<dirMapping> universes/fu_ben_shui_xing_02 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<playerAoI>	40	</playerAoI>				<!--玩家的视野范围-->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_shui_xing_0503.xml		</spawnFile>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<Space>
+		<spaceBBoxMin>	-2000,-100,-2000	</spaceBBoxMin>
+		<spaceBBoxMax>	2000,1000,2000	</spaceBBoxMax>
+		<deathDepth>	-250	</deathDepth>
+	</Space>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>                                  		
+	<initLine>1</initLine>
+	<maxPlayerAmount>525</maxPlayerAmount>                           
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 	
+</root>

@@ -1,0 +1,78 @@
+<root>
+		<spaceName>	³ýÑý¸±±¾6	</spaceName>
+		<EntityType>	SpaceCopyPotential	</EntityType>
+		<SpaceType>	SPACE_TYPE_POTENTIAL	</SpaceType>
+		<DomainType>	SpaceDomainPotential	</DomainType>
+		<script>	SpaceCopyPotential	</script>
+		<className>	chu_yao_feng_hua_jue_gu	</className>
+		<TimeOfDay>	50400	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_feng_hua_jue_gu	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<doorPoint>
+				<pos>	-89.358,-0.474,-91.899	</pos>
+				<radius>	2.600000	</radius>
+			</doorPoint>
+			<monsterPoint>	</monsterPoint>
+			<playerEnterPoint>
+				<pos>	-81.178,-0.47,-89.513	</pos>
+				<direction>	0,75,0	</direction>
+			</playerEnterPoint>
+			<BossPoint>
+				<item>
+					<pos>	-70.598,-20.952,74.075	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	1	</playerAmount>
+				</item>
+				<item>
+					<pos>	-70.598,-20.952,74.075	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	2	</playerAmount>
+				</item>
+				<item>
+					<pos>	-70.598,-20.952,74.075	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	3	</playerAmount>
+				</item>
+				<item>
+					<pos>	-70.598,-20.952,74.075	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	4	</playerAmount>
+				</item>
+				<item>
+					<pos>	-70.598,-20.952,74.075	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	5	</playerAmount>
+				</item>
+			</BossPoint>
+			<smallBossPoint>	</smallBossPoint>
+		</Space>
+		<spawn>
+			<item>
+				<playerAmount>	1	</playerAmount>
+				<spawnFile>	config/server/spawn/chu_yao_feng_hua_jue_gu_1P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	2	</playerAmount>
+				<spawnFile>	config/server/spawn/chu_yao_feng_hua_jue_gu_2P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	3	</playerAmount>
+				<spawnFile>	config/server/spawn/chu_yao_feng_hua_jue_gu_3P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	4	</playerAmount>
+				<spawnFile>	config/server/spawn/chu_yao_feng_hua_jue_gu_4P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	5	</playerAmount>
+				<spawnFile>	config/server/spawn/chu_yao_feng_hua_jue_gu_5P.xml	</spawnFile>
+			</item>
+		</spawn>
+</root>

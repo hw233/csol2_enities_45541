@@ -1,0 +1,13 @@
+# -*- coding: gb18030 -*-
+
+# $Id: CYDPetHP.py
+
+from CItemBase import CItemBase
+
+class CYDPetHP( CItemBase ):
+	"""
+	≥ËŒÔ∫Ï¡È“©¸á
+	"""
+	def __init__( self, srcData ):
+		CItemBase.__init__( self, srcData )
+

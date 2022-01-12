@@ -1,0 +1,17 @@
+<root>
+		<spaceName>	神鬼秘境	</spaceName>
+		<EntityType>	SpaceCopyShenGuiMiJing	</EntityType>
+		<DomainType>	SpaceDomainShenGuiMiJing	</DomainType>
+		<script>	SpaceCopyShenGuiMiJing	</script>
+		<SpaceType>	SPACE_TYPE_SHEN_GUI_MI_JING	</SpaceType>
+		<className>	fu_ben_shen_gui_mi_jing	</className>
+		<dirMapping>	universes/fu_ben_shen_gui_mi_jing	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+		<TimeOfDay>	55800	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_shen_gui_mi_jing.xml		</spawnFile>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入獄<-->
+		<Space>
+		</Space>
+</root>

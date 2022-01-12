@@ -1,0 +1,40 @@
+<root>
+		<spaceName>	华山阵法	</spaceName>
+		<EntityType>	SpaceCopyChallenge	</EntityType>
+		<DomainType>	SpaceDomainChallenge</DomainType>
+		<script>	SpaceCopyChallenge	</script>
+		<SpaceType>	SPACE_TYPE_CHALLENGE	</SpaceType>
+		<className>	fu_ben_hua_shan_001 </className>
+		<dirMapping>	universes/gdfb_fu_kong_dao </dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	  </spawnFile>
+		<waitingCycle>	0	</waitingCycle>
+		<canArrest/>	<!--是否可逮捕入狱-->
+		<Space>
+			<challengeNo> 37,39,41,47,49,51,53,55,57,59,61,63,65,67,69,71,73,75,77,79,81,83,85,87,89,91,93,95,97,99,101,103,105,107,109,111,113,115,117,119,121,123,125,127,129,131,133,135,137,139 </challengeNo>
+			<playerEnterPoint>
+				<pos>	-246.272247 15.371785 -20.439470	</pos>
+				<direction>	0.000000 0.000000 1.497165		</direction>
+			</playerEnterPoint>
+			<doorPoint>
+				<uname>    传送门  </uname>
+				<pos>	14.741213 23.059355 -20.055483	</pos>
+				<properties>
+					<useRectangle>	1	</useRectangle>
+					<radius>	0.000000	</radius>
+					<volume>	5.000000 30.000000 5.000000	</volume>
+					<modelNumber>	gw7208	</modelNumber>
+					<modelScale>	1.0	</modelScale>
+					<destSpace>		</destSpace>
+					<description>	</description>
+					<uname>	前往下一关	</uname>
+					<nickname>	传送门	</nickname>
+					<destPosition>		</destPosition>
+					<destDirection> 	</destDirection>
+				</properties>
+			</doorPoint>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

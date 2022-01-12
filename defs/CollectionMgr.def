@@ -1,0 +1,86 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+
+		<startCollection>
+			<Arg>		DATABASE_ID		</Arg>
+		</startCollection>
+
+		<stopCollection>
+			<Arg>		DATABASE_ID		</Arg>
+		</stopCollection>
+
+		<addCollectionItem>
+			<Arg>		COLLECTION_ITEM		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</addCollectionItem>
+
+		<onAddCollectionItem>
+			<Arg>		COLLECTION_ITEM		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</onAddCollectionItem>
+
+		<removeCollectionItem>
+			<Arg>		UID			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</removeCollectionItem>
+
+		<onRemoveCollectionItem>
+			<Arg>		UID			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</onRemoveCollectionItem>
+
+		<takeCollectedItems>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</takeCollectedItems>
+
+		<onTakeCollectedItems>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</onTakeCollectedItems>
+
+		<queryCollectionInfo>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</queryCollectionInfo>
+
+		<updateCollectionItem>
+			<Arg>		COLLECTION_ITEM		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</updateCollectionItem>
+		
+		<sellCollectionItems>
+			<Arg>	ARRAY <of> 	COLLECTION_ITEM	 </of>	</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</sellCollectionItems>
+		
+		<onSellCollectionItems>
+			<Arg>	ARRAY <of> 	COLLECTION_ITEM	 </of>	</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</onSellCollectionItems>
+		
+		<onUpdateCollectionItem>
+			<Arg>		COLLECTION_ITEM		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</onUpdateCollectionItem>
+		<takeCollectionDeposit>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</takeCollectionDeposit>
+		<onTakeCollectionDeposit>
+			<Arg>		DATABASE_ID		</Arg>
+		</onTakeCollectionDeposit>
+		<queryCollectionDeposit>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</queryCollectionDeposit>
+	</BaseMethods>
+</root>

@@ -1,0 +1,3254 @@
+<root>
+	<row>
+		<itemID>	110109001	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	38	</goldPrice>
+		<silverPrice>	38	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可以记录当前位置	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	50101002	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	28	</goldPrice>
+		<silverPrice>	28	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	立即飞往目的地	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103020	</itemID>
+		<amount>	-1	</amount>
+		<type>	5	</type>
+		<goldPrice>	498	</goldPrice>
+		<silverPrice>	498	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	增加仓库存储量	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103021	</itemID>
+		<amount>	-1	</amount>
+		<type>	5	</type>
+		<goldPrice>	32	</goldPrice>
+		<silverPrice>	32	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	在地音频道发言	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103014	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	48	</goldPrice>
+		<silverPrice>	48	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	在天音频道发言	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110108001	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	8	</goldPrice>
+		<silverPrice>	8	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	装备认主，死亡不丢失	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103001	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	48	</goldPrice>
+		<silverPrice>	48	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	死亡后原地满血复活	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110110003	</itemID>
+		<amount>	-1	</amount>
+		<type>	5	</type>
+		<goldPrice>	88	</goldPrice>
+		<silverPrice>	88	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	打开可以随机获得奖励	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	70101019	</itemID>
+		<amount>	-1	</amount>
+		<type>	6	</type>
+		<goldPrice>	1498	</goldPrice>
+		<silverPrice>	1498	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	24格包裹	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	80101037	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	48	</goldPrice>
+		<silverPrice>	48	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	强化51-90级的装备	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	80101038	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	100	</goldPrice>
+		<silverPrice>	100	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	强化91-120级的装备	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	80101039	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	200	</goldPrice>
+		<silverPrice>	200	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	强化121-150级的装备	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	80101033	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	58	</goldPrice>
+		<silverPrice>	58	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	装备强化成功率+4%	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	80101043	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	248	</goldPrice>
+		<silverPrice>	248	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	装备强化成功率+10%	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	60101174	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	198	</goldPrice>
+		<silverPrice>	198	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	用于装备属性抽取	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	60101177	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	98	</goldPrice>
+		<silverPrice>	98	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	提高属性抽取成功率	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103051	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	5	</goldPrice>
+		<silverPrice>	5	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	装备属性重铸	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103052	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	20	</goldPrice>
+		<silverPrice>	20	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	较高等级装备属性重铸	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	50101032	</itemID>
+		<amount>	-1	</amount>
+		<type>	6	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	提升法宝品级	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	50101033	</itemID>
+		<amount>	-1	</amount>
+		<type>	6	</type>
+		<goldPrice>	198	</goldPrice>
+		<silverPrice>	198	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	重新改造法宝属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	60101023	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	998	</goldPrice>
+		<silverPrice>	998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	激活法宝一条凡品属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	60101024	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	1998	</goldPrice>
+		<silverPrice>	1998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	激活法宝一条仙品属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	60101025	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	2998	</goldPrice>
+		<silverPrice>	2998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	激活法宝一条神品属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	60101071	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	98	</goldPrice>
+		<silverPrice>	98	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	召唤替身帮你摆摊	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103034	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	4000	</goldPrice>
+		<silverPrice>	4000	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	增加2000点友好度	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103036	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	2000	</goldPrice>
+		<silverPrice>	2000	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	增加1000点友好度	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103037	</itemID>
+		<amount>	-1	</amount>
+		<type>	6	</type>
+		<goldPrice>	1000	</goldPrice>
+		<silverPrice>	1000	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	增加500点友好度	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103038	</itemID>
+		<amount>	-1	</amount>
+		<type>	6	</type>
+		<goldPrice>	200	</goldPrice>
+		<silverPrice>	200	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	增加100点友好度	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103039	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	100	</goldPrice>
+		<silverPrice>	100	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	增加50点友好度	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103040	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	20	</goldPrice>
+		<silverPrice>	20	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	增加10点友好度	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	80101004	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	88	</goldPrice>
+		<silverPrice>	88	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	装备打造材料	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	80101010	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	88	</goldPrice>
+		<silverPrice>	88	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	装备打造材料	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	80101016	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	88	</goldPrice>
+		<silverPrice>	88	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	装备打造材料	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	80101022	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	88	</goldPrice>
+		<silverPrice>	88	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	装备打造材料	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	80101028	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	88	</goldPrice>
+		<silverPrice>	88	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	装备打造材料	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110101025	</itemID>
+		<amount>	-1	</amount>
+		<type>	11	</type>
+		<goldPrice>	138	</goldPrice>
+		<silverPrice>	138	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	获得1.5倍经验和潜能	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	2	</subType>
+	</row>
+	<row>
+		<itemID>	110101029	</itemID>
+		<amount>	-1	</amount>
+		<type>	11	</type>
+		<goldPrice>	238	</goldPrice>
+		<silverPrice>	238	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	获得2倍经验和潜能	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	2	</subType>
+	</row>
+	<row>
+		<itemID>	110102001	</itemID>
+		<amount>	-1	</amount>
+		<type>	8	</type>
+		<goldPrice>	128	</goldPrice>
+		<silverPrice>	128	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	人物血药，容量15万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	3	</subType>
+	</row>
+	<row>
+		<itemID>	110102002	</itemID>
+		<amount>	-1	</amount>
+		<type>	8	</type>
+		<goldPrice>	230	</goldPrice>
+		<silverPrice>	230	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	人物血药，容量30万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	3	</subType>
+	</row>
+	<row>
+		<itemID>	110102003	</itemID>
+		<amount>	-1	</amount>
+		<type>	11	</type>
+		<goldPrice>	370	</goldPrice>
+		<silverPrice>	370	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	人物血药，容量60万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	3	</subType>
+	</row>
+	<row>
+		<itemID>	110102004	</itemID>
+		<amount>	-1	</amount>
+		<type>	11	</type>
+		<goldPrice>	600	</goldPrice>
+		<silverPrice>	600	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	人物血药，容量120万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	3	</subType>
+	</row>
+	<row>
+		<itemID>	110102016	</itemID>
+		<amount>	-1	</amount>
+		<type>	11	</type>
+		<goldPrice>	900	</goldPrice>
+		<silverPrice>	900	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	人物血药，容量300万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	3	</subType>
+	</row>
+	<row>
+		<itemID>	110102005	</itemID>
+		<amount>	-1	</amount>
+		<type>	8	</type>
+		<goldPrice>	128	</goldPrice>
+		<silverPrice>	128	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	人物蓝药，容量15万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	3	</subType>
+	</row>
+	<row>
+		<itemID>	110102006	</itemID>
+		<amount>	-1	</amount>
+		<type>	8	</type>
+		<goldPrice>	230	</goldPrice>
+		<silverPrice>	230	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	人物蓝药，容量30万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	3	</subType>
+	</row>
+	<row>
+		<itemID>	110102007	</itemID>
+		<amount>	-1	</amount>
+		<type>	11	</type>
+		<goldPrice>	370	</goldPrice>
+		<silverPrice>	370	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	人物蓝药，容量50万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	3	</subType>
+	</row>
+	<row>
+		<itemID>	110102008	</itemID>
+		<amount>	-1	</amount>
+		<type>	11	</type>
+		<goldPrice>	600	</goldPrice>
+		<silverPrice>	600	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	人物蓝药，容量80万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	3	</subType>
+	</row>
+	<row>
+		<itemID>	110102017	</itemID>
+		<amount>	-1	</amount>
+		<type>	11	</type>
+		<goldPrice>	900	</goldPrice>
+		<silverPrice>	900	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	人物蓝药，容量150万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	3	</subType>
+	</row>
+	<row>
+		<itemID>	110102009	</itemID>
+		<amount>	-1	</amount>
+		<type>	67	</type>
+		<goldPrice>	128	</goldPrice>
+		<silverPrice>	128	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	宠物血药，容量15万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	110102014	</itemID>
+		<amount>	-1	</amount>
+		<type>	67	</type>
+		<goldPrice>	230	</goldPrice>
+		<silverPrice>	230	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	宠物血药，容量30万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	110102018	</itemID>
+		<amount>	-1	</amount>
+		<type>	67	</type>
+		<goldPrice>	370	</goldPrice>
+		<silverPrice>	370	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	宠物血药，容量60万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	110102019	</itemID>
+		<amount>	-1	</amount>
+		<type>	67	</type>
+		<goldPrice>	600	</goldPrice>
+		<silverPrice>	600	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	宠物血药，容量90万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	110102010	</itemID>
+		<amount>	-1	</amount>
+		<type>	67	</type>
+		<goldPrice>	128	</goldPrice>
+		<silverPrice>	128	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	宠物蓝药，容量15万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	110102015	</itemID>
+		<amount>	-1	</amount>
+		<type>	67	</type>
+		<goldPrice>	230	</goldPrice>
+		<silverPrice>	230	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	宠物蓝药，容量30万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	110102020	</itemID>
+		<amount>	-1	</amount>
+		<type>	67	</type>
+		<goldPrice>	370	</goldPrice>
+		<silverPrice>	370	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	宠物蓝药，容量60万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	110102021	</itemID>
+		<amount>	-1	</amount>
+		<type>	67	</type>
+		<goldPrice>	600	</goldPrice>
+		<silverPrice>	600	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	宠物蓝药，容量90万	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60401002	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	68	</goldPrice>
+		<silverPrice>	68	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	满魂后可强化宠物属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60401005	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	68	</goldPrice>
+		<silverPrice>	68	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	满魂后可强化宠物属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60401008	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	68	</goldPrice>
+		<silverPrice>	68	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	满魂后可强化宠物属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60401011	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	68	</goldPrice>
+		<silverPrice>	68	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	满魂后可强化宠物属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60401003	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	148	</goldPrice>
+		<silverPrice>	148	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	满魂后可强化宠物属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60401006	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	148	</goldPrice>
+		<silverPrice>	148	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	满魂后可强化宠物属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60401009	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	148	</goldPrice>
+		<silverPrice>	148	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	满魂后可强化宠物属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60401012	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	148	</goldPrice>
+		<silverPrice>	148	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	满魂后可强化宠物属性	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60201055	</itemID>
+		<amount>	-1	</amount>
+		<type>	66	</type>
+		<goldPrice>	798	</goldPrice>
+		<silverPrice>	798	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	还童一代宝宝	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60201056	</itemID>
+		<amount>	-1	</amount>
+		<type>	66	</type>
+		<goldPrice>	1198	</goldPrice>
+		<silverPrice>	1198	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	还童二代宝宝	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60201021	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	98	</goldPrice>
+		<silverPrice>	98	</silverPrice>
+		<discount>	0.000000	</discount>
+		<description>	宠物属性强化辅助道具	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60201020	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	298	</goldPrice>
+		<silverPrice>	298	</silverPrice>
+		<discount>	0.000000	</discount>
+		<description>	宠物属性强化辅助道具	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60201004	</itemID>
+		<amount>	-1	</amount>
+		<type>	67	</type>
+		<goldPrice>	498	</goldPrice>
+		<silverPrice>	498	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	增加宠物15000点寿命	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	6	</subType>
+	</row>
+	<row>
+		<itemID>	60201022	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	798	</goldPrice>
+		<silverPrice>	798	</silverPrice>
+		<discount>	0.000000	</discount>
+		<description>	增加可携带宠物的上限	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60201063	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1598	</goldPrice>
+		<silverPrice>	1598	</silverPrice>
+		<discount>	0.000000	</discount>
+		<description>	增加可携带宠物的上限	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60201064	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	2398	</goldPrice>
+		<silverPrice>	2398	</silverPrice>
+		<discount>	0.000000	</discount>
+		<description>	增加可携带宠物的上限	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	110105001	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	黑色西服（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105005	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	黑色西服（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105002	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	白色婚纱（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105006	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	白色婚纱（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105007	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	粉色婚纱（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105009	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	粉色婚纱（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105066	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	中式婚礼服（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105067	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	中式婚礼服（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105010	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	大灰狼装（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105026	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	大灰狼装（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105011	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可爱兔子装（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105027	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可爱兔子装（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105012	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	古代云罗装（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105028	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	古代云罗装（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105013	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	古代云罗装（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105029	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	古代云罗装（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105014	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	侠客装束（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105030	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	侠客装束（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105015	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	侠客装束（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105031	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	侠客装束（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105016	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	现代炫酷装（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105032	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	现代炫酷装（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	9	</subType>
+	</row>
+	<row>
+		<itemID>	110105017	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	320	</goldPrice>
+		<silverPrice>	320	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	现代炫酷装（30天版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	110105033	</itemID>
+		<amount>	-1	</amount>
+		<type>	128	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	现代炫酷装（永久版）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	10	</subType>
+	</row>
+	<row>
+		<itemID>	80301003	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301010	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301017	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301024	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301031	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301038	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301045	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301052	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301059	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301066	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301087	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301094	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301101	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301108	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301115	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301122	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301170	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301177	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301184	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301191	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301198	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301205	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301212	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	80301219	</itemID>
+		<amount>	-1	</amount>
+		<type>	4	</type>
+		<goldPrice>	380	</goldPrice>
+		<silverPrice>	380	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	可镶嵌在有孔的装备上	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	0	</subType>
+	</row>
+	<row>
+		<itemID>	60201059	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1198	</goldPrice>
+		<silverPrice>	1198	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	25级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201065	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1198	</goldPrice>
+		<silverPrice>	1198	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	25级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201066	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1998	</goldPrice>
+		<silverPrice>	1998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	50级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201068	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1998	</goldPrice>
+		<silverPrice>	1998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	50级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201069	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1998	</goldPrice>
+		<silverPrice>	1998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	50级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201079	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1998	</goldPrice>
+		<silverPrice>	1998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	50级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201086	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1998	</goldPrice>
+		<silverPrice>	1998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	50级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201071	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	2998	</goldPrice>
+		<silverPrice>	2998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	75级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201075	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	2998	</goldPrice>
+		<silverPrice>	2998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	75级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201080	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	2998	</goldPrice>
+		<silverPrice>	2998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	75级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201082	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	2998	</goldPrice>
+		<silverPrice>	2998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	75级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201085	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	2998	</goldPrice>
+		<silverPrice>	2998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	75级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201088	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	2998	</goldPrice>
+		<silverPrice>	2998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	75级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201097	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	4998	</goldPrice>
+		<silverPrice>	4998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	100级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201098	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	4998	</goldPrice>
+		<silverPrice>	4998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	100级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201099	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	4998	</goldPrice>
+		<silverPrice>	4998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	100级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201100	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	4998	</goldPrice>
+		<silverPrice>	4998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	100级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201101	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	4998	</goldPrice>
+		<silverPrice>	4998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	100级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201102	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	4998	</goldPrice>
+		<silverPrice>	4998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	100级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60201103	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	4998	</goldPrice>
+		<silverPrice>	4998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	100级珍宠	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	7	</subType>
+	</row>
+	<row>
+		<itemID>	60202016	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202168	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202051	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202054	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202114	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202061	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202065	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202071	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202057	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202165	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202068	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202083	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202106	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202133	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202086	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202100	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202075	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202141	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202097	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202145	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202157	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202103	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202122	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202153	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202161	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202090	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202130	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	698	</goldPrice>
+		<silverPrice>	698	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202080	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1396	</goldPrice>
+		<silverPrice>	1396	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202118	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1396	</goldPrice>
+		<silverPrice>	1396	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202093	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1396	</goldPrice>
+		<silverPrice>	1396	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202173	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1396	</goldPrice>
+		<silverPrice>	1396	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202137	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1396	</goldPrice>
+		<silverPrice>	1396	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202110	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1396	</goldPrice>
+		<silverPrice>	1396	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202149	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1396	</goldPrice>
+		<silverPrice>	1396	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202126	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1396	</goldPrice>
+		<silverPrice>	1396	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	60级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202078	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202169	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202052	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202055	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202115	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202062	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202066	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202072	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202058	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202166	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202069	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202084	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202107	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202134	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202087	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202101	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202076	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202142	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202098	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202146	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202158	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202104	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202123	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202154	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202162	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202091	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202131	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	980	</goldPrice>
+		<silverPrice>	980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202081	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1280	</goldPrice>
+		<silverPrice>	1280	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202119	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1280	</goldPrice>
+		<silverPrice>	1280	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202094	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1280	</goldPrice>
+		<silverPrice>	1280	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202174	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1280	</goldPrice>
+		<silverPrice>	1280	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202138	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1280	</goldPrice>
+		<silverPrice>	1280	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202111	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1280	</goldPrice>
+		<silverPrice>	1280	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202150	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1280	</goldPrice>
+		<silverPrice>	1280	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202127	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1280	</goldPrice>
+		<silverPrice>	1280	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	90级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202079	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202170	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202053	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202056	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202116	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202063	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202067	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202073	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202059	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202167	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202070	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202085	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202108	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202135	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202088	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202102	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202077	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202143	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202099	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202147	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202159	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202105	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202124	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202155	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202163	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202092	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202132	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1480	</goldPrice>
+		<silverPrice>	1480	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202082	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1980	</goldPrice>
+		<silverPrice>	1980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202120	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1980	</goldPrice>
+		<silverPrice>	1980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202095	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1980	</goldPrice>
+		<silverPrice>	1980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202175	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1980	</goldPrice>
+		<silverPrice>	1980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202139	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1980	</goldPrice>
+		<silverPrice>	1980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202112	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1980	</goldPrice>
+		<silverPrice>	1980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202151	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1980	</goldPrice>
+		<silverPrice>	1980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60202128	</itemID>
+		<amount>	-1	</amount>
+		<type>	64	</type>
+		<goldPrice>	1980	</goldPrice>
+		<silverPrice>	1980	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	120级以上宠物使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	8	</subType>
+	</row>
+	<row>
+		<itemID>	60101222	</itemID>
+		<amount>	-1	</amount>
+		<type>	6	</type>
+		<goldPrice>	1400	</goldPrice>
+		<silverPrice>	1400	</silverPrice>
+		<discount>	0.900000	</discount>
+		<description>	获得7天高级VIP资格	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	60501084	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	998	</goldPrice>
+		<silverPrice>	998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	二阶陆行坐骑	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	4	</subType>
+	</row>
+	<row>
+		<itemID>	60501088	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	1998	</goldPrice>
+		<silverPrice>	1998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	三阶陆行坐骑	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	4	</subType>
+	</row>
+	<row>
+		<itemID>	60501091	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	4998	</goldPrice>
+		<silverPrice>	4998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	四阶陆行坐骑	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	4	</subType>
+	</row>
+	<row>
+		<itemID>	60501093	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	4998	</goldPrice>
+		<silverPrice>	4998	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	四阶陆行坐骑	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	4	</subType>
+	</row>
+	<row>
+		<itemID>	60501108	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	1800	</goldPrice>
+		<silverPrice>	1800	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	飞行骑宠（50级可用）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	5	</subType>
+	</row>
+	<row>
+		<itemID>	60501109	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	2800	</goldPrice>
+		<silverPrice>	2800	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	飞行骑宠（50级可用）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	5	</subType>
+	</row>
+	<row>
+		<itemID>	60501110	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	4800	</goldPrice>
+		<silverPrice>	4800	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	飞行骑宠（50级可用）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	5	</subType>
+	</row>
+	<row>
+		<itemID>	60508021	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	100	</goldPrice>
+		<silverPrice>	100	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠粮草（1天）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508022	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	500	</goldPrice>
+		<silverPrice>	500	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠粮草（7天）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508023	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	1500	</goldPrice>
+		<silverPrice>	1500	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠粮草（30天）	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508014	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	1000	</goldPrice>
+		<silverPrice>	1000	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	捕捉骑宠所需的诱饵	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508001	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	500	</goldPrice>
+		<silverPrice>	500	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠升阶时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508002	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	1000	</goldPrice>
+		<silverPrice>	1000	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠升阶时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508003	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	1000	</goldPrice>
+		<silverPrice>	1000	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠升阶时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508004	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	1500	</goldPrice>
+		<silverPrice>	1500	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠升阶时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508005	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	50	</goldPrice>
+		<silverPrice>	50	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠封灵时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508006	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	100	</goldPrice>
+		<silverPrice>	100	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠封灵时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508007	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	150	</goldPrice>
+		<silverPrice>	150	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠封灵时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508008	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	200	</goldPrice>
+		<silverPrice>	200	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠封灵时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508009	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	500	</goldPrice>
+		<silverPrice>	500	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠封灵时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508010	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	600	</goldPrice>
+		<silverPrice>	600	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠封灵时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508011	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	700	</goldPrice>
+		<silverPrice>	700	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠封灵时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508012	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	1000	</goldPrice>
+		<silverPrice>	1000	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠封灵时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	60508013	</itemID>
+		<amount>	-1	</amount>
+		<type>	32	</type>
+		<goldPrice>	1500	</goldPrice>
+		<silverPrice>	1500	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	骑宠封灵时使用	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	0	</activate>
+		<subType>	11	</subType>
+	</row>
+	<row>
+		<itemID>	110103056	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	10	</goldPrice>
+		<silverPrice>	10	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	使用可刷新悬赏任务列表	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+	<row>
+		<itemID>	110103057	</itemID>
+		<amount>	-1	</amount>
+		<type>	7	</type>
+		<goldPrice>	100	</goldPrice>
+		<silverPrice>	100	</silverPrice>
+		<discount>	1.000000	</discount>
+		<description>	使用可刷新悬赏任务列表	</description>
+		<soldAmount>	0	</soldAmount>
+		<activate>	1	</activate>
+		<subType>	1	</subType>
+	</row>
+</root>

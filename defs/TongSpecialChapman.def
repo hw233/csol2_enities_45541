@@ -1,0 +1,63 @@
+<root>
+	<Parent>			Chapman			</Parent>
+	<Properties>
+		<locked> 
+			<Type>			BOOL	</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</locked>
+		<ownTongDBID> 
+			<Type>			DATABASE_ID	</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownTongDBID>
+	</Properties>
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<lock/>
+		<unlock/>
+
+		<onRegisterTongSpecialItem>
+			<Arg>	ITEM_ID		</Arg>
+			<Arg>	UINT32		</Arg>
+		</onRegisterTongSpecialItem>
+
+		<initTongSpecialItems>
+			<Arg>	UINT8	</Arg>
+			<Arg>	BOOL	</Arg>
+		</initTongSpecialItems>
+
+		<onRequestOpenTongSpecialShop>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	BOOL		</Arg>
+		</onRequestOpenTongSpecialShop>
+		<sellArrayTo>	<!-- 商人卖东西给玩家 -->
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg> ARRAY <of> UINT16	</of>	</Arg>	<!-- argIndices -->
+			<Arg> ARRAY <of> UINT16	</of>	</Arg>	<!-- argAmountList -->
+		</sellArrayTo>
+		<sellToCB>	<!-- 由玩家调用的回调 -->
+			<Arg> DATABASE_ID	</Arg>	<!-- argIndex -->
+			<Arg> ITEM_ID	</Arg>	<!-- argIndex -->
+			<Arg> UINT16	</Arg>	<!-- argAmount -->
+			<Arg> OBJECT_ID	</Arg>	<!-- object ID -->
+		</sellToCB>
+		<onSellSpecialItems>
+			<Arg> OBJECT_ID	</Arg>	<!-- object ID -->
+			<Arg>	ITEM_ID		</Arg>
+			<Arg>	UINT16		</Arg>
+		</onSellSpecialItems>
+	</CellMethods>
+	<ClientMethods>
+		<onReceiveSpecialItems>
+			<Arg>	ARRAY <of> TONG_ITEM_MAKE_DATA </of>	</Arg>
+		</onReceiveSpecialItems>
+		<onReceiveGoodsAmountChange>		<!-- 客户端接收商品数量改变消息 -->
+			<Arg>		UINT16		</Arg>	<!-- 商品ID -->
+			<Arg>		UINT16		</Arg>	<!-- 剩余数量 -->
+		</onReceiveGoodsAmountChange>
+	</ClientMethods>
+</root>

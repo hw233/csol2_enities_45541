@@ -1,0 +1,62 @@
+<root>
+		<spaceName>	神鬼秘境	</spaceName>
+		<EntityType>	SpaceCopyShenGuiMiJing	</EntityType>
+		<DomainType>	SpaceDomainCopyMapsTeam	</DomainType>
+		<shareDomain> fu_ben_maps_shen_gui_1_1;fu_ben_maps_shen_gui_1_2 </shareDomain>
+		<script>	SpaceCopyShenGuiMiJing	</script>
+		<SpaceType>	SPACE_TYPE_SHEN_GUI_MI_JING	</SpaceType>
+		<className>	fu_ben_maps_shen_gui_1_1	</className>
+		<dirMapping>	universes/fu_ben_feng_quan_gu	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canGetAccum>	1	</canGetAccum>		<!-- 能召唤守护，打怪能获得气运值 -->
+		<canConjurePet>	1	</canConjurePet>	<!-- 能否召唤宠物-->
+		<TimeOfDay>	55800	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_maps_shen_gui_1_1.xml		</spawnFile>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<spaceLife>	  30	</spaceLife>		<!-- 副本时间（分钟） -->
+			<closeTime>	  90	</closeTime>		<!-- 战场关闭倒计时（秒） -->
+			<difficulty>  1		</difficulty><!-- 0：普通， 1：困难， 2：噩梦 -->
+			<copyBossNum> 3	</copyBossNum>
+			<copyMonsterNum> 58	</copyMonsterNum>
+			<curBossNum> 2	</curBossNum>
+			<curMonsterNum> 32	</curMonsterNum>
+			<bossID>	20154025;20322022 </bossID>
+			<curSpawnBossNeedNum> 15;21	</curSpawnBossNeedNum>
+			<spaceMapsInfos> <!-- 关联副本地图 -->
+				<item>
+					<className>	fu_ben_maps_shen_gui_1_1	</className>
+					<position>	61.186 7.765 -86.730	</position>
+					<direction>	0 0 0					</direction>
+				</item>
+				<item>
+					<className>	fu_ben_maps_shen_gui_1_2	</className>
+					<position>	-75.717 21.976 -90.655	</position>
+					<direction>	0 0 0					</direction>
+				</item>
+			</spaceMapsInfos>
+			<pickMembers>	1	</pickMembers><!--是否传送队友-->
+			<doorPoint> <!-- 副本传送门 -->
+				<item>
+					<pos>	-44.247 38.949 56.355	</pos>
+					<isCreate> 0	</isCreate>
+					<properties>
+						<useRectangle>	0	</useRectangle> <!--是否是矩形传送门-->
+						<radius>	4.000000	</radius> <!--半径-->
+						<volume>	5.000000 30.000000 5.000000	</volume> <!-- 宽，高，长 -->
+						<modelNumber>	gw7208	</modelNumber>
+						<modelScale>	1.0	</modelScale>
+						<destSpace>	fu_ben_maps_shen_gui_1_2 </destSpace>
+						<description>	</description>
+						<uname>	前往第二关	</uname>
+						<nickname>	传送门	</nickname>
+						<destPosition>	-65.379 21.759 -100.677	</destPosition>
+						<destDirection> 0 133.658 0	</destDirection>
+					</properties>
+				</item>
+			</doorPoint>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

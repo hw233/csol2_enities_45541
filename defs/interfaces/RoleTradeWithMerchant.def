@@ -1,0 +1,25 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>		
+		<buyItemFromMerchant>
+			<Arg>	MAILBOX				</Arg>	<!-- mailbox of npc entity in cell -->
+			<Arg>	ITEMS				</Arg>	<!-- itemInstance -->
+			<Arg>	ARRAY <of> UINT16	</of>	</Arg>	<!-- argIndex, for call back -->
+			<Arg>	ARRAY <of> UINT16	</of>	</Arg>	<!-- argindices, for call back -->
+		</buyItemFromMerchant>
+		
+		<sellItemToMerchant>
+			<Arg>	MAILBOX				</Arg>	<!-- mailbox of npc entity in cell -->
+			<Arg>	ARRAY <of> UID	</of>		</Arg>	<!-- argUidList -->
+			<Arg>	ARRAY <of> UINT16	</of>	</Arg>	<!-- argAmountList -->
+		</sellItemToMerchant>
+	</CellMethods>
+</root>

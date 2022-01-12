@@ -1,0 +1,235 @@
+<root>
+	<Implements>
+		<Interface>	RoleSwapItem		</Interface>
+		<Interface>	RoleTradeWithNPC	</Interface>
+		<Interface>	RoleVend		</Interface>
+		<Interface>	RoleTradeWithMerchant	</Interface>
+	</Implements>
+
+	<Properties>
+		<kitbags>
+			<Type>			KITBAGS				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>	true				</Persistent>
+		</kitbags>
+
+		<itemsBag>
+			<Type>			KITBAG				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>	true				</Persistent>
+		</itemsBag>
+
+		<_lastTote>
+			<Type>			UINT16				</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>	false				</Persistent>
+		</_lastTote>
+
+		<!--背包密码锁功能-->
+		<kitbagsPassword> <!--背包的密码-->
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		true			</Persistent>
+		</kitbagsPassword>
+		<kitbagsUnlockLimitTime> <!--限制背包解锁行为时间-->
+			<Type>			INT32			</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Persistent>		true			</Persistent>
+		</kitbagsUnlockLimitTime>
+		<kitbagsForceUnlockLimitTime> <!--强制解锁钱庄剩余时间-->
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	true		</Persistent>
+		</kitbagsForceUnlockLimitTime>
+		<kitbagsLockerStatus> <!--背包锁状态数据-->
+			<Type>			UINT8			</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Persistent>		false			</Persistent>
+		</kitbagsLockerStatus>
+		<kitbags_saveTimerID>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		false			</Persistent>
+		</kitbags_saveTimerID>
+	</Properties>
+
+	<ClientMethods>
+		<!-- 更新某个位置的物品的某个属性 -->
+		<onItemAttrUpdated>
+			<Arg>	INT16	</Arg>	<!-- order -->
+			<Arg>	UINT8	</Arg>	<!-- attrName index-->
+			<Arg>	STRING	</Arg>	<!-- value -->
+		</onItemAttrUpdated>
+
+		<onItemTempAttrUpdated>
+			<Arg>	INT16	</Arg>	<!-- order -->
+			<Arg>	UINT8	</Arg>	<!-- attrName index -->
+			<Arg>	STRING	</Arg>	<!-- value -->
+		</onItemTempAttrUpdated>
+
+		<!-- 删除某个背包上的某个道具 -->
+		<removeItemCB>
+			<Arg>	INT16	</Arg>	<!-- order -->
+		</removeItemCB>
+
+		<!-- 新增一个道具 -->
+		<addItemCB>
+			<Arg>	ITEM	</Arg>	<!-- ItemProp_instance -->
+		</addItemCB>
+
+		<!-- 交换两个道具的位置 -->
+		<swapItemCB>
+			<Arg>	INT16	</Arg>	<!-- srcOrderID -->
+			<Arg>	INT16	</Arg>	<!-- dstOrderID -->
+		</swapItemCB>
+
+		<!-- 背包和背包交换-->
+		<swapKitbagCB>
+			<Arg>	UINT8	</Arg>	<!-- srcKitOrder -->
+			<Arg>	UINT8	</Arg> <!-- dstKitOrder -->
+		</swapKitbagCB>
+
+		<!-- 删除某个位置的背包 -->
+		<removeKitbagCB>
+			<Arg>	UINT8	</Arg>	<!-- kitTote -->
+		</removeKitbagCB>
+
+		<!-- 在某个位置增加一个背包 -->
+		<addKitbagCB>
+			<Arg>	UINT8	</Arg>	<!-- kitTote -->
+			<Arg>	ITEM	</Arg>	<!-- itemInstance -->
+		</addKitbagCB>
+
+		<!-- 背包密码锁功能统一通知函数-->
+		<kitbags_lockerNotify>
+			<Arg>	UINT8	</Arg> <!-- 根据此数据选择通知的类型-->
+		</kitbags_lockerNotify>
+
+		<!-- 神机匣使用次数通知函数-->
+		<onUpdateUseDegree>
+			<Arg>	UINT16	</Arg> <!-- useDegree-->
+		</onUpdateUseDegree>
+
+		<!--自动放入打造材料通知-->
+		<autoStuffFC>
+			<Arg>	ARRAY <of> INT16 </of>	</Arg>
+		</autoStuffFC>
+
+		<playIconNotify>
+		<Arg>	ITEM	</Arg> <!-- 通知客户端播放物品进入背包动画-->
+		</playIconNotify>
+
+		<!--解锁神机夹 by jy-->
+		<unLockCasket>
+		</unLockCasket>
+		<kitbags_onConfirmForceUnlock><!-- 背包强制解锁确认-->
+		</kitbags_onConfirmForceUnlock>
+	</ClientMethods>
+
+	<CellMethods>
+
+		<splitItem>	<!-- 分离物品 -->
+			<Exposed/>
+			<Arg>	UID	</Arg>	<!-- uid  -->
+			<Arg>	UINT16	</Arg>	<!-- amount      -->
+		</splitItem>
+
+		<!-- 销毁背包上的某个道具 -->
+		<destroyItem>
+			<Exposed/>
+			<Arg>	UID	</Arg>	<!-- uid   -->
+		</destroyItem>
+
+		<!-- 交换两个道具的位置 -->
+		<swapItem>
+			<Exposed/>
+			<Arg>	INT16	</Arg>	<!-- srcOrderID   -->
+			<Arg>	INT16	</Arg>	<!-- dstOrderID   -->
+		</swapItem>
+
+		<!-- 把一个物品拖到包裹位的包裹上 -->
+		<moveItemToKitTote>
+			<Exposed/>
+			<Arg>	INT16		</Arg>	<!-- srcOrder -->
+			<Arg>	UINT8		</Arg>	<!-- dstKitTote -->
+		</moveItemToKitTote>
+
+		<!-- 转换某个背包类型的道具为背包 -->
+		<moveKbItemToKitTote>
+			<Exposed/>
+			<Arg>	INT16		</Arg>	<!-- orderID  -->
+			<Arg>	UINT8		</Arg>	<!-- dstKitTote -->
+		</moveKbItemToKitTote>
+
+		<!-- 转换某个背包为背包类型的道具, call by client -->
+		<moveKitbagToKbItem>
+			<Exposed/>
+			<Arg>	UINT8		</Arg>	<!-- srcKitTote -->
+			<Arg>	INT16		</Arg>	<!-- dstOrder, 放到背包哪个位置 -->
+		</moveKitbagToKbItem>
+
+		<!-- 交换两个位置的背包, call by client -->
+		<swapKitbag>
+			<Exposed/>
+			<Arg>	UINT8		</Arg>	<!-- srcKitOrder ，源背包位-->
+			<Arg>	UINT8		</Arg>	<!-- dstKitOrder，目标背包位 -->
+		</swapKitbag>
+
+		<!-- 给玩家增加一个自定义类型道具 -->
+		<addItem>
+			<Arg>	ITEM	</Arg>	<!-- ItemProp_instance  -->
+			<Arg>	UINT16   </Arg>	<!-- 增加该物品的原因 -->
+		</addItem>
+
+		<!-- 把一个背包里的某个道具与另外一个背包里的道具合并, call by client -->
+		<combineItem>
+			<Exposed/>
+			<Arg>	INT16	</Arg>	<!-- srcOrder, 源道具 -->
+			<Arg>	INT16	</Arg>	<!-- dstOrder, 目标道具 -->
+		</combineItem>
+
+		<!-- 对目标使用某道具 -->
+		<useItem>
+			<Exposed/>
+			<Arg>	UID		</Arg>	<!-- uid -->
+			<Arg>	SKILLTARGETOBJ	</Arg>	<!-- dstEntity -->
+		</useItem>
+		<!-----------------------------------背包密码锁功能  BEGIN------------------------------------------->
+		<kitbags_setPassword> <!--设置、修改背包密码都使用此接口。背包密码为空时，srcPassword值为"",修改密码时srcPassword值为 玩家的旧密码-->
+			<Exposed/>
+			<Arg>	STRING		</Arg> <!--srcPassword-->
+			<Arg>	STRING		</Arg> <!--password-->
+		</kitbags_setPassword>
+		<kitbags_lock> <!--给背包上锁-->
+			<Exposed/>
+		</kitbags_lock>
+		<kitbags_unlock> <!--给背包解锁-->
+			<Exposed/>
+			<Arg>	STRING		</Arg> <!--password-->
+		</kitbags_unlock>
+		<kitbags_clearPassword> <!--给背包永久解锁-->
+			<Exposed/>
+			<Arg>	STRING		</Arg> <!--password-->
+		</kitbags_clearPassword>
+		<kitbags_onForceUnlock><!--给背包强制解锁-->
+			<Exposed/>
+		</kitbags_onForceUnlock>
+		<!-----------------------------------背包密码锁功能  END------------------------------------------->
+
+		<autoInStuffs>	<!-- 自动拆分打造装备需要的材料-->
+			<Exposed/>
+			<Arg>	ARRAY <of> ITEM_ID 	</of>	</Arg>
+			<Arg>	ARRAY <of> INT16	</of>	</Arg>
+		</autoInStuffs>
+
+		<removeItemTotal>
+			<Arg>	UINT32		</Arg> <!--ITEM_ID-->
+			<Arg>	UINT16		</Arg> <!--AMOUNT-->
+			<Arg>	UINT16		</Arg> <!--AMOUNT-->
+		</removeItemTotal>
+
+	</CellMethods>
+</root>

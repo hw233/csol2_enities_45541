@@ -1,0 +1,31 @@
+<root>
+	<Parent>	Monster	</Parent>
+
+	<Properties>
+		<isOpen>
+			<Type>		BOOL		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>		false		</Default>
+		</isOpen>
+		<useRectangle>	<!-- 标识是否使用矩形陷阱 -->
+			<Type>		BOOL		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+		</useRectangle>
+		<radius>
+			<Type>		FLOAT		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+		</radius>
+		<volume>	<!-- 宽(x)、高(y)、长(z)；只在useRectangle为true时有用 -->
+			<Type>		VECTOR3		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+		</volume>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

@@ -1,0 +1,27 @@
+#!/usr/bin/env python
+# -*- coding: cp950 -*-
+rewardConfigDict = {
+            'itemList': [{'item': {'itemID': u'60202176', 'amount': u'1',
+             'type': 'RewardItem', 'uid': u'1288666169'}, 'odds': u'2'}, {'item': {'itemID': u'60202177',
+             'amount': u'1', 'type': 'RewardItem', 'uid': u'1288666205'},
+             'odds': u'2'}, {'item': {'itemID': u'60202178', 'amount': u'1',
+             'type': 'RewardItem', 'uid': u'1288666206'}, 'odds': u'2'}, {'item': {'itemID': u'60202179',
+             'amount': u'1', 'type': 'RewardItem', 'uid': u'1288666207'},
+             'odds': u'2'}, {'item': {'itemID': u'60202180', 'amount': u'1',
+             'type': 'RewardItem', 'uid': u'1288666208'}, 'odds': u'2'}, {'item': {'itemID': u'60202181',
+             'amount': u'1', 'type': 'RewardItem', 'uid': u'1288666211'},
+             'odds': u'2'}, {'item': {'itemID': u'60202182', 'amount': u'1',
+             'type': 'RewardItem', 'uid': u'1288666212'}, 'odds': u'2'}, {'item': {'itemID': u'60202183',
+             'amount': u'1', 'type': 'RewardItem', 'uid': u'1288666213'},
+             'odds': u'2'}, {'item': {'itemID': u'60202184', 'amount': u'1',
+             'type': 'RewardItem', 'uid': u'1288666214'}, 'odds': u'2'}, {'item': {'itemID': u'60202185',
+             'amount': u'1', 'type': 'RewardItem', 'uid': u'1288666215'},
+             'odds': u'1'}, {'item': {'itemID': u'60202186', 'amount': u'1',
+             'type': 'RewardItem', 'uid': u'1288666216'}, 'odds': u'1'}, {'item': {'itemID': u'60202187',
+             'amount': u'1', 'type': 'RewardItem', 'uid': u'1288666217'},
+             'odds': u'1'}, {'item': {'itemID': u'60202188', 'amount': u'1',
+             'type': 'RewardItem', 'uid': u'1288666218'}, 'odds': u'1'}, {'item': {'itemID': u'60202189',
+             'amount': u'1', 'type': 'RewardItem', 'uid': u'1288666219'},
+             'odds': u'2'}, {'item': {'itemID': u'60202190', 'amount': u'1',
+             'type': 'RewardItem', 'uid': u'1288666220'}, 'odds': u'2'}],
+             'amount': u'1', 'type': 'RewardRandom', 'uid': u'10083', 'name': u'\u9a0e\u5bf5\u6280\u80fd\u5bf6\u7bb1'}

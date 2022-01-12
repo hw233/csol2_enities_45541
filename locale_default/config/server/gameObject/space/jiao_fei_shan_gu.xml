@@ -1,0 +1,78 @@
+<root>
+		<spaceName>	½Ë·Ë¸±±¾1	</spaceName>
+		<EntityType>	SpaceCopyPotential	</EntityType>
+		<SpaceType>	SPACE_TYPE_POTENTIAL	</SpaceType>
+		<DomainType>	SpaceDomainPotential	</DomainType>
+		<script>	SpaceCopyPotential	</script>
+		<className>	jiao_fei_shan_gu	</className>
+		<TimeOfDay>	52200	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_shan_gu	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<doorPoint>
+				<pos>	111.796,-0.789,35.983	</pos>
+				<radius>	2.600000	</radius>
+			</doorPoint>
+			<monsterPoint>	</monsterPoint>
+			<playerEnterPoint>
+				<pos>	130.274,0.107,46.777	</pos>
+				<direction>	0,-90,0	</direction>
+			</playerEnterPoint>
+			<BossPoint>
+				<item>
+					<pos>	44.865,15.841,85.233	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	1	</playerAmount>
+				</item>
+				<item>
+					<pos>	44.865,15.841,85.233	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	2	</playerAmount>
+				</item>
+				<item>
+					<pos>	44.865,15.841,85.233	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	3	</playerAmount>
+				</item>
+				<item>
+					<pos>	44.865,15.841,85.233	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	4	</playerAmount>
+				</item>
+				<item>
+					<pos>	44.865,15.841,85.233	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	5	</playerAmount>
+				</item>
+			</BossPoint>
+			<smallBossPoint>	</smallBossPoint>
+		</Space>
+		<spawn>
+			<item>
+				<playerAmount>	1	</playerAmount>
+				<spawnFile>	config/server/spawn/jiao_fei_shan_gu_1P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	2	</playerAmount>
+				<spawnFile>	config/server/spawn/jiao_fei_shan_gu_2P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	3	</playerAmount>
+				<spawnFile>	config/server/spawn/jiao_fei_shan_gu_3P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	4	</playerAmount>
+				<spawnFile>	config/server/spawn/jiao_fei_shan_gu_4P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	5	</playerAmount>
+				<spawnFile>	config/server/spawn/jiao_fei_shan_gu_5P.xml	</spawnFile>
+			</item>
+		</spawn>
+</root>

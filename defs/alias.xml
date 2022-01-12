@@ -1,0 +1,2521 @@
+<root>
+	<OBJECT_ID>			INT32		</OBJECT_ID>
+	<BOOL>				UINT8		</BOOL>
+	<CONTROLLER_ID>		INT32		</CONTROLLER_ID>
+	<EXPERIENCE>		INT32		</EXPERIENCE>
+	<ITEM_ID>			INT32		</ITEM_ID>
+	<BLOB_ARRAY>	ARRAY <of> BLOB </of>	</BLOB_ARRAY>
+	<STRING_ARRAY>	ARRAY <of> STRING </of>	</STRING_ARRAY>
+	<FLOAT_ARRAY>	ARRAY <of> FLOAT </of>	</FLOAT_ARRAY>
+	<UINT8_ARRAY>	ARRAY <of> UINT8 </of>	</UINT8_ARRAY>
+	<INT32_ARRAY>	ARRAY <of> INT32 </of>	</INT32_ARRAY>
+	<INT64_ARRAY>	ARRAY <of> INT64 </of>	</INT64_ARRAY>
+	<UINT8_TUPLE>	TUPLE <of> UINT8 </of>	</UINT8_TUPLE>
+	<STRING_TUPLE>	TUPLE <of> STRING </of>	</STRING_TUPLE>
+	<PY_DICT>			PYTHON		</PY_DICT>
+	<PY_ARGS>			PYTHON		</PY_ARGS>
+	<SKILLID>			INT64		</SKILLID>
+	<QUESTID>			INT32		</QUESTID>
+	<POSITION>			VECTOR3		</POSITION>
+	<DIRECTION>			VECTOR3		</DIRECTION>
+	<UID>				INT64		</UID>
+	<PLANESID>			INT32		</PLANESID>
+
+	<DATABASE_ID>		INT64		</DATABASE_ID>
+	<SPACE_NUMBER>		INT32		</SPACE_NUMBER>
+
+	<BIT_ARRAY>	USER_TYPE	<implementedBy>	Bitarray.instance			</implementedBy></BIT_ARRAY>
+
+	<ITEM>	FIXED_DICT
+		<implementedBy>	ItemTypeImpl.instance	</implementedBy>
+		<Properties>
+			<uid>		<Type>	UID		</Type>	</uid>
+			<id>		<Type>	ITEM_ID	</Type>	</id>
+			<amount>	<Type>	INT32	</Type>	</amount>
+			<order>		<Type>	INT16	</Type>	</order>
+			<extra>
+				<Type>	BLOB	</Type>
+				<DatabaseLength> 1024 </DatabaseLength>
+			</extra>
+			<tmpExtra>
+				<Type>	BLOB	</Type>
+				<Persistent>false</Persistent>
+			</tmpExtra>
+		</Properties>
+	</ITEM>
+	<ITEMS>		ARRAY		<of>			ITEM						</of></ITEMS>
+
+	<KITBAG>	FIXED_DICT
+		<implementedBy>	KitbagTypeImpl.instance	</implementedBy>
+		<Properties>
+			<items>	<Type>	ITEMS	</Type>	</items>
+		</Properties>
+	</KITBAG>
+
+	<ITEMDICT_ITEM>	FIXED_DICT
+		<Properties>
+			<order>	<Type>	INT8	</Type> </order>
+			<item>	<Type>	ITEM	</Type> </item>
+		</Properties>
+	</ITEMDICT_ITEM>
+
+	<!--做不一样的事情-->
+	<KITBAGS>	FIXED_DICT
+		<implementedBy>	KitbagsTypeImpl.instance	</implementedBy>
+		<Properties>
+			<items> <Type>ARRAY<of>ITEMDICT_ITEM</of></Type> </items>
+		</Properties>
+	</KITBAGS>
+
+
+	<ITEMDICT>	FIXED_DICT
+		<implementedBy>	ItemDictTypeImpl.instance	</implementedBy>
+		<Properties>
+			<items> <Type>ARRAY<of>ITEMDICT_ITEM</of></Type> </items>
+		</Properties>
+	</ITEMDICT>
+
+	<PRICEITEM>	FIXED_DICT
+		<implementedBy>	NPCTradePrice.priceDataInstance	</implementedBy>
+		<Properties>
+			<param> <Type> PYTHON </Type></param>
+		</Properties>
+	</PRICEITEM>
+
+	<PRICEITEMS>ARRAY <of> PRICEITEM </of>	</PRICEITEMS>
+
+	<INVOICEITEM>	FIXED_DICT
+		<implementedBy>	InvoiceDataType.instance	</implementedBy>
+		<Properties>
+			<maxAmount>		<Type>	INT32	</Type> </maxAmount>
+			<currAmount>	<Type>	INT32	</Type> </currAmount>
+			<invoiceType>	<Type> INT8	</Type> </invoiceType>
+			<itemType>		<Type>	INT8	</Type> </itemType>			<!-- hyw 08.08.09 -->
+			<srcItem>		<Type>	ITEM	</Type> </srcItem>
+			<priceInstanceList>	<Type> PRICEITEMS </Type>	</priceInstanceList>
+		</Properties>
+	</INVOICEITEM>
+
+	<INVOICEITEM_ITEM>	FIXED_DICT
+		<Properties>
+			<order>		<Type>	UINT8		</Type> </order>
+			<invoice>	<Type>	INVOICEITEM	</Type> </invoice>
+		</Properties>
+	</INVOICEITEM_ITEM>
+
+	<INVOICEITEMS>	FIXED_DICT
+		<implementedBy>	InvoicesPackType.instance	</implementedBy>
+		<Properties>
+			<items>	<Type>	ARRAY<of>INVOICEITEM_ITEM</of>	</Type> </items>
+		</Properties>
+	</INVOICEITEMS>
+
+	<MEMBERINFO>	USER_TYPE	<implementedBy> MemberInfo.instance		</implementedBy>	</MEMBERINFO>
+
+	<QUICK_BAR_ITEM_DATA>	FIXED_DICT
+		<implementedBy>	QuickBarItemData.instance	</implementedBy>
+		<Properties>
+			<index>		<Type>	INT16	</Type> </index>
+			<qbtype>	<Type>	UINT8	</Type> </qbtype>
+			<narg1>		<Type>	INT32	</Type> </narg1>
+			<sarg2>		<Type>	STRING	</Type> </sarg2>
+		</Properties>
+	</QUICK_BAR_ITEM_DATA>
+
+	<PET_QB_ITEM>	FIXED_DICT	<!-- 宠物技能快捷栏 -->
+		<Properties>
+			<skillID>	<Type>	SKILLID	</Type>	</skillID>		<!-- 技能 ID -->
+			<autoUse>	<Type>	BOOL	</Type>	</autoUse>		<!-- 是否启动自动使用 -->
+		</Properties>
+	</PET_QB_ITEM>
+
+	<QUESTTASK>	FIXED_DICT
+		<implementedBy> QuestTaskDataType.instance	</implementedBy>
+		<Properties>
+			<!--<value>	<Type>	BLOB	</Type>	</value>-->
+			<implType>	<Type>	INT8	</Type>	</implType>	<!-- 目标类型 -->
+			<index>	<Type>	INT16	</Type>	</index> <!-- 任务目标ID -->
+			<str1>	<Type>	STRING	</Type>	</str1>	<!-- 字符串参数，具体储存内容由各目标类型自己决定 -->
+			<str2>	<Type>	STRING	</Type>	</str2>	<!-- 字符串参数，具体储存内容由各目标类型自己决定 -->
+			<str3>	<Type>	STRING	</Type>	</str3>	<!-- 字符串参数，具体储存内容由各目标类型自己决定 -->
+			<val1>	<Type>	INT32	</Type>	</val1>	<!-- 数值型参数，具体储存内容由各目标类型自己决定 -->
+			<val2>	<Type>	INT32	</Type>	</val2>	<!-- 数值型参数，具体储存内容由各目标类型自己决定 -->
+			<showOrder>	<Type>	STRING	</Type>	</showOrder>	<!-- 数值型参数，具体储存内容由各目标类型自己决定 -->
+		</Properties>
+	</QUESTTASK>
+
+	<QUESTDATA>	FIXED_DICT
+		<implementedBy> QuestDataType.instance	</implementedBy>
+		<Properties>
+			<qID>			<Type>	QUESTID							</Type>	</qID>
+			<tasks>			<Type>	ARRAY	<of> QUESTTASK </of>	</Type>	</tasks>
+			<datas>			<Type>	PY_DICT							</Type>	</datas>
+			<acceptTime>	<Type>	INT64							</Type>	</acceptTime>
+		</Properties>
+	</QUESTDATA>
+
+	<QUESTDATAS>		FIXED_DICT
+		<implementedBy> QuestsDataType.instance		</implementedBy>
+		<Properties>
+			<values>	<Type>	ARRAY	<of> QUESTDATA </of>	</Type>	</values>
+		</Properties>
+	</QUESTDATAS>
+
+	<QUESTLOGS>	FIXED_DICT
+		<implementedBy>	QuestLogsType.instance	</implementedBy>
+		<Properties>
+			<values>	<Type>	ARRAY	<of> QUESTID </of>	</Type>	</values>
+		</Properties>
+	</QUESTLOGS>
+
+	<QUESTRANDOMRECORD> FIXED_DICT
+		<implementedBy>	QuestRandomRecordType.instance	</implementedBy>
+		<Properties>
+			<questGroupID>	<Type>	QUESTID	</Type>	</questGroupID>		<!-- 随机组任务ID-->
+			<count>			<Type>	INT8	</Type>	</count>	<!-- 随机组任务完成次数 -->
+			<deposit> 		<Type> INT32	</Type> </deposit>	<!-- 随机任务押金 -->
+			<point> 		<Type> INT16	</Type> </point>	<!-- 任务积分-->
+			<startTime> 	<Type>	INT32	</Type> </startTime>
+			<degree> 		<Type> INT8		</Type>	</degree>
+			<curID> 		<Type> QUESTID	</Type>	</curID>
+			<taskType> 		<Type> INT16 	</Type> </taskType>
+			<randRwdRate> 	<Type> STRING 	</Type> </randRwdRate>
+			<isRecorded> 	<Type> BOOL 	</Type> </isRecorded>
+		</Properties>
+	</QUESTRANDOMRECORD>
+
+
+	<QUESTRANDOMLOGS> FIXED_DICT
+		<implementedBy>	QuestRandomLogsType.instance	</implementedBy>
+		<Properties>
+			<values>	<Type> ARRAY <of>QUESTRANDOMRECORD</of> </Type> </values>
+		</Properties>
+	</QUESTRANDOMLOGS>
+
+	<QUESTDARTRECORD> FIXED_DICT
+		<implementedBy>	QuestDartRecord.instance	</implementedBy>
+		<Properties>
+			<dartCount>	<Type>	INT8	</Type>	</dartCount>
+			<date> 		<Type> INT32	</Type> </date>
+		</Properties>
+	</QUESTDARTRECORD>
+
+	<SUNBATHRECORD> FIXED_DICT
+		<implementedBy>	SunBathRecord.instance	</implementedBy>
+		<Properties>
+			<sunBathCount>	<Type>	INT32	</Type>	</sunBathCount>
+			<auguryCount>	<Type>	INT8	</Type>	</auguryCount>
+			<auguryDate>	<Type>	INT32	</Type> </auguryDate>
+			<auguryTime>	<Type>	INT32	</Type> </auguryTime>
+			<date> 			<Type> INT32	</Type> </date>
+			<proofFriendDate> <Type> INT32	</Type> </proofFriendDate>
+			<proofFriendCount> <Type> INT8	</Type> </proofFriendCount>
+		</Properties>
+	</SUNBATHRECORD>
+
+	<DAILYRECORD> FIXED_DICT
+		<implementedBy>	DailyRecord.instance	</implementedBy>
+		<Properties>
+			<lastTime>		<Type>	INT32	</Type>		</lastTime>
+			<degree>		<Type>	INT8	</Type>		</degree>
+		</Properties>
+	</DAILYRECORD>
+
+	<ANTIINDULGENCEREC> FIXED_DICT
+		<implementedBy>	AntiIndulgenceRec.instance	</implementedBy>
+		<Properties>
+			<total_online>	<Type>	INT32	</Type>	</total_online>
+			<total_offline>	<Type>	INT32	</Type>	</total_offline>
+			<last_offline>	<Type>	INT64	</Type>	</last_offline>
+		</Properties>
+	</ANTIINDULGENCEREC>
+
+	<COOLDOWN> FIXED_DICT
+		<Properties>
+			<id>				<!-- coolDown ID -->
+				<Type>			INT32		</Type>
+			</id>
+			<lastTime>			<!-- coolDown 当前剩余时间 -->
+				<Type>			INT16		</Type>
+			</lastTime>
+			<totalTime>			<!-- coolDown 总剩余时间 -->
+				<Type>			INT16		</Type>
+			</totalTime>
+			<endTime>			<!-- coolDown 结束时间 -->
+				<Type>			INT32		</Type>
+			</endTime>
+		</Properties>
+	</COOLDOWN>
+
+	<COOLDOWNS> FIXED_DICT
+		<implementedBy>	CooldownsImpl.instance	</implementedBy>
+		<Properties>
+			<values>	<Type> ARRAY <of>COOLDOWN</of> </Type> </values>
+		</Properties>
+	</COOLDOWNS>
+
+	<FAMILY_INFO> FIXED_DICT
+		<Properties>
+			<dbID>
+				<Type>			DATABASE_ID		</Type>
+			</dbID>
+			<familyName>
+				<Type>			STRING		</Type>
+			</familyName>
+		</Properties>
+	</FAMILY_INFO>
+
+	<FAMILYS_INFOS> ARRAY <of> FAMILY_INFO </of> </FAMILYS_INFOS>
+
+	<FAMILY_ONLINEMEMBERDATA> FIXED_DICT
+		<Properties>
+			<dbid>
+				<Type>			DATABASE_ID		</Type>
+			</dbid>
+			<mb>
+				<Type>			MAILBOX		</Type>
+			</mb>
+		</Properties>
+	</FAMILY_ONLINEMEMBERDATA>
+
+	<FAMILY_ONLINEMEMBERDATAS> FIXED_DICT
+		<implementedBy>	FamilyDatasImpl.instance	</implementedBy>
+		<Properties>
+			<values>
+				<Type>	ARRAY <of> FAMILY_ONLINEMEMBERDATA </of>	</Type>
+			</values>
+		</Properties>
+	</FAMILY_ONLINEMEMBERDATAS>
+
+	<FAMILY_CONTEST_NPC_INFO> FIXED_DICT
+		<Properties>
+			<NPCClassID>
+				<Type>			STRING		</Type>
+			</NPCClassID>
+			<NPCName>
+				<Type>			STRING		</Type>
+			</NPCName>
+			<familyDBID>
+				<Type>		DATABASE_ID 		</Type>
+			</familyDBID>
+			<date>
+				<Type>		INT32 		</Type>
+			</date>
+			<pos>
+				<Type>			POSITION		</Type>
+			</pos>
+			<map>
+				<Type>			STRING		</Type>
+			</map>
+		</Properties>
+	</FAMILY_CONTEST_NPC_INFO>
+
+	<FAMILY_CONTEST_NPC_INFOS> ARRAY <of> FAMILY_CONTEST_NPC_INFO </of> </FAMILY_CONTEST_NPC_INFOS>
+
+	<FAMILY_NPC_INFO> FIXED_DICT
+		<Properties>
+			<NPCClassID>
+				<Type>			STRING		</Type>
+			</NPCClassID>
+			<NPCName>
+				<Type>			STRING		</Type>
+			</NPCName>
+			<pos>
+				<Type>			POSITION		</Type>
+			</pos>
+			<map>
+				<Type>			STRING		</Type>
+			</map>
+			<familyDBID>
+				<Type>		DATABASE_ID 		</Type>
+			</familyDBID>
+		</Properties>
+	</FAMILY_NPC_INFO>
+
+	<FAMILY_NPC_INFOS> ARRAY <of> FAMILY_NPC_INFO </of> </FAMILY_NPC_INFOS>
+
+	<!--家族挑战赛-->
+	<FAMILY_CHALLENGE_INFO> FIXED_DICT
+			<Properties>
+				<srcFamilyDBID>	<!--发起挑战的家族dbid-->
+					<Type>	DATABASE_ID	</Type>
+				</srcFamilyDBID>
+				<dstFamilyDBID>	<!--被挑战的家族dbid-->
+					<Type>	DATABASE_ID	</Type>
+				</dstFamilyDBID>
+				<srcFamilyName>	<!--发起挑战的家族所属帮会名-->
+					<Type>	STRING	</Type>
+				</srcFamilyName>
+				<dstFamilyName>	<!--被挑战的家族所属帮会名-->
+					<Type>	STRING	</Type>
+				</dstFamilyName>
+				<srcTongName>	<!--发起挑战的家族名-->
+					<Type>	STRING	</Type>
+				</srcTongName>
+				<dstTongName>	<!--被挑战的家族名-->
+					<Type>	STRING	</Type>
+				</dstTongName>
+				<limitTime>		<!--挑战到期时刻-->
+					<Type>	FLOAT	</Type>
+				</limitTime>
+			</Properties>
+	</FAMILY_CHALLENGE_INFO>
+
+	<TONG_DUTY_GRADE> FIXED_DICT
+		<Properties>
+			<conscribe>
+				<Type>			UINT16		</Type>
+			</conscribe>
+			<affiche>
+				<Type>			UINT16		</Type>
+			</affiche>
+			<setGrade>
+				<Type>			UINT16		</Type>
+			</setGrade>
+			<proclaimWar>
+				<Type>			UINT16		</Type>
+			</proclaimWar>
+			<petSelect>
+				<Type>			UINT16		</Type>
+			</petSelect>
+			<groupAction>
+				<Type>			UINT16		</Type>
+			</groupAction>
+			<chat>
+				<Type>			UINT16		</Type>
+			</chat>
+			<warehouseSave>
+				<Type>			UINT16		</Type>
+			</warehouseSave>
+			<warehouseTakeOut>
+				<Type>			UINT16		</Type>
+			</warehouseTakeOut>
+			<warehouseSetLimit>
+				<Type>			UINT16		</Type>
+			</warehouseSetLimit>
+		</Properties>
+	</TONG_DUTY_GRADE>
+
+	<TONG_DUTY_NAME> FIXED_DICT
+		<Properties>
+			<duty>
+				<Type>			UINT16		</Type>
+			</duty>
+			<dutyName>
+				<Type>			STRING		</Type>
+			</dutyName>
+		</Properties>
+	</TONG_DUTY_NAME>
+
+	<TONG_DUTY_NAMES> ARRAY <of> TONG_DUTY_NAME </of> </TONG_DUTY_NAMES>
+
+	<TONG_INFO> FIXED_DICT
+		<Properties>
+			<dbID>
+				<Type>			DATABASE_ID		</Type>
+			</dbID>
+			<tid>
+				<Type>			UINT16		</Type>
+			</tid>
+			<tongName>
+				<Type>			STRING		</Type>
+			</tongName>
+			<ad>
+				<Type>			STRING		</Type>
+			</ad>
+		</Properties>
+	</TONG_INFO>
+
+	<TONGS_INFOS> ARRAY <of> TONG_INFO </of> </TONGS_INFOS>
+
+	<TONG_SKILL_RESEARCH_DATA> FIXED_DICT
+		<Properties>
+			<id>
+				<Type>			SKILLID		</Type>
+			</id>
+			<level>
+				<Type>			UINT16		</Type>
+			</level>
+		</Properties>
+	</TONG_SKILL_RESEARCH_DATA>
+
+	<TONG_ITEM_MAKE_DATA> FIXED_DICT
+		<Properties>
+			<itemID>
+				<Type>			ITEM_ID		</Type>
+			</itemID>
+			<amount>
+				<Type>			INT32		</Type>		<!--生产数量为-1表示可无限量生产，因此将该类型由UINT16改为INT32-->
+			</amount>
+		</Properties>
+	</TONG_ITEM_MAKE_DATA>
+
+	<TONGBUILDINFO> FIXED_DICT
+		<Properties>
+			<level>
+				<Type>			UINT16		</Type>
+			</level>
+			<type>
+				<Type>			UINT16		</Type>
+			</type>
+		</Properties>
+	</TONGBUILDINFO>
+
+	<TONG_ROB_WAR_INFO> FIXED_DICT
+		<Properties>
+			<leftTongDBID>
+				<Type>			DATABASE_ID		</Type>
+			</leftTongDBID>
+			<rightTongDBID>
+				<Type>			DATABASE_ID		</Type>
+			</rightTongDBID>
+			<leftTongName>
+				<Type>			STRING		</Type>
+			</leftTongName>
+			<rightTongName>
+				<Type>			STRING		</Type>
+			</rightTongName>
+		</Properties>
+	</TONG_ROB_WAR_INFO>
+
+	<TONG_ROB_WAR_INFOS> ARRAY <of> TONG_ROB_WAR_INFO </of> </TONG_ROB_WAR_INFOS>
+
+	<TONG_FAMILY_INFO> FIXED_DICT
+		<Properties>
+			<dbID>
+				<Type>			DATABASE_ID		</Type>
+			</dbID>
+			<familyName>
+				<Type>			STRING		</Type>
+			</familyName>
+		</Properties>
+	</TONG_FAMILY_INFO>
+
+	<TONGS_FAMILY_INFOS> ARRAY <of> TONG_FAMILY_INFO </of> </TONGS_FAMILY_INFOS>
+
+	<TONG_MEMBER_TOTAL_CONTRIBUTE> FIXED_DICT
+		<Properties>
+			<dbID>
+				<Type>			DATABASE_ID		</Type>
+			</dbID>
+			<totalContribute>									<!-- 个人累计帮贡 -->
+				<Type>			UINT32			</Type>
+			</totalContribute>
+			<lastWeekTotalContribute>							<!-- 个人上周累计帮贡 -->
+				<Type>			UINT32			</Type>
+			</lastWeekTotalContribute>
+			<lastWeekSalaryReceived>							<!-- 个人上周领取俸禄值 -->
+				<Type>			UINT32			</Type>
+			</lastWeekSalaryReceived>
+			<weekTongContribute>								<!-- 个人本周累计帮贡 -->
+				<Type>			UINT32			</Type>
+			</weekTongContribute>
+			<weekSalaryReceived>								<!-- 个人本周领取俸禄值 -->
+				<Type>			UINT32			</Type>
+			</weekSalaryReceived>
+		</Properties>
+	</TONG_MEMBER_TOTAL_CONTRIBUTE>
+
+	<TONG_MEMBER_TOTAL_CONTRIBUTES> ARRAY <of> TONG_MEMBER_TOTAL_CONTRIBUTE </of> </TONG_MEMBER_TOTAL_CONTRIBUTES>
+
+	<TONG_LEAGUE_LOG> FIXED_DICT
+		<Properties>
+			<tongDBID>
+				<Type>			DATABASE_ID		</Type>
+			</tongDBID>
+			<timeout>
+				<Type>			INT64		</Type>
+			</timeout>
+		</Properties>
+	</TONG_LEAGUE_LOG>
+
+	<TONG_LEAGUE_LOGS> ARRAY <of> TONG_LEAGUE_LOG </of> </TONG_LEAGUE_LOGS>
+
+	<TONG_KICK_LOG> FIXED_DICT
+		<Properties>
+			<familyDBID>
+				<Type>			DATABASE_ID		</Type>
+			</familyDBID>
+			<timeout>
+				<Type>			INT64		</Type>
+			</timeout>
+		</Properties>
+	</TONG_KICK_LOG>
+	<TONG_KICK_LOGS> ARRAY <of> TONG_KICK_LOG </of> </TONG_KICK_LOGS>
+	<!-- 帮会城市记录 -->
+	<TONG_CITY_RECORD_ITEM> FIXED_DICT
+		<Properties>
+			<tongDBID>
+				<Type>  		DATABASE_ID	</Type>
+			</tongDBID>
+			<tongName>
+				<Type>  		STRING	</Type>
+			</tongName>
+			<chiefName>
+				<Type>			STRING		</Type>
+			</chiefName>
+			<date>
+				<Type>			INT64		</Type>
+			</date>
+		</Properties>
+	</TONG_CITY_RECORD_ITEM>
+	<TONG_CITY_RECORD> FIXED_DICT
+		<Properties>
+			<tongInfos>
+				<Type> ARRAY <of> TONG_CITY_RECORD_ITEM	</of>	</Type>
+			</tongInfos>
+			<spaceName>
+				<Type>			STRING		</Type>
+			</spaceName>
+		</Properties>
+	</TONG_CITY_RECORD>
+	<TONG_CITY_RECORDS> ARRAY <of> TONG_CITY_RECORD </of> </TONG_CITY_RECORDS>
+	<!-- 帮会城市记录 -->
+	<TONG_CITY_REVENUE> FIXED_DICT
+		<Properties>
+			<yesterdayRevenue>
+				<Type>		INT64		</Type>
+			</yesterdayRevenue>
+			<todayRevenue>
+				<Type>		INT64		</Type>
+			</todayRevenue>
+			<getWeek>
+				<Type>		UINT8		</Type>
+			</getWeek>
+			<spaceName>
+				<Type>			STRING		</Type>
+			</spaceName>
+			<revenueRate>
+				<Type>			UINT16		</Type>
+			</revenueRate>
+			<modifyRevenueDay>
+				<Type>			UINT8		</Type>
+			</modifyRevenueDay>
+		</Properties>
+	</TONG_CITY_REVENUE>
+	<TONG_CITY_REVENUES> ARRAY <of> TONG_CITY_REVENUE </of> </TONG_CITY_REVENUES>
+
+	<TONG_STORAGE_POPEDOM> FIXED_DICT	<!-- 帮会仓库包裹额外数据 -->
+		<Properties>
+			<bagID>	<!--包裹id-->
+				<Type>	UINT8	</Type>
+			</bagID>
+			<bagName>	<!--包裹名字-->
+				<Type>	STRING	</Type>
+			</bagName>
+			<qualityUpLimit>	<!--物品品质上限-->
+				<Type>	UINT8	</Type>
+			</qualityUpLimit>
+			<qualityLowerLimit>
+				<Type>	UINT8	</Type>
+			</qualityLowerLimit>	<!--物品品质下限-->
+			<fetchItemLimit>	<!--帮会职位对应的 可取出物品个数上限{ 职位1:个数,... }-->
+				<Type>	PYTHON	</Type>
+			</fetchItemLimit>
+		</Properties>
+	</TONG_STORAGE_POPEDOM>
+
+	<TONG_SPECIAL_ITEM_DATA> FIXED_DICT
+		<Properties>
+			<itemID>
+				<Type>			ITEM_ID		</Type>
+			</itemID>
+			<amount>
+				<Type>			INT32		</Type>		<!--生产数量为-1表示可无限量生产，因此将该类型由UINT16改为INT32-->
+			</amount>
+			<reqMoney>
+				<Type>			INT32		</Type>		<!--购买所需帮会金钱-->
+			</reqMoney>
+		</Properties>
+	</TONG_SPECIAL_ITEM_DATA>
+
+	<!-- 类似于mud里的mapping,但没有那么强大的功能, 用于保存临时或永久的数据 -->
+	<MAPPING>		USER_TYPE	<implementedBy> Mapping.instance	</implementedBy>	</MAPPING>
+
+	<!-- 技能实例类型，当某个使用此类型的属性想表示没有技能实例时，应该设该属性值为None -->
+	<SKILL>	FIXED_DICT
+		<implementedBy>	SkillTypeImpl.instance	</implementedBy>
+		<Properties>
+			<id>			<Type>	SKILLID	</Type>	</id>
+			<uid>			<Type>	UID	</Type> </uid>
+			<param>			<Type>	PYTHON	</Type>	</param>
+		</Properties>
+	</SKILL>
+	<SKILL_ARRAY> ARRAY <of> SKILL </of> </SKILL_ARRAY>
+
+	<FIGHT_MARK>	FIXED_DICT
+		<implementedBy>	EntityRelationImpl.instance	</implementedBy>
+		<Properties>
+			<entityID>		<Type>	OBJECT_ID	</Type>	</entityID>
+			<time>			<Type>	FLOAT	</Type>	</time>
+		</Properties>
+	</FIGHT_MARK>
+
+	<FIGHT_MARK1>	FIXED_DICT
+		<implementedBy>	EntityRelationImpl.instance1	</implementedBy>
+		<Properties>
+			<entityID>		<Type>	OBJECT_ID	</Type>	</entityID>
+			<value>			<Type>	INT32	</Type>	</value>
+		</Properties>
+	</FIGHT_MARK1>
+
+	<FIGHT_LIST>	FIXED_DICT
+		<implementedBy>	EntityRelationImpl.instance2	</implementedBy>
+		<Properties>
+			<items> <Type>ARRAY<of>FIGHT_MARK</of></Type> </items>
+		</Properties>
+	</FIGHT_LIST>
+
+	<FIGHT_RECORD>	FIXED_DICT
+		<implementedBy>	EntityRelationImpl.instance3	</implementedBy>
+		<Properties>
+			<items> <Type>ARRAY<of>FIGHT_MARK1</of></Type> </items>
+		</Properties>
+	</FIGHT_RECORD>
+
+	<AI>	FIXED_DICT
+		<implementedBy>	AIObjImpl.instance	</implementedBy>
+		<Properties>
+			<id>			<Type>	INT32	</Type>	</id>
+			<param>			<Type>	PYTHON	</Type>	</param>
+		</Properties>
+	</AI>
+
+	<AI_DATA>	FIXED_DICT
+		<implementedBy>	AIDataPacketImpl.instance3	</implementedBy>
+		<Properties>
+			<lv>		<Type>	UINT8	</Type>	</lv>
+			<ai> 		<Type>  AI	</Type> </ai>
+		</Properties>
+	</AI_DATA>
+
+	<AI_DATA_DICT>	FIXED_DICT
+		<implementedBy>	AIDataPacketImpl.instance	</implementedBy>
+		<Properties>
+			<aiData> <Type>ARRAY<of>AI_DATA</of></Type> </aiData>
+		</Properties>
+	</AI_DATA_DICT>
+
+	<AI_EVENT_DATA_DICT>	FIXED_DICT
+		<implementedBy>	AIDataPacketImpl.instance1	</implementedBy>
+		<Properties>
+			<event>  <Type>INT32</Type> 	   </event>
+			<aiDatas> <Type>AI_DATA_DICT</Type> </aiDatas>
+		</Properties>
+	</AI_EVENT_DATA_DICT>
+
+	<AI_EVENT_PACKET_DICT>	FIXED_DICT
+		<implementedBy>	AIDataPacketImpl.instance2	</implementedBy>
+		<Properties>
+			<items> <Type>ARRAY<of>AI_EVENT_DATA_DICT</of></Type> </items>
+		</Properties>
+	</AI_EVENT_PACKET_DICT>
+
+	<BUFF>	FIXED_DICT
+		<Properties>
+			<skill>			<Type>	SKILL	</Type>	</skill>
+			<persistent>	<Type>	INT32	</Type>	</persistent>
+			<currTick>		<Type>	INT8	</Type>	</currTick>
+			<state>			<Type> INT32	</Type> </state>
+			<caster>
+					<Type>			OBJECT_ID		</Type>
+					<Persistent>	false			</Persistent>
+			</caster>
+			<index>
+					<Type>			UINT16		</Type>
+					<Persistent>	false			</Persistent>
+			</index>
+			<sourceType>
+				<Type>			INT8		</Type>
+			</sourceType>
+			<isNotIcon>			<Type>	BOOL	</Type>	</isNotIcon>
+		</Properties>
+	</BUFF>
+
+	<!-- 效果记录 -->
+	<EFFECT_LOG>	FIXED_DICT
+		<Properties>
+			<chenmo_phy>	<Type>	UINT8	</Type>	</chenmo_phy> 	<!-- 物理沉没效果记录 -->
+			<chenmo_magic>	<Type>	UINT8	</Type>	</chenmo_magic>	<!-- 法术沉没效果记录 -->
+			<dingshen>		<Type>	UINT8	</Type>	</dingshen>		<!-- 定身效果记录 -->
+			<hunshui>		<Type>	UINT8	</Type>	</hunshui>		<!-- 昏睡效果记录 -->
+			<xuanyun>		<Type>	UINT8	</Type>	</xuanyun>		<!-- 眩晕效果记录 -->
+			<wudi>			<Type>	UINT8	</Type>	</wudi>			<!-- 无敌效果记录 -->
+		</Properties>
+	</EFFECT_LOG>
+
+	<!-- 技能entity对象类型 -->
+	<SKILLTARGETOBJ>	FIXED_DICT
+		<implementedBy>	SkillTargetObjImpl.instance	</implementedBy>
+		<Properties>
+			<objType> 		<Type>		INT8		</Type> </objType>
+			<param>			<Type>		PYTHON		</Type>	</param>
+		</Properties>
+	</SKILLTARGETOBJ>
+
+	<!-- 接收延迟类型 -->
+	<RECEIVEDELAY>	FIXED_DICT
+		<Properties>
+			<skill>			<Type>	SKILL			</Type>	</skill>
+			<target>		<Type>	SKILLTARGETOBJ	</Type>	</target>
+			<delayID>		<Type>	INT32			</Type>	</delayID>
+		</Properties>
+	</RECEIVEDELAY>
+
+	<!-- 好友 Begin -->
+	<FRIEND_DICT> FIXED_DICT
+		<Properties>
+			<dbID>
+					<Type>		DATABASE_ID	</Type>
+			</dbID>
+			<group>
+					<Type>		INT8		</Type>
+			</group>
+		</Properties>
+	</FRIEND_DICT>
+
+	<FRIEND_LIST> ARRAY <of> FRIEND_DICT </of> </FRIEND_LIST>
+
+	<FRIEND_GROUP> FIXED_DICT
+		<Properties>
+			<id>
+					<Type>		INT8	</Type>
+			</id>
+			<name>
+					<Type>		STRING		</Type>
+			</name>
+		</Properties>
+	</FRIEND_GROUP>
+
+	<FRIEND_GROUPS> ARRAY <of> FRIEND_GROUP </of> </FRIEND_GROUPS>
+
+	<!-- 好友 End -->
+
+	<!-- 空间 Begin -->
+	<!-- 副本记录 -->
+	<!-- 副本历史记录 -->
+	<HISTORYINFO>	FIXED_DICT
+		<Properties>
+			<tag>
+					<Type>			DATABASE_ID	</Type>
+			</tag>
+			<createTime>
+					<Type>			INT64		</Type>
+			</createTime>
+			<type>
+					<Type>		STRING		</Type>
+			</type>
+			<logTime>
+					<Type>			INT64		</Type>
+			</logTime>
+		</Properties>
+	</HISTORYINFO>
+
+	<HISTORYINFOS> ARRAY <of> HISTORYINFO </of> </HISTORYINFOS>
+
+	<!-- 邮件系统 Begin -->
+	<POST_MAIL>	FIXED_DICT
+		<Properties>
+			<src>
+					<Type>		STRING		</Type>
+			</src>
+			<des>
+					<Type>		STRING		</Type>
+			</des>
+			<existTime>
+					<Type>		INT32		</Type>
+			</existTime>
+			<createTime>
+					<Type>		INT32		</Type>
+			</createTime>
+			<isNotify>
+					<Type>		INT8		</Type>
+			</isNotify>
+			<item>
+					<Type>		INT32		</Type>
+			</item>
+			<money>
+					<Type>		INT32		</Type>
+			</money>
+			<msg>
+					<Type>		STRING		</Type>
+			</msg>
+		</Properties>
+	</POST_MAIL>
+	<POST_MAILS> ARRAY <of> POST_MAIL </of> </POST_MAILS>
+	<!-- 邮件系统 End -->
+	<!-- For WorldEditor -->
+	<ENUM>	STRING	</ENUM>
+
+	<!--武器效果-->
+	<WEAPON_EFFECT>	FIXED_DICT
+		<Properties>
+			<modelNum>		<!--模型编号-->
+				<Type>		INT32	</Type>
+				<Default>	0		</Default>
+			</modelNum>
+			<iLevel>		<!--强化等级-->
+				<Type>		UINT8	</Type>
+				<Default>	0		</Default>
+			</iLevel>
+			<stAmount>		<!--镶嵌数量-->
+				<Type>		UINT8	</Type>
+				<Default>	0		</Default>
+			</stAmount>
+		</Properties>
+	</WEAPON_EFFECT>
+
+	<!--防具效果-->
+	<ARMOR_EFFECT>	FIXED_DICT
+		<Properties>
+			<modelNum>		<!--模型编号-->
+				<Type>		INT32	</Type>
+				<Default>	0		</Default>
+			</modelNum>
+			<iLevel>		<!--强化等级-->
+				<Type>		UINT8	</Type>
+				<Default>	0		</Default>
+			</iLevel>
+		</Properties>
+	</ARMOR_EFFECT>
+
+	<!-- 登录角色 -->
+	<LOGIN_ROLE>	FIXED_DICT
+		<Properties>
+			<roleID>			<Type>	INT64			</Type>	</roleID>
+			<roleName>			<Type>	STRING			</Type>	</roleName>
+			<level>				<Type>	UINT8			</Type>	</level>
+			<raceclass>			<Type>	UINT32			</Type>	</raceclass>
+			<lifetime>			<Type>	INT32			</Type>	</lifetime>
+			<hairNumber>		<Type>	INT32			</Type>	</hairNumber>
+			<faceNumber>		<Type>	INT32			</Type>	</faceNumber>
+			<bodyFDict>			<Type>	ARMOR_EFFECT	</Type>	</bodyFDict>
+			<volaFDict>			<Type>	ARMOR_EFFECT	</Type>	</volaFDict>
+			<breechFDict>		<Type>	ARMOR_EFFECT	</Type>	</breechFDict>
+			<feetFDict>			<Type>	ARMOR_EFFECT	</Type>	</feetFDict>
+			<lefthandFDict>		<Type>	WEAPON_EFFECT	</Type>	</lefthandFDict>
+			<righthandFDict>	<Type>	WEAPON_EFFECT	</Type>	</righthandFDict>
+			<talismanNum>		<Type>	INT32			</Type>	</talismanNum>
+			<fashionNum>		<Type>	INT32			</Type>	</fashionNum>
+			<adornNum>			<Type>	INT32			</Type>	</adornNum>
+			<headTextureID>		<Type>	INT32			</Type>	</headTextureID>	<!--角色头像ID by jy-->
+		</Properties>
+	</LOGIN_ROLE>
+
+	<!-- 虚拟宠物 -->
+	<PET_EPITOME>			FIXED_DICT
+		<implementedBy>	PetEpitome.instance	</implementedBy>
+		<Properties>
+			<!-- 常规属性 -->
+			<databaseID>
+				<Type>		DATABASE_ID	</Type>
+			</databaseID>
+			<mapMonster>
+				<Type>	STRING			</Type>
+			</mapMonster>
+			<uname>
+				<Type>		STRING		</Type>
+				<DatabaseLength> 255 	</DatabaseLength>
+			</uname>
+			<name>
+				<Type>		STRING		</Type>
+				<DatabaseLength> 255 	</DatabaseLength>
+			</name>
+			<modelNumber>
+				<Type>		STRING		</Type>
+				<DatabaseLength> 255 	</DatabaseLength>
+			</modelNumber>
+			<gender>
+				<Type>		UINT8		</Type>		<!-- 性别 -->
+			</gender>
+			<species>								<!-- 规格 -->
+				<Type>		UINT8		</Type>
+			</species>
+
+			<level>									<!-- 等级 -->
+				<Type>		UINT8		</Type>
+			</level>
+			<EXP>									<!-- 经验值 -->
+				<Type>		INT32		</Type>
+			</EXP>
+
+			<corporeity>							<!-- 体质 -->
+				<Type>		FLOAT		</Type>
+			</corporeity>
+			<strength>								<!-- 力量 -->
+				<Type>		FLOAT		</Type>
+			</strength>
+			<intellect>								<!-- 智力 -->
+				<Type>		FLOAT		</Type>
+			</intellect>
+			<dexterity>								<!-- 敏捷 -->
+				<Type>		FLOAT		</Type>
+			</dexterity>
+
+			<ec_corporeity>								<!-- 体质强化次数 -->
+				<Type>		UINT8		</Type>
+			</ec_corporeity>
+			<ec_strength>								<!-- 力量强化次数 -->
+				<Type>		UINT8		</Type>
+			</ec_strength>
+			<ec_intellect>								<!-- 智力强化次数 -->
+				<Type>		UINT8		</Type>
+			</ec_intellect>
+			<ec_dexterity>								<!-- 敏捷强化次数 -->
+				<Type>		UINT8		</Type>
+			</ec_dexterity>
+			<ec_free>									<!-- 自由强化次数 -->
+				<Type>		UINT8		</Type>
+			</ec_free>
+			<stamp>							<!-- 印记 -->
+				<Type>		UINT8		</Type>
+			</stamp>
+			<isBinded>							<!-- 印记 -->
+				<Type>		BOOL		</Type>
+			</isBinded>
+
+			<!-- 生命属性 -->
+			<ability>							<!-- 成长度 -->
+				<Type>		UINT8		</Type>
+			</ability>
+			<nimbus>								<!-- 灵值 -->
+				<Type>		INT8		</Type>
+			</nimbus>
+			<calcaneus>								<!-- 根骨 -->
+				<Type>		INT32		</Type>
+			</calcaneus>
+			<character>								<!-- 性格 -->
+				<Type>		UINT8		</Type>
+			</character>
+			<procreated>							<!-- 繁殖状况 -->
+				<Type>		UINT8		</Type>
+			</procreated>
+			<life>									<!-- 寿命 -->
+				<Type>		UINT16		</Type>
+			</life>
+			<joyancy>								<!-- 快乐度 -->
+				<Type>		INT8		</Type>
+			</joyancy>
+
+			<attrSkillBox>							<!-- 技能列表 -->
+				<Type>			ARRAY <of> SKILLID </of>	</Type>
+			</attrSkillBox>
+
+			<mapPetID>
+				<Type>		OBJECT_ID	</Type>		<!-- 是否处于出征状态 -->
+			</mapPetID>
+			<takeLevel>
+				<Type>		UINT8		</Type>		<!-- 携带等级 -->
+			</takeLevel>
+
+			<isInVend>
+				<Type>		BOOL		</Type>		<!-- 是否处于摆摊状态 -->
+			</isInVend>
+
+			<vendSellPrice>
+				<Type>		UINT32		</Type>		<!-- 出售价格 -->
+			</vendSellPrice>
+		</Properties>
+	</PET_EPITOME>
+
+	<CELL_PET_EPITOME>		FIXED_DICT
+		<implementedBy>	CellPetDict.cellPetInstance	</implementedBy>
+		<Properties>
+			<databaseID>
+				<Type>	DATABASE_ID		</Type>
+			</databaseID>
+			<className>
+				<Type>	STRING			</Type>
+			</className>
+			<mapMonster>
+				<Type>	STRING			</Type>
+			</mapMonster>
+			<species>
+				<Type>	UINT8			</Type>
+			</species>
+			<level>
+				<Type>	UINT8			</Type>
+			</level>
+			<takeLevel>
+				<Type>	UINT8			</Type>
+			</takeLevel>
+			<ability>
+				<Type>	UINT8			</Type>
+			</ability>
+			<stamp>
+				<Type>	UINT8			</Type>
+			</stamp>
+			<gender>
+				<Type>	UINT8			</Type>
+			</gender>
+			<gender>
+				<Type>	UINT8			</Type>
+			</gender>
+			<life>
+				<Type>	UINT16			</Type>
+			</life>
+			<procreated>
+				<Type>	BOOL			</Type>
+			</procreated>
+			<joyancy>
+				<Type>	UINT8			</Type>
+			</joyancy>
+			<isBinded>
+				<Type>	BOOL			</Type>
+			</isBinded>
+		</Properties>
+	</CELL_PET_EPITOME>
+	<CELL_PET_DICT>		FIXED_DICT
+		<implementedBy>	CellPetDict.instance	</implementedBy>
+		<Properties>
+			<maxCount>
+				<Type>	UINT8		</Type>
+			</maxCount>
+			<pets>
+				<Type>	ARRAY <of>	CELL_PET_EPITOME </of>	</Type>
+			</pets>
+		</Properties>
+	</CELL_PET_DICT>
+
+	<!-- 仓库宠物 -->
+	<SOTRED_PET>		FIXED_DICT
+		<Properties>
+			<databaseID>
+				<Type>		DATABASE_ID	</Type>
+			</databaseID>
+			<name>
+				<Type>		STRING		</Type>
+			</name>
+			<level>
+				<Type>		UINT8		</Type>
+			</level>
+			<species>
+				<Type>		UINT8		</Type>
+			</species>
+			<modelNumber>
+				<Type>		STRING		</Type>
+			</modelNumber>
+		</Properties>
+	</SOTRED_PET>
+
+	<!-- 一般宠物宝石 -->
+	<PET_COMMON_GEM>	FIXED_DICT
+		<implementedBy>	PetGem.commonGemInstance	</implementedBy>
+		<Properties>
+			<index>
+				<Type>		INT8		</Type>
+			</index>
+			<limitTime>
+				<Type>		INT64		</Type>
+			</limitTime>
+			<timerID>
+				<Type>	CONTROLLER_ID	</Type>
+			</timerID>
+		</Properties>
+	</PET_COMMON_GEM>
+	<!-- 宠物代练宝石 -->
+	<PET_TRAIN_GEM>		FIXED_DICT
+		<implementedBy>	PetGem.trainGemInstance	</implementedBy>
+		<Properties>
+			<trainType>
+				<Type>		UINT8		</Type>
+			</trainType>
+			<startTime>
+				<Type>		INT64		</Type>
+			</startTime>
+			<updateTime>	<!--本次代练期间的上次更新时间-->
+				<Type>		INT64		</Type>
+			</updateTime>
+			<remainTime>	<!--代练宝石可用剩余时间-->
+				<Type>		INT64		</Type>
+			</remainTime>
+			<exp>
+				<Type>		INT32		</Type>
+			</exp>
+		</Properties>
+	</PET_TRAIN_GEM>
+
+	<!-- 角色领取的经验宝石 -->
+	<ROLE_COMMON_GEM>	FIXED_DICT
+		<implementedBy>	ExpGem.commonGemInstance	</implementedBy>
+		<Properties>
+			<index>
+				<Type>		INT8		</Type>
+			</index>
+			<limitTime>
+				<Type>		INT64		</Type>	<!--领取宝石的到期时间-->
+			</limitTime>
+			<timerID>
+				<Type>	CONTROLLER_ID	</Type>	<!--领取宝石的到期时间-->
+			</timerID>
+		</Properties>
+	</ROLE_COMMON_GEM>
+	<!-- 角色代练经验宝石 -->
+	<ROLE_TRAIN_GEM>		FIXED_DICT
+		<implementedBy>	ExpGem.trainGemInstance	</implementedBy>
+		<Properties>
+			<trainType>	<!--代练类型-->
+				<Type>		UINT8		</Type>
+			</trainType>
+			<startTime>	<!--本次代练开始时间，仅用于客户端表现-->
+				<Type>		INT64		</Type>
+			</startTime>
+			<updateTime>	<!--本次代练期间的上次更新时间-->
+				<Type>		INT64		</Type>
+			</updateTime>
+			<remainTime>	<!--代练宝石可用剩余时间-->
+				<Type>		INT64		</Type>
+			</remainTime>
+			<exp>	<!--代练宝石存储的经验-->
+				<Type>		INT32		</Type>
+			</exp>
+		</Properties>
+	</ROLE_TRAIN_GEM>
+
+	<!--pk system-->
+	<!--pk 有效杀人时间类型-->
+	<PK_KILL_TIME> FIXED_DICT
+		<Properties>
+			<dbID>
+				<Type>			DATABASE_ID		</Type>
+			</dbID>
+			<time>
+				<Type>			INT32		</Type>
+			</time>
+		</Properties>
+	</PK_KILL_TIME>
+
+	<!-- 匹配玩家的dbid和mailbox(basemailbox/cellmailbox) -->
+	<DBID2MAILBOX>	FIXED_DICT
+		<Properties>
+			<dbID>
+				<Type>			DATABASE_ID		</Type>
+			</dbID>
+			<mailbox>
+				<Type>			MAILBOX		</Type>
+			</mailbox>
+		</Properties>
+	</DBID2MAILBOX>
+
+	<LOOP_QUEST>	FIXED_DICT
+		<implementedBy>	LoopQuestTypeImpl.instance	</implementedBy>
+		<Properties>
+			<questID>
+				<Type>QUESTID</Type>
+			</questID>
+			<startTime>	<!-- 任务开始时间，用于判断是否在同一天（真实时间的一天） -->
+				<Type>INT32</Type>
+			</startTime>
+			<degree>	<!-- 已完成次数 -->
+				<Type>INT8</Type>
+			</degree>
+		</Properties>
+	</LOOP_QUEST>
+
+	<!--摆摊自定义数据类型-->
+	<VEND_ITEM_INFO>	FIXED_DICT
+		<Properties>
+			<kitUid>	<Type>	UINT8		</Type>	</kitUid>
+			<uid>	<Type>		UID		</Type>	</uid>
+			<price>		<Type>	UINT32		</Type> </price>
+		</Properties>
+	</VEND_ITEM_INFO>
+	<VEND_PET_INFO>		FIXED_DICT
+		<Properties>
+			<databaseID>	<Type>	DATABASE_ID		</Type>	</databaseID>
+			<price>			<Type>	UINT32			</Type> </price>
+		</Properties>
+	</VEND_PET_INFO>
+
+	<!--声望-->
+	<PRESTIGE_ITEM>	FIXED_DICT
+		<Properties>
+			<id> <Type>INT8</Type> </id>		<!--声望对应的id-->
+			<value> <Type>INT32</Type></value>	<!--声望值-->
+		</Properties>
+	</PRESTIGE_ITEM>
+
+	<PRESTIGE>	FIXED_DICT
+		<implementedBy>	Prestige.instance	</implementedBy>
+		<Properties>
+			<items> <Type>ARRAY<of>PRESTIGE_ITEM</of></Type> </items>
+		</Properties>
+	</PRESTIGE>
+
+	<!--称号时限数据类型-->
+	<TITLE_LIMIT_TIME> FIXED_DICT
+		<Properties>
+			<titleID>	<!--称号id-->
+				<Type>			UINT16		</Type>
+			</titleID>
+			<time>	<!--称号到期时间-->
+				<Type>			INT64		</Type>
+			</time>
+			<timerID>	<!--称号timerID-->
+				<Type>		CONTROLLER_ID	</Type>
+			</timerID>
+		</Properties>
+	</TITLE_LIMIT_TIME>
+
+	<!-- 聊天角色信息 -->
+	<CHAT_ROLE_INFO>	FIXED_DICT
+		<Properties>
+			<name>		<!-- 角色名称 -->
+				<Type>	STRING	</Type>
+			</name>
+			<level>		<!-- 角色等级 -->
+				<Type>	UINT8	</Type>
+			</level>
+			<tong>		<!-- 角色所在帮会 -->
+				<Type>	STRING	</Type>
+			</tong>
+			<spaceLabel>	<!-- 角色所在地区 -->
+				<Type>	STRING	</Type>
+			</spaceLabel>
+		</Properties>
+	</CHAT_ROLE_INFO>
+
+	<!-- 家族擂台赛副本玩家数据定义 -->
+	<ABATTOIR_PLAYER_ITEM>	FIXED_DICT
+		<Properties>
+			<playerDBID>	<!--玩家的dbid-->
+				<Type>	DATABASE_ID	</Type>
+			</playerDBID>
+			<playerName>	<!--玩家名字-->
+				<Type>	STRING	</Type>
+			</playerName>
+			<buyPoints>	<!--购买积分-->
+				<Type>	INT16	</Type>
+			</buyPoints>
+			<killNum>	<!--杀人数-->
+				<Type>	INT16 </Type>
+			</killNum>
+			<beKilledNum>	<!--被杀数-->
+				<Type>	INT16	</Type>
+			</beKilledNum>
+			<tongDBID>	<!--家族dbid-->
+				<Type>	DATABASE_ID	</Type>
+			</tongDBID>
+			<tongName>
+				<Type>	STRING	</Type>
+			</tongName>
+			<baseMB>	<!--玩家base mailbox-->
+				<Type>	MAILBOX	</Type>
+			</baseMB>
+		</Properties>
+	</ABATTOIR_PLAYER_ITEM>
+	<ABATTOIR_PLAYERS>	FIXED_DICT
+		<implementedBy>	AbaPlayerDataType.instance	</implementedBy>
+		<Properties>
+			<items> <Type>ARRAY<of>ABATTOIR_PLAYER_ITEM</of></Type> </items>
+		</Properties>
+	</ABATTOIR_PLAYERS>
+
+	<TEAM_REGULATION>	FIXED_DICT
+		<implementedBy>	TeamRegulation.instance	</implementedBy>
+		<Properties>
+			<regulationType>	<Type> INT16 </Type> 			</regulationType>
+			<val1> 				<Type> INT16   </Type> 			</val1>
+			<val2> 				<Type>	INT16 </Type>			</val2>
+		</Properties>
+	</TEAM_REGULATION>
+
+	<TAKE_EXP_RECORD>  FIXED_DICT
+		<Properties>
+			<week>
+				<Type> UINT8 </Type>
+			</week>
+			<lastTime>
+				<Type> INT64 </Type>
+			</lastTime>
+			<remainTime>
+				<Type> UINT16 </Type>
+			</remainTime>
+			<freezeBuff>
+				<Type> BUFF </Type>
+			</freezeBuff>
+			<freezeTime>
+				<Type> INT64 </Type>
+			</freezeTime>
+		</Properties>
+	</TAKE_EXP_RECORD>
+
+	<DANCE_RECORD>  FIXED_DICT
+		<Properties>
+			<danceDailyRecord>
+				<Type> DAILYRECORD </Type>
+			</danceDailyRecord>
+			<freezeDanceDailyRecord>
+				<Type> DAILYRECORD </Type>
+			</freezeDanceDailyRecord>
+			<freezeBuff>
+				<Type> BUFF </Type>
+			</freezeBuff>
+		</Properties>
+	</DANCE_RECORD>
+
+	<WEEKRECORD> FIXED_DICT
+		<implementedBy>	WeekRecord.instance	</implementedBy>
+		<Properties>
+			<lastTime>		<Type>	INT64	</Type>		</lastTime>
+			<degree>		<Type>	INT8	</Type>		</degree>
+		</Properties>
+	</WEEKRECORD>
+	<!-- 当前属性加成骑宠 -->
+	<VEHICLEDATA_ATTR>	FIXED_DICT
+		<Properties>
+			<id>			<Type>	UINT8		</Type>	</id>	<!-- 骑宠顺序索引 -->
+			<srcItemID>		<Type>	ITEM_ID		</Type> </srcItemID>	<!-- 骑宠对应物品ID -->
+			<level>			<Type>	UINT8		</Type> </level>	<!-- 等级 -->
+			<exp>			<Type>	INT32		</Type> </exp>
+			<deadTime>		<Type>	UINT32		</Type> </deadTime><!-- 死亡时间 -->
+			<fullDegree>            <Type>	UINT64	        </Type> </fullDegree><!-- 饱腹度/体力 -->
+			<type>                  <Type>	UINT8	        </Type> </type><!-- 骑宠类型 -->
+			<strength>              <Type>	UINT32	        </Type> </strength><!-- 骑宠力量 -->
+			<intellect>             <Type>	UINT32	        </Type> </intellect><!-- 骑宠智力 -->
+			<dexterity>             <Type>	UINT32	        </Type> </dexterity><!-- 骑宠敏捷 -->
+			<corporeity>            <Type>	UINT32	        </Type> </corporeity><!-- 骑宠体力 -->
+		</Properties>
+	</VEHICLEDATA_ATTR>
+	<!-- 当前速度加成骑宠 -->
+	<VEHICLEDATA_SPEED>	FIXED_DICT
+		<Properties>
+			<id>			<Type>	UINT8		</Type>	</id>	<!-- 骑宠顺序索引 -->
+			<srcItemID>		<Type>	ITEM_ID		</Type> </srcItemID>	<!-- 骑宠对应物品ID -->
+			<deadTime>		<Type>	UINT32		</Type> </deadTime><!-- 死亡时间 -->
+			<fullDegree>            <Type>	UINT64	        </Type> </fullDegree><!-- 饱腹度/体力 -->
+			<type>                  <Type>	UINT8	        </Type> </type><!-- 骑宠类型 -->
+			<skPoint>		<Type>	INT32		</Type> </skPoint> <!-- 技能点 -->
+			<attrSkillBox>
+							<Type>	ARRAY <of> SKILLID </of></Type>			<!-- 技能列表-->
+			</attrSkillBox>
+			<attrBuffs>
+							<Type>	ARRAY	<of>	BUFF	</of></Type>	<!-- 骑宠buff列表 -->
+			</attrBuffs>
+		</Properties>
+	</VEHICLEDATA_SPEED>
+
+	<!-- 新单人骑宠 -->
+	<VEHICLEDATA>	FIXED_DICT
+		<Properties>
+			<id>			<Type>	UINT8		</Type>	</id>	<!-- 骑宠顺序索引 -->
+			<srcItemID>		<Type>	ITEM_ID		</Type> </srcItemID>	<!-- 骑宠对应物品ID -->
+			<level>			<Type>	UINT8		</Type> </level>	<!-- 等级 -->
+			<exp>			<Type>	INT32		</Type> </exp>		<!-- 经验 -->
+			<deadTime>		<Type>	UINT32		</Type> </deadTime><!-- 死亡时间 -->
+			<step>                  <Type>	UINT8	        </Type> </step><!-- 阶次 -->
+			<fullDegree>            <Type>	UINT64	        </Type> </fullDegree><!-- 饱腹度/体力 -->
+			<growth>                <Type>	UINT8	        </Type> </growth><!-- 成长值 -->
+			<nextStepItemID>        <Type>	ITEM_ID	        </Type> </nextStepItemID><!-- 骑宠可否升阶 -->
+			<type>                  <Type>	UINT8	        </Type> </type><!-- 骑宠类型 -->
+			<strength>              <Type>	UINT32	        </Type> </strength><!-- 骑宠力量 -->
+			<intellect>             <Type>	UINT32	        </Type> </intellect><!-- 骑宠智力 -->
+			<dexterity>             <Type>	UINT32	        </Type> </dexterity><!-- 骑宠敏捷 -->
+			<corporeity>            <Type>	UINT32	        </Type> </corporeity><!-- 骑宠体力 -->
+			<skPoint>		<Type>	INT32		</Type> </skPoint> <!-- 技能点 -->
+			<attrSkillBox>
+							<Type>	ARRAY <of> SKILLID </of></Type>			<!-- 技能列表-->
+			</attrSkillBox>
+			<attrBuffs>
+							<Type>	ARRAY	<of>	BUFF	</of></Type>	<!-- 骑宠buff列表 -->
+			</attrBuffs>
+		</Properties>
+	</VEHICLEDATA>
+
+	<VEHICLEDATAS>	FIXED_DICT
+		<implementedBy>	VehicleDatasTypeImpl.instance	</implementedBy>
+		<Properties>
+			<datas> <Type>ARRAY<of>VEHICLEDATA</of></Type> </datas>
+		</Properties>
+	</VEHICLEDATAS>
+
+	<POINTCARDINFO>	FIXED_DICT												<!-- 点卡信息-->
+		<implementedBy>	PointCardInfo.instance	</implementedBy>
+		<Properties>
+			<isSelling> 	<Type>	BOOL		</Type> </isSelling>
+			<buyerName> 	<Type>	STRING		</Type> </buyerName>
+			<buyerAccount> 	<Type>	STRING		</Type> </buyerAccount>
+			<price> 		<Type>	UINT32		</Type> </price>
+			<cardNo> 		<Type>	STRING		</Type> </cardNo>
+			<passWord> 		<Type>	STRING		</Type> </passWord>
+			<orderID> 		<Type>	STRING		</Type> </orderID>
+			<serverName> 	<Type>	STRING		</Type> </serverName>
+			<salesName> 	<Type>	STRING		</Type> </salesName>
+			<salesIP> 		<Type>	UINT32		</Type> </salesIP>
+			<result>		<Type>	INT8		</Type>	</result>
+			<overTimeResult>	<Type>	INT8	</Type>	</overTimeResult>
+			<parValue>		 <Type>	STRING		</Type>	</parValue>
+			<sellTime>		<Type>	UINT32		</Type> </sellTime>
+			<salesAccount>	<Type>	STRING		</Type>	</salesAccount>
+		</Properties>
+	</POINTCARDINFO>
+
+	<!-- 关系数据 -->
+	<RELATION_ITEM> FIXED_DICT
+		<Properties>
+			<playerDBID>	<Type>	DATABASE_ID	</Type>	</playerDBID>
+			<playerBase>	<Type>	MAILBOX	</Type>	</playerBase>
+		</Properties>
+	</RELATION_ITEM>
+
+	<!-- 收购物品实例 -->
+	<COLLECTION_ITEM>	FIXED_DICT
+		<implementedBy>	CollectionItem.instance	</implementedBy>
+		<Properties>
+			<itemID> 			<Type>	INT32		</Type> </itemID>
+			<price> 			<Type>	INT32		</Type> </price>
+			<collectAmount> 	<Type>	INT32		</Type> </collectAmount>
+			<collectedAmount>	<Type>	INT32		</Type> </collectedAmount>
+			<collectorDBID> 	<Type>	DATABASE_ID	</Type> </collectorDBID>
+			<uid>				<Type>	UID			</Type> </uid>
+		</Properties>
+	</COLLECTION_ITEM>
+
+	<OWN_COLLECTION_ITEM>	FIXED_DICT
+		<implementedBy>	OwnCollectionItem.instance	</implementedBy>
+		<Properties>
+			<itemID> 			<Type>	INT32		</Type> </itemID>
+			<price> 			<Type>	INT32		</Type> </price>
+			<collectAmount> 	<Type>	INT32		</Type> </collectAmount>
+			<uid>				<Type>	UID			</Type> </uid>
+		</Properties>
+	</OWN_COLLECTION_ITEM>
+
+	<LIVINGSKILL>	FIXED_DICT	<!--生活技能-->
+		<Properties>
+			<skillID>			<!--技能编号-->
+				<Type>	INT32	</Type>
+			</skillID>
+			<sleight>			<!--技能熟练度-->
+				<Type>	INT32	</Type>
+			</sleight>
+			<sleightLevel>			<!--当前熟练度上限-->
+				<Type>	INT16	</Type>
+			</sleightLevel>
+		</Properties>
+	</LIVINGSKILL>
+
+	<LIVINGSKILLS> FIXED_DICT
+		<implementedBy>	LivingSkillImpl.instance	</implementedBy>
+		<Properties>
+			<values>	<Type> ARRAY <of>LIVINGSKILL</of> </Type> </values>
+		</Properties>
+	</LIVINGSKILLS>
+
+	<WALLOW_ACCOUNT_INFO>	FIXED_DICT		<!-- 防沉迷系统中的账号在线信息 -->
+		<Properties>
+			<accName>			<!-- 账号名称 -->
+				<Type>	STRING	</Type>
+			</accName>
+			<olState>			<!--技能熟练度-->
+				<Type>	UINT8	</Type>
+			</olState>
+			<olTime>			<!--当前熟练度上限-->
+				<Type>	INT64	</Type>
+			</olTime>
+		</Properties>
+	</WALLOW_ACCOUNT_INFO>
+
+	<LOVE_MSG> FIXED_DICT
+		<implementedBy>	LoveMsg.instance	</implementedBy>
+		<Properties>
+			<index> 			<Type>	UINT32		</Type> </index>
+			<roleDBID> 			<Type>	DATABASE_ID	</Type> </roleDBID>
+			<receiveTime>		<Type>	UINT32		</Type> </receiveTime>
+			<senderName> 		<Type>	STRING		</Type> </senderName>
+			<receiverName> 		<Type>	STRING		</Type> </receiverName>
+			<msg> 				<Type>	STRING		</Type> </msg>
+			<isAnonymity>		<Type>	UINT8		</Type> </isAnonymity>
+			<vote_1> 			<Type>	UINT32		</Type> </vote_1>
+			<vote_2> 			<Type>	UINT32		</Type> </vote_2>
+			<vote_3> 			<Type>	UINT32		</Type> </vote_3>
+			<vote_4>			<Type>	UINT32		</Type> </vote_4>
+			<vote_5> 			<Type>	UINT32		</Type> </vote_5>
+			<vote_6> 			<Type>	UINT32		</Type> </vote_6>
+			<lastVoteTime>		<Type>	UINT32		</Type> </lastVoteTime>
+			<senderRaceclass>	<Type>	UINT32		</Type> </senderRaceclass>
+			<receiverRaceclass>	<Type>	UINT32		</Type> </receiverRaceclass>
+		</Properties>
+	</LOVE_MSG>
+
+	<QUESTION> FIXED_DICT
+		<implementedBy>	Question.instance	</implementedBy>
+		<Properties>
+			<index> 			<Type>	STRING		</Type> </index>
+			<buffID> 			<Type>	UINT32		</Type> </buffID>
+			<questDes>			<Type>	STRING		</Type> </questDes>
+			<answers> 			<Type>	PY_DICT		</Type> </answers>
+		</Properties>
+	</QUESTION>
+
+	<MAGIC_CHANGE_PROP_DATA>FIXED_DICT
+		<Properties>
+			<pKey>	<Type>	STRING	</Type>	</pKey>
+			<pVal>	<Type>	INT32	</Type>	</pVal>
+		</Properties>
+	</MAGIC_CHANGE_PROP_DATA>
+
+	<MAGIC_CHANGE_DATA>FIXED_DICT
+		<implementedBy>	MagicChangeData.instance	</implementedBy>
+		<Properties>
+			<avatarType>
+				<Type>	STRING	</Type>
+			</avatarType>
+			<avatarPro>
+				<Type> ARRAY <of> MAGIC_CHANGE_PROP_DATA </of>	</Type>
+			</avatarPro>
+		</Properties>
+	</MAGIC_CHANGE_DATA>
+
+	<TEAM_CHALLENGE_INFO>FIXED_DICT
+		<Properties>
+			<teamID>
+				<Type> OBJECT_ID </Type>
+			</teamID>
+			<playerIDs>
+				<Type> ARRAY <of> DATABASE_ID </of> </Type>
+			</playerIDs>
+		</Properties>
+	</TEAM_CHALLENGE_INFO>
+
+	<TEAM_CHALLENGE_INFOS>FIXED_DICT
+		<implementedBy>	TeamChallengeInfos.instance	</implementedBy>
+		<Properties>
+			<infos>
+				<Type> ARRAY <of> TEAM_CHALLENGE_INFO </of> </Type>
+			</infos>
+			<dbidToMailBox>
+				<Type> ARRAY <of> RELATION_ITEM </of> </Type>
+			</dbidToMailBox>
+		</Properties>
+	</TEAM_CHALLENGE_INFOS>
+
+	<TONG_CITY_WAR_MEM_INFO> FIXED_DICT
+		<implementedBy>	TongCityWarInfos.cityWarMemberInstance	</implementedBy>
+		<Properties>
+			<dbid>
+				<Type>	DATABASE_ID </Type>
+			</dbid>
+			<rname>
+				<Type>	STRING </Type>
+			</rname>
+			<mailBox>
+				<Type>	MAILBOX </Type>
+			</mailBox>
+			<kill>
+				<Type>	UINT16 </Type>
+			</kill>
+			<bekill>
+				<Type>	UINT16 </Type>
+			</bekill>
+			<isIn>
+				<Type> 	BOOL   </Type>
+			</isIn>
+		</Properties>
+	</TONG_CITY_WAR_MEM_INFO>
+
+	<TONG_CITY_WAR_INFO> FIXED_DICT
+		<implementedBy>	TongCityWarInfos.cityWarInfoInstance	</implementedBy>
+		<Properties>
+			<tongDBID>
+				<Type>	OBJECT_ID	</Type>
+			</tongDBID>
+			<integral>
+				<Type>	UINT32	</Type>
+			</integral>
+			<members>
+				<Type>	ARRAY <of> TONG_CITY_WAR_MEM_INFO </of>	</Type>
+			</members>
+		</Properties>
+	</TONG_CITY_WAR_INFO>
+
+	<TONG_CITY_WAR_INFOS> FIXED_DICT
+		<implementedBy>	TongCityWarInfos.cityWarInfosInstance	</implementedBy>
+		<Properties>
+			<infos>
+				<Type>	ARRAY <of> TONG_CITY_WAR_INFO </of>	</Type>
+			</infos>
+		</Properties>
+	</TONG_CITY_WAR_INFOS>
+
+	<!-- 帮会城市战战斗记录 -->
+	<MASTER_CHIEF_DATA> FIXED_DICT
+		<implementedBy>	TongCityWarFightInfos.masterChiefIns	</implementedBy>
+		<Properties>
+			<uname>
+				<Type>			STRING	</Type>
+			</uname>
+			<title>
+				<Type>			STRING	</Type>
+			</title>
+			<tongName>
+				<Type>			STRING	</Type>
+			</tongName>
+			<raceclass>
+				<Type>  		INT32	</Type>
+			</raceclass>
+			<hairNumber>
+				<Type>  		INT32	</Type>
+			</hairNumber>
+			<faceNumber>
+				<Type>			INT32	</Type>
+			</faceNumber>
+			<bodyFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</bodyFDict>
+			<volaFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</volaFDict>
+			<breechFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</breechFDict>
+			<feetFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</feetFDict>
+			<lefthandFDict>
+				<Type>			WEAPON_EFFECT	</Type>
+			</lefthandFDict>
+			<righthandFDict>
+				<Type>			WEAPON_EFFECT	</Type>
+			</righthandFDict>
+			<talismanNum>
+				<Type>			INT32	</Type>
+			</talismanNum>
+			<fashionNum>
+				<Type>			INT32	</Type>
+			</fashionNum>
+			<adornNum>
+				<Type>			INT32	</Type>
+			</adornNum>
+		</Properties>
+	</MASTER_CHIEF_DATA>
+
+	<TONG_CITY_FIGHT_INFO> FIXED_DICT
+		<implementedBy>	TongCityWarFightInfos.cityWarFightIns	</implementedBy>
+		<Properties>
+			<tongDBID_1>
+				<Type>  		DATABASE_ID	</Type>
+			</tongDBID_1>
+			<tongDBID_2>
+				<Type>  		DATABASE_ID	</Type>
+			</tongDBID_2>
+			<winner>
+				<Type>			DATABASE_ID	</Type>
+			</winner>
+		</Properties>
+	</TONG_CITY_FIGHT_INFO>
+	<TONG_CITY_FIGHT_ROUND> ARRAY <of> TONG_CITY_FIGHT_INFO	</of> </TONG_CITY_FIGHT_ROUND>
+	<TONG_CITY_FIGHT_ITEM> FIXED_DICT
+		<implementedBy>	TongCityWarFightInfos.cityWarItemIns	</implementedBy>
+		<Properties>
+			<roundItemList>
+				<Type> ARRAY <of> TONG_CITY_FIGHT_ROUND	</of>	</Type>
+			</roundItemList>
+			<master>
+				<Type>			DATABASE_ID		</Type>
+			</master>
+			<chiefData>
+				<Type>		MASTER_CHIEF_DATA	</Type>
+			</chiefData>
+			<cityName>
+				<Type>			STRING		</Type>
+			</cityName>
+		</Properties>
+	</TONG_CITY_FIGHT_ITEM>
+	<TONG_CITY_FIGHT_ITEMS> FIXED_DICT
+		<implementedBy>	TongCityWarFightInfos.cityWarItemsIns	</implementedBy>
+		<Properties>
+			<infos>
+		 		<Type> ARRAY <of> TONG_CITY_FIGHT_ITEM </of> </Type>
+		 	</infos>
+		</Properties>
+	</TONG_CITY_FIGHT_ITEMS>
+	<SPACE_VIEWER_INFO> FIXED_DICT
+		<Properties>
+			<spaceID>
+				<Type>	UINT16	</Type>
+			</spaceID>
+			<spaceKey>
+				<Type>	STRING	</Type>
+			</spaceKey>
+			<startTime>
+				<Type>	UINT32	</Type>
+			</startTime>
+			<memberNum>
+				<Type>	UINT8	</Type>
+			</memberNum>
+		</Properties>
+	</SPACE_VIEWER_INFO>
+	<SPACE_VIEWER_INFOS>	ARRAY <of> SPACE_VIEWER_INFO </of>	</SPACE_VIEWER_INFOS>
+	<SCROLLSKILL>	FIXED_DICT	<!--配方技能-->
+		<Properties>
+			<itemID>
+				<Type>	ITEM_ID	</Type>
+			</itemID>
+			<raFixedAttr>
+				<Type>	ARRAY <of> TUPLE <of> UINT32  </of></of></Type>
+			</raFixedAttr>
+			<maxCount>			<!--使用最大次数-->
+				<Type>	INT8	</Type>
+			</maxCount>
+			<quality>			<!--卷轴品质-->
+				<Type>	INT8	</Type>
+			</quality>
+		</Properties>
+	</SCROLLSKILL>	
+	<SCROLLSKILLS>ARRAY <of>SCROLLSKILL</of> </SCROLLSKILLS>
+	<FENG_QI_MEMBER> FIXED_DICT
+		<implementedBy>	BattlefieldDataInfos.g_fengQiMemberIns	</implementedBy>
+		<Properties>
+			<roleID>
+				<Type>	OBJECT_ID	</Type>
+			</roleID>
+			<roleName>
+				<Type>	STRING		</Type>
+			</roleName>
+			<roleMB>
+				<Type>	MAILBOX		</Type>
+			</roleMB>
+			<kill>
+				<Type>	INT32		</Type>
+			</kill>
+			<bekill>
+				<Type>	INT32		</Type>
+			</bekill>
+			<integral>
+				<Type>	INT32		</Type>
+			</integral>
+			<box>
+				<Type>	INT32		</Type>
+			</box>
+		</Properties>
+	</FENG_QI_MEMBER>
+	<FENG_QI_MEMBER_MGR> FIXED_DICT
+		<implementedBy>	BattlefieldDataInfos.g_FengQiMemberMgrIns	</implementedBy>
+		<Properties>
+			<members>
+				<Type>	ARRAY <of> FENG_QI_MEMBER </of>	</Type>
+			</members>
+		</Properties>
+	</FENG_QI_MEMBER_MGR>
+	
+	<CLASSNAME_MAIL_BOX>FIXED_DICT
+		<implementedBy>	DataTypeDictForMailbox.g_classNameMailbox	</implementedBy>
+		<Properties>
+			<className>
+				<Type> STRING	</Type>
+			</className>
+			<mailbox>
+				<Type> MAILBOX	</Type>
+			</mailbox>
+		</Properties>
+	</CLASSNAME_MAIL_BOX>
+	
+	<PY_DICT_MAIL_BOX> FIXED_DICT
+		<implementedBy>	DataTypeDictForMailbox.g_dataTypeDictForMailbox	</implementedBy>
+		<Properties>
+			<date>
+				<Type>	ARRAY <of> CLASSNAME_MAIL_BOX </of>	</Type>
+			</date>
+		</Properties>
+	</PY_DICT_MAIL_BOX>
+	
+	<TURN_WAR_POINT>FIXED_DICT
+		<Properties>
+			<cityName>
+				<Type>	STRING </Type>
+			</cityName>
+			<point>
+				<Type>	INT16 </Type>
+			</point>
+		</Properties>
+	</TURN_WAR_POINT>
+	<TURN_WAR_ALL_POINT>ARRAY <of>TURN_WAR_POINT</of></TURN_WAR_ALL_POINT>
+	<TONG_FENG_HUO_LIAN_TIAN_FIGHT_INFO> FIXED_DICT
+		<implementedBy>	TongFengHuoLianTianFightInfos.fengHuoLianTianFightIns	</implementedBy>
+		<Properties>
+			<tongDBID_1>
+				<Type>  		DATABASE_ID	</Type>
+			</tongDBID_1>
+			<tongDBID_2>
+				<Type>  		DATABASE_ID	</Type>
+			</tongDBID_2>
+			<tongIntegral_1>
+				<Type>  		UINT32		</Type>
+			</tongIntegral_1>
+			<tongIntegral_2>
+				<Type>  		UINT32		</Type>
+			</tongIntegral_2>
+			<winner>
+				<Type>			DATABASE_ID	</Type>
+			</winner>
+		</Properties>
+	</TONG_FENG_HUO_LIAN_TIAN_FIGHT_INFO>
+	<TONG_FENG_HUO_LIAN_TIAN_FIGHT_ROUND> ARRAY <of> TONG_FENG_HUO_LIAN_TIAN_FIGHT_INFO	</of> </TONG_FENG_HUO_LIAN_TIAN_FIGHT_ROUND>
+	<TONG_FENG_HUO_LIAN_TIAN_FIGHT_ITEM> FIXED_DICT
+		<implementedBy>	TongFengHuoLianTianFightInfos.fengHuoLianTianItemIns	</implementedBy>
+		<Properties>
+			<roundItemList>
+				<Type> ARRAY <of> TONG_FENG_HUO_LIAN_TIAN_FIGHT_ROUND	</of>	</Type>
+			</roundItemList>
+			<cityName>
+				<Type>			STRING		</Type>
+			</cityName>
+			<camp>
+				<Type>			UINT8		</Type>
+			</camp>
+		</Properties>
+	</TONG_FENG_HUO_LIAN_TIAN_FIGHT_ITEM>
+	<TONG_FENG_HUO_LIAN_TIAN_FIGHT_ITEMS> FIXED_DICT
+		<implementedBy>	TongFengHuoLianTianFightInfos.fengHuoLianTianItemsIns	</implementedBy>
+		<Properties>
+			<infos>
+		 		<Type> ARRAY <of> TONG_FENG_HUO_LIAN_TIAN_FIGHT_ITEM </of> </Type>
+		 	</infos>
+		</Properties>
+	</TONG_FENG_HUO_LIAN_TIAN_FIGHT_ITEMS>
+	
+	<TONG_FENG_HUO_LIAN_TIAN_MEM_INFO> FIXED_DICT
+		<implementedBy>	TongFengHuoLianTianInfos.fengHuoLianTianMemberIns	</implementedBy>
+		<Properties>
+			<dbid>
+				<Type>	DATABASE_ID </Type>
+			</dbid>
+			<rname>
+				<Type>	STRING </Type>
+			</rname>
+			<mailBox>
+				<Type>	MAILBOX </Type>
+			</mailBox>
+			<kill>
+				<Type>	UINT16 </Type>
+			</kill>
+			<bekill>
+				<Type>	UINT16 </Type>
+			</bekill>
+			<isIn>
+				<Type> 	BOOL   </Type>
+			</isIn>
+		</Properties>
+	</TONG_FENG_HUO_LIAN_TIAN_MEM_INFO>
+
+	<TONG_FENG_HUO_LIAN_TIAN_INFO> FIXED_DICT
+		<implementedBy>	TongFengHuoLianTianInfos.fengHuoLianTianInfoIns	</implementedBy>
+		<Properties>
+			<tongDBID>
+				<Type>	OBJECT_ID	</Type>
+			</tongDBID>
+			<integral>
+				<Type>	UINT32	</Type>
+			</integral>
+			<members>
+				<Type>	ARRAY <of> TONG_FENG_HUO_LIAN_TIAN_MEM_INFO </of>	</Type>
+			</members>
+		</Properties>
+	</TONG_FENG_HUO_LIAN_TIAN_INFO>
+
+	<TONG_FENG_HUO_LIAN_TIAN_INFOS> FIXED_DICT
+		<implementedBy>	TongFengHuoLianTianInfos.fengHuoLianTianInfosIns	</implementedBy>
+		<Properties>
+			<infos>
+				<Type>	ARRAY <of> TONG_FENG_HUO_LIAN_TIAN_INFO </of>	</Type>
+			</infos>
+		</Properties>
+	</TONG_FENG_HUO_LIAN_TIAN_INFOS>
+	<TONG_FENG_HUO_LIAN_TIAN_ITEM> FIXED_DICT
+		<Properties>
+			<tongDBID>
+				<Type>  		DATABASE_ID	</Type>
+			</tongDBID>
+			<integral>
+				<Type>  		UINT32		</Type>
+			</integral>
+			<date>
+				<Type>			INT64		</Type>
+			</date>
+		</Properties>
+	</TONG_FENG_HUO_LIAN_TIAN_ITEM>
+	<TONG_FENG_HUO_LIAN_TIAN_RECORD> FIXED_DICT
+		<Properties>
+			<tongInfos>
+				<Type> ARRAY <of> TONG_FENG_HUO_LIAN_TIAN_ITEM	</of>	</Type>
+			</tongInfos>
+			<spaceName>
+				<Type>			STRING		</Type>
+			</spaceName>
+		</Properties>
+	</TONG_FENG_HUO_LIAN_TIAN_RECORD>
+	<TONG_FENG_HUO_LIAN_TIAN_RECORDS> ARRAY <of> TONG_FENG_HUO_LIAN_TIAN_RECORD </of> </TONG_FENG_HUO_LIAN_TIAN_RECORDS>
+
+	<!-- 道法 -->
+	<DAOFA>	FIXED_DICT
+		<implementedBy>	DaofaTypeImpl.instance	</implementedBy>
+		<Properties>
+			<uid>		<Type>	UID			</Type>		</uid>
+			<type>		<Type>	INT32		</Type>		</type>
+			<level>		<Type>	INT8		</Type>		</level>
+			<exp>		<Type>	INT32		</Type>		</exp>
+			<quality>	<Type>	INT8		</Type>		</quality>
+			<order>		<Type>	INT8		</Type>		</order>
+			<daoXinID>	<Type>	INT8		</Type>		</daoXinID>
+			<isLocked>	<Type>	BOOL		</Type>		</isLocked>
+		</Properties>
+	</DAOFA>	
+	<DAOFAS>		ARRAY	<of>	DAOFA	</of>		</DAOFAS>
+	
+	<ACTIVE_DAOXIN_ORDER>	FIXED_DICT
+		<Properties>
+			<daoXinID>	<Type>	INT8		</Type>		</daoXinID>
+			<actOrder>	<Type>	INT8		</Type>		</actOrder>
+		</Properties>
+	</ACTIVE_DAOXIN_ORDER>
+	<ACTIVE_DAOXIN_ORDERS>	ARRAY	<of>	ACTIVE_DAOXIN_ORDER	</of>	</ACTIVE_DAOXIN_ORDERS>
+
+	<REWARD_QUEST_NUM>	FIXED_DICT
+		<Properties>
+			<startTime>
+				<Type>	FLOAT		</Type>
+				<Default>	0		</Default>
+			</startTime>
+			<degree>
+				<Type>	INT8		</Type>
+			</degree>
+		</Properties>
+	</REWARD_QUEST_NUM>
+	<REWARD_QUEST_RECORD>	FIXED_DICT
+		<implementedBy>	RewardQuestTypeImpl.instance	</implementedBy>
+		<Properties>
+			<questID>
+				<Type>	QUESTID		</Type>
+			</questID>
+			<bigType>
+				<Type>	INT8		</Type>
+			</bigType>
+			<smallType>
+				<Type>	INT8		</Type>
+			</smallType>
+			<quality>
+				<Type>	INT8		</Type>
+			</quality>
+			<rewardsDetail>
+				<Type>	STRING_ARRAY		</Type>
+			</rewardsDetail>
+			<title>
+				<Type>	STRING		</Type>
+			</title>
+			<spawnTime>
+				<Type>	UINT32		</Type>
+			</spawnTime>
+		</Properties>
+	</REWARD_QUEST_RECORD>
+
+	<!-- 副帮主就位日期 -->
+	<ADJUTANT_CHIEF_DATE> FIXED_DICT
+		<Properties>
+			<dbID>			<Type>		DATABASE_ID		</Type>			</dbID>
+			<time>			<Type>		INT32			</Type>			</time>
+		</Properties>
+	</ADJUTANT_CHIEF_DATE>
+	<ADJUTANT_CHIEF_DATES>	ARRAY	<of>	ADJUTANT_CHIEF_DATE	</of>	</ADJUTANT_CHIEF_DATES>
+
+	<TDB_RESULT_ITEM> FIXED_DICT
+		<Properties>
+			<tongName>			<Type>		STRING		</Type>			</tongName>
+			<damageOrder>		<Type>		INT32		</Type>			</damageOrder>
+			<playerName>		<Type>		STRING		</Type>			</playerName>
+			<totalDamage>		<Type>		INT32		</Type>			</totalDamage>
+			<cureOrder>			<Type>		INT32		</Type>			</cureOrder>
+			<totalCureHP>		<Type>		INT32		</Type>			</totalCureHP>
+			<dieOrder>			<Type>		INT32		</Type>			</dieOrder>
+			<dieCount>			<Type>		INT32		</Type>			</dieCount>
+			<isFirstDamager>	<Type>		BOOL		</Type>			</isFirstDamager>
+			<damageReward>		<Type>		ARRAY <of> ITEM </of>		</Type>			</damageReward>
+			<cureReward>		<Type>		ARRAY <of> ITEM </of>		</Type>			</cureReward>
+			<dieReward>			<Type>		ARRAY <of> ITEM </of>		</Type>			</dieReward>
+			<firDamageReward>	<Type>		ARRAY <of> ITEM </of>		</Type>			</firDamageReward>
+		</Properties>
+	</TDB_RESULT_ITEM>
+	<TDB_RESULT_LIST>		ARRAY	<of>	TDB_RESULT_ITEM	</of>	</TDB_RESULT_LIST>
+
+	<!-- 帮众购买帮会物品记录 -->
+	<MEMBER_BUY_TONG_ITEM_RECORD> FIXED_DICT
+		<Properties>
+			<itemID>		<Type>		ITEM_ID			</Type>			</itemID>
+			<amount>		<Type>		UINT16			</Type>			</amount>
+		</Properties>
+	</MEMBER_BUY_TONG_ITEM_RECORD>
+
+	<TONG_MEMBER_BUY_TONG_ITEM_RECORD> FIXED_DICT
+		<Properties>
+			<dbID>			<Type>		DATABASE_ID		</Type>			</dbID>
+			<record>
+				<Type>		ARRAY <of> MEMBER_BUY_TONG_ITEM_RECORD	</of>	</Type>
+			</record>
+		</Properties>
+	</TONG_MEMBER_BUY_TONG_ITEM_RECORD>
+
+	<TONG_MEMBER_BUY_TONG_ITEM_RECORDS> ARRAY <of> TONG_MEMBER_BUY_TONG_ITEM_RECORD </of> </TONG_MEMBER_BUY_TONG_ITEM_RECORDS>
+	
+	<DBID_MAILBOX> FIXED_DICT
+		<Properties>
+			<dbid>			<Type>		DATABASE_ID		</Type>			</dbid>
+			<mailBox>		<Type>		MAILBOX			</Type>			</mailBox>
+		</Properties>
+	</DBID_MAILBOX>
+	
+	<AO_ZHAN_QUN_XIONG_DATA>FIXED_DICT
+		<implementedBy>	AoZhanData.g_aoZhanData	</implementedBy>
+		<Properties>
+			<aPlayer>	<Type> DBID_MAILBOX </Type> </aPlayer>
+			<bPlayer>	<Type> DBID_MAILBOX </Type> </bPlayer>
+			<failureList>
+				<Type> ARRAY <of> DBID_MAILBOX	</of> </Type>
+			</failureList>
+		</Properties>
+	</AO_ZHAN_QUN_XIONG_DATA>
+	
+	<AO_ZHAN_PLAYER_DATA>FIXED_DICT
+		<implementedBy>	AoZhanMgrData.g_aoZhanPlayerData </implementedBy>
+		<Properties>
+			<databaseID>	<Type> DATABASE_ID </Type>	</databaseID>
+			<playerName>	<Type> STRING </Type>		</playerName>
+			<playerLevel>	<Type> UINT16 </Type>		</playerLevel>
+			<playerClass>	<Type> UINT16 </Type>		</playerClass>
+			<playerMailBox>	<Type> MAILBOX </Type>		</playerMailBox>
+		</Properties>
+	</AO_ZHAN_PLAYER_DATA>
+	
+	<AO_ZHAN_MGR_ROOM_DATA>FIXED_DICT <!--一场比赛的数据-->
+		<implementedBy>	AoZhanMgrData.g_aoZhanRoomData	</implementedBy>
+		<Properties>
+			<aPlayer>	<Type> DATABASE_ID </Type>	</aPlayer>
+			<bPlayer>	<Type> DATABASE_ID </Type>	</bPlayer>
+			<failureList>
+				<Type> ARRAY <of> DATABASE_ID	</of>	</Type>
+			</failureList>
+			<score>		<Type> UINT32 </Type>	</score>
+			<useTime>	<Type> FLOAT </Type>	</useTime>
+			<remainHP>	<Type> UINT32 </Type>	</remainHP>
+			<winner>	<Type> DATABASE_ID </Type>	</winner>
+			<matchType>	<Type> UINT32 </Type>	</matchType>
+			<rIndex>	<Type> UINT32 </Type>	</rIndex>
+		</Properties>
+	</AO_ZHAN_MGR_ROOM_DATA>
+	
+	<AO_ZHAN_MGR_ROUND_DATA>FIXED_DICT <!--一轮比赛的数据-->
+		<implementedBy>	AoZhanMgrData.g_aoZhanRoundData	</implementedBy>
+		<Properties>
+			<_type>			<Type> UINT16 </Type>		</_type>
+			<matchType>		<Type> UINT32 </Type>		</matchType>
+			<joinList>
+				<Type>	ARRAY <of> DATABASE_ID	</of>	</Type>
+			</joinList>
+			<failureList>
+				<Type>	ARRAY <of> DATABASE_ID	</of>	</Type>
+			</failureList>
+			<_disInfos>
+				<Type>		ARRAY <of> AO_ZHAN_MGR_ROOM_DATA	</of>	</Type>
+			</_disInfos>
+		</Properties>
+	</AO_ZHAN_MGR_ROUND_DATA>
+	
+	<AO_ZHAN_MGR_DATA>FIXED_DICT
+		<implementedBy>	AoZhanMgrData.g_aoZhanMgr	</implementedBy>
+		<Properties>
+			<joinDatas>
+				<Type>  ARRAY <of> AO_ZHAN_PLAYER_DATA	</of>	</Type>
+			</joinDatas>
+			<infos>
+				<Type>	ARRAY <of> AO_ZHAN_MGR_ROUND_DATA	</of>	</Type>
+			</infos>
+		</Properties>
+	</AO_ZHAN_MGR_DATA>
+	
+	<ROLE_MODEL_INFO> FIXED_DICT
+		<Properties>
+			<roleID>
+				<Type>  		OBJECT_ID	</Type>
+			</roleID>
+			<hairNumber>
+				<Type>  		INT32	</Type>
+			</hairNumber>
+			<faceNumber>
+				<Type>			INT32	</Type>
+			</faceNumber>
+			<bodyFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</bodyFDict>
+			<volaFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</volaFDict>
+			<breechFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</breechFDict>
+			<feetFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</feetFDict>
+			<lefthandFDict>
+				<Type>			WEAPON_EFFECT	</Type>
+			</lefthandFDict>
+			<righthandFDict>
+				<Type>			WEAPON_EFFECT	</Type>
+			</righthandFDict>
+			<talismanNum>
+				<Type>			INT32	</Type>
+			</talismanNum>
+			<fashionNum>
+				<Type>			INT32	</Type>
+			</fashionNum>
+			<adornNum>
+				<Type>			INT32	</Type>
+			</adornNum>
+		</Properties>
+	</ROLE_MODEL_INFO>
+
+	<TONG_CITY_WAR_QUARTER_FINAL_RECORD> FIXED_DICT	<!-- 帮会夺城战决赛参赛帮会 -->
+		<Properties>
+			<spaceName>		<Type>			STRING			</Type>			</spaceName>
+			<camp>			<Type>			UINT8			</Type>			</camp>
+			<tongInfos>	
+							<Type>		ARRAY <of> TONG_FENG_HUO_LIAN_TIAN_ITEM	</of>	</Type>
+			</tongInfos>
+		</Properties>
+	</TONG_CITY_WAR_QUARTER_FINAL_RECORD>
+
+	<TONG_CITY_WAR_FINAL_INFO>	ARRAY <of> TONG_CITY_WAR_QUARTER_FINAL_RECORD </of>	</TONG_CITY_WAR_FINAL_INFO>
+
+	<YI_JIE_MEMBER> FIXED_DICT
+		<implementedBy>	YiJieZhanChangInfos.yiJieMemberIns	</implementedBy>
+		<Properties>
+			<databaseID>
+				<Type>	DATABASE_ID	</Type>
+			</databaseID>
+			<playerID>
+				<Type>	OBJECT_ID	</Type>
+			</playerID>
+			<playerName>
+				<Type>	STRING		</Type>
+			</playerName>
+			<playerMB>
+				<Type>	MAILBOX		</Type>
+			</playerMB>
+			<faction>
+				<Type>	INT32		</Type>
+			</faction>
+			<alliance>
+				<Type>	INT32		</Type>
+			</alliance>
+			<kill>
+				<Type>	INT32		</Type>
+			</kill>
+			<keep>
+				<Type>	INT32		</Type>
+			</keep>
+			<maxKeep>
+				<Type>	INT32		</Type>
+			</maxKeep>
+			<beKill>
+				<Type>	INT32		</Type>
+			</beKill>
+			<integral>
+				<Type>	INT32		</Type>
+			</integral>
+			<rage>
+				<Type>	INT32		</Type>
+			</rage>
+		</Properties>
+	</YI_JIE_MEMBER>
+	
+	<YI_JIE_FACTION> FIXED_DICT
+		<implementedBy>YiJieZhanChangInfos.yiJieFactionIns	</implementedBy>
+		<Properties>
+			<faction>
+				<Type>	INT32		</Type>
+			</faction>
+			<kill>
+				<Type>	INT32		</Type>
+			</kill>
+			<beKill>
+				<Type>	INT32		</Type>
+			</beKill>
+			<integral>
+				<Type>	INT32		</Type>
+			</integral>
+			<alliance>
+				<Type>	INT32		</Type>
+			</alliance>
+			<enrage>
+				<Type>	BOOL		</Type>
+			</enrage>
+			<lastKillTime>
+				<Type>	FLOAT		</Type>
+			</lastKillTime>
+			<members>
+				<Type>	ARRAY <of> YI_JIE_MEMBER </of>	</Type>
+			</members>
+		</Properties>
+	</YI_JIE_FACTION>
+	
+	<YI_JIE_ROLE_INFO> FIXED_DICT
+		<implementedBy>YiJieZhanChangInfos.yiJieRoleInfoIns	</implementedBy>
+		<Properties>
+			<rank>
+				<Type>	INT32		</Type>
+			</rank>
+			<roleName>
+				<Type>	STRING		</Type>
+			</roleName>
+			<faction>
+				<Type>	STRING		</Type>
+			</faction>
+			<killNum>
+				<Type>	INT32		</Type>
+			</killNum>
+			<keepNum>
+				<Type>	INT32		</Type>
+			</keepNum>
+			<score>
+				<Type>	INT32		</Type>
+			</score>
+		</Properties>
+	</YI_JIE_ROLE_INFO>
+	
+	<YI_JIE_ROLE_INFOS> FIXED_DICT
+		<implementedBy>YiJieZhanChangInfos.yiJieRoleInfoArrayIns </implementedBy>
+		<Properties>
+			<roleInfos>
+				<Type>	ARRAY <of> YI_JIE_ROLE_INFO </of>	</Type>
+			</roleInfos>
+		</Properties>
+	</YI_JIE_ROLE_INFOS>
+	
+	<YI_JIE_MGR> FIXED_DICT
+		<implementedBy>	YiJieZhanChangInfos.yiJieMgrIns	</implementedBy>
+		<Properties>
+			<members>
+				<Type>	ARRAY <of> YI_JIE_MEMBER </of>	</Type>
+			</members>
+			<offlineMembers>
+				<Type>	ARRAY <of> YI_JIE_MEMBER </of>	</Type>
+			</offlineMembers>
+			<factions>
+				<Type>	ARRAY <of> YI_JIE_FACTION </of>	</Type>
+			</factions>
+			<firstBlood>
+				<Type>	BOOL		</Type>
+			</firstBlood>
+			<firstCreate>
+				<Type>	BOOL		</Type>
+			</firstCreate>
+			<canAlliance>
+				<Type>	BOOL		</Type>
+			</canAlliance>
+			<weakestFaction>
+				<Type>	INT32		</Type>
+			</weakestFaction>
+			<enrageTimerID>
+				<Type>	INT32		</Type>
+			</enrageTimerID>
+			<playerMaxRage>
+				<Type>	INT32		</Type>
+			</playerMaxRage>
+			<spaceID>
+				<Type>	INT32		</Type>
+			</spaceID>
+		</Properties>
+	</YI_JIE_MGR>
+	
+	<PET_MODE_RECORD> FIXED_DICT			<!--最后一次召唤的宠物战斗模式和行为模式记录-->
+		<Properties>
+			<lastActPet_dbid>		<Type>		DATABASE_ID		</Type>			</lastActPet_dbid>
+			<lastActPet_tMode>		<Type>		UINT8			</Type>			</lastActPet_tMode>
+			<lastActPet_aMode>		<Type>		UINT8			</Type>			</lastActPet_aMode>
+		</Properties>
+	</PET_MODE_RECORD>
+	
+	<DanceKingData> FIXED_DICT
+		<implementedBy>	DanceKingInfos.DanceKingIns	</implementedBy>
+		<Properties>
+			<uname>
+				<Type>			STRING	</Type>
+			</uname>
+			<title>
+				<Type>			STRING	</Type>
+			</title>
+			<raceclass>
+				<Type>  		INT32	</Type>
+			</raceclass>
+			<hairNumber>
+				<Type>  		INT32	</Type>
+			</hairNumber>
+			<faceNumber>
+				<Type>			INT32	</Type>
+			</faceNumber>
+			<bodyFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</bodyFDict>
+			<volaFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</volaFDict>
+			<breechFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</breechFDict>
+			<feetFDict>
+				<Type>			ARMOR_EFFECT	</Type>
+			</feetFDict>
+			<lefthandFDict>
+				<Type>			WEAPON_EFFECT	</Type>
+			</lefthandFDict>
+			<righthandFDict>
+				<Type>			WEAPON_EFFECT	</Type>
+			</righthandFDict>
+			<talismanNum>
+				<Type>			INT32	</Type>
+			</talismanNum>
+			<fashionNum>
+				<Type>			INT32	</Type>
+			</fashionNum>
+			<adornNum>
+				<Type>			INT32	</Type>
+			</adornNum>
+			<headTextureID>
+				<Type>			INT32	</Type>
+			</headTextureID>
+			<level>
+				<Type>			UINT8	</Type>
+			</level>
+			<tongName>
+				<Type>			STRING	</Type>
+			</tongName>			
+		</Properties>
+	</DanceKingData>
+	<CAMP_FENG_HUO_LIAN_TIAN_MEM_INFO> FIXED_DICT
+		<implementedBy>	CampFengHuoLianTianInfos.campFengHuoMemberIns	</implementedBy>
+		<Properties>
+			<dbid>
+				<Type>	DATABASE_ID </Type>
+			</dbid>
+			<rname>
+				<Type>	STRING </Type>
+			</rname>
+			<mailBox>
+				<Type>	MAILBOX </Type>
+			</mailBox>
+			<kill>
+				<Type>	UINT16 </Type>
+			</kill>
+			<bekill>
+				<Type>	UINT16 </Type>
+			</bekill>
+			<isIn>
+				<Type> 	BOOL   </Type>
+			</isIn>
+		</Properties>
+	</CAMP_FENG_HUO_LIAN_TIAN_MEM_INFO>
+
+	<CAMP_FENG_HUO_LIAN_TIAN_INFO> FIXED_DICT
+		<implementedBy>	CampFengHuoLianTianInfos.campFengHuoInfoIns	</implementedBy>
+		<Properties>
+			<tongDBID>
+				<Type>	OBJECT_ID	</Type>
+			</tongDBID>
+			<integral>
+				<Type>	UINT32	</Type>
+			</integral>
+			<members>
+				<Type>	ARRAY <of> CAMP_FENG_HUO_LIAN_TIAN_MEM_INFO </of>	</Type>
+			</members>
+		</Properties>
+	</CAMP_FENG_HUO_LIAN_TIAN_INFO>
+
+	<CAMP_FENG_HUO_LIAN_TIAN_INFOS> FIXED_DICT
+		<implementedBy>	CampFengHuoLianTianInfos.campFengHuoInfosIns	</implementedBy>
+		<Properties>
+			<infos>
+				<Type>	ARRAY <of> CAMP_FENG_HUO_LIAN_TIAN_INFO </of>	</Type>
+			</infos>
+		</Properties>
+	</CAMP_FENG_HUO_LIAN_TIAN_INFOS>
+	
+	<SPAWN_POINT_RECORD> FIXED_DICT
+		<Properties>
+			<planesID>
+				<Type>	PLANESID	</Type>
+			</planesID>
+			<spawnList>
+				<Type>	ARRAY<of>OBJECT_ID</of>	</Type>
+			</spawnList>
+		</Properties>
+	</SPAWN_POINT_RECORD>
+	<SPAWN_POINT_RECORDS> FIXED_DICT
+		<implementedBy> SpawnPointRcords.g_spawnPointRecords </implementedBy>
+		<Properties>
+			<record>
+				<Type> ARRAY<of>SPAWN_POINT_RECORD</of>	</Type>
+			</record>
+		</Properties>
+	</SPAWN_POINT_RECORDS>
+	<!-- 静态关系对象类型 -->
+	<RELATIONSTATICOBJ>	FIXED_DICT
+		<implementedBy>	RelationStaticObjImpl.instance	</implementedBy>
+		<Properties>
+			<objType> 		<Type>		UINT8		</Type> </objType>
+			<param>			<Type>		PYTHON		</Type>	</param>
+		</Properties>
+	</RELATIONSTATICOBJ>
+	<RELATIONDYNAMICOBJ>	FIXED_DICT
+		<implementedBy>	RelationDynamicObjImpl.instance	</implementedBy>
+		<Properties>
+			<objType> 		<Type>		UINT16		</Type> </objType>
+			<param>			<Type>		PYTHON		</Type>	</param>
+		</Properties>
+	</RELATIONDYNAMICOBJ>
+	
+	<PICK_ANIMA_PLANES_RECORD>	FIXED_DICT
+		<implementedBy>	PickAnimaPlanesRecords.g_record	</implementedBy>
+		<Properties>
+			<planesID>
+				<Type>	PLANESID	</Type>
+			</planesID>
+			<pickAnimaList>
+				<Type>	FLOAT_ARRAY	</Type>
+			</pickAnimaList>
+			<pickAddition>
+				<Type>	INT32		</Type>
+			</pickAddition>
+			<potentialCount>
+				<Type>	INT32		</Type>
+			</potentialCount>
+			<pickCount>
+				<Type>	INT32		</Type>
+			</pickCount>
+		</Properties>
+	</PICK_ANIMA_PLANES_RECORD>
+	<PICK_ANIMA_PLANES_RECORDS> FIXED_DICT
+		<implementedBy>	PickAnimaPlanesRecords.g_records	</implementedBy>
+		<Properties>
+			<pickDatas>
+				<Type>	ARRAY<of>PICK_ANIMA_PLANES_RECORD</of>	</Type>
+			</pickDatas>
+		</Properties>
+	</PICK_ANIMA_PLANES_RECORDS>
+	
+	<BUFF_ODDS> FIXED_DICT
+		<Properties>
+			<skillID>
+				<Type>	SKILLID	</Type>
+			</skillID>
+			<odds>
+				<Type>	FLOAT	</Type>
+			</odds>
+		</Properties>
+	</BUFF_ODDS>
+	<BUFF_ODDS_DICT> FIXED_DICT
+		<implementedBy>	BuffOdds.g_buffOddsData	</implementedBy>
+		<Properties>
+			<datas>
+				<Type>	ARRAY<of>BUFF_ODDS</of>	</Type>
+			</datas>
+		</Properties>
+	</BUFF_ODDS_DICT>
+</root>

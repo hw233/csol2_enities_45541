@@ -1,0 +1,10 @@
+<root>
+	<Parent>	SpaceMultiLine	</Parent>
+	<Properties>
+		<playerCount>
+			<Type>	INT16		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</playerCount>
+	</Properties>
+</root>

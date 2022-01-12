@@ -1,0 +1,19 @@
+<root>
+		<spaceName>	摄魂迷阵	</spaceName>
+	<EntityType>SpaceMultiLine</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceMultiLine</script>
+		<className>	she_hun_mi_zhen_jia1	</className>
+		<dirMapping>	universes/she_hun_mi_zhen 	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canGetAccum>	1	</canGetAccum>				<!-- 允许召唤守护，打怪能获得气运 -->
+		<canConjurePet>	1	</canConjurePet>			<!-- 禁制召唤宠物-->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/she_hun_mi_zhen_jia1.xml </spawnFile>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

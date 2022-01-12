@@ -1,0 +1,18 @@
+<root>
+	<EntityType>SpaceCopySingle</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopySingle</script>
+	<className>xing_xiu_dong</className>
+	<dirMapping> universes/liu_wang_mu_004 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/xing_xiu_dong.xml		</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<CalcPkValue/>
+	<Space>
+		<spaceBBoxMin>	-300,-100,-375	</spaceBBoxMin>
+		<spaceBBoxMax>	400,200,400	</spaceBBoxMax>
+		<deathDepth>	-250	</deathDepth>
+	</Space>
+</root>

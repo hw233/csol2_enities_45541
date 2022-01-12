@@ -1,0 +1,168 @@
+<root>
+	<Properties>
+		<className>
+			<Type>			STRING			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Persistent>	false			</Persistent>
+		</className>
+
+		<utype>
+			<Type>			INT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</utype>
+
+		<flags>		<!-- entity的标志集合，如是否可交易、是否有任务、是否能合成装备等等；ENTITY_FLAG_* -->
+			<Type>			INT64			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</flags>
+
+		<thinkControlID>	<!-- AI思考ID -->
+			<Type>			CONTROLLER_ID	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</thinkControlID>
+
+		<thinkWaitTime>
+			<!-- 记录下一次think触发器的触发时间，
+				用于决定在thinkWait()期间如果出现新的thinkWait()时是保留旧的还是使用新的。 -->
+			<Type>			FLOAT			</Type>		<!-- bigworld.time() -->
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</thinkWaitTime>
+
+		<tempMapping>
+			<Type>			MAPPING		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tempMapping>
+		
+		<planesID>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</planesID>
+	</Properties>
+
+	<ClientMethods>
+		<remoteCall>
+			<Arg>STRING</Arg>		<!-- method name -->
+			<Arg>PYTHON</Arg>		<!-- method args -->
+		</remoteCall>
+		<setFilterLastPosition>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+		</setFilterLastPosition>
+		<setFilterYaw>
+			<Arg>	FLOAT		</Arg>	<!-- yaw -->
+		</setFilterYaw>
+		<restartFilterMoving/>
+
+		<onAddCacheTask>
+			<Arg>	UINT8		</Arg>
+		</onAddCacheTask>
+
+		<onCacheCompleted>
+		</onCacheCompleted>
+
+		<onPlayAction>
+			<Arg>	STRING		</Arg>
+		</onPlayAction>
+	</ClientMethods>
+
+	<CellMethods>
+		<remoteCall>
+			<Arg>STRING</Arg>		<!-- method name -->
+			<Arg>PYTHON</Arg>		<!-- method args -->
+		</remoteCall>
+		<forwardCall>	<!-- 以此接口所属的entity为realEntity，调用entityID所指定的entity身上的某个方法 -->
+			<Arg>OBJECT_ID</Arg>	<!-- entityID -->
+			<Arg>STRING</Arg>		<!-- method name -->
+			<Arg>PYTHON</Arg>		<!-- method args -->
+		</forwardCall>
+		<forwardScriptCall>	<!-- 以此接口所属的entity为realEntity，调用scriptName所指定的全局脚本上的某个方法 -->
+			<Arg>STRING</Arg>		<!-- scriptName -->
+			<Arg>STRING</Arg>		<!-- method name -->
+			<Arg>PYTHON</Arg>		<!-- method args -->
+		</forwardScriptCall>
+		<remoteScriptCall>
+			<Arg>STRING</Arg>		<!-- method name -->
+			<Arg>PYTHON</Arg>		<!-- method args -->
+		</remoteScriptCall>
+
+		<createNPCObject>
+			<Arg>	STRING		</Arg>	<!-- npcID -->
+			<Arg>	POSITION	</Arg>	<!-- dst position -->
+			<Arg>	DIRECTION	</Arg>	<!-- dst direction -->
+			<Arg>	PY_DICT		</Arg>	<!-- additional state, see also cell::BigWorld.createEntity() -->
+		</createNPCObject>
+		
+		<createObjectRemote>
+			<Arg>	STRING		</Arg>	<!-- npcID -->
+			<Arg>	INT32		</Arg>	<!--spaceID-->
+			<Arg>	POSITION	</Arg>	<!-- dst position -->
+			<Arg>	DIRECTION	</Arg>	<!-- dst direction -->
+			<Arg>	PY_DICT		</Arg>	<!-- additional state, see also cell::BigWorld.createEntity() -->
+		</createObjectRemote>
+		
+		<createEntityRemote>
+			<Arg>	STRING		</Arg>	<!-- entity type -->
+			<Arg>	INT32		</Arg>	<!--spaceID-->
+			<Arg>	POSITION	</Arg>	<!-- dst position -->
+			<Arg>	DIRECTION	</Arg>	<!-- dst direction -->
+			<Arg>	PY_DICT		</Arg>	<!-- additional state, see also cell::BigWorld.createEntity() -->
+		</createEntityRemote>
+
+		<setTemp>
+			<Arg>	PYTHON		</Arg>
+			<Arg>	PYTHON		</Arg>
+		</setTemp>
+
+		<removeTemp>
+			<Arg>	PYTHON		</Arg>
+		</removeTemp>
+
+		<sysBroadcast>			<!-- 向系统广播频道中发送一条消息( hyw--2009.06.30 ) -->
+			<Arg>	STRING		</Arg>
+		</sysBroadcast>
+
+		<requestEntityData>
+			<Exposed/>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		UINT16		</Arg>
+			<Arg>		BOOL		</Arg>
+		</requestEntityData>
+		<addFlag>
+			<Arg>		UINT32		</Arg>
+		</addFlag>
+		
+		<onLeaveTrapRemoteDo>
+			<Arg>	INT32		</Arg>
+			<Arg>	PY_ARGS		</Arg>
+		</onLeaveTrapRemoteDo>
+	</CellMethods>
+
+	<BaseMethods>
+		<remoteCall>
+			<Arg>STRING</Arg>		<!-- method name -->
+			<Arg>PYTHON</Arg>		<!-- method args -->
+		</remoteCall>
+
+		<createNPCObject>
+			<Arg>	MAILBOX		</Arg>	<!-- spaceCellMailbox -->
+			<Arg>	STRING		</Arg>	<!-- npcID -->
+			<Arg>	POSITION	</Arg>	<!-- dst position -->
+			<Arg>	DIRECTION	</Arg>	<!-- dst direction -->
+			<Arg>	PY_DICT		</Arg>	<!-- additional state, see also cell::BigWorld.createEntity() -->
+		</createNPCObject>
+
+		<createEntityByDBID>
+			<Arg>	MAILBOX		</Arg>	<!-- spaceCellMailbox -->
+			<Arg>	STRING		</Arg>	<!-- npcID -->
+			<Arg>	DATABASE_ID		</Arg>	<!-- DBID -->
+			<Arg>	PY_DICT		</Arg>	<!-- additional state, see also cell::BigWorld.createEntity() -->
+		</createEntityByDBID>
+
+	</BaseMethods>
+</root>

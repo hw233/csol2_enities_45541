@@ -1,0 +1,31 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+		<addSuit>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>	ARRAY<of>UINT64</of></Arg>
+			<Arg>		MAILBOX	</Arg>
+		</addSuit>
+		<updateSuitName>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</updateSuitName>
+		<updateSuit>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>	ARRAY<of>UINT64</of></Arg>
+			<Arg>		MAILBOX	</Arg>
+		</updateSuit>
+		<getSuitDatas>
+			<Arg>		UINT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</getSuitDatas>
+	</BaseMethods>
+</root>

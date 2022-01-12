@@ -1,0 +1,82 @@
+<root>
+	<Parent>	SpaceNormal	</Parent>
+
+	<Properties>
+		<closeTime>
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>	-1		</Default>
+		</closeTime>
+
+		<_players>
+			<Type>		ARRAY <of> MAILBOX </of>	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false	</Persistent>
+		</_players>
+		
+		<spaceViewers>
+			<Type>		ARRAY <of> MAILBOX </of>	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false	</Persistent>
+		</spaceViewers>
+		
+		<aiRecordMonster>
+			<Type>		ARRAY <of> MAILBOX </of>	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false	</Persistent>
+		</aiRecordMonster>
+		
+		<waitingCycle>
+			<Type>		INT32 	</Type>
+			<Flags>		BASE	</Flags>
+			<Persistent>	false	</Persistent>
+		</waitingCycle>
+
+		<maxPlayer>
+			<Type>		INT32 	</Type>
+			<Flags>		BASE	</Flags>
+			<Persistent>	false	</Persistent>
+		</maxPlayer>
+
+		<_enterRecord>
+			<Type>		ARRAY <of> DATABASE_ID </of> 	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false	</Persistent>
+		</_enterRecord>
+	</Properties>
+
+	<BaseMethods>
+		<eventHandle>
+			<Arg>		INT32 	</Arg>	<!-- eventID -->
+			<Arg>		PY_DICT	</Arg>	<!-- params -->
+		</eventHandle>
+		<nofityTeamDestroy>
+			<Arg>		OBJECT_ID 	</Arg>
+		</nofityTeamDestroy>
+	</BaseMethods>
+
+	<CellMethods>
+		<onConditionChange>
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onConditionChange>
+		<onAINotifySpaceCreated>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</onAINotifySpaceCreated>
+		<onAINotifySpaceDied>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</onAINotifySpaceDied>
+		<nofityTeamDestroy>
+			<Arg>		OBJECT_ID 	</Arg>
+		</nofityTeamDestroy>
+		<onPlayerReqEnter>
+			<Arg>	UINT32		</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	POSITION	</Arg>
+			<Arg>	DIRECTION	</Arg>
+		</onPlayerReqEnter>
+	</CellMethods>
+</root>

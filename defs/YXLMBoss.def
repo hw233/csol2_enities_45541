@@ -1,0 +1,30 @@
+<root>
+	<Parent>	Monster		</Parent>
+
+	<Properties>
+		<belong>
+			<Type>		OBJECT_ID			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Default>		0			</Default>
+		</belong>
+		
+		<damage_min>				<!-- 物理 攻击力最小值 最终 -->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</damage_min>
+
+		<damage_max>				<!-- 物理 攻击力最大值 最终 -->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</damage_max>
+	</Properties>
+	<CellMethods>
+		<recvSAICommand>
+			<Arg>	UINT16			</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	MAILBOX			</Arg>	
+		</recvSAICommand>
+	</CellMethods>
+</root>

@@ -1,0 +1,21 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<playerEnterSpaceCopy>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</playerEnterSpaceCopy>
+		<playerLeaveSpaceCopy>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</playerLeaveSpaceCopy>
+		<requestSpaceInfos>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</requestSpaceInfos>
+	</BaseMethods>
+</root>

@@ -1,0 +1,30 @@
+<root>
+		<spaceName>	城市战场	</spaceName>
+		<EntityType>	SpaceCopyCityWar	</EntityType>
+		<DomainType>	SpaceDomainCityWar	</DomainType>
+		<script>	SpaceCopyCityWar	</script>
+		<SpaceType>	SPACE_TYPE_CITY_WAR	</SpaceType>
+		<className>	city_war_c	</className>
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_bang_hui_zhan_chang_03.xml		</spawnFile>
+		<warTotalTime>	5400	</warTotalTime>
+		<dirMapping>	universes/fu_ben_bang_hui_zhan_chang_03	</dirMapping>
+		<CanPk>	1	</CanPk>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<Space>
+			<roomName>	c	</roomName>
+			<roomIndex>	2	</roomIndex>
+			<roomLevel>	0	</roomLevel>
+			<right_playerEnterPoint>
+				<pos>	-5.837 9.011 -40.535	</pos>
+				<direction>	0 11.698 0	</direction>
+			</right_playerEnterPoint>
+			<left_playerEnterPoint>
+				<pos>	101.879 9.240 163.039	</pos>
+				<direction>	0 -164.998 0	</direction>
+			</left_playerEnterPoint>
+			<enterLimitLevel>	29	</enterLimitLevel>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

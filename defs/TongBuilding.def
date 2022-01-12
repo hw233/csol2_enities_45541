@@ -1,0 +1,17 @@
+<root>
+	<Parent>	NPC	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onRemoveBuilding/>
+		<setModelNumber>
+			<Arg>	STRING	</Arg>
+		</setModelNumber>
+	</BaseMethods>
+	<CellMethods>
+	</CellMethods>
+
+
+</root>

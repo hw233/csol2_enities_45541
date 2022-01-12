@@ -1,0 +1,29 @@
+<root>
+	<EntityType>SpaceMultiLine</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceMultiLine</script>
+	<className>peng_lai</className>
+	<dirMapping> universes/peng_lai </dirMapping>
+	<CanPk>	1	</CanPk>
+	<campHonourReward/>			<!-- 有阵营击杀荣誉值奖励;另外在没有配置此字段的地图中，被击杀不计入“被阵营击杀次数” -->
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	50160	</TimeOfDay>
+	<spawnFile>	config/server/spawn/peng_lai.xml	</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>
+	<initLine>1</initLine>
+	<newLineByPlayerAmount>400</newLineByPlayerAmount>
+	<Space>
+		<Tomb>
+			<fengming01>
+				<SpaceName>fengming</SpaceName>
+				<Position>910.364 208.160 213.759</Position>
+				<Direction>	0.0 0.0 -180.0	</Direction>	<!-- 复活后的面向方向，暂未实现 -->
+			</fengming01>
+		</Tomb>
+		<spaceBBoxMin>	-770,-100,-700	</spaceBBoxMin>
+		<spaceBBoxMax>	730,700,1000	</spaceBBoxMax>
+		<deathDepth>	-120	</deathDepth>
+	</Space>
+</root>

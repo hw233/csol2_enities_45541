@@ -1,0 +1,14 @@
+<root>
+	<BaseMethods>
+		<onServerStart>
+		</onServerStart>
+		<onServerShutdown>
+		</onServerShutdown>
+		<onAccountLogin>
+			<Arg>	STRING	</Arg>
+		</onAccountLogin>
+		<onAccountLogout>
+			<Arg>	STRING	</Arg>
+		</onAccountLogout>
+	</BaseMethods>
+</root>

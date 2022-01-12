@@ -1,0 +1,20 @@
+<root>
+	<EntityType>SpaceCopySunBath</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceSunBath</script>
+	<className>fengming</className>
+	<dirMapping> universes/feng_ming_20 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fengming.xml		</spawnFile>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->間隔時間<-->
+	<spellNum>		20			</spellNum>	<!-->每次刷新貝殼數量<-->
+	<removeItems>	  60101013|60101014|60101015|60101016|60101017|60101018|60101019|60101020	</removeItems>	<!-->需要沒收的物品列表<-->
+	<Space>	</Space>
+	<canArrest/>	<!-->是否可逮捕入獄<-->
+	<maxLine>4</maxLine>                                  		
+	<initLine>4</initLine>
+	<maxPlayerAmount>525</maxPlayerAmount>                           
+	<newLineByPlayerAmount>200</newLineByPlayerAmount> 	
+</root>

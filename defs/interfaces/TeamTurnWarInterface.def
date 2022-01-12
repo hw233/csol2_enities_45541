@@ -1,0 +1,24 @@
+<root>
+	<BaseMethods>
+		<turnWar_onSignUpTong/>
+
+		<turnWar_onTeamMemPrepared>
+			<Arg>  	STRING		</Arg>
+		</turnWar_onTeamMemPrepared>
+		
+		<turnWar_onPlayerEnter>
+			<Arg>  	STRING		</Arg>
+		</turnWar_onPlayerEnter>
+		
+		<turnWar_onTeamMatched>
+			<Arg>	MAILBOX			</Arg>
+			<Arg>	ARRAY <of> INT64 </of>	</Arg>
+		</turnWar_onTeamMatched>
+		
+		<turnWar_onReceiveEnemyInfo>
+			<Arg> ARRAY <of> PY_DICT </of> </Arg>
+		</turnWar_onReceiveEnemyInfo>
+
+		<turnWar_onWarOver/>
+	</BaseMethods>
+</root>

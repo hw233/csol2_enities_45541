@@ -1,0 +1,21 @@
+<root>
+	<EntityType>	SpaceMultiLine	</EntityType>
+	<DomainType>	SpaceDomainMultiLine	</DomainType>
+	<script>	SpaceMultiLine	</script>
+	<className>	fu_ben_long_tu	</className>
+	<dirMapping>	universes/fu_ben_long_tu	</dirMapping>
+	<TimeOn>	0	</TimeOn>
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_long_tu.xml	</spawnFile>
+	<TimeOn>	0	</TimeOn>
+	<canFly>	0	</canFly>
+	<CanQieCuo>	1	</CanQieCuo>		<!-- ÔÊÐíÇÐ´è -->
+	<canArrest>	</canArrest>
+	<maxLine>	1	</maxLine>
+	<initLine>	1	</initLine>
+	<Space>
+		<spaceBBoxMin> -210,-100,-210 </spaceBBoxMin>
+		<spaceBBoxMax> 210,200,210 </spaceBBoxMax>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

@@ -1,0 +1,776 @@
+<root>
+	<Implements>
+		<Interface>	TongTerritory			</Interface>
+		<Interface>	TongCampaign			</Interface>
+		<Interface>	TongStorage			</Interface>
+		<Interface>	TongCityWarInterface			</Interface>
+		<Interface>	TongRobWarInterface			</Interface>
+	</Implements>
+
+	<Properties>
+		<tid> 	<!--帮会id-->
+			<Type>			UINT16			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>		true			</Persistent>
+		</tid>
+
+		<ad> 	<!--帮会广告-->
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</ad>
+		
+		<playerName>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<DatabaseLength>255		</DatabaseLength>
+			<Identifier>	true		</Identifier>
+		</playerName>
+
+		<camp>		<!--阵营-->
+			<Type>			UINT8		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>		true		</Persistent>
+		</camp>
+
+		<affiche> 	<!--公告-->
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<DatabaseLength>	255			</DatabaseLength>
+			<Persistent>		true			</Persistent>
+		</affiche>
+
+		<prestige> 	<!--声望-->
+			<Type>			INT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</prestige>
+
+		<level> 	<!--帮会级别-->
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>	1				</Default>
+			<Persistent>		true			</Persistent>
+		</level>
+
+		<EXP>		<!--帮会经验-->
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0			</Default>
+			<Persistent>		true			</Persistent>
+		</EXP>
+
+		<memberCount> 	<!--帮会人数 作为保存属性是因为帮会查询界面从数据库查方便-->
+			<Type>			UINT16			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0			</Default>
+			<Persistent>		true			</Persistent>
+		</memberCount>
+
+		<money>
+			<Type>		UINT32				</Type>
+			<Flags>		BASE				</Flags>
+			<Default>	300000				</Default>
+			<Persistent>	true				</Persistent>
+		</money>
+
+		<leagues>
+			<Type>		TONGS_INFOS			</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</leagues>
+
+		<battleLeagues>
+			<Type>		TONGS_INFOS			</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</battleLeagues>
+
+		<quitLeagueLog>
+			<Type>		TONG_LEAGUE_LOGS		</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</quitLeagueLog>
+
+		<dutyNames>
+			<Type>		TONG_DUTY_NAMES			</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</dutyNames>
+
+		<querySunday>
+			<Type>		BOOL				</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</querySunday>
+
+		<saveChiefdate> <!--帮会帮主就位日期 提供帮会工资计算-->
+			<Type>		UINT32				</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</saveChiefdate>
+
+		<saveAdjutantChiefdate> <!-- 副帮主就位日期，CSOL-2116 现在有两位副帮主 -->
+			<Type>		ADJUTANT_CHIEF_DATES		</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</saveAdjutantChiefdate>
+
+		<holdCity> 	<!--帮会控制的城市-->
+			<Type>		STRING				</Type>
+			<Flags>		BASE				</Flags>
+		</holdCity>
+
+		<items>
+			<Type>		ARRAY <of> TONG_ITEM_MAKE_DATA </of></Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</items>
+
+		<memberTotalContributes>	<!--成员的累积帮贡、本周和上周的累积帮贡及俸禄领取值-->
+			<Type>		TONG_MEMBER_TOTAL_CONTRIBUTES	</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</memberTotalContributes>
+
+		<tempMapping>
+			<Type>		MAPPING				</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	false				</Persistent>
+		</tempMapping>
+
+		<tongSignMD5>	<!-- 帮会会标图片转来的 MD5 字符串 by jy -->
+			<Type>		STRING				</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</tongSignMD5>
+
+		<_dartRecord> 	<!--帮会运镖记录 :day_count -->
+			<Type>			STRING	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>		true		</Persistent>
+		</_dartRecord>
+
+		<_afterFeteStatus>	<!--帮会祭祀完成之后帮会所获得的状态-->
+			<Type>		UINT8		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true	</Persistent>
+		</_afterFeteStatus>
+
+		<_afterFeteStatusRestoreTime> <!--帮会祭祀完成后所获得的状态的复原时间-->
+			<Type>		STRING		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true	</Persistent>
+		</_afterFeteStatusRestoreTime>
+
+		<factionCount>	<!--帮会时装余量-->
+			<Type>		UINT8		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true	</Persistent>
+			<Default>	0	</Default>
+		</factionCount>
+
+		<tongNormalRecord> 	<!--帮会日常任务次数统计 :day_count -->
+			<Type>			STRING	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>		true		</Persistent>
+		</tongNormalRecord>
+
+		<!-- 帮会俸禄相关数据 -->
+		<lastWeekTongTotalMoney> 		<!--上周帮会资金总收入 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</lastWeekTongTotalMoney>
+
+		<lastWeekSalaryExchangeRate> 		<!-- 上周俸禄兑换额 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		5000		</Default>
+			<Persistent>		true		</Persistent>
+		</lastWeekSalaryExchangeRate>
+
+		<lastWeekTongTotalContribute>	 	<!-- 上周帮会帮贡总值 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</lastWeekTongTotalContribute>
+
+		<lastWeekTotalExchangedSalary> 		<!-- 上周帮会俸禄实际支出 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</lastWeekTotalExchangedSalary>
+
+		<lastWeekTongTotalCost> 		<!-- 上周帮会资金总支出 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</lastWeekTongTotalCost>
+
+		<lastWeekTongMoneyRemain> 		<!-- 上周帮会资金余额 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</lastWeekTongMoneyRemain>
+
+		<weekTongMoney> 			<!-- 本周帮会资金收入 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</weekTongMoney>
+
+		<weekSalaryExchangeRate> 		<!-- 本周俸禄兑换额 -->
+			<Type>			UINT32		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		5000		</Default>
+			<Persistent>		true		</Persistent>
+		</weekSalaryExchangeRate>
+
+		<weekTongTotalContribute> 		<! 本周帮会帮贡总值 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>		true		</Persistent>
+		</weekTongTotalContribute>
+
+		<weekTotalCost> 			<!-- 本周帮会资金支出 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</weekTotalCost>
+
+		<weekTotalExchangedSalary> 		<!-- 本周帮会俸禄实际支出 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</weekTotalExchangedSalary>
+
+		<nextWeekSalaryExchangeRate> 		<!-- 下周预设俸禄兑换额 -->
+			<Type>			UINT32	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		5000		</Default>
+			<Persistent>		true		</Persistent>
+		</nextWeekSalaryExchangeRate>
+
+		<tongTurnWarPoint> 	<!--帮会车轮战获得的积分-->
+			<Type>			TURN_WAR_ALL_POINT			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</tongTurnWarPoint>
+
+		<weekMemberBuyItemRecord>	<!-- 帮众购买帮会物品记录 -->
+			<Type>			TONG_MEMBER_BUY_TONG_ITEM_RECORDS	</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>		true					</Persistent>
+		</weekMemberBuyItemRecord>
+		<specItems>
+			<Type>		ARRAY <of> TONG_SPECIAL_ITEM_DATA </of></Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</specItems>
+		<chiefBuySpecItemForMemberRecord>	<!-- 帮主为帮众购买特殊商品记录 -->
+			<Type>			TONG_MEMBER_BUY_TONG_ITEM_RECORDS	</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>		true					</Persistent>
+		</chiefBuySpecItemForMemberRecord>
+	</Properties>
+
+	<BaseMethods>
+		<requestMemberMapInfo>
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</requestMemberMapInfo>
+
+		<addPrestige>
+			<Arg>	INT32				</Arg>	<!-- prestige -->
+			<Arg>	INT32				</Arg>
+		</addPrestige>
+
+		<addBasePrestige>
+			<Arg>	INT32				</Arg>	<!-- prestige -->
+		</addBasePrestige>
+
+		<payPrestige>
+			<Arg>	INT32				</Arg>  <!-- prestige -->
+			<Arg>	INT32				</Arg>
+		</payPrestige>
+
+		<addLevel>
+			<Arg>	UINT8				</Arg>
+			<Arg>	INT32				</Arg>
+		</addLevel>
+
+		<degrade>
+			<Arg>	UINT8				</Arg>
+			<Arg>	INT32				</Arg>
+		</degrade>
+
+		<addMoney>
+			<Arg>	UINT32				</Arg>
+			<Arg>	UINT8				</Arg>	<!-- 增加金钱的原因 -->
+		</addMoney>
+
+		<payMoney>
+			<Arg>	UINT32				</Arg>
+			<Arg>	BOOL				</Arg>
+			<Arg>	UINT8				</Arg>	<!-- 支付的原因 -->
+		</payMoney>
+
+		<onMemberLogin>
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</onMemberLogin>
+
+		<onMemberLogout>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</onMemberLogout>
+
+		<setMemberGrade>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT8				</Arg>	<!-- grade -->
+		</setMemberGrade>
+
+		<setMemberScholium>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>	<!--  -->
+		</setMemberScholium>
+
+		<onMemberGradeChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT8				</Arg>	<!-- grade -->
+		</onMemberGradeChanged>
+
+		<onMemberLevelChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT16				</Arg>	<!-- level -->
+		</onMemberLevelChanged>
+
+		<onMemberNameChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>	<!-- name -->
+		</onMemberNameChanged>
+
+		<onMemberContributeChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT32				</Arg>	<!-- contribute -->
+		</onMemberContributeChanged>
+
+		<onSendMessage>
+			<Arg>	STRING				</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>	<!-- dbid -->
+		</onSendMessage>
+
+		<onSendChatMessageAll>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>
+			<Arg>	OBJECT_ID			</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	BLOB_ARRAY			</Arg>
+		</onSendChatMessageAll>
+
+		<onRequestJoin>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</onRequestJoin>
+
+		<onAnswerRequestJoin>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	BOOL				</Arg>	<!-- agree -->
+			<Arg>	STRING				</Arg>	<!--  -->
+		</onAnswerRequestJoin>
+
+		<onAnswerRequestTongLeague>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	BOOL				</Arg>
+		</onAnswerRequestTongLeague>
+
+		<answerRequestTongLeague>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	BOOL				</Arg>
+		</answerRequestTongLeague>
+
+		<requestTongLeague>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	DATABASE_ID			</Arg>
+		</requestTongLeague>
+
+		<onRequestTongLeague>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	STRING				</Arg>
+		</onRequestTongLeague>
+
+		<leagueDispose>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	DATABASE_ID			</Arg>
+		</leagueDispose>
+
+		<onTongLeague>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	STRING				</Arg>
+		</onTongLeague>
+
+		<onLeagueDispose>
+			<Arg>	DATABASE_ID			</Arg>
+		</onLeagueDispose>
+
+		<setAffiche>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	STRING				</Arg>
+		</setAffiche>
+
+		<onAbdication>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID			</Arg>
+		</onAbdication>
+
+		<requestDelayDatas>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+		</requestDelayDatas>
+
+		<setDutyName>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT16				</Arg>
+			<Arg>	STRING				</Arg>
+		</setDutyName>
+
+		<chiefCommand_conjure>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT16				</Arg>
+			<Arg>	STRING				</Arg>	<!-- dbid -->
+			<Arg>	VECTOR3				</Arg>
+		</chiefCommand_conjure>
+
+		<onAnswer_conjure>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</onAnswer_conjure>
+
+		<onStatusMessage>				<!-- used for receiving states message from server -->
+			<Arg>	UINT16				</Arg>	<!-- statusID : defined in common/csstatus.py -->
+			<Arg>	STRING				</Arg>	<!-- speaker  : message match the statusID, defined in csstatus_msg.py -->
+		</onStatusMessage>
+
+		<requestRepairOneEquip>
+			<Arg>		UINT8			</Arg>	<!-- repairLevel -->
+			<Arg>		UINT16			</Arg>	<!-- kitBagID -->
+			<Arg>		INT32			</Arg>	<!-- orderID -->
+			<Arg>		DATABASE_ID		</Arg>	<!-- dbid -->
+		</requestRepairOneEquip>
+
+		<requestRepairAllEquip>
+			<Arg>		UINT8			</Arg>	<!-- repairLevel -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</requestRepairAllEquip>
+
+		<requestFete>
+			<Arg>	MAILBOX</Arg>
+		</requestFete>
+
+		<initMemberFeteData>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	INT16				</Arg>
+		</initMemberFeteData>
+
+		<onUpdateFeteData>
+			<Arg>	INT16				</Arg>
+		</onUpdateFeteData>
+
+		<onFeteComplete>
+		</onFeteComplete>
+
+		<onOverFete/>
+
+		<onDismissTong>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	INT32				</Arg>
+		</onDismissTong>
+		<queryTongInfo>
+			<Arg>	MAILBOX				</Arg>	<!-- playerBase -->
+			<Arg>	STRING				</Arg>	<!-- playerBase -->
+		</queryTongInfo>
+
+		<save/>
+
+		<onClientOpenTongWindow>
+			<Arg>	MAILBOX				</Arg>	<!-- playerBase -->
+		</onClientOpenTongWindow>
+
+		<setTID>
+			<Arg>	UINT32				</Arg>
+		</setTID>
+
+		<requestJoinToTong>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	UINT8				</Arg>
+		</requestJoinToTong>
+
+		<answerJoinToTong>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	BOOL				</Arg>
+		</answerJoinToTong>
+
+		<setAD>
+			<Arg>	STRING				</Arg>
+		</setAD>
+
+		<initTongIDAndAD>
+			<Arg>	UINT16		</Arg>
+			<Arg>	STRING				</Arg>
+		</initTongIDAndAD>
+		<changeName>
+			<Arg>	STRING		</Arg>
+		</changeName>
+		<queryMerchantCount>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	QUESTID		</Arg>
+			<Arg>	INT32		</Arg>
+		</queryMerchantCount>
+
+		<submitTongSign>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</submitTongSign>
+		<changeTongSing>
+			<Exposed/>
+			<Arg>		BOOL		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</changeTongSing>
+
+		<setTongSignMD5>
+			<Arg>		STRING		</Arg>
+		</setTongSignMD5>
+
+		<getTongSignMD5>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</getTongSignMD5>
+
+		<sendTongSignString>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</sendTongSignString>
+
+		<onContributeToMoney>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT32		</Arg>
+		</onContributeToMoney>
+
+		<queryDartCount>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	QUESTID		</Arg>
+		</queryDartCount>
+		<addDartCount>
+		</addDartCount>
+		<createSuccess>
+		</createSuccess>
+		<memberLeave>
+			<Arg>	DATABASE_ID	</Arg>
+		</memberLeave>
+		<changeGradeSuccess>
+			<Arg>	DATABASE_ID	</Arg>
+		</changeGradeSuccess>
+		<kickMember>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</kickMember>
+		<onJoin>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>	<!-- name -->
+			<Arg>	UINT16				</Arg>	<!-- level -->
+			<Arg>	INT32				</Arg>	<!-- raceclass -->
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	UINT8				</Arg>	<!-- grade -->
+			<Arg>	UINT32				</Arg>	<!-- tongcontribute -->
+		</onJoin>
+		<requestAbattoir>
+			<Arg>	MAILBOX	</Arg>	<!-- 帮主的baseMailbox -->
+		</requestAbattoir>
+		<onWarBuyItemsMessage>
+			<Arg>	DATABASE_ID</Arg>	<!-- dbid -->
+			<Arg>	UINT16</Arg>
+			<Arg>	STRING</Arg>
+			<Arg>	UINT16</Arg>
+		</onWarBuyItemsMessage>
+		<onWarKillerPlayer>
+			<Arg>	BOOL	</Arg>
+			<Arg>	DATABASE_ID</Arg>	<!-- dbid -->
+		</onWarKillerPlayer>
+		<clearTongDartRecord/>
+
+		<setTongFactionCount>
+			<Arg>	UINT8	</Arg>
+		</setTongFactionCount>
+
+		<sendDailogByTongDutyName>
+			<Arg>	UINT16	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</sendDailogByTongDutyName>
+
+		<addTongNormalCount>				<!-- 增加帮会日常任务次数 -->
+		</addTongNormalCount>
+
+		<queryTongNormalCount>
+			<Arg>	MAILBOX		</Arg>		<!-- 玩家的mailbox -->
+			<Arg>	QUESTID		</Arg>		<!-- 任务ID 	   -->
+		</queryTongNormalCount>
+
+		<requestCompetition>
+			<Arg>	MAILBOX	</Arg>	<!-- 帮主的baseMailbox -->
+		</requestCompetition>
+
+		<isTongMemberLimit>
+		</isTongMemberLimit>
+
+		<sendAwardToChief>
+		</sendAwardToChief>
+
+		<!-- 帮会俸禄相关 -->
+		<calTongSalary/>
+
+		<requestMemberContributeInfos>			<!-- 请求玩家帮贡信息 -->
+			<Arg>	DATABASE_ID	</Arg>		<!-- 玩家DBID -->
+		</requestMemberContributeInfos>
+
+		<onRequireSalaryInfo>				<!-- 客户端请求玩家俸禄信息 -->
+			<Arg>	MAILBOX		</Arg>		<!-- 玩家baseEntity -->
+			<Arg>	DATABASE_ID	</Arg>		<!-- 玩家DBID -->
+		</onRequireSalaryInfo>
+
+		<onClientOpenTongMoneyWindow>			<!-- 向客户端发送帮会资金信息 -->
+			<Arg>	MAILBOX		</Arg>		<!-- 玩家baseEntity -->
+		</onClientOpenTongMoneyWindow>
+
+		<onDrawTongSalary>				<!-- 玩家领取俸禄 -->
+			<Arg>	DATABASE_ID	</Arg>		<!-- 玩家DBID -->
+		</onDrawTongSalary>
+
+		<setContributeExchangeRate>			<!-- 帮主设定帮贡兑换额 -->
+			<Arg>	DATABASE_ID	</Arg>		<!-- 玩家DBID -->
+			<Arg>	UINT32		</Arg>		<!-- 帮贡点 -->
+		</setContributeExchangeRate>
+		
+		<queryTongChiefInfos/>
+
+		<tongAbaGather>
+			<Arg>	UINT8		</Arg>
+		</tongAbaGather>
+		
+		<tongAbaCloseGather/>
+		<updateTongAbaRound>
+			<Arg>	UINT8		</Arg>
+		</updateTongAbaRound>
+
+		<tongCompetitionGather>
+			<Arg>	UINT8		</Arg>
+		</tongCompetitionGather>
+		
+		<tongCompetitionCloseGather/>
+
+		<infoCallMember>
+			<Arg>		DATABASE_ID		</Arg>	<!-- dbid -->
+			<Arg>		INT16			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		VECTOR3			</Arg>
+			<Arg>		VECTOR3			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		INT8			</Arg>
+		</infoCallMember>
+
+		<addTongTurnWarPoint>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT16			</Arg>
+		</addTongTurnWarPoint>
+
+		<roleRequestTongExp>
+			<Arg>		DATABASE_ID		</Arg>	<!-- dbid -->
+		</roleRequestTongExp>
+
+		<addExp>
+			<Arg>		UINT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</addExp>
+
+		<resetTongItems/>
+
+		<resetMemberBuyItemRecord/>
+
+		<!-- 战争结盟 -->
+		<inviteTongBattleLeague>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		UINT8			</Arg>
+		</inviteTongBattleLeague>
+
+		<receiveBattleLeagueInvitation>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		UINT8			</Arg>
+
+		</receiveBattleLeagueInvitation>
+
+		<onRequestTongLeagueFailed>
+			<Arg>		DATABASE_ID		</Arg>
+		</onRequestTongLeagueFailed>
+
+		<replyBattleLeagueInvitation>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		BOOL			</Arg>
+		</replyBattleLeagueInvitation>
+
+		<receiveBattleLeagueReply>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		BOOL			</Arg>
+		</receiveBattleLeagueReply>
+
+		<addBattleLeague>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		STRING			</Arg>
+		</addBattleLeague>
+
+		<requestBattleLeagueDispose>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</requestBattleLeagueDispose>
+
+		<battleLeagueDispose>
+			<Arg>		DATABASE_ID		</Arg>
+		</battleLeagueDispose>
+		<resetTongSpecialItems/>
+	</BaseMethods>
+</root>

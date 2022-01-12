@@ -1,0 +1,36 @@
+<root>
+	<EntityType>	SpaceCopyJueDiFanJi	</EntityType>
+	<DomainType>	SpaceDomainJueDiFanJi	</DomainType>
+	<script>	SpaceCopyJueDiFanJi	</script>
+	<className>	 fu_ben_jue_di_fan_ji	</className>
+	<SpaceType>	SPACE_TYPE_JUE_DI_FAN_JI	</SpaceType>
+	<dirMapping>	universes/fu_ben_zu_dui_jing_ji_chang_01 	</dirMapping>
+	<TimeOn>	0	</TimeOn>
+	<TimeOfDay>	56700	</TimeOfDay>
+	<canFly>	1	</canFly>
+	<CanPk>	1	</CanPk>
+	<CalcPkValue>	1	</CalcPkValue>
+	<canVehicle> 0 </canVehicle>	<!-- ÊÇ·ñÔÊÐíÉÏ×øÆï -->
+	<canArrest>	</canArrest>
+	<Space>
+		<right_playerEnterPoint>
+			<pos>	-2.178 9.063 48.459	</pos>
+			<direction>	0 0 -3.02	</direction>
+		</right_playerEnterPoint>
+		<left_playerEnterPoint>
+			<pos>	-2.178 9.063 -17.403	</pos>
+			<direction>	0 0 1.37	</direction>
+		</left_playerEnterPoint>
+		<right_playerBattlePoint>
+			<pos>	-2.178 9.063 40.911	</pos>
+			<direction>	0 0 -1.64	</direction>
+		</right_playerBattlePoint>
+		<left_playerBattlePoint>
+			<pos>	-2.178 9.063 -8.099	</pos>
+			<direction>	0 0 1.52	</direction>
+		</left_playerBattlePoint>
+		<spaceBBoxMin> -999, -999, -999 </spaceBBoxMin>
+		<spaceBBoxMax> 999, 999, 999 </spaceBBoxMax>
+		<deathDepth>	-999	</deathDepth>
+	</Space>
+</root>

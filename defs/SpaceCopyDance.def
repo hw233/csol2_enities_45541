@@ -1,0 +1,27 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+	<Properties>
+	
+	</Properties>
+		<NPCMailbox>
+			<Type>			MAILBOX		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>				
+		</NPCMailbox>
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<regesiterNPC>	
+			<Arg>		MAILBOX	</Arg>	<!--NPCMailBox-->
+		</regesiterNPC>
+		<setDanceChallengeIndex>
+			<Arg>		UINT8		</Arg>			<!--challengeIndex-->
+		</setDanceChallengeIndex>
+		<noticeChallengeResult>
+			<Arg>		BOOL		</Arg>			<!--challengeResult-->
+		</noticeChallengeResult>
+		<enterDanceCopy>
+			<Arg>		INT32		</Arg>		
+		</enterDanceCopy>
+	</CellMethods>
+</root>

@@ -1,0 +1,21 @@
+<root>
+		<spaceName>	小兔快跑	</spaceName>
+		<EntityType>	SpaceCopyRabbitRun	</EntityType>
+		<DomainType>	SpaceDomainRabbitRun	</DomainType>
+		<script>	SpaceCopyRabbitRun	</script>
+		<SpaceType>	SPACE_TYPE_RABBIT_RUN	</SpaceType>
+		<className>	fu_ben_rabbit_run	</className>
+		<dirMapping>	universes/sai_ma_chang_01	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_rabbit_run.xml </spawnFile>
+		<wolfSkills>344011001;344012001;344020001;344023001</wolfSkills>
+		<rabbitSkills>344013001;344014001;344015001</rabbitSkills>
+		<waitingCycle>	10	</waitingCycle>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

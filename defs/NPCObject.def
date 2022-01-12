@@ -1,0 +1,175 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<title>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</title>
+		<uname>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength>255</DatabaseLength>
+		</uname>
+		<modelNumber><!-- 设置为public是因为技能会获取对方getBoundingBox会用到这个属性，可能为ghost -->
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</modelNumber>
+		<modelScale>	<!-- 模型放大的倍率 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1.0				</Default>
+		</modelScale>
+		<spawnMB>	<!-- base mailbox -->
+			<Type>			MAILBOX			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		None			</Default>
+			<Persistent>	false			</Persistent>
+		</spawnMB>
+		<attrDistance>	<!-- 距离判断，确定用户必须在离NPC多远的情况下才能交易、对话等，单位：米 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		10.0			</Default>
+			<Persistent>	false			</Persistent>
+		</attrDistance>
+		<spawnPos>	<!-- 出生位置，由出生点置其值，用于某些功能判断 -->
+			<Type>			VECTOR3			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0.0 0.0 0.0		</Default>
+			<Persistent>	false			</Persistent>
+		</spawnPos>
+		<lifetime>	<!--NPC的存活时间 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</lifetime>
+
+		<own_familyName>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</own_familyName>
+		<ownerVisibleInfos> <!-- 拥有者ID， 拥有者队伍ID -->
+			<Type>		TUPLE <of> OBJECT_ID </of>	</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>
+				<item>	0	</item>
+				<item>	0	</item>
+			</Default>
+		</ownerVisibleInfos>
+		<nameColor>	<!-- 头顶名称颜色标记-->
+			<Type>			INT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+		</nameColor>
+	</Properties>
+
+	<ClientMethods>
+		<onSetAttrDistance>
+			<Arg>	FLOAT		</Arg>
+		</onSetAttrDistance>
+		<onSetName>
+			<Arg>	STRING		</Arg>
+		</onSetName>
+
+		<onSetTitle>
+			<Arg>	STRING		</Arg>
+		</onSetTitle>
+
+		<onQuestStatus>
+			<Arg>	INT32		</Arg>
+		</onQuestStatus>
+		<onSendQuetions>
+			<Arg>	STRING		</Arg>	<!-- question dsp -->
+			<Arg>	ARRAY<of>STRING</of>	</Arg>	<!-- question list -->
+			<Arg>	INT8		</Arg>	<!-- question dsp -->
+			<Arg>	STRING		</Arg>	<!-- question Info -->
+		</onSendQuetions>
+		<onAnswerSuceed>
+			<Arg>	BOOL		</Arg>	<!-- is succeed -->
+		</onAnswerSuceed>
+		<onSetOwnFamilyName>
+			<Arg>	STRING		</Arg>
+		</onSetOwnFamilyName>
+
+		<onSay>							<!-- NPC 说话 -->
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</onSay>
+		
+		<onSayBupple>							<!-- NPC 说话 仅聊天泡泡可见 -->
+			<Arg>	STRING		</Arg>
+		</onSayBupple>
+
+		<setVisible>
+			<Arg>	BOOL		</Arg>
+		</setVisible>
+		
+		<setTempModelNumber>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT8		</Arg>
+		</setTempModelNumber>
+		<hideTheirFewTimeForQuest>
+			<Arg>	INT8		</Arg>
+		</hideTheirFewTimeForQuest>
+                <onSetModelScaleTime>
+                    <Arg>	FLOAT		</Arg>    
+                </onSetModelScaleTime>
+	</ClientMethods>
+
+	<CellMethods>
+		<setTitle>
+			<Arg>	STRING		</Arg>
+		</setTitle>
+
+		<setName>
+			<Arg>	STRING		</Arg>
+		</setName>
+
+		<onRequestCell>
+			<Arg>	MAILBOX		</Arg>	<!-- cellMailbox -->
+			<Arg>	MAILBOX		</Arg>	<!-- baseMailbox -->
+		</onRequestCell>
+
+		<questStatus>
+			<Exposed/>
+		</questStatus>
+		<onQuestStatus>
+			<Arg>	UINT8	</Arg>
+		</onQuestStatus>
+
+		<say>							<!-- AOI范围内说话 -->
+			<Arg>	STRING		</Arg>	<!-- msg -->
+		</say>
+		<whisper>						<!-- 对某个角色密语 -->
+			<Arg>	STRING		</Arg>	<!-- msg -->
+			<Arg>	MAILBOX		</Arg>
+		</whisper>
+		<yell>							<!-- 向世界呐喊 -->
+			<Arg>	STRING		</Arg>	<!-- msg -->
+		</yell>
+
+		<setModelNumber>
+			<Arg>	STRING		</Arg>
+		</setModelNumber>
+
+		<setPosition>
+			<Arg>	POSITION	</Arg>
+		</setPosition>
+
+		<setQuestWorkingFlag>
+			<Arg>	INT32		</Arg>
+		</setQuestWorkingFlag>
+	</CellMethods>
+</root>

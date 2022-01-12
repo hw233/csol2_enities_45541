@@ -1,0 +1,43 @@
+<root>
+	<Properties>
+		<camp_bekill>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN			</Flags>
+			<Persistent>	true			</Persistent>
+		</camp_bekill>
+		<camp_honour>
+			<Type>		INT64			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>	0			</Default>
+		</camp_honour>
+		<camp_honourMult>	<!-- ¶à±¶ÈÙÓþ½±Àø -->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</camp_honourMult>
+		<camp_refreshTime>
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</camp_refreshTime>
+	</Properties>
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<camp_addHonour>
+			<Arg>	INT32	</Arg>
+		</camp_addHonour>
+		<camp_killReward>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	UINT16	</Arg>
+			<Arg>	INT32	</Arg>
+		</camp_killReward>
+		<camp_systemCastSpell>
+			<Arg>	UINT16	</Arg>
+			<Arg>	SKILLID	</Arg>
+		</camp_systemCastSpell>
+	</CellMethods>
+	<ClientMethods>
+	</ClientMethods>
+</root>

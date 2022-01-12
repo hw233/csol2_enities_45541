@@ -1,0 +1,20 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onChallengeSpaceEnter>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onChallengeSpaceEnter>
+		<onChallengeSpaceLogin>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onChallengeSpaceLogin>
+	</BaseMethods>
+
+</root>

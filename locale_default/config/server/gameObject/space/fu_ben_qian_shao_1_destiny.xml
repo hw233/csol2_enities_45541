@@ -1,0 +1,26 @@
+<root>
+		<spaceName>	г╟из1	</spaceName>
+		<EntityType>	SpaceCopyDestinyTrans	</EntityType>
+		<SpaceType>	SPACE_TYPE_DESTINY_TRANS	</SpaceType>
+		<DomainType>	SpaceDomainDestinyTrans	</DomainType>
+		<script>	SpaceCopyDestinyTrans	</script>
+		<className>	fu_ben_qian_shao_1_destiny	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_qian_shao_1	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<enterPos>
+				<pos>	48.362,-10.407,-89.901	</pos>
+				<direction>	0,0,-3.14	</direction>
+			</enterPos>
+			<bossID>
+				<className> 20732052 	</className>
+			</bossID>
+			<spawn>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_qian_shao_1_01.xml	</spawnFile>
+				</item>
+			</spawn>
+		</Space>
+</root>

@@ -1,0 +1,21 @@
+<root>
+		<spaceName>	嘟嘟猪	</spaceName>
+		<EntityType>	SpaceCopyPig	</EntityType>
+		<DomainType>	SpaceDomainPig	</DomainType>
+		<script>	SpaceCopyPig	</script>
+		<SpaceType>	SPACE_TYPE_PIG	</SpaceType>
+		<className>	fu_ben_du_du_zhu2	</className>
+		<dirMapping>	universes/fu_ben_shi_di	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_du_du_zhu2.xml</spawnFile>
+		<waitingCycle>	10	</waitingCycle>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+			<spaceLife>	  20	</spaceLife>		<!-- 副本时间（分钟） -->
+			<bossID>	20344009	</bossID>
+		</Space>
+</root>

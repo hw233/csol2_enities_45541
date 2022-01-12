@@ -1,0 +1,19 @@
+<root>
+		<spaceName>	混沌入侵	</spaceName>
+		<EntityType>	SpaceCopyHundun	</EntityType>
+		<DomainType>	SpaceDomainHundun	</DomainType>
+		<script>	SpaceCopyHundun	</script>
+		<SpaceType>	SPACE_TYPE_HUNDUN	</SpaceType>
+		<className>	fu_ben_hun_dun_ru_qin	</className>
+		<dirMapping>	universes/fu_ben_shan_gu	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/hun_dun_ru_qin.xml </spawnFile>
+		<waitingCycle>	10	</waitingCycle>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

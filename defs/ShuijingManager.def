@@ -1,0 +1,43 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onStart/>
+		<onEnd/>
+		<onStartNotice/>
+		<registerShuijingInfo>
+			<Arg>		UINT8			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		VECTOR3			</Arg>
+			<Arg>		VECTOR3			</Arg>
+		</registerShuijingInfo>
+		<registerShuijingMB>
+			<Arg>		STRING			</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</registerShuijingMB>
+		<onRequestShuijing>
+			<Arg>	ARRAY <of> MAILBOX </of>	</Arg>
+			<Arg>	ARRAY <of> DATABASE_ID </of>	</Arg>
+			<Arg>	INT16				</Arg>
+			<Arg>	MAILBOX				</Arg>
+		</onRequestShuijing>
+		<reEnter>
+			<Arg>		STRING			</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</reEnter>
+		<passCheckPointDoor>
+			<Arg>		STRING			</Arg>
+		</passCheckPointDoor>
+		<endShuijing>
+			<Arg>		STRING			</Arg>
+		</endShuijing>
+		<leaveShuijing>
+			<Arg>		STRING			</Arg>
+		</leaveShuijing>
+		<playerLeave>
+			<Arg>		STRING			</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</playerLeave>
+	</BaseMethods>
+</root>

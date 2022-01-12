@@ -1,0 +1,59 @@
+<root>
+		<spaceName>	城市战场	</spaceName>
+		<EntityType>	SpaceCopyTongFengHuoLianTian	</EntityType>
+		<DomainType>	SpaceDomainFengHuoLianTian	</DomainType>
+		<script>	SpaceCopyTongFengHuoLianTian	</script>
+		<SpaceType>	SPACE_TYPE_FENG_HUO_LIAN_TIAN	</SpaceType>
+		<className>	fu_ben_bang_hui_feng_huo_lian_tian	</className>
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_feng_huo_lian_tian.xml	</spawnFile>
+		<warTotalTime>	5400	</warTotalTime>
+		<dirMapping>	universes/fu_ben_feng_huo_lian_tian	</dirMapping>
+		<CanPk>	1	</CanPk>
+		<CalcPkValue>	</CalcPkValue>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<playerAoI>	150	</playerAoI>
+		<Space>
+			<right_playerEnterPoint>
+				<pos>	59.112  1.503  159.268	</pos>
+				<direction>	0 -135.0 0	</direction>
+			</right_playerEnterPoint>
+			<left_playerEnterPoint>
+				<pos>	-26.375  3.486  -259.053	</pos>
+				<direction>	0 17.707 0	</direction>
+			</left_playerEnterPoint>
+			<leftRoadJiFenWuZi>
+				<positions>	115.814 13.322 -141.162;98.482 13.462 -84.554;128.684 12.968 -74.760;121.237 6.029 6.029	</positions>
+				<amountOfUnit>	1	</amountOfUnit>
+			</leftRoadJiFenWuZi>
+			<midRoadJiFenWuZi>
+				<positions>	-12.474 2.558 -59.671	</positions>
+				<amountOfUnit>	1	</amountOfUnit>
+			</midRoadJiFenWuZi>
+			<rightRoadJiFenWuZi>
+				<positions>	-144.431 5.429 70.124;-125.668  2.22 -2.349;-146.177 2.443 -48.965;-126.799 3.272 22.0	</positions>
+				<amountOfUnit>	1	</amountOfUnit>
+			</rightRoadJiFenWuZi>
+			<leftRoadZhaoHuanWuZi>
+				<positions>	95.375 13.373 -63.837;123.823 13.683 -110.436;94.519 13.359 -128.710;102.445 10.435 -48.352	</positions>
+				<amountOfUnit>	1	</amountOfUnit>
+			</leftRoadZhaoHuanWuZi>
+			<midRoadZhaoHuanWuZi>
+				<positions>	34.896 5.329 -48.436	</positions>
+				<amountOfUnit>	1	</amountOfUnit>
+			</midRoadZhaoHuanWuZi>
+			<rightRoadZhaoHuanWuZi>
+				<positions>	-124.644 4.215 -89.946;-121.286 3.636 -36.925;-80.108 4.775 -10.39;-121.347 6.462 76.403	</positions>
+				<amountOfUnit>	1	</amountOfUnit>
+			</rightRoadZhaoHuanWuZi>
+			<lightWall_position>
+				<positions>	-26.101913 1.168941 -225.488434;49.093876 -0.769531 126.481636	</positions>
+				<directions>	0.000345 0.0 -2.879793;0.000345 0.0 0.261800	</directions>
+			</lightWall_position>
+			<left_callMonsterPositions>	-142 2 -137;-8 2 -149;96 13 -167	</left_callMonsterPositions>
+			<right_callMonsterPositions>	132 5 14;6 0 42;-121 5 120	</right_callMonsterPositions>
+			<enterLimitLevel>	29	</enterLimitLevel>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

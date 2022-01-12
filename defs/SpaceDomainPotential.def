@@ -1,0 +1,12 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onDisableQuest>
+			<Arg>	DATABASE_ID	</Arg>
+		</onDisableQuest>
+	</BaseMethods>
+</root>

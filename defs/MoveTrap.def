@@ -1,0 +1,25 @@
+<root>
+	<Parent>	SkillTrap	</Parent>
+
+	<Properties>
+		<dstPos>		<!-- 运动目标点 -->
+			<Type>		VECTOR3			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</dstPos>
+		<isSafe>		<!-- 陷阱是否无效 -->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</isSafe>
+	</Properties>
+
+	<ClientMethods>
+		<onDestroy>
+		</onDestroy>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

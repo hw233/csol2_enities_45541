@@ -1,0 +1,213 @@
+<root>
+	<Properties>
+		<attrDelayList>
+			<Type>		ARRAY <of> RECEIVEDELAY	</of>	</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+		</attrDelayList>
+
+		<attrIntonateTimer>	<!-- 吟唱timer -->
+			<Type>		CONTROLLER_ID			</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</attrIntonateTimer>
+
+		<attrIntonateSkill>	<!-- 吟唱spellID -->
+			<Type>		SKILL				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</attrIntonateSkill>
+
+		<attrIntonateTarget>	<!-- 吟唱目标 -->
+			<Type>		SKILLTARGETOBJ			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</attrIntonateTarget>
+
+		<attrHomingSpell>	<!-- 辅助spell -->
+			<Type>		SKILL				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</attrHomingSpell>
+
+		<attrHomingSpellTickTimer>	<!-- 吟唱timer -->
+			<Type>		CONTROLLER_ID			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</attrHomingSpellTickTimer>
+		
+		<attrTriggerSpell>	<!-- 辅助spell -->
+			<Type>		PYTHON				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	{}				</Default>
+			<Persistent>	false				</Persistent>
+		</attrTriggerSpell>
+		
+		<attrCooldowns>
+			<Type>		COOLDOWNS			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	true				</Persistent>
+		</attrCooldowns>
+
+		<buffTimer>
+			<Type>		CONTROLLER_ID			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</buffTimer>
+
+		<attrBuffs>
+			<Type>		ARRAY <of> BUFF </of>		</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Persistent>	true				</Persistent>
+		</attrBuffs>
+
+		<lastBuffIndex>
+			<Type>		UINT16				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</lastBuffIndex>
+
+		<currBuffTickIndex>
+			<Type>		INT16				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</currBuffTickIndex>
+		<flameWayTimer>
+			<Type>		CONTROLLER_ID			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</flameWayTimer>
+		<skillBuffOdds>
+			<Type>		BUFF_ODDS_DICT			</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Persistent>	false				</Persistent>
+		</skillBuffOdds>
+	</Properties>
+
+	<ClientMethods>
+		<spellInterrupted>
+			<Arg>		SKILLID				</Arg>	<!-- skillID -->
+			<Arg>		UINT16				</Arg>	<!-- 中断原因 -->
+		</spellInterrupted>
+
+		<intonate>	<!-- 吟唱通知 -->
+			<Arg>		SKILLID				</Arg>	<!-- skillID -->
+			<Arg>		FLOAT				</Arg>	<!-- time -->
+                        <Arg>		SKILLTARGETOBJ			</Arg>	<!-- targetIDs -->
+		</intonate>
+
+		<castSpell>	<!-- 施法通知 -->
+			<Arg>		SKILLID				</Arg>	<!-- skillID -->
+			<Arg>		SKILLTARGETOBJ			</Arg>	<!-- targetIDs -->
+		</castSpell>
+
+		<onRemoveBuff>
+			<Arg>		UINT16				</Arg>	<!-- index -->
+		</onRemoveBuff>
+		<onAddBuff>
+			<Arg>		BUFF				</Arg>	<!-- buffData -->
+		</onAddBuff>
+		<onReceiveBuff>
+			<Arg>		BUFF				</Arg>	<!-- buffData -->
+		</onReceiveBuff>
+
+		<onUpdateBuffData>
+			<Arg>		UINT8 				</Arg>
+			<Arg>		BUFF				</Arg>	<!-- buffData -->
+		</onUpdateBuffData>
+
+		<receiveSpell>
+			<Arg>			OBJECT_ID		</Arg>	<!-- casterID -->
+			<Arg>			SKILLID			</Arg>	<!-- skillID -->
+			<Arg>			INT32			</Arg>	<!-- damageType -->
+			<Arg>			INT32			</Arg>	<!-- damage -->
+		</receiveSpell>
+
+		<onStartHomingSpell>
+			<Arg>		UINT32 				</Arg>
+		</onStartHomingSpell>
+		<onTriggerSpell>
+			<Arg>		SKILLID 			</Arg>
+			<Arg>		SKILLID				</Arg>
+		</onTriggerSpell>
+		<onFiniHomingSpell/>
+                <onEndSpellMove>
+                    <Arg>			OBJECT_ID		</Arg>
+                </onEndSpellMove>
+		<onHomingSpellResist>
+			<Arg>		OBJECT_ID			</Arg>	
+		</onHomingSpellResist>
+		<stopActions/>
+	</ClientMethods>
+
+	<CellMethods>
+		<receiveOnReal>
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+			<Arg>		SKILL				</Arg>	<!-- instance of SKILL -->
+		</receiveOnReal>
+		<attachSkillOnReal>
+			<Arg>		SKILL				</Arg>
+		</attachSkillOnReal>
+		<detachSkillOnReal>
+			<Arg>		SKILL				</Arg>
+		</detachSkillOnReal>
+
+		<interruptSpell>
+			<Arg>		UINT16				</Arg>	<!-- reason -->
+		</interruptSpell>
+
+		<castSpellOnReal>
+			<Arg>		SKILL				</Arg>	<!-- instance of SKILL -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetentity -->
+		</castSpellOnReal>
+
+		<requestBuffs>	<!-- 发送所有的buff到请求的client -->
+			<Exposed/>
+		</requestBuffs>
+
+		<requestCooldowns><!-- 发送所有的cooldown到请求的client -->
+			<Exposed/>
+		</requestCooldowns>
+		<clearBuff>
+			<Arg>  ARRAY <of> INT8 </of> </Arg>
+		</clearBuff>
+
+		<spellTarget>
+			<Arg>		SKILLID				</Arg>	<!-- SKILL ID -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetentity ID -->
+		</spellTarget>
+
+		<receiveSpell>
+			<Arg>			OBJECT_ID		</Arg>	<!-- casterID -->
+			<Arg>			SKILLID			</Arg>	<!-- skillID -->
+			<Arg>			INT32			</Arg>	<!-- param1 -->
+			<Arg>			INT32			</Arg>	<!-- param2 -->
+			<Arg>			INT32			</Arg>	<!-- param3 -->
+		</receiveSpell>
+		<systemCastSpell>	<!-- 系统对玩家施放某个技能（ gjx -- 2009-8-6 ） -->
+			<Arg>	SKILLID		</Arg>
+		</systemCastSpell>
+		
+		<removeAllBuffByBuffID>
+			<Arg>			INT32			</Arg>	<!--buff ID-->
+			<Arg>	ARRAY <of> INT8 </of>	</Arg>	<!--reason-->
+		</removeAllBuffByBuffID>
+		<requestPlaySkill>
+			<Exposed/>
+			<Arg>			SKILLID			</Arg>
+		</requestPlaySkill>
+		<requestClearBuffer>
+			<Exposed/>
+		</requestClearBuffer>
+		<removeBuffByIndex>
+			<Arg>			OBJECT_ID			</Arg>
+			<Arg>			UINT8_ARRAY			</Arg>
+		</removeBuffByIndex>
+
+	</CellMethods>
+</root>

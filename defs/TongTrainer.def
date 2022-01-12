@@ -1,0 +1,56 @@
+<root>
+	<Parent>	Trainer	</Parent>
+
+	<Properties>
+		<locked> 
+			<Type>			BOOL	</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</locked>
+		<ownTongDBID> 
+			<Type>			DATABASE_ID	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownTongDBID>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<lock/>
+		<unlock/>
+
+		<researchSkill>
+			<Exposed/>
+			<Arg>	SKILLID	</Arg>
+		</researchSkill>
+		
+		<clearTongSkill>
+			<Exposed/>
+			<Arg>	SKILLID	</Arg>
+		</clearTongSkill>
+	</CellMethods>
+
+	<ClientMethods>
+		<onReceiveCanResearchSkills>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>  TONG_SKILL_RESEARCH_DATA 	</Arg>
+			<Arg> ARRAY <of> TONG_SKILL_RESEARCH_DATA </of>	</Arg>
+		</onReceiveCanResearchSkills>
+
+		<onChangeResearchSkill>
+			<Arg>  TONG_SKILL_RESEARCH_DATA 	</Arg>
+		</onChangeResearchSkill>
+
+		<receiveTrainTongSkillInfos>
+			<Arg> ARRAY <of> TONG_SKILL_RESEARCH_DATA </of>	</Arg>
+			<Arg>	UINT8 					</Arg>
+		</receiveTrainTongSkillInfos>
+
+		<onShowTongSkillClearWindow>		
+			<Arg> ARRAY <of> SKILLID </of>	</Arg>
+		</onShowTongSkillClearWindow>
+	</ClientMethods>
+
+</root>

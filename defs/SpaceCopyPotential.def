@@ -1,0 +1,26 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<CellMethods>
+		<onDisableQuest>
+		</onDisableQuest>
+		<addSpawnPoint>
+			<Arg>		MAILBOX			</Arg>
+		</addSpawnPoint>
+		<addDarkSpawnPoint>
+			<Arg>		MAILBOX			</Arg>
+		</addDarkSpawnPoint>
+		<spawnPotentialMonster>
+		</spawnPotentialMonster>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>
+
+
+

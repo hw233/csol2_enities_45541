@@ -1,0 +1,46 @@
+<root>
+	<row>
+		<id>	101	</id>
+		<content>	这是你首次上线，欢迎来到创世!$emote{e=[:)];s=(16,16)}	</content>
+		<options>
+			<link>
+				<text>	如何进行移动？	</text>
+				<linkID>	102	</linkID>
+			</link>
+		</options>
+		<uioKey>	0x01	</uioKey>
+	</row>
+	<row>
+		<id>	102	</id>
+		<content>	按下"W"、"D"、"A"、"S"键就能移动啦。	</content>
+		<options>
+			<link>
+				<text>	我已经知道如何进行移动了。	</text>
+				<linkID>	0	</linkID>
+			</link>
+		</options>
+		<uioKey>	0x0002	</uioKey>
+	</row>
+	<row>
+		<id>	201	</id>
+		<content>	你获得了一件装备，放在背包里。	</content>
+		<options>
+			<link>
+				<text>	如何穿上装备？	</text>
+				<linkID>	202	</linkID>
+			</link>
+		</options>
+		<uioKey>	0x0003	</uioKey>
+	</row>
+	<row>
+		<id>	202	</id>
+		<content>	右击装备图标就可以穿上了~	</content>
+		<options>
+			<link>
+				<text>	我已经知道如何穿戴装备。	</text>
+				<linkID>	0	</linkID>
+			</link>
+		</options>
+		<uioKey>	0x0004	</uioKey>
+	</row>
+</root>

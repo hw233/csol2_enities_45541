@@ -1,0 +1,25 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+	<Implements>
+		<Interface>	UseDomainForTeamInter		</Interface>
+	</Implements>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<closeCopyItem>
+			<Arg>		PY_DICT 	</Arg>
+		</closeCopyItem>
+		<killCopyBoss>
+			<Arg>		INT32 	</Arg>
+		</killCopyBoss>
+		<killCopyMonster>
+			<Arg>		INT32 	</Arg>
+		</killCopyMonster>
+
+		<allCopyMonsterkilled>
+			<Arg>		INT32	</Arg>
+			<Arg>		STRING	</Arg>
+		</allCopyMonsterkilled>
+	</BaseMethods>
+</root>

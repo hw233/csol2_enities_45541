@@ -1,0 +1,29 @@
+<root>
+	<Parent>	SpaceCopyMaps	</Parent>
+	<Implements>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+		<teamLevel>				<!--队伍等级-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</teamLevel>
+
+		<teamMaxLevel>				<!--队伍最高等级-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</teamMaxLevel>
+	</Properties>
+	<CellMethods>
+
+	</CellMethods>
+
+	<BaseMethods>
+		<spawnMonsters>
+			<Arg>	PY_DICT	</Arg>
+		</spawnMonsters>
+	</BaseMethods>
+</root>

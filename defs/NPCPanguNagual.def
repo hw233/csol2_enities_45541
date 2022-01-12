@@ -1,0 +1,44 @@
+<root>
+	<Parent>	Monster		</Parent>
+
+	<Properties>
+		<owner>
+			<Type>			MAILBOX			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</owner>
+
+		<ownerID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownerID>
+
+		<attackType>			<!-- ¹¥»÷ÀàÐÍ -->
+			<Type>			UINT8			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</attackType>
+		
+		<toOwnerDis>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</toOwnerDis>
+		
+		<toOwnerAngle>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</toOwnerAngle>
+	</Properties>
+
+	<CellMethods>
+		<setToOwnerPos>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</setToOwnerPos>
+	</CellMethods>
+	<ClientMethods>
+	</ClientMethods>
+</root>

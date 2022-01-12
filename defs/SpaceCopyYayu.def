@@ -1,0 +1,46 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+	<Implements>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+		<addSpawnPointYayu>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT32	</Arg>
+		</addSpawnPointYayu>
+		<addSpawnPointMonsters>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT32	</Arg>
+		</addSpawnPointMonsters>
+		<spawnYayu>
+			<Arg>	INT32	</Arg>			<!-- level -->
+		</spawnYayu>
+		<spawnMonster>
+			<Arg>	PY_DICT		</Arg>
+		</spawnMonster>
+		<spawnBoss>
+			<Arg>	PY_DICT		</Arg>
+		</spawnBoss>
+		<setYayuID>
+			<Arg>	OBJECT_ID	</Arg>		<!-- level -->
+		</setYayuID>
+		<spawnGuangXiao>
+			<Arg>	PY_DICT		</Arg>
+		</spawnGuangXiao>
+	</BaseMethods>
+	<CellMethods>
+		<onYayuDie>
+		</onYayuDie>
+		<onYayuHPChange>
+			<Arg>	INT32	</Arg>			<!-- hp -->
+			<Arg>	INT32	</Arg>			<!-- hp_max -->
+		</onYayuHPChange>
+		<onGodWeaponYayuFin>
+		</onGodWeaponYayuFin>
+	</CellMethods>
+</root>

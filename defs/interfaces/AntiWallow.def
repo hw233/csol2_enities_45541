@@ -1,0 +1,56 @@
+<root>
+	<Properties>
+		<bWallow_isAdult>				<!-- 是否是成年人 -->
+			<Type>		BOOL	</Type>
+			<Flags>		BASE	</Flags>
+			<Default>	false		</Default>
+			<Persistent>	false		</Persistent>
+		</bWallow_isAdult>
+
+		<cWallow_isAdult>				<!-- 是否是成年人 -->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	false			</Default>
+			<Persistent>	false		</Persistent>
+		</cWallow_isAdult>
+		<_AntiWallow__lucreRate>		<!-- 收益率 -->
+			<Type>			FLOAT		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		1.0			</Default>
+		</_AntiWallow__lucreRate>
+
+		<_AntiWallow__onlineTime>		<!-- 在线时间 -->
+			<Type>			INT64		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		1			</Default>
+		</_AntiWallow__onlineTime>
+		<_AntiWallow__notifyTimerID>
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</_AntiWallow__notifyTimerID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<wallow_setAgeState>
+			<Arg>	BOOL	</Arg>
+		</wallow_setAgeState>
+		<wallow_onWallowNotify>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT64	</Arg>
+		</wallow_onWallowNotify>
+	</CellMethods>
+
+	<BaseMethods>
+		<wallow_setAgeState>
+			<Arg>	BOOL	</Arg>
+		</wallow_setAgeState>
+		<wallow_onWallowNotify>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT64	</Arg>
+		</wallow_onWallowNotify>
+	</BaseMethods>
+</root>

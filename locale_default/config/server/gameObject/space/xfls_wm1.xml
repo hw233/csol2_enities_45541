@@ -1,0 +1,25 @@
+<root>
+	<EntityType>SpaceCopySingle</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopySingle</script>
+	<className>	xfls_wm1	</className>
+	<dirMapping>	universes/xin_fei_lai_shi_001	</dirMapping>
+	<CanPk>	1	</CanPk>
+	<campHonourReward/>			<!-- 有阵营击杀荣誉值奖励;另外在没有配置此字段的地图中，被击杀不计入“被阵营击杀次数” -->
+	<TimeOn>	0	</TimeOn>
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/xfls_wm1.xml	</spawnFile>
+	<TimeOn>	0	</TimeOn>
+	<canFly>	1	</canFly>
+	<CanQieCuo>	1	</CanQieCuo>		<!-- 允许切磋 -->
+	<canArrest>	</canArrest>
+	<maxLine>	1	</maxLine>
+	<initLine>	1	</initLine>
+	<newLineByPlayerAmount>	100	</newLineByPlayerAmount>
+	<maxPlayerAmount>	263	</maxPlayerAmount>
+	<Space>
+		<spaceBBoxMin> -310,-100,-210 </spaceBBoxMin>
+		<spaceBBoxMax> 310,200,170 </spaceBBoxMax>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

@@ -1,0 +1,21 @@
+<root>
+		<spaceName>	夸父神殿	</spaceName>
+		<EntityType>	SpaceCopyKuaFuRemains	</EntityType>
+		<DomainType>	SpaceDomainCopyTeam	</DomainType>
+		<script>	SpaceCopyKuaFuRemains	</script>
+		<SpaceType>	SPACE_TYPE_KUAFU_REMAINS	</SpaceType>
+		<className>	fu_ben_kua_fu_shen_dian	</className>
+		<dirMapping>	universes/fu_ben_kua_fu_shen_dian_001	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canGetAccum>	1	</canGetAccum>				<!-- 允许召唤守护，打怪能获得气运 -->
+		<canConjurePet>	1	</canConjurePet>			<!-- 禁制召唤宠物-->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_kua_fu_shen_dian_001.xml </spawnFile>
+		<waitingCycle>	10	</waitingCycle>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

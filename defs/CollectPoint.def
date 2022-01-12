@@ -1,0 +1,57 @@
+<root>
+	<Parent>	NPCObject	</Parent>
+
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<playEffect>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</playEffect>
+		<rediviousTime>	<!-- 复活时间，单位：秒；为0表示不复活 -->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0.0		</Default>
+			<Persistent>	false		</Persistent>
+			<Editable>		true		</Editable>
+		</rediviousTime>
+		
+		<monsterDatas>	<!-- 采集产生的怪物配置 -->
+			<Type>		STRING					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	false					</Persistent>
+			<Editable>	true					</Editable>
+		</monsterDatas>
+	</Properties>
+	
+	<ClientMethods>
+		<onCollectStatus>
+			<Arg>	INT8		</Arg>	
+		</onCollectStatus>
+		<onCollectDatas>
+			<Arg>	INT32		</Arg>	
+			<Arg>	INT32		</Arg>	
+			<Arg>	INT32		</Arg>	
+		</onCollectDatas>
+		<pickUpCollectPointItems>
+			<Arg>		PY_DICT	</Arg>
+		</pickUpCollectPointItems>
+		<pickUpItemByIndexBC>
+			<Arg>	INT8		</Arg>	
+		</pickUpItemByIndexBC>
+	</ClientMethods>
+
+	<CellMethods>
+		<collectStatus>
+			<Exposed/>
+		</collectStatus>
+		<onPickUpItemByIndex>
+			<Exposed/>
+			<Arg>	INT8		</Arg>	
+		</onPickUpItemByIndex>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

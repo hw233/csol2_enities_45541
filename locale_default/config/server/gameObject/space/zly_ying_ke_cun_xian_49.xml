@@ -1,0 +1,23 @@
+<root>
+	<EntityType>SpaceCopySingle</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopySingle</script>
+	<className>zly_ying_ke_cun_xian_49</className>
+	<dirMapping> universes/zly_ying_ke_cun_dao_45 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<playerAoI>	150	</playerAoI>				<!--玩家的视野范围-->
+	<CanQieCuo>	1	</CanQieCuo>		<!-- 允许切磋 -->
+	<TimeOfDay>	48600	</TimeOfDay>
+	<spawnFile>	config/server/spawn/zly_ying_ke_cun_xian_49.xml	</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>
+	<maxPlayerAmount>1050</maxPlayerAmount>
+	<initLine>1</initLine>
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 
+	<Space>
+		<spaceBBoxMin>	-900,-100,-240	</spaceBBoxMin>
+		<spaceBBoxMax>	190,700,925	</spaceBBoxMax>
+		<deathDepth>	-70	</deathDepth>
+	</Space>
+</root>

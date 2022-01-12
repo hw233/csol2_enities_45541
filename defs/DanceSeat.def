@@ -1,0 +1,17 @@
+<root>
+	<Parent>	NPC	</Parent>
+
+	<Properties>
+		<locationIndex>	<!-- Î»ÖÃË÷Òý -->
+			<Type>			UINT8				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+		</locationIndex>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

@@ -1,0 +1,103 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<fengHuoLianTianInfos>
+			<Type>	TONG_FENG_HUO_LIAN_TIAN_INFOS	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</fengHuoLianTianInfos>
+		<tongCallBoxDict>
+			<Type>	PYTHON	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongCallBoxDict>
+		<tongCallMonsterDict>
+			<Type>	PYTHON	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongCallMonsterDict>
+		<tongTowerDict>
+			<Type>	PYTHON	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongTowerDict>
+		<tongAltarDict>
+			<Type>	PYTHON	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongAltarDict>
+		<tongLastIntegralList>
+			<Type>	PYTHON	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongLastIntegralList>
+	</Properties>
+
+	<BaseMethods>
+		<closeFengHuoLianTianRoom/>
+	</BaseMethods>
+	<CellMethods>
+		<closeFengHuoLianTianRoom/>
+		<onRoleRelive>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</onRoleRelive>
+		<addTongFengHuoLianTianIntegral>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32	</Arg>
+		</addTongFengHuoLianTianIntegral>
+		<decTongFengHuoLianTianIntegral>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32	</Arg>
+		</decTongFengHuoLianTianIntegral>
+		<addHostilityTongIntegral>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32	</Arg>
+		</addHostilityTongIntegral>
+		<addTongCallBox>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32	</Arg>
+		</addTongCallBox>
+		<onMonsterXianFengDie>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING	</Arg>
+		</onMonsterXianFengDie>
+		<onRoleBeKill>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+		</onRoleBeKill>
+		<addIntegralTimer>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32	</Arg>
+	`		<Arg>	BOOL	</Arg>
+		</addIntegralTimer>
+		<addSpawnPoint>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	INT8	</Arg>
+		</addSpawnPoint>
+		<addTowerNum>
+			<Arg>	DATABASE_ID	</Arg>
+		</addTowerNum>
+		<addAltarNum>
+			<Arg>	DATABASE_ID	</Arg>
+		</addAltarNum>
+		<decAltarNum>
+			<Arg>	DATABASE_ID	</Arg>
+		</decAltarNum>
+		<decTowerNum>
+			<Arg>	DATABASE_ID	</Arg>
+		</decTowerNum>
+		<noticePlayers>
+			<Arg>	STRING	</Arg>
+			<Arg>	BLOB_ARRAY	</Arg>
+		</noticePlayers>
+		<noticeTongSituation>
+			<Arg>	INT16	</Arg>
+		</noticeTongSituation>
+	</CellMethods>
+
+
+</root>

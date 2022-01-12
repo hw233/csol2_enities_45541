@@ -1,0 +1,3 @@
+# -*- coding: gb18030 -*-
+
+SIGNBOARD = "µÄµêÆÌ"

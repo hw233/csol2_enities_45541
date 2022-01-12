@@ -1,0 +1,78 @@
+<root>
+	<spaceName>	异界战场	</spaceName>
+	<EntityType>SpaceCopyYiJieZhanChang</EntityType>
+	<DomainType>SpaceDomainYiJieZhanChang</DomainType>
+	<SpaceType>SPACE_TYPE_YI_JIE_ZHAN_CHANG</SpaceType>
+	<script>SpaceCopyYiJieZhanChang</script>
+	<className>fu_ben_yi_jie_zhan_chang</className>
+	<dirMapping> universes/fu_ben_yi_jie_zhan_chang_001 </dirMapping>
+	<CanPk>	1	</CanPk>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<canVehicle> 0 </canVehicle>	<!-- 是否允许上坐骑 -->
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_yi_jie_zhan_chang.xml		</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<CalcPkValue/>
+	<Space>
+		<deathDepth>		-90		</deathDepth>
+		<minLevel>			30		</minLevel> 		<!-- 最小参与等级 -->
+		<maxLevel>			120		</maxLevel> 		<!-- 最高参与等级 -->
+		<intervalLevel>		100		</intervalLevel> 	<!-- 等级间隔 -->
+		<minPlayer>			0		</minPlayer>		<!-- 战场至少有多少人不关闭 -->
+		<maxPlayer>			3		</maxPlayer>		<!-- 战场最多进入人数 -->
+		<canAllianceTime>	600		</canAllianceTime>	<!-- 战场开启后多久可以结盟（秒） -->
+		<enrageTime>		300		</enrageTime>		<!-- 一方持续弱势多久后会被激怒（秒） -->
+		<closeTime>			5		</closeTime>		<!-- 战场关闭倒计时（秒） -->
+		<reviveTime>		10		</reviveTime>		<!-- 复活倒计时（秒） -->
+		<reviveRadius>		5		</reviveRadius>		<!-- 复活点半径（米） -->
+		<maxOfflineTime>	300		</maxOfflineTime>	<!-- 不受惩罚的最长离线时间（秒） -->
+		<maxRage>			5		</maxRage>			<!-- 最大怒气值 -->
+		<Door>
+			<row1>
+				<Name>			天阵营传送门	</Name>
+				<Pos>		 -41.5 200.4 113.5	</Pos>
+				<radius>			2			</radius>
+				<DestSpace>		fengming		</DestSpace>
+				<DestPos> 	218.2 10.5 160.0	</DestPos>
+				<DestDirection>		0 0 0		</DestDirection>
+				<modelNumber>		gw7123		</modelNumber>
+				<modelScale>		50			</modelScale>
+			</row1>
+			<row2>
+				<Name>			地阵营传送门	</Name>
+				<Pos>		 139.8 196.7 2.5		</Pos>
+				<radius>			2			</radius>
+				<DestSpace>		fengming		</DestSpace>
+				<DestPos> 	218.2 10.5 160.0	</DestPos>
+				<DestDirection>		0 0 0		</DestDirection>
+				<modelNumber>		gw7123		</modelNumber>
+				<modelScale>		50			</modelScale>
+			</row2>
+			<row3>
+				<Name>			人阵营传送门	</Name>
+				<Pos>	 	-33.6 197.4 -98.1	</Pos>
+				<radius>			2			</radius>
+				<DestSpace>		fengming		</DestSpace>
+				<DestPos> 	218.2 10.5 160.0	</DestPos>
+				<DestDirection>		0 0 0		</DestDirection>
+				<modelNumber>		gw7123		</modelNumber>
+				<modelScale>		50			</modelScale>
+			</row3>
+		</Door>
+		<enterInfos>
+			<item>
+				<position>	-45.4 199.3 96.1	</position>			<!-- 天方阵营复活点 -->
+				<direction>	0 0 2.53	</direction>
+			</item>
+			<item>
+				<position>	120.3 196.9 1.2	</position>			<!-- 地方阵营复活点 -->
+				<direction>	0 0 -1.47	</direction>
+			</item>
+			<item>
+				<position>	-34.2 197.2 -82.3	</position>		<!-- 人方阵营复活点 -->
+				<direction>	0 0 0.34	</direction>
+			</item>
+		</enterInfos>
+	</Space>
+</root>

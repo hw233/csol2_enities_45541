@@ -1,0 +1,22 @@
+<root>
+	<EntityType>SpaceCopySingle</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopySingle</script>
+	<className>zly_bi_shi_jian_mo_54</className>
+	<dirMapping> universes/zly_bi_shi_jian_mo_54 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/zly_bi_shi_jian_mo_54.xml		</spawnFile>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<Space>
+		<spaceBBoxMin>	-1000,200,-1000	</spaceBBoxMin>
+		<spaceBBoxMax>	1000,650,1000	</spaceBBoxMax>
+		<deathDepth>	-250	</deathDepth>
+	</Space>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>                                  		
+	<initLine>1</initLine>
+	<maxPlayerAmount>525</maxPlayerAmount>                           
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 	
+</root>

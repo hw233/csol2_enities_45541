@@ -1,0 +1,42 @@
+<root>
+	<Properties>
+		<name>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<DatabaseLength>255</DatabaseLength>
+			<Identifier>	true		</Identifier>
+		</name>
+	</Properties>
+
+	<BaseMethods>
+		<onSpaceLoseCell>
+			<Arg>	SPACE_NUMBER 		</Arg>		<!-- number -->
+		</onSpaceLoseCell>
+
+		<onSpaceGetCell>
+			<Arg>	SPACE_NUMBER 		</Arg>		<!-- number -->
+		</onSpaceGetCell>
+
+		<onSpaceCloseNotify>
+			<Arg>	SPACE_NUMBER 		</Arg>		<!-- number -->
+		</onSpaceCloseNotify>
+
+		<teleportEntity>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</teleportEntity>
+
+		<teleportEntityOnLogin>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</teleportEntityOnLogin>
+
+		<requestCreateSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- entity base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</requestCreateSpace>
+	</BaseMethods>
+</root>

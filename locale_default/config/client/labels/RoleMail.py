@@ -1,0 +1,3 @@
+# -*- coding: gb18030 -*-
+
+WITHDRAW_TITLE = "%sмк╩ь╣дпе(%s)"

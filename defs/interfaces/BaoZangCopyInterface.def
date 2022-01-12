@@ -1,0 +1,115 @@
+<root>
+	<Properties>
+		<baoZangRivalTMB>
+			<Type>		MAILBOX			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</baoZangRivalTMB>
+		<baoZangRivalMembers>
+			<Type>		ARRAY <of> OBJECT_ID </of>			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</baoZangRivalMembers>
+		<yingXiongCampRivalTMB>
+			<Type>		MAILBOX			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</yingXiongCampRivalTMB>
+		<yingXiongCampRivalMembers>
+			<Type>		ARRAY <of> OBJECT_ID </of>			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</yingXiongCampRivalMembers>
+	</Properties>
+
+	<ClientMethods>
+		<baoZangPVPonReq>
+			<Arg> FLOAT </Arg>
+		</baoZangPVPonReq>
+		<baoZangPVPonCancel>
+			<Arg> BOOL </Arg>
+		</baoZangPVPonCancel>
+		<baoZangReqSucceed>
+			<Arg> OBJECT_ID </Arg>
+		</baoZangReqSucceed>
+		<baoZangOpenPVPTeamInfos>
+			<Arg> ARRAY <of>OBJECT_ID</of> </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> BOOL 	</Arg>
+		</baoZangOpenPVPTeamInfos>
+		<baoZangReReq/><!-- Æ¥ÅäÊ§°Ü -->
+		<baoZangClosePVPTeamInfos/>
+		<baoZangOnReqRobotInfos>
+			<Arg> ARRAY <of> PY_DICT </of> </Arg>
+		</baoZangOnReqRobotInfos>
+		<baoZangPVEonSetRobot>
+			<Arg> ARRAY <of>STRING</of> </Arg>
+		</baoZangPVEonSetRobot>
+		<baoZangReqPVE>
+			<Arg> ARRAY <of> PY_DICT </of> </Arg>
+			<Arg> ARRAY <of>STRING</of> </Arg>
+		</baoZangReqPVE>
+		<!--ÕóÓªÓ¢ÐÛÍõ×ù-->
+		<yingXiongCampOnReq>
+			<Arg> FLOAT </Arg>
+		</yingXiongCampOnReq>
+		<yingXiongCampOnCancel>
+			<Arg> BOOL </Arg>
+		</yingXiongCampOnCancel>
+		<yingXiongCampReqSucceed>
+			<Arg> OBJECT_ID </Arg>
+		</yingXiongCampReqSucceed>
+		<yingXiongCampOpenTeamInfos>
+			<Arg> ARRAY <of>OBJECT_ID</of> </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> BOOL 	</Arg>
+		</yingXiongCampOpenTeamInfos>
+		<yingXiongCampReReq/><!-- Æ¥ÅäÊ§°Ü -->
+	</ClientMethods>
+	<CellMethods>
+		<baoZangReqRobotInfos>
+			<Exposed/>
+		</baoZangReqRobotInfos>
+		<baoZangPVESetRobot>
+			<Exposed/>
+			<Arg> ARRAY <of>STRING</of> </Arg>
+		</baoZangPVESetRobot>
+		<baoZangOnReqPVE>
+			<Exposed/>
+			<Arg> ARRAY <of>STRING</of> </Arg>
+		</baoZangOnReqPVE>
+		<baoZangSetRivalTeamIDs>
+			<Arg> ARRAY <of>OBJECT_ID</of> </Arg>
+			<Arg>  FLOAT	</Arg>
+		</baoZangSetRivalTeamIDs>
+		<baoZangPVPInfosReset/>
+		<baoZangReqPVP/>
+		<baoZangPVPcancel>
+			<Exposed/>
+		</baoZangPVPcancel>
+		<baoZangReqSucceed>
+			<Arg> MAILBOX </Arg>
+		</baoZangReqSucceed>
+		<baoZangGotoNPC>
+			<Exposed/>
+		</baoZangGotoNPC>
+		<!--ÕóÓªÓ¢ÐÛÍõ×ù-->
+		<yingXiongCampSetRivalTeamIDs>
+			<Arg> ARRAY <of>OBJECT_ID</of> </Arg>
+			<Arg>  FLOAT	</Arg>
+		</yingXiongCampSetRivalTeamIDs>
+		<yingXiongCampInfosReset/>
+		<yingXiongCampReq/>
+		<yingXiongCampCancel>
+			<Exposed/>
+		</yingXiongCampCancel>
+		<yingXiongCampReqSucceed>
+			<Arg> MAILBOX </Arg>
+		</yingXiongCampReqSucceed>
+		<yingXiongCampGotoNPC>
+			<Exposed/>
+		</yingXiongCampGotoNPC>
+	</CellMethods>
+	<BaseMethods>
+	</BaseMethods>
+</root>

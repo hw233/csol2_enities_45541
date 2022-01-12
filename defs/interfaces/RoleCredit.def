@@ -1,0 +1,80 @@
+<root>
+	<Properties>
+		<prestige> <!--声望-->
+			<Type>			PRESTIGE	</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Persistent>		true		</Persistent>
+		</prestige>
+
+		<title>
+			<Type>		UINT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</title>
+		<titleName> <!--称号名字-->
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</titleName>
+		<titles>
+			<Type>		ARRAY <of> UINT8 </of>	</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</titles>
+		<titleLimitTime> <!--角色的称号时限-->
+			<Type>	ARRAY	<of>	TITLE_LIMIT_TIME	</of></Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		true			</Persistent>
+		</titleLimitTime>
+	</Properties>
+
+	<ClientMethods>
+		<!--声望-->
+		<prestigeUpdate> <!--声望改变，提供给server的通知函数-->
+			<Arg>	UINT8	</Arg>	<!--势力id-->
+			<Arg>	INT32	</Arg>	<!--势力声望值-->
+		</prestigeUpdate>
+		<turnOnPrestige> <!--开启声望-->
+			<Arg>	UINT8	</Arg>	<!--势力id-->
+			<Arg>	INT32	</Arg>	<!--势力声望值-->
+		</turnOnPrestige>
+		<receivePrestige>
+			<Arg>	UINT8	</Arg>	<!--势力id-->
+			<Arg>	INT32	</Arg>	<!--势力声望值-->
+		</receivePrestige>
+
+		<!--称号-->
+		<onTitleAdded>
+			<Arg>		UINT8			</Arg>	<!-- title -->
+		</onTitleAdded>
+		<onTitleRemoved>
+			<Arg>		UINT8			</Arg>	<!-- title -->
+		</onTitleRemoved>
+		<onPrestigeChange>
+		</onPrestigeChange>
+	</ClientMethods>
+	<CellMethods>
+		<!--称号-->
+		<selectTitle> <!--玩家选择一个称后-->
+			<Exposed/>
+			<Arg>	UINT8	</Arg>	<!--titleID-->
+		</selectTitle>
+
+		<addTitle>
+			<Arg>		UINT8			</Arg>	<!-- title -->
+		</addTitle>
+		<removeTitle>
+			<Arg>		UINT8			</Arg>	<!-- title -->
+		</removeTitle>
+		<receiveTitleName> <!--接受base发送过来的称号名字-->
+			<Arg>	UINT16	</Arg>
+			<Arg>	STRING	</Arg>	<!--name-->
+		</receiveTitleName>
+	</CellMethods>
+	<BaseMethods>
+		<sendTitleName> <!--请求base发送称号名字-->
+			<Arg>	UINT16	</Arg>
+		</sendTitleName>
+	</BaseMethods>
+</root>

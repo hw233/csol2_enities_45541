@@ -1,0 +1,25 @@
+<root>
+	<CellMethods>
+		<takePresent>	<!-- 发消息让玩家领奖 -->
+			<Arg>  ARRAY <of> STRING </of>  </Arg>	<!-- 物品的ID   -->
+		</takePresent>
+		<pcu_onGetPresentTypes>
+			<Arg>  ARRAY <of> UINT8 </of>   </Arg>	<!-- 玩家拥有的奖励类型   -->
+		</pcu_onGetPresentTypes>
+	</CellMethods>
+	<BaseMethods>
+		<pcu_takeThings>
+			<Arg>  UINT8	</Arg>	<!-- 领取的奖励的类型 -->
+			<Arg>  ITEM_ID	</Arg>
+		</pcu_takeThings>
+
+		<pcu_getPresentTypes>
+		</pcu_getPresentTypes>
+
+		<takeOverSuccess>		<!-- 告诉BASE东西已经收到 -->
+		</takeOverSuccess>
+
+		<takeOverFailed>		<!-- 告诉BASE领取失败 -->
+		</takeOverFailed>
+	</BaseMethods>
+</root>

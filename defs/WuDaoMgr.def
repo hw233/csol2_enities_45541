@@ -1,0 +1,42 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<requestSignUp>
+			<Arg>		INT16		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+		</requestSignUp>
+
+		<onEnterWuDaoSpace>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		PY_DICT		</Arg>
+		</onEnterWuDaoSpace>
+
+		<onWuDaoOverFromSpace>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		INT16		</Arg>
+			<Arg>		BOOL		</Arg>
+		</onWuDaoOverFromSpace>
+		<onStartNotice/>
+		<onEndNotice/>
+		
+		<selectEnterWuDao>
+			<Arg>		DATABASE_ID	</Arg>
+		</selectEnterWuDao>
+
+		<updateDBIDToBaseMailbox>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</updateDBIDToBaseMailbox>
+
+		<delDBIDToBaseMailbox>
+			<Arg>		DATABASE_ID	</Arg>
+		</delDBIDToBaseMailbox>
+	</BaseMethods>
+</root>

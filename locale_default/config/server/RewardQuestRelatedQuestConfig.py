@@ -1,0 +1,2468 @@
+# -*- coding: gb18030 -*-
+Datas = ({
+	'questID':60202001,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':4,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202002,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':5,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202003,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':6,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202004,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':7,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202005,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':8,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202006,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':21,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202007,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':10,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202008,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':11,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202009,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':12,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202010,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':13,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202011,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':14,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202012,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':14,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202013,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':15,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202014,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':16,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202015,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':17,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202016,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':23,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202017,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':19,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202018,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':18,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202019,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':20,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202020,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':22,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202021,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':23,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202022,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':24,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202023,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':26,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202024,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':25,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202025,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':27,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202026,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':28,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202027,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':29,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202028,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':3,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202029,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':6,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202030,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':9,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202031,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':13,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202032,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':15,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202033,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':23,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202034,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':18,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202035,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':23,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202036,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':25,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202037,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':28,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202038,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':7,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202039,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':7,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202040,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':7,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202041,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':7,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202042,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':7,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60202043,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':22,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202044,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':22,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202045,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':22,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202046,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':22,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202047,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':22,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202048,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':16,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202049,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':18,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202050,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':20,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202051,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':22,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202054,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':28,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60202056,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':12,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202057,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':14,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60202058,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':31,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202059,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':32,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202060,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':33,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202061,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':34,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202062,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202063,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':36,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202064,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':37,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202065,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':38,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202066,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':39,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202067,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':40,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202068,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':41,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202069,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':42,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202070,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':43,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202071,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':44,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202072,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':45,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202073,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':46,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202074,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':47,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202075,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':48,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202076,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':49,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202077,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202078,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':51,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202079,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':52,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202080,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':53,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202081,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':54,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202082,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202083,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':56,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202084,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':57,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202085,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':58,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202086,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':59,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202087,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':60,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202088,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':61,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202089,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':62,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202090,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':63,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202091,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':64,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202092,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':65,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202093,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':66,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202094,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':67,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202095,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':68,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202096,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':69,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202097,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':70,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202098,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':71,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202099,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':72,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202100,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':73,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202101,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':74,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202102,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':75,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202103,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':76,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202104,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':77,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202105,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':78,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202106,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':79,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202107,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':80,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202108,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':33,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202109,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':36,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202110,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':39,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202111,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':42,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202112,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':45,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202113,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':48,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202114,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':51,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202115,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':54,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202116,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':57,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202117,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':60,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202118,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':63,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202119,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':66,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202120,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':69,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202121,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':72,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202122,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':75,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202123,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':78,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202124,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202125,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202126,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202127,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202128,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202129,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202130,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202131,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202132,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202133,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202134,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':70,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202135,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':70,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202136,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':70,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202137,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':70,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202138,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':70,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202139,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202140,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202141,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202142,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60202143,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':45,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202144,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':45,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202145,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':45,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202146,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':45,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60202147,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202148,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202149,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202150,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60202151,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':65,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202152,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':65,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202153,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':65,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202154,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':65,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60202155,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':75,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202156,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':75,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202157,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':75,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202158,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':75,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60202159,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':81,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202160,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':82,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202161,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':84,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202162,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':85,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202163,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':87,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202164,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':88,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202165,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':90,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202166,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':91,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202167,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':92,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202168,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':93,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202169,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':81,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202170,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':84,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202171,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':87,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202172,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':90,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202173,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':92,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202174,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':82,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202175,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':85,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202176,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':88,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60202177,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':91,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202178,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':93,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202179,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':90,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202180,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':90,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202181,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':90,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202182,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':90,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202183,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':90,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202184,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':90,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202185,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':90,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202186,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':96,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202187,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':97,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202188,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':98,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202189,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':99,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202190,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':102,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202191,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':102,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202192,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':103,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202193,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':104,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202194,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202195,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':106,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202196,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':108,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202197,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202198,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':96,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202199,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':99,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202200,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':102,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202201,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202202,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':108,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202203,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':97,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60202204,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':100,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202205,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':103,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202206,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':106,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202207,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202208,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202209,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202210,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202211,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202212,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202213,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202214,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202215,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202216,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':110,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202217,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':110,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202218,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':111,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202219,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':112,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202220,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':113,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202221,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':113,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202222,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':114,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202223,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':114,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202224,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202225,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':116,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202226,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':116,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202227,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':117,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202228,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':117,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202229,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':118,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202230,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':118,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202231,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':119,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202232,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':119,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202233,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60202234,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':112,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202235,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202236,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':118,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202237,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':121,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202238,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':110,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202239,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':112,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202240,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':114,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202241,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':116,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202242,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':118,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202243,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202244,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202245,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202246,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60202247,'belongCamp':0,'smallType':13,'bigType':1,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60204001,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':5,'isRandomQuest':1,'maxLevel':10,
+},
+{
+	'questID':60204002,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':15,'isRandomQuest':1,'maxLevel':20,
+},
+{
+	'questID':60204003,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':25,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':60204004,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':60204005,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':45,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':60204006,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204007,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':65,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':60204008,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':75,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':60204009,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':85,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':60204010,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':95,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':60204011,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':60204012,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':60204013,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':125,'isRandomQuest':1,'maxLevel':130,
+},
+{
+	'questID':60204014,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':135,'isRandomQuest':1,'maxLevel':140,
+},
+{
+	'questID':60204015,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':145,'isRandomQuest':1,'maxLevel':150,
+},
+{
+	'questID':60204016,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204017,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204018,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204019,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204020,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204021,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204022,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204023,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204024,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204025,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204026,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204027,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204028,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204029,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204030,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204031,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204032,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204033,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204034,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204035,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204036,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204037,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204038,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204039,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204040,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204041,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204042,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204043,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204044,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204045,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204046,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204047,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204048,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204049,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204050,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204051,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204052,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204053,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204054,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204055,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204056,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':50,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60204999,'belongCamp':0,'smallType':11,'bigType':1,'minLevel':1,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':60201002,'belongCamp':0,'smallType':10,'bigType':1,'minLevel':60,'isRandomQuest':0,'maxLevel':90,
+},
+{
+	'questID':60201003,'belongCamp':0,'smallType':10,'bigType':1,'minLevel':90,'isRandomQuest':0,'maxLevel':120,
+},
+{
+	'questID':60201004,'belongCamp':0,'smallType':10,'bigType':1,'minLevel':120,'isRandomQuest':0,'maxLevel':150,
+},
+{
+	'questID':60201005,'belongCamp':0,'smallType':10,'bigType':1,'minLevel':150,'isRandomQuest':0,'maxLevel':150,
+},
+{
+	'questID':40402001,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402002,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402003,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402004,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402005,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402006,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402007,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402008,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402009,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402010,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402011,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402012,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402013,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402014,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402015,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40403001,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403002,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403003,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403004,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403005,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403006,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403007,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403008,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403009,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403010,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403011,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403012,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403013,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403014,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403015,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40404001,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404002,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404003,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404004,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404005,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404006,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404007,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404008,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404009,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404010,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404011,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404012,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404013,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404014,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404015,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404016,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404017,'belongCamp':1,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40502001,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502002,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502003,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502004,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502005,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502006,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502007,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40503001,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503002,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503003,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503004,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503005,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503006,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503007,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40504001,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504002,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504003,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504004,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504005,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504006,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504007,'belongCamp':1,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40402016,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402017,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402018,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402019,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402020,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402021,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402022,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402023,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402024,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402025,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402026,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402027,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402028,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402029,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40402030,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40403016,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403017,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403018,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403019,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403020,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403021,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403022,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403023,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403024,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403025,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403026,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403027,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403028,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403029,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40403030,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40404018,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404019,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404020,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404021,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404022,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404023,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404024,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404025,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404026,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404027,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404028,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404029,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404030,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404031,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404032,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404033,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40404034,'belongCamp':2,'smallType':15,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40502008,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502009,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502010,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502011,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502012,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502013,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40502014,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':30,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40503008,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503009,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503010,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503011,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503012,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503013,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40503014,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40504008,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504009,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504010,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504011,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504012,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504013,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40504014,'belongCamp':2,'smallType':14,'bigType':2,'minLevel':50,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':30501008,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':20,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30501010,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':21,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30501011,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':22,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30501012,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':23,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30501007,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':24,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30501013,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':24,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30501014,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':25,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30501015,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':27,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30501016,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':28,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30501017,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':29,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30502001,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':30,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30502002,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':31,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30502003,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':32,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30502004,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':33,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30502005,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':39,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30502006,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30502007,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':36,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30502008,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':37,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30502009,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':38,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30502010,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':39,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30502012,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':41,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30504001,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':41,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30504002,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':42,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30504003,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':43,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30504004,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':44,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30504005,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':45,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30504006,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':46,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30504007,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':47,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30504008,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':48,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30504009,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':49,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30504010,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':50,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30505001,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':51,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30505002,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':52,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30505003,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':53,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30505004,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':54,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30505005,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30505006,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':56,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30505007,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':57,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30505008,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':58,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30505009,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':59,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30503001,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':60,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30503002,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':61,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30503003,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':62,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30503004,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':63,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30503005,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':64,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30503006,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':65,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30503007,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':66,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30503008,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':67,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30503009,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':68,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30503010,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':69,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30506001,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':70,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30506002,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':71,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30506003,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':72,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30506004,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':73,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30506005,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':74,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30506006,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':75,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30506007,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':76,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30506008,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':77,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30506009,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':78,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30506010,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':79,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30506011,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':80,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30506012,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':80,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30507001,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':80,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30507002,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':82,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30507003,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':85,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30507004,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':86,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30507005,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':87,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30507006,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':88,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30507007,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':90,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30507008,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':91,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30507009,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':93,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30507010,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':94,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30508001,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':95,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30508002,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':97,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30508003,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':98,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30508004,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':99,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30508005,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':101,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30508006,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':102,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30508007,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':103,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30508008,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':104,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30508009,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30508010,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':106,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30508011,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':108,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30508012,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30509001,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30509002,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30509003,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':110,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30509004,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':110,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30509005,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':111,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509006,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':111,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509007,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':112,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509008,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':112,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509009,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':113,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509010,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':113,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509011,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':114,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509012,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':114,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509013,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509014,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509015,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':116,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509016,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':116,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509017,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':117,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509018,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':118,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30509019,'belongCamp':0,'smallType':17,'bigType':3,'minLevel':119,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30101003,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':20,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101005,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':21,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101004,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':22,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101006,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':22,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101002,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':23,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101007,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':23,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101008,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':24,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101009,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':25,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101001,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':26,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101010,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':27,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101011,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':28,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30101012,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':29,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30102001,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':30,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':30102002,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':31,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30102003,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':32,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30102004,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':33,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30102005,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':39,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30102006,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30102007,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':36,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30102008,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':37,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30102009,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':38,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30102010,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':39,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30104001,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':40,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':30104002,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':41,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30104003,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':42,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30104004,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':43,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30104005,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':44,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30104006,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':45,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30104007,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':46,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30104008,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':47,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30104009,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':48,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30104010,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':49,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30105001,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':50,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':30105002,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':51,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105003,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':52,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105004,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':53,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105005,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':54,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105006,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105007,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':56,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105008,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':57,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105009,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':58,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105010,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':59,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105011,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':60,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105012,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105013,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':57,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30105014,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':59,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30103001,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':60,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':30103002,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':61,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103003,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':62,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103004,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':63,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103005,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':64,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103006,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':65,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103007,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':66,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103008,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':67,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103009,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':68,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103010,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':69,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103011,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':60,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103012,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':62,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103013,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':64,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103014,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':66,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103015,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':67,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30103016,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':69,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30106001,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':70,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':30106002,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':71,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106003,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':72,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106004,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':73,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106005,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':74,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106006,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':75,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106007,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':76,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106008,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':77,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106009,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':78,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106010,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':79,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106011,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':80,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106012,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':80,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106013,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':70,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106014,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':72,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30106015,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':74,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':30107001,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':80,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107002,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':82,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107003,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':85,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107004,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':86,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107005,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':87,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107006,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':88,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107007,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':90,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107008,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':91,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107009,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':93,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107010,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':94,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107011,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':85,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107012,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':86,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107013,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':88,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107014,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':90,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':30107015,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':91,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30107016,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':92,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30107017,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':94,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30107018,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':96,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30107019,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':98,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30107020,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':99,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30108001,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':95,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30108002,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':96,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30108003,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':97,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30108004,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':98,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30108005,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':99,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':30108006,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':101,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108007,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':103,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108008,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':104,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108009,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108010,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':107,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108011,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':108,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108012,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108013,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':100,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108014,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':101,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108015,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':102,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108016,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':103,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108017,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108018,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':106,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108019,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':107,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108020,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':108,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108021,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':110,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':30108022,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':111,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30108023,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':112,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30108024,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':113,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109001,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':109,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109002,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':109,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109003,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':110,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109004,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':110,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109005,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':111,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109006,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':112,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109007,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':112,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109008,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':113,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109009,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':114,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109010,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':114,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109011,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109012,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':116,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109013,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':116,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109014,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':117,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109015,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':117,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109016,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':118,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109017,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':118,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109018,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':119,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':30109019,'belongCamp':0,'smallType':16,'bigType':3,'minLevel':119,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40301001,'belongCamp':0,'smallType':18,'bigType':3,'minLevel':35,'isRandomQuest':0,'maxLevel':40,
+},
+{
+	'questID':40301002,'belongCamp':0,'smallType':18,'bigType':3,'minLevel':40,'isRandomQuest':0,'maxLevel':50,
+},
+{
+	'questID':40301004,'belongCamp':0,'smallType':18,'bigType':3,'minLevel':70,'isRandomQuest':0,'maxLevel':80,
+},
+{
+	'questID':40301005,'belongCamp':0,'smallType':18,'bigType':3,'minLevel':10,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40301006,'belongCamp':0,'smallType':18,'bigType':3,'minLevel':11,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40304001,'belongCamp':0,'smallType':18,'bigType':3,'minLevel':20,'isRandomQuest':0,'maxLevel':60,
+},
+{
+	'questID':40101014,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':20,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':40101015,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':21,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':40101013,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':23,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':40101016,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':23,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':40101018,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':25,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':40101019,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':27,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':40101020,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':28,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':40101021,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':29,'isRandomQuest':1,'maxLevel':30,
+},
+{
+	'questID':40101022,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':31,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':40101056,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':32,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':40101023,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':33,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':40101057,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':34,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':40101024,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':35,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':40101058,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':36,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':40101025,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':37,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':40101059,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':38,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':40101026,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':39,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':40101060,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':40,'isRandomQuest':1,'maxLevel':40,
+},
+{
+	'questID':40101027,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':41,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':40101061,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':42,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':40101028,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':43,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':40101062,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':44,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':40101029,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':45,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':40101063,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':46,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':40101030,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':47,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':40101064,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':48,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':40101031,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':49,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':40101065,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':50,'isRandomQuest':1,'maxLevel':50,
+},
+{
+	'questID':40101032,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':51,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101066,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':52,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101033,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':53,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101067,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':54,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101034,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101081,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':55,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101068,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':56,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101035,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':57,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101082,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':57,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101069,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':58,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101036,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':59,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101083,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':59,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101037,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':60,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101070,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':60,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101084,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':60,'isRandomQuest':1,'maxLevel':60,
+},
+{
+	'questID':40101038,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':61,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101039,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':62,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101085,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':62,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101040,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':63,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101041,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':64,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101086,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':64,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101042,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':65,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101043,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':66,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101087,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':66,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101044,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':67,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101088,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':67,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101045,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':68,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101046,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':69,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101089,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':69,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101047,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':70,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101090,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':70,'isRandomQuest':1,'maxLevel':70,
+},
+{
+	'questID':40101048,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':71,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':40101049,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':72,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':40101091,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':72,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':40101050,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':73,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':40101051,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':74,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':40101092,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':74,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':40101052,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':75,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':40101053,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':76,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':40101054,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':77,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':40101055,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':78,'isRandomQuest':1,'maxLevel':80,
+},
+{
+	'questID':40101075,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':82,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101071,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':83,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101077,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':84,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101073,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':85,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101093,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':85,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101079,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':86,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101094,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':86,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101080,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':88,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101095,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':88,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101072,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':89,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101078,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':90,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101096,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':90,'isRandomQuest':1,'maxLevel':90,
+},
+{
+	'questID':40101097,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':91,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101076,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':92,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101098,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':92,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101074,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':93,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101099,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':94,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101100,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':96,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101101,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':98,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101102,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':99,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101103,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':97,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101104,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':98,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101105,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':99,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101106,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':100,'isRandomQuest':1,'maxLevel':100,
+},
+{
+	'questID':40101107,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':102,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101108,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':103,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101109,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':104,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101110,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101111,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':106,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101112,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':107,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101113,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':108,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101114,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101115,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':103,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101116,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':104,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101117,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':105,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101118,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':107,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101119,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':108,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101120,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':109,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101121,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':110,'isRandomQuest':1,'maxLevel':110,
+},
+{
+	'questID':40101122,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':111,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101123,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':112,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101124,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':113,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101125,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':114,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101126,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101127,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':111,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101128,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':111,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101129,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':112,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101130,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':113,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101131,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':113,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101132,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':114,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101133,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101134,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':115,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101135,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':116,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101136,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':116,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101137,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':117,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101138,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':118,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101139,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':118,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101140,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':119,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101141,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':119,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101142,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':120,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101143,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':120,'isRandomQuest':1,'maxLevel':120,
+},
+{
+	'questID':40101144,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':121,'isRandomQuest':1,'maxLevel':130,
+},
+{
+	'questID':40101145,'belongCamp':0,'smallType':9,'bigType':3,'minLevel':121,'isRandomQuest':1,'maxLevel':130,
+},
+)

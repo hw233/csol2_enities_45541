@@ -1,0 +1,161 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<Implements>
+	</Implements>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<_localBroadcast>		<!-- 广播聊天消息到所有的client, call by baseApp entity -->
+			<Arg>	INT8		</Arg>	<!-- channelID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- spkID -->
+			<Arg>	STRING		</Arg>	<!-- spkName -->
+			<Arg>	STRING		</Arg>	<!-- msg -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- blobArgs : 消息参数列表 -->
+		</_localBroadcast>
+		<campActivity_broadcast>
+			<Arg>	PYTHON		</Arg>	<!-- msgDict -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- blobArgs  : 消息参数列表 -->
+		</campActivity_broadcast>
+		<globalChat>
+			<Arg>	UINT8		</Arg>	<!-- channelID : 频道号 -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- spkID	   : 发言对象名称 -->
+			<Arg>	STRING		</Arg>	<!-- rcvName   : 发言对象名称 -->
+			<Arg>	STRING		</Arg>	<!-- msg	   : 发言内容 -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- blobArgs  : 消息参数列表 -->
+		</globalChat>
+		<campChat>
+			<Arg>	UINT8		</Arg>	<!-- campID : 阵营ID -->
+			<Arg>	UINT8		</Arg>	<!-- channelID : 频道号 -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- spkID	   : 发言对象名称 -->
+			<Arg>	STRING		</Arg>	<!-- rcvName   : 发言对象名称 -->
+			<Arg>	STRING		</Arg>	<!-- msg	   : 发言内容 -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- blobArgs  : 消息参数列表 -->
+		</campChat>
+		<campChatLocal>
+			<Arg>	UINT8		</Arg>	<!-- campID : 阵营ID -->
+			<Arg>	UINT8		</Arg>	<!-- channelID : 频道号 -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- spkID	   : 发言对象名称 -->
+			<Arg>	STRING		</Arg>	<!-- rcvName   : 发言对象名称 -->
+			<Arg>	STRING		</Arg>	<!-- msg	   : 发言内容 -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- blobArgs  : 消息参数列表 -->
+		</campChatLocal>
+		<anonymityBroadcast>	<!-- 匿名系统广播 -->
+			<Arg>	STRING		</Arg>	<!-- msg -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- blobArgs  : 消息参数列表 -->
+		</anonymityBroadcast>
+
+		<_localWallowNotify>	<!-- 本地服务器防沉迷通知 -->
+			<Arg>	ARRAY <of> WALLOW_ACCOUNT_INFO </of>		</Arg>
+		</_localWallowNotify>
+		<wallowNotify>			<!-- 所有服务器防沉迷通知 -->
+			<Arg>	ARRAY <of> WALLOW_ACCOUNT_INFO </of>		</Arg>
+		</wallowNotify>
+
+		<addRef>
+			<Arg>	STRING		</Arg>	<!-- globalName -->
+			<Arg>	MAILBOX		</Arg>	<!-- baseMailbox -->
+		</addRef>
+
+		<removeRef>
+			<Arg>	STRING		</Arg>	<!-- globalName -->
+		</removeRef>
+
+		<_broadcastLookupRoleBaseByName>
+			<Arg>	MAILBOX		</Arg>	<!-- baseMailbox -->
+			<Arg>	INT32		</Arg>	<!-- resultID -->
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+		</_broadcastLookupRoleBaseByName>
+
+		<_broadcastLookupRoleBaseByNameCB>
+			<Arg>	INT32		</Arg>	<!-- resultID -->
+			<Arg>	MAILBOX		</Arg>	<!-- baseMailbox -->
+		</_broadcastLookupRoleBaseByNameCB>
+
+		<queryLocalPlayerAmount>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryLocalPlayerAmount>
+
+		<queryLocalPlayersName>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryLocalPlayersName>
+		<remoteCallPlayerClient>
+			<Arg>	STRING		</Arg>
+		</remoteCallPlayerClient>
+
+		<remoteCallCampPlayerClient>
+			<Arg>	UINT8		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	PY_ARGS		</Arg>
+		</remoteCallCampPlayerClient>
+
+		<remoteCallCampPlayerCell>
+			<Arg>	UINT8		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	PY_ARGS		</Arg>
+		</remoteCallCampPlayerCell>
+		
+		<globalCallEntityCellMothod>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	PY_ARGS		</Arg>
+		</globalCallEntityCellMothod>
+		
+		<remoteCallEntityCellMothod>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	PY_ARGS		</Arg>
+		</remoteCallEntityCellMothod>
+
+		<shutdownAll>	<!-- 关闭服务器的前置函数，会通知所有baseapp的shutdown()接口 -->
+			<Arg>	INT32		</Arg>	<!-- delay before shutdown -->
+		</shutdownAll>
+		<shutdown/>		<!-- 关闭服务器的前置函数，被shutdownAll()调用 -->
+
+		<loginAttemperTrigger>
+		</loginAttemperTrigger>
+		<remoteCastSpell>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	SKILLID		</Arg>
+		</remoteCastSpell>
+		<castSpellBroadcast>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	SKILLID		</Arg>
+		</castSpellBroadcast>
+		<receiveRelationUID>
+			<Arg>	INT32		</Arg>
+		</receiveRelationUID>
+		<addAllBasePlayerCountLogs>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</addAllBasePlayerCountLogs>
+		<addPlayerCountLog>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</addPlayerCountLog>
+		<remoteQueryRoleEquipItems>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+		</remoteQueryRoleEquipItems>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

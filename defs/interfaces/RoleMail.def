@@ -1,0 +1,204 @@
+<root>
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<mail_send><!-- 寄出邮件 -->
+			<Exposed/>
+			<Arg>	STRING		</Arg>	<!-- receiverName -->
+			<Arg>	INT8		</Arg>  <!-- mailType-->
+			<Arg>	STRING		</Arg>	<!-- title -->
+			<Arg>	STRING		</Arg>	<!-- content -->
+			<Arg>	UINT32		</Arg>	<!-- money -->
+			<Arg> ARRAY <of> UID </of> 	</Arg> <!-- uid -->
+			<Arg>	BOOL		</Arg>	<!-- hasItem -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- npcID -->
+		</mail_send>
+
+		<mail_addReturnMail>	<!-- 增加新的退信 -->
+			<Arg>	DATABASE_ID		</Arg>	<!-- id -->
+			<Arg>	STRING			</Arg>	<!-- title -->
+			<Arg>	STRING			</Arg>	<!-- content -->
+			<Arg>	STRING			</Arg>	<!-- itemData -->
+			<Arg>	UINT32			</Arg>	<!-- money -->
+			<Arg>	STRING			</Arg>	<!-- senderName -->
+			<Arg>	STRING			</Arg>	<!-- receiverName -->
+			<Arg>	INT8			</Arg>	<!-- senderType -->
+			<Arg>	INT32			</Arg>	<!-- receiveTime -->
+			<Arg>	INT32			</Arg>	<!-- readedTime -->
+			<Arg>   INT32                   </Arg>	<!-- readedHintTime -->
+		</mail_addReturnMail>
+
+		<mail_queryAll>
+			<Exposed/>
+		</mail_queryAll>
+
+		<mail_delete>
+			<Exposed/>
+			<Arg>	DATABASE_ID		</Arg> <!-- mail id -->
+		</mail_delete>
+
+		<mail_newNotify> <!--新邮件通知-->
+			<Arg>		STRING		</Arg>
+			<Arg>		UINT32		</Arg>
+		</mail_newNotify>
+
+
+		<mail_readedNotify><!--查看邮件内容-->
+			<Exposed/>
+			<Arg>	DATABASE_ID		</Arg>	<!-- mailId -->
+		</mail_readedNotify>
+		
+		<mailHint_readedNotify><!--查看邮件提示-->
+			<Exposed/>
+			<Arg>	DATABASE_ID		</Arg>	<!-- mailId -->
+		</mailHint_readedNotify>			
+
+		<mail_getItem><!--领取邮件物品-->
+			<Arg>	DATABASE_ID		</Arg>	<!-- mailId -->
+			<Arg>	INT8			</Arg> <!-- index -->
+		</mail_getItem>
+
+		<mail_getAllItem><!-- 一次领取全部邮件物品 -->
+			<Arg>	DATABASE_ID	</Arg> <!-- mail id -->
+		</mail_getAllItem>
+
+		<mail_getItemRegister><!--领取邮件物品确认-->
+			<Arg>	DATABASE_ID		</Arg>	<!-- mailId -->
+			<Arg>	INT8		</Arg>	<!-- status -->
+			<Arg>	INT8		</Arg>	<!-- index -->
+		</mail_getItemRegister>
+
+		<mail_getAllItemRegister><!--领取所有邮件物品确认-->
+			<Arg>	DATABASE_ID		</Arg>	<!-- mailId -->
+			<Arg>	INT8		</Arg>		<!-- status -->
+			<Arg>	ARRAY <of> INT8 </of>	</Arg>	<!-- failedIndexList -->
+		</mail_getAllItemRegister>
+
+		<mail_getMoney><!--领取邮件金钱-->
+			<Arg>	DATABASE_ID		</Arg>	<!-- mailId -->
+		</mail_getMoney>
+
+		<mail_getMoneyRegister><!--领取邮件金钱确认-->
+			<Arg>	DATABASE_ID		</Arg>	<!-- mailId -->
+			<Arg>	INT8		</Arg>	<!-- status -->
+		</mail_getMoneyRegister>
+
+		<mail_returnNotifyFC>	<!-- 退信通知 -->
+			<Exposed/>
+			<Arg>	DATABASE_ID		</Arg>	<!-- mailId -->
+		</mail_returnNotifyFC>
+
+		<mail_playerReturn>	<!-- 玩家退信 -->
+			<Exposed/>
+			<Arg>	DATABASE_ID		</Arg>  <!-- mailId -->
+		</mail_playerReturn>
+		<mail_systemReturn>
+			<Arg>	DATABASE_ID		</Arg>  <!-- mailId -->
+		</mail_systemReturn>
+		<onReturnMail>
+			<Arg>	DATABASE_ID		</Arg>  <!-- mailId -->
+		</onReturnMail>
+	</BaseMethods>
+
+	<CellMethods>
+		<mail_send><!-- 寄出邮件 -->
+			<Arg>	STRING		</Arg>	<!-- receiverName -->
+			<Arg>	INT8		</Arg>  <!-- mailType-->
+			<Arg>	STRING		</Arg>	<!-- title -->
+			<Arg>	STRING		</Arg>	<!-- content -->
+			<Arg>	UINT32		</Arg>	<!-- money -->
+			<Arg>ARRAY <of> UID </of>  	</Arg>  <!-- uids -->
+			<Arg>	INT8		</Arg>	<!-- hasItem -->
+			<Arg>   MAILBOX		</Arg>  <!-- playerBaseMailBox -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- npcID -->
+		</mail_send>
+
+		<mail_getItem><!-- 领取邮件物品 -->
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg> <!-- mail id -->
+			<Arg>	OBJECT_ID	</Arg> <!-- npdId -->
+			<Arg>	INT8		</Arg> <!-- index -->
+		</mail_getItem>
+
+		<mail_getAllItem><!-- 一次领取全部邮件物品 -->
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg> <!-- mail id -->
+			<Arg>	OBJECT_ID	</Arg> <!-- npdId -->
+		</mail_getAllItem>
+
+		<mail_getMoney><!-- 领取邮件金钱 -->
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg> <!-- mail id -->
+			<Arg>	OBJECT_ID	</Arg> <!-- npdId -->
+		</mail_getMoney>
+
+		<mail_receiveItem><!-- 获得邮件物品 -->
+			<Arg>	DATABASE_ID	</Arg> <!-- mail id -->
+			<Arg>	BLOB		</Arg> <!-- item -->
+			<Arg>	INT8		</Arg> <!-- index -->
+		</mail_receiveItem>
+
+		<mail_receiveAllItem><!-- 获得邮件物品 -->
+			<Arg>	DATABASE_ID	</Arg> <!-- mail id -->
+			<Arg>	ARRAY <of> STRING </of>	</Arg>	<!-- itemDatas -->
+		</mail_receiveAllItem>
+
+		<mail_receiveMoney><!-- 获得邮件金钱 -->
+			<Arg>	DATABASE_ID	</Arg> <!-- mail id -->
+			<Arg>	UINT32		</Arg> <!-- money -->
+		</mail_receiveMoney>
+		<mail_send_on_air>
+			<Arg>	STRING		</Arg>	<!-- receiverName -->
+			<Arg>	INT8		</Arg>  <!-- mailType-->
+			<Arg>	STRING		</Arg>	<!-- title -->
+			<Arg>	STRING		</Arg>	<!-- content -->
+		</mail_send_on_air>
+	</CellMethods>
+
+
+	<ClientMethods>
+		<mail_receive>
+			<Arg>	DATABASE_ID	</Arg>	<!-- id -->
+			<Arg>	STRING		</Arg>	<!-- sm_title -->
+			<Arg>	STRING		</Arg>	<!-- sm_senderName -->
+			<Arg>	STRING		</Arg>	<!-- sm_receiverName -->
+			<Arg>	INT8		</Arg>	<!-- sm_senderType -->
+			<Arg>	INT32		</Arg>	<!-- sm_receiveTime -->
+			<Arg>	INT32		</Arg>	<!-- sm_readedTime -->
+			<Arg>	STRING		</Arg>	<!-- content -->
+			<Arg>	UINT32		</Arg>	<!-- money -->
+			<Arg>	ARRAY <of> STRING </of>	</Arg>	<!-- itemDatas -->
+			<Arg>   INT32           </Arg>  <!-- sm_readedHintTime -->
+		</mail_receive>
+		
+		<mail_moneyHasGotten>
+			<Arg>	DATABASE_ID	</Arg>	<!-- id -->
+		</mail_moneyHasGotten>
+		
+		<mail_itemHasGotten>
+			<Arg>	DATABASE_ID	</Arg>	<!-- id -->
+			<Arg>	INT8		</Arg>	<!-- index -->
+		</mail_itemHasGotten>
+
+		<mail_itemAllHasGotten>
+			<Arg>	DATABASE_ID	</Arg>	<!-- id -->
+			<Arg>	ARRAY <of> INT8 </of>	</Arg>	<!-- failedIndexList -->
+		</mail_itemAllHasGotten>
+
+		<enterMailWithNPC>
+			<Arg>	OBJECT_ID	</Arg>	<!--npcID-->
+		</enterMailWithNPC>
+
+		<mail_systemReturn>
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg> <!-- mail id -->
+		</mail_systemReturn>
+
+		<onMailDeleted>
+			<Arg>	DATABASE_ID		</Arg>  <!-- mailId -->
+		</onMailDeleted>
+		<onMail_send_successed/>
+	</ClientMethods>
+</root>

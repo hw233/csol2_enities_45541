@@ -1,0 +1,28 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<Implements>
+		<Interface>	CopyTeamMatchedQueuerInterface		</Interface>
+	</Implements>
+
+	<BaseMethods>
+		<onReceiveJoinRequest>
+			<Arg>	MAILBOX		</Arg>		<!-- requesterMB -->
+			<Arg>	UINT8		</Arg>		<!-- level -->
+			<Arg>	PY_ARGS		</Arg>		<!-- members -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- blacklist -->
+			<Arg>	UINT8		</Arg>		<!-- camp -->
+			<Arg>	BOOL		</Arg>		<!-- isRecruiter -->
+		</onReceiveJoinRequest>
+		<querySameLevelQueuersNumber>
+			<Arg>	MAILBOX		</Arg>		<!-- playerMB -->
+			<Arg>	UINT8		</Arg>		<!-- playerLevel -->
+		</querySameLevelQueuersNumber>
+		<removeQueuer>
+			<Arg>	OBJECT_ID	</Arg>		<!-- queuerID -->
+			<Arg>	INT32		</Arg>		<!-- reason -->
+		</removeQueuer>
+	</BaseMethods>
+</root>

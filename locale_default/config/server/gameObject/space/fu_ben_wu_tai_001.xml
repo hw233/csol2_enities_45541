@@ -1,0 +1,20 @@
+<root>
+	<EntityType>SpaceCopyDanceHall</EntityType>
+	<DomainType>SpaceDomainCopyDanceHall</DomainType>
+	<script>SpaceCopyDanceHall</script>
+	<className>fu_ben_wu_tai_001</className>
+	<SpaceType>	SPACE_TYPE_DANCEHALL	</SpaceType>
+	<dirMapping> universes/fu_ben_wu_tai_001 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<TimeOfDay>	45000	</TimeOfDay>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<spawnFile>	config/server/spawn/fu_ben_wu_tai_001.xml		</spawnFile>
+	<waitingCycle>	28800	</waitingCycle>
+	<CanPk>	0	</CanPk>
+	<canFly>	0	</canFly>
+	<CanQieCuo>	 0 	</CanQieCuo>	<!-- 允许切磋 -->
+	<canVehicle> 0 </canVehicle>	<!-- 是否允许上坐骑 -->
+	<Space>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

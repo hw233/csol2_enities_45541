@@ -1,0 +1,21 @@
+<root>
+	<EntityType>SpaceCopySingle</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopySingle</script>
+		<className>	fu_ben_huan_jing_mo	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_tu_xing_boss_001	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<spawnFile>	config/server/spawn/fu_ben_huan_jing_mo.xml		</spawnFile>
+		<Space>
+		<spaceBBoxMin>	-500,-100,-500	</spaceBBoxMin>
+		<spaceBBoxMax>	500,500,500	</spaceBBoxMax>
+		<deathDepth>	-250	</deathDepth>
+		</Space>
+			<canArrest/>	<!-->ÊÇ·ñ¿É´þ²¶ÈëÓü<-->
+	<maxLine>1</maxLine>                                  		
+	<initLine>1</initLine>
+	<maxPlayerAmount>525</maxPlayerAmount>                           
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 	
+</root>

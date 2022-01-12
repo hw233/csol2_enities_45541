@@ -1,0 +1,30 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+	<Implements>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+		<current_toll_gate>	<!--当前游戏天关关卡-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</current_toll_gate>
+	</Properties>
+	<BaseMethods>
+		<addSpawnPointTianguan>
+			<Arg>	MAILBOX		</Arg>			<!-- spawnPoint Base Mailbox-->
+			<Arg>	UINT8		</Arg>			<!-- 等级-->
+			<Arg>	UINT8		</Arg>			<!-- 队伍数量-->
+		</addSpawnPointTianguan>
+		<spawnMonsters>
+			<Arg>	PY_DICT	</Arg>
+		</spawnMonsters>
+	</BaseMethods>
+	<CellMethods>
+		<setLeaveTeamPlayerMB>
+			<Arg>		MAILBOX			</Arg>
+		</setLeaveTeamPlayerMB>
+	</CellMethods>
+</root>

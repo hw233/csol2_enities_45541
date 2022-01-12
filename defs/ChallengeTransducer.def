@@ -1,0 +1,15 @@
+<root>
+	<Parent>	ProximityTransducer	</Parent>
+	<Properties>
+		<trapID>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		false			</Persistent>
+			<Editable>		true			</Editable>
+		</trapID>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

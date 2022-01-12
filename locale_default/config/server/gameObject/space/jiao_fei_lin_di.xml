@@ -1,0 +1,78 @@
+<root>
+		<spaceName>	½Ë·Ë¸±±¾2	</spaceName>
+		<EntityType>	SpaceCopyPotential	</EntityType>
+		<SpaceType>	SPACE_TYPE_POTENTIAL	</SpaceType>
+		<DomainType>	SpaceDomainPotential	</DomainType>
+		<script>	SpaceCopyPotential	</script>
+		<className>	jiao_fei_lin_di	</className>
+		<TimeOfDay>	50400	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_lin_di	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<doorPoint>
+				<pos>	-32.783,2.996,106.986	</pos>
+				<radius>	2.000000	</radius>
+			</doorPoint>
+			<monsterPoint>	</monsterPoint>
+			<playerEnterPoint>
+				<pos>	-27.765,2.882,101.489	</pos>
+				<direction>	0,127.764,0	</direction>
+			</playerEnterPoint>
+			<BossPoint>
+				<item>
+					<pos>	-22.93,3.742,27.889	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	1	</playerAmount>
+				</item>
+				<item>
+					<pos>	-22.93,3.742,27.889	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	2	</playerAmount>
+				</item>
+				<item>
+					<pos>	-22.93,3.742,27.889	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	3	</playerAmount>
+				</item>
+				<item>
+					<pos>	-22.93,3.742,27.889	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	4	</playerAmount>
+				</item>
+				<item>
+					<pos>	-22.93,3.742,27.889	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	5	</playerAmount>
+				</item>
+			</BossPoint>
+			<smallBossPoint>	</smallBossPoint>
+		</Space>
+		<spawn>	
+			<item>
+				<playerAmount>	1	</playerAmount>
+				<spawnFile>	config/server/spawn/jiao_fei_lin_di_1P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	2	</playerAmount>
+				<spawnFile>	config/server/spawn/jiao_fei_lin_di_2P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	3	</playerAmount>
+				<spawnFile>	config/server/spawn/jiao_fei_lin_di_3P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	4	</playerAmount>
+				<spawnFile>	config/server/spawn/jiao_fei_lin_di_4P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	5	</playerAmount>
+				<spawnFile>	config/server/spawn/jiao_fei_lin_di_5P.xml	</spawnFile>
+			</item>
+		</spawn>
+</root>

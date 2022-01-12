@@ -1,0 +1,106 @@
+<root>
+	<!-- 技能陷阱-->
+	<Parent>		NPCObject	</Parent>
+	<Implements>
+		<Interface> 	CombatUnit	</Interface>
+		<Interface>	AmbulantObject	</Interface>
+	</Implements>
+
+	<Properties>
+		<radius>		<!-- 触发半径, 0 表示不触发 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		5.0				</Default>
+			<Editable>		true				</Editable>
+		</radius>
+		<controlID>		<!-- 控制器ID -->
+			<Type>			CONTROLLER_ID	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</controlID>
+		<enterSpell>		<!-- 进入此区域时施放的技能  -->
+			<Type>			SKILLID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Editable>		true				</Editable>
+		</enterSpell>
+		<leaveSpell>		<!-- 离开此区域时施放的技能  -->
+			<Type>			SKILLID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Editable>		true				</Editable>
+		</leaveSpell>
+		<destroySpell>		<!-- 自身销毁时施放的技能  -->
+			<Type>			SKILLID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Editable>		true				</Editable>
+		</destroySpell>
+		<originSkill>		<!-- 产生这个entity的技能  -->
+			<Type>			SKILLID		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0			</Default>
+			<Editable>		true				</Editable>
+		</originSkill>
+		<modelNumber><!-- overridden for not need to be all_clients -->
+			<Type>			STRING			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Persistent>		false			</Persistent>
+		</modelNumber>
+		<repeattime>	<!--时隔多久触发一次 -->
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</repeattime>
+		<lifetime>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</lifetime>
+		<lifeTimer>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</lifeTimer>
+		<casterID>	<!--投放陷阱的人ID -->
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</casterID>
+		<casterMaxDistanceLife>	<!--离投放陷阱的人最大距离， 超过这个距离则消失 -->
+			<Type>			UINT16			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</casterMaxDistanceLife>
+		<isDisposable>	<!--是否一次性使用 -->
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</isDisposable>
+		<modelScale>
+			<Type>		FLOAT					</Type>
+			<Flags>		OTHER_CLIENTS				</Flags>
+			<Default>	1.0					</Default>
+		</modelScale>
+		<isTrigger>
+			<Type>		BOOL					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>	0					</Default>
+		</isTrigger>
+	</Properties>
+	<CellMethods>
+		<onEnterTrap>
+			<Exposed/>
+			<Arg>		OBJECT_ID		</Arg>	<!-- entityID -->
+		</onEnterTrap>
+		<onLeaveTrap>
+			<Exposed/>
+			<Arg>		OBJECT_ID		</Arg>	<!-- entityID -->
+		</onLeaveTrap>
+	</CellMethods>
+</root>

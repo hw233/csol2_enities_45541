@@ -1,0 +1,110 @@
+<root>
+	<Parent> 				NPC				</Parent>
+
+	<Properties>
+		<attrInvoices>
+			<Type>			INVOICEITEMS			</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>	false					</Persistent>
+		</attrInvoices>
+
+		<!-- 出售/回收价格百份比使用的是浮点数，
+			 例如：1.0表示原价，0.5表示半价，2.0表示双倍价格等，
+			 它必须让client上的NPC知道这些值，以便它们告诉玩让某某商品多少钱 -->
+		<invSellPercent>	<!-- 出售价格百分比 -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		1.0				</Default>
+			<Persistent>	false					</Persistent>
+		</invSellPercent>
+		<invBuyPercent>	<!-- 回收价格百分比 -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0.2				</Default>
+			<Persistent>		false				</Persistent>
+		</invBuyPercent>
+		<invRestoreTime>	<!-- 商品恢复时间 -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		3600.0				</Default>
+			<Persistent>		false				</Persistent>
+		</invRestoreTime>
+		<isJoinRevenue>		<!-- 是否参与税收 -->
+			<Type>			BOOL				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>		false				</Persistent>
+		</isJoinRevenue>
+	</Properties>
+
+	<CellMethods>
+		<sendInvoiceListToClient>	<!-- 告诉client的商人NPC，商人身上有些啥商品 -->
+			<Exposed/>
+		</sendInvoiceListToClient>
+		<requestInvoice>
+			<Exposed/>
+			<Arg>  UINT16 	</Arg>
+		</requestInvoice>
+		<sellTo>	<!-- 商人卖东西给玩家 -->
+			<Exposed/>
+			<Arg> UINT16	</Arg>	<!-- argIndex -->
+			<Arg> UINT16	</Arg>	<!-- argAmount -->
+		</sellTo>
+
+		<sellArrayTo>	<!-- 商人卖东西给玩家 -->
+			<Exposed/>
+			<Arg> ARRAY <of> UINT16	</of>	</Arg>	<!-- argIndices -->
+			<Arg> ARRAY <of> UINT16	</of>	</Arg>	<!-- argAmountList -->
+		</sellArrayTo>
+
+		<sellToCB>	<!-- 由玩家调用的回调 -->
+			<Arg> UINT16	</Arg>	<!-- argIndex -->
+			<Arg> UINT16	</Arg>	<!-- argAmount -->
+			<Arg> OBJECT_ID	</Arg>	<!-- object ID -->
+		</sellToCB>
+
+		<buyFrom>	<!-- 商人从玩家身上收购 -->
+			<Exposed/>
+			<Arg> UID	</Arg>	<!-- argUid -->
+			<Arg> UINT16	</Arg>	<!-- argAmount -->
+		</buyFrom>
+
+		<buyArrayFrom>	<!-- 商人从玩家身上整体收购 -->
+			<Exposed/>
+			<Arg> ARRAY <of> UID	</of> </Arg>	<!-- argUidList -->
+			<Arg> ARRAY <of> UINT16	</of> </Arg>	<!-- argAmountList -->
+		</buyArrayFrom>
+
+		<repairOneEquip>
+			<Exposed/>
+			<Arg>	UINT16	</Arg>	<!-- kitBagID -->
+			<Arg>	INT32	</Arg>	<!-- orderID -->
+			<Arg>	UINT8	</Arg>	<!-- repairLevel -->
+		</repairOneEquip>
+
+		<repairAllEquip>
+			<Exposed/>
+			<Arg>	UINT8	</Arg>	<!-- repairLevel -->
+		</repairAllEquip>
+
+	</CellMethods>
+
+	<ClientMethods>
+		<addInvoiceCB>	<!-- 增加一个商品 -->
+			<Arg> UINT16					</Arg>	<!-- argIndex -->
+			<Arg> INVOICEITEM 				</Arg>	<!-- argInvoice -->
+		</addInvoiceCB>
+		<onInvoiceLengthReceive> <!-- 商品长度发送 -->
+			<Arg>  UINT16			</Arg>
+		</onInvoiceLengthReceive>
+		<onBuyArrayFromCB>
+			<Arg>	UINT8	</Arg>	<!-- state -->
+		</onBuyArrayFromCB>
+
+		<resetInvoices>
+			<Arg>	UINT16	</Arg>	<!-- 商品数量 -->
+		</resetInvoices>
+	</ClientMethods>
+
+</root>
+

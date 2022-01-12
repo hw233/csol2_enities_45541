@@ -1,0 +1,23 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Implements>
+	</Implements>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<startCloseCountDownTimer>
+			<Arg>		INT32		</Arg>
+		</startCloseCountDownTimer>
+	</BaseMethods>
+	
+	<CellMethods>
+		<readyToClosed/>
+		<activityClosed/>
+		<rankList>	
+			<Arg>		PYTHON		</Arg>
+		</rankList>
+	</CellMethods>
+</root>

@@ -1,0 +1,37 @@
+<root>
+	<BaseMethods>
+		<procreatePet>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		INT32			</Arg>
+		</procreatePet>
+		<procreatePetRecord>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		STRING	</Arg>
+		</procreatePetRecord>
+		<requestProcreatedPet>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</requestProcreatedPet>
+		<obtainPetSuccess>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+		</obtainPetSuccess>
+		<onPlayerGetCell>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</onPlayerGetCell>
+		<updateProcreateState>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</updateProcreateState>
+		<setProcreated>
+			<Arg>		DATABASE_ID	</Arg>
+		</setProcreated>
+	</BaseMethods>
+</root>

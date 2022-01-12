@@ -1,0 +1,78 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+		<Interface> EquipModel		</Interface>
+	</Implements>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+	</Volatile>
+
+	<Properties>
+		<modelNumber>
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Editable>		true			</Editable>
+		</modelNumber>
+		<modelScale>	<!-- 模型放大的倍率 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1.0				</Default>
+			<Editable>		true			</Editable>
+		</modelScale>
+		<walkSpeed>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		3.0				</Default>
+			<Editable>		true			</Editable>
+		</walkSpeed>
+		<runSpeed>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		10.0			</Default>
+			<Editable>		true			</Editable>
+		</runSpeed>
+		<radius>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0				</Default>
+			<Editable>		true			</Editable>
+		</radius>
+		<state>
+			<Type>			INT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+			<Editable>		true			</Editable>
+		</state>
+		<clonedEntity>
+			<Type>			BOOL			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</clonedEntity>
+		<patrolPathNode>
+			<!-- 如果不需要决定是哪个点开始，此项可以不要。
+				另文档上说需要的是<patrolNode>其实是错误的。
+			-->
+			<Type>			STRING					</Type>
+			<Flags>			ALL_CLIENTS				</Flags>
+		</patrolPathNode>
+		<patrolList>
+			<Type>			PATROL_PATH			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Editable>		true				</Editable>
+		</patrolList>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>
+
+
+

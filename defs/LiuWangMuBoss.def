@@ -1,0 +1,27 @@
+<root>
+	<Parent>	Monster		</Parent>
+	<ClientName>	Monster		</ClientName>
+
+	<Properties>
+		<playerDamageList>								<!-- ÉËº¦Í³¼Æ×Öµä -->
+			<Type>		PY_DICT		 		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+		</playerDamageList>
+		<playerNameTotongName>
+			<Type>		PY_DICT		 		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>		
+		</playerNameTotongName>	
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onActivityClosed/>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+</root>
+

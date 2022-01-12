@@ -1,0 +1,48 @@
+1: 物品模型編號格式：xx-yy-zzzz。
+   xxyyzzzz表示一個10進制數字。
+   缺省填：00-00-0000。
+
+2: 'xx'表示職業：
+   01           劍客
+   02           射手
+   03           戰士
+   04           巫師
+   05           法師
+   06           祭師
+   07           劍客+戰士
+   08           巫師+法師+祭師
+   99           非職業相關物品
+
+3: 'yy'表示物品種類編號：
+   01           補給品                              IT_DRUG
+   02           普通物品                            IT_NORMAL
+   03           頭盔                                IT_ARMET
+   04           上身鎧甲                            IT_LORICAE
+   05           護手                                IT_ARMGUARD
+   06           下身裙子及其它                      IT_SKIRT
+   07           護足                                IT_FOOTGUARD
+   08           盾                                  IT_SHIELD
+   09           矛                                  IT_LANCE
+   10           匕首                                IT_KNIFE
+   11           單手杖                              IT_SH_STAFF
+   12           雙手杖                              IT_DH_STAFF
+   13           弓                                  IT_BOW
+   14           火槍                                IT_GUN
+   15           籠手                                IT_BASKET
+   16           單手法器                            IT_SH_FAQI
+   17           雙手法器                            IT_DH_FAQI
+   18           單手劍                              IT_SH_SWORD
+   19           雙手劍                              IT_DH_SWORD
+   20           飾品                                IT_ORNAMENT
+   96           寶石                                IT_JEWEL
+   97           卷軸                                IT_SCROLL
+   98           金錢                                IT_MONEY
+   99           其它物品                            IT_OTHER
+   
+4: 'zzzz'表示xx-yy分類下的編號。
+
+5: 發型模型編號格式：xzzz。
+   'x'表示職業，編碼與'項目2'相同。
+   發型不會太多，配置寫在一個文件里面。
+   x001-x499	男性職業發型
+   x500-x999	女性職業發型

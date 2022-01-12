@@ -1,0 +1,46 @@
+<root>
+	<Implements>
+		<Interface>	GameObject	</Interface>
+	</Implements>
+
+	<Properties>
+
+		<name>
+			<Type>		STRING			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</name>
+
+		<propensity>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</propensity>
+
+		<arg0>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</arg0>
+
+		<arg1>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</arg1>
+
+		<arg2>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</arg2>
+
+		<arg3>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</arg3>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

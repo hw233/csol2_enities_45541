@@ -1,0 +1,37 @@
+<root>
+        <Implements>
+                <Interface>	GameObject		</Interface>
+        </Implements>
+        <Volatile>
+		<position/>
+		<yaw/>
+	</Volatile>
+        <Properties>
+                <creatureName>
+                        <Type>		STRING			</Type>
+                        <Flags>		ALL_CLIENTS		</Flags>
+                        <Default>	Unnamed			</Default>
+                        <Editable>		true				</Editable>
+                </creatureName>
+                <ownModelName>
+                        <Type>		STRING			</Type>
+                        <Flags>		ALL_CLIENTS		</Flags>
+                </ownModelName>
+                <actionDefaultName>
+                        <Type>		STRING			</Type>
+                        <Flags>		ALL_CLIENTS		</Flags>
+                </actionDefaultName>
+                <ownerId>
+                        <Type>			OBJECT_ID			</Type>
+                        <Flags>			ALL_CLIENTS			</Flags>
+                        <Default>		-1					</Default>
+                </ownerId>
+        </Properties>
+        <ClientMethods>
+        </ClientMethods>
+        <CellMethods>
+        </CellMethods>
+        <BaseMethods>
+        </BaseMethods>
+</root>
+

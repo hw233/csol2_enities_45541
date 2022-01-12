@@ -1,0 +1,19 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onEnterTongTurnWarSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterTongTurnWarSpace>
+		<onLoginTurnWarSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+			<Arg>	BOOL		</Arg>	<!-- params -->
+		</onLoginTurnWarSpace>
+	</BaseMethods>
+</root>

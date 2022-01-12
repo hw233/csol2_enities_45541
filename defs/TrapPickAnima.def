@@ -1,0 +1,28 @@
+<root>
+	<Parent> 				NPCObject				</Parent>
+	<ClientName> 				NPCObject				</ClientName>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<trapRange>
+			<Type>		FLOAT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Editable>	true		</Editable>
+		</trapRange>
+		<rewardPotential>
+			<Type>		INT16		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Editable>	true		</Editable>
+		</rewardPotential>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+</root>

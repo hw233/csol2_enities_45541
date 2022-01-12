@@ -1,0 +1,55 @@
+<root>
+	<Implements>
+		<Interface>	NormalActivityManager			</Interface>
+	</Implements>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<recordDamageData>
+			<Arg>		STRING 		</Arg>
+			<Arg>		UINT16		</Arg>
+			<Arg>		MAILBOX 	</Arg>
+			<Arg>		STRING 		</Arg>
+			<Arg>		UINT8 		</Arg>
+			<Arg>		STRING 		</Arg>
+			<Arg>		INT32 		</Arg>
+		</recordDamageData>
+
+		<recordCureData>
+			<Arg>		STRING 		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT16		</Arg>
+			<Arg>		MAILBOX 	</Arg>
+			<Arg>		STRING 		</Arg>
+			<Arg>		INT32 		</Arg>
+		</recordCureData>
+
+		<recordDieData>
+			<Arg>		UINT16		</Arg>
+			<Arg>		MAILBOX 	</Arg>
+			<Arg>		STRING 		</Arg>
+			<Arg>		UINT8 		</Arg>
+			<Arg>		STRING 		</Arg>
+		</recordDieData>
+
+		<onPlayerLogin>
+			<Arg>		MAILBOX 	</Arg>
+			<Arg>		STRING 		</Arg>
+		</onPlayerLogin>
+
+		<onBossChangeFree>
+			<Arg>		STRING 		</Arg>
+		</onBossChangeFree>
+
+		<onBossDie>
+			<Arg>		STRING 		</Arg>
+		</onBossDie>
+
+		<onClickActButton>
+			<Arg>		MAILBOX 	</Arg>
+			<Arg>		UINT8	 	</Arg>
+		</onClickActButton>
+	</BaseMethods>
+</root>

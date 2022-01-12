@@ -1,0 +1,22 @@
+<root>
+	<EntityType>SpaceCopySingle</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopySingle</script>
+	<className>fu_ben_hai_dao_001</className>
+	<dirMapping> universes/fu_ben_fang_shou_001 </dirMapping>
+	<CanPk>	1	</CanPk>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<CanQieCuo>	1	</CanQieCuo>		<!-- 允许切磋 -->
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_hai_dao_001.xml		</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>
+	<maxPlayerAmount>525</maxPlayerAmount>
+	<initLine>1</initLine>
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 
+	<Space>
+		<spaceBBoxMin>	-2000,-100,-2000	</spaceBBoxMin>
+		<spaceBBoxMax>	2000,1000,2000	</spaceBBoxMax>
+	</Space>
+</root>

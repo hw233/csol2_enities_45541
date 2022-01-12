@@ -1,0 +1,16 @@
+<root>
+	<Parent>	SpaceDomainCopy	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<queryBossesKilledByTeamID>
+			<Arg>	MAILBOX 	</Arg>	<!-- querist -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->
+		</queryBossesKilledByTeamID>
+		<notifyTeamRaidFinished>
+			<Arg>	SPACE_NUMBER 	</Arg>	<!-- spaceNumber -->
+		</notifyTeamRaidFinished>
+	</BaseMethods>
+</root>

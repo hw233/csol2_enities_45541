@@ -1,0 +1,37 @@
+<root>
+	<Parent>	Monster			</Parent>
+
+	<Properties>
+		<radius>		<!-- 触发半径, 0 表示不触发 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		5.0				</Default>
+			<Editable>		true				</Editable>
+		</radius>
+		<controlID>		<!-- 控制器ID -->
+			<Type>			CONTROLLER_ID	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</controlID>
+		<enterSpell>		<!-- 进入此区域时施放的技能  -->
+			<Type>			SKILLID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Editable>		true				</Editable>
+		</enterSpell>
+		<leaveSpell>		<!-- 离开此区域时施放的技能  -->
+			<Type>			SKILLID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Editable>		true				</Editable>
+		</leaveSpell>
+		<modelNumber><!-- overridden for not need to be all_clients -->
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</modelNumber>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+</root>

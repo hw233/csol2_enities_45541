@@ -1,0 +1,70 @@
+<root>
+	<Properties>
+	</Properties>
+	<ClientMethods>
+		<quiz_start>
+		</quiz_start>
+		<quiz_enterInviteJoin>
+			<Arg>	FLOAT	</Arg>
+		</quiz_enterInviteJoin>
+		<quiz_receiveQuestion>
+			<Arg>	UINT16	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	ARRAY <of> STRING </of>	</Arg>
+		</quiz_receiveQuestion>
+		<quiz_receiveTopPlayer>
+			<Arg>	ARRAY	<of>	STRING	</of>	</Arg>
+			<Arg>	ARRAY	<of>	UINT16	</of>	</Arg>
+			<Arg>	INT32		</Arg>
+		</quiz_receiveTopPlayer>
+		<receiveRightAnswer>
+			<Arg>	UINT16	</Arg>
+			<Arg>	STRING	</Arg>
+		</receiveRightAnswer>
+		<quiz_scoreChange>
+			<Arg>	UINT16	</Arg>
+		</quiz_scoreChange>
+		<quiz_answerState>
+			<Arg>	UINT16	</Arg>
+			<Arg>	BOOL	</Arg>
+		</quiz_answerState>
+		<quiz_receiveTotalNumber>
+			<Arg>	UINT8	</Arg>
+		</quiz_receiveTotalNumber>
+	</ClientMethods>
+	<CellMethods>
+		<quiz_answer>
+			<Exposed/>
+			<Arg>	UINT16		</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT8		</Arg>
+		</quiz_answer>
+		<quiz_request>
+			<Exposed/>
+		</quiz_request>
+		<quiz_quit>
+			<Exposed/>
+		</quiz_quit>
+		<quiz_join>
+		</quiz_join>
+		<quiz_gameOver>
+			<Arg>	UINT16	</Arg>
+			<Arg>	BOOL	</Arg>
+		</quiz_gameOver>
+		<quiz_useGold>
+			<Exposed/>
+			<Arg>	UINT16	</Arg>
+			<Arg>	UINT8		</Arg>
+		</quiz_useGold>
+                <noticeJoinQuiz>
+                    <Arg>	PYTHON	</Arg>
+		    <Arg>	FLOAT		</Arg>
+                </noticeJoinQuiz>
+	</CellMethods>
+	<BaseMethods>
+		<quiz_useGold>
+			<Arg>	UINT16	</Arg>
+			<Arg>	UINT8		</Arg>
+		</quiz_useGold>
+	</BaseMethods>
+</root>

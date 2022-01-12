@@ -1,0 +1,178 @@
+<root>
+	<Implements>
+		<Interface>	GameObject	</Interface>
+	</Implements>
+
+
+	<Properties>
+		<droperName>								<!-- 掉落怪物名称 -->
+			<Type>		STRING		 		</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+		</droperName>
+		<dropType>								<!-- 箱子掉落类型 -->
+			<Type>		UINT8		 		</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+		</dropType>
+		<itemBox>								<!-- 普通物品 -->
+			<Type>		ARRAY<of>ITEMDICT_ITEM</of>	</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</itemBox>
+		<questItemBox>								<!-- 任务物品 -->
+			<Type>		ARRAY<of>ITEMDICT_ITEM</of>	</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</questItemBox>
+		<queryOwnersDict>							<!-- 查询权限 -->
+			<Type>		PY_DICT		 		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</queryOwnersDict>
+		<pickOwnersDict>							<!-- 拾取权限 -->
+			<Type>		PY_DICT		 		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</pickOwnersDict>
+		<assignOwnersDict>							<!-- 分配权限 -->
+			<Type>		PY_DICT		 		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</assignOwnersDict>
+		<rollOwnersDict>							<!-- roll权限 -->
+			<Type>		PY_DICT		 		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</rollOwnersDict>
+		<membersID>								<!-- 周围队员ID列表 -->
+			<Type>		ARRAY <of> OBJECT_ID </of>	</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</membersID>
+		<pickedItemList>								<!-- 已经被拾取了的物品ID列表 -->
+			<Type>		ARRAY <of> INT8 </of>	</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</pickedItemList>
+		<queryIndexs>								<!-- 正在查询的物品索引 -->
+			<Type>		ARRAY <of> INT8 </of>	 	</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</queryIndexs>
+		<queryQuestIndexs>							<!-- 正在获取的任务物品索引 -->
+			<Type>		ARRAY <of> INT8 </of>	 	</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</queryQuestIndexs>
+		<isPickedAnyone>							<!-- 标记是否任何人都可以拾取 -->
+			<Type>		BOOL	 			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</isPickedAnyone>
+
+	</Properties>
+
+	<CellMethods>
+		<queryDropItems>
+			<Exposed/>
+		</queryDropItems>
+
+		<pickDropItem>
+			<Exposed/>
+			<Arg>			INT8			</Arg>		<!-- 物品索引 -->
+		</pickDropItem>
+
+		<pickDropItems>
+			<Exposed/>
+			<Arg>		ARRAY<of>	INT8	</of>	</Arg>		<!-- 物品索引 -->
+		</pickDropItems>
+
+		<assignDropItem>
+			<Exposed/>
+			<Arg>			INT8			</Arg>		<!-- 物品索引 -->
+			<Arg>			OBJECT_ID		</Arg>		<!-- 玩家ID -->
+		</assignDropItem>
+
+		<setDropItemsQueryOwner>
+			<Arg>			OBJECT_ID		</Arg>		<!-- 玩家ID -->
+			<Arg>		ARRAY <of> INT8 </of>		</Arg>		<!-- 物品索引列表 -->
+		</setDropItemsQueryOwner>
+
+		<setDropItemsPickOwner>
+			<Arg>			OBJECT_ID		</Arg>		<!-- 玩家ID -->
+			<Arg>		ARRAY <of> INT8 </of>		</Arg>		<!-- 物品索引列表 -->
+		</setDropItemsPickOwner>
+
+		<setDropItemsAssignOwner>
+			<Arg>			OBJECT_ID		</Arg>		<!-- 玩家ID -->
+			<Arg>		ARRAY <of> INT8 </of>		</Arg>		<!-- 物品索引列表 -->
+		</setDropItemsAssignOwner>
+
+		<receiveItemPickedCB>
+			<Arg>			OBJECT_ID		</Arg>		<!-- 物品箱子ID -->
+			<Arg>			INT8			</Arg>		<!-- 物品索引 -->
+			<Arg>			BOOL			</Arg>		<!-- 是否拾取成功 -->
+			<Arg>			BOOL			</Arg>		<!-- 是否任务物品 -->
+			<Arg>			BOOL			</Arg>		<!-- 是否金钱 -->
+			<Arg>			INT32			</Arg>		<!-- 是否金钱 -->
+		</receiveItemPickedCB>
+
+		<addQuestItems>
+			<Arg>			OBJECT_ID		</Arg>		<!-- 玩家ID -->
+			<Arg>			ITEMS 			</Arg>
+		</addQuestItems>
+
+		<abandonBoxItems>
+			<Exposed/>
+		</abandonBoxItems>
+
+		<addTeamMembersID>
+			<Arg>		ARRAY <of> OBJECT_ID </of>	</Arg>		<!-- 有效的队伍成员ID列表 -->
+		</addTeamMembersID>
+
+		<droppedBoxStatus>
+			<Exposed/>
+		</droppedBoxStatus>
+
+		<pickUpAllItems>
+			<Exposed/>
+		</pickUpAllItems>
+		<receiveAddRollItemCB>
+			<Arg>			OBJECT_ID		</Arg>		<!-- 物品箱子ID -->
+			<Arg>			INT8			</Arg>		<!-- 物品索引 -->
+			<Arg>			BOOL			</Arg>		<!-- 是否拾取成功 -->
+		</receiveAddRollItemCB>
+		<rollRandom>
+			<Arg>			OBJECT_ID		</Arg>
+			<Arg>			UINT8			</Arg>
+		</rollRandom>
+		<abandonRoll>
+			<Arg>			OBJECT_ID		</Arg>
+			<Arg>			UINT8			</Arg>
+		</abandonRoll>
+	</CellMethods>
+
+	<ClientMethods>
+		<receiveDropItems>
+			<Arg>		ARRAY<of>ITEMDICT_ITEM</of> 		</Arg>
+		</receiveDropItems>
+
+		<receiveDropState>
+			<Arg>		BOOL		</Arg>
+		</receiveDropState>
+
+		<onBoxItemRemove>
+			<Arg>	UINT8	</Arg>	 <!--通知有物品被取走了-->
+		</onBoxItemRemove>
+	</ClientMethods>
+</root>

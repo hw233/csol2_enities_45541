@@ -1,0 +1,72 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+	<Implements>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+		<shuijing_level>				<!--水晶等级-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</shuijing_level>
+
+		<shuijing_maxlevel>				<!--水晶最大等级-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</shuijing_maxlevel>
+
+		<shuijingMonsterCount>
+			<Type>		INT16			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>	true			</Editable>
+			<Default>		0		</Default>
+		</shuijingMonsterCount>
+		<spawnMonsterCount>
+			<Type>		INT16			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>	true			</Editable>
+		</spawnMonsterCount>
+
+		<dieMonsterCount>
+			<Type>		INT16			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>	true			</Editable>
+		</dieMonsterCount>
+
+	</Properties>
+
+	<BaseMethods>
+		<mgrDestorySelf>
+		</mgrDestorySelf>
+	</BaseMethods>
+	<CellMethods>
+		<addSpawnPoint>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		INT8			</Arg>
+		</addSpawnPoint>
+		<onMonsterDie>
+			<Arg>		PY_DICT			</Arg>
+		</onMonsterDie>
+		<setLeaveTeamPlayerMB>
+			<Arg>		MAILBOX			</Arg>
+		</setLeaveTeamPlayerMB>
+		<calculateMonsterCount>
+		</calculateMonsterCount>
+		<startSpawnMonsterBySkill>
+		</startSpawnMonsterBySkill>
+		<startSpawnMonsterByTalk>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		STRING			</Arg>
+		</startSpawnMonsterByTalk>
+	</CellMethods>
+
+
+</root>

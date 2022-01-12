@@ -1,0 +1,23 @@
+<root>
+	<EntityType>SpaceNormal</EntityType>
+	<DomainType>SpaceDomain</DomainType>
+	<script>Space</script>
+	<className>dong_hai_zhu_dao</className>
+	<dirMapping> universes/dong_hai_zhu_dao </dirMapping>
+	<CanPk>	1	</CanPk>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	50400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/dong_hai_zhu_dao.xml	</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<Space>
+		<Tomb>
+			<fengming01>
+				<SpaceName>dong_hai_zhu_dao</SpaceName>
+				<Position>0.0 0.0 0.0</Position>
+				<Direction>	0.0 0.0 -180.0	</Direction>	<!-- 复活后的面向方向，暂未实现 -->
+			</fengming01>
+		</Tomb>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

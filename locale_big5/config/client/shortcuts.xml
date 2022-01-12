@@ -1,0 +1,1477 @@
+<root>
+	<row>
+		<tag>	ROLE_SELECTOR_CREATE_ROLE	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_C	</key>
+				<mods>	MODIFIER_CTRL	</mods>
+			</item>
+		</keys>
+		<status>	GST_ROLE_SELECT	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	創建角色	</comment>
+	</row>
+	<row>
+		<tag>	ROLE_SELECTOR_DEL_ROLE	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_DELETE	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_ROLE_SELECT	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	刪除角色	</comment>
+	</row>
+	<row>
+		<tag>	ROLE_SELECTOR_CHOOSE_SERVER	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_S	</key>
+				<mods>	MODIFIER_CTRL	</mods>
+			</item>
+		</keys>
+		<status>	GST_ROLE_SELECT	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇服務器	</comment>
+	</row>
+	<row>
+		<tag>	ROLE_SELECTOR_ENTER_WORLD	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_RETURN	</key>
+				<mods>	</mods>
+			</item>
+			<item>
+				<key>	KEY_NUMPADENTER	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_ROLE_SELECT	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	進入遊戲	</comment>
+	</row>
+	<row>
+		<tag>	ROLE_CREATOR_BACK	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_B	</key>
+				<mods>	MODIFIER_CTRL	</mods>
+			</item>
+		</keys>
+		<status>	GST_ROLE_CREATE	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	返回角色選擇	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_FORWARD	</tag>
+		<down>	10	</down>
+		<keys>
+			<item>
+				<key>	KEY_W	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L2	</pri>
+		<allKeyHandle>	1	</allKeyHandle>
+		<comment>	前進	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_BACKWORD	</tag>
+		<down>	10	</down>
+		<keys>
+			<item>
+				<key>	KEY_S	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L2	</pri>
+		<allKeyHandle>	1	</allKeyHandle>
+		<comment>	後退	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_TURN_LEFT	</tag>
+		<down>	10	</down>
+		<keys>
+			<item>
+				<key>	KEY_A	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L2	</pri>
+		<allKeyHandle>	1	</allKeyHandle>
+		<comment>	左轉	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_TURN_RIGHT	</tag>
+		<down>	10	</down>
+		<keys>
+			<item>
+				<key>	KEY_D	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L2	</pri>
+		<allKeyHandle>	1	</allKeyHandle>
+		<comment>	右轉	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_JUMP_UP	</tag>
+		<down>	10	</down>
+		<keys>
+			<item>
+				<key>	KEY_SPACE	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L2	</pri>
+		<allKeyHandle>	1	</allKeyHandle>
+		<comment>	跳躍	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_AUTO_RUN	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_GRAVE	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	自動行走	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_TOGGLE_WALK_RUN	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_NUMLOCK	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L2	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	行走切換	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_FOLLOW_TARGET	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	自動跟隨目標	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_TOGGLE_SITDOWN_STAND	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_D	</key>
+				<mods>	MODIFIER_CTRL, MODIFIER_SHIFT	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	坐下/起立	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_INCREASE_DISTANCE	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	增加視距	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_DECREASE_DISTANCE	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	減少視距	</comment>
+	</row>
+	<row>
+		<tag>	ACTION_PICK_UP_ITEM	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_Z	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	撿拾東西	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_TOGGLE_TABSTOP	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_RETURN	</key>
+				<mods>	</mods>
+			</item>
+			<item>
+				<key>	KEY_NUMPADENTER	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	轉換聊天焦點	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_ACTIVE_CHANNEL	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_SLASH	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	激活輸入，並輸入頻道快捷前綴	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_WHISPER_TARGET	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	打開目標對話	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_RESPONSE_LAST_WHISPER	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_R	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	回復最近密聊目標	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_UP_HISTORY	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	對話上翻	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_DOWN_HISTORY	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	對話下翻	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_END_HISTORY	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	翻至對話最下端	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_CHN_WHISPER	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	呼出密聊框	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_CHN_TEAM	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	切換到隊伍頻道	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_CHN_WORLD	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	切換到世界頻道	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_CHN_RUMOR	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	切換到謠言頻道	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_CHN_FAMILY	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	切換到家族頻道	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_CHN_COMMON	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	切換到普通頻道	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_TOGGLE_CH_TEAM	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	關/開隊伍信息	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_TOGGLE_CH_TONG </tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	關/開幫會信息	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_TOGGLE_CH_WORLD </tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	關/開世界信息	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_TOGGLE_CH_RUMOR </tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	關/開謠言信息	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_TOGGLE_CH_FAMILY </tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	關/開家族信息	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_TOGGLE_CH_COMMON </tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	關/開幫會信息	</comment>
+	</row>
+	<row>
+		<tag>	CHAT_TOGGLE_CH_SYSTEM </tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	關/開係統信息	</comment>
+	</row>
+	<row>
+		<tag>	CHATSYS_UP_HISTORY	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	戰鬥信息上翻	</comment>
+	</row>
+	<row>
+		<tag>	CHATSYS_DOWN_HISTORY	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	戰鬥信息下翻	</comment>
+	</row>
+	<row>
+		<tag>	CHATSYS_TOGGLE_FIGHT_INFO	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關戰鬥信息	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_ALL_UIS	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_G	</key>
+				<mods>	MODIFIER_CTRL	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關所有窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_FPS_VIEW	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關幀數顯示	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_BIGMAP	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_M	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關大地圖	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_MINIMAP	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關小地圖	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_KITBAG	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_B	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關背包	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_SUBKITBAGS	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關所有小包裹	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_EQUIPWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_E	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關裝備窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_SKILLWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_L	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關技能窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_STALLAGE	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key> KEY_V	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關擺攤窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_PET_PROPERTY	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_P	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關寵物屬性窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_PET_SKILL	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_G	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關寵物技能窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_VEHICLEWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關騎寵窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_CREDITWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_I	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關聲望窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_QUESTWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_Q	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關任務窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_TEAMMATEWINDOW	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關組隊界面	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_GEMWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_C	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關代練界面	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_FRIENDWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關關係窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_TONGWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_J	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關幫會窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_FAMILYWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關家族窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_TALISMANWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關法寶窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_HELPWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_H	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關幫助窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_LEVELWINDOW	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關等級信息窗口	</comment>
+	</row>
+	<row>
+		<tag>	UI_TOGGLE_AUTOFIGHTBAR	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_X	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關自動戰鬥窗口	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_NEAR_ENEMY	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_TAB	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇最近一個敵人	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_FORWARD_ENEMY	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_TAB	</key>
+				<mods>	MODIFIER_SHIFT	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇前一個敵人	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_NEAR_KINDNESS	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇一個友好目標	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_NEAR_TEAMMATE	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇最近一個隊友	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_FORWARD_TEAMMATE	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇前一個隊友	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_MY_PET	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇自己的寵物	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_TEAMMATE1	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇隊友1	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_TEAMMATE2	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇隊友2	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_TEAMMATE3	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇隊友3	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_TEAMMATE4	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇隊友4	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_NAIL_TARGET_OF_TARGET	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F	</key>
+				<mods>	MODIFIER_ALT	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	協助攻擊	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_AUTOFIGHT	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_Z	</key>
+				<mods>	MODIFIER_CTRL		</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關自動戰鬥	</comment>
+	</row>
+	<row>
+		<tag>	COMBAT_SWITCH_PKMODEL	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_H	</key>
+				<mods>	MODIFIER_CTRL		</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	切換攻擊模式	</comment>
+	</row>
+
+	<row>
+		<tag>	PET_QB_GRID_1	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F1	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	寵物技能快捷槽1	</comment>
+	</row>
+	<row>
+		<tag>	PET_QB_GRID_2	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F2	</key>
+				<mods>		</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	寵物技能快捷槽2	</comment>
+	</row>
+	<row>
+		<tag>	PET_QB_GRID_3	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F3	</key>
+				<mods> 	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	寵物技能快捷槽3	</comment>
+	</row>
+	<row>
+		<tag>	PET_QB_GRID_4	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F4	</key>
+				<mods> 	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	寵物技能快捷槽4	</comment>
+	</row>
+	<row>
+		<tag>	PET_ASSIST	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F5	</key>
+				<mods>			</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	攻擊	</comment>
+	</row>
+	<row>
+		<tag>	PET_TO_FOLLOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F6	</key>
+				<mods>			</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	跟隨	</comment>
+	</row>
+	<row>
+		<tag>	PET_TO_KEEPING	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F7	</key>
+				<mods>			</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	停留	</comment>
+	</row>
+	<row>
+		<tag>	PET_DOMESTICATE	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F8	</key>
+				<mods>			</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	馴養	</comment>
+	</row>
+
+	<row>
+		<tag>	B_QB_GRID_1	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_1	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	下方快捷槽1	</comment>
+	</row>
+	<row>
+		<tag>	B_QB_GRID_2	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_2	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	下方快捷槽2	</comment>
+	</row>
+	<row>
+		<tag>	B_QB_GRID_3	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_3	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	下方快捷槽3	</comment>
+	</row>
+	<row>
+		<tag>	B_QB_GRID_4	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_4	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	下方快捷槽4	</comment>
+	</row>
+	<row>
+		<tag>	B_QB_GRID_5	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_5	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	下方快捷槽5	</comment>
+	</row>
+	<row>
+		<tag>	B_QB_GRID_6	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_6	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	下方快捷槽6	</comment>
+	</row>
+	<row>
+		<tag>	B_QB_GRID_7	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_7	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	下方快捷槽7	</comment>
+	</row>
+	<row>
+		<tag>	B_QB_GRID_8	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_8	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	下方快捷槽8	</comment>
+	</row>
+	<row>
+		<tag>	B_QB_GRID_9	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_9	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	下方快捷槽9	</comment>
+	</row>
+	<row>
+		<tag>	B_QB_GRID_0	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_0	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	下方快捷槽10	</comment>
+	</row>
+
+	<row>
+		<tag>	R_QB_GRID_1	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_1	</key>
+				<mods>	MODIFIER_ALT	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右方快捷槽1	</comment>
+	</row>
+	<row>
+		<tag>	R_QB_GRID_2	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_2	</key>
+				<mods>	MODIFIER_ALT	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右方快捷槽2	</comment>
+	</row>
+	<row>
+		<tag>	R_QB_GRID_3	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_3	</key>
+				<mods>	MODIFIER_ALT	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右方快捷槽3	</comment>
+	</row>
+	<row>
+		<tag>	R_QB_GRID_4	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_4	</key>
+				<mods>	MODIFIER_ALT	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右方快捷槽4	</comment>
+	</row>
+	<row>
+		<tag>	R_QB_GRID_5	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_5	</key>
+				<mods>	MODIFIER_ALT	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右方快捷槽5	</comment>
+	</row>
+	<row>
+		<tag>	R_QB_GRID_6	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_6	</key>
+				<mods>	MODIFIER_ALT	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右方快捷槽6	</comment>
+	</row>
+	<row>
+		<tag>	R_QB_GRID_7	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右方快捷槽7	</comment>
+	</row>
+	<row>
+		<tag>	R_QB_GRID_8	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右方快捷槽8	</comment>
+	</row>
+	<row>
+		<tag>	R_QB_GRID_9	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右方快捷槽9	</comment>
+	</row>
+	<row>
+		<tag>	R_QB_GRID_0	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右方快捷槽10	</comment>
+	</row>
+	<row>
+		<tag>	SOUND_TOGGLE_MUSIC	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開啟/關閉音樂	</comment>
+	</row>
+	<row>
+		<tag>	SOUND_TOGGLE_SOUND	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開啟/關閉音效	</comment>
+	</row>
+	<row>
+		<tag>	SOUND_LOUDEN	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	增大音量	</comment>
+	</row>
+	<row>
+		<tag>	SOUND_MURMUR	</tag>
+		<down>	1	</down>
+		<keys>	</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	減小音量	</comment>
+	</row>
+
+	<row>
+		<tag>	OTHER_TOGGLE_ROLES_MODEL	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_F9	</key>
+				<mods>			</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	顯示/隱藏其他角色	</comment>
+	</row>
+	<row>
+		<tag>	PREPARE_FOR_TEAM_INVITE	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_T	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	進入組隊邀請模式	</comment>
+	</row>
+
+	<row>
+		<tag>	FIXED_GO_TO_CURSOR	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_MOUSE0	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	移動到鼠標位置	</comment>
+	</row>
+	<row>
+		<tag>	FIXED_CLOSE_TO_TARGET	</tag>
+		<down>	0	</down>
+		<keys>
+			<item>
+				<key>	KEY_MOUSE0	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L2	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	選擇/靠近當前目標	</comment>
+	</row>
+	<row>
+		<tag>	FIXED_SPELL_TARGET	</tag>
+		<down>	0	</down>
+		<keys>
+			<item>
+				<key>	KEY_MOUSE1	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L2	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	右鍵攻擊當前目標	</comment>
+	</row>
+	<row>
+		<tag>	FIXED_UNBIND_TARGET	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_ESCAPE	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	取消怪物選擇	</comment>
+	</row>
+	<row>
+		<tag>	FIXED_TOGGLE_DROPITEM_NAME	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_LALT	</key>
+				<mods>	MODIFIER_ALT	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關掉落物品名稱	</comment>
+	</row>
+	<row>
+		<tag>	FIXED_ORDER_HIDE_WINDOW </tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_ESCAPE	</key>
+				<mods>	</mods>
+			</item>
+		</keys>
+		<status>	GST_UNBUSY	</status>
+		<pri>	L2	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	順序隱藏窗口	</comment>
+	</row>
+	<row>
+		<tag>	FIXED_TOGGLE_SYSTEMWINDOW	</tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_ESCAPE	</key>
+				<mods>	0	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L4	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關係統窗口	</comment>
+	</row>
+	<row>
+		<tag>	FIXED_TOGGLE_PLAYER_BROADCASTER </tag>
+		<down>	1	</down>
+		<keys>
+			<item>
+				<key>	KEY_B	</key>
+				<mods>	MODIFIER_CTRL	</mods>
+			</item>
+		</keys>
+		<status>	GST_IN_WORLD	</status>
+		<pri>	L3	</pri>
+		<allKeyHandle>	0	</allKeyHandle>
+		<comment>	開/關玩家廣播窗口	</comment>
+	</row>
+</root>

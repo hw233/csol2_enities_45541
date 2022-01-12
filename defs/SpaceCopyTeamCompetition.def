@@ -1,0 +1,28 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<onPlayerDied>
+			<Arg>	OBJECT_ID	</Arg>		<!-- 队伍ID-->
+			<Arg>	OBJECT_ID	</Arg>		<!-- 队伍ID-->
+			<Arg>	OBJECT_ID	</Arg>		<!-- roleID-->
+			<Arg>	BOOL		</Arg>		<!-- leaveFlag-->
+		</onPlayerDied>
+		<requestReward>
+			<Arg>	OBJECT_ID	</Arg>		<!-- 队伍ID-->
+			<Arg>	MAILBOX		</Arg>		<!-- 获取奖励的玩家-->z
+		</requestReward>
+		<notifyWinner>
+		</notifyWinner>
+		<queryCompetitionInfo>
+			<Arg>	MAILBOX		</Arg>
+		</queryCompetitionInfo>
+		<setWinner>
+			<Arg>	OBJECT_ID	</Arg>		<!-- 队伍ID-->
+		</setWinner>
+	</BaseMethods>
+	<CellMethods>
+	</CellMethods>
+</root>

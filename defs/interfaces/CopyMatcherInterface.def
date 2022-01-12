@@ -1,0 +1,240 @@
+<root>
+	<Properties>
+		<latestMatchedTime>	<!--最近一次成功匹配的时间-->
+			<Type>		FLOAT			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	true			</Persistent>
+		</latestMatchedTime>
+		<_expectGuider>		<!--玩家是否愿意担任队伍向导-->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	false			</Default>
+		</_expectGuider>
+		<_expectedDuties>	<!--玩家选择的职责，不代表玩家能担任这些职责-->
+			<Type>		UINT8_TUPLE		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	()			</Default>
+		</_expectedDuties>
+		<_expectedCopies>	<!--玩家选择的副本，不代表玩家能前往这些副本-->
+			<Type>		STRING_TUPLE		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	()			</Default>
+		</_expectedCopies>
+		<_haltedRaidResumed>	<!--匹配的队伍成员，重新找人排队标记-->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	false			</Default>
+		</_haltedRaidResumed>
+		<labelOfMatchedCopy>	<!--匹配的副本标签，用于判断是否进入了匹配的副本-->
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</labelOfMatchedCopy>
+		<insideMatchedCopy>	<!--匹配的队伍成员，重新找人排队标记-->
+			<Type>		BOOL			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	false			</Default>
+		</insideMatchedCopy>
+		<_tid_resumeHaltedRaid>	<!-- 确认加入半路副本的timerID -->
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0		</Default>
+			<Persistent>	false			</Persistent>
+		</_tid_resumeHaltedRaid>
+	</Properties>
+	<BaseMethods>
+		<setMatchStatus>
+			<Arg>   UINT8            </Arg>          <!-- Status -->
+		</setMatchStatus>
+		<updateAvgQueueingTimeFromServer>
+		</updateAvgQueueingTimeFromServer>
+		<onQuerySameLevelQueuersNumber>
+			<Arg>   UINT8            </Arg>          <!-- sameLevelQueuersNumber -->
+		</onQuerySameLevelQueuersNumber>
+		<joinCopyMatcherAsSingle>
+			<Arg>	UINT8_TUPLE	</Arg>		<!-- duties -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+			<Arg>   UINT8            </Arg>          <!-- camp -->
+			<Arg>	BOOL		</Arg>		<!-- expectGuider -->
+		</joinCopyMatcherAsSingle>
+		<joinCopyMatcherAsCaptain>
+			<Arg>	UINT8_TUPLE	</Arg>		<!-- duties -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+			<Arg>   UINT8            </Arg>          <!-- camp -->
+			<Arg>	BOOL		</Arg>		<!-- expectGuider -->
+		</joinCopyMatcherAsCaptain>
+		<undertakeDutiesOf>
+			<Arg>	UINT8_TUPLE	</Arg>		<!-- duties -->
+			<Arg>	BOOL		</Arg>		<!-- expectGuider -->
+		</undertakeDutiesOf>
+		<onJoinCopyMatcherQueue>
+		</onJoinCopyMatcherQueue>
+		<onRejoinCopyMatcherQueue/>
+		<leaveCopyMatcherQueue>
+			<Exposed/>
+		</leaveCopyMatcherQueue>
+		<onLeaveCopyMatcherQueue>
+			<Arg>	INT32	</Arg>		<!-- reason -->
+		</onLeaveCopyMatcherQueue>
+		<confirmCopyMatchedFromClient>
+			<Exposed/>
+			<Arg>	BOOL	</Arg>		<!-- accept -->
+		</confirmCopyMatchedFromClient>
+		<onRematchedAsRecruiter>
+			<Arg>	UID	</Arg>		<!-- groupID -->
+		</onRematchedAsRecruiter>
+		<enterConfirmingCopyMatched>
+			<Arg>	UID	</Arg>		<!-- groupID -->
+			<Arg>	PY_DICT	</Arg>		<!-- dutyMap -->
+			<Arg>	STRING	</Arg>		<!-- copyLabel -->
+			<Arg>	UINT8	</Arg>		<!-- copyLevel -->
+			<Arg>	UINT8	</Arg>		<!-- bossesTotal -->
+			<Arg>	UINT8	</Arg>		<!-- bossesKilled -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+		</enterConfirmingCopyMatched>
+		<initiateSelectingDuties>
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+		</initiateSelectingDuties>
+		<cancelSelectingDuties/>
+		<addResetMatchTimer/>
+		<hideConfirmWindow/>
+		<onMatchedConfirmSuccessfully/>
+		<createMatchedCopyTeam/>
+		<refuseToUndertakeAnyDuty>
+			<Exposed/>
+		</refuseToUndertakeAnyDuty>
+		<joinMatchedCopyTeam>
+			<Arg>	OBJECT_ID	</Arg>		<!-- captainID -->
+			<Arg>	MAILBOX		</Arg>		<!-- teamMailbox -->
+		</joinMatchedCopyTeam>
+		<resumeHaltedRaid>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>		<!-- teamID -->
+			<Arg>   UINT8            </Arg>          <!-- camp -->
+		</resumeHaltedRaid>
+		<initiateVoteForKickingTeammate>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>		<!-- suffererID -->
+			<Arg>	STRING		</Arg>		<!-- reason -->
+		</initiateVoteForKickingTeammate>
+		<voteForKickingTeammateFromClient>
+			<Exposed/>
+			<Arg>	BOOL		</Arg>		<!-- agree -->
+		</voteForKickingTeammateFromClient>
+		<teleportCopyOnMatched>
+			<Arg>	STRING		</Arg>		<!-- copyLabel -->
+		</teleportCopyOnMatched>
+	</BaseMethods>
+	<CellMethods>
+		<requestEnterCopyMatcherQueue>
+			<Exposed/>
+			<Arg>	UINT8_TUPLE	</Arg>		<!-- duties -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+			<Arg>   UINT8            </Arg>		<!-- camp -->
+			<Arg>	BOOL		</Arg>		<!-- expectGuider -->
+		</requestEnterCopyMatcherQueue>
+		<replySelectingDutiesOf>
+			<Exposed/>
+			<Arg>	UINT8_TUPLE	</Arg>		<!-- duties -->
+			<Arg>	BOOL		</Arg>		<!-- expectGuider -->
+		</replySelectingDutiesOf>
+		<setExpectedCopies>
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+		</setExpectedCopies>
+		<setHaltedRaidResumed>
+			<Arg>	BOOL		</Arg>		<!-- resumed -->
+		</setHaltedRaidResumed>
+		<onMatchedCopyTeam>
+			<Arg>	UINT8		</Arg>		<!-- copyLevel -->
+			<Arg>	STRING		</Arg>		<!-- copyLabel -->
+		</onMatchedCopyTeam>
+		<shuttleMatchedCopy>
+			<Exposed/>
+			<Arg>	BOOL		</Arg>		<!-- enter -->
+		</shuttleMatchedCopy>
+		<teleportCopyOnMatched>
+			<Arg>	STRING		</Arg>		<!-- copyLabel -->
+		</teleportCopyOnMatched>
+		<confirmJoiningHaltedRaid>
+			<Exposed/>
+			<Arg>	BOOL		</Arg>		<!-- agree -->
+		</confirmJoiningHaltedRaid>
+		<leaveTeamOnKicked/>
+		<onEnterMatchedCopy>
+			<Arg>	STRING		</Arg>		<!-- copyLabel -->
+			<Arg>	UINT8		</Arg>		<!-- bossesKilled -->
+		</onEnterMatchedCopy>
+		<onLeaveMatchedCopy/>
+		<onMatchedRaidFinished/>
+	</CellMethods>
+	<ClientMethods>
+		<updateMatchStatusFromServer>
+			<Arg>	UINT8	</Arg>		<!-- oldStatus -->
+			<Arg>	UINT8	</Arg>		<!-- newStatus -->
+		</updateMatchStatusFromServer>
+		<updateAvgQueueingTimeFromServer>
+			<Arg>	INT32		</Arg>		<!-- avgTime -->
+		</updateAvgQueueingTimeFromServer>
+		<notifyToSelectDutiesFromServer>
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+		</notifyToSelectDutiesFromServer>
+		<notifyToConfirmCopyMatchedFromServer>
+			<Arg>	UINT8	</Arg>		<!-- duty -->
+			<Arg>	STRING	</Arg>		<!-- copyLabel -->
+			<Arg>	UINT8	</Arg>		<!-- copyLevel -->
+			<Arg>	UINT8	</Arg>		<!-- bossesTotal -->
+			<Arg>	UINT8	</Arg>		<!-- bossesKilled -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+		</notifyToConfirmCopyMatchedFromServer>
+		<receiveMatchedInfomationFromServer>
+			<Arg>	PYTHON	</Arg>	<!-- info -->
+			<Arg>	UINT8	</Arg>	<!-- copyLabelNum -->
+		</receiveMatchedInfomationFromServer>
+		<updateMatchedConfirmationFromServer>
+			<Arg>	OBJECT_ID	</Arg>	<!-- playerID -->
+			<Arg>	UINT8	</Arg>	<!-- len of needconfirm -->
+			<Arg>	PYTHON		</Arg>	<!-- confirmation -->
+			<Arg>	UINT8	</Arg>	<!-- copyLabelNum -->
+		</updateMatchedConfirmationFromServer>
+		<shieldTeamDisbanded/>
+		<cancelShieldTeamDisbanded/>
+		<hideConfirmWindow>
+		</hideConfirmWindow>
+		<onMatchedConfirmTimeout/>
+		<updateMatchedCopyInfo>
+			<Arg>	STRING	</Arg>		<!-- copyLabel -->
+			<Arg>	UINT8	</Arg>		<!-- copyLevel -->
+			<Arg>	PY_DICT	</Arg>		<!-- memberToDuty -->
+		</updateMatchedCopyInfo>
+		<cancelSelectingDutiesFromServer/>
+		<notifyToConfirmHaltedRaid>
+			<Arg>	STRING	</Arg>		<!-- copyLabel -->
+			<Arg>	UINT8	</Arg>		<!-- bossesTotal -->
+			<Arg>	UINT8	</Arg>		<!-- bossesKilled -->
+		</notifyToConfirmHaltedRaid>
+		<notifyToVoteForKickingTeammate>
+			<Arg>	OBJECT_ID	</Arg>		<!-- initiatorID -->
+			<Arg>	OBJECT_ID	</Arg>		<!-- suffererID -->
+			<Arg>	STRING		</Arg>		<!-- reason -->
+		</notifyToVoteForKickingTeammate>
+		<cancelVoteForKicking/>
+		<receiveTeammateMatchInfo>
+			<Arg>	OBJECT_ID	</Arg>		<!-- teammateID -->
+			<Arg>	FLOAT		</Arg>		<!-- lastestMatchedTime -->
+			<Arg>	INT32		</Arg>		<!-- activityFlags -->
+		</receiveTeammateMatchInfo>
+		<updateTeammateMatchedTime>
+			<Arg>	OBJECT_ID	</Arg>		<!-- teammateID -->
+			<Arg>	FLOAT		</Arg>		<!-- lastestMatchedTime -->
+		</updateTeammateMatchedTime>
+		<updateTeammateActFlag>
+			<Arg>	OBJECT_ID	</Arg>		<!-- teammateID -->
+			<Arg>	INT32		</Arg>		<!-- activityFlags -->
+			<Arg>	UINT32		</Arg>		<!-- modifiedFlag -->
+		</updateTeammateActFlag>
+		<onMatchedRaidFinished/>
+		<flashQueueingDutiesFromServer>
+			<Arg>	UINT8_ARRAY	</Arg>		<!-- queueingDuties -->
+		</flashQueueingDutiesFromServer>
+	</ClientMethods>
+</root>

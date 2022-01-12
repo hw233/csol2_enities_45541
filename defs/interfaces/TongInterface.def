@@ -1,0 +1,1227 @@
+<root>
+	<Properties>
+		<tong_dbID>
+			<Type>			DATABASE_ID			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0				</Default>
+			<Persistent>		true				</Persistent>
+			<IndexType> 		Normal				 </IndexType>
+		</tong_dbID>
+
+		<tong_grade>
+			<Type>		UINT8					</Type>
+			<Flags>		ALL_CLIENTS				</Flags>
+			<Default>	0					</Default>
+			<Persistent>	true					</Persistent>
+		</tong_grade>
+
+		<tong_scholium>
+			<Type>			STRING				</Type>
+			<Flags>			BASE				</Flags>
+			<Persistent>	true					</Persistent>
+			<DatabaseLength>100</DatabaseLength>
+		</tong_scholium>
+
+		<tong_onlineMemberMailboxs>
+			<Type>			FAMILY_ONLINEMEMBERDATAS	</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>		false				</Persistent>
+		</tong_onlineMemberMailboxs>
+
+		<lastTongTerritoryDBID>
+			<Type>		DATABASE_ID				</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	true					</Persistent>
+		</lastTongTerritoryDBID>
+
+		<tongName>		<!-- override it in GameObject -->
+			<Type>		STRING					</Type>
+			<Flags>		ALL_CLIENTS				</Flags>
+			<Persistent>	false					</Persistent>
+		</tongName>
+
+		<tong_contribute>
+			<Type>		UINT32					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	true					</Persistent>
+		</tong_contribute>
+
+		<tong_holdCity>
+			<Type>		STRING					</Type>
+			<Flags>		ALL_CLIENTS				</Flags>
+			<Persistent>	false					</Persistent>
+		</tong_holdCity>
+
+		<robWarTargetTong>
+			<Type>		DATABASE_ID				</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	false					</Persistent>
+		</robWarTargetTong>
+
+		<tong_level>
+			<Type>		UINT8					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+		</tong_level>
+
+		<factionCount>
+			<Type>		UINT8		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>	0		</Default>
+		</factionCount>
+
+		<tong_dailySignInRecord>	<!-- 每日签到次数 -->
+			<Type>			DAILYRECORD			</Type>
+			<Flags>			BASE_AND_CLIENT			</Flags>
+			<Persistent>		true				</Persistent>
+		</tong_dailySignInRecord>
+
+		<tong_totalSignInRecord>	<!-- 总签到次数 -->
+			<Type>			UINT16				</Type>
+			<Flags>			BASE				</Flags>
+			<Persistent>		true				</Persistent>
+			<Default>		0				</Default>
+		</tong_totalSignInRecord>
+
+		<tongDartQuestIsOpen>		<!-- 帮会镖任务开启状态 -->
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE				</Flags>
+			<Persistent>		false				</Persistent>
+			<Default>		false				</Default>
+		</tongDartQuestIsOpen>
+
+		<tongNormalQuestOpenType>	<!-- 帮会日常任务开启类型 -->
+			<Type>			UINT8				</Type>
+			<Flags>			CELL_PRIVATE				</Flags>
+			<Persistent>		false				</Persistent>
+			<Default>		0				</Default>
+		</tongNormalQuestOpenType>
+	</Properties>
+
+	<ClientMethods>
+		<tong_onEnterCityWarSpace>
+			<Arg>	UINT32				</Arg>
+			<Arg>	PYTHON				</Arg>
+		</tong_onEnterCityWarSpace>
+
+		<tong_onRequestCityTongRevenue>
+			<Arg>	UINT32				</Arg>
+		</tong_onRequestCityTongRevenue>
+
+		<tong_onUpdateCityWarPoint>
+			<Arg>	DATABASE_ID  </Arg>
+			<Arg>	UINT32  </Arg>
+		</tong_onUpdateCityWarPoint>
+
+		<tong_onLeaveCityWarSpace/>
+
+		<tong_onCityWarOver/>
+
+		<tong_onRequestRobWar/>
+
+		<tong_onQueryCityWarTable>
+			<Arg>	PYTHON				</Arg>
+		</tong_onQueryCityWarTable>
+
+		<tong_onSetShenShouType>
+			<Arg>	UINT8				</Arg>
+			<Arg>	UINT8				</Arg>
+		</tong_onSetShenShouType>
+
+		<tong_onSetAfterFeteStatus>
+			<Arg>	INT32				</Arg>
+		</tong_onSetAfterFeteStatus>
+
+		<tong_onSetVariablePrestige>	<!--服务器传送帮会额外声望-->
+			<Arg>	INT32				</Arg>
+		</tong_onSetVariablePrestige>
+
+		<tong_openShenShouSelectWindow>
+			<Arg>	UINT8				</Arg>
+			<Arg>	UINT8				</Arg>
+		</tong_openShenShouSelectWindow>
+
+
+		<tong_setRobWarTargetTong>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_setRobWarTargetTong>
+
+		<onfindRequestRobWarCallBack>
+			<Arg>	UINT8				</Arg>
+			<Arg>	UINT8				</Arg>
+			<Arg>	UINT8				</Arg>
+			<Arg>	BOOL				</Arg>
+		</onfindRequestRobWarCallBack>
+
+		<tong_updateMemberMapInfo>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>	<!--spaceType-->
+			<Arg>	POSITION			</Arg>	<!--position-->
+			<Arg>	UINT16				</Arg>	<!--lineNumber-->
+		</tong_updateMemberMapInfo>
+
+		<tong_onSetMemberInfo>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>	<!-- NAME -->
+			<Arg>	UINT16				</Arg>	<!-- level -->
+			<Arg>	INT32				</Arg>	<!-- class -->
+			<Arg>	UINT8				</Arg>	<!-- grade -->
+			<Arg>	STRING				</Arg>	<!-- NAME -->
+			<Arg>	UINT32				</Arg>	<!-- contribute -->
+			<Arg>	UINT32				</Arg>	<!-- contribute -->
+			<Arg>	BOOL				</Arg>	<!-- online -->
+		</tong_onSetMemberInfo>
+
+		<tong_onSetTongLevel>
+			<Arg>	UINT8				</Arg>
+		</tong_onSetTongLevel>
+
+		<tong_onSetTongSignMD5>
+			<Arg>	STRING				</Arg>
+		</tong_onSetTongSignMD5>
+
+		<tong_onSetTongMoney>
+			<Arg>	UINT32				</Arg>
+		</tong_onSetTongMoney>
+
+		<tong_onSetTongPrestige>
+			<Arg>	INT32				</Arg>
+		</tong_onSetTongPrestige>
+
+		<tong_onSetTongExp>
+			<Arg>	INT32				</Arg>
+		</tong_onSetTongExp>
+
+		<tong_onMemberGradeChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT8				</Arg>	<!-- grade -->
+		</tong_onMemberGradeChanged>
+
+		<tong_onMemberOnlineStateChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	BOOL				</Arg>	<!-- bool -->
+		</tong_onMemberOnlineStateChanged>
+
+		<tong_onMemberLevelChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT16				</Arg>	<!-- level -->
+		</tong_onMemberLevelChanged>
+
+		<tong_onMemberNameChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>	<!-- name -->
+		</tong_onMemberNameChanged>
+
+		<tong_onSetAffiche>
+			<Arg>	STRING				</Arg>
+		</tong_onSetAffiche>
+
+		<tong_onReceiveRequestJoin>
+			<Arg>	STRING				</Arg>	<!-- entityID -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>	<!-- entityID -->
+			<Arg>	STRING				</Arg>	<!-- name -->
+			<Arg>	UINT16				</Arg>	<!-- level -->
+			<Arg>	UINT16				</Arg>	<!-- memberCount -->
+		</tong_onReceiveRequestJoin>
+
+		<tong_onDeleteMemberInfo>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_onDeleteMemberInfo>
+
+		<tong_meQuit/>
+
+		<tong_onMemberScholiumChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>
+		</tong_onMemberScholiumChanged>
+
+		<tong_onRequestTongLeague>
+			<Arg>	STRING				</Arg>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_onRequestTongLeague>
+
+		<tong_onAbdication>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_onAbdication>
+
+		<tong_onMemberContributeChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT32				</Arg>	<!-- contribute -->
+			<Arg>	UINT32				</Arg>
+		</tong_onMemberContributeChanged>
+
+		<tong_onRequestDatasCallBack/>
+		<tong_onReceiveData/>
+
+		<tong_setLeague>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>
+		</tong_setLeague>
+
+		<tong_addLeague>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>
+		</tong_addLeague>
+
+		<tong_delLeague>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_delLeague>
+
+		<tong_initDutyName>
+			<Arg>	UINT16				</Arg>
+			<Arg>	STRING				</Arg>
+		</tong_initDutyName>
+
+		<tong_onDutyNameChanged>
+			<Arg>	UINT16				</Arg>
+			<Arg>	STRING				</Arg>
+		</tong_onDutyNameChanged>
+		<tong_enterFound>
+			<Arg>	OBJECT_ID			</Arg>	<!--npcID-->
+		</tong_enterFound>
+
+		<tong_onChiefConjure/>
+
+		<tong_onUpdateWarReportTop>
+			<Arg>	STRING				</Arg>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	UINT16				</Arg>
+			<Arg>	UINT16				</Arg>
+		</tong_onUpdateWarReportTop>
+
+		<tong_openBuildingWindow>
+			<Arg>	UINT8				</Arg>
+		</tong_openBuildingWindow>
+
+		<tong_receiveStorageItem>
+			<Arg>	ITEMS				</Arg>
+		</tong_receiveStorageItem>
+
+		<tong_enterStorage>
+			<Arg>	ARRAY	<of>	TONG_STORAGE_POPEDOM	</of>	</Arg>	<!-- 仓库包裹额外数据 -->
+			<Arg>	PYTHON				</Arg>	<!-- 玩家在仓库包裹中的存取记录 -->
+		</tong_enterStorage>
+		<tong_storeItemUpdate>
+			<Arg>	ITEM 				</Arg>
+		</tong_storeItemUpdate>
+		<tong_delItemUpdate>
+			<Arg>	INT16				</Arg>
+		</tong_delItemUpdate>
+		<tong_moveItemCB>
+			<Arg>	INT16				</Arg>
+			<Arg>	INT16				</Arg>
+		</tong_moveItemCB>
+		<tong_receiveStorageLog>
+			<Arg>	PYTHON				</Arg>
+		</tong_receiveStorageLog>
+		<tong_updateStorageBagName>
+			<Arg>	UINT8				</Arg>
+			<Arg>	STRING				</Arg>
+		</tong_updateStorageBagName>
+		<tong_fetchStorageItemCB>
+			<Arg>	INT32				</Arg>
+		</tong_fetchStorageItemCB>
+
+		<tong_openReuqestCampaignMonsterRaidWindow>
+			<Arg>	OBJECT_ID			</Arg>
+			<Arg>	ARRAY <of> UINT16 </of>		</Arg>
+		</tong_openReuqestCampaignMonsterRaidWindow>
+
+		<tong_setFeteData>
+			<Arg>	INT32				</Arg>
+		</tong_setFeteData>
+
+		<tong_onReceiveTongBuildInfo>
+			<Arg>	TONGBUILDINFO			</Arg>
+		</tong_onReceiveTongBuildInfo>
+
+		<tong_feteExchange>
+			<Arg>	OBJECT_ID			</Arg>
+		</tong_feteExchange>
+
+		<onGetBuildingSpendMoney>
+			<Arg>	UINT32				</Arg>	<!-- 帮会建筑维护费用 -->
+		</onGetBuildingSpendMoney>
+
+		<tong_onDismissTong/>
+
+		<tong_onCreateSuccessfully>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	STRING				</Arg>
+		</tong_onCreateSuccessfully>
+
+		<tong_onReceiveTongList>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	UINT16				</Arg>
+			<Arg>	UINT16				</Arg>
+			<Arg>	UINT32				</Arg>
+			<Arg>	BOOL				</Arg>
+		</tong_onReceiveTongList>
+
+		<tong_receiveTongListCompleted/>
+
+		<tong_onReceiveTongInfo>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	UINT16				</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	ARRAY <of> STRING </of>		</Arg>
+			<Arg>	STRING				</Arg>
+		</tong_onReceiveTongInfo>
+
+		<tong_onReceiveiJoinInfo>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	STRING				</Arg>
+		</tong_onReceiveiJoinInfo>
+
+		<tong_openTongQueryWindow/>
+		<tong_openTongADEditWindow/>
+
+		<tong_onQueryCityTongMasters>
+			<Arg>	UINT16				</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	UINT32				</Arg>
+			<Arg>	STRING				</Arg>
+		</tong_onQueryCityTongMasters>
+
+		<tong_onQueryCityChanged>
+			<Arg>	STRING				</Arg>
+		</tong_onQueryCityChanged>
+
+		<tong_onQueryCurMaster>
+			<Arg>	STRING				</Arg>
+		</tong_onQueryCurMaster>
+
+		<tong_openQueryCityWarInfoWindow>
+			<Arg>	UINT8				</Arg>
+		</tong_openQueryCityWarInfoWindow>
+
+		<tong_onRequestSetCityRevenueRate>
+			<Arg>	UINT16				</Arg>
+		</tong_onRequestSetCityRevenueRate>
+
+		<askChangeTongName>
+			<Arg>		OBJECT_ID		</Arg>
+		</askChangeTongName>
+
+		<tongSignTalkResult>
+			<Arg>		UINT8			</Arg>	<!-- talkResult -->
+		</tongSignTalkResult>
+		<onGetTongSignMD5>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+		</onGetTongSignMD5>
+		<onClientGetTongSignIcon>
+			<Arg>		INT32			</Arg>
+			<Arg>		UINT8			</Arg>
+			<Arg>		STRING			</Arg>
+		</onClientGetTongSignIcon>
+
+		<tong_onContributeToMoney/>
+
+		<onTong_submitSignReady/>
+		<onTong_submitSign/>
+		<clientGetTongSignReady>
+			<Arg>		INT32			</Arg>
+			<Arg>		UINT8			</Arg>
+			<Arg>		STRING			</Arg>
+		</clientGetTongSignReady>
+
+		<tong_onCityWarReport>
+			<Arg>		DATABASE_ID			</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		UINT16				</Arg>
+			<Arg>		UINT16				</Arg>
+			<Arg>		BOOL				</Arg>
+		</tong_onCityWarReport>
+
+		<tong_onInitRemainAbaTime>	<!--帮会擂台赛剩余时间更新函数-->
+			<Arg>	FLOAT		</Arg>	<!--剩余时间-->
+			<Arg>		UINT8			</Arg>
+		</tong_onInitRemainAbaTime>
+
+		<updateTongAbaPoint>	<!--帮会擂台赛帮会积分更新函数-->
+			<Arg>	STRING		</Arg>	<!--帮会名字-->
+			<Arg>	INT16		</Arg>	<!--对应的分数-->
+			<Arg>	DATABASE_ID	</Arg>	<!--tongDBID-->
+		</updateTongAbaPoint>
+
+		<tong_updateAbaBuyPoint>	<!--帮会擂台赛玩家购买积分更新函数-->
+			<Arg>	INT16		</Arg>	<!--对应的分数-->
+		</tong_updateAbaBuyPoint>
+
+		<updateAllTongAbaPoint>	<!--更新对战双方的积分到客户端-->
+			<Arg>	STRING		</Arg>	<!--对方帮会名字-->
+			<Arg>	INT16		</Arg>	<!--对方的分数-->
+			<Arg>	INT16		</Arg>	<!--己方的分数-->
+		</updateAllTongAbaPoint>
+
+		<updatePlayerAbaRecord>
+			<Arg>	STRING		</Arg>	<!--玩家名字-->
+			<Arg>	INT16		</Arg>	<!--杀人数-->
+			<Arg>	INT16		</Arg>	<!--被杀数-->
+			<Arg>	DATABASE_ID	</Arg>	<!--tongDBID-->
+		</updatePlayerAbaRecord>
+
+		<tong_onLeaveWarSpace>
+		</tong_onLeaveWarSpace>
+
+		<tong_onQueryContest>
+			<Arg>	INT8	</Arg>
+			<Arg>	UINT32	</Arg>
+		</tong_onQueryContest>
+
+		<!-- 帮会领取俸禄相关 -->
+		<tong_updateMemberContributeInfos>		<!-- 更新客户端成员帮贡信息 -->
+			<Arg>	DATABASE_ID	</Arg>		<!-- 玩家DBID -->
+			<Arg>	UINT32		</Arg>		<!-- 累计帮贡总值 -->
+			<Arg>	UINT32		</Arg>		<!-- 剩余帮贡值 -->
+			<Arg>	UINT32		</Arg>		<!-- 本周获得帮贡 -->
+			<Arg>	UINT32		</Arg>		<!-- 上周获得帮贡 -->
+		</tong_updateMemberContributeInfos>
+
+		<tong_receiveSalaryInfo>			<!-- 玩家俸禄信息 -->
+			<Arg>	UINT32		</Arg>		<!-- 上周获得总帮贡 -->
+			<Arg>	UINT32		</Arg>		<!-- 上周帮贡兑换额 -->
+			<Arg>	UINT32		</Arg>		<!-- 上周领取俸禄额 -->
+			<Arg>	UINT32		</Arg>		<!-- 本周获得总帮贡 -->
+			<Arg>	UINT32		</Arg>		<!-- 本周俸禄兑换额 -->
+		</tong_receiveSalaryInfo>
+
+		<tong_receiveTongMoneyInfo>			<!-- 帮会资金信息 -->
+			<Arg>	PYTHON		</Arg>		<!-- 上周帮会资金信息 -->
+			<Arg>	PYTHON		</Arg>		<!-- 帮周帮会资金信息 -->
+		</tong_receiveTongMoneyInfo>
+
+		<tong_onTongAbaOver/>
+		<tong_updateNextWeekExchangeRate>			<!-- 帮会资金信息 -->
+			<Arg>	UINT32			</Arg>		<!-- 下周帮贡兑换额 -->
+		</tong_updateNextWeekExchangeRate>
+
+		<tong_receiveTerritoryNPCData>
+			<Arg>	DATABASE_ID		</Arg>		<!-- 帮会的数据库ID -->
+			<Arg>	STRING			</Arg>		<!-- NPC的ID -->
+		</tong_receiveTerritoryNPCData>
+
+		<tong_onEnterAbaSpace/>
+		<tong_onAbandonTongCityNotify>
+			<Arg>	STRING			</Arg>		<!-- 占领城市spaceName -->
+		</tong_onAbandonTongCityNotify>
+
+		<!-- 帮会夺城战复赛（烽火连天） -->
+		<tong_onFengHuoLianTianOver/>
+		<tong_onEnterFengHuoLianTianSpace>
+			<Arg>	FLOAT				</Arg>
+			<Arg>	PYTHON				</Arg>
+		</tong_onEnterFengHuoLianTianSpace>
+		<tong_onQueryFHLTTable>
+			<Arg>	PYTHON		</Arg>
+		</tong_onQueryFHLTTable>
+		<tongFHLTProtectTime>
+			<Arg>	UINT16		</Arg>
+		</tongFHLTProtectTime>
+		<tong_onFHLTReport>
+			<Arg>		DATABASE_ID			</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		UINT16				</Arg>
+			<Arg>		UINT16				</Arg>
+			<Arg>		BOOL				</Arg>
+		</tong_onFHLTReport>
+		<tong_onUpdateFHLTPoint>
+			<Arg>	DATABASE_ID  </Arg>
+			<Arg>	UINT32  </Arg>
+		</tong_onUpdateFHLTPoint>
+		<tong_onLeaveFengHuoLianTianSpace/>
+
+		<tong_onSetSignInRecord>
+			<Arg>		UINT8		</Arg>		<!-- 每日签到次数 -->
+			<Arg>		UINT32			</Arg>		<!-- 总签到次数 -->
+		</tong_onSetSignInRecord>
+
+		<onDartQuestStatusChange>
+			<Arg>		BOOL		</Arg>
+		</onDartQuestStatusChange>
+
+		<onNormalQuestStatusChange>
+			<Arg>		UINT8		</Arg>
+		</onNormalQuestStatusChange>
+
+		<!-- 战争结盟 -->
+		<tong_openTongBattleLeagueWindow>
+			<Arg>		PYTHON				</Arg>
+		</tong_openTongBattleLeagueWindow>
+
+		<tong_receiveBattleLeagues>
+			<Arg>		DATABASE_ID			</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		ARRAY <of> DATABASE_ID </of> 	</Arg>
+		</tong_receiveBattleLeagues>
+
+		<tong_receiveBattleLeagueInvitation>
+			<Arg>		STRING				</Arg>
+			<Arg>		DATABASE_ID			</Arg>
+			<Arg>		STRING				</Arg>
+		</tong_receiveBattleLeagueInvitation>
+
+		<tong_setBattleLeague>
+			<Arg>		DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>		STRING				</Arg>
+		</tong_setBattleLeague>
+
+		<tong_addBattleLeague>
+			<Arg>		DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>		STRING				</Arg>
+		</tong_addBattleLeague>
+
+		<tong_delBattleLeague>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_delBattleLeague>
+
+		<tong_receiveBattleLeagueCompleted/>
+
+	</ClientMethods>
+
+	<BaseMethods>
+		<tong_logonInTerritory>
+			<Arg>	VECTOR3				</Arg>	<!-- position -->
+			<Arg>	VECTOR3				</Arg>	<!-- direction -->
+		</tong_logonInTerritory>
+
+		<tong_logonInTerritoryError>
+		</tong_logonInTerritoryError>
+
+		<tong_requestMemberMapInfos>
+			<Exposed/>
+		</tong_requestMemberMapInfos>
+
+		<tong_onLoginCB>
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+		</tong_onLoginCB>
+
+		<tong_setGrade>
+			<Arg>	UINT8				</Arg>	<!-- grade -->
+		</tong_setGrade>
+
+		<tong_setScholium>
+			<Arg>	STRING				</Arg>
+		</tong_setScholium>
+
+		<tong_reset/>
+
+		<tong_onLogin>
+		</tong_onLogin>
+
+		<tong_requestJoinByPlayerName>
+			<Exposed/>
+			<Arg>	STRING				</Arg>	<!-- name -->
+		</tong_requestJoinByPlayerName>
+
+		<tong_onPlayerRequestJoinByMyName>
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT16				</Arg>	<!-- camp -->
+		</tong_onPlayerRequestJoinByMyName>
+
+		<onTeleportCityWar>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	VECTOR3				</Arg>	<!-- position -->
+			<Arg>	VECTOR3				</Arg>	<!-- direction -->
+		</onTeleportCityWar>
+
+		<sendMessage2Tong>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		BLOB_ARRAY	</Arg>
+		</sendMessage2Tong>
+
+		<!---------------------- 帮会仓库 -------------------------->
+		<tong_requestStorageItem>
+			<Exposed/>
+			<Arg>	UINT8				</Arg>
+		</tong_requestStorageItem>
+		<tong_requestStorageLog>
+			<Exposed/>
+			<Arg>	UINT8				</Arg>
+		</tong_requestStorageLog>
+		<!---------------------- 帮会会标 by jy -------------------------->
+		<tong_submitSign>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		UINT8		</Arg>
+		</tong_submitSign>
+		<tong_changeSing>
+			<Exposed/>
+			<Arg>		BOOL		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</tong_changeSing>
+		<tong_cancleSing>
+			<Exposed/>
+		</tong_cancleSing>
+		<getTongSignMD5>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</getTongSignMD5>
+		<clientGetTongSignIcon>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</clientGetTongSignIcon>
+		<onTong_submitSign>
+			<Arg>		STRING		</Arg>
+		</onTong_submitSign>
+		<tong_submitSignReady>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		UINT8		</Arg>
+		</tong_submitSignReady>
+
+		<onClientGetTongSignReady>
+			<Exposed/>
+		</onClientGetTongSignReady>
+
+		<tong_onJoin>
+			<Arg>	DATABASE_ID			</Arg>	<!--tong dbid -->
+			<Arg>	UINT8				</Arg>	<!-- grade -->
+			<Arg>	MAILBOX				</Arg>	<!-- tong mailbox -->
+		</tong_onJoin>
+		<tong_leave/>
+		<clearTongDartRecord/>
+
+		<setTongFactionCount>
+			<Arg>	UINT8	</Arg>
+		</setTongFactionCount>
+
+		<!-- 帮会俸禄相关 -->
+		<tong_requestMemberContributeInfos>		<!-- 成员帮贡信息 -->
+			<Exposed/>
+		</tong_requestMemberContributeInfos>
+
+		<!-- 帮会签到相关 -->
+		<tong_requestSignInRecord/>			<!-- 请求签到数据 -->
+
+		<tong_requestSignIn>				<!-- 签到 -->
+			<Exposed/>
+		</tong_requestSignIn>
+
+		<requestTongExp>
+			<Exposed/>
+		</requestTongExp>
+	</BaseMethods>
+
+	<CellMethods>
+		<tong_onSetCityRevenueRateSuccessfully>
+			<Arg>	STRING				</Arg>
+			<Arg>	UINT16				</Arg>
+		</tong_onSetCityRevenueRateSuccessfully>
+
+		<tong_reset/>
+
+		<tong_onSetTongLevel>
+			<Arg>	UINT8				</Arg>
+		</tong_onSetTongLevel>
+
+		<tong_onSelectShouShou>
+			<Exposed/>
+			<Arg>	UINT8				</Arg>
+		</tong_onSelectShouShou>
+
+		<onDismissTong>
+			<Exposed/>
+		</onDismissTong>
+
+		<tong_onLoginCB>
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+		</tong_onLoginCB>
+
+		<tong_setGrade>
+			<Arg>	UINT8				</Arg>	<!-- grade -->
+		</tong_setGrade>
+
+		<tong_onSetContribute>
+			<Arg>	UINT32				</Arg>	<!-- contribute -->
+		</tong_onSetContribute>
+
+		<tong_addContribute>
+			<Arg>	UINT32				</Arg>	<!-- contribute -->
+		</tong_addContribute>
+
+		<tong_onSetTongName>
+			<Arg>	STRING				</Arg>
+		</tong_onSetTongName>
+
+		<createTong>
+			<Exposed/>
+			<Arg>	STRING				</Arg>	<!-- tongName -->
+			<Arg>	INT32				</Arg>	<!-- reason -->
+		</createTong>
+
+		<tong_createSuccess>
+			<Arg>	DATABASE_ID			</Arg>	<!-- tong dbid-->
+			<Arg>	MAILBOX				</Arg>	<!-- tong base mailbox -->
+		</tong_createSuccess>
+
+		<tong_addMemberOL>
+			<Arg>	DATABASE_ID			</Arg>	<!-- entity -->
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+		</tong_addMemberOL>
+
+		<tong_onMemberRemoveOL>
+			<Arg>	DATABASE_ID			</Arg>	<!-- entity -->
+		</tong_onMemberRemoveOL>
+
+		<tong_requestJoin>
+			<Exposed/>
+			<Arg>	OBJECT_ID			</Arg>	<!-- entityID -->
+		</tong_requestJoin>
+
+		<tong_answerRequestJoin>
+			<Exposed/>
+			<Arg>	BOOL				</Arg>	<!-- agree -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_answerRequestJoin>
+
+		<tong_quit>
+			<Exposed/>
+		</tong_quit>
+
+		<tong_kickMember>
+			<Exposed/>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_kickMember>
+
+		<tong_setMemberGrade>
+			<Exposed/>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT8				</Arg>	<!-- grade -->
+		</tong_setMemberGrade>
+
+		<tong_setMemberScholium>
+			<Exposed/>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>
+		</tong_setMemberScholium>
+
+		<tong_requestTongLeague>
+			<Exposed/>
+			<Arg>	STRING				</Arg>
+		</tong_requestTongLeague>
+
+		<tong_answerRequestTongLeague>
+			<Exposed/>
+			<Arg>	BOOL				</Arg>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_answerRequestTongLeague>
+
+		<tong_leagueDispose>
+			<Exposed/>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_leagueDispose>
+
+		<tong_setAffiche>
+			<Exposed/>
+			<Arg>	STRING				</Arg>
+		</tong_setAffiche>
+
+		<tong_abdication>
+			<Exposed/>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_abdication>
+
+		<tong_onClientOpenTongWindow>
+			<Exposed/>
+		</tong_onClientOpenTongWindow>
+
+		<tong_setTongAD>
+			<Exposed/>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	STRING				</Arg>
+		</tong_setTongAD>
+
+		<tong_requestDatas>
+			<Exposed/>
+		</tong_requestDatas>
+
+		<tong_setDutyName>
+			<Exposed/>
+			<Arg>	UINT16				</Arg>
+			<Arg>	STRING				</Arg>
+		</tong_setDutyName>
+
+		<tong_onAnswerConjure>
+			<Exposed/>
+		</tong_onAnswerConjure>
+		<tong_gotoCityWar>
+			<Arg>	STRING				</Arg>
+		</tong_gotoCityWar>
+		
+		<tong_leaveCityWar/>
+		<tong_leaveFengHuoLianTian/>
+		<tong_onSetHoldCity>
+			<Arg>	STRING				</Arg>	<!-- dbid -->
+			<Arg>	BOOL				</Arg>
+		</tong_onSetHoldCity>
+
+		<tong_onCityWarOver/>
+
+		<tong_onCityWarRelive>
+			<Exposed/>
+			<Arg>	INT8				</Arg>
+		</tong_onCityWarRelive>
+		<tong_onCityWarReliveCallback>
+			<Arg>	STRING				</Arg>
+			<Arg>	VECTOR3				</Arg>
+			<Arg>	VECTOR3				</Arg>
+		</tong_onCityWarReliveCallback>
+
+		<tong_leaveCityWarSpace>
+			<Exposed/>
+		</tong_leaveCityWarSpace>
+
+		<tong_onRequestCityTongRevenue>
+			<Exposed/>
+		</tong_onRequestCityTongRevenue>
+
+		<tong_onAnswerRobWar>
+			<Exposed/>
+			<Arg>	STRING				</Arg>
+		</tong_onAnswerRobWar>
+
+		<tong_setRobWarTargetTong>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</tong_setRobWarTargetTong>
+
+		<tong_findRequestRobWar>
+			<Exposed/>
+			<Arg>	STRING				</Arg>
+		</tong_findRequestRobWar>
+
+		<!---------------------------------- 帮会仓库 --------------------------------------->
+		<tong_storeItem2Order>
+			<Exposed/>
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	OBJECT_ID			</Arg> <!--npc的id-->
+		</tong_storeItem2Order>
+		<tong_storeItem2Bag>
+			<Exposed/>
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	UINT8				</Arg> <!--bagID-->
+			<Arg>	OBJECT_ID			</Arg> <!--npc的id-->
+		</tong_storeItem2Bag>
+		<tong_storeItem2Storage>
+			<Exposed/>
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	OBJECT_ID			</Arg> <!--npc的id-->
+		</tong_storeItem2Storage>
+		<tong_unfreezeBag>
+			<Arg>	UINT8				</Arg>	<!-- 包裹位置 -->
+		</tong_unfreezeBag>
+		<tong_storeItemSuccess01>
+			<Arg>	INT16				</Arg>	<!-- order -->
+		</tong_storeItemSuccess01>
+		<tong_storeItemSuccess02>
+			<Arg>	INT16				</Arg>	<!-- order -->
+			<Arg>	ITEM				</Arg>	<!-- item -->
+		</tong_storeItemSuccess02>
+		<tong_fetchItem2Order>
+			<Exposed/>
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	OBJECT_ID			</Arg>
+		</tong_fetchItem2Order>
+		<tong_fetchItem2Kitbags>
+			<Exposed/>
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	OBJECT_ID			</Arg>
+		</tong_fetchItem2Kitbags>
+		<tong_fetchSplitItem2Kitbags>
+			<Exposed/>
+			<Arg>	OBJECT_ID			</Arg>
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	INT16				</Arg> <!--amount-->
+		</tong_fetchSplitItem2Kitbags>
+		<tong_fetchItem2OrderCB>
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	ITEM				</Arg>	<!-- item -->
+			<Arg>	INT16				</Arg> <!--order-->
+		</tong_fetchItem2OrderCB>
+		<tong_fetchItem2KitbagsCB>
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	ITEM				</Arg>	<!-- item -->
+		</tong_fetchItem2KitbagsCB>
+		<tong_fetchSplitItem2KitbagsCB>
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	ITEM				</Arg>	<!-- item -->
+		</tong_fetchSplitItem2KitbagsCB>
+		<tong_moveStorageItem>
+			<Exposed/>
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	INT16				</Arg> <!--order-->
+			<Arg>	OBJECT_ID			</Arg>
+		</tong_moveStorageItem>
+		<tong_renameStorageBag>
+			<Exposed/>
+			<Arg>	UINT8				</Arg> <!--bag id-->
+			<Arg>	STRING				</Arg> <!-- bag name -->
+			<Arg>	OBJECT_ID			</Arg>
+		</tong_renameStorageBag>
+		<tong_changeStorageBagLimit>
+			<Exposed/>
+			<Arg>	UINT8				</Arg> <!--bag id-->
+			<Arg>	UINT8				</Arg> <!--officialPos-->
+			<Arg>	INT32				</Arg> <!-- limitNum-->
+			<Arg>	OBJECT_ID			</Arg>
+		</tong_changeStorageBagLimit>
+		<tong_changeStorageQualityLower>
+			<Exposed/>
+			<Arg>	UINT8				</Arg> <!--bag id-->
+			<Arg>	UINT8				</Arg> <!--quality-->
+			<Arg>	OBJECT_ID			</Arg>
+		</tong_changeStorageQualityLower>
+		<tong_changeStorageQualityUp>
+			<Exposed/>
+			<Arg>	UINT8				</Arg> <!--bag id-->
+			<Arg>	UINT8				</Arg> <!--quality-->
+			<Arg>	OBJECT_ID			</Arg>
+		</tong_changeStorageQualityUp>
+
+		<tong_reuqestCampaignMonsterRaidWindow>
+			<Exposed/>
+			<Arg>	OBJECT_ID			</Arg>
+			<Arg>	UINT16				</Arg>
+		</tong_reuqestCampaignMonsterRaidWindow>
+
+		<tong_repairOneEquip>
+			<Arg>		UINT8			</Arg>	<!-- repairLevel -->
+			<Arg>		UINT16			</Arg>	<!-- kitBagID -->
+			<Arg>		INT32			</Arg>	<!-- orderID -->
+		</tong_repairOneEquip>
+		<tong_onRepairOneEquipBaseCB>
+			<Arg>		UINT8			</Arg>	<!-- repairLevel -->
+			<Arg>		UINT16			</Arg>	<!-- kitBagID -->
+			<Arg>		INT32			</Arg>	<!-- orderID -->
+			<Arg>		FLOAT			</Arg>	<!-- 折扣 -->
+		</tong_onRepairOneEquipBaseCB>
+		<tong_repairAllEquip>
+			<Arg>		UINT8			</Arg>	<!-- repairLevel -->
+		</tong_repairAllEquip>
+		<tong_requestRepairAllEquipBaseCB>
+			<Arg>		UINT8			</Arg>	<!-- repairLevel -->
+			<Arg>		FLOAT			</Arg>	<!-- 折扣 -->
+		</tong_requestRepairAllEquipBaseCB>
+
+		<tong_getCityTongItem>
+		</tong_getCityTongItem>
+
+		<tong_onProtectTongDie>
+			<Exposed/>
+		</tong_onProtectTongDie>
+		<tong_onMemberRequestMapInfo>
+			<Arg>	MAILBOX				</Arg>	<!-- entity -->
+		</tong_onMemberRequestMapInfo>
+
+		<tong_requestTongList>
+			<Exposed/>
+			<Arg>	UINT8				</Arg>
+			<Arg>	UINT8				</Arg>
+		</tong_requestTongList>
+
+		<tong_queryTongInfo>
+			<Exposed/>
+			<Arg>	DATABASE_ID			</Arg>
+		</tong_queryTongInfo>
+
+		<tong_requestJoinToTong>
+			<Exposed/>
+			<Arg>	DATABASE_ID			</Arg>
+		</tong_requestJoinToTong>
+
+		<tong_answerJoinToTong>
+			<Exposed/>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	BOOL				</Arg>
+		</tong_answerJoinToTong>
+
+		<tong_enterTongTerritoryByDBID>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	VECTOR3				</Arg>
+			<Arg>	VECTOR3				</Arg>
+		</tong_enterTongTerritoryByDBID>
+
+		<tong_tongListEnterTongTerritory>
+			<Exposed/>
+			<Arg>	DATABASE_ID			</Arg>
+		</tong_tongListEnterTongTerritory>
+
+		<tong_setLastTongTerritoryDBID>
+			<Arg>	DATABASE_ID			</Arg>
+		</tong_setLastTongTerritoryDBID>
+
+		<tong_onCityWarOverReward>
+		</tong_onCityWarOverReward>
+
+		<tong_requestQueryCityTongMasters>
+			<Exposed/>
+			<Arg>	STRING				</Arg>
+		</tong_requestQueryCityTongMasters>
+
+		<tong_onQueryCityWarTable>
+			<Exposed/>
+			<Arg>	STRING				</Arg>
+		</tong_onQueryCityWarTable>
+		<tong_cityWarSetRewardChampion>
+			<Arg> UINT32 </Arg>
+		</tong_cityWarSetRewardChampion>
+		
+		<tong_cityWarGetChiefReward>
+			<Arg>	BOOL				</Arg>
+			<Arg>	UINT8				</Arg>
+		</tong_cityWarGetChiefReward>
+
+		<tong_requestSetCityRevenueRate>
+			<Exposed/>
+			<Arg>	UINT16				</Arg>
+		</tong_requestSetCityRevenueRate>
+
+		<tong_queryTongChiefInfos/>
+
+		<requestChangeTongName>
+			<Exposed/>
+			<Arg>	STRING				</Arg>
+		</requestChangeTongName>
+		<onTongNameChange>
+			<Arg>	STRING				</Arg>
+		</onTongNameChange>
+
+		<tong_onRobWarOver>
+			<Arg>	BOOL				</Arg>
+		</tong_onRobWarOver>
+
+		<tong_rewardRobWar>
+			<Arg>	UINT8				</Arg>
+		</tong_rewardRobWar>
+
+		<tong_contributeToMoney>
+			<Exposed/>
+			<Arg>	UINT32				</Arg>
+		</tong_contributeToMoney>
+
+		<tong_onContributeToMoneySuccessfully>
+			<Arg>	UINT32				</Arg>
+			<Arg>	BOOL				</Arg>
+		</tong_onContributeToMoneySuccessfully>
+
+		<tong_onJoin>
+			<Arg>	DATABASE_ID			</Arg>	<!--tong dbid -->
+			<Arg>	UINT8				</Arg>	<!-- grade -->
+			<Arg>	UINT32				</Arg>	<!-- contribute -->
+			<Arg>	MAILBOX				</Arg>	<!-- tong mailbox -->
+		</tong_onJoin>
+		<tong_checkCreateFail>
+			<Arg>	UINT16				</Arg>	<!-- statusID -->
+		</tong_checkCreateFail>
+		<tong_leave>
+		</tong_leave>
+
+		<!-- 帮会擂台赛相关 -->
+		<tong_onAbattoirOver>
+		</tong_onAbattoirOver>
+		<tong_onInTongAbaRelivePoint>
+			<Exposed/>
+			<Arg>	INT8		</Arg>
+		</tong_onInTongAbaRelivePoint>
+		<tong_chooseAbaRelivePoint>
+			<Exposed/>
+			<Arg>	INT8	</Arg>	<!-- 复活点索引 -->
+		</tong_chooseAbaRelivePoint>
+		<tong_leaveWarSpace>
+			<Exposed/>
+		</tong_leaveWarSpace>
+		<sendTongFaction>
+			<Arg>	UINT32	</Arg>
+		</sendTongFaction>
+		<tong_confirmContest>
+			<Exposed/>
+			<Arg>	INT8	</Arg>
+			<Arg>	UINT32	</Arg>
+		</tong_confirmContest>
+
+		<!-- 帮会俸禄相关 -->
+		<tong_onDrawTongSalary>				<!-- 领取俸禄 -->
+			<Exposed/>
+		</tong_onDrawTongSalary>
+
+		<tong_onSalaryExchangeRate>			<!-- 帮主设定帮贡兑换额 -->
+			<Exposed/>
+			<Arg>	UINT32		</Arg>		<!-- 每点帮贡兑换额 -->
+		</tong_onSalaryExchangeRate>
+
+		<tong_onClientOpenTongMoneyWindow>		<!-- 打开帮会资金子界面 -->
+			<Exposed/>
+		</tong_onClientOpenTongMoneyWindow>
+		<tong_onAbandonTongCity>		<!-- 打开帮会资金子界面 -->
+			<Exposed/>
+			<Arg>		STRING	</Arg>	<!-- 帮会占领城市spaceName -->
+		</tong_onAbandonTongCity>
+
+		<!--帮会夺城战复赛(烽火连天)-->
+		<tong_onFengHuoLianTianOver/>
+		<tong_onQueryFHLTTable>
+			<Exposed/>
+			<Arg>	STRING				</Arg>
+		</tong_onQueryFHLTTable>
+
+		<tong_updateTongSkills>
+			<Arg>		UINT8		</Arg>
+		</tong_updateTongSkills>
+
+		<tong_clearTongSkills/>
+
+		<onDartQuestStatusChange>
+			<Arg>		BOOL		</Arg>
+		</onDartQuestStatusChange>
+
+		<onNormalQuestStatusChange>
+			<Arg>		UINT8		</Arg>
+		</onNormalQuestStatusChange>
+
+		<!-- 战争结盟 -->
+		<tong_requestBattleLeagues>
+			<Exposed/>
+			<Arg>	INT16				</Arg>
+			<Arg>	UINT8				</Arg>
+		</tong_requestBattleLeagues>
+
+		<tong_inviteTongBattleLeagues>
+			<Exposed/>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		STRING			</Arg>
+		</tong_inviteTongBattleLeagues>
+
+		<tong_replyBattleLeagueInvitation>
+			<Exposed/>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		BOOL			</Arg>
+		</tong_replyBattleLeagueInvitation>
+
+		<tong_battleLeagueDispose>
+			<Exposed/>
+			<Arg>		DATABASE_ID		</Arg>
+		</tong_battleLeagueDispose>
+
+		<tong_onCityWarFinalReliveCB>
+			<Arg>		VECTOR3		</Arg>	<!-- position -->
+			<Arg>		VECTOR3		</Arg>	<!-- direction -->
+			<Arg>		MAILBOX		</Arg>	<!-- spaceMailBox -->
+			<Arg>		INT32		</Arg>	<!-- dstSpaceID -->
+		</tong_onCityWarFinalReliveCB>
+	</CellMethods>
+</root>

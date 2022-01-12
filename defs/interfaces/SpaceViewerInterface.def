@@ -1,0 +1,23 @@
+<root>
+	<Properties>
+	</Properties>
+	<ClientMethods>
+		<spaceViewerOnReInfos>
+			<Arg>	SPACE_VIEWER_INFOS </Arg>
+		</spaceViewerOnReInfos>
+	</ClientMethods>
+	<CellMethods>
+		<spaceViewerEnterState/>
+		<spaceViewerLeaveState/>
+		<spaceViewerEnter>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT32	</Arg>
+		</spaceViewerEnter>
+		<spaceViewerReInfos>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</spaceViewerReInfos>
+	</CellMethods>
+	<BaseMethods>
+	</BaseMethods>
+</root>

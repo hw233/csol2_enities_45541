@@ -1,0 +1,72 @@
+<root>
+		<spaceName>	摄魂迷阵	</spaceName>
+		<EntityType>	SpaceCopyShehunmizhen	</EntityType>
+		<DomainType>	SpaceDomainCopyMapsTeam	</DomainType>
+		<shareDomain> she_hun_mi_zhen_zhen0;fu_ben_she_hun_0_1;fu_ben_she_hun_0_2;fu_ben_she_hun_0_3</shareDomain> 
+		<script>	SpaceCopyShehunmizhen	</script>
+		<SpaceType>	SPACE_TYPE_SHE_HUN_MI_ZHEN	</SpaceType>
+		<className>	fu_ben_she_hun_0_1	</className>
+		<dirMapping>	universes/fu_ben_tu_xing_boss_001	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canGetAccum>	0	</canGetAccum>		<!-- 能召唤守护，打怪能获得气运值 -->
+		<canConjurePet>	1	</canConjurePet>	<!-- 能否召唤宠物-->
+		<TimeOfDay>	55800	</TimeOfDay>
+		<spawnFile>	config/server/spawn/she_hun_mi_zhen_0_1.xml		</spawnFile>
+		<maxPlayer>	1	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<spaceLife>	  45	</spaceLife>		<!-- 副本时间（分钟） -->
+			<closeTime>	  90	</closeTime>		<!-- 战场关闭倒计时（秒） -->
+			<difficulty>  0		</difficulty><!-- 0：普通， 1：困难， 2：噩梦 -->
+			<copyBossNum> 4	</copyBossNum>
+			<copyMonsterNum> 22	</copyMonsterNum>
+			<curBossNum> 0	</curBossNum>
+			<curMonsterNum> 10	</curMonsterNum>
+			<bossID>	 </bossID>
+			<spaceMapsInfos> <!-- 关联副本地图 -->
+				<item>
+					<className>	she_hun_mi_zhen_zhen0	</className> 
+					<position>	-153.6 286.0 44.1	</position>
+					<direction>	0 0 0					</direction>
+				</item>
+				<item>
+					<className>	fu_ben_she_hun_0_1	</className>
+					<position>	49.709 0.212 14.188	</position>
+					<direction>	0 0 0					</direction>
+				</item>
+				<item>
+					<className>	fu_ben_she_hun_0_2	</className>
+					<position>	49.709 0.212 14.188	</position>
+					<direction>	0 0 0					</direction>
+				</item>
+				<item>
+					<className>	fu_ben_she_hun_0_3	</className>
+					<position>	49.709 0.212 14.188	</position>
+					<direction>	0 0 0					</direction>
+				</item>
+			</spaceMapsInfos>
+			<pickMembers>	1	</pickMembers><!--是否传送队友-->
+			<doorPoint> <!-- 副本传送门 -->
+				<item>
+					<pos>	49.980 0.212 85.870	</pos>
+					<isCreate> 0	</isCreate>
+					<properties>
+						<useRectangle>	0	</useRectangle> <!--是否是矩形传送门-->
+						<radius>	4.000000	</radius> <!--半径-->
+						<volume>	5.000000 30.000000 5.000000	</volume> <!-- 宽，高，长 -->
+						<modelNumber>	gw7143	</modelNumber> 
+						<modelScale>	1.5	</modelScale>
+						<destSpace>	she_hun_mi_zhen_zhen0 </destSpace> 
+						<description>	</description>
+						<uname>	回到出生平台	</uname>
+						<nickname>	传送门	</nickname>
+						<destPosition>	-153.6 286.0 44.1	</destPosition> 
+						<destDirection>  0 0 0	</destDirection> 
+					</properties>
+				</item>
+			</doorPoint>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+
+</root>

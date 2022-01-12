@@ -1,0 +1,22 @@
+<root>
+		<spaceName>	拯救猰貐	</spaceName>
+		<EntityType>	SpaceCopyYayu	</EntityType>
+		<DomainType>	SpaceDomainYayu	</DomainType>
+		<script>	SpaceCopyYayu	</script>
+		<SpaceType>	SPACE_TYPE_YAYU	</SpaceType>
+		<className>	fu_ben_zheng_jiu_ya_yu	</className>
+		<dirMapping>	universes/fu_ben_zheng_jiu_ya_yu_01	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canGetAccum>	0	</canGetAccum>				<!-- 允许召唤守护，打怪能获得气运 -->
+		<canConjurePet>	1	</canConjurePet>			<!-- 禁制召唤宠物-->
+		<playerAoI>	100	</playerAoI>
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_zheng_jiu_ya_yu.xml </spawnFile>
+		<waitingCycle>	10	</waitingCycle>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

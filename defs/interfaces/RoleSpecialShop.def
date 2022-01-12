@@ -1,0 +1,59 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<spe_receiveGoods>
+			<Arg>	PYTHON		</Arg>	<!-- 商品数据[ ITEM_ID, INT, INT, FLOAT, INT ]-->
+			<Arg>	UINT16		</Arg>	<!-- queryType -->
+			<Arg>	UINT8		</Arg>	<!-- queryType -->
+		</spe_receiveGoods>
+
+		<spe_onReceiveItemsPrices>		<!-- 收到申请物品价格的提示 -->
+			<Arg>	PYTHON		</Arg>	<!-- { itemID : ( 商品状态, 物品价格 )  } -->
+		</spe_onReceiveItemsPrices>
+		<spe_onShopClosed>
+		</spe_onShopClosed>
+	</ClientMethods>
+
+	<CellMethods>
+		<spe_receiveSpecialGoods>
+			<Arg>	ITEM_ID		</Arg> <!-- ITEM_ID -->
+			<Arg>	INT32		</Arg> <!-- amount -->
+			<Arg>	INT32		</Arg> <!-- price -->
+			<Arg>	UINT8		</Arg> <!-- 货币类型 -->
+		</spe_receiveSpecialGoods>
+	</CellMethods>
+
+	<BaseMethods>
+		<spe_requestItemsPrices>		<!-- 请求发送一组物品的价格( hyw--2009.03.27 ) -->
+			<Exposed/>
+			<Arg>	ARRAY <of>	ITEM_ID	</of>	</Arg>
+			<Arg>	INT8	</Arg>
+		</spe_requestItemsPrices>
+		<spe_updateGoods>
+			<Exposed/>
+			<Arg>	UINT32	</Arg>
+			<Arg>	INT8	</Arg>
+		</spe_updateGoods>
+		<spe_buyItemCB>
+			<Arg>	ITEM_ID		</Arg> <!-- ITEM_ID -->
+			<Arg>	INT32		</Arg> <!-- amount -->
+			<Arg>	INT32		</Arg> <!-- price -->
+			<Arg>	INT8		</Arg> <!-- 货币类型 -->
+			<Arg>	BOOL		</Arg> <!-- 买卖结果 -->
+		</spe_buyItemCB>
+		<spe_shopping>
+			<Exposed/>
+			<Arg>	ITEM_ID		</Arg> <!-- itemID -->
+			<Arg>	INT32		</Arg> <!-- amount -->
+			<Arg>	INT8		</Arg> <!-- 货币类型 -->
+		</spe_shopping>
+		<spe_onAutoUseYell>
+			<Arg>		ITEM_ID		</Arg> <!-- 物品id -->
+			<Arg>		INT8		</Arg> <!-- 货币类型 -->
+			<Arg>		STRING		</Arg> <!-- msg -->
+			<Arg>		BLOB_ARRAY	</Arg> <!-- blobArgs -->
+		</spe_onAutoUseYell>
+	</BaseMethods>
+</root>

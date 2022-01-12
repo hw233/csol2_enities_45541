@@ -1,0 +1,27 @@
+<root>
+	<Properties>
+		<connectQuestID>				<!-- 关联任务ID -->
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	false		</Persistent>
+		</connectQuestID>
+		<littleMonsterIDs>
+			<Type>		ARRAY <of> INT32 </of> 		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	false		</Persistent>
+		</littleMonsterIDs>
+	</Properties>
+	<Parent> 				Monster					</Parent>
+	<ClientName> 				Monster					</ClientName>
+
+	<CellMethods>
+		<setAINowLevel>
+			<Arg>			UINT8			</Arg>	<!-- aiLevel -->
+		</setAINowLevel>
+		<callMonsters>
+			<Arg>			MAILBOX		</Arg>			<!-- playerMailbox -->
+		</callMonsters>
+	</CellMethods>
+</root>

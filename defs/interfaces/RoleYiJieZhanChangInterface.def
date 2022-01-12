@@ -1,0 +1,67 @@
+<root>
+	<Properties>
+		<yiJieFaction>
+			<Type>		UINT32		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+		</yiJieFaction>
+		<yiJieAlliance>
+			<Type>		UINT32		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+		</yiJieAlliance>
+	</Properties>
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<yiJieLeaveSpace/>
+		<yiJieCloseActivity>
+			<Arg>	YI_JIE_ROLE_INFOS	</Arg>
+		</yiJieCloseActivity>
+		<yiJieSetAlliance>
+			<Arg>	UINT32	</Arg>
+		</yiJieSetAlliance>
+		<yiJieFactionEnrage>
+			<Arg>	BOOL	</Arg>
+		</yiJieFactionEnrage>
+		<yiJieMaxRage>
+			<Arg>	BOOL	</Arg>
+		</yiJieMaxRage>
+		<yiJieOnEnterAgain>
+			<Arg>	UINT32	</Arg>
+			<Arg>	UINT32	</Arg>
+		</yiJieOnEnterAgain>
+		<yiJieCheckShowSignUp/>
+		<addYiJieZhanChangScore>
+			<Arg>	INT32	</Arg>
+		</addYiJieZhanChangScore>
+		<onQueryNeedShowYiJieScore>
+			<Arg>	YI_JIE_ROLE_INFOS	</Arg>
+		</onQueryNeedShowYiJieScore>
+		<yiJieRequestEnter>
+			<Exposed/>
+		</yiJieRequestEnter>
+		<yiJieUniqueSpellRequest>
+			<Exposed/>
+		</yiJieUniqueSpellRequest>
+	</CellMethods>
+	<ClientMethods>
+		<yiJieOnTeleportReady/>
+		<yiJieOnExit/>
+		<yiJieSetReviveInfo>
+			<Arg>	UINT32	</Arg>
+			<Arg>	STRING	</Arg>
+		</yiJieSetReviveInfo>
+		<yiJieShowSignUp/>
+		<yiJieCancelSignUp/>
+		<onAngerPointChanged>
+			<Arg>	INT8	</Arg>
+		</onAngerPointChanged>
+		<yiJieReceiveDatas>
+			<Arg>	YI_JIE_ROLE_INFOS	</Arg>
+		</yiJieReceiveDatas>
+		<yiJieOnKillDataChanged>
+			<Arg>	INT32	</Arg>		<!-- killNum -->
+			<Arg>	INT32	</Arg>		<!-- keepNum -->
+			<Arg>	INT32	</Arg>		<!-- maxKeepNum -->
+		</yiJieOnKillDataChanged>
+	</ClientMethods>
+</root>

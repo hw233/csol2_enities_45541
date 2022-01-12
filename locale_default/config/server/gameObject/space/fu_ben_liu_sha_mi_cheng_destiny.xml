@@ -1,0 +1,29 @@
+<root>
+		<spaceName>	Á÷É³ÃÔ³Ç	</spaceName>
+		<EntityType>	SpaceCopyDestinyTrans	</EntityType>
+		<SpaceType>	SPACE_TYPE_DESTINY_TRANS	</SpaceType>
+		<DomainType>	SpaceDomainDestinyTrans	</DomainType>
+		<script>	SpaceCopyDestinyTrans	</script>
+		<className>	fu_ben_liu_sha_mi_cheng_destiny	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_liu_sha_mi_cheng_002	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<enterPos>
+				<pos>	122.692,8.665,33.575	</pos>
+				<direction>	0,0,-1.423	</direction>
+			</enterPos>
+			<spawn>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_liu_sha_mi_cheng_01.xml	</spawnFile>
+				</item>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_liu_sha_mi_cheng_02.xml	</spawnFile>
+				</item>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_liu_sha_mi_cheng_03.xml	</spawnFile>
+				</item>
+			</spawn>
+		</Space>
+</root>

@@ -1,0 +1,160 @@
+<root>
+	<spaceName>	夜战凤栖镇	</spaceName>
+	<EntityType>SpaceCopyYeZhanFengQi</EntityType>
+	<DomainType>SpaceDomainYeZhanFengQi</DomainType>
+	<SpaceType>	SPACE_TYPE_YE_ZHAN_FENG_QI	</SpaceType>
+	<script>SpaceCopyYeZhanFengQi</script>
+	<className>fu_ben_ye_zhan_feng_qi</className>
+	<dirMapping> universes/feng_xi_zhen </dirMapping>
+	<CanPk>	1	</CanPk>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<canVehicle> 0 </canVehicle>	<!-- 是否允许上坐骑 -->
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/feng_xi_zhen.xml	</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<CalcPkValue/>
+	<Space>
+		<deathDepth>		-90		</deathDepth>
+		<minLevel>			50		</minLevel> 		<!-- 最小参与等级 -->
+		<maxLevel>			120		</maxLevel> 		<!-- 最高参与等级 -->
+		<intervalLevel>		20		</intervalLevel> 	<!-- 等级间隔 -->
+		<minPlayer>			10		</minPlayer>		<!-- 战场至少有多少人不关闭 -->
+		<minLevelPlayer>	10		</minLevelPlayer>	<!-- 一个等级段至少有多少人参与 -->
+		<maxPlayer>			30		</maxPlayer>		<!-- 战场最多进入人数 -->
+		<maxExit>			1		</maxExit>			<!-- 一个等级段最多存在战场个数 -->
+		<prepareTime>		3		</prepareTime>		<!-- 战场准备时间（分钟） -->
+		<closeTime>			60		</closeTime>		<!-- 战场关闭倒计时（秒） -->
+		<reviveTime>		30		</reviveTime>		<!-- 复活倒计时（秒） -->
+		<bossRevive>		60		</bossRevive>		<!-- BOSS的复活时间（秒） -->
+		<spaceLife>			23		</spaceLife>		<!-- 副本时间（分钟） -->
+		<trapReviveTime>	60		</trapReviveTime>		<!-- 陷阱复活时间（秒） -->
+		<trapReviveNum>		5		</trapReviveNum>		<!-- 陷阱复活个数 -->
+		<roleDieCreate>		<!-- 角色死亡后创建entity-->
+			<item> 122760001 </item> 	<!-- 增加增益效果技能ID -->
+			<item> 30112228 </item>		<!-- 积分箱子 -->
+		</roleDieCreate>
+		<enterInfos>		<!-- 进入坐标，可配无限个 -->
+			<item>
+				<position>	44.2 0 -2.92	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	21.13 29 -1.45	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	41.90 24.5 30.214	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	20.0190 21.41 101.7	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	53.80 6.65 50.850	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	56.80 0.06 70.015	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	63.25 0.40 72.350	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-31.59 33.361 164.966	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-58.340 26.9230 139.440	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	45.540 14.60 180.80	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-3.540 14.860 182.480	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-12.6540 21.60 191.480	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-56.8540 14.860 149.8540	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-103.540 14.90 83.580	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-110.540 21.60 36.480	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-127.540 14.060 34.1780	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-127.660 14.260 -7.480	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-27.27 39.10 35.850	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-98.9640 21.760 -48.1850	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-99.640 38.260 -36.870	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-39.9640 21.760 -72.1850	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-102.14 38.60 49.02	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-48.9640 21.760 -2.1850	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-29.7 28.860 94.7	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-80.1640 38.080 44.46	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-39.9640 6.260 -0.1850	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-27.9640 6.260 -66.1850	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-71.9640 34.260 -15.1850	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-60.9640 34.260 13.1850	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+			<item>
+				<position>	-36.9640 26.560 19.1850	</position>
+				<direction>	0 0 0	</direction>
+			</item>
+		</enterInfos>
+	</Space>
+</root>

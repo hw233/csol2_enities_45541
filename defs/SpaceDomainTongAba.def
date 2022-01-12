@@ -1,0 +1,19 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onLoginAbattoirSpace>
+			<Arg>	BOOL		</Arg>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onLoginAbattoirSpace>
+		<onEnterAbattoirSpace>
+			<Arg>	BOOL		</Arg>	<!--空间不存在时是否创建-->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterAbattoirSpace>
+	</BaseMethods>
+</root>

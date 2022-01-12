@@ -1,0 +1,57 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<battlefieldIntegral>
+			<Type>		FENG_QI_MEMBER_MGR	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</battlefieldIntegral>
+		<warIsAction>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</warIsAction>
+		<spaceLevel>
+			<Type>		UINT16			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	50			</Default>
+			<Persistent>	false			</Persistent>
+		</spaceLevel>
+		<actStartTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</actStartTime>
+	</Properties>
+
+	<BaseMethods>
+		<createSpawnEntities>
+			<Arg>		PYTHON		</Arg>
+		</createSpawnEntities>
+	</BaseMethods>
+
+	<CellMethods>
+		<closeActivity>
+			<Arg> UINT16 </Arg>
+		</closeActivity>
+		<addPlayerIntegral>
+			<Arg> OBJECT_ID	</Arg>
+			<Arg> UINT32	</Arg>
+		</addPlayerIntegral>
+		<onRoleBeKill>
+			<Arg> VECTOR3	</Arg>
+			<Arg> MAILBOX	</Arg>
+			<Arg> MAILBOX	</Arg>
+			<Arg> UINT32	</Arg>
+		</onRoleBeKill>
+		<playerExit>
+			<Arg> MAILBOX	</Arg>
+		</playerExit>
+		<onRolePickBox>
+			<Arg> MAILBOX	</Arg>
+		</onRolePickBox>
+	</CellMethods>
+</root>

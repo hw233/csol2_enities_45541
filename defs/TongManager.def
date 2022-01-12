@@ -1,0 +1,303 @@
+<root>
+	<Implements>
+		<Interface>	TongCityWarManager			</Interface>
+		<Interface>	TongTerritoryManager			</Interface>
+		<Interface>	TongRobWarManager			</Interface>
+		<Interface>	TongFeteManager				</Interface>
+		<Interface>	TongAbattoirMgr				</Interface>
+		<Interface>	TongTurnWarManager			</Interface>
+		<Interface>	TongFengHuoLianTianMgr			</Interface>
+		<Interface>	TongCityWarFinalManager			</Interface>
+	</Implements>
+
+	<Properties>
+		<playerName>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength>255</DatabaseLength>
+			<Identifier>	true			</Identifier>
+		</playerName>
+
+		<tempMapping>
+			<Type>		MAPPING				</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	false				</Persistent>
+		</tempMapping>
+	</Properties>
+
+	<BaseMethods>
+		<onRegisterTongOnCreated>
+			<Arg>	DATABASE_ID	</Arg>	<!-- DBID -->
+			<Arg>	MAILBOX		</Arg>	<!-- entity -->
+			<Arg>	STRING		</Arg>	<!--  -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	STRING		</Arg>	<!-- chiefName -->
+			<Arg>	UINT8		</Arg>	<!-- camp -->
+		</onRegisterTongOnCreated>
+
+		<createTong>
+			<Arg>	STRING		</Arg>	<!-- tongName -->
+			<Arg>	MAILBOX		</Arg>	<!-- entity -->
+			<Arg>	STRING		</Arg>	<!-- name -->
+			<Arg>	DATABASE_ID	</Arg>	<!--   -->
+			<Arg>	UINT16		</Arg>	<!--  -->
+			<Arg>	INT32		</Arg>	<!-- -->
+			<Arg>	INT32		</Arg>	<!-- -->
+		</createTong>
+
+		<addPrestige>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	INT32		</Arg>	<!-- prestige -->
+		</addPrestige>
+
+		<onMemberLoginTong>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	MAILBOX		</Arg>	<!-- entity -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+		</onMemberLoginTong>
+
+		<onMemberLogoutTong>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+		</onMemberLogoutTong>
+
+		<onTongDismiss>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	INT32		</Arg>
+		</onTongDismiss>
+
+		<requestTongLeague>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	STRING		</Arg>
+		</requestTongLeague>
+
+		<onRequestTongLeague>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	STRING		</Arg>
+		</onRequestTongLeague>
+		<answerRequestTongLeague>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	BOOL		</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+		</answerRequestTongLeague>
+
+		<onLeagueDispose>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</onLeagueDispose>
+
+		<onTongEntityLoadMemberInfoComplete>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	MAILBOX		</Arg>	<!-- entity -->
+			<Arg>	STRING		</Arg>
+		</onTongEntityLoadMemberInfoComplete>
+
+		<leagueDispose>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+		</leagueDispose>
+
+		<requestTongItems>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	MAILBOX		</Arg>	<!-- entity -->
+		</requestTongItems>
+
+		<onSellItems>
+			<Arg>	DATABASE_ID</Arg>	<!-- tong dbid -->
+			<Arg>	DATABASE_ID</Arg>	<!-- role dbid -->
+			<Arg>	ITEM_ID		</Arg>
+			<Arg>	UINT32		</Arg>
+		</onSellItems>
+
+		<onCappaign_monsterRaidComplete>
+			<Arg>	DATABASE_ID	</Arg>
+		</onCappaign_monsterRaidComplete>
+
+		<onProtectTongStart>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	INT8		</Arg>
+		</onProtectTongStart>
+		<onProtectTongEnd>
+			<Arg>	DATABASE_ID	</Arg>
+		</onProtectTongEnd>
+
+		<save/>
+
+		<requestTongList>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT8		</Arg>
+		</requestTongList>
+
+		<queryTongInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</queryTongInfo>
+
+		<setTongAD>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</setTongAD>
+
+		<updateTongLevel>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT8		</Arg>
+		</updateTongLevel>
+
+		<updateTongPrestige>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32		</Arg>
+		</updateTongPrestige>
+
+		<updateTongChiefName>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</updateTongChiefName>
+
+		<updateTongMemberCount>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT16		</Arg>
+		</updateTongMemberCount>
+
+		<updateTongHoldCity>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</updateTongHoldCity>
+
+		<updateTongBuildingLevel>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT8		</Arg>
+		</updateTongBuildingLevel>
+
+		<updateTongLeagues>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	PYTHON		</Arg>
+		</updateTongLeagues>
+
+		<onChargeSpendMoney/>
+		<changeTongName>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</changeTongName>
+		<onActivityLogHandle/>
+		<memberNameChanged>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- playerDBID -->
+			<Arg>	STRING				</Arg>	<!-- name -->
+		</memberNameChanged>
+		
+		<onCalTongSalary/>				<!-- 计算帮会俸禄 -->
+
+		<updateTongExp>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32		</Arg>
+		</updateTongExp>
+		<findChiefNameByTongName>
+			<Arg>	INT8				</Arg>	<!--type-->
+			<Arg>	INT8				</Arg>	<!--index-->
+			<Arg>	STRING				</Arg>	<!--tongName-->
+		</findChiefNameByTongName>
+
+		<onResetTongItems/>				<!-- 重置帮会物品 -->
+
+		<onResetMemberBuyItemRecord/>			<!-- 重置帮众购买物品记录 -->
+
+		<onResetTongQuest/>
+
+		<onTongRaceOver>
+			<Arg>	DATABASE_ID	</Arg>
+		</onTongRaceOver>
+		<!-- 战争结盟 -->
+		<reqOpenBattleLeaguesWindow>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		UINT8			</Arg>
+			<Arg>		STRING			</Arg>
+		</reqOpenBattleLeaguesWindow>
+
+		<queryTongBattleLeagues>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		INT16			</Arg>
+			<Arg>		UINT8			</Arg>
+			<Arg>		STRING			</Arg>
+		</queryTongBattleLeagues>
+
+		<inviteTongBattleLeague>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		STRING			</Arg>
+		</inviteTongBattleLeague>
+
+		<onInviteTongBattleLeague>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		STRING			</Arg>
+		</onInviteTongBattleLeague>
+
+		<onInviteTongBattleLeagueFailed>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</onInviteTongBattleLeagueFailed>
+
+		<replyBattleLeagueInvitation>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		BOOL			</Arg>
+		</replyBattleLeagueInvitation>
+
+		<updateTongBattleLeagues>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		TONGS_INFOS		</Arg>
+		</updateTongBattleLeagues>
+
+		<requestBattleLeagueDispose>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</requestBattleLeagueDispose>
+
+		<onBattleLeagueDispose>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</onBattleLeagueDispose>
+
+		<battleLeagueAutoDispose>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</battleLeagueAutoDispose>
+		<requestTongSpecialItems>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	MAILBOX		</Arg>	<!-- entity -->
+		</requestTongSpecialItems>
+		<buyTongSpecialArrayFromNPC>
+			<Arg>	MAILBOX	</Arg>	<!-- entity -->
+			<Arg>	DATABASE_ID		</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID		</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID		</Arg>	<!-- dbid -->
+			<Arg>	ARRAY <of> ITEM_ID </of> </Arg>
+			<Arg>	ARRAY <of> INT32 </of> </Arg>
+		</buyTongSpecialArrayFromNPC>
+		<onSellSpecialItems>
+			<Arg>	DATABASE_ID	</Arg>	<!-- tongDBID -->
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+			<Arg>	DATABASE_ID		</Arg>	<!-- memberDBID -->
+			<Arg>	ITEM_ID		</Arg>	<!-- dbid -->
+			<Arg>	UINT16 </Arg>
+		</onSellSpecialItems>
+	</BaseMethods>
+</root>

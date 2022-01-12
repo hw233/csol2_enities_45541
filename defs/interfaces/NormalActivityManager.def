@@ -1,0 +1,20 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onStartNotice/>
+		<onStart/>
+		<onEnd/>
+		<addActivityMonsterSpawnPoint>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		UINT8		</Arg>
+		</addActivityMonsterSpawnPoint>
+		<onMonsterDie>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</onMonsterDie>
+	</BaseMethods>
+
+</root>

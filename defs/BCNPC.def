@@ -1,0 +1,52 @@
+<root>
+	<Parent>	NPC	</Parent>
+	<ClientName>	NPC	</ClientName>
+
+	<Properties>
+		<_canLogin>		<!-- 是否可以报名-->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</_canLogin>
+		<_members>		<!-- 参加比赛的玩家-->
+			<Type>		PY_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</_members>
+		<_passMembers>		<!-- 通过比赛的玩家-->
+			<Type>	ARRAY <of> INT32 </of>	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</_passMembers>
+		<_currentCount>		<!-- 当前是第几次变身-->
+			<Type>		INT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</_currentCount>
+		<_animals>		<!-- 变身动物模型列表-->
+			<Type>		PY_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</_animals>
+		<modelNumberStored>	<!-- 前一轮游戏存储模型-->
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</modelNumberStored>
+		<modelScaleStored>	<!-- 前一轮游戏存储模型-->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</modelScaleStored>
+	</Properties>
+
+	<BaseMethods>
+		<getLoginMembers>
+			<Arg>	INT8	</Arg>
+		</getLoginMembers>
+	</BaseMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<getLoginState>
+			<Arg>	BOOL	</Arg>
+		</getLoginState>
+		<bcGameStart>	</bcGameStart>
+	</CellMethods>
+</root>

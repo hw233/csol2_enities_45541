@@ -1,0 +1,40 @@
+<root>
+		<spaceName>	挑战副本	</spaceName>
+		<EntityType>	SpaceCopyChallenge	</EntityType>
+		<DomainType>	SpaceDomainChallenge</DomainType>
+		<script>	SpaceCopyChallenge	</script>
+		<SpaceType>	SPACE_TYPE_CHALLENGE	</SpaceType>
+		<className>	fu_ben_hua_shan_003 </className>
+		<dirMapping>	universes/heng_ban_ce_shi	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>		</spawnFile>
+		<waitingCycle>	0	</waitingCycle>
+		<canArrest/>	<!--是否可逮捕入狱-->
+		<Space>
+			<challengeNo>0</challengeNo>
+			<playerEnterPoint>
+				<pos>	2.630 10.259 27.98		</pos>
+				<direction>	0.0 89.998 0.027		</direction>
+			</playerEnterPoint>
+			<doorPoint>
+				<uname>    传送门  </uname>
+				<pos>	98.484 10.259 32.060	</pos>
+				<properties>
+					<useRectangle>	1	</useRectangle>
+					<radius>	0.000000	</radius>
+					<volume>	5.000000 30.000000 5.000000	</volume>
+					<modelNumber>	gw7208	</modelNumber>
+					<modelScale>	1.0	</modelScale>
+					<destSpace>		</destSpace>
+					<description>	</description>
+					<uname>	前往下一关	</uname>
+					<nickname>	传送门	</nickname>
+					<destPosition>		</destPosition>
+					<destDirection> 	</destDirection>
+				</properties>
+			</doorPoint>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

@@ -1,0 +1,31 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<buyPointCard>						<!-- 购买点卡 -->
+			<Arg>	STRING		</Arg> 			<!-- cardNo -->
+			<Arg>	UINT32		</Arg> 			<!-- money -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>			<!-- playerName -->
+			<Arg>	STRING		</Arg>			<!-- accountName -->
+		</buyPointCard>
+
+		<sellPointCard>					<!-- 玩家寄售点卡 -->
+			<Arg>	POINTCARDINFO	</Arg>
+			<Arg>	MAILBOX		</Arg>			<!-- 寄售玩家 -->
+		</sellPointCard>
+		<queryPointCards>
+			<Arg>	MAILBOX		</Arg>			<!-- 查询玩家 -->
+			<Arg>	UINT32		</Arg> 			<!-- page -->
+		</queryPointCards>
+		<queryPointCardsByValue>
+			<Arg>		MAILBOX		</Arg>			<!-- 查询玩家 -->
+			<Arg>		UINT32		</Arg>		<!-- page -->
+			<Arg>		STRING		</Arg>		<!-- value -->
+		</queryPointCardsByValue>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

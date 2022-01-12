@@ -1,0 +1,29 @@
+<root>
+		<spaceName>	40级副本	</spaceName>
+		<EntityType>	SpaceCopyPlotLv40	</EntityType>
+		<SpaceType>	SPACE_TYPE_PLOT_LV40 </SpaceType>
+		<DomainType>	SpaceDomainCopy	</DomainType>
+		<script>	SpaceCopyPlotLv40 </script>
+		<className>	fu_ben_plot_lv40	</className>
+		<TimeOfDay>	50400	</TimeOfDay>
+		<waitingCycle>	1800	</waitingCycle>		<!--设置空转多久副本关闭，单位：秒-->
+		<dirMapping>	universes/fu_ben_40_ji_ju_qing	</dirMapping>
+		<spawnFile>	config/server/spawn/fu_ben_40_ji_ju_qing.xml	</spawnFile>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canArrest>	1	</canArrest>
+		<assistSkills>	1,2,3	</assistSkills>		<!--护神补天技能-->
+		<playerAoI>	100	</playerAoI>				<!--玩家的视野范围-->
+		<monsterPositions>	(41.605, 21.719, 65.884):(4.589,13.35,-43.916):(-139.097,13.203,-50.000):(-202.005,9.227,86.369):(-117.582,10.967,185.626):(0.719,9.664,191.087)	</monsterPositions>
+		<startTime>	60:14:21:31:40:50	</startTime>
+		<intervalTime>	(30,20,20,15,15):(30,20,20,15,15):(30,20,20,15,15):(30,20,20,15,15):(30,20,20,15,15):(30,20,20,15,15)	</intervalTime>
+		<monsterNumLists>	(2,1):(2,1):(2,1):(2,1):(1,1,1):(1,1,1)	</monsterNumLists>
+		<monsterIDLists>	(20151006, 20152009):(20151006, 20152009):(20151006, 20152009):(20151006, 20152009):(20142029,20151006,20152009):(20142029,20151006,20152009)	</monsterIDLists>
+		<Space>
+			<playerEnterPoint>
+				<pos>	-1.985056 4.570000 -52.626419	</pos>
+				<direction>	0.000000 0.000000 0.000000		</direction>
+			</playerEnterPoint>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

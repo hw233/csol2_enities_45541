@@ -1,0 +1,26 @@
+<root>
+	<Parent>	NPC	</Parent>
+	<ClientName> 				NPC					</ClientName>
+
+	<Properties>
+		<locked> 
+			<Type>			BOOL	</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</locked>
+		<ownTongDBID> 
+			<Type>			DATABASE_ID	</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownTongDBID>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<lock/>
+		<unlock/>
+	</CellMethods>
+
+
+</root>

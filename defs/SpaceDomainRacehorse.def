@@ -1,0 +1,19 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<createRaceMap>
+			<Arg>	INT32	</Arg>
+		</createRaceMap>
+		<teleportRacer>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</teleportRacer>
+		<closeRacehorseSpace>
+			<Arg>	INT32	</Arg>
+		</closeRacehorseSpace>
+	</BaseMethods>
+</root>

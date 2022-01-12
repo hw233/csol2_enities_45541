@@ -1,0 +1,16 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<nofityTeamDestroy>
+			<Arg>		SPACE_NUMBER 	</Arg>
+			<Arg>		OBJECT_ID 	</Arg>
+		</nofityTeamDestroy>
+		<nofityNotOnlineKick>
+			<Arg>		SPACE_NUMBER 	</Arg>
+			<Arg>		DATABASE_ID 	</Arg>
+		</nofityNotOnlineKick>
+	</BaseMethods>
+	<CellMethods>
+	</CellMethods>
+</root>

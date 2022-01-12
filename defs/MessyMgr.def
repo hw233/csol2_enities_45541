@@ -1,0 +1,27 @@
+<root>
+	<Properties>
+		
+	</Properties>
+	<BaseMethods>
+		<do>
+			<Arg>	INT8		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PYTHON		</Arg>
+		</do>
+		<onMessyOver>
+			<Arg>	INT8		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</onMessyOver>
+		<onMessyFailed>
+			<Arg>	INT8		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</onMessyFailed>
+		<requestRoleMessyInfo>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</requestRoleMessyInfo>
+	</BaseMethods>
+
+</root>

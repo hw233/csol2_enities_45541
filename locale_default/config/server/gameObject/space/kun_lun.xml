@@ -1,0 +1,29 @@
+<root>
+	<EntityType>SpaceMultiLine</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceMultiLine</script>
+	<className>kun_lun</className>
+	<dirMapping> universes/kun_lun </dirMapping>
+	<CanPk>	1	</CanPk>
+	<campHonourReward/>			<!-- 有阵营击杀荣誉值奖励;另外在没有配置此字段的地图中，被击杀不计入“被阵营击杀次数” -->
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	50160	</TimeOfDay>
+	<spawnFile>	config/server/spawn/kun_lun.xml	</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>
+	<initLine>1</initLine>
+	<newLineByPlayerAmount>400</newLineByPlayerAmount>
+	<Space>
+		<spaceBBoxMin>	-595,-100,-580	</spaceBBoxMin>
+		<spaceBBoxMax>	700,1600,623	</spaceBBoxMax>
+		<Tomb>
+			<fengming01>
+				<SpaceName>fengming</SpaceName>
+				<Position>910.364 208.160 213.759</Position>
+				<Direction>	0.0 0.0 -180.0	</Direction>	<!-- 复活后的面向方向，暂未实现 -->
+			</fengming01>
+		</Tomb>
+		<deathDepth>	-50	</deathDepth>
+	</Space>
+</root>

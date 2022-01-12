@@ -1,0 +1,78 @@
+<root>
+	<Parent>	NPC	</Parent>
+	<ClientName>	DanceNPC		</ClientName>
+
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<danceType>
+			<Type>		BOOL		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>			
+		</danceType>
+		<danceList>
+			<Type>			PYTHON		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>			
+		</danceList>
+		<challengeIndex>
+			<Type>			UINT8		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>						
+		</challengeIndex>
+		<_timer>
+			<Type>			CONTROLLER_ID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>			
+		</_timer>
+		<canCheck>
+			<Type>			BOOL		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>				
+		</canCheck>
+		<currentResult>
+			<Type>			BOOL		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>			
+		</currentResult>
+		<roleCurSkillID>
+			<Type>			SKILLID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>			
+		</roleCurSkillID>
+		<comoboPoint>
+			<Type>			UINT8		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>			
+		</comoboPoint>
+	</Properties>
+
+	<ClientMethods>	
+		<playDanceAction>
+			<Arg>		PYTHON		</Arg>		<!--ActionList-->
+			<Arg>		INT8		</Arg>		<!--countdown-->
+		</playDanceAction>
+		<refreshDanceComobo>
+			<Arg>		INT8		</Arg>		<!--danceComoboPoint-->
+		</refreshDanceComobo>	
+		<playAction>
+			<Arg>		SKILLID		</Arg>		
+		</playAction>
+	</ClientMethods>
+
+	<CellMethods>	
+		<finishPlayAction>
+			<Exposed/>
+		</finishPlayAction>	
+		<setDanceChallengeIndex>
+			<Arg>		UINT8		</Arg>			<!--challengeIndex-->
+		</setDanceChallengeIndex>
+		<nextRound>
+			<Exposed/>
+		</nextRound>
+		<cancelParctice>
+			<Exposed/>
+		</cancelParctice>
+	</CellMethods>
+</root>

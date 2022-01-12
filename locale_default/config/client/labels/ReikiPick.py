@@ -1,0 +1,20 @@
+# -*- coding: UTF-8 -*-
+# 灵气拾取
+main = { "title": { "text":"成功追击奖励" },
+		"pickNumber":{"text":"拾取气团个数: %d" },
+		"continuMaxNum":{"text":"最大连续获得个数: %d" },
+		"bombNum":{"text":"碰撞炸弹个数: %d" },
+		"ratingLevel":{"text":"%s 等级" },
+		"totalScore":{"text":"总评分 :@B %s" },
+		"totalPotent":{"text":"获得潜能总点数 : %d" },
+		"totalPick":{"text":"总共获得灵气团 : %d" },
+		"continuPick":{"text":"连续获得灵气团 : %d" },
+		"btnStart":{"text":"开始" },
+		"btnOk":{"text":"确定" },
+		"rating_0":{"text":"举世无双" },
+		"rating_1":{"text":"上甲" },
+		"rating_2":{"text":"甲" },
+		"rating_3":{"text":"乙" },
+		"rating_4":{"text":"丙" },
+		"rating_5":{"text":"丁" },
+		}

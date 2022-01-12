@@ -1,0 +1,19 @@
+<root>
+		<spaceName>	挑战斗舞	</spaceName>
+		<EntityType>	SpaceCopyDance	</EntityType>
+		<DomainType>	SpaceDomainCopy	</DomainType>
+		<script>	SpaceCopyDance	</script>
+		<SpaceType>	SPACE_TYPE_DANCECOPY_CHALLENGE	</SpaceType>
+		<className>	dancechellenge	</className>
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>		</spawnFile>
+		<dirMapping>	universes/heng_ban_ce_shi	</dirMapping>
+		<CanPk>	0	</CanPk>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>
+		<canVehicle> 0 </canVehicle>	<!-- 是否允许上坐骑 -->
+		<spaceSkills>	780051001;780052001;780053001;780054001;780055001	</spaceSkills>
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

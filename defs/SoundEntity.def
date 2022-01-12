@@ -1,0 +1,29 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Properties>
+		<soundID>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</soundID>
+		<soundEvent>
+			<Type>		STRING		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</soundEvent>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>
+
+
+

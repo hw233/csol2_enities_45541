@@ -1,0 +1,552 @@
+<root>
+		<spaceName>	幫會領地	</spaceName>
+		<EntityType>	SpaceCopyTongTerritory	</EntityType>
+		<DomainType>	SpaceDomainTongTerritory	</DomainType>
+		<script>	SpaceCopyTongTerritory	</script>
+		<SpaceType>	SPACE_TYPE_TONG_TERRITORY	</SpaceType>
+		<className>	fu_ben_bang_hui_ling_di	</className>
+		<TimeOfDay>	45000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_bang_hui_ling_di	</dirMapping>
+		<spawnFile>	config/server/spawn/fu_ben_bang_hui_ling_di.xml		</spawnFile>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+		<Space>
+			<enterPos>
+				<pos>	-2.02 4.191 -178.824	</pos>
+				<direction>	0 0 0	</direction>
+			</enterPos>
+			<ysdt_pos>
+				<pos>	-1.914 2.105 85.246	</pos>
+				<direction>	0.0 180.0 0.0	</direction>
+			</ysdt_pos>
+			<ysdt_pos_npc>
+				<pos>	-1.984 0.118 69.147	</pos>
+				<direction>	0.0 180.0 0.0	</direction>
+			</ysdt_pos_npc>
+			<ysdt_building>	10111124	</ysdt_building>
+			<ysdt_npc>	10111131	</ysdt_npc>
+			<jk_pos>
+				<pos>	-50.556 1.246 81.486	</pos>
+				<direction>	0.0 180.0 0.0	</direction>
+			</jk_pos>
+			<jk_pos_npc>
+				<pos>	-50.625 0.093 71.454	</pos>
+				<direction>	0.0 180.0 0.0	</direction>
+			</jk_pos_npc>
+			<jk_building>	10111125	</jk_building>
+			<jk_npc>	10111132	</jk_npc>
+			<ssd_pos>
+				<pos>	0 0 0	</pos>
+				<direction>	0 0 0	</direction>
+			</ssd_pos>
+			<ssd_pos_npc>
+				<pos>	-8.784 0.255 -42.151	</pos>
+				<direction>	0.0 180.0 0.0	</direction>
+			</ssd_pos_npc>
+			<ssd_building>	10111126	</ssd_building>
+			<ssd_npc>	10111133	</ssd_npc>
+			<cc_pos>
+				<pos>	-84.952 1.094 21.165	</pos>
+				<direction>	0.0 90.0 0.0	</direction>
+			</cc_pos>
+			<cc_pos_npc>
+				<pos>	-75.578 0.093 24.44	</pos>
+				<direction>	0.0 90.0 0.0	</direction>
+			</cc_pos_npc>
+			<cc_building>	10111127	</cc_building>
+			<cc_npc>	10111136	</cc_npc>
+			<tjp_pos>
+				<pos>	80.121 1.016 27.187	</pos>
+				<direction>	0.0 -90.0 0.0	</direction>
+			</tjp_pos>
+			<tjp_pos_npc>
+				<pos>	66.039 0.086 24.436	</pos>
+				<direction>	0.0 -90.0 0.0	</direction>
+			</tjp_pos_npc>
+			<tjp_building>	10111128	</tjp_building>
+			<tjp_npc>	10111137	</tjp_npc>
+			<sd_pos>
+				<pos>	80.473 1.062 -22.211	</pos>
+				<direction>	0.0 -90.0 0.0	</direction>
+			</sd_pos>
+			<sd_pos_npc>
+				<pos>	66.41 0.11 -22.34	</pos>
+				<direction>	0.0 -90.0 0.0	</direction>
+			</sd_pos_npc>
+			<sd_building>	10111129	</sd_building>
+			<sd_npc>	10111135	</sd_npc>
+			<yjy_pos>
+				<pos>	-85.349 2.333 -23.825	</pos>
+				<direction>	0.0 90.0 0.0	</direction>
+			</yjy_pos>
+			<yjy_pos_npc>
+				<pos>	-69.861 0.113 -23.923	</pos>
+				<direction>	0.0 90.0 0.0	</direction>
+			</yjy_pos_npc>
+			<yjy_building>	10111130	</yjy_building>
+			<yjy_npc>	10111134	</yjy_npc>
+			<cs_pos_npc>
+				<pos>	1.95 4.191 -178.899	</pos>
+				<direction>	0.0 -90.0 0.0	</direction>
+			</cs_pos_npc>
+			<cs_npc>	10111138	</cs_npc>
+			<ss_pos_npc>
+				<pos>	-1.882 4.686 1.944	</pos>
+				<direction>	0.0 180.0 0.0	</direction>
+			</ss_pos_npc>
+			<ss_npc1>	10111139	</ss_npc1>
+			<ss_npc2>	10111140	</ss_npc2>
+			<ss_npc3>	10111141	</ss_npc3>
+			<ss_npc4>	10111142	</ss_npc4>
+			<zg_pos_npc>
+				<pos>	42.304 0.19 60.223	</pos>
+				<direction>	0 180 0	</direction>
+			</zg_pos_npc>
+			<zg_npc>	10111143	</zg_npc>
+			<campaign_monsterRaid_pos>
+				<pos>	-1.146 4.686 -14	</pos>
+				<direction>	0 0 0	</direction>
+			</campaign_monsterRaid_pos>
+			<campaign_monsterRaid_box_pos>
+				<item>
+					<pos>	0.49 4.686 17.549	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	11.536 4.686 -0.811	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	-16.775 4.686 -5.504	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	-19.847 0.19 -52.198	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	21.528 0.19 -51.277	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	49.825 0.19 -41.931	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	48.171 0.235 1.146	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	16.187 0.19 54.938	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	-39.5 0.19 52.811	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	-53.942 0.19 -18	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+			</campaign_monsterRaid_box_pos>
+			<campaign_monster_box_drops>
+				<item>
+					<NPCID>	20754003	</NPCID>
+					<boxID>
+						<item>	30111501	</item>
+						<item>	30111501	</item>
+						<item>	30111501	</item>
+						<item>	30111501	</item>
+						<item>	30111501	</item>
+					</boxID>
+				</item>
+				<item>
+					<NPCID>	20754004	</NPCID>
+					<boxID>
+						<item>	30111502	</item>
+						<item>	30111502	</item>
+						<item>	30111502	</item>
+						<item>	30111502	</item>
+						<item>	30111502	</item>
+					</boxID>
+				</item>
+				<item>
+					<NPCID>	20754005	</NPCID>
+					<boxID>
+						<item>	30111503	</item>
+						<item>	30111503	</item>
+						<item>	30111503	</item>
+						<item>	30111503	</item>
+						<item>	30111503	</item>
+					</boxID>
+				</item>
+				<item>
+					<NPCID>	20754006	</NPCID>
+					<boxID>
+						<item>	30111504	</item>
+						<item>	30111504	</item>
+						<item>	30111504	</item>
+						<item>	30111504	</item>
+						<item>	30111504	</item>
+					</boxID>
+				</item>
+				<item>
+					<NPCID>	20754007	</NPCID>
+					<boxID>
+						<item>	30111505	</item>
+						<item>	30111505	</item>
+						<item>	30111505	</item>
+						<item>	30111505	</item>
+						<item>	30111505	</item>
+					</boxID>
+				</item>
+				<item>
+					<NPCID>	20754008	</NPCID>
+					<boxID>
+						<item>	30111506	</item>
+						<item>	30111506	</item>
+						<item>	30111506	</item>
+						<item>	30111506	</item>
+						<item>	30111506	</item>
+					</boxID>
+				</item>
+			</campaign_monster_box_drops>
+			<campaign_monsterRaid_poss>
+				<item>
+					<pos>	-50.625 0.093 71.454	</pos>
+					<direction>	0.0 180.0 0.0	</direction>
+				</item>
+				<item>
+					<pos>	-8.784 0.255 -42.151	</pos>
+					<direction>	0.0 180.0 0.0	</direction>
+				</item>
+				<item>
+					<pos>	-75.578 0.093 24.44	</pos>
+					<direction>	0.0 90.0 0.0	</direction>
+				</item>
+				<item>
+					<pos>	66.039 0.086 24.436	</pos>
+					<direction>	0.0 -90.0 0.0	</direction>
+				</item>
+				<item>
+					<pos>	66.41 0.11 -22.34	</pos>
+					<direction>	0.0 -90.0 0.0	</direction>
+				</item>
+				<item>
+					<pos>	-69.861 0.113 -23.923	</pos>
+					<direction>	0.0 90.0 0.0	</direction>
+				</item>
+				<item>
+					<pos>	1.95 4.191 -178.899	</pos>
+					<direction>	0.0 -90.0 0.0	</direction>
+				</item>
+			</campaign_monsterRaid_poss>
+			<feteThingDatas>
+				<item>
+					<id>	30111244	</id>
+					<pos>
+						<pos>	-2.334 0.118 62.956	</pos>
+						<direction>	0 180 0	</direction>
+					</pos>
+				</item>
+				<item>
+					<id>	30111245	</id>
+					<pos>
+						<pos>	-50.625 0.093 63.113	</pos>
+						<direction>	0 180 0	</direction>
+					</pos>
+				</item>
+				<item>
+					<id>	30111246	</id>
+					<pos>
+						<pos>	-2.034 0.255 -42.013	</pos>
+						<direction>	0 180 0	</direction>
+					</pos>
+				</item>
+				<item>
+					<id>	30111247	</id>
+					<pos>
+						<pos>	-62.91 0.093 24.482	</pos>
+						<direction>	0 90 0	</direction>
+					</pos>
+				</item>
+				<item>
+					<id>	30111248	</id>
+					<pos>
+						<pos>	59.32 0.086 24.388	</pos>
+						<direction>	0 -90 0	</direction>
+					</pos>
+				</item>
+				<item>
+					<id>	30111249	</id>
+					<pos>
+						<pos>	59.098 0.11 -22.358	</pos>
+						<direction>	0 -90 0	</direction>
+					</pos>
+				</item>
+				<item>
+					<id>	30111250	</id>
+					<pos>
+						<pos>	-63.167 0.112 -23.806	</pos>
+						<direction>	0 90 0	</direction>
+					</pos>
+				</item>
+			</feteThingDatas>
+			<feteRewardNPCID>	10111200	</feteRewardNPCID>
+			<feteRewardNPCPos>
+				<pos>	-70.369 0.072 -68.264	</pos>
+				<direction>	0 90 0	</direction>
+			</feteRewardNPCPos>
+			<protectTongNPCID>	10111234	</protectTongNPCID>
+			<protectTongNPC_pos>
+				<item>
+					<pos>	-44.827435 0.190427 -48.935135	</pos>
+					<direction>	0 90 0	</direction>
+				</item>
+				<item>
+					<pos>	-16.508606 0.190428 -50.189884	</pos>
+					<direction>	0 66 0	</direction>
+				</item>
+				<item>
+					<pos>	-1.650185 0.120869 -72.579376	</pos>
+					<direction>	0 -90 0	</direction>
+				</item>
+				<item>
+					<pos>	-60.110435 0.190428 -20.399788	</pos>
+					<direction>	0 -180 0	</direction>
+				</item>
+				<item>
+					<pos>	-54.697018 0.190426 -31.370941	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	-61.272301 0.190426 27.010483	</pos>
+					<direction>	0 180 0	</direction>
+				</item>
+				<item>
+					<pos>	-46.829254 0.190432 61.395493	</pos>
+					<direction>	0 90 0	</direction>
+				</item>
+				<item>
+					<pos>	-7.970840 0.118283 62.427109	</pos>
+					<direction>	0 -90 0	</direction>
+				</item>
+				<item>
+					<pos>	-55.108711 0.199226 54.943188	</pos>
+					<direction>	0 180 0	</direction>
+				</item>
+				<item>
+					<pos>	-56.100735 0.209656 6.367280	</pos>
+					<direction>	0 65 0	</direction>
+				</item>
+				<item>
+					<pos>	4.567502 0.230022 -46.131165	</pos>
+					<direction>	0 55 0	</direction>
+				</item>
+				<item>
+					<pos>	31.256701 0.190430 -47.964226	</pos>
+					<direction>	0 -90 0	</direction>
+				</item>
+				<item>
+					<pos>	47.097370 0.190426 -40.255531	</pos>
+					<direction>	0 90 0	</direction>
+				</item>
+				<item>
+					<pos>	50.302814 0.235961 -4.462753	</pos>
+					<direction>	0 35 0	</direction>
+				</item>
+				<item>
+					<pos>	56.372234 0.190426 -24.581123	</pos>
+					<direction>	0 -45 0	</direction>
+				</item>
+				<item>
+					<pos>	36.648197 0.268764 1.363003	</pos>
+					<direction>	0 0 0	</direction>
+				</item>
+				<item>
+					<pos>	51.100716 0.190426 27.808401	</pos>
+					<direction>	0 90 0	</direction>
+				</item>
+				<item>
+					<pos>	53.045567 0.197903 54.237663	</pos>
+					<direction>	0 -90 0	</direction>
+				</item>
+				<item>
+					<pos>	51.492752 0.190425 38.397114	</pos>
+					<direction>	0 45 0	</direction>
+				</item>
+				<item>
+					<pos>	-1.621 0.12 -69.119	</pos>
+					<direction>	0 -180 0	</direction>
+				</item>
+			</protectTongNPC_pos>
+			<protectTongMidAutumnNPCID>	10111512	</protectTongMidAutumnNPCID>
+			<protectTongMidAutumnNPC_pos>
+				<item>
+					<pos>	-0.372009 0.230021 -53.398586	</pos>
+					<direction>	0 90 0	</direction>
+				</item>
+				<item>
+					<pos>	-1.771919 0.120869 -73.043831	</pos>
+					<direction>	0 -180 0	</direction>
+				</item>
+				<item>
+					<pos>	-2.564774 0.120869 -61.694187	</pos>
+					<direction>	0 66 0	</direction>
+				</item>
+				<item>
+					<pos>	-12.287270 0.190430 -51.335358	</pos>
+					<direction>	0 65 0	</direction>
+				</item>
+				<item>
+					<pos>	-24.147484 0.190426 -49.785110	</pos>
+					<direction>	0 90 0	</direction>
+				</item>
+				<item>
+					<pos>	-38.687710 0.190422 -50.336342	</pos>
+					<direction>	0 180 0	</direction>
+				</item>
+				<item>
+					<pos>	-28.242752 0.190430 -53.063965	</pos>
+					<direction>	0 75 0	</direction>
+				</item>
+				<item>
+					<pos>	-43.001923 0.190426 -54.443565	</pos>
+					<direction>	0 -90 0	</direction>
+				</item>
+				<item>
+					<pos>	-53.531036 0.202032 -46.944790	</pos>
+					<direction>	0 30 0	</direction>
+				</item>
+				<item>
+					<pos>	-52.972412 0.190430 -33.964523	</pos>
+					<direction>	0 120 0	</direction>
+				</item>
+				<item>
+					<pos>	-59.844940 0.190428 -24.245750	</pos>
+					<direction>	0 -65 0	</direction>
+				</item>
+				<item>
+					<pos>	-53.895161 0.190428 -5.191574	</pos>
+					<direction>	0 90 0	</direction>
+				</item>
+				<item>
+					<pos>	-1.364227 0.259796 -40.313995	</pos>
+					<direction>	0 -180 0	</direction>
+				</item>
+				<item>
+					<pos>	-55.628593 0.190428 11.423494	</pos>
+					<direction>	0 69 0	</direction>
+				</item>
+				<item>
+					<pos>	-1.495682 0.261917 43.540974	</pos>
+					<direction>	0 35 0	</direction>
+				</item>
+				<item>
+					<pos>	-11.599937 0.190428 53.279732	</pos>
+					<direction>	0 -66 0	</direction>
+				</item>
+				<item>
+					<pos>	-27.218239 0.190426 53.127956	</pos>
+					<direction>	0 -90 0	</direction>
+				</item>
+				<item>
+					<pos>	39.831593 0.190428 54.370773	</pos>
+					<direction>	0 75 0	</direction>
+				</item>
+				<item>
+					<pos>	-53.530529 0.199221 53.760818	</pos>
+					<direction>	0 180 0	</direction>
+				</item>
+				<item>
+					<pos>	-54.314957 0.190424 26.436205	</pos>
+					<direction>	0 120 0	</direction>
+				</item>
+				<item>
+					<pos>	11.079355 0.190426 -51.066227	</pos>
+					<direction>	0 35 0	</direction>
+				</item>
+				<item>
+					<pos>	28.909918 0.190432 -48.350536	</pos>
+					<direction>	0 -120 0	</direction>
+				</item>
+				<item>
+					<pos>	49.198589 0.205170 -51.107986	</pos>
+					<direction>	0 30 0	</direction>
+				</item>
+				<item>
+					<pos>	39.440128 0.190430 -49.532169	</pos>
+					<direction>	0 -90 0	</direction>
+				</item>
+				<item>
+					<pos>	22.938133 0.190426 -55.311897	</pos>
+					<direction>	0 -180 0	</direction>
+				</item>
+				<item>
+					<pos>	47.290901 0.190428 -39.447887	</pos>
+					<direction>	0 120 0	</direction>
+				</item>
+				<item>
+					<pos>	53.305580 0.190428 -37.722229	</pos>
+					<direction>	0 65 0	</direction>
+				</item>
+				<item>
+					<pos>	46.745449 0.190428 -30.334068	</pos>
+					<direction>	0 90 0	</direction>
+				</item>
+				<item>
+					<pos>	53.082165 0.190424 -21.897491	</pos>
+					<direction>	0 -60 0	</direction>
+				</item>
+				<item>
+					<pos>	49.611435 0.190432 -15.756317	</pos>
+					<direction>	0 33 0	</direction>
+				</item>
+				<item>
+					<pos>	48.557495 0.190430 -6.244461	</pos>
+					<direction>	0 180 0	</direction>
+				</item>
+				<item>
+					<pos>	42.119057 0.255903 2.336533	</pos>
+					<direction>	0 -90 0	</direction>
+				</item>
+				<item>
+					<pos>	49.944729 0.190430 12.556473	</pos>
+					<direction>	0 65 0	</direction>
+				</item>
+				<item>
+					<pos>	50.925388 0.190426 27.644297	</pos>
+					<direction>	0 -35 0	</direction>
+				</item>
+				<item>
+					<pos>	49.871128 0.190426 42.034214	</pos>
+					<direction>	0 65 0	</direction>
+				</item>
+				<item>
+					<pos>	50.983696 0.197901 55.050777	</pos>
+					<direction>	0 77 0	</direction>
+				</item>
+				<item>
+					<pos>	35.169861 0.190428 54.397369	</pos>
+					<direction>	0 -180 0	</direction>
+				</item>
+				<item>
+					<pos>	21.597765 0.190428 52.448132	</pos>
+					<direction>	0 90 0	</direction>
+				</item>
+				<item>
+					<pos>	11.768528 0.190428 56.909523	</pos>
+					<direction>	0 -65 0	</direction>
+				</item>
+				<item>
+					<pos>	0.956681 0.208891 55.171982	</pos>
+					<direction>	0 30 0	</direction>
+				</item>
+			</protectTongMidAutumnNPC_pos>
+			<mailbox_pos_npc>
+				<pos>	15.217 0.03 64.681	</pos>
+				<direction>	0 180 0	</direction>
+			</mailbox_pos_npc>
+			<mailbox_npc>	30111325	</mailbox_npc>
+		</Space>
+</root>

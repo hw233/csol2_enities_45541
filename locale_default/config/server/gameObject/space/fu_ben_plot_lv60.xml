@@ -1,0 +1,22 @@
+<root>
+		<spaceName>	60级副本	</spaceName>
+		<EntityType>	SpaceCopyPlotLv60	</EntityType>
+		<SpaceType>	SPACE_TYPE_PLOT_LV60 </SpaceType>
+		<DomainType>	SpaceDomainCopy	</DomainType>
+		<script>	SpaceCopyPlotLv60 </script>
+		<className>	fu_ben_plot_lv60	</className>
+		<TimeOfDay>	50400	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_60_ji_ju_qing	</dirMapping>
+		<!--<spawnFile>	config/server/spawn/fu_ben_40_ji_ju_qing.xml	</spawnFile>-->
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canArrest>	1	</canArrest>
+		<assistSkills>	1,2,3	</assistSkills>		<!--护神补天技能-->
+		<Space>
+			<playerEnterPoint>
+				<pos>	22.742836 19.617685 -11.655679	</pos>
+				<direction>	0.000000 0.000000 0.000000		</direction>
+			</playerEnterPoint>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

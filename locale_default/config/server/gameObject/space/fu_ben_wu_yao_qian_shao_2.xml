@@ -1,0 +1,39 @@
+<root>
+		<spaceName>	巫妖前哨	</spaceName>
+		<EntityType>	SpaceCopyWuYaoQianShao	</EntityType>
+		<DomainType>	SpaceDomainCopyMapsTeam	</DomainType>
+		<shareDomain> fu_ben_wu_yao_qian_shao_2 </shareDomain>
+		<script>	SpaceCopyWuYaoQianShao	</script>
+		<SpaceType>	SPACE_TYPE_WU_YAO_QIAN_SHAO	</SpaceType>
+		<className>	fu_ben_wu_yao_qian_shao_2	</className>
+		<dirMapping>	universes/fu_ben_kua_fu_shen_dian_001	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<playerAoI>	80	</playerAoI>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<canGetAccum>	1	</canGetAccum>		<!-- 能召唤守护，打怪能获得气运值 -->
+		<canConjurePet>	1	</canConjurePet>	<!-- 能否召唤宠物-->
+		<TimeOfDay>	55800	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_wu_yao_qian_shao_2.xml		</spawnFile>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<spaceLife>	  30	</spaceLife>		<!-- 副本时间（分钟） -->
+			<closeTime>	  90	</closeTime>		<!-- 战场关闭倒计时（秒） -->
+			<difficulty>  1		</difficulty><!-- 0：普通， 1：困难， 2：噩梦 -->
+			<copyBossNum> 3	</copyBossNum>
+			<copyMonsterNum> 38	</copyMonsterNum>
+			<curBossNum> 3	</curBossNum>
+			<curMonsterNum> 38	</curMonsterNum>
+			<bossID>	20131055;20111089;20111082 </bossID>
+			<curSpawnBossNeedNum> 13;35;38	</curSpawnBossNeedNum>
+			<spaceMapsInfos> <!-- 关联副本地图 -->
+				<item>
+					<className>	fu_ben_wu_yao_qian_shao_2	</className>
+					<position>	60.098 24.756 150.951	</position>
+					<direction>	0 -173.438 0			</direction>
+				</item>
+			</spaceMapsInfos>
+			<pickMembers>	1	</pickMembers><!--是否传送队友-->
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

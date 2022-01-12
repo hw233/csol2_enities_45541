@@ -1,0 +1,455 @@
+<root>
+	<Properties>
+		<questsTable>	<!-- active quest log -->
+			<Type>			QUESTDATAS		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Editable>		false			</Editable>
+			<Persistent>	true			</Persistent>
+		</questsTable>
+
+		<questsRandomLog>	<!-- 随机任务记录 -->
+			<Type>		QUESTRANDOMLOGS		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>		false			</Editable>
+			<Persistent>	true		</Persistent>
+		</questsRandomLog>
+
+		<recordQuestsRandomLog> <!-- 随机任务记录(玩家使用道具保存) -->
+			<Type>		QUESTRANDOMLOGS		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>		false			</Editable>
+			<Persistent>	true		</Persistent>
+		</recordQuestsRandomLog>
+
+		<questsLog>	<!-- 永久任务标志 -->
+			<Type>			QUESTLOGS		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Editable>		false			</Editable>
+			<Persistent>	true			</Persistent>
+		</questsLog>
+
+		<lastSelectedQuest>	<!-- 用于记录物品触发或玩家共享的任务 -->
+			<Type>			QUESTID			</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</lastSelectedQuest>
+
+		<lastQuestActiveObj>	<!-- 用于记录被选择的任务是玩家共享的还是被物品触发的(为0则是物品) -->
+			<Type>			OBJECT_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</lastQuestActiveObj>
+
+		<loopQuestLogs>		<!-- 环任务列表，用于记录每天只能接几次的任务列表 -->
+			<Type>		ARRAY <of>LOOP_QUEST</of>	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</loopQuestLogs>
+
+		<failedGroupQuestList>	<!-- 当天失败的环任务列表-->
+			<Type>		ARRAY <of>STRING</of>	</Type><!-- 29:1234561(日期:环任务ID)-->
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</failedGroupQuestList>
+
+		<savedGroupQuestList>	<!-- 当天保存的环任务列表-->
+			<Type>		ARRAY <of>STRING</of>	</Type><!-- 29:1234561(日期:环任务ID)-->
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</savedGroupQuestList>
+		<questNormalDartRecord>	<!--  -->
+			<Type>		QUESTDARTRECORD		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true		</Persistent>
+		</questNormalDartRecord>
+		<questExpDartRecord>	<!--  -->
+			<Type>		QUESTDARTRECORD		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true		</Persistent>
+		</questExpDartRecord>
+		<questTongDartRecord>	<!--  -->
+			<Type>		QUESTDARTRECORD		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true		</Persistent>
+		</questTongDartRecord>
+		<dartRewardRecord>	<!-- 数值是第几周 -->
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true		</Persistent>
+		</dartRewardRecord>
+		<rewardQuestLog>
+			<Type>		REWARD_QUEST_NUM	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	true		</Persistent>
+		</rewardQuestLog>
+		<canAcceptRewardQuestRecord>
+			<Type>		ARRAY <of>REWARD_QUEST_RECORD</of>	</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true		</Persistent>
+		</canAcceptRewardQuestRecord>
+		<acceptedRewardQuestRecord>
+			<Type>		ARRAY <of>QUESTID</of>	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true		</Persistent>
+		</acceptedRewardQuestRecord>
+		<completedRewardQuestRecord>
+			<Type>		ARRAY <of>QUESTID</of>	</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true		</Persistent>
+		</completedRewardQuestRecord>
+	</Properties>
+
+	<ClientMethods>
+		<onQuestLogAdd>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	INT8			</Arg>	<!-- canShare -->
+			<Arg>	INT8			</Arg>	<!-- completeRuleType -->
+			<Arg>	QUESTDATA		</Arg>	<!-- tasks -->
+			<Arg>	UINT8			</Arg>	<!-- level -->
+			<Arg>	STRING_ARRAY		</Arg>	<!-- rewards -->
+		</onQuestLogAdd>
+		
+		<!--服务器通知打开任务日志界面并定位到指定的任务-->
+		<onShowQuestLog>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+		</onShowQuestLog>
+
+		<updateTitlesDartRob>
+			<Arg>	INT8			</Arg>	<!-- factionID -->
+		</updateTitlesDartRob>
+
+		<onQuestLogRemove>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	INT8			</Arg>	<!-- isAbandon -->
+		</onQuestLogRemove>
+
+		<onTaskStateUpdate>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	QUESTTASK		</Arg>	<!-- taskState -->
+		</onTaskStateUpdate>
+
+		<onAddGossipQuestOption>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	INT8		</Arg>	<!-- state -->
+			<Arg>	INT16		</Arg>	<!-- lv -->
+		</onAddGossipQuestOption>
+
+		<onSetGossipText>
+			<Arg>	STRING		</Arg>	<!-- gossipText -->
+		</onSetGossipText>
+
+		<onAddGossipOption>
+			<Arg>	STRING		</Arg>	<!-- talkID -->
+			<Arg>	STRING		</Arg>	<!-- title -->
+			<Arg>	INT8		</Arg>	<!-- type -->
+		</onAddGossipOption>
+
+		<onGossipComplete>
+			<Arg>	OBJECT_ID		</Arg>	<!-- targetID -->
+		</onGossipComplete>
+
+		<onEndGossip>
+		</onEndGossip>
+
+		<onQuestRewards>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	STRING_ARRAY		</Arg>	<!-- rewards -->
+		</onQuestRewards>
+
+		<onQuestObjectiveDetail>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	STRING			</Arg>	<!-- objectiveDetail -->
+		</onQuestObjectiveDetail>
+
+		<onQuestDetail>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	INT16			</Arg>	<!-- level -->	
+			<Arg>	OBJECT_ID		</Arg>	<!-- targetID -->
+		</onQuestDetail>
+
+		<onQuestIncomplete>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	INT16			</Arg>	<!-- level -->
+			<Arg>	OBJECT_ID		</Arg>	<!-- targetID -->
+		</onQuestIncomplete>
+
+		<onQuestPrecomplete>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	INT16			</Arg>	<!-- level -->
+			<Arg>	OBJECT_ID		</Arg>	<!-- targetID -->
+		</onQuestPrecomplete>
+
+		<onQuestComplete>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	INT16			</Arg>	<!-- level -->
+			<Arg>	OBJECT_ID		</Arg>	<!-- targetID -->
+		</onQuestComplete>
+
+		<onQuestBoxStateUpdate>
+		</onQuestBoxStateUpdate>
+
+		<addGroupRewardsInfo>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	STRING_ARRAY		</Arg>	<!-- rewards -->
+		</addGroupRewardsInfo>
+
+		<onQuestSubmitBlank>
+			<Arg>	QUESTID			</Arg>	<!-- questID -->
+			<Arg>	STRING			</Arg>
+		</onQuestSubmitBlank>
+
+		<onCompletedQuestIDListReceive>
+			<Arg>	ARRAY <of> QUESTID </of> </Arg>
+		</onCompletedQuestIDListReceive>
+
+		<!-- 邀请帮会运镖 -->
+		<dartTongInvite>
+			<Arg>	QUESTID	</Arg> <!-- 任务ID -->
+			<Arg>	UINT32		</Arg>
+		</dartTongInvite>
+
+		<showTrainGem>
+		</showTrainGem>
+
+		<openMoneyToYinpiaoWindow>
+		</openMoneyToYinpiaoWindow>
+
+		<playIntonateBar>
+			<Arg>	INT8	</Arg> <!-- 播放的时间 -->
+		</playIntonateBar>
+
+		<readRandomQuestRecord>
+			<Arg>	INT32	</Arg>		<!-- questID -->
+		</readRandomQuestRecord>
+
+		<acceptQuestConfirm>
+			<Arg>	INT32	</Arg>		<!-- questID -->
+			<Arg>	STRING	</Arg>		<!-- moneyStr -->
+		</acceptQuestConfirm>
+		
+		<showQuestMsg>
+			<Arg>	STRING	</Arg>		<!-- questMsg -->
+		</showQuestMsg>
+		<receiveRewardQuestDatas>
+			<Arg>	ARRAY <of>REWARD_QUEST_RECORD</of>	</Arg>
+			<Arg>	PYTHON	</Arg>
+			<Arg>	ARRAY <of>QUESTID</of>	</Arg>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	INT8	</Arg>
+		</receiveRewardQuestDatas>
+		<sendRewardQuestState>
+			<Arg>	QUESTID	</Arg>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT16	</Arg>
+		</sendRewardQuestState>
+		<setQuestRewardSlots>
+			<Arg>	QUESTID	</Arg>
+			<Arg>	INT8	</Arg>
+		</setQuestRewardSlots>
+	</ClientMethods>
+
+	<CellMethods>
+		<onEnterSpaceAutoNextQuest>
+			<Exposed/>
+		</onEnterSpaceAutoNextQuest>
+		<gossipWith>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- targetID -->
+			<Arg>	STRING		</Arg>	<!-- talkID -->
+		</gossipWith>
+		
+		<setGossipText>
+			<Arg>	STRING		</Arg>
+		</setGossipText>
+
+		<sendGossipComplete>
+			<Arg>	OBJECT_ID	</Arg>	<!-- targetID -->
+		</sendGossipComplete>
+
+		<abandonQuest>		<!-- 放弃任务 -->
+			<Exposed/>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+		</abandonQuest>
+
+		<questMonsterKilled>
+			<Arg>	MAILBOX		</Arg>	<!-- monster -->
+		</questMonsterKilled>
+
+		<questBuffAddOrRemoved>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	INT8		</Arg>	<!-- factionID -->
+		</questBuffAddOrRemoved>
+
+		<questDartKilled>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	INT8		</Arg>	<!-- factionID -->
+		</questDartKilled>
+
+		<!--<questShare>
+			<Exposed/>
+			<Arg>	QUESTID		</Arg>	< !-- questID -- >
+		</questShare>-->
+
+		<!--<selectQuestFromPlayer>
+			<Arg>	QUESTID		</Arg>	< !-- questID -- >
+			<Arg>	MAILBOX		</Arg>	< !-- playerEntity -- >
+		</selectQuestFromPlayer>-->
+
+		<questSelect>
+			<Exposed/>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- target -->
+		</questSelect>
+
+		<questAccept>
+			<Exposed/>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- target -->
+		</questAccept>
+
+		<questChooseReward>
+			<Exposed/>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	INT32		</Arg>	<!-- index -->
+			<Arg> 	STRING		</Arg>	<!-- codeStr -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- target -->
+		</questChooseReward>
+
+		<selectQuestFromItem>
+			<Exposed/>
+			<Arg>	UID		</Arg>	<!-- uid -->
+		</selectQuestFromItem>
+
+		<updateQuestTeamTask>
+			<Exposed/>
+			<Arg>	INT32		</Arg>	<!-- questID -->
+			<Arg>	INT32		</Arg>	<!-- index -->
+			<Arg>	INT32		</Arg>	<!-- count -->
+		</updateQuestTeamTask>
+
+		<questTaskIncreaseState>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	INT32		</Arg>	<!-- index -->
+		</questTaskIncreaseState>
+		
+		<questTaskFailed>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	INT32		</Arg>	<!-- index -->
+		</questTaskFailed>
+
+		<questClearFollowNPC>
+		</questClearFollowNPC>
+
+		<isMyOwnerFollowNPC>
+			<Arg>	INT32		</Arg>	<!-- index -->
+		</isMyOwnerFollowNPC>	
+
+		<taskIsCompleted>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	INT32		</Arg>	<!-- index -->
+		</taskIsCompleted>
+
+		<handleDartFailed>
+		</handleDartFailed>
+			
+		<handleDartMsg>
+			<Arg>	INT32	</Arg>
+		</handleDartMsg>
+		
+		<potentialQuestShare>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	QUESTDATA		</Arg>	
+		</potentialQuestShare>
+		<requestTakeToMaster>
+			<Arg>	MAILBOX		</Arg>	<!-- slaveMonster -->
+		</requestTakeToMaster>
+		<addIETitle>
+			<Arg>	INT8	</Arg>
+		</addIETitle>
+		
+		<onAddIEExpReward>
+			<Arg>	INT32	</Arg>
+		</onAddIEExpReward>
+
+		<beforeEnterSpaceDoor>
+			<Arg>	POSITION	</Arg>
+			<Arg>	POSITION	</Arg>
+		</beforeEnterSpaceDoor>
+
+		<readRandomQuestRecord>
+			<Exposed/>
+			<Arg>	INT32	</Arg>		<!-- questID -->
+		</readRandomQuestRecord>
+		<questTaskAddNormalAnswerQuestion>
+			<Arg>	INT16	</Arg>
+			<Arg>	BOOL	</Arg>
+		</questTaskAddNormalAnswerQuestion>
+		<checkTeamInCopySpace>
+			<Arg>	MAILBOX		</Arg>
+		</checkTeamInCopySpace>
+		<questAcceptForce>
+			<Exposed/>
+			<Arg>	INT32	</Arg>		<!-- questID -->
+			<Arg>	UINT32	</Arg>
+		</questAcceptForce>
+		<questMonsterEvoluted>
+			<Arg>	STRING		</Arg>	<!-- className -->
+		</questMonsterEvoluted>
+		<remoteQuestAccept>
+			<Arg>	QUESTID		</Arg>
+		</remoteQuestAccept>
+		<springRiddleReward>
+		</springRiddleReward>
+
+		<setTongDartJoinNum>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT16		</Arg>
+		</setTongDartJoinNum>
+		<sendTongMemberQuest>
+			<Arg>		QUESTID	</Arg>
+			<Arg>		UINT32		</Arg>
+		</sendTongMemberQuest>
+		<tongDartExpReward/>
+		<dart_spaceDartCountResult>
+			<Arg>		INT16		</Arg>
+		</dart_spaceDartCountResult>
+
+		<questSingleReward>
+			<Exposed/>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+		</questSingleReward>
+
+		<onQuestTrapTipClicked>	<!-- 点击陷阱提示图标的操作-->
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</onQuestTrapTipClicked>
+		<rewardQuestAccept>
+			<Exposed/>
+			<Arg>	QUESTID		</Arg>
+		</rewardQuestAccept>
+		<useItemRefreshRewardQuest>
+			<Exposed/>
+		</useItemRefreshRewardQuest>
+		<rewardQuestItemRefresh>
+			<Arg>		INT8		</Arg>
+			<Arg>		INT8		</Arg>
+		</rewardQuestItemRefresh>
+		<getQuestRewardSlots>
+			<Exposed/>
+			<Arg>	QUESTID		</Arg>	<!-- questID -->
+			<Arg>	INT32		</Arg>	<!-- index -->
+			<Arg> 	STRING		</Arg>	<!-- codeStr -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- target -->
+			<Arg>	BOOL		</Arg>	<!--is use gold-->
+		</getQuestRewardSlots>
+	</CellMethods>
+</root>

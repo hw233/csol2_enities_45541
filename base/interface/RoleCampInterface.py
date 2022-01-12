@@ -1,0 +1,13 @@
+# -*- coding: gb18030 -*-
+
+import datetime
+
+import BigWorld
+
+
+class RoleCampInterface :
+	"""
+	ÕóÓª
+	"""
+	def __init__( self ) :
+		pass

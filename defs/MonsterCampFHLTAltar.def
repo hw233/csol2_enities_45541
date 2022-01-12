@@ -1,0 +1,16 @@
+<root>
+	<Parent> 				Monster					</Parent>
+	<Properties>
+		<ownCamp> 
+			<Type>			DATABASE_ID	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownCamp>
+	</Properties>
+	<CellMethods>
+	</CellMethods>
+	<ClientMethods>
+	</ClientMethods>
+	<BaseMethods>
+	</BaseMethods>
+</root>

@@ -1,0 +1,118 @@
+<root>
+		<spaceName>	城市戰場	</spaceName>
+		<EntityType>	SpaceCopyCityWar	</EntityType>
+		<DomainType>	SpaceDomainCityWar	</DomainType>
+		<script>	SpaceCopyCityWar	</script>
+		<SpaceType>	SPACE_TYPE_CITY_WAR	</SpaceType>
+		<className>	city_war_e	</className>
+		<TimeOfDay>	45000	</TimeOfDay>
+		<warTotalTime>	5400	</warTotalTime>
+		<dirMapping>	universes/fu_ben_bang_hui_zhan_chang_05	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+		<Space>
+			<roomName>	統帥	</roomName>
+			<roomIndex>	4	</roomIndex>
+			<roomLevel>	1	</roomLevel>
+			<right_max_player_count>	20	</right_max_player_count>
+			<left_max_player_count>	20	</left_max_player_count>
+			<right_playerEnterPoint>
+				<pos>	-63.001 0.0 134.901	</pos>
+				<direction>	0 -138.758 0	</direction>
+			</right_playerEnterPoint>
+			<right_teleportPoint>
+				<pos>	-66.896 0.445 119.180	</pos>
+				<direction>	0.000000   -60.0 0	</direction>
+			</right_teleportPoint>
+			<right_bossPoint>
+				<pos>	27.539 5.516 93.670	</pos>
+				<direction>	0.000000   180.0 0	</direction>
+			</right_bossPoint>
+			<right_monsterPoint>	</right_monsterPoint>
+			<left_playerEnterPoint>
+				<pos>	157.447 7.537 -18.452	</pos>
+				<direction>	1.918 -2.473 1.869	</direction>
+			</left_playerEnterPoint>
+			<left_teleportPoint>
+				<pos>	152.764 7.455 -6.235	</pos>
+				<direction>	-1.867 89.645 1.919	</direction>
+			</left_teleportPoint>
+			<left_bossPoint>
+				<pos>	157.420624 0.000000 24.651270	</pos>
+				<direction>	0.000000   -0.171806 0	</direction>
+			</left_bossPoint>
+			<left_monsterPoint>
+				<item>
+					<pos>	167.373 6.443 4.017	</pos>
+					<direction>	0.0 0.0 0.0	</direction>
+				</item>
+				<item>
+					<pos>	162.570 5.939 4.269	</pos>
+					<direction>	0.0 0.0 0.0	</direction>
+				</item>
+				<item>
+					<pos>	157.281 6.251 4.299	</pos>
+					<direction>	0.0 0.0 0.0	</direction>
+				</item>
+				<item>
+					<pos>	151.830 7.335 4.026	</pos>
+					<direction>	0.0 0.0 0.0	</direction>
+				</item>
+			</left_monsterPoint>
+			<small_bossPoint>
+				<pos>	-0.291 2.686 -24.634	</pos>
+				<direction>	0.000000   0.000000 0.000000	</direction>
+			</small_bossPoint>
+			<enterLimitLevel>	29	</enterLimitLevel>
+			<teleportNPCID>	10111050	</teleportNPCID>
+			<bossID>	20154002	</bossID>
+			<bossSmallID>	10111052	</bossSmallID>
+			<fungusPos>
+				<item>	151.692459 0.000000 -7.352143	</item>
+				<item>	151.692459 0.000000 -7.352143	</item>
+				<item>	151.692459 0.000000 -7.352143	</item>
+				<item>	151.692459 0.000000 -7.352143	</item>
+				<item>	151.692459 0.000000 -7.352143	</item>
+			</fungusPos>
+			<towers>
+				<item>
+					<towerID>	20231001	</towerID>
+					<pos>
+						<pos>	14.287 4.458 81.187	</pos>
+						<direction>	-0.068 -178.019 -0.290	</direction>
+					</pos>
+				</item>
+				<item>
+					<towerID>	20231001	</towerID>
+					<pos>
+						<pos>	40.429 4.464 81.186	</pos>
+						<direction>	-0.068 -178.020 -0.290	</direction>
+					</pos>
+				</item>
+				<item>
+					<towerID>	20241002	</towerID>
+					<pos>
+						<pos>	14.287 4.582 105.365	</pos>
+						<direction>	-0.068 -178.020 -0.288	</direction>
+					</pos>
+				</item>
+				<item>
+					<towerID>	20241002	</towerID>
+					<pos>
+						<pos>	40.43 5.72 105.366	</pos>
+						<direction>	-0.068 -178.020 -0.290	</direction>
+					</pos>
+				</item>
+			</towers>
+			<supplyNPCID>	10111222	</supplyNPCID>
+			<supplyNPCPos>
+				<pos>	-81.969 1.005 112.403	</pos>
+				<direction>	-0.297 106.979 -0.027	</direction>
+			</supplyNPCPos>
+			<munitionerNPCID>	10111221	</munitionerNPCID>
+			<munitionerNPCPos>
+				<pos>	168.477 6.404 6.577	</pos>
+				<direction>	0.296 -73.022 -0.027	</direction>
+			</munitionerNPCPos>
+		</Space>
+</root>

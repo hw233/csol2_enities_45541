@@ -1,0 +1,123 @@
+<root>
+	<Properties>
+		<spaceType>
+			<Type>		STRING				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	feng_ming_cheng		</Default>
+			<Persistent>	true			</Persistent>
+		</spaceType>
+
+		<lastSpaceType>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>		true		</Persistent>
+		</lastSpaceType>
+
+		<lastSpacePosition>
+			<Type>			VECTOR3			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>		true		</Persistent>
+		</lastSpacePosition>
+	</Properties>
+
+	<BaseMethods>
+		<logonSpace>
+		</logonSpace>
+
+		<logonSpaceInSpaceCopy>
+		</logonSpaceInSpaceCopy>
+
+		<createCellFromSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+		</createCellFromSpace>
+
+		<gotoSpace>
+			<Arg>		STRING			</Arg>	<!-- Space Name -->
+			<Arg>		VECTOR3			</Arg>	<!-- Position -->
+			<Arg>		VECTOR3			</Arg>	<!-- Direction -->
+		</gotoSpace>
+
+		<gotoSpaceLineNumber>
+			<Arg>		STRING			</Arg>	<!-- Space Name -->
+			<Arg>		UINT8			</Arg>	<!-- lineNumber -->
+			<Arg>		VECTOR3			</Arg>	<!-- Position -->
+			<Arg>		VECTOR3			</Arg>	<!-- Direction -->
+		</gotoSpaceLineNumber>
+
+		<enterSpace>
+			<Arg>	STRING 			</Arg>		<!-- spaceName -->
+			<Arg>	VECTOR3 		</Arg>
+			<Arg>	VECTOR3 		</Arg>
+			<Arg>	PY_DICT			</Arg>
+		</enterSpace>
+	</BaseMethods>
+
+	<CellMethods>
+		<gotoSpace>
+			<Arg>	STRING		</Arg>	<!-- spaceType -->
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+		</gotoSpace>
+		<gotoPlane>
+			<Arg>		STRING			</Arg>	<!-- Space Name -->
+			<Arg>		VECTOR3			</Arg>	<!-- Position -->
+			<Arg>		VECTOR3			</Arg>	<!-- Direction -->
+		</gotoPlane>
+		<requestTeleport>
+			<Exposed/>
+		</requestTeleport>
+		<requestFlash>
+			<Exposed/>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+		</requestFlash>
+		<gotoSpaceLineNumber>
+			<Arg>		STRING			</Arg>	<!-- Space Name -->
+			<Arg>		UINT8			</Arg>	<!-- lineNumber -->
+			<Arg>		VECTOR3			</Arg>	<!-- Position -->
+			<Arg>		VECTOR3			</Arg>	<!-- Direction -->
+		</gotoSpaceLineNumber>
+
+		<teleportToSpace>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- spaceMailBox -->
+			<Arg>	INT32		</Arg>	<!-- dstSpaceID -->
+		</teleportToSpace>
+		<teleportToPlanes>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- spaceMailBox -->
+			<Arg>	PLANESID	</Arg>
+		</teleportToPlanes>
+
+		<enterSpaceNotify/>
+		<enterPlanesNotify/>
+
+		<gotoForetime>
+		</gotoForetime>
+
+		<gotoEnterPos/>
+
+		<requestInitSpaceSkill>
+			<Exposed/>
+		</requestInitSpaceSkill>
+
+		<onSpaceCopyTeleport>
+			<Arg>	UINT32		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	POSITION	</Arg>
+			<Arg>	DIRECTION	</Arg>
+			<Arg>	BOOL		</Arg>
+		</onSpaceCopyTeleport>
+
+		<telportToPlaneEntry>
+			<Exposed/>
+		</telportToPlaneEntry>
+	</CellMethods>
+
+	<ClientMethods>
+		<spaceMessage>
+			<Arg>	INT32		</Arg>	<!-- spaceType -->
+		</spaceMessage>
+	</ClientMethods>
+</root>

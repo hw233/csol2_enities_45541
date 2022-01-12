@@ -1,0 +1,116 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<_isRobWarOn>
+			<Type>	BOOL		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</_isRobWarOn>
+		<_enemyTongDBID>
+			<Type>	DATABASE_ID	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</_enemyTongDBID>
+		<_detailedPlayerInfo>
+			<Type>	PYTHON		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</_detailedPlayerInfo>
+	</Properties>
+
+	<BaseMethods>
+		<onTongDismiss/>
+		
+		<onShenShouDestroy/>
+
+		<onBuildingLevelChanged>
+			<Arg>	UINT8		</Arg>
+		</onBuildingLevelChanged>
+
+		<lockTerritoryNPC/>
+		<unLockTerritoryNPC/>
+		<onRobWarStart>
+			<Arg>	DATABASE_ID		</Arg>
+		</onRobWarStart>
+		<onRobWarStop/>
+
+		<onTongSelectNewShenShou>
+			<Arg>	UINT16		</Arg>
+			<Arg>	BOOL		</Arg>
+		</onTongSelectNewShenShou>
+
+		<onRegisterTongItem>
+			<Arg>	ITEM_ID		</Arg>
+			<Arg>	UINT32		</Arg>
+		</onRegisterTongItem>
+
+		<startCampaign_monsterRaid>
+			<Arg>	UINT32		</Arg>
+		</startCampaign_monsterRaid>
+
+		<overCampaign_monsterRaid>
+		</overCampaign_monsterRaid>
+
+		<onCappaign_monsterRaidComplete>
+			<Arg>	UINT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</onCappaign_monsterRaidComplete>
+
+		<onStartTongFete/>
+		<onOverTongFete/>
+		<onTongFeteComplete/>
+
+		<reviveNagual>
+			<Arg>	UINT32		</Arg>
+		</reviveNagual>
+
+		<onProtectTongStart>
+			<Arg>	INT8		</Arg>
+		</onProtectTongStart>
+		<onProtectTongEnd/>
+
+		<onInitTongItems>
+			<Arg>	UINT8		</Arg>
+			<Arg>	BOOL		</Arg>
+		</onInitTongItems>
+		<onInitTongSpecialItems>
+			<Arg>	UINT8		</Arg>
+			<Arg>	BOOL		</Arg>
+		</onInitTongSpecialItems>
+		<onAddSpecialItemReward>
+			<Arg>	ITEM_ID		</Arg>
+			<Arg>	UINT16		</Arg>
+		</onAddSpecialItemReward>
+		<onSellSpecialItems>
+			<Arg> OBJECT_ID	</Arg>	<!-- object ID -->
+			<Arg>	ITEM_ID		</Arg>
+			<Arg>	UINT16		</Arg>
+		</onSellSpecialItems>
+	</BaseMethods>
+	<CellMethods>
+		<onNagualCreated>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT8		</Arg>
+		</onNagualCreated>
+
+		<onNagualUpdateLevel>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT8		</Arg>
+		</onNagualUpdateLevel>
+
+		<onShenShouDestroy>
+		</onShenShouDestroy>
+
+		<onStartTongFete/>
+		<onOverTongFete/>
+		
+		<onStartRobWar> <!--base通知帮会掠夺战开始与结束-->
+			<Arg>	DATABASE_ID	</Arg> <!--敌对帮会的dbid-->
+		</onStartRobWar>
+
+		<onEndRobWar/>
+		
+		<startCampaign_monsterRaid/>
+		<endCampaign_monsterRaid/>
+	</CellMethods>
+
+
+</root>

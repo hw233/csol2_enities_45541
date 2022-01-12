@@ -1,0 +1,32 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<!--
+		<onImageVerify>
+			<Arg>	BLOB	</Arg>	 image, 图片数据 
+		</onImageVerify>
+		-->
+		
+		<onImageVerify>
+			<Arg>	UINT8	</Arg>	<!-- Max packet -->
+			<Arg>	UINT8	</Arg>	<!-- Curr packet -->
+			<Arg>	BLOB	</Arg>	<!-- image, 图片数据, 1024Byte -->
+		</onImageVerify>
+	</ClientMethods>
+
+	<BaseMethods>
+		<onReplyImageVerify>
+			<Exposed/>
+			<Arg>	UINT8	</Arg>	<!-- result, 回答结果，player 选择了第几个答案 -->
+		</onReplyImageVerify>
+		
+		<playerPause>
+			<Arg>	UINT8	</Arg>	<!-- state, bt 0 if player is not active, eq 0 if player is active again -->
+		</playerPause>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

@@ -1,0 +1,279 @@
+<root>
+	<Properties>
+		<playerName>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<DatabaseLength>255</DatabaseLength>
+			<Identifier>	true		</Identifier>
+		</playerName>
+
+		<!--
+		<password>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+		</password>
+		-->
+
+		<avatar>
+			<Type>			MAILBOX		</Type>
+			<Flags>			BASE		</Flags>
+		</avatar>
+
+		<lastClientIpAddr>
+			<Type>			UINT32		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</lastClientIpAddr>
+
+		<roleList>
+			<Type>	ARRAY <of>	INT64	</of>	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+		</roleList>
+
+		<lastLogonDBID>
+			<Type>			INT64		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</lastLogonDBID>
+
+		<!-- <adult>	 是否是成年人 1成年 0未成年
+			<Type>			BOOL		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		1			</Default>
+			<Persistent>	true		</Persistent>
+		</adult> -->
+		<grade>
+			<Type>			INT8		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</grade>
+		<!--<presentee>	 是否有推广人 1有推广人 0没有推广人
+			<Type>			BOOL		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</presentee>-->
+
+		<gold>
+			<Type>		UINT32			</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</gold>
+
+		<silver>
+			<Type>		UINT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</silver>
+
+		<block_state>		<!-- 账号封存的状态0 未封存 1已被封存 -->
+			<Type> 		 UINT8		</Type>
+			<Flags>		 BASE		</Flags>
+			<Default>	 0			</Default>
+			<Persistent> true	</Persistent>
+		</block_state>
+
+		<block_end_time>	<!-- 封存结束时间 -->
+			<Type> 		 INT64		</Type>
+			<Flags>		 BASE		</Flags>
+			<Default>	 0			</Default>
+			<Persistent> true	</Persistent>
+		</block_end_time>
+
+		<total_online>	<!-- 累计在线时间 -->
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</total_online>
+
+		<total_offline>	<!-- 累计下线时间 -->
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</total_offline>
+
+		<last_offline>	<!-- 最后一次下线时间 -->
+			<Type>		UINT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</last_offline>
+
+		<jackarooCard>	<!-- 是否使用的新手卡 1使用 0未使用 -->
+			<Type>			BOOL		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</jackarooCard>
+
+		<jackarooCardState>
+			<Type>			UINT16		</Type>		<!-- 新手卡的使用状态(如领取新手卡奖励),目前第1--5为表示领取5，25，35，45级奖励情况
+													由于考虑到5级开始每10级一次所以到150级会有14次，所以采用UINT16以便扩展 -->
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</jackarooCardState>
+
+		<securityLockStatus>	<!-- 账号绑定的密保类型 -->
+			<Type>			UINT16		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</securityLockStatus>
+
+		<activated_time>		<!-- 账号激活的时间 -->
+			<Type>			UINT32		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</activated_time>
+
+		<last_login>	<!-- 上一次的登录时间 -->
+			<Type>		UINT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</last_login>
+
+		<firstLoginTime>	<!-- 角色创建帐号之后第一次登陆服务器的时间 -->
+			<Type>		UINT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</firstLoginTime>
+
+		<firstCreateRoleTime>	<!-- 角色创建帐号之后第一次创建角色的时间 -->
+			<Type>		UINT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</firstCreateRoleTime>
+
+		<baseSectionMD5Code>	<!-- 需要进行MD5校验数据库字段的MD5码 by jy -->
+			<Type>		STRING			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</baseSectionMD5Code>
+
+	</Properties>
+
+	<ClientMethods>
+		<onStatusMessage>				<!-- used for receiving states message from server -->
+			<Arg>	INT16		</Arg>	<!-- statusID : defined in common/csstatus.py -->
+			<Arg>	STRING		</Arg>	<!-- speaker  : message match the statusID, defined in csstatus_msg.py -->
+		</onStatusMessage>
+
+		<initRolesCB>
+			<Arg>		ARRAY <of>	LOGIN_ROLE	</of>	</Arg>
+		</initRolesCB>
+
+		<addRoleCB>
+			<Arg>		LOGIN_ROLE		</Arg>
+		</addRoleCB>
+
+		<deleteRoleCB>
+			<Arg>		INT64		</Arg>
+		</deleteRoleCB>
+
+		<timeSynchronization>
+			<Arg>		STRING		</Arg>	<!-- servertime -->
+		</timeSynchronization>
+
+		<onAccountlockedNotify>
+			<Arg>	   INT64		</Arg>
+		</onAccountlockedNotify>
+
+		<receiveWattingTime>
+			<Arg>	UINT16		</Arg>
+			<Arg>	FLOAT			</Arg>
+		</receiveWattingTime>
+
+		<onAccountLogin>
+		</onAccountLogin>
+
+		<input_passwdPro_matrix>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT8		</Arg>
+		</input_passwdPro_matrix>
+
+		<trigerImageVerify>
+			<Arg>	BLOB	</Arg>
+			<Arg>	INT8		</Arg>
+		</trigerImageVerify>
+		<changeRoleNameSuccess>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</changeRoleNameSuccess>
+		<verifySuccess>
+		</verifySuccess>
+	</ClientMethods>
+
+	<BaseMethods>
+		<requestEnterGame>
+			<Exposed/>
+		</requestEnterGame>
+		<login>
+			<Exposed/>
+			<Arg>	INT64	</Arg>	<!-- login role by id -->
+			<Arg>	STRING	</Arg>	<!-- loginTo -->
+		</login>
+
+		<createRole>
+			<Exposed/>
+			<Arg>	INT32	</Arg>	<!-- raceclass -->
+			<Arg>	STRING	</Arg>	<!-- roleName -->
+			<Arg>	INT32	</Arg>	<!-- hairNum -->
+			<Arg>	INT32	</Arg>	<!-- faceNum -->
+			<Arg>	INT32	</Arg>	<!-- headTextureID -->
+		</createRole>
+
+		<deleteRole>
+			<Exposed/>
+			<Arg>	INT64	</Arg>	<!-- roleID -->
+			<Arg>	STRING	</Arg>	<!-- roleName -->
+		</deleteRole>
+
+		<logoff>
+			<Exposed/>
+		</logoff>
+
+		<addGold>
+			<Arg>	INT64		</Arg>
+		</addGold>
+
+		<addSilver>
+			<Arg>	INT64		</Arg>
+		</addSilver>
+
+		<check_passwdProMatrixValue>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</check_passwdProMatrixValue>
+
+		<recheck_passwdProMatrixValue>
+			<Exposed/>
+		</recheck_passwdProMatrixValue>
+		<answerRobotVerify>
+			<Exposed/>
+			<Arg>		PYTHON		</Arg>
+		</answerRobotVerify>
+		<cancelAnswer>
+			<Exposed/>
+		</cancelAnswer>
+		<changeName>
+			<Exposed/>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		STRING		</Arg>
+		</changeName>
+	</BaseMethods>
+</root>

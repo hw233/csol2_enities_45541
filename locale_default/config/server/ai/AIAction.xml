@@ -1,0 +1,4198 @@
+<root>
+	<row>
+		<id>	-1	</id>
+		<name>	将当前目标从己方单位列表中移出	</name>
+		<scriptName>	AIActions:AIAction13	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	前置条件: 有AI对象。
+备注：从战斗好友列表中移除。
+         会触发“友方列表被改变”事件
+
+
+AI对象: 这个是指，一条AI要处理的目标。
+举例:
+事件AI：
+例如角色A，进入到怪物的陷阱。那么会触发陷阱事件，而角色A就是这个陷阱事件的AI对象。也就是说，如果是一个目标触发的事件，那么这个目标就是AI对象。
+在战斗AI，普通AI，配置AI，特殊AI中一般需要手动设置AI对象（有一个AI行为专门做这个事情）。
+   	</comment>
+	</row>
+	<row>
+		<id>	1	</id>
+		<name>	战斗列表清空	</name>
+		<scriptName>	AIActions:AIAction1	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	将伤害列表、治疗列表中的单位全部移出
+
+前置条件: 无
+备注: 	清空了战斗列表，一般目的就是要脱离战斗。 会导致事件“战斗列表被改变”，“伤害列表被改变”，“治疗列表被改变”同时触发。由于是AI主动的清空战斗列表，而不是怪物因为没有对手而脱离战斗，所以，要注意各种可能让怪物重新进入战斗的情况。（例如退出战斗后，怪物会重新释放陷阱，而陷阱里面有可攻击的敌人，则又进入战斗）
+	</comment>
+	</row>
+	<row>
+		<id>	5	</id>
+		<name>	伤害列表增加	</name>
+		<scriptName>	AIActions:AIAction2	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	将指定目标加入伤害列表
+
+前置条件: 有AI对象。
+备注: 	把当前的AI对象，加入到伤害列表。
+	会导致&quot;伤害列表变化事件&quot;触发。      	
+		</comment>
+	</row>
+	<row>
+		<id>	6	</id>
+		<name>	伤害列表删减	</name>
+		<scriptName>	AIActions:AIAction3	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：	伤害列表删减
+前置条件：有AI对象。
+备注：	主动的把一个目标从自己的伤害列表中清除掉。会导致&quot;伤害列表变化事件&quot;触发。
+	</comment>
+	</row>
+	<row>
+		<id>	7	</id>
+		<name>	清空伤害列表	</name>
+		<scriptName>	AIActions:AIAction4	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：	清空伤害列表
+前置条件：无
+备注：  把伤害列表清空。会导致&quot;伤害列表变化事件&quot;触发。	</comment>
+	</row>
+	<row>
+		<id>	8	</id>
+		<name>	治疗列表增加	</name>
+		<scriptName>	AIActions:AIAction5	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：	治疗列表增加
+前置条件：有AI对象。
+备注：	主动的把一个目标加入到自己的治疗列表。
+	会导致&quot;治疗列表变化事件&quot;触发。	</comment>
+	</row>
+	<row>
+		<id>	9	</id>
+		<name>	治疗列表删减	</name>
+		<scriptName>	AIActions:AIAction6	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：治疗列表删减
+前置条件：有AI对象。
+备注：	主动的把一个目标从治疗列表删除。
+	会导致&quot;治疗列表变化事件&quot;触发。	</comment>
+	</row>
+	<row>
+		<id>	10	</id>
+		<name>	清空治疗列表	</name>
+		<scriptName>	AIActions:AIAction7	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：治疗列表清空
+前置条件：无
+备注：	把治疗列表清空。会导致&quot;治疗列表变化事件&quot;触发。	</comment>
+	</row>
+	<row>
+		<id>	11	</id>
+		<name>	清空战斗列表中除当前目标外的所有单位	</name>
+		<scriptName>	AIActions:AIAction8	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：清空战斗列表中除当前AI选择目标外的所有单位
+前置条件：需要有AI对象。
+备注： 会导致事件“战斗列表被改变”，“伤害列表被改变”，“治疗列表被改变”同时触发。
+
+	</comment>
+	</row>
+	<row>
+		<id>	12	</id>
+		<name>	清空伤害列表中除当前目标外的所有单位	</name>
+		<scriptName>	AIActions:AIAction9	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：清空伤害列表中除当前AI选择目标外的所有单位
+前置条件：需要有AI对象。
+备注： 会导致事件“伤害列表被改变”触发。
+	</comment>
+	</row>
+	<row>
+		<id>	13	</id>
+		<name>	清空治疗列表中除当前目标外的所有单位	</name>
+		<scriptName>	AIActions:AIAction10	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：清空治疗列表中除当前AI选择目标外的所有单位
+前置条件：需要有AI对象。
+备注： 会导致事件“治疗列表被改变”触发。	</comment>
+	</row>
+	<row>
+		<id>	14	</id>
+		<name>	进入战斗状态	</name>
+		<scriptName>	AIActions:AIAction14	</scriptName>
+		<group>	14	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：把AI对象当成攻击目标，进入战斗
+前置条件：AI对象
+备注：注意两者的战斗关系。
+
+
+这个AI行为，包括了把 ai对象转换为战斗目标，和进入战斗状态两个动作。	</comment>
+	</row>
+	<row>
+		<id>	15	</id>
+		<name>	脱离战斗状态	</name>
+		<scriptName>	AIActions:AIAction15	</scriptName>
+		<group>	14	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：强制脱离战斗状态
+前置条件：无
+备注：会导致“状态改变”事件被触发。怪物会马上进行回走行为。	</comment>
+	</row>
+	<row>
+		<id>	16	</id>
+		<name>	选择最高伤害为当前目标	</name>
+		<scriptName>	AIActions:AIAction16	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将自己的所有者当成AI对象（设置AI对象）
+前置条件：无
+备注： 除了大部分AI事件有预设好的AI对象，AI行为中也可以手动设置AI对象。	</comment>
+	</row>
+	<row>
+		<id>	17	</id>
+		<name>	将治疗列表首位作为当前目标	</name>
+		<scriptName>	AIActions:AIAction17	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将治疗列表首位当成AI对象（设置AI对象）
+前置条件：无
+备注： 除了大部分AI事件有预设好的AI对象，AI行为中也可以手动设置AI对象。	</comment>
+	</row>
+	<row>
+		<id>	18	</id>
+		<name>	等级最低选择	</name>
+		<scriptName>	AIActions:AIAction18	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将等级最低选择当成AI对象（设置AI对象）
+前置条件：无
+备注： 除了大部分AI事件有预设好的AI对象，AI行为中也可以手动设置AI对象。	</comment>
+	</row>
+	<row>
+		<id>	19	</id>
+		<name>	等级最高选择	</name>
+		<scriptName>	AIActions:AIAction19	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将等级最高选择当成AI对象（设置AI对象）
+前置条件：无
+备注： 除了大部分AI事件有预设好的AI对象，AI行为中也可以手动设置AI对象。	</comment>
+	</row>
+	<row>
+		<id>	20	</id>
+		<name>	生命最低选择	</name>
+		<scriptName>	AIActions:AIAction20	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将生命最低选择当成AI对象（设置AI对象）
+前置条件：无
+备注： 除了大部分AI事件有预设好的AI对象，AI行为中也可以手动设置AI对象。	</comment>
+	</row>
+	<row>
+		<id>	21	</id>
+		<name>	生命最高选择	</name>
+		<scriptName>	AIActions:AIAction21	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将生命最高选择当成AI对象（设置AI对象）
+前置条件：无
+备注： 除了大部分AI事件有预设好的AI对象，AI行为中也可以手动设置AI对象。	</comment>
+	</row>
+	<row>
+		<id>	22	</id>
+		<name>	停止对当前目标的追击	</name>
+		<scriptName>	AIActions:AIAction22	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：停止对当前目标的追击
+前置条件：无
+备注：这条AI 并没有被用到。
+
+当前怪物对目标的追击，都是在领域范围内追击，超出领域范围，就有停止追击的处理。也就是说一般都使用那个机制，导致的停止追击。	</comment>
+	</row>
+	<row>
+		<id>	23	</id>
+		<name>	复位	</name>
+		<scriptName>	AIActions:AIAction23	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：脱离战斗
+前置条件：无
+备注：脱离战斗后，回走，清理掉战斗的相关列表。	</comment>
+	</row>
+	<row>
+		<id>	24	</id>
+		<name>	完全恢复	</name>
+		<scriptName>	AIActions:AIAction24	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用： HP,MP 回复满。 清理掉所有BUFF。
+前置条件：无
+备注：无。	</comment>
+	</row>
+	<row>
+		<id>	25	</id>
+		<name>	强制攻击目标	</name>
+		<scriptName>	AIActions:AIAction25	</scriptName>
+		<group>	27	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：把AI对象转换成当前的攻击目标。
+前置条件：AI对象
+备注：无	</comment>
+	</row>
+	<row>
+		<id>	26	</id>
+		<name>	对目标使用技能	</name>
+		<scriptName>	AIActions:AIAction26	</scriptName>
+		<group>	16	</group>
+		<param1>	SKILL_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：对目标使用技能
+前置条件：需要有战斗目标
+备注：区分好AI对象 与 战斗目标很重要。
+
+	</comment>
+	</row>
+	<row>
+		<id>	28	</id>
+		<name>	逃跑	</name>
+		<scriptName>	AIActions:AIAction27	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用： 逃跑
+前置条件：无
+备注： 这条AI是无效的。只是改变了子状态，并没有逃跑的效果。 	</comment>
+	</row>
+	<row>
+		<id>	29	</id>
+		<name>	停止逃跑	</name>
+		<scriptName>	AIActions:AIAction28	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：停止逃跑
+前置条件：无
+备注：没有用的，当前不支持逃跑机制。	</comment>
+	</row>
+	<row>
+		<id>	30	</id>
+		<name>	当前AI系统运行级别调整	</name>
+		<scriptName>	AIActions:AIAction29	</scriptName>
+		<group>	17	</group>
+		<param1>	级值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：调整AI下一次的循环的运行级别
+前置条件：无
+备注：AI 每一轮都是一个循环， 这个级别的改变只会在下一次循环起作用。	</comment>
+	</row>
+	<row>
+		<id>	31	</id>
+		<name>	默认AI系统运行级别调整	</name>
+		<scriptName>	AIActions:AIAction30	</scriptName>
+		<group>	17	</group>
+		<param1>	级数值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：改变默认的AI运行级别
+前置条件：无
+备注： 
+这个AI是没有实际作用的。
+默认的AI运行级别只是在进入战斗的时候，用于说明AI一开始的运行等级，而战斗结束，这个值会被重新设置恢复为默认值。中途的改变不会有任何影响。	</comment>
+	</row>
+	<row>
+		<id>	36	</id>
+		<name>	NPC发言	</name>
+		<scriptName>	AIActions:AIAction33	</scriptName>
+		<group>	38	</group>
+		<param1>	要说的话	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：NPC说话
+前置条件：无
+备注：无	</comment>
+	</row>
+	<row>
+		<id>	37	</id>
+		<name>	指定S级AI所对应的目标	</name>
+		<scriptName>	AIActions:AIAction31	</scriptName>
+		<group>	17	</group>
+		<param1>	aiID (特殊AI中的ID)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用： 指定S级AI对应的目标。
+前置条件：无
+备注： SAI 比较少用。代码对他的支持也不好。最主要是当前的需求其实其他AI都可以完成。	</comment>
+	</row>
+	<row>
+		<id>	39	</id>
+		<name>	向指定类型NPC发送AI命令	</name>
+		<scriptName>	AIActions:AIAction34	</scriptName>
+		<group>	35	</group>
+		<param1>	npcID&quot;|&quot;分隔	</param1>
+		<param2>	命令uint16	</param2>
+		<param3>	搜索半径	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	向指定一个或多个类型NPC发送AI命令
+&quot;|&quot;分隔	</comment>
+	</row>
+	<row>
+		<id>	40	</id>
+		<name>	指定E级AI所对应的目标	</name>
+		<scriptName>	AIActions:AIAction32	</scriptName>
+		<group>	17	</group>
+		<param1>	AIDATA_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：在AI中灵活设置EAI。
+前置条件：无
+备注：一般很少用，一般使用 常规的EAI设置机制。
+
+EAI: 被记录起来，不执行的AI。就是说，他在正常的配置流程里面，如果被记录起来，则不会执行。	</comment>
+	</row>
+	<row>
+		<id>	42	</id>
+		<name>	将指定单位加入战斗己方单位列表	</name>
+		<scriptName>	AIActions:AIAction11	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用： 将指定单位加入战斗己方单位列表
+前置条件：AI对象
+备注： 将一个目标加入自己的友方列表中。触发“友方列表被改变”事件。	</comment>
+	</row>
+	<row>
+		<id>	43	</id>
+		<name>	将指定单位移出战斗己方单位列表	</name>
+		<scriptName>	AIActions:AIAction12	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用： 将指定单位移出战斗己方单位列表
+前置条件：AI对象
+备注： 将一个目标移出自己的友方列表中。触发“友方列表被改变”事件。	</comment>
+	</row>
+	<row>
+		<id>	44	</id>
+		<name>	战斗列表增加	</name>
+		<scriptName>	AIActions:AIAction37	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：战斗列表增加
+前置条件：AI对象
+备注：就是把一个AI对象设置为敌人，加入敌人列表。
+这个要注意两者之间的战斗关系，如果是友好关系，则加为敌人会失败。	</comment>
+	</row>
+	<row>
+		<id>	45	</id>
+		<name>	清理不在视野范围类的敌人	</name>
+		<scriptName>	AIActions:AIAction35	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：清理不再视野范围内的敌人
+前置条件：无
+备注：这个主要是每次战斗都检查一下。一般也没有其他使用方式。	</comment>
+	</row>
+	<row>
+		<id>	46	</id>
+		<name>	检测当前攻击目标的有效性	</name>
+		<scriptName>	AIActions:AIAction36	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：对于普通怪物来说，这个是检查自身有没有超出自己的领域范围，对于城战的怪物则是判定于怪物的距离是否超出领域半径。
+前置条件：有战斗目标
+备注：这个AI的名称于AI的行为及其不吻合。但是已经成为一个 习惯应用，暂时没有修改。	</comment>
+	</row>
+	<row>
+		<id>	47	</id>
+		<name>	将最先进入敌人列表的作为当前目标	</name>
+		<scriptName>	AIActions:AIAction38	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将最先进入敌人列表当成AI对象（设置AI对象）
+前置条件：无
+备注： 除了大部分AI事件有预设好的AI对象，AI行为中也可以手动设置AI对象。	</comment>
+	</row>
+	<row>
+		<id>	49	</id>
+		<name>	改变当前目标为最终作用对象	</name>
+		<scriptName>	AIActions:AIAction40	</scriptName>
+		<group>	27	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	其他所有地方的当前对象都是指AI的临时对象。
+如：由事件经过的或者是SAI选择出的一个对象AI必须将其选择进入最终对象 才可以对其进行作用（攻击，加血等.）。	</comment>
+	</row>
+	<row>
+		<id>	50	</id>
+		<name>	呼叫同伴	</name>
+		<scriptName>	AIActions:AIAction41	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	进入战斗时呼叫周围的同伴，共同攻击当前目标。
+呼叫范围及呼叫同伴ID由数据中的callRange和callList决定。
+被呼叫者不会再次呼叫其他同伴。
+被呼叫的同伴如果在战斗中，则不理会呼叫。
+
+作用： 呼叫同伴
+前置条件：呼叫怪物的列表
+备注： 被呼叫的同伴需要预先在怪物的配置中设定好。	</comment>
+	</row>
+	<row>
+		<id>	51	</id>
+		<name>	对目标使用自身等级的技能	</name>
+		<scriptName>	AIActions:AIAction42	</scriptName>
+		<group>	16	</group>
+		<param1>	技能未展开编号	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	使用变量中的技能，技能编号为技能的前六位，技能的等级由该AI的使用者的等级决定。
+如：32级的怪物A使用技能B（编号123456），实际使用的技能展开编号应该是123456032。
+
+作用：对目标使用自身等级的技能
+前置条件：有战斗目标
+备注：无	</comment>
+	</row>
+	<row>
+		<id>	55	</id>
+		<name>	对自身使用技能	</name>
+		<scriptName>	AIActions:AIAction43	</scriptName>
+		<group>	16	</group>
+		<param1>	SKILL_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	对自身使用一个指定的技能，不会更换当前目标
+
+作用：对自身使用技能
+前置条件：无
+备注： 对自身使用技能无需要设定战斗目标，使用技能完毕后，战斗目标也不会改变。	</comment>
+	</row>
+	<row>
+		<id>	56	</id>
+		<name>	对自身使用自身等级的技能	</name>
+		<scriptName>	AIActions:AIAction44	</scriptName>
+		<group>	16	</group>
+		<param1>	技能未展开编号	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	对自身使用一个与自身等级相同的指定技能，不会改变当前目标
+
+作用：对自身使用和自身等级一样的技能
+前置条件：无
+备注： 对自身使用技能无需要设定战斗目标，使用技能完毕后，战斗目标也不会改变。	</comment>
+	</row>
+	<row>
+		<id>	57	</id>
+		<name>	将对我施放嘲讽技能的人做为最终作用对象	</name>
+		<scriptName>	AIActions:AIAction45	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将对我放嘲讽的目标当成AI对象（设置AI对象）
+前置条件：无
+备注： 除了大部分AI事件有预设好的AI对象，AI行为中也可以手动设置AI对象。	</comment>
+	</row>
+	<row>
+		<id>	58	</id>
+		<name>	停止巡逻	</name>
+		<scriptName>	AIActions:AIAction46	</scriptName>
+		<group>	38	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	停止巡逻, 具有巡逻功能的NPC才可以使用, 使改NPC处于停止巡逻状态	</comment>
+	</row>
+	<row>
+		<id>	59	</id>
+		<name>	开始巡逻	</name>
+		<scriptName>	AIActions:AIAction47	</scriptName>
+		<group>	38	</group>
+		<param1>	巡逻路径的首个路点id（可选）	</param1>
+		<param2>	巡逻路径id（可选）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	开始巡逻, 具有巡逻功能的NPC才可以使用, 使改NPC处于巡逻状态。如果不填参数则使用默认的巡逻数据，否则使用此ai配置的巡逻数据。	</comment>
+	</row>
+	<row>
+		<id>	60	</id>
+		<name>	108星：怪物变成NPC	</name>
+		<scriptName>	AIActions:AIAction49	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	61	</id>
+		<name>	108星：NPC变成怪物	</name>
+		<scriptName>	AIActions:AIAction48	</scriptName>
+		<group>	36	</group>
+		<param1>	改变到指定等级	</param1>
+		<param2>	改变到目标等级偏移值	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	1：改变到指定等级
+如果这个选项被填写， 那么NPC只会改变到指定等级
+
+2：改变到目标等级偏移值
+如果填写了这个选项 NPC将改变到自己当前目标的等级+这个偏移值。  注意使用这个选项必须要争NPC已经选择了一个攻击目标	</comment>
+	</row>
+	<row>
+		<id>	62	</id>
+		<name>	NPC自身销毁	</name>
+		<scriptName>	AIActions:AIAction50	</scriptName>
+		<group>	38	</group>
+		<param1>	隔多长时间后销毁（不填写则为默认值）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	NPC/MONSTER 自身销毁	</comment>
+	</row>
+	<row>
+		<id>	63	</id>
+		<name>	NPC通知拥有者完成一个事件型任务	</name>
+		<scriptName>	AIActions:AIAction51	</scriptName>
+		<group>	28	</group>
+		<param1>	QUEST_ID|GROUP_QUEST_ID	</param1>
+		<param2>	任务目标索引	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：NPC通知拥有者完成一个事件型任务
+前置条件：拥有主人
+备注：跟随任务使用。
+
+限制： 只支持 ConvoyMonster 类型的更随NPC。	</comment>
+	</row>
+	<row>
+		<id>	64	</id>
+		<name>	记录当前时间（如已记录则不进行记录，请自行清空记录）	</name>
+		<scriptName>	AIActions:AIAction52	</scriptName>
+		<group>	29	</group>
+		<param1>	记录标签名	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	记录当前的时间，  到一个标签名中。
+主要用于一些时间查询等操作：
+如 一段时间内 NPC没有做什么就怎么样。
+
+要实现这个当然还需要配合一个相关条件：
+”某记录时间是否到达“   参数是和该标签名一样的	</comment>
+	</row>
+	<row>
+		<id>	65	</id>
+		<name>	NPC停止移动	</name>
+		<scriptName>	AIActions:AIAction53	</scriptName>
+		<group>	38	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	66	</id>
+		<name>	NPC跟随任务拥有者	</name>
+		<scriptName>	AIActions:AIAction54	</scriptName>
+		<group>	28	</group>
+		<param1>	保持距离	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：NPC跟随任务拥有者
+保持距离 既NPC始终与拥有者所保持的一段距离.
+前置条件：有任务拥有者
+备注：跟随任务使用。
+
+限制： 只支持 ConvoyMonster 类型的更随NPC。	</comment>
+	</row>
+	<row>
+		<id>	67	</id>
+		<name>	清除某记录时间	</name>
+		<scriptName>	AIActions:AIAction55	</scriptName>
+		<group>	29	</group>
+		<param1>	记录标签名	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	68	</id>
+		<name>	向任务拥有者发送一个系统信息	</name>
+		<scriptName>	AIActions:AIAction56	</scriptName>
+		<group>	28	</group>
+		<param1>	系统信息宏定义	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：向任务拥有者发送一个系统信息
+前置条件：有任务拥有者
+备注：跟随任务专用。
+
+限制： 只支持 ConvoyMonster 类型的跟随NPC。
+
+	</comment>
+	</row>
+	<row>
+		<id>	70	</id>
+		<name>	家族控制NPC持续给周围家族成员经验	</name>
+		<scriptName>	AIActions:AIAction57	</scriptName>
+		<group>	36	</group>
+		<param1>	半径	</param1>
+		<param2>	经验数值最大	</param2>
+		<param3>	经验数值最小	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	71	</id>
+		<name>	清除某EAI标记	</name>
+		<scriptName>	AIActions:AIAction58	</scriptName>
+		<group>	17	</group>
+		<param1>	aiID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：清除某EAI标记
+前置条件：无
+备注：无	</comment>
+	</row>
+	<row>
+		<id>	72	</id>
+		<name>	从属怪物攻击主人的敌人	</name>
+		<scriptName>	AIActions:AIAction59	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	73	</id>
+		<name>	从属怪物跟随主人	</name>
+		<scriptName>	AIActions:AIAction60	</scriptName>
+		<group>	32	</group>
+		<param1>	和主人保持距离	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	怪物跟随主人	</comment>
+	</row>
+	<row>
+		<id>	74	</id>
+		<name>	向主人发出飞到主人所在位置的请求	</name>
+		<scriptName>	AIActions:AIAction61	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用： 向主人发出飞到主人所在位置的请求
+前置条件：有主人
+备注： 自己要有base
+
+限制：只能为 CallMonster 和 SlaveMonster 类型的怪物使用。
+	</comment>
+	</row>
+	<row>
+		<id>	75	</id>
+		<name>	任务实体跟随玩家	</name>
+		<scriptName>	AIActions:AIAction62	</scriptName>
+		<group>	36	</group>
+		<param1>	和玩家保持最短距离	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：飞到主人身边。
+前置条件：要有主人。
+备注：无。
+
+限制： 只能是 CallMonster， ConvoyMonster，EidolonNPC，SlaveMonster，TreasureMonster 使用。而且不能跨地图。	</comment>
+	</row>
+	<row>
+		<id>	76	</id>
+		<name>	发出飞到主人身边的请求（主要用于主人可能已经到了别的space的情况，也可以用于主人和自己不在一个cell时，请求飞到他身边）	</name>
+		<scriptName>	AIActions:AIAction61	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	77	</id>
+		<name>	飞到主人身边（用于和主人之间的距离比较远，需要飞到他旁边,也可以用于飞到不同的space）	</name>
+		<scriptName>	AIActions:AIAction62	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：飞到主人身边。
+前置条件：要有主人。
+备注：和 61 是同样一个功能。
+
+限制： 只能是 CallMonster， ConvoyMonster，EidolonNPC，SlaveMonster，TreasureMonster 使用。而且不能跨地图。
+
+	</comment>
+	</row>
+	<row>
+		<id>	78	</id>
+		<name>	重新建立自身和主人的关联	</name>
+		<scriptName>	AIActions:AIAction63	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	用于镖车和运镖者重新建立联系。	</comment>
+	</row>
+	<row>
+		<id>	79	</id>
+		<name>	消失	</name>
+		<scriptName>	AIActions:AIAction64	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	80	</id>
+		<name>	镖车招怪	</name>
+		<scriptName>	AIActions:AIAction65	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	81	</id>
+		<name>	记录镖车目标ID	</name>
+		<scriptName>	AIActions:AIAction66	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	功能：记录镖车目标ID
+前置条件：无
+备注：无	</comment>
+	</row>
+	<row>
+		<id>	82	</id>
+		<name>	镖车到达任务目标，通知任务完成，消失	</name>
+		<scriptName>	AIActions:AIAction67	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	目前没用到	</comment>
+	</row>
+	<row>
+		<id>	83	</id>
+		<name>	向目标移动	</name>
+		<scriptName>	AIActions:AIAction68	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：像目标移动
+前置条件：有战斗目标
+备注： 这里面的目标指的是战斗目标，不是AI对象。	</comment>
+	</row>
+	<row>
+		<id>	84	</id>
+		<name>	向拥有者发送一个系统信息，并停下来	</name>
+		<scriptName>	AIActions:AIAction69	</scriptName>
+		<group>	32	</group>
+		<param1>	csstatus中宏定义值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	镖车向拥有者发送一个私聊信息	</comment>
+	</row>
+	<row>
+		<id>	85	</id>
+		<name>	镖车死亡处理	</name>
+		<scriptName>	AIActions:AIAction70	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	86	</id>
+		<name>	NPC通知拥有者一个事件型任务失败	</name>
+		<scriptName>	AIActions:AIAction71	</scriptName>
+		<group>	28	</group>
+		<param1>	QUEST_ID|GROUP_QUEST_ID	</param1>
+		<param2>	任务目标索引	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：NPC通知拥有者一个事件型任务失败
+前置条件：有任务拥有者
+备注：跟随任务专用。
+
+限制： 只支持 ConvoyMonster 类型的更随NPC。	</comment>
+	</row>
+	<row>
+		<id>	87	</id>
+		<name>	怪物脱离战斗后消失	</name>
+		<scriptName>	AIActions:AIAction72	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	怪物执行动作时如果不是战斗状态，过0.1秒消失。	</comment>
+	</row>
+	<row>
+		<id>	88	</id>
+		<name>	水晶召唤怪物	</name>
+		<scriptName>	AIActions:AIAction73	</scriptName>
+		<group>	36	</group>
+		<param1>	NPCMONSTER_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	89	</id>
+		<name>	水晶释放技能	</name>
+		<scriptName>	AIActions:AIAction74	</scriptName>
+		<group>	36	</group>
+		<param1>	SKILL_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	90	</id>
+		<name>	向特定的坐标移动	</name>
+		<scriptName>	AIActions:AIAction75	</scriptName>
+		<group>	38	</group>
+		<param1>	POSITION_TYPE
+	</param1>
+		<param2>	是否背向移动	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	走向某个坐标	</comment>
+	</row>
+	<row>
+		<id>	91	</id>
+		<name>	通知副本到达指定位置	</name>
+		<scriptName>	AIActions:AIAction76	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	目前只用在神鬼秘境中。用于其他副本也行，但是要在副本的脚本中添加相应接口。	</comment>
+	</row>
+	<row>
+		<id>	92	</id>
+		<name>	从战斗列表中随机选取一个，对其施放自身等级技能	</name>
+		<scriptName>	AIActions:AIAction77	</scriptName>
+		<group>	16	</group>
+		<param1>	未展开技能编号	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：从战斗列表中随机选取一个，对其施放自身等级技能
+前置条件：无
+备注：这个执行完毕后，不影响原来的战斗目标。	</comment>
+	</row>
+	<row>
+		<id>	93	</id>
+		<name>	召唤怪物	</name>
+		<scriptName>	AIActions:AIAction78	</scriptName>
+		<group>	38	</group>
+		<param1>	数量	</param1>
+		<param2>	NPCMONSTER_ID|QUESTBOX_ID|NPCOBJECT_ID	</param2>
+		<param3>	位置（如果不填写，则在怪物所在位置）	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	召唤怪物
+
+参数3 如果不填写，则在怪物所在位置	</comment>
+	</row>
+	<row>
+		<id>	94	</id>
+		<name>	NPC发言，并且记录发言时间	</name>
+		<scriptName>	AIActions:AIAction79	</scriptName>
+		<group>	38	</group>
+		<param1>	发言内容	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	NPC发言，并且记录发言时间	</comment>
+	</row>
+	<row>
+		<id>	95	</id>
+		<name>	寻找指定范围内特定类型目标，目标血量低于指定值，对其施放指定技能	</name>
+		<scriptName>	AIActions:AIAction80	</scriptName>
+		<group>	16	</group>
+		<param1>	寻找范围	</param1>
+		<param2>	NPCMONSTER_ID|QUESTBOX_ID|NPCOBJECT_ID	</param2>
+		<param3>	未展开技能编号	</param3>
+		<param4>	血量限制	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：寻找指定范围内特定类型目标，目标血量低于指定值，对其施放指定技能
+前置条件：无
+备注：注意两者是否是敌对关系。
+	</comment>
+	</row>
+	<row>
+		<id>	96	</id>
+		<name>	随机选取战斗列表，作为当前目标	</name>
+		<scriptName>	AIActions:AIAction81	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：随机选取战斗列表的一个目标当成AI对象（设置AI对象）
+前置条件：无
+备注： 除了大部分AI事件有预设好的AI对象，AI行为中也可以手动设置AI对象。
+
+	</comment>
+	</row>
+	<row>
+		<id>	97	</id>
+		<name>	设置标记	</name>
+		<scriptName>	AIActions:AIAction82	</scriptName>
+		<group>	38	</group>
+		<param1>	标记名称	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	设置标记	</comment>
+	</row>
+	<row>
+		<id>	98	</id>
+		<name>	移除标记	</name>
+		<scriptName>	AIActions:AIAction83	</scriptName>
+		<group>	38	</group>
+		<param1>	标记名称	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	移除标记	</comment>
+	</row>
+	<row>
+		<id>	99	</id>
+		<name>	选取一定范围内特定类型的怪物，作为当前目标(发动攻击)	</name>
+		<scriptName>	AIActions:AIAction84	</scriptName>
+		<group>	27	</group>
+		<param1>	范围	</param1>
+		<param2>	NPCMONSTER_ID|QUESTBOX_ID|NPCOBJECT_ID	</param2>
+		<param3>	怪物类型EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	选取一定范围内特定类型的怪物，作为当前目标，并攻击该目标	</comment>
+	</row>
+	<row>
+		<id>	100	</id>
+		<name>	对自身使用随机的一个技能	</name>
+		<scriptName>	AIActions:AIAction85	</scriptName>
+		<group>	16	</group>
+		<param1>	技能1;技能2	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：对自身使用随机的一个技能
+前置条件：无
+备注：不会改变战斗目标。	</comment>
+	</row>
+	<row>
+		<id>	101	</id>
+		<name>	怪物头领死亡	</name>
+		<scriptName>	AIActions:AIAction86	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	102	</id>
+		<name>	自身获得飞翔传送buff	</name>
+		<scriptName>	AIActions:AIAction87	</scriptName>
+		<group>	36	</group>
+		<param1>	终点地图	</param1>
+		<param2>	POSITION_TYPE	</param2>
+		<param3>	DIRECTION_TYPE	</param3>
+		<param4>	巡逻路径	</param4>
+		<param5>	巡逻路径文件名(不带扩展名)	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	当玩家和NPC对话后就开始按照巡逻路径飞翔， 飞到一个传送点后，也就是当前地图的最后一个巡逻路径节点触发了这个AI，这个AI应该清除掉旧的传送BUFF(可以技能里设置中断码)，因为那个buff的巡逻路径是本地图的，  玩家将传送到下一个地图后，使用这个新加的buff的巡逻路径继续巡逻，到达终点后会自动停止巡逻，玩家开始获得控制权.	</comment>
+	</row>
+	<row>
+		<id>	103	</id>
+		<name>	传送到指定地图	</name>
+		<scriptName>	AIActions:AIAction88	</scriptName>
+		<group>	38	</group>
+		<param1>	地图名	</param1>
+		<param2>	POSITION_TYPE	</param2>
+		<param3>	DIRECTION_TYPE	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	104	</id>
+		<name>	飞翔传送动作与速度控制	</name>
+		<scriptName>	AIActions:AIAction89	</scriptName>
+		<group>	38	</group>
+		<param1>	动作名称	</param1>
+		<param2>	速度	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	动作名称为美术所制作的动画文件不带扩展名。
+速度： 这个值是对玩家原有的移动速度进行增加或减慢的速度。	</comment>
+	</row>
+	<row>
+		<id>	105	</id>
+		<name>	飞翔传送结束	</name>
+		<scriptName>	AIActions:AIAction90	</scriptName>
+		<group>	38	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	到达飞翔最后一个点触发该ai后，飞翔模式将关闭，角色恢复正常状态。	</comment>
+	</row>
+	<row>
+		<id>	106	</id>
+		<name>	飞翔传送(多条路径随机)	</name>
+		<scriptName>	AIActions:AIAction91	</scriptName>
+		<group>	38	</group>
+		<param1>	多个路径节点开始	</param1>
+		<param2>	多个路径文件名	</param2>
+		<param3>	多个终点地图名称	</param3>
+		<param4>	多个终点坐标	</param4>
+		<param5>	多个传送数据	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	使用|分隔多个数据
+
+多个传送数据
+表示要传送到的地图， 我们会在里面填入类似
+fengming&amp;11,112,0|fengming&amp;101,12,20	</comment>
+	</row>
+	<row>
+		<id>	107	</id>
+		<name>	寻找到PK值大于某数玩家则加入战斗列表	</name>
+		<scriptName>	AIActions:AIAction92	</scriptName>
+		<group>	13	</group>
+		<param1>	搜索半径	</param1>
+		<param2>	搜索pk值在多少点以上	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	范围内有玩家pk值大于某值则将它加入战斗列表并选为攻击目标	</comment>
+	</row>
+	<row>
+		<id>	108	</id>
+		<name>	改变自身朝向到记录的朝向	</name>
+		<scriptName>	AIActions:AIAction94	</scriptName>
+		<group>	38	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	配合109使用	</comment>
+	</row>
+	<row>
+		<id>	109	</id>
+		<name>	记录自身朝向	</name>
+		<scriptName>	AIActions:AIAction93	</scriptName>
+		<group>	38	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	110	</id>
+		<name>	拯救猰貐BOSS 特殊AI	</name>
+		<scriptName>	AIActions:AIAction95	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	用于混沌将领剩余10%血的时候，发言，并且限定唯一攻击目标为猰貐	</comment>
+	</row>
+	<row>
+		<id>	111	</id>
+		<name>	拯救猰貐爆烈红魔特殊AI	</name>
+		<scriptName>	AIActions:AIAction96	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	112	</id>
+		<name>	拯救猰貐硬甲蓝魔特殊AI	</name>
+		<scriptName>	AIActions:AIAction97	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	113	</id>
+		<name>	把敌人加入到自己的仆从敌人列表中	</name>
+		<scriptName>	AIActions:AIAction98	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：把敌人加入到自己的仆从敌人列表中
+前置条件：无
+备注：无
+
+限制：这是只对 部分特殊怪物才有效，例如千年毒蛙那一类型。 其他怪物不能使用。	</comment>
+	</row>
+	<row>
+		<id>	114	</id>
+		<name>	把敌人加入自己的主人敌人列表中	</name>
+		<scriptName>	AIActions:AIAction99	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：把敌人加入到自己主人的敌人列表中
+前置条件：无
+备注：无
+
+限制：这是只对 部分特殊怪物才有效，例如千年毒蛙那一类型。 其他怪物不能使用。	</comment>
+	</row>
+	<row>
+		<id>	115	</id>
+		<name>	（城战AI）选定最近的塔楼为攻击目标	</name>
+		<scriptName>	AIActions:AIAction100	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	116	</id>
+		<name>	改变当前Entity状态到某状态	</name>
+		<scriptName>	AIActions:AIAction101	</scriptName>
+		<group>	14	</group>
+		<param1>	状态值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	0	# 自由状态
+1	# 死亡状态
+3	# 战斗状态
+
+作用：改变当前Entity状态到某状态。
+前置条件：无
+备注：如果是战斗状态下，改变到自由状态，会导致&quot;状态改变&quot;事件，导致回走。回走会导致战斗相关的列表的清除。
+限制：在自由状态下，如果没有敌人，强行要进入战斗状态，是有会引起一些问题的。 如果直接转换到死亡状态，也会引起一些的问题。
+
+变成战斗状态，变成死亡状态 是战斗系统某些行为导致的结果。没有那些行为原因的变化，直接就设置这个结果，很自然与战斗系统的一些功能会相悖。	</comment>
+	</row>
+	<row>
+		<id>	117	</id>
+		<name>	对自身周围目标施放技能最多X个受术者	</name>
+		<scriptName>	AIActions:AIAction102	</scriptName>
+		<group>	16	</group>
+		<param1>	SKILL_ID	</param1>
+		<param2>	受术者个数	</param2>
+		<param3>	搜索半径	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	这种AI 可以实现： 同时对周围每个敌人都放一个群体技能， 技能不能受到任何的CD时间影响，注意配置。
+
+此AI消耗比较大， 郑重使用！	</comment>
+	</row>
+	<row>
+		<id>	118	</id>
+		<name>	（城战AI）选定最近的塔楼并为塔楼加血	</name>
+		<scriptName>	AIActions:AIAction103	</scriptName>
+		<group>	36	</group>
+		<param1>	搜索范围	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	119	</id>
+		<name>	NPC喊话（屏幕中央出现）	</name>
+		<scriptName>	AIActions:AIAction104	</scriptName>
+		<group>	38	</group>
+		<param1>	cschannel_msgs 定义宏ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	120	</id>
+		<name>	向特定的坐标移动，坐标记录读取自身temp	</name>
+		<scriptName>	AIActions:AIAction105	</scriptName>
+		<group>	0	</group>
+		<param1>	指定的坐标记录	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	前置条件：事先用temp记录了一个坐标，temp的key值等于param1配置的字符串。	</comment>
+	</row>
+	<row>
+		<id>	121	</id>
+		<name>	从战斗列表中随机选取一个，对其施放指定技能	</name>
+		<scriptName>	AIActions:AIAction109	</scriptName>
+		<group>	16	</group>
+		<param1>	技能编号	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	与 编号 78 的AI 重复功能。	</comment>
+	</row>
+	<row>
+		<id>	122	</id>
+		<name>	随机召唤带陷阱的怪物	</name>
+		<scriptName>	AIActions:AIAction110	</scriptName>
+		<group>	38	</group>
+		<param1>	召唤怪物数量	</param1>
+		<param2>	召唤怪物className(className1;className2;className3)	</param2>
+		<param3>	陷阱半径as like : className1:radius1;className2:radius2	</param3>
+		<param4>	进入陷阱施放的技能as like : className1:skill1;className2:skill2	</param4>
+		<param5>	离开陷阱施放的技能as like : className1:skill1;className2:skill2	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	param2配置的怪物中随机选一个进行召唤。召唤的数量为param1。	</comment>
+	</row>
+	<row>
+		<id>	123	</id>
+		<name>	把周围若干米内玩家加入战斗列表	</name>
+		<scriptName>	AIActions:AIAction111	</scriptName>
+		<group>	13	</group>
+		<param1>	搜索的半径（整数）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：把周围若干米内玩家加入战斗列表
+前置条件：无
+备注：进入战斗，目前的常规做法都是通过主动怪物的机制。 而主动怪物那一套是通过陷阱来处理的。
+
+限制：
+当前的这个AI，是用过每秒搜索一定范围的玩家来处理，首先是比较耗费时间的。
+由于只是搜索玩家，所以当宠物之类的其他可能于这个怪物战斗的对象在这个范围内，不会触发战斗。	</comment>
+	</row>
+	<row>
+		<id>	124	</id>
+		<name>	与一定范围内特定类型的怪物，互换位置	</name>
+		<scriptName>	AIActions:AIAction107	</scriptName>
+		<group>	38	</group>
+		<param1>	范围	</param1>
+		<param2>	NPCMONSTER_ID	</param2>
+		<param3>	怪物EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：与一定范围内特定类型的怪物，互换位置
+前置条件：无
+备注：无
+
+限制：
+如果怪物A找到 B怪物,C怪物两个怪物都符合条件，只会和距离比较近的怪物换。
+	</comment>
+	</row>
+	<row>
+		<id>	125	</id>
+		<name>	清除某些buff	</name>
+		<scriptName>	AIActions:AIAction108	</scriptName>
+		<group>	38	</group>
+		<param1>	buffID(“|”分隔)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	126	</id>
+		<name>	找一定范围内特定类型的怪物，如果其有特定的buff，则都死亡	</name>
+		<scriptName>	AIActions:AIAction112	</scriptName>
+		<group>	36	</group>
+		<param1>	范围	</param1>
+		<param2>	NPCMONSTER_ID	</param2>
+		<param3>	怪物EntityType	</param3>
+		<param4>	buff的id	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	同归于尽	</comment>
+	</row>
+	<row>
+		<id>	127	</id>
+		<name>	将战斗列表中某className的怪物从敌人列表中删除	</name>
+		<scriptName>	AIActions:AIAction113	</scriptName>
+		<group>	13	</group>
+		<param1>	NPCMONSTER_ID|QUESTBOX_ID|NPCOBJECT_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将战斗列表中某className的怪物从敌人列表中删除
+前提条件：无
+备注：会导致“战斗列表改变”的事件触发
+限制：无	</comment>
+	</row>
+	<row>
+		<id>	128	</id>
+		<name>	随机召唤怪物	</name>
+		<scriptName>	AIActions:AIAction114	</scriptName>
+		<group>	38	</group>
+		<param1>	召唤怪物数量	</param1>
+		<param2>	召唤怪物className(className1;className2;className3)	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	129	</id>
+		<name>	开/关门	</name>
+		<scriptName>	AIActions:AIAction115	</scriptName>
+		<group>	38	</group>
+		<param1>	门的className	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	开启自己所在副本的className为param1的门	</comment>
+	</row>
+	<row>
+		<id>	130	</id>
+		<name>	选取一定范围内特定类型的有特定buff的entity，作为当前目标	</name>
+		<scriptName>	AIActions:AIAction116	</scriptName>
+		<group>	27	</group>
+		<param1>	范围	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	131	</id>
+		<name>	城市管理员心跳	</name>
+		<scriptName>	AIActions:AIAction117	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	城市管理员心跳 （检测新城市主人， 并设置名称）	</comment>
+	</row>
+	<row>
+		<id>	132	</id>
+		<name>	播放特定声音	</name>
+		<scriptName>	AIActions:AIAction118	</scriptName>
+		<group>	0	</group>
+		<param1>	指定声音编号	</param1>
+		<param2>	填0为3D 填1为2D	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	133	</id>
+		<name>	把最高伤害者设置为所有者	</name>
+		<scriptName>	AIActions:AIAction119	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	这里的所有者是指战利品拥有者	</comment>
+	</row>
+	<row>
+		<id>	134	</id>
+		<name>	怪物攻城BOSS死亡特殊说话	</name>
+		<scriptName>	AIActions:AIAction121	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	135	</id>
+		<name>	进入战斗即记录开战时刻（邪龙洞穴）	</name>
+		<scriptName>	AIActions:AIAction122	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	136	</id>
+		<name>	释放一次技能即增加技能使用计数（神器任务）	</name>
+		<scriptName>	AIActions:AIAction123	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	137	</id>
+		<name>	同步相关者血条（夸父神殿），这个AI暂时只能用于副本	</name>
+		<scriptName>	AIActions:AIAction124	</scriptName>
+		<group>	36	</group>
+		<param1>	className | className...	</param1>
+		<param2>	范围	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	138	</id>
+		<name>	改变指定怪物AI等级	</name>
+		<scriptName>	AIActions:AIAction125	</scriptName>
+		<group>	17	</group>
+		<param1>	className | className ...	</param1>
+		<param2>	范围	</param2>
+		<param3>	ai等级	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	139	</id>
+		<name>	死亡	</name>
+		<scriptName>	AIActions:AIAction126	</scriptName>
+		<group>	38	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	140	</id>
+		<name>	把自身的攻击目标改为特定怪物的攻击目标	</name>
+		<scriptName>	AIActions:AIAction127	</scriptName>
+		<group>	27	</group>
+		<param1>	NPCMONSTER_ID	</param1>
+		<param2>	范围	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	141	</id>
+		<name>	让怪物播放动作	</name>
+		<scriptName>	AIActions:AIAction128	</scriptName>
+		<group>	38	</group>
+		<param1>	动作名	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	142	</id>
+		<name>	怪物变为环境物件	</name>
+		<scriptName>	AIActions:AIAction129	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	变为坏境物件后，怪物陷阱不可触发，怪物不可被选中，不可被攻击。	</comment>
+	</row>
+	<row>
+		<id>	143	</id>
+		<name>	环境物件（其实是怪物）变为怪物	</name>
+		<scriptName>	AIActions:AIAction130	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	144	</id>
+		<name>	记录当前血量	</name>
+		<scriptName>	AIActions:AIAction131	</scriptName>
+		<group>	38	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	145	</id>
+		<name>	打断引导技能	</name>
+		<scriptName>	AIActions:AIAction132	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	146	</id>
+		<name>	对进入陷阱的玩家使用技能（小兔快跑使用）	</name>
+		<scriptName>	AIActions:AIAction133	</scriptName>
+		<group>	36	</group>
+		<param1>	技能ID列表，用&quot;|&quot;隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	这条AI动作应该配置在“entity进入或离开陷阱”事件中。
+如果配置了多个技能ID，从中随机选择一个技能对目标释放。	</comment>
+	</row>
+	<row>
+		<id>	147	</id>
+		<name>	对目标位置释放技能	</name>
+		<scriptName>	AIActions:AIAction134	</scriptName>
+		<group>	16	</group>
+		<param1>	SKILL_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：对目标位置释放技能
+前置条件：战斗目标
+备注：无	</comment>
+	</row>
+	<row>
+		<id>	148	</id>
+		<name>	给所在的space发送事件	</name>
+		<scriptName>	AIActions:AIAction136	</scriptName>
+		<group>	36	</group>
+		<param1>	事件编号	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	通过这个动作可以实现AI与副本的之间的交互：副本根据AI传入的事件编号做出相应的处理。当然，事件编号（一个整型值）需要先在脚本中定义，配置的时候请和程序进行协商。	</comment>
+	</row>
+	<row>
+		<id>	149	</id>
+		<name>	神树通知所在Space血量	</name>
+		<scriptName>	AIActions:AIAction135	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	150	</id>
+		<name>	触发一个任务	</name>
+		<scriptName>	AIActions:AIAction137	</scriptName>
+		<group>	23	</group>
+		<param1>	任务ID	</param1>
+		<param2>	任务目标索引
+	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	151	</id>
+		<name>	播放指定镜头轨迹	</name>
+		<scriptName>	AIActions:AIAction139	</scriptName>
+		<group>	36	</group>
+		<param1>	路径的ID	</param1>
+		<param2>	范围	</param2>
+		<param3>	开始节点坐标	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	152	</id>
+		<name>	对进入陷阱的目标使用自身等级的技能	</name>
+		<scriptName>	AIActions:AIAction140	</scriptName>
+		<group>	27	</group>
+		<param1>	技能未展开编号	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	153	</id>
+		<name>	改变固定位置周围环境物件的模型（限于副本）	</name>
+		<scriptName>	AIActions:AIAction141	</scriptName>
+		<group>	36	</group>
+		<param1>	老的模型	</param1>
+		<param2>	新的模型	</param2>
+		<param3>	范围	</param3>
+		<param4>	POSITION_TYPE	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	154	</id>
+		<name>	对entity所在位置使用自身等级的技能	</name>
+		<scriptName>	AIActions:AIAction142	</scriptName>
+		<group>	16	</group>
+		<param1>	技能ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：对entity所在位置使用自身等级的技能
+前置条件：战斗目标
+备注：无	</comment>
+	</row>
+	<row>
+		<id>	155	</id>
+		<name>	把自身的所有者分享给指定ID的怪物	</name>
+		<scriptName>	AIActions:AIAction143	</scriptName>
+		<group>	18	</group>
+		<param1>	NPCMONSTER_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	用自己的战利品拥有者设置附近100米范围内特定className的怪物的战利品拥有者	</comment>
+	</row>
+	<row>
+		<id>	156	</id>
+		<name>	移除怪物（NPC）一个标志位	</name>
+		<scriptName>	AIActions:AIAction144	</scriptName>
+		<group>	38	</group>
+		<param1>	标志位	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	157	</id>
+		<name>	给每个运镖的玩家发送运镖人数	</name>
+		<scriptName>	AIActions:AIAction145	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	158	</id>
+		<name>	增加怪物（NPC）一个标志位	</name>
+		<scriptName>	AIActions:AIAction146	</scriptName>
+		<group>	38	</group>
+		<param1>	标志位	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	159	</id>
+		<name>	删除一组EAI标记	</name>
+		<scriptName>	AIActions:AIAction147	</scriptName>
+		<group>	18	</group>
+		<param1>	标记用“|”隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	160	</id>
+		<name>	向客户端发送一个剧情提示消息	</name>
+		<scriptName>	AIActions:AIAction148	</scriptName>
+		<group>	36	</group>
+		<param1>	提示消息文本	</param1>
+		<param2>	是否隐藏玩家界面，False不隐藏，True隐藏	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	第二个参数需要注意：如果显示提示消息后需要恢复玩家界面，则参数值为False 或者 不填；如果在显示提示消息后一直隐藏玩家界面，则参数值为True。	</comment>
+	</row>
+	<row>
+		<id>	161	</id>
+		<name>	显示/隐藏客户端的界面	</name>
+		<scriptName>	AIActions:AIAction149	</scriptName>
+		<group>	36	</group>
+		<param1>	填“False”表示隐藏客户端界面，“True”表示显示客户端界面	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	162	</id>
+		<name>	改变自身朝向	</name>
+		<scriptName>	AIActions:AIAction150	</scriptName>
+		<group>	38	</group>
+		<param1>	DIRECTION_TYPE	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	朝向 格式如： (1，2，3)	</comment>
+	</row>
+	<row>
+		<id>	163	</id>
+		<name>	小精灵飞到主人身边	</name>
+		<scriptName>	AIActions:AIAction151	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	164	</id>
+		<name>	战利品拥有者对应于此怪物的进化任务目标完成度增加（进化任务）	</name>
+		<scriptName>	AIActions:AIAction152	</scriptName>
+		<group>	36	</group>
+		<param1>	战利品拥有者有效范围半径	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	通知战利品拥有者当前与怪物相关联的类型为“怪物进化”的任务目标完成。	</comment>
+	</row>
+	<row>
+		<id>	165	</id>
+		<name>	重新指定怪物出生点	</name>
+		<scriptName>	AIActions:AIAction155	</scriptName>
+		<group>	16	</group>
+		<param1>	POSITION_TYPE	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	将怪物的出生点设置为指定坐标	</comment>
+	</row>
+	<row>
+		<id>	166	</id>
+		<name>	设定当前位置为出生点	</name>
+		<scriptName>	AIActions:AIAction156	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	167	</id>
+		<name>	更换怪物模型	</name>
+		<scriptName>	AIActions:AIAction157	</scriptName>
+		<group>	38	</group>
+		<param1>	模型ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	168	</id>
+		<name>	对拥有者使用技能(可能是怪物拥有者或者是NPC护送者)	</name>
+		<scriptName>	AIActions:AIAction158	</scriptName>
+		<group>	16	</group>
+		<param1>	SKILL_ID	</param1>
+		<param2>	区分受术者为护送NPC拥有者（填1）或怪物拥有者（0或不填）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：对怪物拥有者使用技能
+前置条件：无
+备注：注意怪物的拥有着，就是战利品所有者。
+	</comment>
+	</row>
+	<row>
+		<id>	169	</id>
+		<name>	设置entity的若干个属性值	</name>
+		<scriptName>	AIActions:AIAction159	</scriptName>
+		<group>	18	</group>
+		<param1>	如：{ &quot;potential&quot;:50 }表示设置&quot;potential&quot;属性为50，如需配置多个属性，则每个属性说明之间使用&quot;,&quot;隔开，如:{ &quot;potential&quot;:50, &quot;exp&quot;:30 }	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	设置entity的若干个属性值，仅仅是赋值的方式，值只能是数值，配置此行为时必须咨询程序哪些属性可以设置。例如Monster的potential.
+
+
+大多数值都是 计算结果，所以一定要小心使用。容易引发错误，而且还非常难以查找	</comment>
+	</row>
+	<row>
+		<id>	170	</id>
+		<name>	修改entity所在地图是否允许飞行的标记	</name>
+		<scriptName>	AIActions:AIAction160	</scriptName>
+		<group>	36	</group>
+		<param1>	配置为0表示修改为不允许飞行，为1表示修改为允许飞行。 	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	171	</id>
+		<name>	使用新的潜能倍率刷新npc潜能值	</name>
+		<scriptName>	AIActions:AIAction161	</scriptName>
+		<group>	36	</group>
+		<param1>	潜能倍率	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	172	</id>
+		<name>	复制主人伤害列表（挑战副本用）	</name>
+		<scriptName>	AIActions:AIAction162	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	这个复制在主人是ghost/找不到主人的情况下无效，由于挑战副本出现这种情况的几率很小，所以不作远程调写入的操作	</comment>
+	</row>
+	<row>
+		<id>	173	</id>
+		<name>	选取一定范围内某些类型的怪物，以其中第一个作为攻击目标	</name>
+		<scriptName>	AIActions:AIAction163	</scriptName>
+		<group>	27	</group>
+		<param1>	范围	</param1>
+		<param2>	怪物类型（支持“|”）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	174	</id>
+		<name>	改变npc的名字	</name>
+		<scriptName>	AIActions:AIAction164	</scriptName>
+		<group>	38	</group>
+		<param1>	新名字	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	175	</id>
+		<name>	主人停止移动后自己随机移动	</name>
+		<scriptName>	AIActions:AIAction165	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	176	</id>
+		<name>	个人竞技刷箱子（一）	</name>
+		<scriptName>	AIActions:AIAction167	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	个人竞技刷箱子（一），分配给玩家经验	</comment>
+	</row>
+	<row>
+		<id>	177	</id>
+		<name>	个人竞技刷箱子（二）	</name>
+		<scriptName>	AIActions:AIAction168	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	个人竞技刷箱子（二），分配给玩家潜能	</comment>
+	</row>
+	<row>
+		<id>	178	</id>
+		<name>	个人竞技刷箱子（三）	</name>
+		<scriptName>	AIActions:AIAction169	</scriptName>
+		<group>	36	</group>
+		<param1>	个人竞技宝箱ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	个人竞技刷箱子（三），冠军奖励，个人竞技宝箱	</comment>
+	</row>
+	<row>
+		<id>	179	</id>
+		<name>	潜能副本boss专用ai，触发玩家副本任务完成处理流程	</name>
+		<scriptName>	AIActions:AIAction170	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	180	</id>
+		<name>	组队竞技箱子一	</name>
+		<scriptName>	AIActions:AIAction171	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	组队竞技副本第一个刷新的箱子	</comment>
+	</row>
+	<row>
+		<id>	181	</id>
+		<name>	组队竞技箱子二	</name>
+		<scriptName>	AIActions:AIAction172	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	组队竞技副本刷新的第二个箱子	</comment>
+	</row>
+	<row>
+		<id>	182	</id>
+		<name>	组队竞技箱子三	</name>
+		<scriptName>	AIActions:AIAction173	</scriptName>
+		<group>	36	</group>
+		<param1>	冠军宝箱ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	组队竞技第三个箱子	</comment>
+	</row>
+	<row>
+		<id>	183	</id>
+		<name>	帮会竞技箱子一	</name>
+		<scriptName>	AIActions:AIAction175	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	184	</id>
+		<name>	帮会竞技箱子二	</name>
+		<scriptName>	AIActions:AIAction176	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	185	</id>
+		<name>	帮会竞技箱子三	</name>
+		<scriptName>	AIActions:AIAction177	</scriptName>
+		<group>	36	</group>
+		<param1>	冠军宝箱的ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	186	</id>
+		<name>	在指定位置刷出NPC	</name>
+		<scriptName>	AIActions:AIAction174	</scriptName>
+		<group>	38	</group>
+		<param1>	NPCMONSTER_ID|QUESTBOX_ID|NPCOBJECT_ID	</param1>
+		<param2>	位置(可不填，三维坐标)(空格分隔坐标，不能填0)	</param2>
+		<param3>	是否按照当前entity的等级(1/0 可不填)	</param3>
+		<param4>	NPC的朝向（不填则默认与召唤者朝向一致）	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	在执行该AI的NPC所在地图创建一个指定ID的NPC，如果位置参数没有填，则在执行AI的NPC的位置创建。
+
+参数2 如果不填写，则为召唤者所在位置
+参数4 如果不填写，则为召唤者朝向	</comment>
+	</row>
+	<row>
+		<id>	187	</id>
+		<name>	修改客户端陷阱的触发状态	</name>
+		<scriptName>	AIActions:AIAction178	</scriptName>
+		<group>	36	</group>
+		<param1>	eventIDs	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	使绑定某镜头事件（param1配置的ID）的entity的陷阱可以被触发（默认是不可被触发）。
+
+说明：
+客户端通过放置镜头entity来控制镜头的播放：当玩家进入entity的陷阱时，开始播放镜头。	</comment>
+	</row>
+	<row>
+		<id>	188	</id>
+		<name>	销毁一定类型的entity	</name>
+		<scriptName>	AIActions:AIAction179	</scriptName>
+		<group>	36	</group>
+		<param1>	销毁实体的类型	</param1>
+		<param2>	NPCMONSTER_ID|QUESTBOX_ID|NPCOBJECT_ID	</param2>
+		<param3>	销毁的范围	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	189	</id>
+		<name>	NPC通知所在副本条件发生改变	</name>
+		<scriptName>	AIActions:AIAction180	</scriptName>
+		<group>	36	</group>
+		<param1>	关键字标签(string)	</param1>
+		<param2>	值标签(string)	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	请和程序协商关键字标签和值标签，因为这些标签程序代码中会用到	</comment>
+	</row>
+	<row>
+		<id>	190	</id>
+		<name>	NPC创建后将自身entityID记录到所在副本	</name>
+		<scriptName>	AIActions:AIAction181	</scriptName>
+		<group>	36	</group>
+		<param1>	NPC标识(string)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	请和程序协商NPC标识，因为这些标签程序代码中会用到	</comment>
+	</row>
+	<row>
+		<id>	191	</id>
+		<name>	怪物掉落普通箱子	</name>
+		<scriptName>	AIActions:AIAction182	</scriptName>
+		<group>	18	</group>
+		<param1>	箱子内物品ID(多个物品之间使用“|”分隔)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	箱子就是普通的掉落箱子，箱子的所有者就是怪物的敌人（玩家）	</comment>
+	</row>
+	<row>
+		<id>	192	</id>
+		<name>	选取一定范围内特定类型的NPC，作为当前目标(不对目标发动攻击)	</name>
+		<scriptName>	AIActions:AIAction183	</scriptName>
+		<group>	27	</group>
+		<param1>	搜索半径	</param1>
+		<param2>	NPCMONSTER_ID	</param2>
+		<param3>	NPC 类型	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	选取一定范围内特定类型的NPC，作为当前目标(不对目标发动攻击)	</comment>
+	</row>
+	<row>
+		<id>	193	</id>
+		<name>	将一定范围内的某类型的Entity加入战斗列表 	</name>
+		<scriptName>	AIActions:AIAction153	</scriptName>
+		<group>	13	</group>
+		<param1>	范围大小	</param1>
+		<param2>	类型，多个可用&quot;|&quot;分隔(见CSOL-10659)	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将一定范围内的某类型的Entity加入战斗列表
+前置条件：无
+备注：注意两者的战斗关系是否为敌对。
+	</comment>
+	</row>
+	<row>
+		<id>	194	</id>
+		<name>	将一定范围内的某ID的Entity加入战斗列表	</name>
+		<scriptName>	AIActions:AIAction154	</scriptName>
+		<group>	13	</group>
+		<param1>	范围的大小	</param1>
+		<param2>	className，多个可用&quot;|&quot;分隔	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：将一定范围内的某出来className的Entity加入战斗列表 
+前置条件：无
+备注：注意两者之间的战斗关系。
+	</comment>
+	</row>
+	<row>
+		<id>	195	</id>
+		<name>	NPC喊话(屏幕中央显示，可限定范围)	</name>
+		<scriptName>	AIActions:AIAction184	</scriptName>
+		<group>	38	</group>
+		<param1>	cschannel_msgs 定义宏ID	</param1>
+		<param2>	范围	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	本条AI与 “NPC喊话（屏幕中央显示）”这条AI一样，只是在其基础上增加了一个限定喊话范围的参数，即只有在限定的范围（以喊话NPC为中心的，所填范围为半径的一个圆）内的玩家才能看到NPC的喊话
+	</comment>
+	</row>
+	<row>
+		<id>	196	</id>
+		<name>	给当前目标添加一个任务	</name>
+		<scriptName>	AIActions:AIAction186	</scriptName>
+		<group>	28	</group>
+		<param1>	QUEST_ID	</param1>
+		<param2>	弹出任务界面时间（秒/s）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：给当前目标添加一个任务
+前置条件：
+备注：这里并不做是否可接任务的判断，直接给玩家添加一个任务。弹出任务界面的时间由param2去控制，即经过param2中配置的时间（单位：秒）后，弹出任务界面
+	</comment>
+	</row>
+	<row>
+		<id>	197	</id>
+		<name>	entity改变朝向至指定范围内的指定entity	</name>
+		<scriptName>	AIActions:AIAction187
+	</scriptName>
+		<group>	38	</group>
+		<param1>	NPCMONSTER_ID	</param1>
+		<param2>	一定的范围	</param2>
+		<param3>	指定的entity的类型	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	198	</id>
+		<name>	更改阵营名称	</name>
+		<scriptName>	AIActions:AIAction188	</scriptName>
+		<group>	38	</group>
+		<param1>	阵营名称（大于等于0的整数，0表示无阵营）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	不填或者填0表示无阵营，按以前的方式处理。	</comment>
+	</row>
+	<row>
+		<id>	199	</id>
+		<name>	靠近攻击目标一定距离	</name>
+		<scriptName>	AIActions:AIAction189	</scriptName>
+		<group>	18	</group>
+		<param1>	距离(整数)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	200	</id>
+		<name>	远离攻击目标一定距离,通过参数选择采用后退的方式，或转身	</name>
+		<scriptName>	AIActions:AIAction190	</scriptName>
+		<group>	18	</group>
+		<param1>	距离(整数)	</param1>
+		<param2>	是否后退	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	201	</id>
+		<name>	水平朝向攻击目标	</name>
+		<scriptName>	AIActions:AIAction191	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	202	</id>
+		<name>	与战斗目标保持一定距离走动	</name>
+		<scriptName>	AIActions:AIAction192	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	在攻击目标附近范围内随机取点，然后去到这个位置。要表现随机走动的话，反复执行这个动作就可以了	</comment>
+	</row>
+	<row>
+		<id>	203	</id>
+		<name>	记录一下我要走到的位置	</name>
+		<scriptName>	AIActions:AIAction195	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	自己开始移动时记录一下目标位置。配合条件135判断是否到达目标位置。	</comment>
+	</row>
+	<row>
+		<id>	204	</id>
+		<name>	继续我要到达的之前AI记录的位置。	</name>
+		<scriptName>	AIActions:AIAction196	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	跟203功能一样	</comment>
+	</row>
+	<row>
+		<id>	205	</id>
+		<name>	走到玩家周围距离玩家一定范围的某一位置	</name>
+		<scriptName>	AIActions:AIAction194	</scriptName>
+		<group>	18	</group>
+		<param1>	距离（浮点数）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	206	</id>
+		<name>	给指定的怪物设定列队的编号	</name>
+		<scriptName>	AIActions:AIAction197	</scriptName>
+		<group>	18	</group>
+		<param1>	NPCMONSTER_ID	</param1>
+		<param2>	范围	</param2>
+		<param3>	POSITION_TYPE	</param3>
+		<param4>	队伍在1号位的方向（-1： 西向东，1：东向西）	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	207	</id>
+		<name>	走到列队的位置	</name>
+		<scriptName>	AIActions:AIAction198	</scriptName>
+		<group>	18	</group>
+		<param1>	队列间隔（浮点数）	</param1>
+		<param2>	一行多少怪物（整数）	</param2>
+		<param3>	1为正方向，不填或0为反方向	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	208	</id>
+		<name>	沿z轴向攻击目标移动	</name>
+		<scriptName>	AIActions:AIAction199	</scriptName>
+		<group>	18	</group>
+		<param1>	距离(浮点数)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	209	</id>
+		<name>	沿x轴向攻击目标移动	</name>
+		<scriptName>	AIActions:AIAction200	</scriptName>
+		<group>	18	</group>
+		<param1>	距离（浮点数）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	210	</id>
+		<name>	把自己设定为队长	</name>
+		<scriptName>	AIActions:AIAction201	</scriptName>
+		<group>	18	</group>
+		<param1>	队长标志（字符）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	211	</id>
+		<name>	把AI职责队长的ID分享给周围的怪物	</name>
+		<scriptName>	AIActions:AIAction202	</scriptName>
+		<group>	18	</group>
+		<param1>	队长标志（字符）	</param1>
+		<param2>	范围（浮点数）	</param2>
+		<param3>	className(不填就是所有怪物)	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	212	</id>
+		<name>	清理无效的战斗分队队员	</name>
+		<scriptName>	AIActions:AIAction203	</scriptName>
+		<group>	18	</group>
+		<param1>	范围（浮点数）	</param1>
+		<param2>	攻击分队列表标志（字符）	</param2>
+		<param3>	攻击队员标志（字符）	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	213	</id>
+		<name>	攻击分队补充队员	</name>
+		<scriptName>	AIActions:AIAction204	</scriptName>
+		<group>	18	</group>
+		<param1>	范围（浮点数）	</param1>
+		<param2>	攻击分队列表标志（字符）	</param2>
+		<param3>	攻击队员标志（字符）	</param3>
+		<param4>	攻击分队人数（整数）	</param4>
+		<param5>	className(不填就是所有怪物)	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	214	</id>
+		<name>	踢掉一个战斗分队队员	</name>
+		<scriptName>	AIActions:AIAction205	</scriptName>
+		<group>	18	</group>
+		<param1>	攻击分队列表标志（字符）	</param1>
+		<param2>	攻击队员标志（字符）	</param2>
+		<param3>	攻击分队人数（整数）	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	215	</id>
+		<name>	走到攻击目标的左边或右边	</name>
+		<scriptName>	AIActions:AIAction206	</scriptName>
+		<group>	18	</group>
+		<param1>	距离（浮点数）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	216	</id>
+		<name>	NPC召唤一个从属于对话玩家的怪物	</name>
+		<scriptName>	AIActions:AIAction207	</scriptName>
+		<group>	38	</group>
+		<param1>	NPCMONSTER_ID	</param1>
+		<param2>	POSITION_TYPE	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	通过对话召唤一个战利品权力为玩家的怪物
+
+参数2 如果不填写，则在怪物所在位置	</comment>
+	</row>
+	<row>
+		<id>	217	</id>
+		<name>	将自身的战利品拥有者作为当前目标	</name>
+		<scriptName>	AIActions:AIAction185	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	将自身的战利品拥有者作为当前目标	</comment>
+	</row>
+	<row>
+		<id>	218	</id>
+		<name>	将当前目标添加为拥有者,是什么拥有者由参数决定	</name>
+		<scriptName>	AIActions:AIAction208	</scriptName>
+		<group>	18	</group>
+		<param1>	不填或者填1时为怪物拥有者，填2时为战利品拥有者 	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	不填或者填1时为怪物拥有者，
+填2时为战利品拥有者 	</comment>
+	</row>
+	<row>
+		<id>	219	</id>
+		<name>	把半径内的一定类型entity抓到自己身边( 短距离 )	</name>
+		<scriptName>	AIActions:AIAction209	</scriptName>
+		<group>	16	</group>
+		<param1>	抓取半径	</param1>
+		<param2>	entity类型（ 多个“;”分隔 ）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	220	</id>
+		<name>	对战利品拥有者可见	</name>
+		<scriptName>	AIActions:AIAction210	</scriptName>
+		<group>	38	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	NPC设置自身只对战利品拥有者（个人或队伍）可见	</comment>
+	</row>
+	<row>
+		<id>	221	</id>
+		<name>	NPC通知任务拥有者任务失败	</name>
+		<scriptName>	AIActions:AIAction211	</scriptName>
+		<group>	38	</group>
+		<param1>	任务ID	</param1>
+		<param2>	任务目标索引	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	NPC（非ConvoyMonster类型的NPC）通知任务拥有者任务失败	</comment>
+	</row>
+	<row>
+		<id>	222	</id>
+		<name>	关闭刷新点（40级剧情副本）	</name>
+		<scriptName>	AIActions:AIAction212	</scriptName>
+		<group>	38	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	此AI用于40级剧情副本，刷新点脚本（SpawnPointControl）的关闭，无参数	</comment>
+	</row>
+	<row>
+		<id>	223	</id>
+		<name>	寻找指定范围内特定className内怪物血量低于或等于某个值，施法技能	</name>
+		<scriptName>	AIActions:AIAction213	</scriptName>
+		<group>	16	</group>
+		<param1>	寻找范围	</param1>
+		<param2>	NPCMONSTER_ID	</param2>
+		<param3>	未展开技能编号	</param3>
+		<param4>	血量限制	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	和动作95的区别仅仅在于，此技能可以多次释放	</comment>
+	</row>
+	<row>
+		<id>	224	</id>
+		<name>	召唤怪物,设置战斗列表和拥有者	</name>
+		<scriptName>	AIActions:AIAction214	</scriptName>
+		<group>	36	</group>
+		<param1>	NPCMONSTER_ID	</param1>
+		<param2>	POSITION_TYPE(不填或填0默认为怪物位置)	</param2>
+		<param3>	怪物数量	</param3>
+		<param4>	DIRECTION_TYPE（不填或填0为怪物朝向）	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	召唤怪物，被召唤的怪物和执行此AI的entity有同样的拥有者，且被召唤的怪物仅属于拥有者（们）可见
+
+param2不填或填0默认为怪物位置；
+param4不填或填0默认为怪物朝向。	</comment>
+	</row>
+	<row>
+		<id>	225	</id>
+		<name>	排兵布阵（守护专用）	</name>
+		<scriptName>	AIActions:AIAction215	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	226	</id>
+		<name>	攻击预先设定的玩家	</name>
+		<scriptName>	AIActions:AIAction216	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	用动作224预先设定敌人，这条动作将敌人加入敌人列表	</comment>
+	</row>
+	<row>
+		<id>	227	</id>
+		<name>	把当前AI目标设置为自己的主人	</name>
+		<scriptName>	AIActions:AIAction217	</scriptName>
+		<group>	32	</group>
+		<param1>	主人脚本类型（如：CallMonster）,不填则默认为Role	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	限定于有主人的怪物使用，主人必须是有base的entity，如果怪物的主人不是设置为玩家，脚本类型的填写请咨询程序。	</comment>
+	</row>
+	<row>
+		<id>	228	</id>
+		<name>	根据排队指导人员的当前目标的位置，设置朝向	</name>
+		<scriptName>	AIActions:AIAction218	</scriptName>
+		<group>	18	</group>
+		<param1>	POSITION_TYPE	</param1>
+		<param2>	NPCMONSTER_ID	</param2>
+		<param3>	范围	</param3>
+		<param4>	队列总宽度	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	229	</id>
+		<name>	随机选取主人的敌人作为攻击目标（守护专用）	</name>
+		<scriptName>	AIActions:AIAction219	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	本条AI只适用于NPCPanguNagual类型的怪物	</comment>
+	</row>
+	<row>
+		<id>	230	</id>
+		<name>	改变自身朝向为主人朝向	</name>
+		<scriptName>	AIActions:AIAction220	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	适用于NPCPanguNagual类型的怪物	</comment>
+	</row>
+	<row>
+		<id>	231	</id>
+		<name>	怪物在周围一个给定半径的圆移动	</name>
+		<scriptName>	AIActions:AIAction222	</scriptName>
+		<group>	38	</group>
+		<param1>	半径（浮点数）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	圆的圆心为怪物出生点。	</comment>
+	</row>
+	<row>
+		<id>	232	</id>
+		<name>	英雄联盟NPC选择巡逻路线专用AI	</name>
+		<scriptName>	AIActions:AIAction223	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	233	</id>
+		<name>	entity范围内的玩家传送到某个地图某个位置	</name>
+		<scriptName>	AIActions:AIAction224	</scriptName>
+		<group>	36	</group>
+		<param1>	entity的范围	</param1>
+		<param2>	地图名称	</param2>
+		<param3>	POSITION_TYPE	</param3>
+		<param4>	entity存活时间	</param4>
+		<param5>	传送到的地图的朝向（不填默认为(0,0,0)）	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	传送点entity范围内的玩家传送到某个地图某个位置	</comment>
+	</row>
+	<row>
+		<id>	234	</id>
+		<name>	通知星际副本多少秒后传送玩家出副本	</name>
+		<scriptName>	AIActions:AIAction225	</scriptName>
+		<group>	36	</group>
+		<param1>	时间（秒）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	通知星际副本多少秒后传送玩家出副本	</comment>
+	</row>
+	<row>
+		<id>	235	</id>
+		<name>	寻找距离该怪物最近的巡逻点	</name>
+		<scriptName>	AIActions:AIAction226	</scriptName>
+		<group>	38	</group>
+		<param1>	巡逻路径	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	寻找距离该怪物最近的巡逻点，并从那个点开始执行巡逻	</comment>
+	</row>
+	<row>
+		<id>	236	</id>
+		<name>	怪物散开	</name>
+		<scriptName>	AIActions:AIAction227	</scriptName>
+		<group>	38	</group>
+		<param1>	散开最小半径	</param1>
+		<param2>	散开最大半径	</param2>
+		<param3>	怪物自身大小	</param3>
+		<param4>	散开最大距离	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	237	</id>
+		<name>	增加副本Boss击杀数量	</name>
+		<scriptName>	AIActions:AIAction228	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	AI执行一次，就增加1个副本boss的击杀数量	</comment>
+	</row>
+	<row>
+		<id>	238	</id>
+		<name>	设置副本Raid完成标记	</name>
+		<scriptName>	AIActions:AIAction229	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	AI执行后，设置AI执行者所在副本的raid标记为完成状态。	</comment>
+	</row>
+	<row>
+		<id>	239	</id>
+		<name>	选取伤害列表中某一类型的className的entity，以其中第一个作为当前目标	</name>
+		<scriptName>	AIActions:AIAction230	</scriptName>
+		<group>	15	</group>
+		<param1>	怪物类型	</param1>
+		<param2>	怪物className	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	若className为空,则只需满足该Entity类型。如果未填参数1，则默认的怪物类型为“Monster”。
+
+注：本条AI是选取满足条件的怪物为AI目标，并不是作为攻击目标，如果需要作为攻击目标，请配合49：改变当前目标位最终最用对象一起使用。	</comment>
+	</row>
+	<row>
+		<id>	240	</id>
+		<name>	NPC创建后通知所在副本（用于英雄联盟副本中显示Boss标记） 	</name>
+		<scriptName>	AIActions:AIAction231	</scriptName>
+		<group>	36	</group>
+		<param1>	怪物图标样式	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	注：本条AI只适用于英雄联盟副本中。
+param1:1 boss标志 2 基地标志 3 防御塔标志	</comment>
+	</row>
+	<row>
+		<id>	241	</id>
+		<name>	NPC死亡后通知所在副本（用于英雄联盟副本中更新Boss标记）	</name>
+		<scriptName>	AIActions:AIAction232	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	注：本条AI只适用于英雄联盟副本中。	</comment>
+	</row>
+	<row>
+		<id>	242	</id>
+		<name>	在指定位置指定范围内召唤若干指定等级差的怪物	</name>
+		<scriptName>	AIActions:AIAction233	</scriptName>
+		<group>	38	</group>
+		<param1>	被召唤怪物的className|数量(如 20321003 | 5 )	</param1>
+		<param2>	位置(可不填，不填为自身脚下)	</param2>
+		<param3>	随机范围	</param3>
+		<param4>	被召唤的怪物与自身等级差	</param4>
+		<param5>	是否复制战利品拥有者(不填默认复制，填0表示不复制)	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	备注：被召唤的怪物复制召唤者的战斗列表和战利品拥有者 
+param1：被召唤怪物的className | 数量， className和数量中间用“|”分开，如 20321003 | 5 
+param2：位置(可不填，不填为自身脚下，三维坐标，用空格分开) 
+param3：随机范围（召唤出来的怪物的位置为：param2中的位置 + 随机范围 ） 
+param4：被召唤的怪物与自身等级差（0为相同等级，X为比自身高X级，-X为比自身低X级，默认为0） 
+param5：是否复制战利品拥有者（不填或填1表示复制战利品拥有者，填0则不复制） 
+其中，param2、param4、param5 可以不填，若不填则使用默认值.	</comment>
+	</row>
+	<row>
+		<id>	243	</id>
+		<name>	更新NPC位置信息（用于英雄联盟副本）	</name>
+		<scriptName>	AIActions:AIAction234	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	注：本条AI只适用于英雄联盟副本中。	</comment>
+	</row>
+	<row>
+		<id>	244	</id>
+		<name>	选取一定范围内特定类型的离自己最近的的怪物作为当前目标(AI目标)	</name>
+		<scriptName>	AIActions:AIAction235	</scriptName>
+		<group>	15	</group>
+		<param1>	怪物类型(默认是Monster)	</param1>
+		<param2>	classNames(不同的className 中间用“|”分开)	</param2>
+		<param3>	范围	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	param1：如果未填写，默认怪物类型为Monster；
+param2：不同的className请用“|”隔开，改参数可以为空；
+param3：范围，可以为浮点数	</comment>
+	</row>
+	<row>
+		<id>	245	</id>
+		<name>	怪物跟随玩家行为	</name>
+		<scriptName>	AIActions:AIAction236	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	一个怪物跟随当前目标的AI行为	</comment>
+	</row>
+	<row>
+		<id>	246	</id>
+		<name>	对AI目标使用技能	</name>
+		<scriptName>	AIActions:AIAction237	</scriptName>
+		<group>	16	</group>
+		<param1>	技能ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	作用：对AI目标使用技能
+前置条件：必须有AI目标，有很多AI可以选取AI目标
+备注：AI目标与战斗目标有区别
+	</comment>
+	</row>
+	<row>
+		<id>	247	</id>
+		<name>	将自己的敌人列表复制给周围的某些NPC	</name>
+		<scriptName>	AIActions:AIAction238	</scriptName>
+		<group>	13	</group>
+		<param1>	范围	</param1>
+		<param2>	className1|className2|.....	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	将自己的战斗列表复制给一定范围内、特定className的NPC。	</comment>
+	</row>
+	<row>
+		<id>	248	</id>
+		<name>	移动到攻击目标一定范围内	</name>
+		<scriptName>	AIActions:AIAction239	</scriptName>
+		<group>	18	</group>
+		<param1>	范围	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	本条AI需要与AICnd105怪物和攻击目标的距离是不是大于指定值 一起使用，因为在AI动作里面没有做距离的判断	</comment>
+	</row>
+	<row>
+		<id>	249	</id>
+		<name>	NPC跟随任务对话者	</name>
+		<scriptName>	AIActions:AIAction240	</scriptName>
+		<group>	28	</group>
+		<param1>	跟随距离	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	250	</id>
+		<name>	移除NPC任务跟随标志	</name>
+		<scriptName>	AIActions:AIAction241	</scriptName>
+		<group>	28	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	251	</id>
+		<name>	完成对话跟随者指定任务	</name>
+		<scriptName>	AIActions:AIAction242	</scriptName>
+		<group>	28	</group>
+		<param1>	任务ID	</param1>
+		<param2>	任务目标索引	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	252	</id>
+		<name>	通知副本某怪物已经刷出	</name>
+		<scriptName>	AIActions:AIAction243	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	副本专用	</comment>
+	</row>
+	<row>
+		<id>	253	</id>
+		<name>	通知副本某怪物已经死亡	</name>
+		<scriptName>	AIActions:AIAction244	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	只能在副本内使用	</comment>
+	</row>
+	<row>
+		<id>	254	</id>
+		<name>	NPC/MONSTER让自己死亡	</name>
+		<scriptName>	AIActions:AIAction245	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	255	</id>
+		<name>	NPC喊话（屏幕中央出现），可限定喊话范围，可随机内容	</name>
+		<scriptName>	AIActions:AIAction246	</scriptName>
+		<group>	38	</group>
+		<param1>	对话机率|对话内容|语音编号;	</param1>
+		<param2>	范围	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	参数1：
+对话1机率 | 对话1内容 | 语音编号1 ; 对话2机率 | 对话2内容 |  语音编号1; ……	</comment>
+	</row>
+	<row>
+		<id>	256	</id>
+		<name>	在副本中的几个给定点中随机选一个放陷阱	</name>
+		<scriptName>	AIActions:AIAction247	</scriptName>
+		<group>	18	</group>
+		<param1>	陷阱销毁时间;循环伤害时间	</param1>
+		<param2>	陷阱半径;陷阱离施法者最大距离	</param2>
+		<param3>	陷阱对应的模型编号	</param3>
+		<param4>	多个位置（位置与位置之间用&quot;;&quot;分隔，位置的三个坐标点之间用&quot;,&quot;分隔	</param4>
+		<param5>	进入陷阱施放的技能;离开陷阱施放的技能;陷阱销毁时释放的技能;是否一次性陷阱	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	在副本中的几个给定点中随机选一个放陷阱
+这几个给定点在参数4中配置
+参数中有些&quot;;&quot;分隔，说明要填写的一些数值之间需要用&quot;;&quot;分隔
+
+进入陷阱施放的技能;离开陷阱施放的技能;陷阱销毁时释放的技能，这些技能是“不包含等级”的技能ID，配置的时候请注意一下。	</comment>
+	</row>
+	<row>
+		<id>	257	</id>
+		<name>	通知护送callmonster主人完成任务	</name>
+		<scriptName>	AIActions:AIAction248	</scriptName>
+		<group>	28	</group>
+		<param1>	任务ID	</param1>
+		<param2>	任务目标索引	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	258	</id>
+		<name>	在怪物面朝方向一定距离刷出一定数量怪物	</name>
+		<scriptName>	AIActions:AIAction249	</scriptName>
+		<group>	18	</group>
+		<param1>	召唤怪物数量	</param1>
+		<param2>	召唤怪物className	</param2>
+		<param3>	面朝方向一定距离	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	在怪物面朝方向一定距离刷出一定数量怪物	</comment>
+	</row>
+	<row>
+		<id>	259	</id>
+		<name>	播放入场动作	</name>
+		<scriptName>	AIActions:AIAction250	</scriptName>
+		<group>	36	</group>
+		<param1>	特殊出场动作是否仅仅首次出场播放（1或0）	</param1>
+		<param2>	出场动作是否带位移（1或0）	</param2>
+		<param3>	非位移动作持续时间（浮点数）	</param3>
+		<param4>	位移出场动作着陆点类型	</param4>
+		<param5>	着陆点坐标，逗号隔开	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	param4用法：（默认是1） 0:表示目标点 ；1表示离目标点以param5所配参数为半径的随机位置，param5中填写半径，类型为整型； 2表示固定位置， param5中则填写：配置坐标，以“,”号（逗号）分隔 	</comment>
+	</row>
+	<row>
+		<id>	260	</id>
+		<name>	NPC喊话（屏幕中央出现），可限定喊话范围, 支持给敌人和朋友发不同消息	</name>
+		<scriptName>	AIActions:AIAction251	</scriptName>
+		<group>	38	</group>
+		<param1>	cschannel_msgs 定义宏ID（给友方消息）	</param1>
+		<param2>	cschannel_msgs 定义宏ID（给敌方消息）	</param2>
+		<param3>	范围	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	261	</id>
+		<name>	召唤怪物同时销毁自身，销毁自身前出生点置空	</name>
+		<scriptName>	AIActions:AIAction252	</scriptName>
+		<group>	18	</group>
+		<param1>	NPCMONSTER_ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	NPCMONSTER_ID指的是NPC的className。
+本条AI用来召唤怪物同时销毁自身，销毁自身前出生点置空为None	</comment>
+	</row>
+	<row>
+		<id>	262	</id>
+		<name>	基地、防御塔受到一定程度伤害图标闪烁（英雄联盟）	</name>
+		<scriptName>	AIActions:AIAction253	</scriptName>
+		<group>	18	</group>
+		<param1>	持续闪烁时间（秒）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	param1:持续闪烁多少秒	</comment>
+	</row>
+	<row>
+		<id>	263	</id>
+		<name>	下次AI行为在几秒后执行	</name>
+		<scriptName>	AIActions:AIAction254	</scriptName>
+		<group>	13	</group>
+		<param1>	时间（浮点数）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	264	</id>
+		<name>	马上执行AI	</name>
+		<scriptName>	AIActions:AIAction255	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	265	</id>
+		<name>	让副本内指定className entity插入一条sai	</name>
+		<scriptName>	AIActions:AIAction256	</scriptName>
+		<group>	18	</group>
+		<param1>	指定发送className（可多个，分隔符&quot;;&quot;）	</param1>
+		<param2>	插入AI类型	</param2>
+		<param3>	插入AI ID	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	266	</id>
+		<name>	走到发送SAI entity的位置	</name>
+		<scriptName>	AIActions:AIAction257	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	对应sai发送，要副本特殊支持才有效	</comment>
+	</row>
+	<row>
+		<id>	267	</id>
+		<name>	拷贝发送SAI entity的巡逻路线	</name>
+		<scriptName>	AIActions:AIAction258	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	对应sai的发送，要副本和怪物的特殊支持	</comment>
+	</row>
+	<row>
+		<id>	268	</id>
+		<name>	绕AI目标一定角度前进	</name>
+		<scriptName>	AIActions:AIAction259	</scriptName>
+		<group>	38	</group>
+		<param1>	移动的角度	</param1>
+		<param2>	移动距离的取值范围，格式为 xx : xx	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	param2为移动距离的取值范围，格式为 : 
+xx : xx
+前一个数为移动最小距离，后一个数为移动最大距离	</comment>
+	</row>
+	<row>
+		<id>	269	</id>
+		<name>	发送地图广播	</name>
+		<scriptName>	AIActions:AIAction260	</scriptName>
+		<group>	38	</group>
+		<param1>	要发送的内容	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	270	</id>
+		<name>	静态怪物控制	</name>
+		<scriptName>	AIActions:AIAction261	</scriptName>
+		<group>	38	</group>
+		<param1>	bool类型	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	0:关闭静态
+1:开启静态	</comment>
+	</row>
+	<row>
+		<id>	271	</id>
+		<name>	加了隔板的怪物无法寻路到，用此AI动作给怪物setTemp附近的一些坐标	</name>
+		<scriptName>	AIActions:AIAction262	</scriptName>
+		<group>	18	</group>
+		<param1>	怪物附近的坐标，可以填多个，用分号隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	说明：
+param1可以填一个或多个坐标，用分号隔开，格式如下：
+ xx xx xx : xx xx xx	</comment>
+	</row>
+	<row>
+		<id>	272	</id>
+		<name>	让一定范围内的玩家显示界面提示信息	</name>
+		<scriptName>	AIActions:AIAction263	</scriptName>
+		<group>	38	</group>
+		<param1>	界面提示类型	</param1>
+		<param2>	头像文本ID	</param2>
+		<param3>	提示文字内容	</param3>
+		<param4>	搜索玩家半径	</param4>
+		<param5>	持续时间	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	让一定范围内的玩家显示界面提示信息
+
+参数1：类型——此参数决定提示的界面形式（“左端头像+蓝色界面“还是“右端头像+红色界面”） 
+参数2：头像——空或头像ID，为空时，取玩家自身的头像显示；不为空时，将所填头像显示出来，这个头像ID其实是一个字符串型，比如“npcm0299”，“gw0503_1”，也就是怪物的模型编号； 
+参数3：文字——需显示的文字内容以及怪物名字，中间用“;”隔开，前面部分是显示文字，后面部分是怪物名字； 
+参数4：半径——AI执行时，周围多少码的玩家会弹出提示； 
+参数5：持续时间——提示界面持续的时间。 
+	</comment>
+	</row>
+	<row>
+		<id>	273	</id>
+		<name>	打断吟唱	</name>
+		<scriptName>	AIActions:AIAction264	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	注意：吟唱时怪物不会执行战斗、特殊、配置AI。因此该行为只能通过事件触发打断。	</comment>
+	</row>
+	<row>
+		<id>	274	</id>
+		<name>	水晶副本第三关通知副本刷新水晶	</name>
+		<scriptName>	AIActions:AIAction265	</scriptName>
+		<group>	36	</group>
+		<param1>	水晶className列表	</param1>
+		<param2>	水晶出生位置列表	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	水晶副本第三关通知副本刷新水晶
+
+参数1：水晶className，可以填写多个className，多个水晶之间用“;”隔开
+参数2：水晶出生位置，可以填写多个位置，多个位置之间用“;”隔开	</comment>
+	</row>
+	<row>
+		<id>	275	</id>
+		<name>	先锋将给所在帮会或阵营加积分	</name>
+		<scriptName>	AIActions:AIAction266	</scriptName>
+		<group>	36	</group>
+		<param1>	搜索范围	</param1>
+		<param2>	搜索的className	</param2>
+		<param3>	释放的技能完整ID	</param3>
+		<param4>	销毁时间	</param4>
+		<param5>	加积分的数值	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	先锋将给所在帮会或阵营加积分
+
+参数1：搜索范围
+参数2：想要搜索的className
+参数3：释放的技能完整ID，先锋将给积分箱子释放的技能ID
+参数4：销毁时间，积分箱子多久后销毁
+参数5：加积分的数值，先锋将拾取箱子加积分的数值	</comment>
+	</row>
+	<row>
+		<id>	276	</id>
+		<name>	寻找距离该怪物最近的巡逻点，并寻路到最近的巡逻点	</name>
+		<scriptName>	AIActions:AIAction267	</scriptName>
+		<group>	38	</group>
+		<param1>	巡逻路径id	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	寻找距离该怪物最近的巡逻点，并寻路到最近的巡逻点
+参数1：巡逻路径id，字符串型
+作用：找到给定巡逻路线上的离怪物自身位置最近的巡逻点，然后通过gotoPosition的方式走到最近的巡逻点	</comment>
+	</row>
+	<row>
+		<id>	277	</id>
+		<name>	设置NPC或怪物头顶名称颜色nameColor	</name>
+		<scriptName>	AIActions:AIAction268	</scriptName>
+		<group>	38	</group>
+		<param1>	临时改变NPC或怪物的nameColor属性值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	根据需要临时设置NPC或怪物自身的nameColor值，即改变客户端头顶名称和血条颜色
+param1 临时设置nameColor的值，可取值为0、1、2、3	</comment>
+	</row>
+	<row>
+		<id>	278	</id>
+		<name>	重置怪物自身的nameColor值	</name>
+		<scriptName>	AIActions:AIAction269	</scriptName>
+		<group>	38	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	等AIAction268执行完成后，将NPC或怪物nameColor值重新设置回原来的	</comment>
+	</row>
+	<row>
+		<id>	279	</id>
+		<name>	让范围内怪物目标设为主人敌人列表里的指定目标	</name>
+		<scriptName>	AIActions:AIAction270	</scriptName>
+		<group>	15	</group>
+		<param1>	怪物ID	</param1>
+		<param2>	范围	</param2>
+		<param3>	自己敌人列表里面的第几个	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	280	</id>
+		<name>	招唤怪物并把目标设为主人敌人列表里的指定目标	</name>
+		<scriptName>	AIActions:AIAction271	</scriptName>
+		<group>	18	</group>
+		<param1>	怪物ID	</param1>
+		<param2>	范围	</param2>
+		<param3>	第几个敌人	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	281	</id>
+		<name>	绕AI目标一定角度靠近游荡	</name>
+		<scriptName>	AIActions:AIAction272	</scriptName>
+		<group>	38	</group>
+		<param1>	游荡最大角度	</param1>
+		<param2>	靠近游荡最小距离:靠近游荡最大距离	</param2>
+		<param3>	发送AI指令ID	</param3>
+		<param4>	游荡最小速度:游荡最大速度	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	绕AI目标一定角度靠近游荡
+
+param2：格式为靠近游荡最小距离:靠近游荡最大距离，中间用“:”隔开，也就是冒号隔开，比如  2:10
+
+param4：格式为靠近游荡最小速度:靠近游荡最大速度，中间用“:”隔开，也就是冒号隔开，比如  2:10
+
+该AI的作用是绕AI目标，以[-param1,param1]之间的某个角度为偏移值，以[最小游荡距离，最大游荡距离]中的某一个值为距离，以[最小游荡速度，最大游荡速度]中的某一个值为速度，朝着目标靠近移动，游荡结束后发送一个AI指令	</comment>
+	</row>
+	<row>
+		<id>	282	</id>
+		<name>	绕AI目标一定角度远离游荡	</name>
+		<scriptName>	AIActions:AIAction273	</scriptName>
+		<group>	38	</group>
+		<param1>	游荡最大角度	</param1>
+		<param2>	远离游荡最小距离:远离游荡最大距离	</param2>
+		<param3>	发送AI指令ID	</param3>
+		<param4>	游荡最小速度:游荡最大速度	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	绕AI目标一定角度远离游荡
+
+param2：格式为远离游荡最小距离:远离游荡最大距离，中间用“:”隔开，也就是冒号隔开，比如  2:10
+
+param4：格式为远离游荡最小速度:远离游荡最大速度，中间用“:”隔开，也就是冒号隔开，比如  2:10
+
+该AI的作用是绕AI目标，以[-param1,param1]之间的某个角度为偏移值，以[最小游荡距离，最大游荡距离]中的某一个值为距离，以[最小游荡速度，最大游荡速度]中的某一个值为速度，朝着目标远离移动，游荡结束后发送一个AI指令	</comment>
+	</row>
+	<row>
+		<id>	283	</id>
+		<name>	entity范围内的玩家传送到同地图某个位置	</name>
+		<scriptName>	AIActions:AIAction274	</scriptName>
+		<group>	36	</group>
+		<param1>	传送点范围	</param1>
+		<param2>	传送到某个位置	</param2>
+		<param3>	传销毁自身的时间	</param3>
+		<param4>	传送点朝向	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	传送点entity范围内的玩家传送到同一个地图某个位置（不会出现场景切换界面）	</comment>
+	</row>
+	<row>
+		<id>	284	</id>
+		<name>	通知副本血量改变	</name>
+		<scriptName>	AIActions:AIAction275	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	血量改变后通知副本	</comment>
+	</row>
+	<row>
+		<id>	285	</id>
+		<name>	通知副本进入/离开战斗状态	</name>
+		<scriptName>	AIActions:AIAction276	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	通知副本进入/离开战斗状态	</comment>
+	</row>
+	<row>
+		<id>	286	</id>
+		<name>	清除当前目标的指定buff	</name>
+		<scriptName>	AIActions:AIAction277	</scriptName>
+		<group>	38	</group>
+		<param1>	要清除的buffID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	清除当前目标的指定buff
+	</comment>
+	</row>
+	<row>
+		<id>	287	</id>
+		<name>	给当前战斗列表中的玩家增加传送信息	</name>
+		<scriptName>	AIActions:AIAction278	</scriptName>
+		<group>	38	</group>
+		<param1>	镜头完传送信息由地图名、位置、朝向构成，中间用分号隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	给当前战斗列表中的玩家增加传送信息
+	</comment>
+	</row>
+	<row>
+		<id>	288	</id>
+		<name>	触发附近一定范围内的且在自己伤害列表中的玩家身上的一个任务	</name>
+		<scriptName>	AIActions:AIAction279	</scriptName>
+		<group>	28	</group>
+		<param1>	任务ID	</param1>
+		<param2>	任务目标index	</param2>
+		<param3>	范围	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	289	</id>
+		<name>	触发附近一定范围内的玩家身上的一个任务目标	</name>
+		<scriptName>	AIActions:AIAction280	</scriptName>
+		<group>	28	</group>
+		<param1>	任务ID	</param1>
+		<param2>	任务目标index	</param2>
+		<param3>	范围	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	290	</id>
+		<name>	让地图中所有玩家使用一个系统技能	</name>
+		<scriptName>	AIActions:AIAction281	</scriptName>
+		<group>	18	</group>
+		<param1>	阵营	</param1>
+		<param2>	技能ID	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	让地图中某阵营的所有玩家使用一个系统技能（目前用于阵营活动给增益buff）	</comment>
+	</row>
+	<row>
+		<id>	291	</id>
+		<name>	设置一个临时属性值	</name>
+		<scriptName>	AIActions:AIAction282	</scriptName>
+		<group>	18	</group>
+		<param1>	要设置的临时属性名称	</param1>
+		<param2>	增加的临时属性值	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	设置一个临时属性值
+
+根据参数1指定的名称，开始时这个临时属性的值为0，每次执行都会增加参数2指定的值。
+比如 参数1 为 “energy”，参数2 为10，则每次都会将临时属性energy的值增加10	</comment>
+	</row>
+	<row>
+		<id>	292	</id>
+		<name>	更新NPC头顶任务标记	</name>
+		<scriptName>	AIActions:AIAction283	</scriptName>
+		<group>	28	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	更新NPC头顶任务标记，主要用于限时任务，与AI条件161配合使用，AI条件中填写的时间与任务条件QTRInTime中填写的时间一致，主要是在任务开始和任务结束两个时间点进行更新，平时不需要进行更行。	</comment>
+	</row>
+	<row>
+		<id>	293	</id>
+		<name>	全服通告	</name>
+		<scriptName>	AIActions:AIAction284	</scriptName>
+		<group>	36	</group>
+		<param1>	通告内容	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	不能含%s的参数的文字说明	</comment>
+	</row>
+	<row>
+		<id>	294	</id>
+		<name>	地宫六王墓专用全服通告	</name>
+		<scriptName>	AIActions:AIAction285	</scriptName>
+		<group>	36	</group>
+		<param1>	%s玩家(帮会)对BossXXX的伤害最高	</param1>
+		<param2>	填1表示是%s指玩家名字，2表示%s指帮会名字	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	param1填通告内容（%s玩家对BOSSXXX的伤害最高）
+对应的param2填1
+
+#####################
+param1填通告内容（%s帮会对BOSSXXX的伤害最高）
+param2填2 
+########
+注，boss XXX，这是XXX是boss的名字，是也是写在通告内容中，因为配置AI时是知道boss的名字的	</comment>
+	</row>
+	<row>
+		<id>	295	</id>
+		<name>	召唤怪物，并把自己设为怪物的主人	</name>
+		<scriptName>	AIActions:AIAction286	</scriptName>
+		<group>	18	</group>
+		<param1>	召唤ClassName	</param1>
+		<param2>	召唤数量	</param2>
+		<param3>	召唤距离主人的坐标	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	没有主人的普通怪物不能用	</comment>
+	</row>
+	<row>
+		<id>	296	</id>
+		<name>	NPC 布阵	</name>
+		<scriptName>	AIActions:AIAction287	</scriptName>
+		<group>	18	</group>
+		<param1>	阵形ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	只针对NPCFormation，其它怪物使用无效
+阵型得先配置好	</comment>
+	</row>
+	<row>
+		<id>	297	</id>
+		<name>	被布阵NPC走向指定的阵型位置	</name>
+		<scriptName>	AIActions:AIAction288	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	跟AI:AIAction287配置一起用	</comment>
+	</row>
+	<row>
+		<id>	298	</id>
+		<name>	对某一阵营玩家发送通告	</name>
+		<scriptName>	AIActions:AIAction289	</scriptName>
+		<group>	36	</group>
+		<param1>	通告内容	</param1>
+		<param2>	阵营ID	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	299	</id>
+		<name>	六王墓boss死亡时事件处理	</name>
+		<scriptName>	AIActions:AIAction290	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	在六王墓boss死亡事配置此AI	</comment>
+	</row>
+	<row>
+		<id>	300	</id>
+		<name>	根据玩家性别播放特定声音	</name>
+		<scriptName>	AIActions:AIAction291	</scriptName>
+		<group>	0	</group>
+		<param1>	声音文件路径（男性）	</param1>
+		<param2>	声音文件路径（女性）	</param2>
+		<param3>	对多大范围内的玩家起作用	</param3>
+		<param4>	填0为3D 填1为2D	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	301	</id>
+		<name>	召唤怪物，并把自己设为怪物的主人（没有额外的操作）	</name>
+		<scriptName>	AIActions:AIAction292	</scriptName>
+		<group>	38	</group>
+		<param1>	怪物className	</param1>
+		<param2>	位置（三个坐标点中间用逗号或空格分开均可）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	只是把召唤出来的怪物主人设定为自己，没有主人的怪物不能使用	</comment>
+	</row>
+	<row>
+		<id>	302	</id>
+		<name>	通知空间增加积分（夺城战决赛专用）	</name>
+		<scriptName>	AIActions:AIAction293	</scriptName>
+		<group>	36	</group>
+		<param1>	积分值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	夺城战据赛中，战斗据点通知空间增加积分	</comment>
+	</row>
+	<row>
+		<id>	303	</id>
+		<name>	创建潜能副本传送门（仅限潜能副本用）	</name>
+		<scriptName>	AIActions:AIAction294	</scriptName>
+		<group>	36	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	304	</id>
+		<name>	飞行怪物对当前目标使用技能	</name>
+		<scriptName>	AIActions:AIAction295	</scriptName>
+		<group>	16	</group>
+		<param1>	技能ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	飞行怪物对当前目标使用技能，不做散开处理，也不进行释放距离不够进行靠近目标处理	</comment>
+	</row>
+	<row>
+		<id>	305	</id>
+		<name>	给当前一定范围内不同职业的玩家增加传送信息	</name>
+		<scriptName>	AIActions:AIAction296	</scriptName>
+		<group>	38	</group>
+		<param1>	玩家职业|传送位置信息，用分号隔开	</param1>
+		<param2>	同上	</param2>
+		<param3>	同上	</param3>
+		<param4>	同上	</param4>
+		<param5>	作用范围	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	param1-param4中的信息是由玩家职业关键字|传送地图;位置坐标;朝向，其中职业关键字 战士为16、 剑客为32、射手48以及法师64，param5为作用范围	</comment>
+	</row>
+	<row>
+		<id>	306	</id>
+		<name>	刷新副本进度坐标	</name>
+		<scriptName>	AIActions:AIAction297	</scriptName>
+		<group>	0	</group>
+		<param1>	坐标(使用逗号(&quot;,&quot;)分隔)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	param1填写坐标，在副本路径关键点或者转折点上摆放陷阱，陷阱执行此ai，使得头顶副本指引指向下一个目标点，并且ai设置为eai，如果param1填写空值，头顶副本指引清除。	</comment>
+	</row>
+	<row>
+		<id>	307	</id>
+		<name>	NPC 移动到指定位置一定范围内的某个点	</name>
+		<scriptName>	AIActions:AIAction138	</scriptName>
+		<group>	38	</group>
+		<param1>	POSITION_TYPE	</param1>
+		<param2>	范围	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	NPC 移动到指定位置一定范围内的某个点
+param1:坐标点位置（使用空格或者逗号间隔）
+param2:范围	</comment>
+	</row>
+	<row>
+		<id>	308	</id>
+		<name>	给AI对象播放声音	</name>
+		<scriptName>	AIActions:AIAction298	</scriptName>
+		<group>	18	</group>
+		<param1>	指定声音编号	</param1>
+		<param2>	填0为3D 填1为2D	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	要有AI对象，只会给AI对象（玩家）播放声音	</comment>
+	</row>
+	<row>
+		<id>	309	</id>
+		<name>	让AI对象（玩家）显示界面提示信息	</name>
+		<scriptName>	AIActions:AIAction299	</scriptName>
+		<group>	18	</group>
+		<param1>	界面提示类型	</param1>
+		<param2>	头像文本ID	</param2>
+		<param3>	提示文字内容	</param3>
+		<param4>	持续时间	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	让AI对象（玩家）显示界面提示信息
+
+参数1：类型——此参数决定提示的界面形式（“左端头像+蓝色界面“还是“右端头像+红色界面”） 
+参数2：头像——空或头像ID，为空时，取玩家自身的头像显示；不为空时，将所填头像显示出来，这个头像ID其实是一个字符串型，比如“npcm0299”，“gw0503_1”，也就是怪物的模型编号； 
+参数3：文字——需显示的文字内容以及怪物名字，中间用“;”隔开，前面部分是显示文字，后面部分是怪物名字；  
+参数4：持续时间——提示界面持续的时间。 
+
+
+
+要求： 要有AI对象	</comment>
+	</row>
+	<row>
+		<id>	310	</id>
+		<name>	从n条巡逻路径中不重复选择一条开始巡逻	</name>
+		<scriptName>	AIActions:AIAction300	</scriptName>
+		<group>	38	</group>
+		<param1>	n条巡逻路径，用空格（&quot; &quot;）隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<isActivated>	是否激活	</isActivated>
+		<comment>	参数1：n条巡逻路径，之间用空格隔开。
+效果：当前空间刷出该怪物时，会从这n条巡逻路径中不重复的选择一条开始巡逻，第k*n个之后会继续循环不重复选择这n条巡逻路径。
+注意：目前此AI只适用于空间 EntityType 类型为CopyTemplate 副本里面配置的怪物。	</comment>
+	</row>
+</root>

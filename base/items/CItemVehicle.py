@@ -1,0 +1,12 @@
+# -*- coding: gb18030 -*-
+
+from CItemBase import CItemBase
+
+class CItemVehicle( CItemBase ):
+	"""
+	Àﬁ¡È Ø/∆Ô≥Ëµ∞
+	"""
+	def __init__( self, srcData ):
+		"""
+		"""
+		CItemBase.__init__( self, srcData )

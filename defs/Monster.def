@@ -1,0 +1,246 @@
+<root>
+	<Parent>			NPCObject	</Parent>
+
+	<Implements>
+		<Interface> CombatUnit		</Interface>
+		<Interface> AIInterface		</Interface>
+		<Interface>	AmbulantObject	</Interface>
+	</Implements>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<exp>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</exp>
+
+		<potential>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</potential>
+		<daohengAch>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</daohengAch>
+		
+		<campMorale>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</campMorale>
+
+		<pathNotFindNum>
+			<Type>		INT8		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</pathNotFindNum>
+
+		<baseAtt>
+			<Type>		FLOAT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	1.0		</Default>
+		</baseAtt>
+
+		<excAtt>
+			<Type>		FLOAT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	1.0		</Default>
+		</excAtt>
+
+		<territory>
+			<Type>		UINT16		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</territory>
+
+		<callRange>
+			<Type>		UINT16		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</callRange>
+
+		<randomWalkRange>
+			<Type>		UINT8		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</randomWalkRange>
+
+		<randomWalkTime>
+			<Type>		UINT8		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</randomWalkTime>
+
+		<initiativeRange>
+			<Type>		UINT8		</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Default>	0		</Default>
+		</initiativeRange>
+
+		<subState>	<!-- 子状态；0 表示无状态 -->
+			<Type>		UINT8		</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</subState>
+
+		<firstBruise>	<!-- 状态：0 == 没有受击；1 == 已经受击；-->
+			<Type>		UINT8		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</firstBruise>
+
+		<bootyOwner>	<!-- 战利品拥有者 -->
+			<Type>		TUPLE <of> OBJECT_ID </of>	</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Default>
+				<item>	0	</item>
+				<item>	0	</item>
+			</Default>
+			<Persistent>	false		</Persistent>
+		</bootyOwner>
+
+		<equips>	<!-- 怪物的装备列表 -->
+			<Type>		ITEMDICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</equips>
+
+		<patrolPathNode>
+			<!-- 如果不需要决定是哪个点开始，此项可以不要。
+				另文档上说需要的是<patrolNode>其实是错误的。
+			-->
+			<Type>			STRING					</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</patrolPathNode>
+		<patrolList>
+			<Type>			PATROL_PATH			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true				</Editable>
+		</patrolList>
+
+		<lefthandNumber><!-- 左手自定义数据-->
+			<Type>			INT32	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</lefthandNumber>
+
+		<righthandNumber><!-- 右手自定义数据-->
+			<Type>			INT32	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</righthandNumber>
+
+		<castTrap>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</castTrap>
+
+		<thinkSpeed><!-- 心跳速度 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1.0			</Default>
+		</thinkSpeed>
+		
+		<battleCamp><!-- 阵营，同阵营怪物之间不会相互攻击 -->
+			<Type>			UINT16			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</battleCamp>
+
+		<accumPoint>	<!--气运点数accumulation point-->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</accumPoint>	
+	
+		<firstHide>
+			<Type>		BOOL			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+		</firstHide>	
+
+		<isNotifyDie>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</isNotifyDie>
+	</Properties>
+	<ClientMethods>
+		<onReviviscence><!-- 复活呼叫 -->
+		</onReviviscence>
+		<receiveTakeLevel>
+			<Arg>	UINT16	</Arg>
+		</receiveTakeLevel>
+
+		<onSetLeftHandNumber>
+			<Arg>	INT32	</Arg>
+		</onSetLeftHandNumber>
+
+		<onSetRightHandNumber>
+			<Arg>	INT32	</Arg>
+		</onSetRightHandNumber>
+
+		<onSetBootyOwner>	<!-- 接收怪物归属权信息 -->
+			<Arg>	TUPLE <of> OBJECT_ID </of>	</Arg>
+		</onSetBootyOwner>
+
+		<onSetAsTarget>
+		</onSetAsTarget>
+		<actionToPoint>		<!-- 播放怪物有位移入场动作 -->
+			<Arg>	VECTOR3	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</actionToPoint>
+		<playAdmissionAction/>		<!-- 播放怪物没有位移入场动作 -->
+		<jumpBackFC><!-- 往后跳跃到某坐标，通知客户端做表现 -->
+		</jumpBackFC>
+	</ClientMethods>
+	<CellMethods>
+		<onFightCall>	<!-- 格斗呼叫 -->
+			<Arg>		OBJECT_ID 	</Arg>	<!-- enemyID  -->
+			<Arg>		STRING 		</Arg>	<!-- className  -->
+		</onFightCall>
+		<requestTakeLevel>
+			<Exposed/>
+		</requestTakeLevel>
+
+		<changeToMonster>	<!-- 变成怪物 -->
+			<Arg>			UINT8			</Arg>	<!-- level -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- playerID -->
+		</changeToMonster>
+
+		<triggerTrap>
+			<Arg>		OBJECT_ID 	</Arg>
+			<Arg>		FLOAT		</Arg>
+		</triggerTrap>
+
+		<setLeftHandNumber>
+			<Arg>	INT32		</Arg>
+		</setLeftHandNumber>
+
+		<setRightHandNumber>
+			<Arg>	INT32		</Arg>
+		</setRightHandNumber>
+
+		<queryBootyOwner>	<!-- 客户端申请查询怪物的归属权信息 -->
+			<Exposed/>
+		</queryBootyOwner>
+
+		<exitFight/>
+		
+		<farDestroy/>
+
+		<setBattleCamp>
+			<Arg>	UINT16		</Arg>
+		</setBattleCamp>
+	</CellMethods>
+</root>
+

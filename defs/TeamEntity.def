@@ -1,0 +1,137 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<Implements>
+		<Interface>	TeamMatcherInterface		</Interface>
+		<Interface>	TeamMatchedInterface		</Interface>
+		<Interface>	UseTeamForDomainInter		</Interface>
+		<Interface>	TeamTurnWarInterface		</Interface>
+		<Interface>	TeamCampTurnWarInterface	</Interface>
+	</Implements>
+
+	<BaseMethods>
+		<join>
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+			<Arg>	INT32		</Arg>	<!-- playerMetier -->
+			<Arg>	INT32		</Arg>	<!-- headTextureID -->
+		</join>
+
+		<leave>
+			<Arg>	OBJECT_ID	</Arg>	<!-- srcEntityID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- dstEntityID -->
+		</leave>
+
+		<changeCaptain>
+			<Arg>	OBJECT_ID	</Arg>	<!-- newCaptainID -->
+		</changeCaptain>
+
+		<onChangePickUpState>
+			<Arg>	INT8		</Arg>	<!-- new pickUpState -->
+		</onChangePickUpState>
+
+		<onChangePickUpQuality>
+			<Arg>	INT8		</Arg>	<!-- new quality -->
+		</onChangePickUpQuality>
+
+		<onChangeRollQuality>
+			<Arg>	INT8		</Arg>	<!-- new quality -->
+		</onChangeRollQuality>
+
+		<logon>
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+		</logon>
+
+		<logout>
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+		</logout>
+
+		<disband/>
+
+		<startFollow/>
+		<stopFollow/>
+		<followCaptain>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</followCaptain>
+		<cancelFollow>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</cancelFollow>
+
+		<setMessage>
+			<Arg>		UINT16			</Arg>	<!-- statusID : defined in common/csstatus.py -->
+		</setMessage>
+
+		<teamChallengeRequestJoin>
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+			<Arg>	UINT32		</Arg>	<!-- playerLevel -->
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+			<Arg>	INT32		</Arg>	<!-- playerMetier -->
+			<Arg>	INT32		</Arg>	<!-- headTextureID -->
+		</teamChallengeRequestJoin>
+
+		<teamChallengeChampion>
+			<Arg>	ARRAY <of>DATABASE_ID</of>	</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT32		</Arg>
+		</teamChallengeChampion>
+		<teamChallengeGather>
+			<Arg>	UINT16		</Arg>
+		</teamChallengeGather>
+		<teamChallengeCloseGather>
+		</teamChallengeCloseGather>
+		<teamChallengeSetResult>
+			<Arg>	UINT16		</Arg>
+		</teamChallengeSetResult>
+		<teamChallengeUpInfo>
+			<Arg>	UINT16		</Arg>
+		</teamChallengeUpInfo>
+		<teamChallengeUpLevel>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT16		</Arg>
+		</teamChallengeUpLevel>
+		<teamChallengeClose>
+		</teamChallengeClose>
+		<teamChallengeOnRecruit>
+		</teamChallengeOnRecruit>
+		<teamChallengeCancelRecruit>
+		</teamChallengeCancelRecruit>
+
+		<teamCompetitionNotify>
+			<Arg>	UINT16		</Arg>
+		</teamCompetitionNotify>
+		<teamCompetitionGather/>
+		<teamCompetitionCloseGather/>
+		
+		<baoZangReqSucceed>
+			<Arg>	MAILBOX		</Arg>
+		</baoZangReqSucceed>
+		<baoZangSetRivalTeamIDs>
+			<Arg> ARRAY <of>OBJECT_ID</of> </Arg>
+			<Arg>  FLOAT	</Arg>
+		</baoZangSetRivalTeamIDs>
+		<baoZangPVPonReq>
+		</baoZangPVPonReq>
+		<baoZangPVPonCancel>
+			<Arg>  BOOL	</Arg>
+		</baoZangPVPonCancel>
+		
+		<yingXiongCampReqSucceed>
+			<Arg>	MAILBOX		</Arg>
+		</yingXiongCampReqSucceed>
+		<yingXiongCampSetRivalTeamIDs>
+			<Arg> ARRAY <of>OBJECT_ID</of> </Arg>
+			<Arg>  FLOAT	</Arg>
+		</yingXiongCampSetRivalTeamIDs>
+		<yingXiongCampOnReq>
+		</yingXiongCampOnReq>
+		<yingXiongCampOnCancel>
+			<Arg>  BOOL	</Arg>
+		</yingXiongCampOnCancel>
+	</BaseMethods>
+</root>

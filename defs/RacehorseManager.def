@@ -1,0 +1,31 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onStartNotice/>
+		<onStart/>
+		<onEnd/>
+		<onChristmasRaceHorse_Start/>
+		<onChristmasRaceHorse_End/>
+
+		<enterRacehorseMap>
+			<Arg>		MAILBOX		</Arg>		<!-- 玩家BaseMailBox -->
+		</enterRacehorseMap>
+
+		<createTongRace>
+			<Arg>		MAILBOX		</Arg>		<!-- 玩家BaseMailBox -->
+			<Arg>		INT32		</Arg>		<!-- 帮会DBID-->
+		</createTongRace>
+
+
+		<enterTongRacehorseMap>
+			<Arg>		MAILBOX		</Arg>		<!-- 玩家BaseMailBox -->
+			<Arg>		INT32		</Arg>		<!-- 帮会DBID -->
+		</enterTongRacehorseMap>
+
+		<closeRacehorseMap>
+			<Arg>		INT32		</Arg>		<!-- 地图相对与管理器的标识 -->
+		</closeRacehorseMap>
+	</BaseMethods>
+</root>

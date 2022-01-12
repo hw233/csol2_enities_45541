@@ -1,0 +1,76 @@
+<root>
+	<Properties>
+		<procreateState>
+			<Type>			UINT8			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+			<Persistent>	false				</Persistent>
+		</procreateState>
+	</Properties>
+
+	<ClientMethods>
+		<pft_dstChangeState>
+			<Arg>		INT8			</Arg>
+		</pft_dstChangeState>
+		<pft_dstPetChanged>
+			<Arg>		PET_EPITOME		</Arg>
+		</pft_dstPetChanged>
+		<pft_receivePetProcreationInfo>
+			<Arg>			DATABASE_ID		</Arg>
+			<Arg>		INT32			</Arg>
+		</pft_receivePetProcreationInfo>
+	</ClientMethods>
+
+	<BaseMethods>
+		<pft_changePet>
+			<Arg>	MAILBOX			</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</pft_changePet>
+		<pft_procreatePet>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	INT32			</Arg>
+		</pft_procreatePet>
+		<pft_remind>
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg>
+		</pft_remind>
+		<pft_takePet>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</pft_takePet>
+	</BaseMethods>
+
+	<CellMethods>
+		<pft_obtainProcreatedPet>
+			<Arg>			DATABASE_ID		</Arg>
+			<Arg>			DATABASE_ID		</Arg>
+			<Arg>			DATABASE_ID		</Arg>
+		</pft_obtainProcreatedPet>
+		<pft_procreatePetFailed>
+			<Arg>			DATABASE_ID		</Arg>
+			<Arg>			DATABASE_ID		</Arg>
+			<Arg>			DATABASE_ID		</Arg>
+		</pft_procreatePetFailed>
+		<pft_dstChangeState>
+			<Arg>		UINT8			</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+		</pft_dstChangeState>
+		<pft_dstChangePet>
+			<Arg>		DATABASE_ID	</Arg>
+		</pft_dstChangePet>
+		<pft_endProcreate>
+		</pft_endProcreate>
+		<pft_playerChangeState>
+			<Exposed/>
+			<Arg>	INT8			</Arg>
+		</pft_playerChangeState>
+		<pft_selectPet>
+			<Exposed/>
+			<Arg>	DATABASE_ID		</Arg>
+		</pft_selectPet>
+		<pft_setProcreating>
+		</pft_setProcreating>
+		<removeProcreatingFlag>
+		</removeProcreatingFlag>
+	</CellMethods>
+</root>

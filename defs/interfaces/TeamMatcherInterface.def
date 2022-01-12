@@ -1,0 +1,43 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onMemberSelectedDuties>
+			<Arg>	DATABASE_ID	</Arg>		<!-- playerDBID -->
+			<Arg>	UINT8_TUPLE	</Arg>		<!-- duties -->
+			<Arg>	BOOL		</Arg>		<!-- expectGuider -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- blacklist -->
+			<Arg>	UINT8		</Arg>		<!-- level -->
+		</onMemberSelectedDuties>
+		<onMemberRefuseToSelectDuty>
+			<Arg>	DATABASE_ID	</Arg>		<!-- playerDBID -->
+		</onMemberRefuseToSelectDuty>
+		<onMemberSelectingDutyTimeout>
+			<Arg>	DATABASE_ID	</Arg>		<!-- playerDBID -->
+		</onMemberSelectingDutyTimeout>
+		<onJoinCopyMatcherQueue>
+		</onJoinCopyMatcherQueue>
+		<onRejoinCopyMatcherQueue/>
+		<onLeaveCopyMatcherQueue>
+			<Arg>	INT32		</Arg>		<!-- reason -->
+		</onLeaveCopyMatcherQueue>
+		<initiateSelectingDutiesByCaptain>
+			<Arg>	UINT8		</Arg>		<!-- level -->
+			<Arg>	UINT8_TUPLE	</Arg>		<!-- duties -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+			<Arg>	BOOL		</Arg>		<!-- expectGuider -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- blacklist -->
+			<Arg>   UINT8            </Arg>          <!-- camp -->
+		</initiateSelectingDutiesByCaptain>
+		<enterConfirmingCopyMatched>
+			<Arg>	UID	</Arg>		<!-- groupID -->
+			<Arg>	PY_DICT	</Arg>		<!-- dutyMap -->
+			<Arg>	STRING	</Arg>		<!-- copyLabel -->
+			<Arg>	UINT8	</Arg>		<!-- copyLevel -->
+			<Arg>	UINT8	</Arg>		<!-- bossesTotal -->
+			<Arg>	UINT8	</Arg>		<!-- bossesKilled -->
+			<Arg>	STRING_TUPLE	</Arg>		<!-- copies -->
+		</enterConfirmingCopyMatched>
+	</BaseMethods>
+</root>

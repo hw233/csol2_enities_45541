@@ -1,0 +1,37 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<abaRound>
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</abaRound>
+		<abaStartTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</abaStartTime>
+		<abaPointRecord>	<!--两个对战帮会的积分数据{ tongDBID1:point, ... }-->
+			<Type>		PYTHON		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>	{}		</Default>
+		</abaPointRecord>
+		<leavePunishTong>	<!--帮会无成员在副本的惩罚数据{ tongDBID:timerID, ... }-->
+			<Type>		PYTHON		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>	{}		</Default>
+		</leavePunishTong>
+		<abaPlayers>
+			<Type>	ABATTOIR_PLAYERS	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+		</abaPlayers>
+	</Properties>
+	<CellMethods>
+		<receiveAbaData>
+			<Arg>	UINT8		</Arg>
+			<Arg>	FLOAT		</Arg>
+		</receiveAbaData>
+	</CellMethods>
+</root>

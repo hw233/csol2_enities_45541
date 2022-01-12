@@ -1,0 +1,1794 @@
+<root>
+	<entity_1>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointYXLMBoss	</type>
+		<transform>
+			<row0>	0.707118 0.000288 -0.707093	</row0>
+			<row1>	-0.000309 0.999999 0.000099	</row1>
+			<row2>	0.707093 0.000148 0.707117	</row2>
+			<row3>	-201.942825 16.111982 -143.874252	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20124015	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	-0.812845 0.000387 -0.582476	</row0>
+			<row1>	0.000474 0.999998 0.000003	</row1>
+			<row2>	0.582476 -0.000273 -0.812845	</row2>
+			<row3>	-201.014328 16.167616 -139.283798	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10114003	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.999999 -0.000140 0.000000	</row0>
+			<row1>	0.000140 0.999999 0.000049	</row1>
+			<row2>	0.000000 -0.000049 0.999999	</row2>
+			<row3>	-231.138596 9.409987 -21.549095	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222025	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999998 -0.000225 0.001095	</row0>
+			<row1>	0.000225 0.999999 -0.000009	</row1>
+			<row2>	-0.001095 0.000008 0.999999	</row2>
+			<row3>	-232.054062 9.409941 -26.890633	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	320FBE10.46CE8FC1.A918DCA2.3BB297B6	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222033	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	75E89B62.401D2193.99BE1E94.BF621746	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	320FBE10.46CE8FC1.A918DCA2.3BB297B6	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999579 0.028942 0.001250	</row0>
+			<row1>	-0.028954 0.999523 0.010649	</row1>
+			<row2>	-0.000941 -0.010682 0.999942	</row2>
+			<row3>	-224.000534 15.112070 -89.747177	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	1B6FBD0B.44166014.ED846D89.E1CB0212	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222033	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	75E89B62.401D2193.99BE1E94.BF621746	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	1B6FBD0B.44166014.ED846D89.E1CB0212	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999103 -0.042264 0.001935	</row0>
+			<row1>	0.042307 0.998306 -0.039920	</row1>
+			<row2>	-0.000245 0.039965 0.999200	</row2>
+			<row3>	-235.384720 9.357634 55.676605	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	4E14E76D.4B466728.334E0CA4.74D83D72	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222033	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	75E89B62.401D2193.99BE1E94.BF621746	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	4E14E76D.4B466728.334E0CA4.74D83D72	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.707105 0.001290 -0.707105	</row0>
+			<row1>	-0.000960 0.999999 0.000865	</row1>
+			<row2>	0.707106 0.000067 0.707106	</row2>
+			<row3>	-181.244995 15.101865 -125.696579	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222019	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	2	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707106 0.000000 0.707106	</row2>
+			<row3>	-189.420990 15.101552 -125.149277	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222021	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	2	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointYXLMBoss	</type>
+		<transform>
+			<row0>	0.707094 0.000017 -0.707117	</row0>
+			<row1>	-0.000007 0.999998 0.000016	</row1>
+			<row2>	0.707117 -0.000006 0.707094	</row2>
+			<row3>	-199.246307 16.103542 -146.623245	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20124017	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointYXLMBoss	</type>
+		<transform>
+			<row0>	0.499999 0.000010 -0.866025	</row0>
+			<row1>	-0.000025 0.999999 -0.000002	</row1>
+			<row2>	0.866024 0.000023 0.499999	</row2>
+			<row3>	-197.388824 16.103542 -145.257263	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20124014	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointYXLMBoss	</type>
+		<transform>
+			<row0>	0.707119 0.000062 -0.707092	</row0>
+			<row1>	0.000004 0.999999 0.000092	</row1>
+			<row2>	0.707093 -0.000068 0.707119	</row2>
+			<row3>	-199.377563 16.055033 -141.968140	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20124016	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	-0.732325 -0.001563 -0.680950	</row0>
+			<row1>	-0.003922 0.999990 0.001922	</row1>
+			<row2>	0.680941 0.004078 -0.732324	</row2>
+			<row3>	-180.729462 15.115954 -134.650513	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222023	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	2	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	1.000000 0.000568 0.000000	</row0>
+			<row1>	-0.000568 0.999999 0.000393	</row1>
+			<row2>	0.000000 -0.000393 1.000000	</row2>
+			<row3>	-184.509705 15.101391 -129.863007	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222015	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointYXLMBoss	</type>
+		<transform>
+			<row0>	0.707143 0.000331 -0.707069	</row0>
+			<row1>	0.036771 0.998628 0.037243	</row1>
+			<row2>	0.706111 -0.052336 0.706161	</row2>
+			<row3>	-197.398972 16.133987 -143.243988	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20124018	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.999993 0.003391 0.000000	</row2>
+			<row3>	-110.206299 9.410153 -108.532936	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724063	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	-0.732328 0.000005 -0.680948	</row0>
+			<row1>	0.000012 0.999999 -0.000006	</row1>
+			<row2>	0.680949 -0.000013 -0.732328	</row2>
+			<row3>	-199.895386 16.055107 -144.563416	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222024	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	2	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999999 0.000263 -0.000008	</row0>
+			<row1>	-0.000263 0.999952 -0.009781	</row1>
+			<row2>	0.000006 0.009781 0.999952	</row2>
+			<row3>	-171.180359 15.142008 -140.754379	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	CAC2FF59.40A2B788.C986D6BB.752E22B1	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222035	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	773D1E21.45DF64F3.A08F08BC.56B33AAF	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	CAC2FF59.40A2B788.C986D6BB.752E22B1	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999936 -0.011192 -0.000017	</row0>
+			<row1>	0.011192 0.999869 0.011648	</row1>
+			<row2>	-0.000113 -0.011647 0.999932	</row2>
+			<row3>	-150.380371 15.048078 -170.352051	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	9EC7CDB2.440FAE35.ADF858B6.D827505E	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222035	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	773D1E21.45DF64F3.A08F08BC.56B33AAF	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	9EC7CDB2.440FAE35.ADF858B6.D827505E	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999993 -0.003324 0.000861	</row0>
+			<row1>	0.003312 0.999903 0.013469	</row1>
+			<row2>	-0.000905 -0.013467 0.999908	</row2>
+			<row3>	-193.538208 15.111811 -116.399933	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	22B25B20.4ADB3B8D.4D0FF1A8.38BB0924	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222033	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	75E89B62.401D2193.99BE1E94.BF621746	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	22B25B20.4ADB3B8D.4D0FF1A8.38BB0924	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.998791 -0.049129 -0.000666	</row0>
+			<row1>	0.049095 0.997381 0.053102	</row1>
+			<row2>	-0.001945 -0.053071 0.998588	</row2>
+			<row3>	-166.104828 14.816983 -113.052635	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	133A91D4.4E1D4274.15D55CAF.47F1BB82	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222017	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	05C6BAB8.40C2ACF7.39B0438A.831256E7	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	133A91D4.4E1D4274.15D55CAF.47F1BB82	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.965919 0.003275 -0.258819	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.258817 0.000878 0.965924	</row2>
+			<row3>	-169.750275 9.412107 -47.362541	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20124024	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.965919 0.003275 -0.258819	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.258817 0.000878 0.965924	</row2>
+			<row3>	-166.605438 9.412107 -50.644535	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724065	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999997 0.000121 0.001544	</row0>
+			<row1>	-0.000178 0.999330 0.036553	</row1>
+			<row2>	-0.001539 -0.036555 0.999329	</row2>
+			<row3>	-137.536560 9.719174 -78.194458	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	AE58085C.492DE25D.925281B3.63647D93	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222017	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	05C6BAB8.40C2ACF7.39B0438A.831256E7	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	AE58085C.492DE25D.925281B3.63647D93	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.999998 0.000344 -0.000485	</row0>
+			<row1>	-0.000343 0.999998 0.000000	</row1>
+			<row2>	0.000485 0.000000 0.999998	</row2>
+			<row3>	-147.270355 6.987995 45.282944	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222027	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.965919 0.003275 -0.258819	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.258817 0.000878 0.965924	</row2>
+			<row3>	-178.599915 9.410153 30.255396	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724064	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.965919 0.003275 -0.258819	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.258817 0.000878 0.965924	</row2>
+			<row3>	-175.273132 9.451170 27.060337	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724062	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	1.000000 -0.000027 0.000000	</row0>
+			<row1>	0.000027 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-159.571564 9.411613 140.506989	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	E7364116.4F82318B.4340DF8F.03A0FA72	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222034	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	808105B0.44F4F859.066CF0A7.40841FCC	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	E7364116.4F82318B.4340DF8F.03A0FA72	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999999 0.000006 0.000048	</row0>
+			<row1>	-0.000005 0.999999 -0.000005	</row1>
+			<row2>	-0.000048 0.000006 1.000000	</row2>
+			<row3>	-79.312981 9.353513 -184.927429	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222029	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999999 0.000006 0.000048	</row0>
+			<row1>	-0.000005 0.999999 -0.000005	</row1>
+			<row2>	-0.000048 0.000006 1.000000	</row2>
+			<row3>	-87.696922 9.411613 -179.753769	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	076455E4.4EB17C92.B116319F.8A4CE10B	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222035	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	773D1E21.45DF64F3.A08F08BC.56B33AAF	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	076455E4.4EB17C92.B116319F.8A4CE10B	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	-0.999994 -0.003391 0.000000	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	-55.890240 9.412107 -90.060471	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20124026	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	-0.999994 -0.003391 0.000000	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	-54.298344 9.410154 -93.943535	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724064	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	-0.999994 -0.003391 0.000000	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	-61.235489 9.410154 -88.210022	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724064	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999997 -0.000889 0.001526	</row0>
+			<row1>	0.000889 0.999998 -0.000288	</row1>
+			<row2>	-0.001526 0.000288 0.999998	</row2>
+			<row3>	-99.963234 9.413636 -44.769608	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	43D5015E.4C18F9DB.04270DB4.2B58F49F	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222017	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	05C6BAB8.40C2ACF7.39B0438A.831256E7	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	43D5015E.4C18F9DB.04270DB4.2B58F49F	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999994 0.003391 0.000000	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-86.408493 9.402341 70.397820	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724064	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999994 0.003391 0.000000	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-83.681107 9.408200 65.074028	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20124025	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999994 0.003391 0.000000	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-67.832405 9.412107 40.727043	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724062	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.998999 -0.044645 -0.002482	</row0>
+			<row1>	0.044635 0.998995 -0.004171	</row1>
+			<row2>	0.002664 0.004056 0.999988	</row2>
+			<row3>	-46.785877 9.553248 3.309603	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	42023B55.496C6ECB.083098AD.49E9B1E7	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222016	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	6CB37CA2.4D06596B.917D7E94.E2A5742C	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	42023B55.496C6ECB.083098AD.49E9B1E7	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999996 0.000002 -0.002579	</row0>
+			<row1>	-0.000002 1.000000 -0.000150	</row1>
+			<row2>	0.002577 0.000150 0.999996	</row2>
+			<row3>	-8.638641 9.410475 39.264122	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	C463642A.4E7F7329.C831D6B1.08DE844E	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222016	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	6CB37CA2.4D06596B.917D7E94.E2A5742C	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	C463642A.4E7F7329.C831D6B1.08DE844E	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999994 0.003391 0.000000	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-75.296295 9.429685 137.187256	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222030	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999994 0.003391 0.000000	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-67.515694 9.412512 138.549316	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	E9BEB6BE.48A847CF.8C9E7487.3951EDE6	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222034	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	808105B0.44F4F859.066CF0A7.40841FCC	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	E9BEB6BE.48A847CF.8C9E7487.3951EDE6	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999999 -0.000408 0.000047	</row0>
+			<row1>	0.000409 0.999992 0.003625	</row1>
+			<row2>	-0.000049 -0.003624 0.999993	</row2>
+			<row3>	20.217215 9.416472 -173.344070	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	AAF7B9C6.484B17DE.EB6E0AA0.C01B89D9	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222035	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	773D1E21.45DF64F3.A08F08BC.56B33AAF	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	AAF7B9C6.484B17DE.EB6E0AA0.C01B89D9	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.999998 0.000091 -0.000485	</row0>
+			<row1>	-0.000090 0.999998 0.000000	</row1>
+			<row2>	0.000485 0.000000 0.999998	</row2>
+			<row3>	14.002543 6.988995 -88.813004	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222028	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999746 0.022502 -0.000031	</row0>
+			<row1>	-0.022502 0.999747 0.000001	</row1>
+			<row2>	0.000030 0.000000 1.000000	</row2>
+			<row3>	86.513298 9.466794 -7.633781	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222026	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.707102 0.002398 -0.707106	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.707102 0.002398 0.707106	</row2>
+			<row3>	24.143400 9.416013 -33.860840	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724065	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.499997 0.001696 -0.866025	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.866020 0.002937 0.500000	</row2>
+			<row3>	21.058455 9.410153 -35.836075	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724065	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999999 0.000066 -0.000881	</row0>
+			<row1>	0.000001 0.997135 0.075650	</row1>
+			<row2>	0.000882 -0.075650 0.997134	</row2>
+			<row3>	88.155251 9.416456 -88.023163	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	D7E3F18A.4944838B.DB733382.1B085060	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222032	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	03384ABD.42A444B4.61C6A089.BDE2E1E4	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	D7E3F18A.4944838B.DB733382.1B085060	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	-0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707106 0.000000 -0.707106	</row2>
+			<row3>	30.470583 15.099600 86.272903	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222018	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	2	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707106 0.000000 0.707106	</row2>
+			<row3>	32.447807 15.099600 96.687370	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222022	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	2	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.707106 0.000000 0.707106	</row2>
+			<row3>	33.463524 15.099600 96.027115	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724024	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	35.068169 15.100003 90.503777	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222014	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	-0.707104 0.000000 -0.707104	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.707104 0.000000 -0.707104	</row2>
+			<row3>	40.130722 15.099600 88.808357	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724023	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	-0.707106 0.000000 -0.707106	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.707106 0.000000 -0.707106	</row2>
+			<row3>	41.786659 15.099600 88.991142	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20222020	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	2	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999994 0.003391 0.000000	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	12.228142 9.410153 6.619399	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724063	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999994 0.003391 0.000000	</row0>
+			<row1>	-0.003391 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	13.658470 9.410153 3.952389	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20124023	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	3	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	-0.707105 0.000000 0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707106 0.000000 -0.707105	</row2>
+			<row3>	32.193134 15.099607 87.118843	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724022	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	0	</belongTeamID>
+			<monsterType>	1	</monsterType>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999746 0.022502 -0.000031	</row0>
+			<row1>	-0.022502 0.999747 0.000001	</row1>
+			<row2>	0.000030 0.000000 1.000000	</row2>
+			<row3>	86.993927 9.483114 0.750017	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	395866D4.4EDC4052.938CCBB2.16FE5586	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222032	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	03384ABD.42A444B4.61C6A089.BDE2E1E4	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	395866D4.4EDC4052.938CCBB2.16FE5586	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999999 -0.001078 0.000001	</row0>
+			<row1>	0.001078 0.999996 -0.002680	</row1>
+			<row2>	0.000001 0.002680 0.999996	</row2>
+			<row3>	74.285912 15.064779 56.435616	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	3191C0B8.49004C4A.2559F39F.CBCA641D	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222032	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	03384ABD.42A444B4.61C6A089.BDE2E1E4	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	3191C0B8.49004C4A.2559F39F.CBCA641D	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	43.281120 15.099991 78.085724	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	1AC07C0D.47C883C4.CEC8A393.12B5304C	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222032	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	03384ABD.42A444B4.61C6A089.BDE2E1E4	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	1AC07C0D.47C883C4.CEC8A393.12B5304C	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	24.213390 15.099984 98.271202	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	37CE5CB5.43548E30.1E242D8D.089DA81A	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222034	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	808105B0.44F4F859.066CF0A7.40841FCC	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	37CE5CB5.43548E30.1E242D8D.089DA81A	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999853 -0.017152 0.000000	</row0>
+			<row1>	0.017152 0.999853 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	20.874302 15.149183 76.086586	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	6CE94EBF.49F7AB55.5CFC9DB9.0E11F18D	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222016	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	6CB37CA2.4D06596B.917D7E94.E2A5742C	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	6CE94EBF.49F7AB55.5CFC9DB9.0E11F18D	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointYXLMBoss	</type>
+		<transform>
+			<row0>	-0.707106 0.000024 0.707104	</row0>
+			<row1>	-0.000249 0.999999 -0.000282	</row1>
+			<row2>	-0.707105 -0.000376 -0.707106	</row2>
+			<row3>	49.037270 16.044003 102.451164	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724038	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointYXLMBoss	</type>
+		<transform>
+			<row0>	-0.707107 0.000009 0.707106	</row0>
+			<row1>	0.000014 0.999999 0.000000	</row1>
+			<row2>	-0.707105 0.000009 -0.707106	</row2>
+			<row3>	48.740177 16.024294 105.419724	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724040	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointYXLMBoss	</type>
+		<transform>
+			<row0>	-0.866024 -0.000287 0.499998	</row0>
+			<row1>	-0.000167 0.999999 0.000285	</row1>
+			<row2>	-0.499999 0.000164 -0.866024	</row2>
+			<row3>	49.552105 16.076319 107.464722	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724039	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointYXLMBoss	</type>
+		<transform>
+			<row0>	-0.707105 -0.000007 0.707105	</row0>
+			<row1>	-0.000007 0.999999 0.000004	</row1>
+			<row2>	-0.707106 -0.000002 -0.707105	</row2>
+			<row3>	51.554882 16.076319 103.412300	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724025	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointYXLMBoss	</type>
+		<transform>
+			<row0>	-0.707127 -0.000001 0.707083	</row0>
+			<row1>	-0.000008 0.999999 -0.000004	</row1>
+			<row2>	-0.707084 -0.000009 -0.707127	</row2>
+			<row3>	52.207050 16.076313 107.043808	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20724041	</entityName>
+			<rediviousTime>	30.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	-0.812844 -0.000101 -0.582475	</row0>
+			<row1>	-0.000124 0.999997 -0.000001	</row1>
+			<row2>	0.582475 0.000072 -0.812844	</row2>
+			<row3>	45.488720 16.204733 106.964577	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10114004	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointCopyYXLMPVP	</type>
+		<transform>
+			<row0>	0.999999 0.001075 0.000000	</row0>
+			<row1>	-0.001075 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.965986 15.097006 128.968567	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<link>
+			<cameraNode>	29F870C2.4352A10B.D2962199.F6F5CE6C	</cameraNode>
+			<startEven>	</startEven>
+			<animationTime>	0.000000	</animationTime>
+			<magicGuiSound>	</magicGuiSound>
+		</link>
+		<properties>
+			<entityName>	20222034	</entityName>
+			<rediviousTime>	-1.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	808105B0.44F4F859.066CF0A7.40841FCC	</patrolList>
+			<belongTeamID>	1	</belongTeamID>
+			<monsterType>	0	</monsterType>
+			<patrolPathNode>	29F870C2.4352A10B.D2962199.F6F5CE6C	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_67>
+</root>

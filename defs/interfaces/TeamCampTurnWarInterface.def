@@ -1,0 +1,24 @@
+<root>
+	<BaseMethods>
+		<campTurnWar_onSignUp/>
+
+		<campTurnWar_onTeamMemPrepared>
+			<Arg>	STRING		</Arg>
+		</campTurnWar_onTeamMemPrepared>
+		
+		<campTurnWar_onPlayerEnter>
+			<Arg>  	STRING		</Arg>
+		</campTurnWar_onPlayerEnter>
+		
+		<campTurnWar_onTeamMatched>
+			<Arg>	MAILBOX			</Arg>
+			<Arg>	ARRAY <of> INT64 </of>	</Arg>
+		</campTurnWar_onTeamMatched>
+		
+		<campTurnWar_onReceiveEnemyInfo>
+			<Arg> ARRAY <of> PY_DICT </of> </Arg>
+		</campTurnWar_onReceiveEnemyInfo>
+
+		<campTurnWar_onWarOver/>
+	</BaseMethods>
+</root>

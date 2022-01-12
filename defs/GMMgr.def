@@ -1,0 +1,60 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<query_Info>
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   STRING		</Arg>  
+			<Arg>	PY_DICT		</Arg>	
+		</query_Info>
+		<query_Pet_Info>
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   STRING		</Arg>  
+		</query_Pet_Info>
+		<catch>
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   STRING		</Arg>  
+			<Arg>	PY_DICT		</Arg>	
+		</catch>
+		<cometo>
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   STRING		</Arg>  
+			<Arg>	PY_DICT		</Arg>	
+		</cometo>
+		<kick>
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   STRING		</Arg>  
+			<Arg>	PY_DICT		</Arg>	
+		</kick>
+		<queryPlayerAmount>
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   STRING		</Arg>  
+			<Arg>	PY_DICT		</Arg>	
+		</queryPlayerAmount>
+		<block_account>
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   STRING		</Arg>  
+			<Arg>	PY_DICT		</Arg>	
+		</block_account>
+		<queryPlayersName>
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   STRING		</Arg>  
+			<Arg>	PY_DICT		</Arg>	
+		</queryPlayersName>
+		<setRespawnRate>
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   STRING		</Arg>  
+			<Arg>	PY_DICT		</Arg>	
+		</setRespawnRate>
+		<unBlock_account>
+			<Arg>   MAILBOX		</Arg>  
+			<Arg>   STRING		</Arg>  
+			<Arg>	PY_DICT		</Arg>
+		</unBlock_account>
+		<shutdown>	<!-- ·þÎñÆ÷¹Ø±Õ -->
+			<Arg>	INT32		</Arg>	<!-- delay before shutdown -->
+		</shutdown>
+	</BaseMethods>
+</root>

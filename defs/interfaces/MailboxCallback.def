@@ -1,0 +1,22 @@
+<root>
+	<Properties>
+		<funcDict>
+			<Type>		PYTHON			</Type>
+			<Flags>		BASE			</Flags>
+		</funcDict>
+	</Properties>
+	
+	<BaseMethods>
+		<onGetMailbox>
+			<Arg>		UINT16			</Arg>	<!-- function ID -->
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		PYTHON			</Arg>
+		</onGetMailbox>
+
+		<getMailbox>
+			<Arg>		STRING_ARRAY	</Arg>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		UINT16			</Arg>
+		</getMailbox>
+	</BaseMethods>
+</root>

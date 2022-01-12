@@ -1,0 +1,1398 @@
+<root>
+	<entity_1>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	0.965925 0.000000 -0.258819	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.258819 0.000000 0.965925	</row2>
+			<row3>	-117.609932 10.041014 -52.661705	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10111466	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000001 0.000000 -0.999996	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999996 0.000000 0.000001	</row2>
+			<row3>	-34.066284 8.560445 -60.625027	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.200000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.015000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000001 0.000000 -0.999996	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999996 0.000000 0.000001	</row2>
+			<row3>	-88.494011 10.253225 -42.138916	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.200000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866024 0.000000 -0.499999	</row2>
+			<row3>	-77.851166 8.261717 -32.248962	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332017	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.258817 0.000000 -0.965922	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.965922 0.000000 0.258817	</row2>
+			<row3>	-43.460617 4.734374 -52.162994	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332017	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999997	</row2>
+			<row3>	-76.751534 6.541015 -68.923195	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332017	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.965923 0.000000 -0.258818	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.258818 0.000000 -0.965923	</row2>
+			<row3>	-49.933144 4.617187 -3.841354	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332017	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.000001 0.000000 -0.999996	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999996 0.000000 -0.000001	</row2>
+			<row3>	-20.890831 4.847655 -63.561855	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332017	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.499997 0.000000 -0.866022	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.866022 0.000000 0.499997	</row2>
+			<row3>	-18.404396 2.689453 -36.971951	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332017	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.258819 0.000000 -0.965922	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.965922 0.000000 -0.258819	</row2>
+			<row3>	-19.924278 0.001953 -14.964622	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352014	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.999996 0.000000 0.000001	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.000001 0.000000 -0.999996	</row2>
+			<row3>	-43.820087 2.388671 -22.276604	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352014	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.707104 0.000000 -0.707103	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.707103 0.000000 -0.707104	</row2>
+			<row3>	-51.339211 4.054687 -47.149418	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352014	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.707102 0.000000 0.707103	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707103 0.000000 -0.707102	</row2>
+			<row3>	-2.128502 -1.626953 -21.273224	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352014	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.499995 0.000000 0.866019	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.866019 0.000000 -0.499995	</row2>
+			<row3>	-0.019203 -0.931641 -6.002213	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322027	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.999999 0.000000 0.000000	</row2>
+			<row3>	-73.839996 5.945312 -59.208466	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866024 0.000000 -0.499999	</row2>
+			<row3>	-71.379333 7.265624 -34.630692	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866024 0.000000 -0.499999	</row2>
+			<row3>	-41.028217 4.632812 -45.912643	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866024 0.000000 -0.499999	</row2>
+			<row3>	-44.705051 3.623046 -5.739456	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999998	</row2>
+			<row3>	-18.345871 2.248046 -29.439125	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 -0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.499999 0.000000 -0.866024	</row2>
+			<row3>	-4.715836 -0.328125 -3.856506	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.707105 0.000000 0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707106 0.000000 0.707105	</row2>
+			<row3>	-2.532028 -0.542969 -39.332306	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.000001 0.000000 0.999998	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.999998 0.000000 -0.000001	</row2>
+			<row3>	-23.168312 3.943359 -36.578693	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 0.499998	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499998 0.000000 -0.866024	</row2>
+			<row3>	-70.520599 6.373046 -11.663025	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.707105 0.000000 -0.707104	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.707104 0.000000 -0.707105	</row2>
+			<row3>	-33.753113 2.164062 -1.057831	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352014	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.258819 0.000000 -0.965922	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.965922 0.000000 -0.258819	</row2>
+			<row3>	-65.678711 6.824218 -4.655594	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332017	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499999 0.000000 -0.866024	</row2>
+			<row3>	-68.945496 7.064452 -31.634583	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.965923 0.000000 0.258819	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.258819 0.000000 -0.965923	</row2>
+			<row3>	-42.121181 5.523437 -61.603058	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.999997 0.000000 0.000001	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.000001 0.000000 -0.999997	</row2>
+			<row3>	-75.943481 6.949218 -77.367523	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.999994 0.000000 -0.000001	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000001 0.000000 0.999994	</row2>
+			<row3>	-5.227547 0.607422 -49.302635	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.965920 0.000000 0.258816	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.258816 0.000000 0.965920	</row2>
+			<row3>	-2.854347 1.058594 -72.493835	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.866023 0.000000 -0.499998	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.499998 0.000000 0.866023	</row2>
+			<row3>	-0.262077 1.439404 0.559372	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.200000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.707104 0.000000 -0.707104	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.707104 0.000000 -0.707104	</row2>
+			<row3>	-19.283333 0.658203 2.039268	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332017	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.866023 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499999 0.000000 -0.866023	</row2>
+			<row3>	-81.840012 8.685545 0.613510	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332017	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 -0.866022	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.866022 0.000000 -0.499999	</row2>
+			<row3>	-40.771633 3.292968 7.729129	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20332017	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.866023 0.000000 -0.499998	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499998 0.000000 -0.866023	</row2>
+			<row3>	-3.698502 -3.447265 22.205425	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20342020	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.965923 0.000000 -0.258817	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.258817 0.000000 -0.965923	</row2>
+			<row3>	-36.225197 1.134765 30.345926	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.866023 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.499997 0.000000 -0.866023	</row2>
+			<row3>	-22.065308 -1.384765 21.048128	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499998 0.000000 -0.866023	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.866023 0.000000 0.499998	</row2>
+			<row3>	1.266713 27.496403 -61.415924	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/maque/ty_niao_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	8.000000	</collisionFraction>
+			<influenceRadius>	4.000000	</influenceRadius>
+			<speed>	0.250000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258817 0.000000 0.965920	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.965920 0.000000 0.258817	</row2>
+			<row3>	22.439301 -1.545218 -0.134148	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	5.000000	</collisionFraction>
+			<influenceRadius>	4.000000	</influenceRadius>
+			<speed>	0.020000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999996 0.000000 0.000001	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.000001 0.000000 0.999996	</row2>
+			<row3>	68.199921 1.384581 -1.824661	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.200000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.020000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.965926 0.000000 0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258819 0.000000 0.965926	</row2>
+			<row3>	15.956442 -3.326171 -33.822952	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20342020	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.500000 0.000000 0.866025	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866025 0.000000 0.500000	</row2>
+			<row3>	23.850250 -3.447265 -6.311195	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20342020	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.965926 0.000000 0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258819 0.000000 0.965926	</row2>
+			<row3>	15.498646 -3.482421 -70.355690	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20342020	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.258817 0.000000 0.965921	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.965921 0.000000 -0.258817	</row2>
+			<row3>	62.942295 0.330078 -35.013184	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352014	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.000001 0.000000 0.999994	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.999994 0.000000 0.000001	</row2>
+			<row3>	26.645985 -2.300781 -47.188686	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352014	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.707102 0.000000 0.707103	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707103 0.000000 -0.707102	</row2>
+			<row3>	69.063011 0.515625 -15.479050	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322027	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.866019 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.499997 0.000000 0.866019	</row2>
+			<row3>	88.856850 3.494140 -17.347542	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322027	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.499997 0.000000 0.866018	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.866018 0.000000 0.499997	</row2>
+			<row3>	42.766113 -0.685547 -28.812737	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322027	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.258817 0.000000 0.965921	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.965921 0.000000 -0.258817	</row2>
+			<row3>	45.218105 -1.617187 -43.140331	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352014	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	0.707106 0.000000 -0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.707106 0.000000 0.707106	</row2>
+			<row3>	84.039581 3.414062 -43.822044	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10111467	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.258817 0.000000 -0.965921	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.965921 0.000000 0.258817	</row2>
+			<row3>	75.820435 1.417969 -30.410736	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352014	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 -0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.866024 0.000000 -0.499999	</row2>
+			<row3>	49.713570 -0.216797 -26.853745	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.258819 0.000000 -0.965924	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.965924 0.000000 0.258819	</row2>
+			<row3>	88.503624 3.599609 -21.732643	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.707106 0.000000 -0.707105	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.707105 0.000000 0.707106	</row2>
+			<row3>	78.325325 2.851562 -41.704250	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000001	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.000001 0.000000 0.999998	</row2>
+			<row3>	76.929131 0.431641 -0.373055	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.707103 0.000000 0.707102	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707102 0.000000 0.707103	</row2>
+			<row3>	53.380875 -0.210937 -22.751030	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20352014	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.999994 0.000000 0.000001	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.000001 0.000000 -0.999994	</row2>
+			<row3>	70.630051 -0.316406 -1.343491	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322027	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.707103 0.000000 -0.707101	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.707101 0.000000 -0.707103	</row2>
+			<row3>	96.916016 4.421874 -16.643166	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322027	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<type>	TeachBossMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.866024 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499999 0.000000 0.866024	</row2>
+			<row3>	98.134895 4.835937 -62.358349	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	30111345	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.258819 0.000000 -0.965921	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.965921 0.000000 -0.258819	</row2>
+			<row3>	71.393318 0.728516 -17.309883	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.000001 0.000000 -0.999995	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999995 0.000000 -0.000001	</row2>
+			<row3>	96.548347 5.373046 -36.526619	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.258817 0.000000 -0.965921	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.965921 0.000000 0.258817	</row2>
+			<row3>	83.735168 2.302734 -15.244720	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.866020 0.000000 -0.499998	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.499998 0.000000 0.866020	</row2>
+			<row3>	46.225254 -0.152344 -30.407288	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.965920 0.000000 -0.258818	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.258818 0.000000 0.965920	</row2>
+			<row3>	31.922523 -1.906250 -51.101032	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258818 0.000000 0.965923	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.965923 0.000000 0.258818	</row2>
+			<row3>	25.777735 24.522429 17.414640	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/maque/ty_niao_002.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	4.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999993 0.000000 0.000001	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	-0.000001 0.000000 0.999993	</row2>
+			<row3>	15.035357 -1.252852 35.368279	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	5.000000	</collisionFraction>
+			<influenceRadius>	3.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.000000 0.000000 1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000000 0.000000 0.000000	</row2>
+			<row3>	44.513954 -3.451171 20.026680	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20342020	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_67>
+	<entity_68>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.000001 0.000000 0.999996	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.999996 0.000000 0.000001	</row2>
+			<row3>	25.625475 -3.451171 31.540869	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20342020	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_68>
+	<entity_69>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.965921 0.000000 -0.258816	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.258816 0.000000 -0.965921	</row2>
+			<row3>	39.552109 -3.451171 2.874920	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20342020	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_69>
+	<entity_70>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866024 0.000000 -0.499999	</row2>
+			<row3>	13.422552 -3.451171 17.121967	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20342020	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_70>
+	<entity_71>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.965922 0.000000 0.258819	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.258819 0.000000 -0.965922	</row2>
+			<row3>	26.396557 -3.451171 4.140059	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20342020	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_71>
+	<entity_72>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.499997 0.000000 0.866022	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866022 0.000000 -0.499997	</row2>
+			<row3>	54.514011 -3.451171 23.518797	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20342020	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_72>
+	<entity_73>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.258819 0.000000 -0.965919	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.965919 0.000000 -0.258819	</row2>
+			<row3>	98.919250 4.976562 3.403104	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322027	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_73>
+	<entity_74>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.499999 0.000000 -0.866021	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.866021 0.000000 -0.499999	</row2>
+			<row3>	73.942268 -0.960937 22.592537	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111278	</className>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_74>
+	<entity_75>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.258818 0.000000 0.965918	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.965918 0.000000 0.258818	</row2>
+			<row3>	80.459419 0.484375 13.367637	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322027	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_75>
+	<entity_76>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.866023 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499999 0.000000 0.866023	</row2>
+			<row3>	100.742088 30.220264 -63.809235	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/maque/ty_niao_002.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	8.000000	</collisionFraction>
+			<influenceRadius>	4.000000	</influenceRadius>
+			<speed>	0.250000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_76>
+	<entity_77>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258818 0.000000 0.965922	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.965922 0.000000 0.258818	</row2>
+			<row3>	100.002022 7.195240 -22.832977	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.200000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_77>
+	<entity_78>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.000001 0.000000 0.999992	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.999992 0.000000 0.000001	</row2>
+			<row3>	108.526810 7.533202 -41.872116	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322027	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_78>
+	<entity_79>
+		<type>	TeachMonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.707102 0.000000 0.707101	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.707101 0.000000 0.707102	</row2>
+			<row3>	100.886459 6.056640 -32.712982	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20322027	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	5.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_79>
+</root>

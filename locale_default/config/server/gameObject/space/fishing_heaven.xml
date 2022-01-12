@@ -1,0 +1,24 @@
+<root>
+	<EntityType>	 SpaceCopySingle </EntityType>
+	<DomainType>	 SpaceDomainCopy </DomainType>
+	<script>	 SpaceCopySingle </script>
+	<className>	 fishing_heaven	 </className>
+	<dirMapping> universes/fu_ben_bu_yu </dirMapping>
+	<CanPk>		 1 	</CanPk>
+	<campHonourReward/>			<!-- 有阵营击杀荣誉值奖励;另外在没有配置此字段的地图中，被击杀不计入“被阵营击杀次数” -->
+	<TimeOn>	 0 	</TimeOn>
+	<canFly>	 1 	</canFly>			<!-- 是否允许飞行 -->
+	<CanQieCuo>	 1 	</CanQieCuo>	<!-- 允许切磋 -->
+	<TimeOfDay>	 41400 </TimeOfDay>
+	<spawnFile>		 </spawnFile>
+	<Space>
+		<spaceBBoxMin>	 -1000,	-1000,	-1000 </spaceBBoxMin>
+		<spaceBBoxMax>	 1000,1000,1000 </spaceBBoxMax>
+		<deathDepth>	 -1000 </deathDepth>
+	</Space>
+	<canArrest/>	<!-- 是否可逮捕入狱 -->
+	<maxLine>	 1 	</maxLine>
+	<initLine>	 1 	</initLine>
+	<maxPlayerAmount>	 525 	</maxPlayerAmount>
+	<newLineByPlayerAmount>	 400 	</newLineByPlayerAmount>
+</root>

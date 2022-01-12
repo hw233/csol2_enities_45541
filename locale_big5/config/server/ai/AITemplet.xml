@@ -1,0 +1,4362 @@
+<root>
+	<row>
+		<id>	7	</id>
+		<name>	生命降低逃跑	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	28	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	10	</id>
+		<name>	默認AI-&gt;普通攻擊	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	11	</id>
+		<name>	默認AI-&gt;戰鬥列表與攻擊目標維護	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	46	</item>
+			<item>	45	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	12	</id>
+		<name>	默認AI-&gt;主動型怪物視野維護	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	44	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	13	</id>
+		<name>	默認AI-&gt;進入攻擊狀態	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	24	</item>
+		</Condition>
+		<Action>
+			<item>	47	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	14	</id>
+		<name>	默認AI-&gt;重置	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+			<item>	17	</item>
+		</Condition>
+		<Action>
+			<item>	15	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	15	</id>
+		<name>	默認AI-&gt;丟失攻擊目標尋找戰鬥列表下一目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	47	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	16	</id>
+		<name>	默認AI-&gt;怪攻擊寵物時角色攻擊怪則轉向攻擊角色	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	59	</item>
+			<item>	60	</item>
+			<item>	61	</item>
+		</Condition>
+		<Action>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	18	</id>
+		<name>	對目標使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	19	</id>
+		<name>	自身不存在BUFF/DEBUFF時對自身使用技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	33	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	20	</id>
+		<name>	呼叫同伴	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	50	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	21	</id>
+		<name>	對目標使用自身等級對應技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	76	</item>
+		</Condition>
+		<Action>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	22	</id>
+		<name>	自身不存在BUFF/DEBUFF時對自身使用自身等級對應技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	33	</item>
+			<item>	108	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	23	</id>
+		<name>	目標不存在指定BUFF/DEBUFF時對目標使用技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	58	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	24	</id>
+		<name>	目標不存在指定BUFF/DEBUFF時對目標使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	58	</item>
+			<item>	76	</item>
+		</Condition>
+		<Action>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	25	</id>
+		<name>	生命降低更改當前AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	31	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	27	</id>
+		<name>	改變最終作用對象為嘲諷施放者	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	77	</item>
+		</Condition>
+		<Action>
+			<item>	57	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	28	</id>
+		<name>	108星:NPC變成怪物	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	84	</item>
+		</Condition>
+		<Action>
+			<item>	61	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	29	</id>
+		<name>	108星:怪物變成NPC	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	78	</item>
+		</Condition>
+		<Action>
+			<item>	60	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	30	</id>
+		<name>	護送任務：跟隨任務擁有者	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	80	</item>
+			<item>	81	</item>
+		</Condition>
+		<Action>
+			<item>	66	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	31	</id>
+		<name>	護送任務：NPC擁有者不在NPC合法跟隨範圍則停止移動	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	81	</item>
+		</Condition>
+		<Action>
+			<item>	65	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	32	</id>
+		<name>	護送任務：NPC停止移動達到某時間	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	62	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	33	</id>
+		<name>	護送任務：NPC到達指定地方	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	82	</item>
+		</Condition>
+		<Action>
+			<item>	63	</item>
+			<item>	62	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	34	</id>
+		<name>	護送任務：NPC死亡（entity銷毀事件）	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	96	</item>
+		</Condition>
+		<Action>
+			<item>	68	</item>
+			<item>	86	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	35	</id>
+		<name>	護送任務:NPC擁有者不在NPC合法跟隨內則提示信息	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	81	</item>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	68	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	36	</id>
+		<name>	NPC發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	37	</id>
+		<name>	目標不存在某BUFF/DEBUFF時對自身使用自身等級的技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	58	</item>
+			<item>	108	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	38	</id>
+		<name>	自身不存在某BUFF/DEBUFF時對目標使用自身等級的技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	33	</item>
+			<item>	76	</item>
+		</Condition>
+		<Action>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	39	</id>
+		<name>	完成重置後消失	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	78	</item>
+		</Condition>
+		<Action>
+			<item>	87	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	40	</id>
+		<name>	每隔X秒選擇傷害最高為攻擊目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	16	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	41	</id>
+		<name>	家族控制NPC初始化	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	42	</id>
+		<name>	家族控制NPC持續給周圍家族成員經驗	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	70	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	43	</id>
+		<name>	生命降低至某百分比時對目標使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+			<item>	76	</item>
+		</Condition>
+		<Action>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	44	</id>
+		<name>	生命降低至某百分比時對目標使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	45	</id>
+		<name>	生命降低至某百分比時對自身使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	46	</id>
+		<name>	生命降低至某百分比時對自身使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+			<item>	108	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	47	</id>
+		<name>	生命值降低至某百分比發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	48	</id>
+		<name>	超過記錄時間發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	49	</id>
+		<name>	記錄當前時間	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	50	</id>
+		<name>	超過記錄時間清除指定EAI	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	71	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	51	</id>
+		<name>	從屬怪物保護功能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	24	</item>
+			<item>	90	</item>
+		</Condition>
+		<Action>
+			<item>	72	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	54	</id>
+		<name>	從屬怪物跟隨主人	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	85	</item>
+			<item>	86	</item>
+		</Condition>
+		<Action>
+			<item>	73	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	55	</id>
+		<name>	從屬怪物距離主人太遠飛到主人身邊	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	88	</item>
+			<item>	85	</item>
+		</Condition>
+		<Action>
+			<item>	76	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	56	</id>
+		<name>	從屬怪物飛到主人所在的space	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	89	</item>
+		</Condition>
+		<Action>
+			<item>	77	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	57	</id>
+		<name>	重新建立自身和主人的關聯	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	87	</item>
+		</Condition>
+		<Action>
+			<item>	78	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	58	</id>
+		<name>	丟失了主人，發出飛到主人所在space的請求	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	88	</item>
+			<item>	87	</item>
+		</Condition>
+		<Action>
+			<item>	76	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	59	</id>
+		<name>	鏢車跟隨玩家	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	85	</item>
+			<item>	86	</item>
+		</Condition>
+		<Action>
+			<item>	73	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	60	</id>
+		<name>	從屬怪物消失	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	91	</item>
+		</Condition>
+		<Action>
+			<item>	79	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	62	</id>
+		<name>	招怪	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	119	</item>
+		</Condition>
+		<Action>
+			<item>	80	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	63	</id>
+		<name>	記錄鏢車任務目標ID	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	81	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	64	</id>
+		<name>	到達任務目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	82	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	65	</id>
+		<name>	任務完成，自身消失	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	92	</item>
+		</Condition>
+		<Action>
+			<item>	79	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	66	</id>
+		<name>	(城戰AI)戰場神獸將領等NPC敵人進入視野維護	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	93	</item>
+		</Condition>
+		<Action>
+			<item>	44	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	67	</id>
+		<name>	超出範圍向角色移動	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	44	</item>
+		</Condition>
+		<Action>
+			<item>	83	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	68	</id>
+		<name>	達到範圍停止移動	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	43	</item>
+		</Condition>
+		<Action>
+			<item>	65	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	70	</id>
+		<name>	超出範圍更改AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	44	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	71	</id>
+		<name>	達到範圍更改AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	43	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	74	</id>
+		<name>	距離過大私密主人	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	95	</item>
+		</Condition>
+		<Action>
+			<item>	84	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	75	</id>
+		<name>	鏢車死亡處理	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	85	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	76	</id>
+		<name>	對自身使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	77	</id>
+		<name>	對自身使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	108	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	78	</id>
+		<name>	怪物在所有者下線或死亡後脫離戰鬥後消失	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	97	</item>
+		</Condition>
+		<Action>
+			<item>	87	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	79	</id>
+		<name>	怪物離所有者距離過遠則脫離戰鬥後消失	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	85	</item>
+		</Condition>
+		<Action>
+			<item>	87	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	80	</id>
+		<name>	一段時間後，怪物脫離戰鬥後消失	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	87	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	81	</id>
+		<name>	脫離戰鬥狀態下回血	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+			<item>	17	</item>
+		</Condition>
+		<Action>
+			<item>	24	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	82	</id>
+		<name>	(自身等級限定)對自身使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	83	</id>
+		<name>	(自身等級限定)對自身使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	108	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	84	</id>
+		<name>	(自身等級限定)對目標使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	85	</id>
+		<name>	(自身等級限定)對目標使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	76	</item>
+		</Condition>
+		<Action>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	86	</id>
+		<name>	(自身等級限定)生命降低至某百分比對自身使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	30	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	87	</id>
+		<name>	(自身等級限定)生命降低至某百分比對自身使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	30	</item>
+			<item>	108	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	88	</id>
+		<name>	(自身等級限定)生命降低至某百分比對目標使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	30	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	89	</id>
+		<name>	(自身等級限定)生命降低至某百分比對目標使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	30	</item>
+			<item>	76	</item>
+		</Condition>
+		<Action>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	90	</id>
+		<name>	(自身等級限定)自身不存在某BUFF/DEBUFF時對自身使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	33	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	91	</id>
+		<name>	(自身等級限定)自身不存在某BUFF/DEBUFF時對自身使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	33	</item>
+			<item>	108	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	92	</id>
+		<name>	(自身等級限定)目標不存在某BUFF/DEBUFF時對目標使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	58	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	93	</id>
+		<name>	(自身等級限定)目標不存在某BUFF/DEBUFF時對目標使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	58	</item>
+			<item>	76	</item>
+		</Condition>
+		<Action>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	94	</id>
+		<name>	處於某狀態下一段時間後消失	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	99	</item>
+		</Condition>
+		<Action>
+			<item>	62	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	95	</id>
+		<name>	(自身等級限定)生命降低至百分比時自身不存在某BUFF/DEBUFF時對自身使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	30	</item>
+			<item>	33	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	96	</id>
+		<name>	(自身等級限定)生命降低至百分比時目標不存在某BUFF/DEBUFF時對目標使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	30	</item>
+			<item>	58	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	97	</id>
+		<name>	對自身使用指定技能後取消某EAI標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	71	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	98	</id>
+		<name>	水晶招怪	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	100	</item>
+		</Condition>
+		<Action>
+			<item>	88	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	99	</id>
+		<name>	水晶釋放技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	101	</item>
+		</Condition>
+		<Action>
+			<item>	89	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	100	</id>
+		<name>	走向某個坐標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	83	</item>
+		</Condition>
+		<Action>
+			<item>	90	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	101	</id>
+		<name>	通知副本到達指定位置	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	82	</item>
+		</Condition>
+		<Action>
+			<item>	91	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	102	</id>
+		<name>	從戰鬥列表中隨機選取一個，對其施放自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	92	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	103	</id>
+		<name>	召喚怪物	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	93	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	104	</id>
+		<name>	每間隔一段時間發言並記錄發言時間	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	94	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	105	</id>
+		<name>	大於NPC發言一定時間後，NPC施放一次技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	102	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	106	</id>
+		<name>	狀態改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	31	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	111	</id>
+		<name>	尋找指定範圍內特定類型目標，目標血量低於指定值，對其施放指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	95	</item>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	114	</id>
+		<name>	隨機選取戰鬥列表，作為作用對象	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	115	</id>
+		<name>	每隔X秒隨機選擇目標並設置標記準備釋放特殊技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	97	</item>
+			<item>	49	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	116	</id>
+		<name>	如果有特殊標記，則施放某特殊技能後將標記清除執行正常AI	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	98	</item>
+			<item>	26	</item>
+			<item>	97	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	117	</id>
+		<name>	如果有標記時立即選擇傷害列表中傷害最高的為自己的目標並清除標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	98	</item>
+			<item>	16	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	118	</id>
+		<name>	如果有特殊標記則施放自身等級技能並清標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	98	</item>
+			<item>	97	</item>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	119	</id>
+		<name>	如果有某標記則清除標記並施放自身等級相同技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	98	</item>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	120	</id>
+		<name>	如果有某標記對目標施放自身等級技能同時說話並清標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	98	</item>
+			<item>	51	</item>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	121	</id>
+		<name>	如果有某標記對目標施放自身等級技能同時說話並換標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	98	</item>
+			<item>	97	</item>
+			<item>	36	</item>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	122	</id>
+		<name>	108星：怪物脫離戰鬥後消失	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	78	</item>
+		</Condition>
+		<Action>
+			<item>	79	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	123	</id>
+		<name>	血量判斷	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>	</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	124	</id>
+		<name>	判斷BOSS血量，如果符合則選擇BOSS為目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	104	</item>
+			<item>	105	</item>
+		</Condition>
+		<Action>
+			<item>	97	</item>
+			<item>	99	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	125	</id>
+		<name>	範圍內目標血量判斷	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	104	</item>
+			<item>	105	</item>
+		</Condition>
+		<Action>	</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	126	</id>
+		<name>	如果有某標記則對目標施放技能並說話清標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	98	</item>
+			<item>	97	</item>
+			<item>	36	</item>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	127	</id>
+		<name>	30秒隨機施放技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	100	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	128	</id>
+		<name>	怪物頭領死亡	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	101	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	129	</id>
+		<name>	從屬怪物戰鬥列表空就攻擊主人的敵人	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	17	</item>
+		</Condition>
+		<Action>
+			<item>	72	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	130	</id>
+		<name>	如果有標記，則隨機選取戰鬥列表作為當前目標，清除標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	98	</item>
+			<item>	96	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	131	</id>
+		<name>	騎寵傳送	</name>
+		<scriptName>	AITemplate:AITemplate1	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	102	</item>
+			<item>	103	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	132	</id>
+		<name>	發言並清除指定EAI	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	71	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	134	</id>
+		<name>	空模板(設置默認EAI用)	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>	</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	135	</id>
+		<name>	達到指定時間使用技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+			<item>	71	</item>
+			<item>	67	</item>
+			<item>	71	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	136	</id>
+		<name>	幫會神獸視野維護	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	44	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	137	</id>
+		<name>	飛翔傳送動作與速度控制	</name>
+		<scriptName>	AITemplate:AITemplate1	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	104	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	138	</id>
+		<name>	飛翔傳送結束	</name>
+		<scriptName>	AITemplate:AITemplate1	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	105	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	139	</id>
+		<name>	戰鬥超過限定時間回血	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	13	</item>
+		</Condition>
+		<Action>
+			<item>	23	</item>
+			<item>	60	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	141	</id>
+		<name>	怪物進入戰鬥時發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	142	</id>
+		<name>	怪物死亡時發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	72	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	143	</id>
+		<name>	多線路隨機飛翔傳送	</name>
+		<scriptName>	AITemplate:AITemplate1	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	106	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	144	</id>
+		<name>	搜索PK值0以上玩家並戰鬥	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	106	</item>
+		</Condition>
+		<Action>
+			<item>	107	</item>
+			<item>	109	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	145	</id>
+		<name>	NPC守衛重置並恢復方向	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	78	</item>
+		</Condition>
+		<Action>
+			<item>	60	</item>
+			<item>	108	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	146	</id>
+		<name>	進入戰鬥改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	147	</id>
+		<name>	戰鬥列表增加時改變AI等級（事件用）	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	73	</item>
+		</Condition>
+		<Action>
+			<item>	47	</item>
+			<item>	49	</item>
+			<item>	31	</item>
+			<item>	109	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	148	</id>
+		<name>	拯救猰貐BOSS（特殊ai）	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	110	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	149	</id>
+		<name>	爆烈紅魔（特殊ai）	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	111	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	150	</id>
+		<name>	硬甲藍魔（特殊ai）	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	112	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	151	</id>
+		<name>	生命低於某百分比選擇指定的NPC作為最終作用目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	99	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	152	</id>
+		<name>	戰鬥開始後X秒對自身使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	13	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	153	</id>
+		<name>	目標不存在BUFF/DEBUFF時對自身使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	58	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	154	</id>
+		<name>	目標不存在指定兩種BUFF/DEBUFF之一對目標使用技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	58	</item>
+			<item>	58	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	155	</id>
+		<name>	自身不存在某標記時發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	110	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	156	</id>
+		<name>	傷害列表為空時重置	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	59	</item>
+			<item>	19	</item>
+		</Condition>
+		<Action>
+			<item>	15	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	157	</id>
+		<name>	把敵人加入我僕從的戰鬥列表	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	113	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	158	</id>
+		<name>	把敵人加入我主人的戰鬥列表	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	114	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	159	</id>
+		<name>	(城戰AI)龍炮敵人進入視野（陷阱）維護	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	111	</item>
+		</Condition>
+		<Action>
+			<item>	44	</item>
+			<item>	116	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	160	</id>
+		<name>	(城戰AI)龍炮:選定最近的塔樓為攻擊目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	115	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	161	</id>
+		<name>	(城戰AI)龍炮丟失敵人時改變狀態到自由狀態	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	17	</item>
+		</Condition>
+		<Action>
+			<item>	116	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	162	</id>
+		<name>	（城戰AI）塔樓攻擊周圍目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	117	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	163	</id>
+		<name>	（城戰AI）選定最近的塔樓並為塔樓加血	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	118	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	164	</id>
+		<name>	停止巡邏	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	58	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	165	</id>
+		<name>	收到指令開始巡邏	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	67	</item>
+		</Condition>
+		<Action>
+			<item>	59	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	166	</id>
+		<name>	向指定NPC發送AI命令	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	39	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	167	</id>
+		<name>	收到已開始巡邏指令後記錄當前時間	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	67	</item>
+		</Condition>
+		<Action>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	168	</id>
+		<name>	開始巡邏時間達到時發送指令並清除標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	39	</item>
+			<item>	67	</item>
+			<item>	39	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	169	</id>
+		<name>	停止巡邏並取消指定的EAI	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	58	</item>
+			<item>	71	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	170	</id>
+		<name>	開始巡邏	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	59	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	171	</id>
+		<name>	完成重置後開始巡邏	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	78	</item>
+		</Condition>
+		<Action>
+			<item>	59	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	172	</id>
+		<name>	傷害列表為空時選擇最先進入戰鬥列表的目標為最終目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	19	</item>
+		</Condition>
+		<Action>
+			<item>	47	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	173	</id>
+		<name>	記錄自身朝向	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	109	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	174	</id>
+		<name>	完成重置後改變朝向至記錄朝向	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	78	</item>
+		</Condition>
+		<Action>
+			<item>	108	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	175	</id>
+		<name>	如果有某標記達到一定時間後隨機選擇戰鬥列表中目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	49	</item>
+			<item>	67	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	176	</id>
+		<name>	對自身使用指定技能後記錄當前時間	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	177	</id>
+		<name>	生命降低至某百分比隨機選擇目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	178	</id>
+		<name>	生命低於某百分比招怪	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	93	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	179	</id>
+		<name>	生命低於某百分比喊話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	180	</id>
+		<name>	NPC喊話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	181	</id>
+		<name>	NPC死亡時喊話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	72	</item>
+		</Condition>
+		<Action>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	182	</id>
+		<name>	無條件招怪	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	93	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	183	</id>
+		<name>	尋找指定範圍內的特定目標並將其作為最終作用目標加入戰鬥列表	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	104	</item>
+		</Condition>
+		<Action>
+			<item>	99	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	184	</id>
+		<name>	（封劍神宮）每隔X秒改變當前AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	185	</id>
+		<name>	（封劍神宮）使用指定技能走向指定目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	120	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	186	</id>
+		<name>	（封劍神宮）當自身不存在某BUFF/DEBUFF時改變當前AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	33	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	187	</id>
+		<name>	（封劍神宮）當自身生命降低至某百分比時改變當前AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	119	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	189	</id>
+		<name>	（封劍神宮）當範圍內沒有存在某類型的怪物時改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	113	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	190	</id>
+		<name>	（封劍神宮）每隔X秒對隨機目標使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	121	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	192	</id>
+		<name>	每隔X秒施放自己等級的技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	76	</item>
+		</Condition>
+		<Action>
+			<item>	51	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	193	</id>
+		<name>	每隔X秒施放某技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	194	</id>
+		<name>	如果有某標記對目標施放技能並且清除標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+			<item>	98	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	195	</id>
+		<name>	每X秒呼叫同伴	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	50	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	196	</id>
+		<name>	每X秒對目標施放自身等級技能並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	51	</item>
+			<item>	119	</item>
+			<item>	36	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	197	</id>
+		<name>	如果有某標記，並且技能可以施放，說話，放技能，換標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+			<item>	76	</item>
+		</Condition>
+		<Action>
+			<item>	119	</item>
+			<item>	51	</item>
+			<item>	98	</item>
+			<item>	97	</item>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	198	</id>
+		<name>	每X秒把周圍Y米人加入戰鬥列表	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	123	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	199	</id>
+		<name>	每X秒從若干小怪中隨機召喚一個	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	122	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	200	</id>
+		<name>	生命高於某百分比取消EAI標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	29	</item>
+		</Condition>
+		<Action>
+			<item>	71	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	201	</id>
+		<name>	每X判斷某怪是否在身邊，準備目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	104	</item>
+		</Condition>
+		<Action>
+			<item>	97	</item>
+			<item>	99	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	202	</id>
+		<name>	重新選擇目標，清標記恢復時間	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	98	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+			<item>	16	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	203	</id>
+		<name>	（攝魂迷陣）互換位置	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	124	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	204	</id>
+		<name>	如果沒有某怪則調整AI等級，發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	114	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	31	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	205	</id>
+		<name>	如果有某BUFF則清除BUFF	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	31	</item>
+		</Condition>
+		<Action>
+			<item>	125	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	206	</id>
+		<name>	每X秒對自身施放自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	108	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	209	</id>
+		<name>	對自身使用自身等級技能後記錄當前時間	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	108	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	210	</id>
+		<name>	如果有某標記則說話放固定技能，換標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	98	</item>
+			<item>	97	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	212	</id>
+		<name>	（封劍神宮）每隔X秒對當前目標施放指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	121	</item>
+			<item>	39	</item>
+			<item>	119	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	213	</id>
+		<name>	（封劍神宮）每隔X秒隨機選擇戰鬥列表中一員為當前目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	214	</id>
+		<name>	（封劍神宮）當一定範圍內的某個特定類型怪物的血量在一定範圍時改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	104	</item>
+			<item>	105	</item>
+		</Condition>
+		<Action>
+			<item>	125	</item>
+			<item>	30	</item>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	215	</id>
+		<name>	（封劍神宮）自身存在某BUFF時候改變當前AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	31	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	216	</id>
+		<name>	（封劍神宮）當自身存在某BUFF時去尋找一定範圍內的特定目標是否具有某個特殊BUFF	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	31	</item>
+			<item>	120	</item>
+		</Condition>
+		<Action>
+			<item>	126	</item>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	217	</id>
+		<name>	戰鬥列表中有某怪，則從列表中清除它	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	115	</item>
+		</Condition>
+		<Action>
+			<item>	127	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	218	</id>
+		<name>	兩怪物聯動發送一起脫離戰鬥的命令	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	17	</item>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	39	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	219	</id>
+		<name>	收到AI命令後復位	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	67	</item>
+		</Condition>
+		<Action>
+			<item>	1	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	220	</id>
+		<name>	每X秒隨機召喚一個沒圖騰的怪	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	128	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+			<item>	119	</item>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	221	</id>
+		<name>	（封劍神宮）召喚餐桌	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	119	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	222	</id>
+		<name>	（封劍神宮）當戰鬥列表中有某目標時關門	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	129	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	223	</id>
+		<name>	（封劍神宮）開/關門	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	129	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	224	</id>
+		<name>	（封劍神宮）收到AI命令改變當前目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	67	</item>
+		</Condition>
+		<Action>
+			<item>	130	</item>
+			<item>	49	</item>
+			<item>	64	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	225	</id>
+		<name>	生命低於%召喚怪物並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	94	</item>
+			<item>	93	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	226	</id>
+		<name>	（封劍神宮）當某標記達到某時間時選擇最高傷害為當前目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	16	</item>
+			<item>	49	</item>
+			<item>	67	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	228	</id>
+		<name>	（封劍神宮）當標記達到某個時間時改變當前AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+			<item>	67	</item>
+			<item>	125	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	229	</id>
+		<name>	（封劍神宮）當一定範圍有特定BUFF的玩家時攻擊該玩家	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	116	</item>
+		</Condition>
+		<Action>
+			<item>	130	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	230	</id>
+		<name>	（封劍神宮）當範圍內內不存在某BUFF/DEBUFF的目標時召喚餐桌	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	117	</item>
+		</Condition>
+		<Action>
+			<item>	121	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	231	</id>
+		<name>	（封劍神宮）無條件初始化標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	232	</id>
+		<name>	（封劍神宮）每隔X秒對自身使用某技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	233	</id>
+		<name>	到達某時間在直接選擇目標並且放帶等級技能，並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	49	</item>
+			<item>	51	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	16	</item>
+			<item>	49	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	234	</id>
+		<name>	到達某時間在直接選擇目標並且放指定技能，並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	49	</item>
+			<item>	26	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	16	</item>
+			<item>	49	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	235	</id>
+		<name>	到達某時間一定範圍內有某怪物則放指定技能並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	104	</item>
+		</Condition>
+		<Action>
+			<item>	99	</item>
+			<item>	49	</item>
+			<item>	26	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	16	</item>
+			<item>	49	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	236	</id>
+		<name>	某怪物血量低於某值，施放指定技能，發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	104	</item>
+			<item>	105	</item>
+		</Condition>
+		<Action>
+			<item>	99	</item>
+			<item>	49	</item>
+			<item>	26	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	16	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	237	</id>
+		<name>	（封劍神宮）一定範圍內沒有某類型的Entity改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	119	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	238	</id>
+		<name>	（封劍神宮）召喚油鍋	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	119	</item>
+			<item>	55	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	239	</id>
+		<name>	（封劍神宮）釋放油鍋	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	121	</item>
+			<item>	67	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	240	</id>
+		<name>	（封劍神宮）自身HP低於某%時對自身使用指定技能且改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	98	</item>
+			<item>	30	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	30	</item>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	241	</id>
+		<name>	（封劍神宮）當自身HP高於某%時改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	29	</item>
+		</Condition>
+		<Action>
+			<item>	125	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	242	</id>
+		<name>	怪物脫離戰鬥狀態後消失（不重置直接消失）	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	87	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	243	</id>
+		<name>	（封劍神宮）水姬和深寒互相復活	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	67	</item>
+			<item>	97	</item>
+			<item>	119	</item>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	244	</id>
+		<name>	（封劍神宮）一定範圍內沒有特定BUFF的玩家時選擇隨機目標攻擊	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	117	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	245	</id>
+		<name>	（封劍神宮）當水姬（深寒）血量下降到某%時記錄時間並且選擇其為當前目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	104	</item>
+			<item>	105	</item>
+		</Condition>
+		<Action>
+			<item>	64	</item>
+			<item>	99	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	246	</id>
+		<name>	（封劍神宮）走向餐桌	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	120	</item>
+			<item>	30	</item>
+			<item>	67	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	247	</id>
+		<name>	（封劍神宮）脫離戰鬥狀態開門	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	24	</item>
+		</Condition>
+		<Action>
+			<item>	129	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	248	</id>
+		<name>	城市管理員心跳	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	131	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	249	</id>
+		<name>	每隔X秒對自身施放指定技能，並喊話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	119	</item>
+			<item>	36	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	251	</id>
+		<name>	當生命值低於%時，對自身使用自身等級技能，喊話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+			<item>	108	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	252	</id>
+		<name>	生命值低於某百分比後召喚同等級怪物，並喊話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	128	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	253	</id>
+		<name>	轉變AI等級，並且說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	31	</item>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	254	</id>
+		<name>	（怪物攻城）某標記時間到達時，NPC喊話，清除標記重新標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	119	</item>
+			<item>	36	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	255	</id>
+		<name>	（怪物攻城）某標記時間達到時，對自身使用指定技能，同時NPC發言，清除標記重新標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	119	</item>
+			<item>	36	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	256	</id>
+		<name>	（怪物攻城）某標記時間達到時，清除某BUFF隨機選擇目標為當前目標同時改變當前AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	125	</item>
+			<item>	16	</item>
+			<item>	49	</item>
+			<item>	30	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	257	</id>
+		<name>	（怪物攻城）某標記時間到達時，改變當前AI等級，且清除標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	258	</id>
+		<name>	（怪物攻城）戰鬥一開始，記錄某時間標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	13	</item>
+		</Condition>
+		<Action>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	259	</id>
+		<name>	生命低於某值，並且不存在某BUFF放技能，並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	33	</item>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	36	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	260	</id>
+		<name>	如果有某BUFF則施放某技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	31	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	261	</id>
+		<name>	生命高於某%並且有某BUFF則清除BUFF	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	29	</item>
+			<item>	31	</item>
+		</Condition>
+		<Action>
+			<item>	125	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	262	</id>
+		<name>	（怪物攻城）每隔X秒，對自身使用指定技能，並且說話和改變當前AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	119	</item>
+			<item>	36	</item>
+			<item>	30	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	263	</id>
+		<name>	（怪物攻城）某標記時間達到XX時，對當前目標施放指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	75	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	264	</id>
+		<name>	（怪物攻城）某標記達到某時間時，清除標記重新設置標記，並且對自身使用技能且說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	119	</item>
+			<item>	36	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	265	</id>
+		<name>	生命低於%說話並改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	31	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	266	</id>
+		<name>	（帶語音）無條件播放語音	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	132	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	267	</id>
+		<name>	（帶語音）到達某時間在直接選擇目標並且放指定技能，並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	49	</item>
+			<item>	26	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	16	</item>
+			<item>	49	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	268	</id>
+		<name>	（帶語音）每X秒隨機召喚一個沒圖騰的怪	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	128	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	269	</id>
+		<name>	（帶語音）生命低於%時召喚一個怪物，發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	93	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	270	</id>
+		<name>	（帶語音）某怪物血量低於某值，施放指定技能，發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	104	</item>
+			<item>	105	</item>
+		</Condition>
+		<Action>
+			<item>	99	</item>
+			<item>	49	</item>
+			<item>	26	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	16	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	271	</id>
+		<name>	（帶語音）如果沒有某怪則調整AI等級，發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	114	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	31	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	272	</id>
+		<name>	（帶語音）（攝魂迷陣）互換位置	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	124	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	273	</id>
+		<name>	（帶語音）到達某時間一定範圍內有某怪物則放指定技能並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	104	</item>
+		</Condition>
+		<Action>
+			<item>	99	</item>
+			<item>	49	</item>
+			<item>	26	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	16	</item>
+			<item>	49	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	274	</id>
+		<name>	（帶語音）生命值降低至某百分比發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	275	</id>
+		<name>	（帶語音）X秒隨機施放技能，並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	100	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	276	</id>
+		<name>	（帶語音）隨機發言，發言後清除計時EAI	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+			<item>	71	</item>
+			<item>	132	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	277	</id>
+		<name>	（帶語音）存在某標記時，對目標施放某技能且說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	26	</item>
+			<item>	98	</item>
+			<item>	97	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	278	</id>
+		<name>	（帶語音）生命值低於某%時，說話且改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	279	</id>
+		<name>	（帶語音）召喚餐桌	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	132	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	280	</id>
+		<name>	（帶語音）召喚油鍋	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+			<item>	107	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	132	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	281	</id>
+		<name>	（帶語音）水姬深寒互相復活	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+			<item>	132	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	67	</item>
+			<item>	97	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	282	</id>
+		<name>	（帶語音）水姬深寒同歸於盡	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	31	</item>
+			<item>	120	</item>
+		</Condition>
+		<Action>
+			<item>	126	</item>
+			<item>	132	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	283	</id>
+		<name>	（怪物攻城）把最高仇恨者設置為所有者並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	133	</item>
+			<item>	134	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	284	</id>
+		<name>	（任務）護法AI模板	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	285	</id>
+		<name>	（怪物攻城）每隔X秒判斷傷害最高者為怪物所有權	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	133	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	286	</id>
+		<name>	無條件，進入戰鬥開始計時	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	135	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	287	</id>
+		<name>	（帶語音）X秒隨機施放技能，並為當前技能計數	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	100	</item>
+			<item>	136	</item>
+			<item>	67	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	288	</id>
+		<name>	（帶語音）水姬深寒互相復活，帶任務標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+			<item>	132	</item>
+			<item>	36	</item>
+			<item>	119	</item>
+			<item>	67	</item>
+			<item>	97	</item>
+			<item>	136	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	289	</id>
+		<name>	（夸父神殿）受擊則轉變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	66	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	290	</id>
+		<name>	（夸父神殿）每隔X秒轉變AI等級，並且清除傷害列表	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	7	</item>
+			<item>	67	</item>
+			<item>	30	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	291	</id>
+		<name>	（夸父神殿）每隔X秒隨機選擇戰鬥列表中的一個目標施放自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	92	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	293	</id>
+		<name>	（帶語音）當目標存在指定BUFF的時候，對目標所在區域使用指定技能，並且在屏幕中心提示	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	57	</item>
+		</Condition>
+		<Action>
+			<item>	132	</item>
+			<item>	119	</item>
+			<item>	36	</item>
+			<item>	149	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	294	</id>
+		<name>	（夸父神殿）每隔X秒，自身不存在指定BUFF時候對自身使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+			<item>	33	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	295	</id>
+		<name>	（帶語音）釋放完某個技能後，通知指定NPC修改AI等級，並喊話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	39	</item>
+		</Condition>
+		<Action>
+			<item>	119	</item>
+			<item>	36	</item>
+			<item>	132	</item>
+			<item>	138	</item>
+			<item>	147	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	296	</id>
+		<name>	（夸父神殿）通知指定ClassName同步血量	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	137	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	297	</id>
+		<name>	（帶語音）轉變自身AI等級，並且向特定怪物發送AI命令	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	132	</item>
+			<item>	7	</item>
+			<item>	30	</item>
+			<item>	39	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	298	</id>
+		<name>	（夸父神殿）戰鬥狀態下，將自身攻擊的目標改為特定怪物的攻擊目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	140	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	299	</id>
+		<name>	（夸父神殿）每隔X秒，如果受到的傷害達到特定值則轉變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+			<item>	66	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	300	</id>
+		<name>	（夸父神殿）每隔X秒，如果未受到傷害則轉變轉變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+			<item>	19	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	301	</id>
+		<name>	（夸父神殿）立即選擇最高傷害為目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	16	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	302	</id>
+		<name>	（夸父神殿）立即隨機選擇戰鬥列表中的目標為當前目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	303	</id>
+		<name>	（帶語音）在使用特定技能後對目標使用指定技能，並且發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	39	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	132	</item>
+			<item>	26	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	304	</id>
+		<name>	（夸父神殿）當目標身上某BUFF時，轉變AI姿態，並清理指定EAI	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	58	</item>
+		</Condition>
+		<Action>
+			<item>	40	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	305	</id>
+		<name>	（帶語音）NPC無條件發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	132	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	306	</id>
+		<name>	（夸父神殿）範圍內不存在指定ClassName怪物則對自身施放指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	114	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	307	</id>
+		<name>	（夸父神殿）每隔X秒，將自身攻擊目標定為特定怪物的攻擊目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	140	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	308	</id>
+		<name>	（夸父神殿）當指定範圍內有特定怪物，則改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	104	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	309	</id>
+		<name>	（夸父神殿）進入戰鬥狀態後，改變指定怪物AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	138	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	310	</id>
+		<name>	（帶語音）每隔X秒對自身施放自身等級技能，並且在屏幕中提示	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	119	</item>
+			<item>	132	</item>
+			<item>	56	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	312	</id>
+		<name>	無條件設置時間標記	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	313	</id>
+		<name>	戰鬥後X秒，召喚怪物並且說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	93	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	314	</id>
+		<name>	怪物血量降低改變當前AI等級並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	315	</id>
+		<name>	（小兔快跑）NPC使用技能並銷毀自身	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	122	</item>
+		</Condition>
+		<Action>
+			<item>	144	</item>
+			<item>	62	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	316	</id>
+		<name>	時間標記到達，自我摧毀	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	62	</item>
+			<item>	67	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	317	</id>
+		<name>	（夸父神殿）生命值減少達到%時打斷引導技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	123	</item>
+		</Condition>
+		<Action>
+			<item>	148	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	318	</id>
+		<name>	（夸父神殿）每X秒記錄一次當前生命值	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	147	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	319	</id>
+		<name>	（夸父神殿）當損耗血量大於%時，對自身施放自身等級技能並且發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	123	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	56	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	320	</id>
+		<name>	（夸父神殿）每隔X秒，自身不存在指定BUFF時候對自身使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+			<item>	33	</item>
+		</Condition>
+		<Action>
+			<item>	56	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	321	</id>
+		<name>	（夸父神殿）每隔X秒對當前目標使用指定技能，並改變指定怪物的AI等級和當前目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+			<item>	138	</item>
+			<item>	140	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	322	</id>
+		<name>	（夸父神殿）每隔X秒，選取特定怪物作為目標攻擊	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	104	</item>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	99	</item>
+			<item>	49	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	323	</id>
+		<name>	怪物血量降低改變當前AI等級並說話	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	324	</id>
+		<name>	（帶語音）每隔X秒，對目標施放自身等級技能，並發言	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	132	</item>
+			<item>	51	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	325	</id>
+		<name>	（夸父神殿）每隔X秒，隨機選取戰鬥列表中的單位當前目標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	96	</item>
+			<item>	49	</item>
+			<item>	119	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	326	</id>
+		<name>	（夸父神殿）無條件將制定NPC從戰鬥列表中移除	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	127	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	327	</id>
+		<name>	（夸父神殿）無條件自我毀滅	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	139	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	328	</id>
+		<name>	（夸父神殿）陷阱招怪	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	128	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	329	</id>
+		<name>	（夸父神殿）指定怪物未死亡，則向指定NPC發送AI命令	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	124	</item>
+			<item>	110	</item>
+		</Condition>
+		<Action>
+			<item>	97	</item>
+			<item>	39	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	330	</id>
+		<name>	（夸父神殿）接收到指定AI命令後死亡	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	67	</item>
+			<item>	110	</item>
+		</Condition>
+		<Action>
+			<item>	139	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	331	</id>
+		<name>	（夸父神殿）接收到AI指令後改變自身當前AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	67	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	332	</id>
+		<name>	（夸父神殿）接受到指定AI指令後使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	67	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+			<item>	140	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	333	</id>
+		<name>	（夸父神殿）使用某技能後，改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	39	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	334	</id>
+		<name>	（夸父神殿）對進入陷阱不存在指定BUFF的單位使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	58	</item>
+		</Condition>
+		<Action>
+			<item>	144	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	335	</id>
+		<name>	（帶語音）在使用特定技能後，對目標所在區域使用特定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	39	</item>
+		</Condition>
+		<Action>
+			<item>	36	</item>
+			<item>	132	</item>
+			<item>	149	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	336	</id>
+		<name>	（帶語音）每隔X秒，向所在space發送事件指令	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+		</Condition>
+		<Action>
+			<item>	150	</item>
+			<item>	36	</item>
+			<item>	132	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	337	</id>
+		<name>	（夸父神殿）神樹通知所在Space血量	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	151	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	338	</id>
+		<name>	（劇情副本）瘟神20%HP時完成任務，同時觸發鏡頭	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	152	</item>
+			<item>	97	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	339	</id>
+		<name>	（夸父神殿）NPC處於某地圖時，播放指定鏡頭軌跡	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	82	</item>
+		</Condition>
+		<Action>
+			<item>	153	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	340	</id>
+		<name>	（夸父神殿）NPC移動到某點後死亡	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	82	</item>
+		</Condition>
+		<Action>
+			<item>	139	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	341	</id>
+		<name>	（劇情副本）20%HP時觸發鏡頭	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	153	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	342	</id>
+		<name>	到達某坐標銷毀	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	82	</item>
+		</Condition>
+		<Action>
+			<item>	62	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	343	</id>
+		<name>	播放技能後銷毀	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	62	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	344	</id>
+		<name>	改變狀態	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	88	</item>
+		</Condition>
+		<Action>
+			<item>	116	</item>
+			<item>	158	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	345	</id>
+		<name>	沒有對話標誌，把AI等級改為0	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	125	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	346	</id>
+		<name>	（陷阱怪物）對進入陷阱的單位使用指定技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	144	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	347	</id>
+		<name>	（陷阱怪物）對進入陷阱的單位使用自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	154	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	348	</id>
+		<name>	（夸父神殿）屍體復活	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	126	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	349	</id>
+		<name>	（夸父神殿）播放技能後銷毀	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	139	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	350	</id>
+		<name>	（表現用）改變固定位置周圍環境物件的模型（限於副本）	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	155	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	351	</id>
+		<name>	（位置施法）為目標所在區域施放自身等級技能	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	156	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	352	</id>
+		<name>	（夸父神殿）使用某技能後改變AI等級	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	39	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	353	</id>
+		<name>	共享所有者給指定怪物	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	127	</item>
+		</Condition>
+		<Action>
+			<item>	157	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	354	</id>
+		<name>	達到某個時間就自殺	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	100	</item>
+		</Condition>
+		<Action>
+			<item>	139	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	355	</id>
+		<name>	（帶語音）當範圍存在某個怪物時，每隔X秒，向所在space發送事件指令	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	15	</item>
+			<item>	104	</item>
+		</Condition>
+		<Action>
+			<item>	150	</item>
+			<item>	36	</item>
+			<item>	132	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	356	</id>
+		<name>	（劇情副本）蚩尤動畫1	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	30	</item>
+		</Condition>
+		<Action>
+			<item>	26	</item>
+			<item>	153	</item>
+			<item>	97	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	357	</id>
+		<name>	（劇情副本）蚩尤動畫2	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	358	</id>
+		<name>	（劇情副本）蚩尤動畫3	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	64	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	359	</id>
+		<name>	（劇情副本）蚩尤動畫4	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	79	</item>
+		</Condition>
+		<Action>
+			<item>	139	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	360	</id>
+		<name>	（劇情副本）鏡頭表現	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	153	</item>
+			<item>	98	</item>
+			<item>	62	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	361	</id>
+		<name>	（劇情副本）鏡頭觸發	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	82	</item>
+		</Condition>
+		<Action>
+			<item>	97	</item>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	362	</id>
+		<name>	（劇情副本）生命值20%，脫離戰鬥狀態	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	53	</item>
+		</Condition>
+		<Action>
+			<item>	15	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	363	</id>
+		<name>	（劇情副本）死亡時召喚蚩尤	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	153	</item>
+			<item>	93	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	364	</id>
+		<name>	（劇情副本）無條件刷新NPC	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	93	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	365	</id>
+		<name>	（劇情副本）擁有標記時，走向某個坐標	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	103	</item>
+		</Condition>
+		<Action>
+			<item>	55	</item>
+			<item>	90	</item>
+			<item>	98	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	366	</id>
+		<name>	（劇情副本）戰鬥改變AI	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>
+			<item>	25	</item>
+		</Condition>
+		<Action>
+			<item>	30	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	367	</id>
+		<name>	（劇情副本）召喚蚩尤時的動畫	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	55	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	368	</id>
+		<name>	（劇情副本）無條件完成任務	</name>
+		<scriptName>	AITemplate:AITemplate	</scriptName>
+		<Condition>	</Condition>
+		<Action>
+			<item>	152	</item>
+		</Action>
+		<comment>	</comment>
+	</row>
+</root>

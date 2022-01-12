@@ -1,0 +1,62 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+		<cancelSaleGoods>
+			<Arg>		INT32		</Arg> <!--物品序号-->
+			<Arg>		MAILBOX		</Arg> <!--玩家mailbox-->
+			<Arg>		STRING		</Arg> <!--玩家名字-->
+		</cancelSaleGoods>
+		<saleGoods>
+			<Arg>		STRING		</Arg> <!--卖家名字-->
+			<Arg>		UINT32		</Arg> <!--寄卖价格-->
+			<Arg>		ITEM		</Arg> <!--寄卖物品-->
+		</saleGoods>
+		<buyGoods>
+			<Arg>		INT32		</Arg> <!-- 物品序号-->
+			<Arg>		UINT32		</Arg> <!-- 玩家拥有的金钱-->
+			<Arg>		MAILBOX		</Arg> <!-- 玩家MAILBOX-->
+		</buyGoods>
+		<queryByType>
+			<Arg>		STRING		</Arg> <!-- 物品类型-->
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg> <!--起始位置-->
+			<Arg>		INT8		</Arg> <!-- 类型标识参数01-->
+			<Arg>		MAILBOX		</Arg> <!-- 玩家mailbox-->
+			<Arg>		STRING		</Arg> <!--玩家名字-->
+		</queryByType>
+		<queryByItemName>
+			<Arg>		STRING		</Arg> <!--物品名字-->
+			<Arg>		INT32		</Arg> <!--起始位置-->
+			<Arg>		MAILBOX		</Arg> <!-- 玩家mailbox-->
+			<Arg>		STRING		</Arg> <!--玩家名字-->
+		</queryByItemName>
+		<queryOwnGoods>
+			<Arg>		INT32		</Arg> <!--起始位置-->
+			<Arg>		MAILBOX		</Arg> <!-- 玩家mailbox-->
+			<Arg>		STRING		</Arg> <!--玩家名字-->
+		</queryOwnGoods>
+		<queryForLogin>
+			<Arg>		MAILBOX		</Arg>	<!---->
+			<Arg>		STRING		</Arg>	<!---->
+		</queryForLogin>
+		<sendItemSuccess>
+			<Arg>		STRING		</Arg> <!--买家名字-->
+			<Arg>		INT32		</Arg> <!--index-->
+		</sendItemSuccess>
+		<sendMoneySuccess>
+			<Arg>		INT32		</Arg> <!--index-->
+		</sendMoneySuccess>
+		<cancelSuccess>
+			<Arg>		INT32		</Arg>	<!--index-->
+		</cancelSuccess>
+	</BaseMethods>
+</root>

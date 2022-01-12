@@ -1,0 +1,19 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+
+	</BaseMethods>
+	<CellMethods>
+		<onProtectTongEnd/>
+		<onTeamDismiss/>
+		<onProtectTongMsg>
+			<Arg>		INT32		</Arg> 
+		</onProtectTongMsg>
+	</CellMethods>
+
+
+</root>

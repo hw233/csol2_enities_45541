@@ -1,0 +1,19 @@
+# -*- coding: gb18030 -*-
+
+
+from SpaceDomainCopyTeam import SpaceDomainCopyTeam
+
+class SpaceDomainPig( SpaceDomainCopyTeam ):
+	"""
+	‡Ω‡Ω÷ÌªÓ∂Ø
+	"""
+	def teleportEntityOnLogin( self, baseMailbox, params ):
+		"""
+		"""
+		spaceItem = self.findSpaceItem( params, False )
+		if spaceItem:
+			spaceItem.logon( baseMailbox )
+		else:
+			baseMailbox.logonSpaceInSpaceCopy()
+
+

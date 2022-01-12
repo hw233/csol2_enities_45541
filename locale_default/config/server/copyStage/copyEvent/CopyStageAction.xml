@@ -1,0 +1,519 @@
+<root>
+	<row>
+		<id>	1	</id>
+		<name>	混沌副本第一个玩家进入副本后的处理	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_HunDun_onFirstEnter	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：混沌副本第一个玩家进入副本后的处理,建立副本与玩家队伍之间的关联。
+该行为是为了建立副本与玩家队伍之间的关联，应该可以规则化，暂时当做特殊行为处理。
+
+
+有CopyStageEvent对象: 这个是指，一个CopyStageEvent要处理的目标，即拥有此关卡的spaceEntity。
+   		</comment>
+	</row>
+	<row>
+		<id>	2	</id>
+		<name>	结束当前关卡，如有下一关卡会自动进入下一关卡。	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_doNextStage	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：结束当前关卡，如有下一关卡会自动进入下一关卡。
+
+
+   		</comment>
+	</row>
+	<row>
+		<id>	3	</id>
+		<name>	踢出所有玩家,关闭副本	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_closeSpace	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：踢出副本内所有玩家,关闭副本。
+
+
+   		</comment>
+	</row>
+	<row>
+		<id>	4	</id>
+		<name>	混沌副本BOSS出场喊话	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_HunDun_onBossAppear	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：混沌副本BOSS出场喊话。
+
+
+   		</comment>
+	</row>
+	<row>
+		<id>	5	</id>
+		<name>	刷指定怪物类型的怪	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_notifySpawnMonster	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：刷指定怪物类型的怪。
+param1	:	怪物类型，配置在副本刷新点中的 monsterType 属性
+
+效果	:	刷出一批刷新点配置中 monsterType 为 param1 的怪物，怪物等级为副本等级
+			适用于用于刷新点类型为 SpawnCopyTemplate 或其子类。
+
+   		</comment>
+	</row>
+	<row>
+		<id>	6	</id>
+		<name>	增加混沌积分	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_HunDun_addIntegral	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：增加混沌积分。
+param1	:	增加的积分数值
+
+效果	:	混沌积分增加 param1
+
+   		</comment>
+	</row>
+	<row>
+		<id>	7	</id>
+		<name>	改变副本内容显示数据	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_setSpaceData	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	副本内容显示数据 ID	</param1>
+		<param2>	改变量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：改变副本内容显示数据。
+param1	:	副本内容显示数据 ID,定义在 csconst.py 文件中
+param2	:	改变量
+
+效果	:	ID 为 param1 的副本显示数据增加或减少一定数量，取决于 param2 的正负，为正增加，为负减少。
+副本显示数据ID代表内容如下 ：
+	273			副本剩余小怪数量
+	274			副本剩余大怪数量
+
+   		</comment>
+	</row>
+	<row>
+		<id>	8	</id>
+		<name>	创建混沌副本中BOSS死亡后的传送门	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_HunDun_createSpaceDoor	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：创建混沌副本中BOSS死亡后的传送门。
+效果	:	创建混沌副本中BOSS死亡后的传送门。
+
+   		</comment>
+	</row>
+	<row>
+		<id>	9	</id>
+		<name>	销毁混沌副本的进入NPC	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_HunDun_destroyEnterNPC	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：销毁混沌副本的进入NPC。
+效果	:	销毁混沌副本的进入NPC。
+
+   		</comment>
+	</row>
+	<row>
+		<id>	10	</id>
+		<name>	向副本内所有玩家广播一条消息	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_broadcastStatusMessage	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：向副本内所有玩家广播一条消息，只能是无额外参数的消息。
+param1	:	消息在 csstatus.py 中的 ID。
+
+效果	:	销毁混沌副本的进入NPC。
+
+   		</comment>
+	</row>
+	<row>
+		<id>	11	</id>
+		<name>	混沌副本数据初始化	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_HunDun_initSpaceData	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+备注：混沌副本数据初始化。
+
+   		</comment>
+	</row>
+	<row>
+		<id>	12	</id>
+		<name>	添加一个用户自定义timer	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_addUserTimer	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象。
+
+备注：添加一个副本timer,如果 interal > 0 ,必须配置删除该timer。
+	 无需撤销且仅一次的延迟调用行为建议直接使用 “delayTime” 配置，使用该种方式需配置相应onTimer事件并接收处理行为，较为复杂。
+param1	：	start	开始时间，第一次处理该timer的时间，类型 ： Float，单位 ： 秒。
+param2	：	interal	间隔时间，处理该timer的间隔时间，即每隔多少秒处理一次，类型 ： Float，单位 ： 秒。
+param3	：	uArg	用户自定义数据，要求大于 0 且小于 10000 的整数，且在同一个副本中不能重复。
+效果	：	会添加一个副本timer，并在 param1 秒后，每隔 param2 秒，在onTimer事件里进行接收处理（根据 param3 接收处理）。
+
+   		</comment>
+	</row>
+	<row>
+		<id>	13	</id>
+		<name>	撤销一个用户自定义timer	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_cancelUserTimer	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	前置条件: 有CopyStageEvent对象，即 spaceEntity。
+
+备注：根据用户自定义数据，撤销一个副本timer
+param1	：	uArg	即用户之前定义的一个 (0, 10000) 的整数，在使用该行为时最好应加上有该timer的判定条件。
+效果	：	撤销一个用户自定义数据为 uArg 的 timer。
+
+   		</comment>
+	</row>
+
+	<!--以下是炼妖壶副本相关action-->
+	<row>
+		<id>	14	</id>
+		<name>	触发指定事件	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_triggerEvent	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	事件ID	</param1>
+		<param2>	事件参数	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	15	</id>
+		<name>	开启事件循环	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_loopEvent	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	事件ID	</param1>
+		<param2>	间隔时间（默认1秒）	</param2>
+		<param3>	重复次数（默认0，表示无限循环）	</param3>
+		<param4>	事件参数（默认是无参数）	</param4>
+		<param5>	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	16	</id>
+		<name>	结束事件循环	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_stopEvent	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	事件ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	17	</id>
+		<name>	指定圆或圆环内部刷新entity	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_createEntityRandomRange	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	class_name	</param1>
+		<param2>	中心位置	</param2>
+		<param3>	最大半径	</param3>
+		<param4>	最小半径（默认是0，即最大半径包围的整个圆内）	</param4>
+		<param5>	entity参数，例如: 'level': 10, 'spawnPos': (0, 0, 0)，
+			属性名称要加上引号，属性和对应的值中间用冒号分隔，多个属性之间用逗号分隔	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	18	</id>
+		<name>	任意方向吹妖风	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_MMT_evilWind	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	19	</id>
+		<name>	记录当前时间	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_recordTime	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	时间点标记	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	20	</id>
+		<name>	从指定位置随机抽取一个位置刷怪	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_createEntityRandomPos	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	class_name	</param1>
+		<param2>	随机位置朝向列表，例如：((0,0,0),(0,0,-2.8)), ((100,0,0),(0,0,-1.2))
+			每隔位置坐标用括号括起来，朝向也是，坐标和对应的朝向也用括号括起来，
+			中间用逗号分隔，多个坐标朝向对之间用逗号分隔，不限空格数量</param2>
+		<param3>	刷怪数量（默认1个）	</param3>
+		<param4>	entity参数，例如: 'level': 10, 'spawnPos': (0, 0, 0)，
+			属性名称要加上引号，属性和对应的值中间用冒号分隔，多个属性之间用逗号分隔	</param4>
+		<param5>	</param5>
+		<comment>	从指定位置随机抽取一个位置刷怪	</comment>
+	</row>
+	<row>
+		<id>	21	</id>
+		<name>	设置指定标识	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_setTemp	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	标识名称	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	设置指定标识	</comment>
+	</row>
+	<row>
+		<id>	22	</id>
+		<name>	移除指定标识	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_removeTemp	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	标识名称	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	移除指定标识	</comment>
+	</row>
+	<row>
+		<id>	23	</id>
+		<name>	增加指定数量的妖气	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_MMT_addEvilSoul	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	增加数量	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	24	</id>
+		<name>	给造成伤害者增加指定数量的妖丹	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_MMT_addElixirToKiller	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	增加数量	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	25	</id>
+		<name>	副本广播	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_broadcastGMMessage	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	消息ID，定义在 cschannel_msgs.py 文件中	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	26	</id>
+		<name>	增加NPC数量记录	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_incNpcRecord	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	className	</param1>
+		<param2>	增加数量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	27	</id>
+		<name>	减少NPC数量记录	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_decNpcRecord	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	className	</param1>
+		<param2>	减少数量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>		</comment>
+	</row>
+	<row>
+		<id>	28	</id>
+		<name>	防守副本刷怪	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_FangShou_spawnMonster	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment> 仅用于防守副本的刷怪，共12波怪，每调用一次刷新一波，12次之后不再刷新		</comment>
+	</row>
+	<row>
+		<id>	29	</id>
+		<name>	带NPC头像的提示	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_portraitTalk	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	提示类型（0表示NPC名字在左边，其他数值右边）	</param1>
+		<param2>	NPC头像ID	</param2>
+		<param3>	提示内容	</param3>
+		<param4>	NPC名称	</param4>
+		<param5>	提示持续时间	</param5>
+		<comment> 带NPC头像的提示		</comment>
+	</row>
+	<row>
+		<id>	30	</id>
+		<name>	玩家进入防守副本	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_FangShou_onEnterCopy	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment> 通知玩家做进入副本处理		</comment>
+	</row>
+	<row>
+		<id>	31	</id>
+		<name>	玩家离开防守副本	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_FangShou_onLeaveCopy	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment> 通知玩家做离开副本处理		</comment>
+	</row>
+	<row>
+		<id>	32	</id>
+		<name>	防守副本机关开启处理	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_FangShou_onGearStarting	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment> 通知副本内所有玩家机关开启		</comment>
+	</row>
+	<row>
+		<id>	33	</id>
+		<name>	防守副本数据初始化	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_FangShou_initSpaceData	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment> 防守副本数据初始化		</comment>
+	</row>
+	<row>
+		<id>	34	</id>
+		<name>	防守副本NPC血量改变处理	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_FangShou_onNpcHPChanged	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment> 防守副本NPC血量改变处理		</comment>
+	</row>
+	<row>
+		<id>	35	</id>
+		<name>	直接广播一条消息	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_Share_broadcastDirectMessage	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment> 	param1	: 频道列表，只能配置在 csdefine.py 中定义的频道，频道之间用空格隔开，如 :  14 18 
+					param2	: 发言者名称，如 : 混沌队长
+					param3	: 消息内容，  如 : 任何人休想擅闯此地
+					效果 ：向副本内所有玩家广播一条“param2 : param3”的频道消息。
+		</comment>
+	</row>
+	<row>
+		<id>	36	</id>
+		<name>	防守副本防御塔创建时记录该防御塔的 id	</name>
+		<scriptName>	CopyStageActions:CopyStageAction_FangShou_onTowerCreate	</scriptName>
+		<delayTime>		0	</delayTime>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment> 
+					效果 ：记录创建的防御塔，用于机关开启时通知该防御塔。
+		</comment>
+	</row>
+</root>

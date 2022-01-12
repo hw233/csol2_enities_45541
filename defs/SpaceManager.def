@@ -1,0 +1,58 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<teleportEntity>
+			<Arg>	STRING 			</Arg>		<!-- spaceName -->
+			<Arg>	VECTOR3 		</Arg>
+			<Arg>	VECTOR3 		</Arg>
+			<Arg>	MAILBOX 		</Arg>
+			<Arg>	PY_DICT			</Arg>
+		</teleportEntity>
+
+		<teleportEntityOnLogin>
+			<Arg>	STRING 			</Arg>		<!-- spaceName -->
+			<Arg>	MAILBOX 		</Arg>
+			<Arg>	PY_DICT			</Arg>
+		</teleportEntityOnLogin>
+
+		<removeSpaceNumber>
+			<Arg>	SPACE_NUMBER		</Arg>		<!-- number -->
+		</removeSpaceNumber>
+
+		<requestNewSpace>
+			<Arg>	STRING	</Arg>	<!-- spaceKey, 空间的关键字 -->
+			<Arg>	MAILBOX	</Arg>	<!-- 空间创建完成后通知的实体mailbox 这个Mailbox上必需有onRequestCell方法 -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</requestNewSpace>
+
+		<createNPCObjectFormBase>
+			<Arg>	STRING		</Arg>	<!-- spaceName -->
+			<Arg>	STRING		</Arg>	<!-- npcID -->
+			<Arg>	POSITION	</Arg>	<!-- dst position -->
+			<Arg>	DIRECTION	</Arg>	<!-- dst direction -->
+			<Arg>	PY_DICT		</Arg>	<!-- additional state, see also cell::BigWorld.createEntity() -->
+		</createNPCObjectFormBase>
+
+		<createCellNPCObjectFormBase>
+			<Arg>	STRING		</Arg>	<!-- spaceName -->
+			<Arg>	STRING		</Arg>	<!-- npcID -->
+			<Arg>	POSITION	</Arg>	<!-- dst position -->
+			<Arg>	DIRECTION	</Arg>	<!-- dst direction -->
+			<Arg>	PY_DICT		</Arg>	<!-- additional state, see also cell::BigWorld.createEntity() -->
+		</createCellNPCObjectFormBase>
+
+		<queryBossesKilledOfCopyTeam>
+			<Arg>	STRING		</Arg>	<!-- spaceName -->
+			<Arg>	MAILBOX 	</Arg>	<!-- querist -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->
+		</queryBossesKilledOfCopyTeam>
+		
+		<remoteCallDomain>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</remoteCallDomain>
+	</BaseMethods>
+</root>

@@ -1,0 +1,30 @@
+<root>
+	<Parent>	Monster		</Parent>
+	<Properties>
+		<owner>
+			<Type>			MAILBOX			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</owner>
+
+		<ownerID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownerID>
+		
+		<toOwnerPos>
+			<Type>			VECTOR3		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</toOwnerPos>
+	</Properties>
+
+	<CellMethods>
+		<setToOwnerPos>
+			<Arg>	VECTOR3	</Arg>
+		</setToOwnerPos>
+	</CellMethods>
+	<ClientMethods>
+	</ClientMethods>
+</root>

@@ -1,0 +1,63 @@
+<root>
+	<Parent>			NPCObject	</Parent>
+
+	<Properties>
+		<plantingTime>		<!--种植时间-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</plantingTime>
+
+		<modelNumber>		<!--果树模型编号-->
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</modelNumber>
+
+		<planterDBID>		<!--种植者DBID-->
+			<Type>			DATABASE_ID		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+		</planterDBID>
+
+		<planterName>		<!--种植者名字-->
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</planterName>
+
+		<pickerDBID>		<!--采集者DBID-->
+			<Type>			DATABASE_ID		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+		</pickerDBID>
+
+		<fruitseedID>		<!--果树种子ID-->
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+		</fruitseedID>
+
+		<isRipe>			<!--是否成熟-->
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+		</isRipe>
+
+	</Properties>
+
+	<CellMethods>
+		<requestData>
+			<Exposed/>
+		</requestData>
+		<onRipe/>
+		<onPick>
+			<Arg>		STRING		</Arg>	<!--picker databaseID-->
+		</onPick>
+	</CellMethods>
+
+	<ClientMethods>
+		<onReceiveData>
+			<Arg>		STRING		</Arg>	<!--modelNumber-->
+			<Arg>		STRING		</Arg>	<!--planterName-->
+			<Arg>		INT32		</Arg>	<!--fruitseedID-->
+			<Arg>		INT32		</Arg>	<!--lastTime-->
+		</onReceiveData>
+		<onReceiveRipeNotice>
+			<Arg>		UINT8		</Arg>	<!--ripeType-->
+		</onReceiveRipeNotice>
+	</ClientMethods>
+</root>

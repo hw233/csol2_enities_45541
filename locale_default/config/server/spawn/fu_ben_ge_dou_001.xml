@@ -1,0 +1,4093 @@
+<root>
+	<entity_1>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.707102 0.000482 -0.707102	</row0>
+			<row1>	-0.000284 0.999995 0.000398	</row1>
+			<row2>	0.707102 -0.000081 0.707102	</row2>
+			<row3>	-203.786331 19.095898 -14.709015	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	2.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.499996 -0.000046 -0.866019	</row0>
+			<row1>	0.000063 0.999995 -0.000089	</row1>
+			<row2>	0.866019 -0.000099 -0.499996	</row2>
+			<row3>	-251.176346 17.961082 -12.204727	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	2.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.258817 0.000150 -0.965918	</row0>
+			<row1>	-0.000136 0.999995 0.000193	</row1>
+			<row2>	0.965918 0.000181 -0.258817	</row2>
+			<row3>	-237.026062 19.743620 -5.801010	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	2.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965919 0.000042 0.258817	</row0>
+			<row1>	-0.000048 0.999994 0.000014	</row1>
+			<row2>	-0.258817 -0.000026 0.965918	</row2>
+			<row3>	-212.842545 16.699217 -18.862885	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	F0993362.48696196.081489AD.97DBA243	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	619C5534.4F568A7D.347A208B.BEF18C5B	</patrolPathNode>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965919 0.000042 0.258817	</row0>
+			<row1>	-0.000048 0.999993 0.000014	</row1>
+			<row2>	-0.258817 -0.000027 0.965918	</row2>
+			<row3>	-214.661484 16.699217 -19.743744	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	F0993362.48696196.081489AD.97DBA243	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	454C0A35.4C0D8C4F.09E3E7A5.79F9B22C	</patrolPathNode>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 -0.000284 0.000000	</row0>
+			<row1>	0.000284 0.999994 -0.000082	</row1>
+			<row2>	0.000000 0.000082 0.999993	</row2>
+			<row3>	-212.491348 16.699217 -16.504158	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	F0993362.48696196.081489AD.97DBA243	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	619C5534.4F568A7D.347A208B.BEF18C5B	</patrolPathNode>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 0.000046 0.000000	</row0>
+			<row1>	-0.000048 0.999994 0.000014	</row1>
+			<row2>	0.000000 -0.000015 0.999993	</row2>
+			<row3>	-216.420334 16.699217 -18.315620	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	F0993362.48696196.081489AD.97DBA243	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	454C0A35.4C0D8C4F.09E3E7A5.79F9B22C	</patrolPathNode>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 0.000185 0.000000	</row0>
+			<row1>	-0.000185 0.999994 0.000053	</row1>
+			<row2>	0.000000 -0.000053 0.999992	</row2>
+			<row3>	-214.955780 16.699217 -15.916435	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	F0993362.48696196.081489AD.97DBA243	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	619C5534.4F568A7D.347A208B.BEF18C5B	</patrolPathNode>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965919 0.000042 0.258817	</row0>
+			<row1>	-0.000048 0.999994 0.000014	</row1>
+			<row2>	-0.258817 -0.000026 0.965918	</row2>
+			<row3>	-213.674622 16.699215 -30.127289	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	F0993362.48696196.081489AD.97DBA243	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	619C5534.4F568A7D.347A208B.BEF18C5B	</patrolPathNode>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965919 0.000042 0.258817	</row0>
+			<row1>	-0.000048 0.999993 0.000014	</row1>
+			<row2>	-0.258817 -0.000027 0.965918	</row2>
+			<row3>	-215.493561 16.699215 -31.008148	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	F0993362.48696196.081489AD.97DBA243	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	454C0A35.4C0D8C4F.09E3E7A5.79F9B22C	</patrolPathNode>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 -0.000284 0.000000	</row0>
+			<row1>	0.000284 0.999994 -0.000082	</row1>
+			<row2>	0.000000 0.000082 0.999993	</row2>
+			<row3>	-213.323425 16.699215 -27.768555	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	F0993362.48696196.081489AD.97DBA243	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	619C5534.4F568A7D.347A208B.BEF18C5B	</patrolPathNode>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 0.000046 0.000000	</row0>
+			<row1>	-0.000048 0.999994 0.000014	</row1>
+			<row2>	0.000000 -0.000015 0.999993	</row2>
+			<row3>	-217.252411 16.695309 -29.580017	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	F0993362.48696196.081489AD.97DBA243	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	454C0A35.4C0D8C4F.09E3E7A5.79F9B22C	</patrolPathNode>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 0.000185 0.000000	</row0>
+			<row1>	-0.000185 0.999994 0.000053	</row1>
+			<row2>	0.000000 -0.000053 0.999992	</row2>
+			<row3>	-215.787857 16.699215 -27.180832	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	F0993362.48696196.081489AD.97DBA243	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	619C5534.4F568A7D.347A208B.BEF18C5B	</patrolPathNode>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866017 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999993 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866017	</row2>
+			<row3>	-206.338760 16.722652 -28.206505	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	66DC4BC0.4F8F273D.E87E3392.786A86CB	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	709F49DA.436CC781.D10A8287.BD188E25	</patrolPathNode>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965916 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965916	</row2>
+			<row3>	-206.930374 16.718746 -32.627640	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	6B5AF1CE.43DD52F7.8E5F9096.269DFB8D	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	C01A1FC8.4909921A.2CA5EC9F.3278231D	</patrolPathNode>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707101 0.000169 -0.707099	</row0>
+			<row1>	-0.000186 0.999994 0.000053	</row1>
+			<row2>	0.707099 0.000093 0.707101	</row2>
+			<row3>	-209.182480 16.708981 -31.661949	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	39AF87AC.4DB19705.0D82BF98.98ADC774	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	B3BF69FD.4707AABA.A63CF481.FC92C4EB	</patrolPathNode>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866017	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	0.866017 0.000187 -0.499995	</row2>
+			<row3>	-208.907623 16.708981 -28.996956	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	D60E8808.4D0214D2.C43A5E8B.DE2E9022	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	D64DAF9B.452DF983.D8AB42BE.F65E1CA5	</patrolPathNode>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999988	</row0>
+			<row1>	-0.000186 0.999991 0.000053	</row1>
+			<row2>	-0.999988 -0.000186 -0.000001	</row2>
+			<row3>	-204.909988 16.734371 -29.911507	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	BBDA6577.4948115F.3AD024AD.6A1C5217	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	4DCD1F25.4A4F5E8D.A1F2CD9A.950DA31E	</patrolPathNode>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.999996 0.000143 0.000000	</row0>
+			<row1>	0.000143 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999996	</row2>
+			<row3>	-156.991180 17.956995 -2.303017	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20154010	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-162.495224 19.318356 -34.242905	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-156.441101 20.179686 -34.459938	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-159.330933 19.751951 -34.315598	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-152.909912 20.509764 -34.501022	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-150.408401 20.755856 -13.859970	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-153.495026 20.701168 -13.734512	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-157.026215 20.642574 -13.693428	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-159.916046 20.619137 -13.549088	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-163.080322 20.117184 -13.476395	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-149.823288 20.707027 -34.626480	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167771 0.985820 0.000000	</row1>
+			<row2>	-0.985819 -0.167771 0.000000	</row2>
+			<row3>	-188.782089 17.208982 -25.423279	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712026	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167771 0.985820 0.000000	</row1>
+			<row2>	-0.985819 -0.167771 0.000000	</row2>
+			<row3>	-148.213593 20.728514 -23.692223	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712027	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866017 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999993 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866017	</row2>
+			<row3>	-193.075882 17.171871 -41.581253	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	ACB4FB21.4ECEDCF4.EB510CAD.F8501053	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	0DEEC91B.4A45CE0F.12D789B6.8E6B4742	</patrolPathNode>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999989	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.999989 -0.000186 -0.000001	</row2>
+			<row3>	-191.647110 17.265621 -43.735893	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	09C3A63F.4824B8DE.2EEEDE94.47E2CEBA	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	D8F4C894.4AE42CBD.738FDA9F.423CE024	</patrolPathNode>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965916 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965916	</row2>
+			<row3>	-193.667496 17.144527 -46.002396	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	1348E749.4028779C.412832BD.6B7043BC	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	FE6B215E.4A15F723.3F7AA9B5.46C0DA2C	</patrolPathNode>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707101 0.000169 -0.707100	</row0>
+			<row1>	-0.000186 0.999994 0.000053	</row1>
+			<row2>	0.707100 0.000093 0.707101	</row2>
+			<row3>	-195.919601 17.031246 -45.036697	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	BF787059.44128EF5.A2C800B6.7D82F080	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	2517E1FF.42D8FAEE.EC9F579E.6C661EF0	</patrolPathNode>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866017	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	0.866017 0.000187 -0.499995	</row2>
+			<row3>	-195.644745 17.046871 -42.371704	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	65A00A05.46C7FBD7.3A0D50A3.5974CB40	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	3573292A.483F1320.C8DBD7A5.C039B127	</patrolPathNode>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866017 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999993 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866017	</row2>
+			<row3>	-172.141220 18.498045 -33.796509	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	081593F8.474D9FB0.709A608A.6533A146	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	26DB5D41.46A30D87.59E0F5A5.00A13A0F	</patrolPathNode>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866017	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	0.866017 0.000187 -0.499995	</row2>
+			<row3>	-174.710083 18.318357 -34.586960	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	081593F8.474D9FB0.709A608A.6533A146	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	63A69AA3.42A7325D.DF32A5B3.9A9B11E2	</patrolPathNode>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707101 0.000169 -0.707100	</row0>
+			<row1>	-0.000186 0.999994 0.000053	</row1>
+			<row2>	0.707100 0.000093 0.707101	</row2>
+			<row3>	-174.984940 18.314451 -37.251953	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	081593F8.474D9FB0.709A608A.6533A146	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	E3C59A2D.4A685593.E3F0EFBD.1FF9C139	</patrolPathNode>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965916 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965916	</row2>
+			<row3>	-172.732834 18.445311 -38.217651	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	081593F8.474D9FB0.709A608A.6533A146	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	0EEC77C5.4B581DA6.E3B94FA9.8E30D2E3	</patrolPathNode>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999989	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.999989 -0.000186 -0.000001	</row2>
+			<row3>	-170.712448 18.556639 -35.951149	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	081593F8.474D9FB0.709A608A.6533A146	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	DB7FA115.4495F573.2756FF9A.81F9B600	</patrolPathNode>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707100 0.000169 -0.707099	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	0.707099 0.000093 0.707100	</row2>
+			<row3>	-180.888107 17.777340 -17.810623	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	12748795.4B2197BC.80F11BA6.837086D0	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	A771072D.43FF3B2C.B1A761AB.5CA06694	</patrolPathNode>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866016	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	0.866016 0.000187 -0.499995	</row2>
+			<row3>	-180.613251 17.753902 -15.145638	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	12748795.4B2197BC.80F11BA6.837086D0	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	512B6B2B.49E1751B.76104BAA.27A2D3CD	</patrolPathNode>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866016 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999992 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866016	</row2>
+			<row3>	-178.044388 17.931637 -14.355186	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	12748795.4B2197BC.80F11BA6.837086D0	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	00DBE1B6.4B199421.1A320C9F.209C4895	</patrolPathNode>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999988	</row0>
+			<row1>	-0.000186 0.999991 0.000053	</row1>
+			<row2>	-0.999988 -0.000186 -0.000001	</row2>
+			<row3>	-176.615616 18.195309 -16.509827	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	12748795.4B2197BC.80F11BA6.837086D0	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	C8208483.45B68F5A.07284ABD.F1B0F95E	</patrolPathNode>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-178.636002 18.005856 -18.776321	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	12748795.4B2197BC.80F11BA6.837086D0	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	474D5409.4A49B60A.F01DF8AF.EBAEA2FD	</patrolPathNode>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866016	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	0.866016 0.000187 -0.499995	</row2>
+			<row3>	-197.762299 16.749996 -11.586319	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	B32DC3FB.4ABC6F24.257AEEA0.20E61ACA	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	BA8336A3.46FC8842.48C8BCB4.818BB13E	</patrolPathNode>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866016 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999992 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866016	</row2>
+			<row3>	-195.193436 16.798824 -10.795868	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	B32DC3FB.4ABC6F24.257AEEA0.20E61ACA	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	9B45699F.4980E51A.87727C81.949C405A	</patrolPathNode>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999988	</row0>
+			<row1>	-0.000186 0.999991 0.000053	</row1>
+			<row2>	-0.999988 -0.000186 -0.000001	</row2>
+			<row3>	-193.764664 16.878902 -12.950516	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	B32DC3FB.4ABC6F24.257AEEA0.20E61ACA	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	1B0ED1BF.4F79F659.7190A889.824C1B88	</patrolPathNode>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-195.785049 16.833981 -15.217003	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	B32DC3FB.4ABC6F24.257AEEA0.20E61ACA	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	120C11B7.4365F853.8A3923A7.7C12DE67	</patrolPathNode>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707100 0.000169 -0.707099	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	0.707099 0.000093 0.707100	</row2>
+			<row3>	-197.620590 16.785152 -14.251312	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	B32DC3FB.4ABC6F24.257AEEA0.20E61ACA	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	312DC278.4405A0BE.0EE899B0.C28CAC2B	</patrolPathNode>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866015 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999992 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866015	</row2>
+			<row3>	-118.818047 20.457027 -26.361626	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	D9D91C5D.41BDAC03.6F5C0AA8.6CB904DE	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	61950AA1.4A129C63.74050ABF.2CC800B9	</patrolPathNode>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866015	</row0>
+			<row1>	-0.000186 0.999991 0.000053	</row1>
+			<row2>	0.866015 0.000187 -0.499995	</row2>
+			<row3>	-121.386917 20.511713 -27.152084	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	D9D91C5D.41BDAC03.6F5C0AA8.6CB904DE	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	FD44F4D2.4534479F.23D3AC99.6CF3AED6	</patrolPathNode>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-119.409660 20.533199 -30.782768	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	D9D91C5D.41BDAC03.6F5C0AA8.6CB904DE	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	28B5F458.4B992D2B.7E2922A1.D94CC015	</patrolPathNode>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707099 0.000169 -0.707099	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	0.707099 0.000093 0.707099	</row2>
+			<row3>	-121.661766 20.546871 -29.817070	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	D9D91C5D.41BDAC03.6F5C0AA8.6CB904DE	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	F4D50A39.48281283.F540F7BE.67872532	</patrolPathNode>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999987	</row0>
+			<row1>	-0.000186 0.999990 0.000053	</row1>
+			<row2>	-0.999987 -0.000186 -0.000001	</row2>
+			<row3>	-116.912231 20.414059 -28.516273	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	D9D91C5D.41BDAC03.6F5C0AA8.6CB904DE	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	4EC14F57.49FDF14B.281AF89E.39860149	</patrolPathNode>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 0.000046 0.000000	</row0>
+			<row1>	-0.000048 0.999994 0.000014	</row1>
+			<row2>	0.000000 -0.000015 0.999993	</row2>
+			<row3>	-143.343079 20.789059 -35.329193	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	664DC7AD.48EC1D68.01E672A4.1E8E7AAC	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	6567D6F6.420F54DB.A931F380.B8CB240A	</patrolPathNode>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965919 0.000042 0.258817	</row0>
+			<row1>	-0.000048 0.999993 0.000014	</row1>
+			<row2>	-0.258817 -0.000027 0.965918	</row2>
+			<row3>	-142.015320 20.789061 -37.351467	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	664DC7AD.48EC1D68.01E672A4.1E8E7AAC	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	AB5F4CBB.42200820.4F305FBA.A9C80D4F	</patrolPathNode>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965919 0.000042 0.258817	</row0>
+			<row1>	-0.000048 0.999994 0.000014	</row1>
+			<row2>	-0.258817 -0.000026 0.965918	</row2>
+			<row3>	-139.765289 20.789061 -36.470600	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	664DC7AD.48EC1D68.01E672A4.1E8E7AAC	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	15FA61D6.4DC18701.19E57CBB.82413E23	</patrolPathNode>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999992 -0.000284 0.000000	</row0>
+			<row1>	0.000284 0.999993 -0.000082	</row1>
+			<row2>	0.000000 0.000082 0.999992	</row2>
+			<row3>	-139.278198 20.789061 -34.572342	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	664DC7AD.48EC1D68.01E672A4.1E8E7AAC	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	32186D75.4C7C0EA5.B56AFC9E.8327DC7E	</patrolPathNode>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 0.000185 0.000000	</row0>
+			<row1>	-0.000185 0.999994 0.000053	</row1>
+			<row2>	0.000000 -0.000053 0.999992	</row2>
+			<row3>	-141.646545 20.789059 -33.425522	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	664DC7AD.48EC1D68.01E672A4.1E8E7AAC	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	62584A9C.4D1E2B6A.9FE9308C.0A46CA88	</patrolPathNode>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-128.570724 20.789059 -47.934837	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	5A700C13.409842B8.C51A34BE.CD7AF680	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	247DE3A0.4D2D3E77.EDEA9D8B.97FBCFB2	</patrolPathNode>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-125.808479 20.789059 -50.778019	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	5A700C13.409842B8.C51A34BE.CD7AF680	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	CB93589A.4AC1BF3C.70117ABC.1CE2CC0F	</patrolPathNode>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-128.304947 20.789059 -51.539577	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	5A700C13.409842B8.C51A34BE.CD7AF680	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	331EF257.484C8608.F8982598.D995F497	</patrolPathNode>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-129.800995 20.789059 -50.086861	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	5A700C13.409842B8.C51A34BE.CD7AF680	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	14302403.4AD6C6BD.89F55A9B.F2078092	</patrolPathNode>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-126.066238 20.789057 -48.718113	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	5A700C13.409842B8.C51A34BE.CD7AF680	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	D94389FB.4AE57690.ED57A7B6.CA5F8494	</patrolPathNode>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-107.641922 20.744139 -45.263908	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	A78D1B67.4EFB6595.FE92B781.23503713	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	57B939AA.48076B66.154A5FA6.65164025	</patrolPathNode>
+		</properties>
+	</entity_67>
+	<entity_68>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-105.137428 20.654295 -46.047180	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	A78D1B67.4EFB6595.FE92B781.23503713	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	D63040E2.412728C6.BB4667A0.2311A7CC	</patrolPathNode>
+		</properties>
+	</entity_68>
+	<entity_69>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-104.879677 20.562498 -48.107098	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	A78D1B67.4EFB6595.FE92B781.23503713	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	EAB3FE1D.40BF9C99.F0F98692.7BA383D9	</patrolPathNode>
+		</properties>
+	</entity_69>
+	<entity_70>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-106.888084 20.652340 -48.868664	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	A78D1B67.4EFB6595.FE92B781.23503713	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	623CF9ED.4F8B86EA.93F96C8B.1E7FA6BD	</patrolPathNode>
+		</properties>
+	</entity_70>
+	<entity_71>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-108.872192 20.775389 -47.415932	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	A78D1B67.4EFB6595.FE92B781.23503713	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	BC1B97F5.4B6D3D45.603504BC.34C1A9A9	</patrolPathNode>
+		</properties>
+	</entity_71>
+	<entity_72>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965919 0.000042 0.258817	</row0>
+			<row1>	-0.000048 0.999993 0.000014	</row1>
+			<row2>	-0.258817 -0.000027 0.965918	</row2>
+			<row3>	-133.158432 20.800779 -11.469017	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	FC4BCDE8.45C2CB1F.16F0ADB9.98BE9F96	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	47571C4D.40BA513E.CED51CB1.F9D046AA	</patrolPathNode>
+		</properties>
+	</entity_72>
+	<entity_73>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965919 0.000042 0.258817	</row0>
+			<row1>	-0.000048 0.999994 0.000014	</row1>
+			<row2>	-0.258817 -0.000026 0.965918	</row2>
+			<row3>	-130.908401 20.800779 -10.588150	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	FC4BCDE8.45C2CB1F.16F0ADB9.98BE9F96	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	1AD8D58E.4F748ACA.52DAB6A2.79366051	</patrolPathNode>
+		</properties>
+	</entity_73>
+	<entity_74>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999992 -0.000284 0.000000	</row0>
+			<row1>	0.000284 0.999993 -0.000082	</row1>
+			<row2>	0.000000 0.000082 0.999992	</row2>
+			<row3>	-130.421310 20.800779 -8.689896	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	FC4BCDE8.45C2CB1F.16F0ADB9.98BE9F96	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	063D9BE4.4501C62A.3E1F039D.B1B92D65	</patrolPathNode>
+		</properties>
+	</entity_74>
+	<entity_75>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 0.000185 0.000000	</row0>
+			<row1>	-0.000185 0.999994 0.000053	</row1>
+			<row2>	0.000000 -0.000053 0.999992	</row2>
+			<row3>	-132.789642 20.800779 -7.543068	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	FC4BCDE8.45C2CB1F.16F0ADB9.98BE9F96	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	B71F0FA1.4B37172F.0B9EC39E.154A5A57	</patrolPathNode>
+		</properties>
+	</entity_75>
+	<entity_76>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 0.000046 0.000000	</row0>
+			<row1>	-0.000048 0.999994 0.000014	</row1>
+			<row2>	0.000000 -0.000015 0.999993	</row2>
+			<row3>	-134.486176 20.800779 -9.446739	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	FC4BCDE8.45C2CB1F.16F0ADB9.98BE9F96	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	99C4D86E.4B94809C.327D34B4.B7CE2BB2	</patrolPathNode>
+		</properties>
+	</entity_76>
+	<entity_77>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-113.381180 20.566404 -0.574165	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	C90284EC.4F0F7108.77441189.0CB8FA00	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	9CC048DE.4FEE58AE.0D00B7B4.8BBE6A0F	</patrolPathNode>
+		</properties>
+	</entity_77>
+	<entity_78>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-115.877647 20.630857 -1.335724	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	C90284EC.4F0F7108.77441189.0CB8FA00	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	EF60BEC0.4F590BDE.06BBB6B0.A1868AA3	</patrolPathNode>
+		</properties>
+	</entity_78>
+	<entity_79>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.000001 -0.000640 0.999996	</row0>
+			<row1>	0.002052 0.999994 0.000640	</row1>
+			<row2>	-0.999993 0.002052 0.000000	</row2>
+			<row3>	-150.396423 17.955456 5.406263	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20154010	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_79>
+	<entity_80>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000010 0.999996	</row0>
+			<row1>	-0.000033 0.999996 -0.000010	</row1>
+			<row2>	-0.999995 -0.000033 -0.000001	</row2>
+			<row3>	-150.487305 17.957005 2.221925	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20154010	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_80>
+	<entity_81>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499997 0.000000 -0.866018	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.866018 0.000000 0.499997	</row2>
+			<row3>	-130.869629 30.149261 36.136513	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	50.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.600000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_81>
+	<entity_82>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-113.638931 20.652342 1.485752	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	C90284EC.4F0F7108.77441189.0CB8FA00	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	3CA82B6A.4C57EE84.DB2E869A.A6E791AC	</patrolPathNode>
+		</properties>
+	</entity_82>
+	<entity_83>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-115.979858 20.701168 2.269023	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	C90284EC.4F0F7108.77441189.0CB8FA00	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	93735493.4A74E931.CB04C5AD.21721991	</patrolPathNode>
+		</properties>
+	</entity_83>
+	<entity_84>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-117.373695 20.708982 0.117001	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	C90284EC.4F0F7108.77441189.0CB8FA00	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	5F0DEA9F.44F40121.06E972B7.AFB231DF	</patrolPathNode>
+		</properties>
+	</entity_84>
+	<entity_85>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499997 0.000000 -0.866016	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	0.866016 0.000000 0.499997	</row2>
+			<row3>	-19.119499 13.750343 -60.755295	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	50.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_85>
+	<entity_86>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-46.581665 21.498663 -16.268471	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.600000	</modelScale>
+			<radius>	6.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_86>
+	<entity_87>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-44.909843 21.297670 -20.736313	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	8.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_87>
+	<entity_88>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	-46.208576 21.451632 -18.215714	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	8	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_88>
+	<entity_89>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-1.822197 23.750486 -16.685127	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	9.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_89>
+	<entity_90>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-2.591507 23.478968 -20.357086	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.600000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_90>
+	<entity_91>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	-37.195824 21.006580 -21.683624	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.800000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_91>
+	<entity_92>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258818 0.000000 0.965920	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	-0.965920 0.000000 0.258818	</row2>
+			<row3>	-32.067596 19.506762 -15.823189	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_007.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	0.400000	</modelScale>
+			<radius>	1.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	19.700001	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	0	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.100000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.040000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_92>
+	<entity_93>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499997 0.000332 -0.866016	</row0>
+			<row1>	-0.000166 0.999991 0.000287	</row1>
+			<row2>	0.866016 0.000000 0.499997	</row2>
+			<row3>	-2.500336 34.766369 -3.285629	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	creature/he/ty_he_m.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	50.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	30.000000	</heightClipMin>
+			<heightClipMax>	50.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.500000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_93>
+	<entity_94>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	-26.010818 21.611462 -13.539093	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_qing_ting_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	2.000000	</modelScale>
+			<radius>	7.000000	</radius>
+			<approachRadius>	1.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.010000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_94>
+	<entity_95>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-30.739853 19.222654 -49.362583	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_95>
+	<entity_96>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707100 0.000169 -0.707099	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	0.707099 0.000093 0.707100	</row2>
+			<row3>	-32.991959 19.447264 -48.396885	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_96>
+	<entity_97>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999988	</row0>
+			<row1>	-0.000186 0.999991 0.000053	</row1>
+			<row2>	-0.999988 -0.000186 -0.000001	</row2>
+			<row3>	-28.719475 19.171873 -47.096081	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_97>
+	<entity_98>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866016	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	0.866016 0.000187 -0.499995	</row2>
+			<row3>	-32.717102 19.326170 -45.731892	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_98>
+	<entity_99>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866016 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999992 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866016	</row2>
+			<row3>	-30.148239 19.222654 -44.941441	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_99>
+	<entity_100>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-32.431870 19.220701 -42.942371	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_100>
+	<entity_101>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-30.524216 19.232420 -46.927597	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_101>
+	<entity_102>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-29.252563 19.351561 -42.214142	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_102>
+	<entity_103>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-29.263130 19.291014 -23.980484	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_103>
+	<entity_104>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707100 0.000169 -0.707099	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	0.707099 0.000093 0.707100	</row2>
+			<row3>	-31.515236 19.007811 -23.014786	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_104>
+	<entity_105>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-29.047493 19.130857 -21.545494	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_105>
+	<entity_106>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999988	</row0>
+			<row1>	-0.000186 0.999991 0.000053	</row1>
+			<row2>	-0.999988 -0.000186 -0.000001	</row2>
+			<row3>	-27.242752 19.259764 -21.713974	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_106>
+	<entity_107>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866016	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	0.866016 0.000187 -0.499995	</row2>
+			<row3>	-31.240379 19.017576 -20.349792	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_107>
+	<entity_108>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866016 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999992 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866016	</row2>
+			<row3>	-28.671516 19.107420 -19.559341	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_108>
+	<entity_109>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-30.955147 19.097654 -17.560272	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_109>
+	<entity_110>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-27.775841 19.130857 -16.832039	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_110>
+	<entity_111>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-31.408997 19.076170 -35.081940	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_111>
+	<entity_112>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-28.912529 19.339842 -34.320374	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_112>
+	<entity_113>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-32.905045 19.115232 -33.629227	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_113>
+	<entity_114>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-29.170280 19.271482 -32.260468	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_114>
+	<entity_115>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-31.674774 19.078123 -31.477203	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_115>
+	<entity_116>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-33.725311 19.642576 -7.531204	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_116>
+	<entity_117>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-31.228851 19.964842 -6.769638	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_117>
+	<entity_118>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-35.221359 19.505857 -6.078491	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_118>
+	<entity_119>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-31.486603 19.859373 -4.709732	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_119>
+	<entity_120>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-33.991089 19.601561 -3.926468	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_120>
+	<entity_121>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167771 0.985820 0.000000	</row1>
+			<row2>	-0.985819 -0.167771 0.000000	</row2>
+			<row3>	-0.121635 22.654295 -8.162132	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712026	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_121>
+	<entity_122>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167771 0.985820 0.000000	</row1>
+			<row2>	-0.985819 -0.167771 0.000000	</row2>
+			<row3>	-84.571892 19.705076 -16.278946	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712027	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_122>
+	<entity_123>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167771 0.985820 0.000000	</row1>
+			<row2>	-0.985819 -0.167771 0.000000	</row2>
+			<row3>	-48.259453 20.791012 -35.598114	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712027	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_123>
+	<entity_124>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167771 0.985820 0.000000	</row1>
+			<row2>	-0.985819 -0.167771 0.000000	</row2>
+			<row3>	-56.921284 20.492184 -21.533501	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712025	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_124>
+	<entity_125>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167771 0.985820 0.000000	</row1>
+			<row2>	-0.985819 -0.167771 0.000000	</row2>
+			<row3>	-48.479332 20.556637 -7.264908	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712026	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_125>
+	<entity_126>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999992 -0.000284 0.000000	</row0>
+			<row1>	0.000284 0.999993 -0.000082	</row1>
+			<row2>	0.000000 0.000082 0.999992	</row2>
+			<row3>	-92.003403 19.955076 -2.198944	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	3985D959.420981D2.B9D20787.491BAE9B	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	DD393317.4F71E019.7F994F9A.172381C2	</patrolPathNode>
+		</properties>
+	</entity_126>
+	<entity_127>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 0.000185 0.000000	</row0>
+			<row1>	-0.000185 0.999994 0.000053	</row1>
+			<row2>	0.000000 -0.000053 0.999992	</row2>
+			<row3>	-94.371735 20.050779 -1.052124	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	3985D959.420981D2.B9D20787.491BAE9B	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	50E9710D.411CD414.095E47B3.7F9DDBBA	</patrolPathNode>
+		</properties>
+	</entity_127>
+	<entity_128>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.999993 0.000046 0.000000	</row0>
+			<row1>	-0.000048 0.999994 0.000014	</row1>
+			<row2>	0.000000 -0.000015 0.999993	</row2>
+			<row3>	-96.068230 19.980465 -2.955811	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	3985D959.420981D2.B9D20787.491BAE9B	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	C38E2B49.47A8B514.7D0DAFA2.19DE7C03	</patrolPathNode>
+		</properties>
+	</entity_128>
+	<entity_129>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965919 0.000042 0.258817	</row0>
+			<row1>	-0.000048 0.999993 0.000014	</row1>
+			<row2>	-0.258817 -0.000027 0.965918	</row2>
+			<row3>	-94.740524 19.871092 -4.978073	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	3985D959.420981D2.B9D20787.491BAE9B	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	6477A9C3.453B0FE6.022B808A.811095AC	</patrolPathNode>
+		</properties>
+	</entity_129>
+	<entity_130>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965919 0.000042 0.258817	</row0>
+			<row1>	-0.000048 0.999994 0.000014	</row1>
+			<row2>	-0.258817 -0.000026 0.965918	</row2>
+			<row3>	-92.490494 19.873045 -4.097206	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711019	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	3985D959.420981D2.B9D20787.491BAE9B	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	D152D65E.493D6738.8680B3B8.73B7F33A	</patrolPathNode>
+		</properties>
+	</entity_130>
+	<entity_131>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-84.134933 19.701168 -10.405518	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	3B22B6F1.445CB5CB.D42DF987.E8F82D06	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	62D71F8C.485F7B3D.1D80F7B1.C5BA0660	</patrolPathNode>
+		</properties>
+	</entity_131>
+	<entity_132>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-83.877182 19.691402 -12.465439	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	3B22B6F1.445CB5CB.D42DF987.E8F82D06	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	D8F7BF79.46E221DF.34FC9F8E.81111327	</patrolPathNode>
+		</properties>
+	</entity_132>
+	<entity_133>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-86.373650 19.683590 -13.226997	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	3B22B6F1.445CB5CB.D42DF987.E8F82D06	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	33C5600E.4E255104.821AE7A1.7665777C	</patrolPathNode>
+		</properties>
+	</entity_133>
+	<entity_134>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-87.869698 19.685543 -11.774269	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	3B22B6F1.445CB5CB.D42DF987.E8F82D06	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	67860E13.40040C2C.09E91F84.C42F12D5	</patrolPathNode>
+		</properties>
+	</entity_134>
+	<entity_135>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167629 0.985844 0.000000	</row1>
+			<row2>	-0.985843 -0.167630 0.000000	</row2>
+			<row3>	-86.639427 19.708981 -9.622246	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711018	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	3B22B6F1.445CB5CB.D42DF987.E8F82D06	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	96C99915.479DEE1F.2E6F1598.A01968F5	</patrolPathNode>
+		</properties>
+	</entity_135>
+	<entity_136>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866015 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999991 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866015	</row2>
+			<row3>	-84.286407 19.798826 -22.642479	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	623DB06A.45920EBA.A89D9DB6.E8B6D330	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	FEA564ED.4879CF6B.FBD4F19C.567AEA33	</patrolPathNode>
+		</properties>
+	</entity_136>
+	<entity_137>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999987	</row0>
+			<row1>	-0.000186 0.999990 0.000053	</row1>
+			<row2>	-0.999987 -0.000186 -0.000001	</row2>
+			<row3>	-82.857635 19.880857 -24.797119	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	623DB06A.45920EBA.A89D9DB6.E8B6D330	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	30FAFE2F.4C47A331.E374B785.AE9E4DDA	</patrolPathNode>
+		</properties>
+	</entity_137>
+	<entity_138>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965914 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999991 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965914	</row2>
+			<row3>	-84.878021 19.949217 -27.063622	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	623DB06A.45920EBA.A89D9DB6.E8B6D330	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	352693F7.4DED4C14.5688ACB8.BD4A398D	</patrolPathNode>
+		</properties>
+	</entity_138>
+	<entity_139>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707099 0.000169 -0.707098	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	0.707098 0.000093 0.707099	</row2>
+			<row3>	-87.130127 19.945311 -26.097923	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	623DB06A.45920EBA.A89D9DB6.E8B6D330	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	62F7E328.40E8B0B5.475C8D89.C45D8523	</patrolPathNode>
+		</properties>
+	</entity_139>
+	<entity_140>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866015	</row0>
+			<row1>	-0.000186 0.999991 0.000053	</row1>
+			<row2>	0.866015 0.000187 -0.499995	</row2>
+			<row3>	-86.855270 19.796873 -23.432930	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	623DB06A.45920EBA.A89D9DB6.E8B6D330	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	84B20D03.48F7D761.C2C8F281.00F54456	</patrolPathNode>
+		</properties>
+	</entity_140>
+	<entity_141>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866016 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999992 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866016	</row2>
+			<row3>	-65.371902 21.089840 -47.654526	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	BB92FC1F.4A6E47C5.7F4002B8.192E78C4	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	A83977EE.485F286C.850C709C.27A06176	</patrolPathNode>
+		</properties>
+	</entity_141>
+	<entity_142>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866016	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	0.866016 0.000187 -0.499995	</row2>
+			<row3>	-67.940765 21.259762 -48.444977	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	BB92FC1F.4A6E47C5.7F4002B8.192E78C4	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	8D488811.466F910C.408D119B.82E34C02	</patrolPathNode>
+		</properties>
+	</entity_142>
+	<entity_143>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707100 0.000169 -0.707099	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	0.707099 0.000093 0.707100	</row2>
+			<row3>	-68.215622 21.173824 -51.109970	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	BB92FC1F.4A6E47C5.7F4002B8.192E78C4	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	8C85EA25.4D98B254.FAB0E382.711861C2	</patrolPathNode>
+		</properties>
+	</entity_143>
+	<entity_144>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-65.963516 21.255856 -52.075668	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	BB92FC1F.4A6E47C5.7F4002B8.192E78C4	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	1AF50EDF.4873881B.36DCFAA5.2A94AFA6	</patrolPathNode>
+		</properties>
+	</entity_144>
+	<entity_145>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999988	</row0>
+			<row1>	-0.000186 0.999991 0.000053	</row1>
+			<row2>	-0.999988 -0.000186 -0.000001	</row2>
+			<row3>	-63.943138 21.160152 -49.809166	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	BB92FC1F.4A6E47C5.7F4002B8.192E78C4	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	C5DC86F9.4EC4DCF5.3EE353A2.DB69C208	</patrolPathNode>
+		</properties>
+	</entity_145>
+	<entity_146>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-35.210526 21.060591 7.624545	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_005.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_146>
+	<entity_147>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-5.387886 23.414021 4.846241	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_002.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.600000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_147>
+	<entity_148>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-55.881645 21.253180 6.504248	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.500000	</modelScale>
+			<radius>	9.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_148>
+	<entity_149>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-53.866600 21.453091 6.429245	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_001.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.600000	</modelScale>
+			<radius>	9.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_149>
+	<entity_150>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	-39.233906 19.250444 13.259254	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_006.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	0.500000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	19.700001	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	0	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.100000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.040000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_150>
+	<entity_151>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258818 0.000000 0.965921	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	-0.965921 0.000000 0.258818	</row2>
+			<row3>	-35.540848 19.246088 8.967469	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_005.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	0.600000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<heightClipMin>	19.299000	</heightClipMin>
+			<heightClipMax>	19.680000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.100000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.060000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_151>
+	<entity_152>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258818 0.000000 0.965921	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	-0.965921 0.000000 0.258818	</row2>
+			<row3>	-36.093380 19.236286 11.653946	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_005.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	0.600000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<heightClipMin>	19.299000	</heightClipMin>
+			<heightClipMax>	19.680000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.100000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.060000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_152>
+	<entity_153>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999994	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.999994 0.000000 0.000000	</row2>
+			<row3>	-36.715328 19.249994 10.847213	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_006.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	0.500000	</modelScale>
+			<radius>	3.000000	</radius>
+			<approachRadius>	5.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	19.700001	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	0	</pitchEnable>
+			<rollEnable>	0	</rollEnable>
+			<collisionFraction>	0.100000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.040000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_153>
+	<entity_154>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-35.392105 19.142576 6.587127	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_154>
+	<entity_155>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.707100 0.000169 -0.707099	</row0>
+			<row1>	-0.000186 0.999993 0.000053	</row1>
+			<row2>	0.707099 0.000093 0.707100	</row2>
+			<row3>	-37.644215 19.263670 7.552825	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_155>
+	<entity_156>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 -0.000054 0.999988	</row0>
+			<row1>	-0.000186 0.999991 0.000053	</row1>
+			<row2>	-0.999988 -0.000186 -0.000001	</row2>
+			<row3>	-33.371735 18.941404 8.853629	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_156>
+	<entity_157>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.499995 -0.000047 -0.866016	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	0.866016 0.000187 -0.499995	</row2>
+			<row3>	-37.369358 19.144529 10.217818	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_157>
+	<entity_158>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	-0.866016 0.000147 0.499995	</row0>
+			<row1>	0.000146 0.999992 -0.000042	</row1>
+			<row2>	-0.499995 0.000036 -0.866016	</row2>
+			<row3>	-34.800491 18.923826 11.008269	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	0	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_158>
+	<entity_159>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-35.088028 18.970701 9.165048	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_159>
+	<entity_160>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-31.376549 18.986326 11.234457	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_160>
+	<entity_161>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.965915 0.000165 0.258818	</row0>
+			<row1>	-0.000186 0.999992 0.000053	</row1>
+			<row2>	-0.258818 -0.000100 0.965915	</row2>
+			<row3>	-32.335831 19.019529 7.250889	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20711020	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_161>
+	<entity_162>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	14.726532 23.782509 -15.235954	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	1.600000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_162>
+	<entity_163>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999994 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999994	</row2>
+			<row3>	22.174385 23.780079 -16.211243	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_003.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.700000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_163>
+	<entity_164>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.707102 0.000000 -0.707102	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	0.707102 0.000000 0.707102	</row2>
+			<row3>	6.606462 23.698254 -14.123207	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hu_die_004.model	</modelFile>
+			<amount>	2	</amount>
+			<modelScale>	2.000000	</modelScale>
+			<radius>	4.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<heightClipMin>	-10000000.000000	</heightClipMin>
+			<heightClipMax>	10000000.000000	</heightClipMax>
+			<yawEnable>	1	</yawEnable>
+			<pitchEnable>	1	</pitchEnable>
+			<rollEnable>	1	</rollEnable>
+			<collisionFraction>	10.000000	</collisionFraction>
+			<influenceRadius>	1.000000	</influenceRadius>
+			<speed>	0.030000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<waterHeight>	0.000000	</waterHeight>
+			<hardPoint>	</hardPoint>
+			<effectID>	</effectID>
+			<triggerLoopTime>	12.000000	</triggerLoopTime>
+			<actionID>	</actionID>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_164>
+	<entity_165>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167771 0.985820 0.000000	</row1>
+			<row2>	-0.985819 -0.167771 0.000000	</row2>
+			<row3>	15.688590 22.929686 -22.987236	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20714016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	1	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	1	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_165>
+	<entity_166>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167771 0.985820 0.000000	</row1>
+			<row2>	-0.985819 -0.167771 0.000000	</row2>
+			<row3>	1.354339 23.148436 -18.207504	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712025	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_166>
+	<entity_167>
+		<type>	SpawnPointChallenge	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999994	</row0>
+			<row1>	-0.167771 0.985820 0.000000	</row1>
+			<row2>	-0.985819 -0.167771 0.000000	</row2>
+			<row3>	1.367859 22.833982 -28.878899	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712027	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<monsterType>	0	</monsterType>
+			<level>	1	</level>
+			<challengeLevel>	1	</challengeLevel>
+			<challengeRank>	0	</challengeRank>
+			<challengeTMembers>	0	</challengeTMembers>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_167>
+</root>

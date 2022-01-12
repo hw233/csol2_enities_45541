@@ -1,0 +1,19 @@
+<root>
+		<spaceName>	天降奇兽	</spaceName>
+		<EntityType>	SpaceCopyDragon	</EntityType>
+		<DomainType>	SpaceDomainDragon	</DomainType>
+		<script>	SpaceCopyDragon	</script>
+		<SpaceType>	SPACE_TYPE_DRAGON	</SpaceType>
+		<className>	fu_ben_tian_jiang_qi_shou	</className>
+		<dirMapping>	universes/fu_ben_lin_di	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/tian_jiang_qi_shou.xml </spawnFile>
+		<waitingCycle>	10	</waitingCycle>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

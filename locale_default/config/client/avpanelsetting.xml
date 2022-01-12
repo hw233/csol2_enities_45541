@@ -1,0 +1,14 @@
+<root>
+	<wndMode>  1  </wndMode>  <!-- 是否窗口模式 -->
+	<resolution>			  <!-- 分辨率 -->
+		<modeIndex>	8	</modeIndex>
+		<windowWidth>	1024	</windowWidth>
+		<windowHeight>  768	</windowHeight>
+		<windowRoot>  32  </windowRoot>
+	</resolution>
+	<vSyn>  1  </vSyn>        <!-- 是否垂直同步 -->
+	<peDiy>  1  </peDiy>	  <!-- 预定义效果 -->
+	<bgMU>  0.5 </bgMU>		  <!-- 背景音乐 -->
+	<sceneMU> 0.5 </sceneMU>	  <!-- 场景音效 -->
+	<totalMU> 0.5 </totalMU>  <!-- 音效音量 -->
+</root>

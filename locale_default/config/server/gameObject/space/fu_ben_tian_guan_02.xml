@@ -1,0 +1,143 @@
+<root>
+		<spaceName>	天关1号	</spaceName>
+		<EntityType>	SpaceCopyTianguan	</EntityType>
+		<DomainType>	SpaceDomainTianguan	</DomainType>
+		<script>	SpaceCopyTianguan	</script>
+		<SpaceType>	SPACE_TYPE_TIAN_GUAN	</SpaceType>
+		<className>	fu_ben_tian_guan_02	</className>
+		<dirMapping>	universes/fu_ben_tian_guan_02	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_tian_guan_02.xml </spawnFile>
+		<total_gates_count>	6 </total_gates_count>
+		<waitingCycle>	10	</waitingCycle>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<playerEnterPoint>
+				<pos>	0 0 0	</pos>
+				<direction>	0 127.764 0			</direction>
+			</playerEnterPoint>
+			<Transport>
+				<item>
+					<Name> door1 </Name>
+					<Pos> 0 0 0 </Pos>
+					<radius> 0 0 0 </radius>
+					<Sign>1</Sign>
+				</item>			
+			</Transport>
+			<Door>
+				<!-- 切换点tag -->
+				<row1>
+					<Name>	传送点		</Name>
+					<Pos>	-236.903 41.077 11.162	</Pos>
+					<radius>		2		</radius>
+					<DestSpace>	fu_ben_tian_guan_02	</DestSpace>
+					<DestPos>   -149.389  52.3  50.04	</DestPos>
+					<DestDirection> 0.0  74.998999999999995  0.0	</DestDirection>
+					<level> 1 </level>
+					<modelNumber>	gw7123	</modelNumber>
+					<modelScale>	50	</modelScale>
+				</row1>
+				<row2>
+					<Name>	传送点		</Name>
+					<Pos>	-153.132 53.263 49.014	</Pos>
+					<radius>		2		</radius>
+					<DestSpace>	fu_ben_tian_guan_02	</DestSpace>
+					<DestPos>   -240.539  39.9  8.939	</DestPos>
+					<DestDirection> 0.0  -120  0.0	</DestDirection>
+					<level> 1 </level>
+					<modelNumber>	gw7123	</modelNumber>
+					<modelScale>	50	</modelScale>
+				</row2>
+				<row3>
+
+					<Name>	传送点		</Name>
+					<Pos>	-111.792 53.287 37.741	</Pos>
+					<radius>		2		</radius>
+					<DestSpace>	fu_ben_tian_guan_02	</DestSpace>
+					<DestPos>   -38.19  39.5  -27.362	</DestPos>
+					<DestDirection> 0.0  135.0  0.0	</DestDirection>
+					<level> 2 </level>
+					<modelNumber>	gw7123	</modelNumber>
+					<modelScale>	50	</modelScale>
+				</row3>
+				<row4>
+					<Name>	传送点		</Name>
+					<Pos>	-41.519 40.679 -24.104	</Pos>
+					<radius>		2		</radius>
+					<DestSpace>	fu_ben_tian_guan_02	</DestSpace>
+					<DestPos>   -114.461 52.3 40.323	</DestPos>
+					<DestDirection> 0.0  -45.0  0.0	</DestDirection>
+					<level> 2 </level>
+					<modelNumber>	gw7123	</modelNumber>
+					<modelScale>	50	</modelScale>
+				</row4>
+				<row5>
+
+					<Name>	传送点		</Name>
+					<Pos>	10.595 40.644 -38.118	</Pos>
+					<radius>		2		</radius>
+					<DestSpace>	fu_ben_tian_guan_02	</DestSpace>
+					<DestPos>   95.759  61.3  17.917	</DestPos>
+					<DestDirection> 0.0  60.0  0.0	</DestDirection>
+					<level> 3 </level>
+					<modelNumber>	gw7123	</modelNumber>
+					<modelScale>	50	</modelScale>
+				</row5>
+				<row6>
+					<Name>	传送点		</Name>
+					<Pos>	92.370 62.424 15.955	</Pos>
+					<radius>		2		</radius>
+					<DestSpace>	fu_ben_tian_guan_02	</DestSpace>
+					<DestPos>   6.175 39.5  -39.43	</DestPos>
+					<DestDirection> 0.0  -104.999  0.0	</DestDirection>
+					<level> 3 </level>
+					<modelNumber>	gw7123	</modelNumber>
+					<modelScale>	50	</modelScale>
+				</row6>
+				<row7>
+
+					<Name>	传送点		</Name>
+					<Pos>	146.082 62.403 15.951	</Pos>
+					<radius>		2		</radius>
+					<DestSpace>	fu_ben_tian_guan_02	</DestSpace>
+					<DestPos>   223.309  68.5  -50.241	</DestPos>
+					<DestDirection> 0.0  120.0  0.0	</DestDirection>
+					<level> 4 </level>
+					<modelNumber>	gw7123	</modelNumber>
+					<modelScale>	50	</modelScale>
+				</row7>
+				<row8>
+					<Name>	传送点		</Name>
+					<Pos>	219.255 69.690 -47.971	</Pos>
+					<radius>		2		</radius>
+					<DestSpace>	fu_ben_tian_guan_02	</DestSpace>
+					<DestPos>   142.063 61.3 18.261	</DestPos>
+					<DestDirection> 0.0 -60 0.0	</DestDirection>
+					<level> 4 </level>
+					<modelNumber>	gw7123	</modelNumber>
+					<modelScale>	50	</modelScale>
+				</row8>
+				<row9>
+
+					<Name>	传送点		</Name>
+					<Pos>	271 68 -49	</Pos>
+					<radius>		2		</radius>
+					<DestSpace>	fengming	</DestSpace>
+					<DestPos>   218.168359 10.45 158.986616	</DestPos>
+					<DestDirection> 0.000000 -0.024544 -1.497165	</DestDirection>
+					<level> 6 </level>
+					<modelNumber>	gw7123	</modelNumber>
+					<modelScale>	50	</modelScale>
+				</row9>
+			</Door>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+		<Reward_Position>
+			247.5 66 -63
+		</Reward_Position>
+		<LastBox>
+		30111314
+		</LastBox>
+</root>

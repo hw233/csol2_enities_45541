@@ -1,0 +1,28 @@
+<root>
+	<Parent> 				Chapman				</Parent>
+
+	<Properties>
+	</Properties>
+
+	<CellMethods>
+		<sendPriceChangeInfo>			<!-- 客户端要求发送商品价格变动信息 -->
+			<Exposed/>
+		</sendPriceChangeInfo>
+		<reqInvoiceAmount>
+			<Exposed/>
+			<Arg>		UINT16		</Arg>	<!-- 商品uid -->
+		</reqInvoiceAmount>
+	</CellMethods>
+
+	<ClientMethods>
+		<onReceivePriceChangeInfo>		<!-- 客户端接收商品价格变动消息 -->
+			<Arg>		STRING_ARRAY		</Arg>
+		</onReceivePriceChangeInfo>
+		<onReceiveGoodsAmountChange>		<!-- 客户端接收商品数量改变消息 -->
+			<Arg>		UINT16		</Arg>	<!-- 商品ID -->
+			<Arg>		UINT16		</Arg>	<!-- 剩余数量 -->
+		</onReceiveGoodsAmountChange>
+	</ClientMethods>
+
+</root>
+

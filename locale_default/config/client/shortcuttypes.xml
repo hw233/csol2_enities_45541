@@ -1,0 +1,82 @@
+<root>
+	<action>行为快捷键设置
+		<item>	ACTION_FORWARD	</item>
+		<item>	ACTION_BACKWORD	</item>
+		<item>	ACTION_TURN_LEFT	</item>
+		<item>	ACTION_TURN_RIGHT	</item>
+		<item>	ACTION_JUMP_UP	</item>
+		<item>	ACTION_TOGGLE_WALK_RUN	</item>
+		<item>	ACTION_FOLLOW_TARGET	</item>
+		<item>	ACTION_AUTO_RUN	</item>
+		<item>	ACTION_PICK_UP_ITEM			</item>
+		<item>	ACTION_INCREASE_DISTANCE	</item>
+		<item>	ACTION_DECREASE_DISTANCE	</item>
+		<item>	CHAT_RESPONSE_LAST_WHISPER	</item>
+		<item>	OTHER_TOGGLE_ROLES_MODEL	</item>
+		<item>	PREPARE_FOR_TEAM_INVITE		</item>
+	</action>
+	<ui>界面快捷键设置
+		<item>  FIXED_ORDER_HIDE_WINDOW  </item>
+		<item>	UI_TOGGLE_ALL_UIS	</item>
+		<item>	UI_TOGGLE_BIGMAP	</item>
+		<item>	UI_TOGGLE_MINIMAP	</item>
+		<item>	UI_TOGGLE_KITBAG	</item>
+		<item>	UI_TOGGLE_SKILLWINDOW	</item>
+		<item>	UI_TOGGLE_QUESTWINDOW	</item>
+		<item>	UI_TOGGLE_EQUIPWINDOW	</item>
+		<item>	UI_TOGGLE_GEMWINDOW	</item>
+		<item>	UI_TOGGLE_PET_PROPERTY	</item>
+		<item>	UI_TOGGLE_VEHICLEWINDOW	</item>
+		<item>	UI_TOGGLE_TEAMMATEWINDOW	</item>
+		<item>	UI_TOGGLE_FRIENDWINDOW	</item>
+		<item>	UI_TOGGLE_TONGWINDOW	</item>
+		<item>	UI_TOGGLE_STALLAGE	</item>
+		<item>	UI_TOGGLE_AUTOFIGHTBAR	</item>
+		<item>	UI_TOGGLE_TEAMINFO_WINDOW	</item>
+		<item>	UI_TOGGLE_TEAMCOPY_WNDS	</item>
+		<item>	UI_TOGGLE_SERMONWINDOW	</item>
+	</ui>
+	<combat_role>战斗快捷键角色战斗设置
+		<item>	COMBAT_NAIL_NEAR_ENEMY	</item>
+		<item>	COMBAT_NAIL_MY_PET	</item>
+		<item>	COMBAT_NAIL_TEAMMATE1	</item>
+		<item>	COMBAT_NAIL_TEAMMATE2	</item>
+		<item>	COMBAT_NAIL_TEAMMATE3	</item>
+		<item>	COMBAT_NAIL_TEAMMATE4	</item>
+		<item>	COMBAT_NAIL_TARGET_OF_TARGET	</item>
+		<item>	COMBAT_AUTOFIGHT	</item>
+	</combat_role>
+	<combat_pet>战斗快捷键宠物战斗设置
+		<item>	PET_ASSIST	</item>
+		<item>	PET_TO_FOLLOW	</item>
+		<item>	PET_TO_KEEPING	</item>
+		<item>	PET_DOMESTICATE	</item>
+		<item>	PET_QB_GRID_1	</item>
+		<item>	PET_QB_GRID_2	</item>
+		<item>	PET_QB_GRID_3	</item>
+		<item>	PET_QB_GRID_4	</item>
+		<item>	PET_QB_GRID_5	</item>
+	</combat_pet>
+	<quikbar>快捷栏操作设置
+		<item>	B_QB_GRID_1	</item>
+		<item>	B_QB_GRID_2	</item>
+		<item>	B_QB_GRID_3	</item>
+		<item>	B_QB_GRID_4	</item>
+		<item>	B_QB_GRID_5	</item>
+		<item>	B_QB_GRID_6	</item>
+		<item>	B_QB_GRID_7	</item>
+		<item>	B_QB_GRID_8	</item>
+		<item>	B_QB_GRID_9	</item>
+		<item>	B_QB_GRID_0	</item>
+		<item>	B_QB_GRID_10	</item>
+		<item>	B_QB_GRID_11	</item>
+		<item>	B_QB_GRID_12	</item>
+
+		<item>	R_QB_GRID_1	</item>
+		<item>	R_QB_GRID_2	</item>
+		<item>	R_QB_GRID_3	</item>
+		<item>	R_QB_GRID_4	</item>
+		<item>	R_QB_GRID_5	</item>
+		<item>	R_QB_GRID_6	</item>
+	</quikbar>
+</root>

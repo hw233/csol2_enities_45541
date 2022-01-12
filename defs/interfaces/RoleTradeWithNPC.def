@@ -1,0 +1,84 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<enterTradeWithNPC>
+			<Arg>	OBJECT_ID			</Arg>	<!-- entity ID-->
+		</enterTradeWithNPC>
+		<enterTradeWithDarkTrader>
+			<Arg>	OBJECT_ID			</Arg>	<!-- entity ID-->
+		</enterTradeWithDarkTrader>
+		<tradeWithItemChapman>
+			<Arg>	OBJECT_ID			</Arg>	<!-- entity ID-->
+		</tradeWithItemChapman>
+		<tradeWithPointChapman>
+			<Arg>	OBJECT_ID			</Arg>	<!-- entity ID-->
+		</tradeWithPointChapman>
+		<delRedeemItemUpdate> <!--回购一个可赎回物品成功的更新函数-->
+			<Arg>	UID		</Arg> <!--物品在可赎回列表里的唯一标识uid-->
+		</delRedeemItemUpdate>
+		<addRedeemItemUpdate> <!--可赎回物品列表数据变动的更新函数-->
+			<Arg>	ITEM		</Arg> <!--可赎回列表新加入的物品-->
+		</addRedeemItemUpdate>
+		<onTradeWithTongSpecialChapman>
+			<Arg>	OBJECT_ID		</Arg> <!--entityID-->
+		</onTradeWithTongSpecialChapman>
+		<onAddYXLMEquip>
+			<Arg>	ITEM		</Arg> <!--equipItem-->
+		</onAddYXLMEquip>
+
+		<onRemoveYXLMEquip>
+			<Arg>	UID		</Arg> <!--equipUid-->
+		</onRemoveYXLMEquip>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<buyFromNPC>
+			<Arg>	MAILBOX				</Arg>	<!-- mailbox of npc entity in cell -->
+			<Arg>	INVOICEITEM			</Arg>	<!-- 商品 -->
+			<Arg>	UINT16		</Arg>	<!-- argIndex, for call back -->
+			<Arg>	UINT16		</Arg>	<!-- argAmountList, for call back -->
+		</buyFromNPC>
+		
+		<buyArrayFromNPC>
+			<Arg>	MAILBOX				</Arg>	<!-- mailbox of npc entity in cell -->
+			<Arg>	ARRAY <of> INVOICEITEM </of>	</Arg>	<!--  -->
+			<Arg>	ARRAY <of> UINT16	</of>	</Arg>	<!-- argIndices, for call back -->
+			<Arg>	ARRAY <of> UINT16	</of>	</Arg>	<!-- argAmountList, for call back -->
+		</buyArrayFromNPC>
+
+		<sellToNPC>
+			<Arg>	MAILBOX				</Arg>	<!-- mailbox of npc entity in cell -->
+			<Arg>	UID				</Arg>	<!-- argUid -->
+			<Arg>	UINT16				</Arg>	<!-- argAmount -->
+		</sellToNPC>
+		
+		<sellArrayToNPC>
+			<Arg>	MAILBOX				</Arg>	<!-- mailbox of npc entity in cell -->
+			<Arg>	ARRAY <of> UID	</of>	</Arg>	<!-- argUidList -->
+			<Arg>	ARRAY <of> UINT16	</of>	</Arg>	<!-- argAmountList -->
+		</sellArrayToNPC>
+		<redeemItem> <!--赎回物品的接口-->
+			<Exposed/>
+			<Arg>	UID			</Arg> <!--uid-->
+			<Arg>	OBJECT_ID		</Arg> <!--entityID-->
+		</redeemItem>
+		<buyTongSpecialArrayFromNPC>
+			<Arg>	MAILBOX				</Arg>	<!-- mailbox of npc entity in cell -->
+			<Arg>	DATABASE_ID				</Arg>
+			<Arg>	ARRAY <of> ITEM_ID	</of>	</Arg>	<!-- itemIDList -->
+			<Arg>	ARRAY <of> UINT16	</of>	</Arg>	<!-- amountList -->
+		</buyTongSpecialArrayFromNPC>
+		<addYXLMEquip>
+			<Arg>	ITEM		</Arg> <!--equipItem-->
+		</addYXLMEquip>
+
+		<removeYXLMEquip>
+			<Arg>	UID		</Arg> <!--equipUid-->
+		</removeYXLMEquip>
+	</CellMethods>
+</root>

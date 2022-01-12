@@ -1,0 +1,186 @@
+# -*- coding: gb18030 -*-
+Datas = ({
+	'name':'50银','fact_odds':0.0860000029206,'falsity_odds':0.00999999977648,'itemLevel':7,'amount':5000,'id':'60101001',
+},
+{
+	'name':'粉色装备','fact_odds':0.295999996364,'falsity_odds':0.0899999979883,'itemLevel':6,'amount':1,'id':'equip',
+},
+{
+	'name':'三阶吐息','fact_odds':0.300999996252,'falsity_odds':0.0949999978766,'itemLevel':3,'amount':1,'id':'60202080',
+},
+{
+	'name':'三阶气势冲击','fact_odds':0.305999996141,'falsity_odds':0.0999999977648,'itemLevel':3,'amount':1,'id':'60202016',
+},
+{
+	'name':'三阶粘液','fact_odds':0.315999995917,'falsity_odds':0.109999997541,'itemLevel':3,'amount':1,'id':'60202118',
+},
+{
+	'name':'三阶狂暴','fact_odds':0.325999995694,'falsity_odds':0.119999997318,'itemLevel':3,'amount':1,'id':'60202093',
+},
+{
+	'name':'三阶利爪','fact_odds':0.33599999547,'falsity_odds':0.129999997094,'itemLevel':3,'amount':1,'id':'60202051',
+},
+{
+	'name':'三阶猛扑','fact_odds':0.340999995358,'falsity_odds':0.134999996983,'itemLevel':3,'amount':1,'id':'60202061',
+},
+{
+	'name':'三阶冻气','fact_odds':0.350999995135,'falsity_odds':0.144999996759,'itemLevel':3,'amount':1,'id':'60202137',
+},
+{
+	'name':'三阶怒吼','fact_odds':0.360999994911,'falsity_odds':0.154999996535,'itemLevel':3,'amount':1,'id':'60202149',
+},
+{
+	'name':'三阶天雷','fact_odds':0.370999994688,'falsity_odds':0.164999996312,'itemLevel':3,'amount':1,'id':'60202086',
+},
+{
+	'name':'三阶破防','fact_odds':0.380999994464,'falsity_odds':0.174999996088,'itemLevel':3,'amount':1,'id':'60202106',
+},
+{
+	'name':'三阶凝血刺','fact_odds':0.385999994352,'falsity_odds':0.179999995977,'itemLevel':3,'amount':1,'id':'60202110',
+},
+{
+	'name':'三阶破冰','fact_odds':0.395999994129,'falsity_odds':0.189999995753,'itemLevel':3,'amount':1,'id':'60202126',
+},
+{
+	'name':'二级铁','fact_odds':0.446999993175,'falsity_odds':0.238999994472,'itemLevel':3,'amount':1,'id':'80101003',
+},
+{
+	'name':'二级丝绸','fact_odds':0.497999992222,'falsity_odds':0.28799999319,'itemLevel':3,'amount':1,'id':'80101009',
+},
+{
+	'name':'二级木材','fact_odds':0.548999991268,'falsity_odds':0.336999991909,'itemLevel':3,'amount':1,'id':'80101015',
+},
+{
+	'name':'二级玉','fact_odds':0.599999990314,'falsity_odds':0.385999990627,'itemLevel':3,'amount':1,'id':'80101021',
+},
+{
+	'name':'二级皮革','fact_odds':0.650999989361,'falsity_odds':0.434999989346,'itemLevel':3,'amount':1,'id':'80101027',
+},
+{
+	'name':'三级铁','fact_odds':0.655999989249,'falsity_odds':0.44699998945,'itemLevel':2,'amount':1,'id':'80101004',
+},
+{
+	'name':'三级丝绸','fact_odds':0.660999989137,'falsity_odds':0.458999989554,'itemLevel':2,'amount':1,'id':'80101010',
+},
+{
+	'name':'三级木材','fact_odds':0.665999989025,'falsity_odds':0.470999989659,'itemLevel':2,'amount':1,'id':'80101016',
+},
+{
+	'name':'三级玉','fact_odds':0.670999988914,'falsity_odds':0.482999989763,'itemLevel':2,'amount':1,'id':'80101022',
+},
+{
+	'name':'三级皮革','fact_odds':0.675999988802,'falsity_odds':0.494999989867,'itemLevel':2,'amount':1,'id':'80101028',
+},
+{
+	'name':'四级铁','fact_odds':0.677999988897,'falsity_odds':0.509999989532,'itemLevel':1,'amount':1,'id':'80101005',
+},
+{
+	'name':'四级丝绸','fact_odds':0.679999988992,'falsity_odds':0.524999989197,'itemLevel':1,'amount':1,'id':'80101011',
+},
+{
+	'name':'四级木材','fact_odds':0.681999989087,'falsity_odds':0.539999988861,'itemLevel':1,'amount':1,'id':'80101017',
+},
+{
+	'name':'四级玉','fact_odds':0.683999989182,'falsity_odds':0.554999988526,'itemLevel':1,'amount':1,'id':'80101023',
+},
+{
+	'name':'四级皮革','fact_odds':0.685999989277,'falsity_odds':0.569999988191,'itemLevel':1,'amount':1,'id':'80101029',
+},
+{
+	'name':'白色龙珠','fact_odds':0.697999989381,'falsity_odds':0.579999987967,'itemLevel':6,'amount':1,'id':'80101031',
+},
+{
+	'name':'蓝色龙珠','fact_odds':0.714999990305,'falsity_odds':0.594999987632,'itemLevel':4,'amount':1,'id':'80101032',
+},
+{
+	'name':'黄色龙珠','fact_odds':0.728999990737,'falsity_odds':0.614999987185,'itemLevel':3,'amount':1,'id':'80101037',
+},
+{
+	'name':'粉色龙珠','fact_odds':0.739999990677,'falsity_odds':0.634999986738,'itemLevel':2,'amount':1,'id':'80101038',
+},
+{
+	'name':'绿色龙珠','fact_odds':0.747999991057,'falsity_odds':0.65999998711,'itemLevel':1,'amount':1,'id':'80101039',
+},
+{
+	'name':'初级幸运石','fact_odds':0.76799999061,'falsity_odds':0.669999986887,'itemLevel':5,'amount':1,'id':'80101033',
+},
+{
+	'name':'高级幸运石','fact_odds':0.777299990645,'falsity_odds':0.696999987587,'itemLevel':1,'amount':1,'id':'80101043',
+},
+{
+	'name':'还童丹','fact_odds':0.784399990691,'falsity_odds':0.709999987856,'itemLevel':5,'amount':1,'id':'60201002',
+},
+{
+	'name':'归命符箓','fact_odds':0.792799990391,'falsity_odds':0.719999987632,'itemLevel':5,'amount':1,'id':'110103001',
+},
+{
+	'name':'天音符','fact_odds':0.801199990092,'falsity_odds':0.729999987409,'itemLevel':5,'amount':1,'id':'110103014',
+},
+{
+	'name':'定位符','fact_odds':0.809599989792,'falsity_odds':0.739999987185,'itemLevel':5,'amount':1,'id':'110109001',
+},
+{
+	'name':'引路蜂','fact_odds':0.817999989493,'falsity_odds':0.749999986961,'itemLevel':5,'amount':1,'id':'50101002',
+},
+{
+	'name':'灵魂锁链','fact_odds':0.826399989193,'falsity_odds':0.759999986738,'itemLevel':5,'amount':1,'id':'110108001',
+},
+{
+	'name':'皮革包裹','fact_odds':0.834799988894,'falsity_odds':0.769999986514,'itemLevel':5,'amount':1,'id':'70101002',
+},
+{
+	'name':'神机匣','fact_odds':0.848399989074,'falsity_odds':0.779999986291,'itemLevel':5,'amount':1,'id':'70101008',
+},
+{
+	'name':'金丝木','fact_odds':0.856799988775,'falsity_odds':0.789999986067,'itemLevel':5,'amount':1,'id':'110103020',
+},
+{
+	'name':'初级九转金丹','fact_odds':0.857799988822,'falsity_odds':0.799999985844,'itemLevel':5,'amount':1,'id':'110102001',
+},
+{
+	'name':'初级瑶池玉液','fact_odds':0.85879998887,'falsity_odds':0.80999998562,'itemLevel':5,'amount':1,'id':'110102005',
+},
+{
+	'name':'通明丹','fact_odds':0.868799988646,'falsity_odds':0.819999985397,'itemLevel':5,'amount':1,'id':'110101025',
+},
+{
+	'name':'初级生命之光','fact_odds':0.869799988694,'falsity_odds':0.829999985173,'itemLevel':5,'amount':1,'id':'110102009',
+},
+{
+	'name':'初级法力之光','fact_odds':0.870799988741,'falsity_odds':0.83999998495,'itemLevel':5,'amount':1,'id':'110102010',
+},
+{
+	'name':'洗髓丹','fact_odds':0.875799988629,'falsity_odds':0.849999984726,'itemLevel':5,'amount':1,'id':'60201003',
+},
+{
+	'name':'忘忧丹','fact_odds':0.880799988518,'falsity_odds':0.859999984503,'itemLevel':5,'amount':1,'id':'60201005',
+},
+{
+	'name':'超级还童丹','fact_odds':0.881999988575,'falsity_odds':0.869999984279,'itemLevel':5,'amount':1,'id':'60201055',
+},
+{
+	'name':'精炼符','fact_odds':0.891999988351,'falsity_odds':0.879999984056,'itemLevel':5,'amount':1,'id':'60201020',
+},
+{
+	'name':'点化符','fact_odds':0.901999988127,'falsity_odds':0.889999983832,'itemLevel':5,'amount':1,'id':'60201021',
+},
+{
+	'name':'超级洗髓丹','fact_odds':0.902999988175,'falsity_odds':0.899999983609,'itemLevel':5,'amount':1,'id':'60201056',
+},
+{
+	'name':'延寿丹','fact_odds':0.922999987728,'falsity_odds':0.909999983385,'itemLevel':5,'amount':1,'id':'60201004',
+},
+{
+	'name':'一等驾御神典','fact_odds':0.932999987504,'falsity_odds':0.919999983162,'itemLevel':5,'amount':1,'id':'60201022',
+},
+{
+	'name':'讨伐令','fact_odds':0.942999987281,'falsity_odds':0.929999982938,'itemLevel':5,'amount':1,'id':'110103003',
+},
+{
+	'name':'火纹浣熊蛋','fact_odds':0.947999987169,'falsity_odds':0.939999982715,'itemLevel':5,'amount':1,'id':'60201086',
+},
+)
+Totalodds = {
+	'falsity_odds':0.939999982715,'fact_odds':0.947999987169,
+}
+

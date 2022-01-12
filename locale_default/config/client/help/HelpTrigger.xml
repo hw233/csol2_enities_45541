@@ -1,0 +1,377 @@
+<root>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	1	</argument>
+		<topics>
+			<item>	67	</item>
+			<item>	34	</item>
+		</topics>
+		<comment>	角色达到1级时触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	10	</argument>
+		<topics>
+			<item>	41	</item>
+			<item>	26	</item>
+		</topics>
+		<comment>	角色达到10级时触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	15	</argument>
+		<topics>
+			<item>	70	</item>
+			<item>	35	</item>
+		</topics>
+		<comment>	角色达到15级时触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	20	</argument>
+		<topics>
+			<item>	69	</item>
+		</topics>
+		<comment>	角色达到20级时触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	29	</argument>
+		<topics>
+			<item>	44	</item>
+		</topics>
+		<comment>	角色达到29级时触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	45	</argument>
+		<topics>
+			<item>	45	</item>
+		</topics>
+		<comment>	角色达到45级触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	30	</argument>
+		<topics>
+			<item>	43	</item>
+		</topics>
+		<comment>	角色达到30级触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	50	</argument>
+		<topics>
+			<item>	46	</item>
+		</topics>
+		<comment>	角色达到50级触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	54	</argument>
+		<topics>
+			<item>	47	</item>
+		</topics>
+		<comment>	角色达到54级触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	60	</argument>
+		<topics>
+			<item>	48	</item>
+		</topics>
+		<comment>	角色达到60级触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	2	</argument>
+		<topics>
+			<item>	1	</item>
+		</topics>
+		<comment>	角色达到2级触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	35	</argument>
+		<topics>
+			<item>	72	</item>
+		</topics>
+		<comment>	角色达到35级触发	</comment>
+	</row>
+	<row>
+		<type>	juesedengji	</type>
+		<argument>	40	</argument>
+		<topics>
+			<item>	73	</item>
+		</topics>
+		<comment>	角色达到40级触发	</comment>
+	</row>
+	<row>
+		<type>	dakaijiemian	</type>
+		<argument>	beibao_chuangkou	</argument>
+		<topics>
+			<item>	7	</item>
+		</topics>
+		<comment>	第一次打开背包界面	</comment>
+	</row>
+	<row>
+		<type>	dakaijiemian	</type>
+		<argument>	renwushuxing_chuangkou	</argument>
+		<topics>
+			<item>	9	</item>
+		</topics>
+		<comment>	第一次打开人物属性界面	</comment>
+	</row>
+	<row>
+		<type>	dakaijiemian	</type>
+		<argument>	chongwushuxing_chuangkou	</argument>
+		<topics>
+			<item>	203	</item>
+		</topics>
+		<comment>	第一次打开宠物属性界面	</comment>
+	</row>
+	<row>
+		<type>	dakaijiemian	</type>
+		<argument>	jineng_chuangkou	</argument>
+		<topics>
+			<item>	12	</item>
+		</topics>
+		<comment>	第一次打开技能界面	</comment>
+	</row>
+	<row>
+		<type>	dakaijiemian	</type>
+		<argument>	ditu_chuangkou	</argument>
+		<topics>
+			<item>	13	</item>
+		</topics>
+		<comment>	第一次打开地图	</comment>
+	</row>
+	<row>
+		<type>	dakaijiemian	</type>
+		<argument>	shejiao_chuangkou	</argument>
+		<topics>
+			<item>	74	</item>
+			<item>	25	</item>
+		</topics>
+		<comment>	第一次打开社交界面	</comment>
+	</row>
+	<row>
+		<type>	dakaijiemian	</type>
+		<argument>	cangku__chuangkou	</argument>
+		<topics>
+			<item>	10	</item>
+		</topics>
+		<comment>	第一次打开仓库	</comment>
+	</row>
+	<row>
+		<type>	dakaijiemian	</type>
+		<argument>	renwu_chuangkou	</argument>
+		<topics>
+			<item>	195	</item>
+		</topics>
+		<comment>	第一次打开任务界面	</comment>
+	</row>
+	<row>
+		<type>	dakaijiemian	</type>
+		<argument>	liaotian_chuangkou	</argument>
+		<topics>
+			<item>	6	</item>
+		</topics>
+		<comment>	第一次打开聊天窗口	</comment>
+	</row>
+	<row>
+		<type>	xitongxingwei	</type>
+		<argument>	denglu	</argument>
+		<topics>
+			<item>	191	</item>
+			<item>	190	</item>
+			<item>	193	</item>
+			<item>	76	</item>
+		</topics>
+		<comment>	第一次登陆游戏	</comment>
+	</row>
+	<row>
+		<type>	jiazubanghui	</type>
+		<argument>	jiarujiazu	</argument>
+		<topics>
+			<item>	36	</item>
+		</topics>
+		<comment>	第一次加入家族	</comment>
+	</row>
+	<row>
+		<type>	jiazubanghui	</type>
+		<argument>	jianlijiazu	</argument>
+		<topics>
+			<item>	37	</item>
+		</topics>
+		<comment>	第一次建立家族	</comment>
+	</row>
+	<row>
+		<type>	jiazubanghui	</type>
+		<argument>	jiarubanghui	</argument>
+		<topics>
+			<item>	38	</item>
+		</topics>
+		<comment>	第一次加入帮会	</comment>
+	</row>
+	<row>
+		<type>	jiazubanghui	</type>
+		<argument>	jianlibanghui	</argument>
+		<topics>
+			<item>	39	</item>
+		</topics>
+		<comment>	第一次建立帮会	</comment>
+	</row>
+	<row>
+		<type>	juesecaozuo	</type>
+		<argument>	wanchengrenwu_caozuo	</argument>
+		<topics>
+			<item>	192	</item>
+			<item>	194	</item>
+		</topics>
+		<comment>	第一次完成任务	</comment>
+	</row>
+	<row>
+		<type>	juesecaozuo	</type>
+		<argument>	jieshourenwu_caozuo	</argument>
+		<topics>
+			<item>	33	</item>
+		</topics>
+		<comment>	第一次接受任务	</comment>
+	</row>
+	<row>
+		<type>	juesecaozuo	</type>
+		<argument>	dianjiNPC_caozuo	</argument>
+		<topics>
+			<item>	19	</item>
+			<item>	32	</item>
+		</topics>
+		<comment>	第一次点击NPC	</comment>
+	</row>
+	<row>
+		<type>	juesecaozuo	</type>
+		<argument>	NPCjiaohu_caozuo	</argument>
+		<topics>
+			<item>	20	</item>
+			<item>	21	</item>
+		</topics>
+		<comment>	第一次和NPC交互	</comment>
+	</row>
+	<row>
+		<type>	npcjiaohu	</type>
+		<argument>	Chapman	</argument>
+		<topics>
+			<item>	197	</item>
+		</topics>
+		<comment>	第一次和某EntityType交互	</comment>
+	</row>
+	<row>
+		<type>	npcjiaohu	</type>
+		<argument>	Trainer	</argument>
+		<topics>
+			<item>	23	</item>
+		</topics>
+		<comment>	第一次和某EntityType交互	</comment>
+	</row>
+	<row>
+		<type>	juesecaozuo	</type>
+		<argument>	xuanzewanjia_caozuo	</argument>
+		<topics>
+			<item>	5	</item>
+		</topics>
+		<comment>	第一次选择玩家	</comment>
+	</row>
+	<row>
+		<type>	juesecaozuo	</type>
+		<argument>	jiaruduiwu_caozuo	</argument>
+		<topics>
+			<item>	24	</item>
+		</topics>
+		<comment>	第一次加入队伍	</comment>
+	</row>
+	<row>
+		<type>	dakaijiemian	</type>
+		<argument>	jiaoyi_chuangkou	</argument>
+		<topics>
+			<item>	27	</item>
+		</topics>
+		<comment>	第一次打开交易界面	</comment>
+	</row>
+	<row>
+		<type>	juesecaozuo	</type>
+		<argument>	xuanzeguaiwu_caozuo	</argument>
+		<topics>
+			<item>	22	</item>
+		</topics>
+		<comment>	第一次选择怪物	</comment>
+	</row>
+	<row>
+		<type>	huodedaoju	</type>
+		<argument>	65793;66305;66561;66053	</argument>
+		<topics>
+			<item>	28	</item>
+			<item>	196	</item>
+		</topics>
+		<comment>	第一次获得武器	</comment>
+	</row>
+	<row>
+		<type>	huodedaoju	</type>
+		<argument>	131328;131584;131840;132096;132352;133120;132864;132608	</argument>
+		<topics>
+			<item>	29	</item>
+			<item>	198	</item>
+		</topics>
+		<comment>	第一次获得防具	</comment>
+	</row>
+	<row>
+		<type>	huodedaoju	</type>
+		<argument>	1114373;1114372;262403;262402;1114374;1114375;262403;262403	</argument>
+		<topics>
+			<item>	30	</item>
+			<item>	200	</item>
+		</topics>
+		<comment>	第一次获得药品	</comment>
+	</row>
+	<row>
+		<type>	huodedaoju	</type>
+		<argument>	328193	</argument>
+		<topics>
+			<item>	31	</item>
+		</topics>
+		<comment>	第一次获得任务道具	</comment>
+	</row>
+	<row>
+		<type>	huodedaoju	</type>
+		<argument>	393985	</argument>
+		<topics>
+			<item>	68	</item>
+		</topics>
+		<comment>	第一次获得法宝	</comment>
+	</row>
+	<row>
+		<type>	huodedaoju	</type>
+		<argument>	394497	</argument>
+		<topics>
+			<item>	77	</item>
+		</topics>
+		<comment>	第一次获得坐骑	</comment>
+	</row>
+	<row>
+		<type>	chongwu	</type>
+		<argument>	shengji	</argument>
+		<topics>
+			<item>	205	</item>
+			<item>	206	</item>
+		</topics>
+		<comment>	宠物第一次升级	</comment>
+	</row>
+	<row>
+		<type>	chongwu	</type>
+		<argument>	huode	</argument>
+		<topics>
+			<item>	202	</item>
+			<item>	204	</item>
+		</topics>
+		<comment>	第一次获得宠物	</comment>
+	</row>
+</root>

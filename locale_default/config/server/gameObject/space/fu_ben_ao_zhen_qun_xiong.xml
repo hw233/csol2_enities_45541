@@ -1,0 +1,20 @@
+<root>
+	<spaceName>	鏖战群雄	</spaceName>
+	<EntityType>	SpaceCopyAoZhan	</EntityType>
+	<DomainType>	SpaceDomainAoZhan	</DomainType>
+	<script>	SpaceCopyAoZhan	</script>
+	<SpaceType>	SPACE_TYPE_AO_ZHAN_QUN_XIONG	</SpaceType>
+	<className>	fu_ben_ao_zhan_qun_xiong	</className>
+	<dirMapping>	universes/fu_ben_zu_dui_jing_ji_chang_01	</dirMapping>
+	<CanPk>	1	</CanPk>
+	<TimeOn>	0	</TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<playerAoI>	150	</playerAoI>
+	<TimeOfDay>	56700	</TimeOfDay>
+	<spawnFile>	</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<CalcPkValue/>
+	<Space>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

@@ -1,0 +1,29 @@
+<root>
+		<spaceName>	Å£Ä§Íõ	</spaceName>
+		<EntityType>	SpaceCopyDestinyTrans	</EntityType>
+		<SpaceType>	SPACE_TYPE_DESTINY_TRANS	</SpaceType>
+		<DomainType>	SpaceDomainDestinyTrans	</DomainType>
+		<script>	SpaceCopyDestinyTrans	</script>
+		<className>	fu_ben_niu_mo_wang_destiny	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_niu_mo_wang	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<enterPos>
+				<pos>	-10.553,4.765,-71.462	</pos>
+				<direction>	0,0,0.098	</direction>
+			</enterPos>
+			<spawn>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_niu_mo_wang_01.xml	</spawnFile>
+				</item>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_niu_mo_wang_02.xml	</spawnFile>
+				</item>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_niu_mo_wang_03.xml	</spawnFile>
+				</item>
+			</spawn>
+		</Space>
+</root>

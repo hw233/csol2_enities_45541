@@ -1,0 +1,15 @@
+<root>
+	<Parent>	NPCObject	</Parent>
+
+	<Properties>
+		<range>
+			<Type>		FLOAT		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+		</range>
+		<transportSign>
+			<Type>		INT64		</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+		</transportSign>
+	</Properties>
+
+</root>

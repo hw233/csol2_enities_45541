@@ -1,0 +1,153 @@
+<root>
+	<Properties>
+		<attrAIDefLevel>
+			<Type>		INT8				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</attrAIDefLevel>
+
+		<attrAINowLevel>
+			<Type>		INT8				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</attrAINowLevel>
+
+		<fightStateAICount><!-- 统计该entity战斗状态下可用AI数量 不包括事件AI 主要是避免一些运算 -->
+			<Type>		UINT8				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</fightStateAICount>
+
+		<noFightStateAICount><!-- 统计该entity非战斗状态下可用AI数量 不包括事件AI 主要是避免一些运算 -->
+			<Type>		UINT8				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</noFightStateAICount>
+
+		<attrAINowLevelTemp>
+			<Type>		INT8				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	-1				</Default>
+		</attrAINowLevelTemp>
+
+		<attrAttackStateGenericAIs>
+			<Type>		AI_DATA_DICT			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</attrAttackStateGenericAIs>
+
+		<attrFreeStateGenericAIs>
+			<Type>		AI_DATA_DICT			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</attrFreeStateGenericAIs>
+
+		<attrSchemeAIs>
+			<Type>		AI_DATA_DICT			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</attrSchemeAIs>
+
+		<attrSpecialAIs>
+			<Type>		AI_DATA_DICT			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</attrSpecialAIs>
+
+		<triggersTable>
+			<Type>		AI_EVENT_PACKET_DICT		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</triggersTable>
+
+		<insert_ai>
+			<Type>		AI				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	<id>	-1 	</id>
+					<param>	None	</param>	</Default>
+			<Persistent>	false				</Persistent>
+		</insert_ai>
+
+		<saiArray>
+			<Type>		ARRAY <of> AI </of>		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</saiArray>
+		<eaiIDArray>
+			<Type>		ARRAY <of> INT32 </of>		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</eaiIDArray>
+
+		<fightStartTime>
+			<Type>		FLOAT 				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</fightStartTime>
+
+		<aiTargetID>
+			<Type>		OBJECT_ID 			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</aiTargetID>
+
+		<nextAIInterval>
+			<Type>		ARRAY <of> FLOAT </of>		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	[]				</Default>
+		</nextAIInterval>
+
+		<comboAIArray>
+			<Type>		ARRAY <of> AI </of>		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</comboAIArray>
+
+		<comboAIState>
+			<Type>		BOOL				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</comboAIState>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<onAICommand>
+			<Arg>		OBJECT_ID			</Arg>	<!-- entityID -->
+			<Arg>		STRING				</Arg>	<!-- cmd -->
+			<Arg>		UINT16				</Arg>	<!-- cmd -->
+		</onAICommand>
+
+		<addAI>
+			<Arg>		UINT8				</Arg>	<!-- level -->
+			<Arg>		AI				</Arg>	<!-- ai -->
+			<Arg>		UINT8				</Arg>	<!-- type -->
+		</addAI>
+		<removeAI>
+			<Arg>		UINT8				</Arg>	<!-- level -->
+			<Arg>		INT32				</Arg>	<!-- aiID -->
+			<Arg>		UINT8				</Arg>	<!-- type -->
+		</removeAI>
+
+		<addEventAI>
+			<Arg>		INT32				</Arg>	<!-- event -->
+			<Arg>		UINT8				</Arg>	<!-- level -->
+			<Arg>		AI				</Arg>	<!-- ai -->
+		</addEventAI>
+		<removeEventAI>
+			<Arg>		INT32				</Arg>	<!-- event -->
+			<Arg>		UINT8				</Arg>	<!-- level -->
+			<Arg>		INT32				</Arg>	<!-- aiID -->
+		</removeEventAI>
+
+		<setInsertAI>
+			<Arg>		AI				</Arg>	<!-- ai -->
+		</setInsertAI>
+
+		<setAITargetID>
+			<Arg>		OBJECT_ID			</Arg>	<!-- entityID -->
+		</setAITargetID>
+	</CellMethods>
+</root>

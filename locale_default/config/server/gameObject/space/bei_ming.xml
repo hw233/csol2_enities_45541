@@ -1,0 +1,25 @@
+<root>
+	<EntityType>SpaceCopySunBath</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceSunBath</script>
+	<className>bei_ming</className>
+	<dirMapping> universes/bei_ming </dirMapping>
+	<CanPk>	1	</CanPk>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/bei_ming.xml		</spawnFile>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<spellNum>		20			</spellNum>	<!-->每次刷新贝壳数量<-->
+	<removeItems>	  60101013|60101014|60101015|60101016|60101017|60101018|60101019|60101020	</removeItems>	<!-->需要没收的物品列表<-->
+	<Space>
+		<spaceBBoxMin>	-2000,-100,-2000	</spaceBBoxMin>
+		<spaceBBoxMax>	2000,1000,2000	</spaceBBoxMax>
+		<deathDepth>	-250	</deathDepth>
+	</Space>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>                                  		
+	<initLine>1</initLine>
+	<maxPlayerAmount>525</maxPlayerAmount>                           
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 	
+</root>

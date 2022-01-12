@@ -1,0 +1,106 @@
+<root>
+	<Properties>
+		<vendMerchandise> <!--摆摊物品列表-->
+			<Type>	ARRAY	<of>	VEND_ITEM_INFO	</of></Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</vendMerchandise>
+		<vendPetMerchandise> <!--摆摊宠物列表-->
+			<Type>	ARRAY	<of>	VEND_PET_INFO	</of></Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</vendPetMerchandise>
+		<vendSignboard> <!--摊位名数据-->
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</vendSignboard>
+		<vendSignboardNumber> <!--摊位招牌编号-->
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</vendSignboardNumber>
+	</Properties>
+
+	<ClientMethods>
+		<vend_receiveShopData> <!--买家接收卖家摊位数据的接口-->
+			<Arg>		ITEMS			</Arg> <!--ITEMS-->
+		</vend_receiveShopData>
+		<vend_receiveRecord> <!--买家接收卖家摊位数据的接口-->
+			<Arg>		PYTHON			</Arg> <!--[ playerName, itemID, price, time ]-->
+		</vend_receiveRecord>
+		<vend_removeItemNotify> <!--相应uid的物品被买走，更新客户端数据-->
+			<Arg>		UID			</Arg> <!--uid-->
+		</vend_removeItemNotify>
+		<vend_addRecordNotify><!--卖家客户端更新记录-->
+			<Arg>		PYTHON			</Arg> <!--[ playerName, itemID, price, time ]-->
+		</vend_addRecordNotify>
+		<vend_receivePetData> <!--买家接收卖家摆摊宠物数据的接口-->
+			<Arg>		ARRAY <of> PET_EPITOME </of>	</Arg> <!--[ epitome1, epitome2,... ]-->
+		</vend_receivePetData>
+		<vend_removePetNotify>
+			<Arg>		DATABASE_ID		</Arg>
+		</vend_removePetNotify>
+	</ClientMethods>
+
+	<CellMethods>
+		<vend_vend> <!--玩家设置摆摊信息，进入摆摊状态-->
+			<Exposed/>
+			<Arg>		UINT8_ARRAY		</Arg> <!--kitUidList-->
+			<Arg>		ARRAY <of> UID </of>	</Arg> <!--uidList-->
+			<Arg>		ARRAY <of> UINT32 </of>	</Arg> <!--priceList-->
+			<Arg>		ARRAY <of> DATABASE_ID </of> </Arg> <!--petDatabaseIDList-->
+			<Arg>		ARRAY <of> UINT32 </of>	</Arg> <!--petPriceList-->
+		</vend_vend>
+
+		<vend_endVend> <!--玩家结束摆摊-->
+			<Exposed/>
+			<Arg>	BOOL	</Arg> <!--isEnd-->
+		</vend_endVend>
+		<vend_setSignboard> <!--卖家设置摊位招牌的接口-->
+			<Exposed/>
+			<Arg>		STRING			</Arg> <!--signboard-->
+		</vend_setSignboard>
+
+		<vend_buyerQueryInfo> <!--买家查看卖家摊位数据的接口-->
+			<Exposed/>
+		</vend_buyerQueryInfo>
+
+		<vend_sell> <!--卖家提供给买家买一个物品的接口-->
+			<Exposed/>
+			<Arg>		UID			</Arg> <!--uid-->
+		</vend_sell>
+
+		<vend_sellPet>
+			<Exposed/>
+			<Arg>		DATABASE_ID			</Arg>
+		</vend_sellPet>
+	</CellMethods>
+
+	<BaseMethods>
+		<vend_petForSale>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		UINT32			</Arg>
+		</vend_petForSale>
+		<vend_petEndForSale>
+			<Arg>		DATABASE_ID		</Arg>
+		</vend_petEndForSale>
+		<vend_buyerQueryPetInfo>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		PYTHON			</Arg>
+		</vend_buyerQueryPetInfo>
+		<vend_sellPet>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</vend_sellPet>
+		<vend_getPet>
+			<Arg>		PET_EPITOME		</Arg>
+		</vend_getPet>
+		<vend_addRecordNotify>
+			<Arg>		STRING			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		UINT32			</Arg>
+			<Arg>		STRING			</Arg>
+		</vend_addRecordNotify>
+	</BaseMethods>
+</root>

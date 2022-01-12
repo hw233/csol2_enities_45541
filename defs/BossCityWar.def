@@ -1,0 +1,18 @@
+<root>
+	<Parent>				Monster						</Parent>
+	<ClientName> 				MonsterCityWar					</ClientName>
+
+	<Properties>
+		<belong>
+			<Type>		DATABASE_ID			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+		</belong>
+		<damageToIntegral>
+			<Type>		INT32					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+		</damageToIntegral>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+</root>

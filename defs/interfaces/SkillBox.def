@@ -1,0 +1,49 @@
+<root>
+	<Implements>
+	</Implements>
+
+	<ClientMethods>
+		<onAddSkill>
+			<Arg>	SKILLID 	</Arg>	<!-- skillID -->
+		</onAddSkill>
+		<onRemoveSkill>
+			<Arg>	SKILLID 	</Arg>	<!-- skillID -->
+		</onRemoveSkill>
+
+		<onUpdateSkill>
+			<Arg>	SKILLID 	</Arg>	<!-- oldSkillID -->
+			<Arg>	SKILLID 	</Arg>	<!-- newSkillID -->
+		</onUpdateSkill>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<useSpell>
+			<Exposed/>
+			<Arg>			SKILLID			</Arg>		<!-- skillID -->
+			<Arg>			SKILLTARGETOBJ		</Arg>		<!-- target -->
+		</useSpell>
+		<useSpaceSpell>
+			<Exposed/>
+			<Arg>			SKILLID			</Arg>		<!-- skillID -->
+			<Arg>			SKILLTARGETOBJ		</Arg>		<!-- target -->
+		</useSpaceSpell>
+		<requestRemoveBuff>		<!-- 请求删除良性 buff -->
+			<Exposed/>
+			<Arg>		UINT16				</Arg>
+		</requestRemoveBuff>
+
+	</CellMethods>
+
+	<Properties>
+		<!-- 有些技能需要在ghost中访问拥有的技能和等级，因此需要CELL_PUBLIC_AND_OWN -->
+		<attrSkillBox>
+			<Type>			ARRAY <of> SKILLID </of>	</Type>
+			<Flags>			CELL_PUBLIC					</Flags>
+			<Persistent>	true						</Persistent>
+		</attrSkillBox>
+	</Properties>
+
+</root>

@@ -1,0 +1,119 @@
+<root>
+	<Properties>
+		<storage>
+			<Type>	KITBAG	</Type>
+			<Flags>	BASE	</Flags>
+			<Persistent>	true	</Persistent>
+		</storage>
+		<storageLog>
+			<Type>	PYTHON	</Type>
+			<Flags>	BASE	</Flags>
+			<Persistent>	true	</Persistent>
+		</storageLog>
+		<storageBagPopedom>
+			<Type>	ARRAY	<of>	TONG_STORAGE_POPEDOM	</of>	</Type>
+			<Flags>	BASE	</Flags>
+			<Persistent>	true </Persistent>
+		</storageBagPopedom>
+		<playerFetchRecord>	<!-- 玩家每天取物品数量记录{ playerDBID:今日已取件数,... } -->
+			<Type>	PYTHON	</Type>
+			<Flags>	BASE	</Flags>
+			<Persistent>	true </Persistent>
+		</playerFetchRecord>
+		<resetStorageLimitTime>	<!-- 上次重置帮会仓库的时间 -->
+			<Type>	INT64	</Type>
+			<Flags>	BASE	</Flags>
+			<Persistent>	true	</Persistent>
+		</resetStorageLimitTime>
+	</Properties>
+
+	<BaseMethods>
+		<enterStorage>
+			<Arg>	DATABASE_ID	</Arg>
+		</enterStorage>
+		<requestStorageItem>
+			<Arg>	DATABASE_ID	</Arg>	<!-- 请求玩家的dbid -->
+			<Arg>	UINT8		</Arg>	<!--  -->
+		</requestStorageItem>
+		<requestStorageLog>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT8		</Arg>
+		</requestStorageLog>
+
+		<unFreezeStorageRemote/>
+
+		<storeItem2Order>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg>	<!-- item -->
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</storeItem2Order>
+		<storeItem2Storage>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg>	<!-- item -->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</storeItem2Storage>
+		<fetchItem2Order>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</fetchItem2Order>
+		<fetchItem2Kitbags>
+			<Arg>	UINT8		</Arg> <!--bag id-->
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</fetchItem2Kitbags>
+		<fetchSplitItem2Kitbags>
+			<Arg>	UINT8		</Arg> <!--bag id-->
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	INT16		</Arg> <!--amount-->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</fetchSplitItem2Kitbags>
+		<fetchItemSuccess01>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</fetchItemSuccess01>
+		<fetchItemSuccess02>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg> <!-- item -->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</fetchItemSuccess02>
+		<fetchItemSuccess03>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	INT16		</Arg> <!--amount-->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</fetchItemSuccess03>
+		<moveStorageItem>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	INT16		</Arg> <!-- order -->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</moveStorageItem>
+		<renameStorageBag>
+			<Arg>	UINT8		</Arg> <!-- bag id -->
+			<Arg>	STRING		</Arg> <!-- bag name -->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</renameStorageBag>
+		<changeStorageBagLimit>
+			<Arg>	UINT8		</Arg> <!-- bag id -->
+			<Arg>	INT32		</Arg> <!-- 帮会职位 -->
+			<Arg>	INT32		</Arg> <!-- 一天能取出的物品数量限制 -->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</changeStorageBagLimit>
+		<changeStorageQualityUp>
+			<Arg>	UINT8		</Arg> <!-- bag id -->
+			<Arg>	UINT8		</Arg> <!-- 质量 -->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</changeStorageQualityUp>
+		<changeStorageQualityLower>
+			<Arg>	UINT8		</Arg> <!-- bag id -->
+			<Arg>	UINT8		</Arg> <!-- 质量 -->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</changeStorageQualityLower>
+		<storeItem2Bag>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg>	<!-- item -->
+			<Arg>	UINT8		</Arg> <!--bagID-->
+			<Arg>	DATABASE_ID	</Arg> <!--dbid-->
+		</storeItem2Bag>
+	</BaseMethods>
+</root>

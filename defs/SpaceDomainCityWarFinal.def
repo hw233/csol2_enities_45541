@@ -1,0 +1,13 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onRoleEnterSpace>
+			<Arg>			MAILBOX			</Arg>	<!-- roleMB -->
+			<Arg>			PY_DICT			</Arg>	<!-- params -->
+		</onRoleEnterSpace>
+	</BaseMethods>
+</root>

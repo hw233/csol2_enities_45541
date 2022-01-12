@@ -1,0 +1,62 @@
+<root>
+	<Properties>
+		<tongFHLTFightInfos>
+			<Type>		TONG_FENG_HUO_LIAN_TIAN_FIGHT_ITEMS	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</tongFHLTFightInfos>
+		<tongFHLTRecords>
+			<Type>		TONG_FENG_HUO_LIAN_TIAN_RECORDS	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</tongFHLTRecords>
+	</Properties>
+
+	<BaseMethods>
+		<onTongFengHuoLianTianNoticeStart/>
+		<onTongFengHuoLianTianNoticeEnd/>
+		<onTongFengHuoLianTianStart/>
+		<onTongFengHuoLianTianEnd/>
+		<onTongFengHuoLianTianAllOver/>
+		<onRoleSelectEnterFHLT>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING	</Arg>
+		</onRoleSelectEnterFHLT>
+		<fengHuoLianTianAddEnter>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</fengHuoLianTianAddEnter>
+		<fengHuoLianTianLeave>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</fengHuoLianTianLeave>
+		<registerFengHuoLianTianDomain>
+			<Arg>	MAILBOX		</Arg>
+		</registerFengHuoLianTianDomain>
+		<onEnterFengHuoLianTianSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- spaceDomain base -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterFengHuoLianTianSpace>
+		<onQueryFHLTVersus>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</onQueryFHLTVersus>
+		<FHLTSetResult>
+			<Arg>	STRING		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32		</Arg>
+		</FHLTSetResult>
+		<setFHLTJoin>
+			<Arg>	STRING		</Arg>
+			<Arg>	PYTHON		</Arg>
+		</setFHLTJoin>
+		<clearFHLTJoin>
+			<Arg>	STRING		</Arg>
+		</clearFHLTJoin>
+	</BaseMethods>
+</root>

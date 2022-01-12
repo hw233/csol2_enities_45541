@@ -1,0 +1,68 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onStartNotice/>
+		<onStart/>
+		<onEnd/>
+		<onJueDiFanJiSignUp>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT16		</Arg>
+			<Arg>		UINT16		</Arg>
+		</onJueDiFanJiSignUp>
+		<onJueDiFanJiEnterConfirm>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</onJueDiFanJiEnterConfirm>
+		<onJueDiFanJiCancelEnter>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</onJueDiFanJiCancelEnter>
+		<onJueDiFanJiReachTimeConfirm>
+			<Arg>		DATABASE_ID		</Arg>
+		</onJueDiFanJiReachTimeConfirm>
+		<onEnterJueDiFanJiSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- spaceDomain base -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterJueDiFanJiSpace>
+		<onAddJueDiFanJiScore>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT32		</Arg>
+		</onAddJueDiFanJiScore>
+		<onClearRecord>
+			<Arg>		DATABASE_ID		</Arg>
+		</onClearRecord>
+		<sendOfflineReward>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		UINT8		</Arg>
+		</sendOfflineReward>
+		<sendOnlineReward>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT16		</Arg>
+		</sendOnlineReward>
+		<onSelectRepeatedVictory>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT16		</Arg>
+			<Arg>		UINT16		</Arg>
+		</onSelectRepeatedVictory>
+		<clearVictoryCountDict>
+			<Arg>		DATABASE_ID		</Arg>
+		</clearVictoryCountDict>
+		<onJueDiFanJiRoleDestroy>
+			<Arg>		DATABASE_ID		</Arg>
+		</onJueDiFanJiRoleDestroy>
+		<onAoZhanQunXiongRequest>
+		</onAoZhanQunXiongRequest>
+	</BaseMethods>
+</root>

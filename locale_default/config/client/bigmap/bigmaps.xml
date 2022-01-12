@@ -1,0 +1,4244 @@
+<root>	w
+	<world>	世界地图
+		<spaceFolder>	world	</spaceFolder>
+		<texture>	maps/bigmaps/world.tga	</texture>
+		<mapSize>	985.0 673.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<ignore>	true	</ignore>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+	</world>
+	<xin_ban_xin_shou_cun>	银沙岛
+		<spaceFolder>	xin_ban_xin_shou_cun	</spaceFolder>
+		<texture>	space/xin_ban_xin_shou_cun/xin_ban_xin_shou_cun_high_definition.tga	</texture>
+		<mapSize>	2048.0 1708	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/mainmap_ysc	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	银沙村
+				<polygon>	[(-114,173),(-112,4),(57,4),(56,172),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgSounds>
+					<sound>	huanj/scenewind03	</sound>
+				</bgSounds>
+			</area>
+			<area>	竹林
+				<polygon>	[(-114,173),(-112,4),(-327,-57),(-327,277),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgSounds>
+					<sound>	huanj/scenewind07	</sound>
+				</bgSounds>
+			</area>
+			<area>	祭剑台
+				<polygon>	[(56,172),(220,333),(350,33),(57,4),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgMusics>
+					<music>	bgm/mainmap_yscjjt	</music>
+				</bgMusics>
+			</area>
+			<area>	南海
+				<polygon>	[(-331,-321),(220,-321),(219,-40),(101,-39),(-121,-104),(-330,-86),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgSounds>
+					<sound>	huanj/sceneseawave	</sound>
+				</bgSounds>
+			</area>
+		</areas>
+		<effectiveRect>	376 262 1388 1210	</effectiveRect>
+	</xin_ban_xin_shou_cun>
+	<xin_ban_xin_shou_cun_10>	祭剑台
+		<spaceFolder>	xin_ban_xin_shou_cun_10	</spaceFolder>
+		<texture>	space/xin_ban_xin_shou_cun/xin_ban_xin_shou_cun_high_definition.tga	</texture>
+		<mapSize>	2048.0 1708	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/mainmap_yscjjt	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	祭剑台
+				<polygon>	[(-424,409),(-423,-405),(421,-404),(419,410),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	155 156 1732 1389	</effectiveRect>
+	</xin_ban_xin_shou_cun_10>
+	<xin_ban_xin_shou_cun_7>	银沙南屿
+		<spaceFolder>	xin_ban_xin_shou_cun_7	</spaceFolder>
+		<texture>	space/xin_ban_xin_shou_cun/xin_ban_xin_shou_cun_high_definition.tga	</texture>
+		<mapSize>	2048.0 1708	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/sceneseawave	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	银沙南屿
+				<polygon>	[(-424,409),(-423,-405),(421,-404),(419,410),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	155 156 1732 1389	</effectiveRect>
+	</xin_ban_xin_shou_cun_7>
+	<fu_ben_xin_shou_cun>	金沙岛
+		<spaceFolder>	fu_ben_xin_shou_cun	</spaceFolder>
+		<texture>	space/fu_ben_xin_shou_cun/fu_ben_xin_shou_cun_high_definition.tga	</texture>
+		<mapSize>	2048.0 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/bgm_jsc	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_jsc	</sound>
+		</bgSounds>
+		<areas>
+			<area>	金沙村
+				<polygon>	[(-424,409),(-423,-405),(421,-404),(419,410),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	155 156 1825 1724	</effectiveRect>
+	</fu_ben_xin_shou_cun>
+	<fu_ben_xin_shou_cun_10>	坠仙山
+		<spaceFolder>	fu_ben_xin_shou_cun_10	</spaceFolder>
+		<texture>	space/fu_ben_xin_shou_cun/fu_ben_xin_shou_cun_high_definition.tga	</texture>
+		<mapSize>	2048.0 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/mainmap_yscjjt	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	坠仙山
+				<polygon>	[(-424,409),(-423,-405),(421,-404),(419,410),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	155 156 1825 1724	</effectiveRect>
+	</fu_ben_xin_shou_cun_10>
+	<fu_ben_xin_shou_cun_7>	金沙南屿
+		<spaceFolder>	fu_ben_xin_shou_cun_7	</spaceFolder>
+		<texture>	space/fu_ben_xin_shou_cun/fu_ben_xin_shou_cun_high_definition.tga	</texture>
+		<mapSize>	2048.0 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/sceneseawave	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	金沙南屿
+				<polygon>	[(-424,409),(-423,-405),(421,-404),(419,410),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	155 156 1825 1724	</effectiveRect>
+	</fu_ben_xin_shou_cun_7>
+	<fu_ben_xin_shou_cun_54_mo>	金沙岛:山顶
+		<spaceFolder>	fu_ben_xin_shou_cun_54_mo	</spaceFolder>
+		<texture>	space/fu_ben_xin_shou_cun/fu_ben_xin_shou_cun_high_definition.tga	</texture>
+		<mapSize>	2048.0 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	金沙村
+				<polygon>	[(-424,409),(-423,-405),(421,-404),(419,410),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	155 156 1825 1724	</effectiveRect>
+	</fu_ben_xin_shou_cun_54_mo>
+	<fu_ben_xin_shou_cun_54_dao>	神兽崖顶
+		<spaceFolder>	fu_ben_xin_shou_cun_54_dao	</spaceFolder>
+		<texture>	space/fu_ben_xin_shou_cun/fu_ben_xin_shou_cun_high_definition.tga	</texture>
+		<mapSize>	2048.0 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	神兽崖顶
+				<polygon>	[(-424,409),(-423,-405),(421,-404),(419,410),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	155 156 1825 1724	</effectiveRect>
+	</fu_ben_xin_shou_cun_54_dao>
+	<fengming>	凤鸣
+		<spaceFolder>	feng_ming_20	</spaceFolder>
+		<texture>	space/feng_ming_20/feng_ming_20_high_definition.tga	</texture>
+		<mapSize>	4096 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/bgm_fengming	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	羲和原
+				<polygon>	[(-511,401),(-509,-523),(109,-523),(145,-556),(172,-567),(197,-592),(233,-609),(256,-632),(313,-671),(339,-666),(348,-650),(346,-310),(-262,-310),(-262,401),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgMusics>
+					<music>	huanj/scene_exotic	</music>
+				</bgMusics>
+			</area>
+			<area>	望海川
+				<polygon>	[(-509,-523),(-509,-602),(-229,-602),(-229,-710),(-509,-711),(-509,-1203),(189,-1201),(188,-887),(105,-833),(46,-768),(17,-763),(17,-523),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	青丘林
+				<polygon>	[(17,-523),(17,-763),(46,-768),(105,-833),(137,-779),(207,-688),(206,-643),(197,-592),(172,-567),(145,-556),(109,-523),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	人皇谷
+				<polygon>	[(137,-779),(207,-688),(206,-643),(197,-592),(233,-609),(256,-632),(313,-671),(339,-666),(348,-650),(385,-614),(442,-618),(478,-655),(501,-684),(530,-701),(628,-719),(639,-740),(637,-1202),(189,-1201),(188,-887),(105,-833),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	瑶光海角
+				<polygon>	[(1101,403),(1101,-126),(629,-126),(629,-265),(1102,-267),(1101,-1202),(637,-1202),(639,-740),(628,-719),(530,-701),(501,-684),(478,-655),(442,-618),(385,-614),(348,-650),(346,-310),(362,-310),(362,315),(-262,315),(-262,401),(362,401),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	凤鸣城
+				<polygon>	[(-262,315),(-262,-310),(362,-310),(362,315),]	</polygon>
+				<texture>	space/feng_ming_20/feng_ming_cheng_area.tga	</texture>
+				<mapSize>	2048 2048	</mapSize>
+				<bgSounds>
+					<sound>	huanj/scene_city	</sound>
+				</bgSounds>
+			</area>
+			<area>	藏匿处
+				<polygon>	[(-509,-602),(-229,-602),(-229,-710),(-509,-711),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	隐匿地
+				<polygon>	[(1101,-126),(629,-126),(629,-265),(1102,-267),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	386 405 3305 3286	</effectiveRect>
+	</fengming>
+	<feng_ming_20_dao>	隐匿之川
+		<spaceFolder>	feng_ming_20_dao	</spaceFolder>
+		<texture>	space/feng_ming_20/feng_ming_20_high_definition.tga	</texture>
+		<mapSize>	4096 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>
+			<music>	musics/fm_y1	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	隐匿之川
+				<polygon>	[(-409,-702),(-129,-702),(-129,-810),(-409,-811),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	隐匿之川
+				<polygon>	[(1201,-226),(729,-226),(729,-365),(1202,-367),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	386 405 3305 3286	</effectiveRect>
+	</feng_ming_20_dao>
+	<feng_ming_20_mo>	踪藏海岸
+		<spaceFolder>	feng_ming_20_mo	</spaceFolder>
+		<texture>	space/feng_ming_20/feng_ming_20_high_definition.tga	</texture>
+		<mapSize>	4096 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>
+			<music>	musics/fm_y1	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	踪藏海岸
+				<polygon>	[(-409,-702),(-129,-702),(-129,-810),(-409,-811),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	踪藏海岸
+				<polygon>	[(1201,-226),(729,-226),(729,-365),(1202,-367),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	386 405 3305 3286	</effectiveRect>
+	</feng_ming_20_mo>
+	<xin_fei_lai_shi_001>	飞来石
+		<spaceFolder>	xin_fei_lai_shi_001	</spaceFolder>
+		<texture>	space\xin_fei_lai_shi_001\xin_fei_lai_shi_001_high_definition.tga	</texture>
+		<mapSize>	4096 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/zly1	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_fls	</sound>
+		</bgSounds>
+		<areas>
+			<area>	飞来石
+				<polygon>	[(6,247),(-56,171),(-28,73),(71,55),(175,119),(208,213),(147,270),(24,251),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	石之旷野
+				<polygon>	[(-813,799),(-813,-75),(-392,-77),(-360,-77),(-312,-40),(-390,46),(-388,172),(-383,279),(-409,334),(-458,373),(-591,395),(-591,463),(-591,549),(-591,799),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	三危坡
+				<polygon>	[(702,802),(702,213),(208,213),(147,270),(24,251),(6,247),(-30,331),(-148,366),(-220,397),(-317,424),(-400,391),(-383,279),(-409,334),(-458,373),(-591,395),(-591,463),(-475,463),(-475,549),(-591,549),(-591,799),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	高阳台
+				<polygon>	[(-400,391),(-383,279),(-388,172),(-390,46),(-312,-40),(-292,21),(-182,45),(-136,65),(-28,73),(-56,171),(6,247),(-30,331),(-148,366),(-220,397),(-317,424),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	应龙湾
+				<polygon>	[(208,213),(175,119),(71,55),(-28,73),(-136,65),(-182,45),(-292,21),(-312,-40),(-360,-77),(-392,-77),(-385,-153),(-378,-291),(-176,-707),(-109,-707),(-111,-288),(58,-288),(59,-707),(701,-708),(702,213),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	娲皇古道
+				<polygon>	[(-813,-75),(-813,-706),(-176,-707),(-378,-291),(-385,-153),(-392,-77),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	寻仙台
+				<polygon>	[(-591,549),(-475,549),(-475,463),(-591,463),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	较武场
+				<polygon>	[(-109,-707),(-111,-288),(58,-288),(59,-707),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	448 595.0 2797 2922	</effectiveRect>
+	</xin_fei_lai_shi_001>
+	<xin_fei_lai_shi_001_25_dao>	较武台
+		<spaceFolder>	xin_fei_lai_shi_001_25_dao	</spaceFolder>
+		<texture>	space\xin_fei_lai_shi_001_25_dao\xin_fei_lai_shi_001_25_dao.tga	</texture>
+		<mapSize>	4096 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	较武台
+				<polygon>	[(-591,549),(-475,549),(-475,463),(-591,463),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	较武台
+				<polygon>	[(-276,-448),(-276,-111),(155,-113),(154,-449),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	1560 2395.0 930 725	</effectiveRect>
+	</xin_fei_lai_shi_001_25_dao>
+	<xin_fei_lai_shi_001_30_dao>	百川岛
+		<spaceFolder>	xin_fei_lai_shi_001_30_dao	</spaceFolder>
+		<texture>	space/xin_fei_lai_shi_001/xin_fei_lai_shi_001_high_definition.tga	</texture>
+		<mapSize>	4096 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/sceneseawave	</sound>
+		</bgSounds>
+		<areas>
+			<area>	百川岛
+				<polygon>	[(-591,549),(-475,549),(-475,463),(-591,463),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	百川岛
+				<polygon>	[(-109,-707),(-111,-288),(58,-288),(59,-707),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	448 595.0 2797 2922	</effectiveRect>
+	</xin_fei_lai_shi_001_30_dao>
+	<zly_ban_quan_xiang>	阪泉
+		<spaceFolder>	zly_ban_quan_xiang	</spaceFolder>
+		<texture>	space/zly_ban_quan_xiang/zly_ban_quan_xiang_high_definition.tga	</texture>
+		<mapSize>	3511 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	musics/zly5	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	九河渡
+				<polygon>	[(254,-702),(1106,-704),(1107,-311),(516,-309),(448,-252),(420,-220),(255,-380),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	黄花川
+				<polygon>	[(420,-220),(448,-252),(516,-309),(1107,-311),(1106,400),(542,372),(436,352),(360,345),(402,-133),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	望乡石
+				<polygon>	[(-310,-704),(-311,441),(12,442),(360,345),(402,-133),(420,-220),(255,-380),(254,-702),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	浊水湖
+				<polygon>	[(-311,441),(12,442),(360,345),(436,352),(542,372),(1106,400),(1105,996),(-311,999),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	370 393 2765 3319	</effectiveRect>
+	</zly_ban_quan_xiang>
+	<zly_ban_quan_xiang_36_dao>	北山遗迹
+		<spaceFolder>	zly_ban_quan_xiang_36_dao	</spaceFolder>
+		<texture>	space/zly_ban_quan_xiang/zly_ban_quan_xiang_high_definition.tga	</texture>
+		<mapSize>	3511 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	musics/zly1	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	北山遗迹
+				<polygon>	[(-311,441),(12,442),(360,345),(436,352),(542,372),(1106,400),(1105,996),(-311,999),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	370 393 2765 3319	</effectiveRect>
+	</zly_ban_quan_xiang_36_dao>
+	<zly_ban_quan_xiang_36_mo>	阪泉 : 浊水湖
+		<spaceFolder>	zly_ban_quan_xiang_36_mo	</spaceFolder>
+		<texture>	space/zly_ban_quan_xiang/zly_ban_quan_xiang_high_definition.tga	</texture>
+		<mapSize>	3511 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<ignore>	true	</ignore>
+		<bgMusics>
+			<music>	musics/zly5	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	九河渡
+				<polygon>	[(254,-702),(1106,-704),(1107,-311),(516,-309),(448,-252),(420,-220),(255,-380),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	黄花川
+				<polygon>	[(420,-220),(448,-252),(516,-309),(1107,-311),(1106,400),(542,372),(436,352),(360,345),(402,-133),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	望乡石
+				<polygon>	[(-310,-704),(-311,441),(12,442),(360,345),(402,-133),(420,-220),(255,-380),(254,-702),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	浊水湖
+				<polygon>	[(-311,441),(12,442),(360,345),(436,352),(542,372),(1106,400),(1105,996),(-311,999),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgSounds>
+					<sound>	huanj/scene_zsh	</sound>
+				</bgSounds>
+			</area>
+		</areas>
+		<effectiveRect>	370 393 2765 3319	</effectiveRect>
+	</zly_ban_quan_xiang_36_mo>
+	<zly_ying_ke_cun>	飞云坡
+		<spaceFolder>	zly_ying_ke_cun	</spaceFolder>
+		<texture>	space/zly_ying_ke_cun/zly_ying_ke_cun_high_definition.tga	</texture>
+		<mapSize>	4096 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	musics/zly4	</music>
+		</bgMusics>
+		<bgSounds>	scene_zsh
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	白虎遗迹
+				<polygon>	[(-999,1004),(-999,438),(-315,438),(-434,594),(-566,680),(-455,1003),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	红藻湖
+				<polygon>	[(-999,438),(-855,259),(-618,256),(-615,160),(-573,126),(-518,109),(-361,79),(-254,123),(-177,225),(-315,438),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	逐鹿平原
+				<polygon>	[(-999,438),(-855,259),(-618,256),(-615,160),(-573,126),(-518,109),(-361,79),(-254,123),(-177,225),(305,225),(306,-303),(-1000,-303),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	留仙台
+				<polygon>	[(-434,594),(-315,438),(-165,528),(-237,658),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	黑风岔口
+				<polygon>	[(-177,225),(-315,438),(-165,528),(-237,658),(-434,594),(-566,680),(-455,1003),(306,1003),(305,225),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	483 473 3145 3150	</effectiveRect>
+	</zly_ying_ke_cun>
+	<zly_ying_ke_cun_54_dao>	飞云坡:雷音寺
+		<spaceFolder>	zly_ying_ke_cun_dao_45	</spaceFolder>
+		<texture>	space/zly_ying_ke_cun/zly_ying_ke_cun_high_definition.tga	</texture>
+		<mapSize>	4096 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	bgm/mainmap_whg	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_temple	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	白虎遗迹
+				<polygon>	[(-999,1004),(-999,438),(-315,438),(-434,594),(-566,680),(-455,1003),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	红藻湖
+				<polygon>	[(-999,438),(-855,259),(-618,256),(-615,160),(-573,126),(-518,109),(-361,79),(-254,123),(-177,225),(-315,438),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	逐鹿平原
+				<polygon>	[(-999,438),(-855,259),(-618,256),(-615,160),(-573,126),(-518,109),(-361,79),(-254,123),(-177,225),(305,225),(306,-303),(-1000,-303),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	留仙台
+				<polygon>	[(-434,594),(-315,438),(-165,528),(-237,658),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	黑风岔口
+				<polygon>	[(-177,225),(-315,438),(-165,528),(-237,658),(-434,594),(-566,680),(-455,1003),(306,1003),(305,225),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	483 473 3145 3150	</effectiveRect>
+	</zly_ying_ke_cun_54_dao>
+	<zly_ying_ke_cun_54_mo>	飞云坡 : 雷音寺
+		<spaceFolder>	zly_ying_ke_cun_54_mo	</spaceFolder>
+		<texture>	space/zly_ying_ke_cun/zly_ying_ke_cun_high_definition.tga	</texture>
+		<mapSize>	4096 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	bgm/bgm_leiyin	</music>
+		</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	白虎遗迹
+				<polygon>	[(-999,1004),(-999,438),(-315,438),(-434,594),(-566,680),(-455,1003),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	红藻湖
+				<polygon>	[(-999,438),(-855,259),(-618,256),(-615,160),(-573,126),(-518,109),(-361,79),(-254,123),(-177,225),(-315,438),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	逐鹿平原
+				<polygon>	[(-999,438),(-855,259),(-618,256),(-615,160),(-573,126),(-518,109),(-361,79),(-254,123),(-177,225),(305,225),(306,-303),(-1000,-303),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	留仙台
+				<polygon>	[(-434,594),(-315,438),(-165,528),(-237,658),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	黑风岔口
+				<polygon>	[(-177,225),(-315,438),(-165,528),(-237,658),(-434,594),(-566,680),(-455,1003),(306,1003),(305,225),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	483 473 3145 3150	</effectiveRect>
+	</zly_ying_ke_cun_54_mo>
+	<zly_bi_shi_jian>	避世山谷
+		<spaceFolder>	zly_bi_shi_jian	</spaceFolder>
+		<texture>	space/zly_bi_shi_jian/zly_bi_shi_jian_high_definition.tga	</texture>
+		<mapSize>	4096 3234	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	musics/zly2	</music>
+		</bgMusics>
+		<bgSounds>	scene_yhp
+			<sound>	huanj/scene_bsj	</sound>
+		</bgSounds>
+		<areas>
+			<area>	赤峰谷
+				<polygon>	[(-567,-487),(-566,-5),(-1104,-4),(-1104,-751),(-606,-749),(-607,-615),(-607,-557),(-592,-512),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	幽魂坡
+				<polygon>	[(-566,-5),(-567,-487),(-499,-483),(-461,-487),(-431,-504),(-428,-538),(-424,-603),(409,-602),(404,-8),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgSounds>
+					<sound>	huanj/scene_yhp	</sound>
+				</bgSounds>
+			</area>
+			<area>	避暑林荫
+				<polygon>	[(409,-1107),(-424,-1108),(-424,-603),(409,-602),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	避世涧
+				<polygon>	[(-607,-557),(-607,-615),(-606,-749),(-424,-747),(-424,-603),(-428,-538),(-431,-504),(-461,-487),(-499,-483),(-567,-487),(-592,-512),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	帝王古墓
+				<polygon>	[(-424,-747),(-606,-749),(-1104,-751),(-1103,-1107),(-424,-1108),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgSounds>
+					<sound>	bgm/bgm_dwgm	</sound>
+				</bgSounds>
+			</area>
+		</areas>
+		<effectiveRect>	421.0 440 3263 2382	</effectiveRect>
+	</zly_bi_shi_jian>
+	<yun_meng_ze_01>	青凤原
+		<spaceFolder>	yun_meng_ze_01	</spaceFolder>
+		<texture>	space/yun_meng_ze_01/yun_meng_ze_01_high_definition.tga	</texture>
+		<mapSize>	3351 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	落马驿
+				<polygon>	[(-1105,1101),(-1105,409),(-862,379),(-856,397),(-830,409),(-809,410),(-772,398),(-740,390),(-715,374),(-686,362),(-644,322),(-477,389),(-471,439),(-486,514),(-478,566),(-419,620),(-417,703),(-458,765),(-466,831),(-444,869),(-447,1101),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgMusics>
+					<music>	musics/qingniaoyi	</music>
+				</bgMusics>
+			</area>
+			<area>	朱雀祭坛
+				<polygon>	[(-1105,136),(-1105,-705),(303,-707),(303,-16),(-24,-16),(-82,1),(-163,-18),(-204,-49),(-243,-46),(-281,-18),(-377,-44),(-431,-53),(-476,-50),(-659,-26),(-787,28),(-811,48),(-850,133),(-933,135),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgMusics>
+					<music>	musics/qingniaoyi	</music>
+				</bgMusics>
+			</area>
+			<area>	百草坡
+				<polygon>	[(-447,1101),(-444,869),(-466,831),(-458,765),(-417,703),(-419,620),(-478,566),(-486,514),(-471,439),(-444,485),(-391,501),(-236,482),(-191,468),(-136,480),(-88,501),(-17,508),(303,465),(305,1101),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgMusics>
+					<music>	musics/qingniaoyi	</music>
+				</bgMusics>
+			</area>
+			<area>	盘古之心
+				<polygon>	[(-191,468),(-136,480),(-88,501),(-17,508),(303,465),(303,-16),(-24,-16),(-82,1),(-225,92),(-244,153),(-244,281),(-236,482),]	</polygon>
+				<ignore>	true	</ignore>
+				<bgMusics>
+					<music>	musics/qingniaoyi	</music>
+				</bgMusics>
+			</area>
+			<area>	和风小径
+				<polygon>	[(-471,439),(-477,389),(-518,213),(-543,104),(-488,28),(-476,-50),(-431,-53),(-377,-44),(-281,-18),(-243,-46),(-204,-49),(-163,-18),(-82,1),(-225,92),(-244,153),(-244,281),(-236,482),(-391,501),(-444,485),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	青鸟邑
+				<polygon>	[(-867,344),(-862,379),(-856,397),(-830,409),(-809,410),(-772,398),(-740,390),(-724,259),(-729,241),(-746,227),(-842,227),(-860,244),(-868,262),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	静花林
+				<polygon>	[(-1105,409),(-1105,136),(-933,135),(-850,133),(-811,48),(-787,28),(-659,-26),(-476,-50),(-488,28),(-543,104),(-518,213),(-477,389),(-644,322),(-686,362),(-715,374),(-740,390),(-724,259),(-729,241),(-746,227),(-842,227),(-860,244),(-868,262),(-867,344),(-862,379),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	365 374 2621 3361	</effectiveRect>
+	</yun_meng_ze_01>
+	<yun_meng_ze_02>	苗人沼泽
+		<spaceFolder>	yun_meng_ze_02	</spaceFolder>
+		<texture>	space/yun_meng_ze_02/yun_meng_ze_02_high_definition.tga	</texture>
+		<mapSize>	3482 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	29c31ed5.41073625.6d0d0080.519388a7.graph	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>
+			<music>	musics/miaorenzhaoze	</music>
+		</bgMusics>
+		<bgSounds>	</bgSounds>
+		<areas>
+			<area>	无字丰碑
+				<polygon>	[(-207,1104),(-207,533),(89,533),(197,606),(204,654),(229,692),(281,685),(351,668),(462,604),(461,1104),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	巫蛊泥沼
+				<polygon>	[(461,1104),(1105,1104),(1105,432),(821,432),(663,486),(609,557),(568,573),(503,578),(462,604),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	天星岛
+				<polygon>	[(351,668),(462,604),(462,431),(456,301),(-207,302),(-207,533),(89,533),(197,606),(204,654),(229,692),(281,685),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	鱼龙驿站
+				<polygon>	[(-207,302),(-207,-500),(364,-500),(365,-272),(319,-167),(319,-87),(319,-34),(319,301),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	沸血蛇窟
+				<polygon>	[(611,174),(523,214),(456,301),(319,301),(319,-34),(319,-87),(319,-167),(365,-272),(364,-500),(611,-500),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	腥风谷
+				<polygon>	[(611,174),(611,-500),(1105,-499),(1105,136),(757,134),(685,137),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	巫苗寨
+				<polygon>	[(351,668),(503,578),(568,573),(609,557),(663,486),(821,432),(1105,432),(1105,136),(757,134),(685,137),(611,174),(523,214),(456,301),(462,431),(462,604),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	398 403 2688 3283	</effectiveRect>
+	</yun_meng_ze_02>
+	<peng_lai>	蓬莱
+		<spaceFolder>	peng_lai	</spaceFolder>
+		<texture>	space/peng_lai/peng_lai_high_definition.tga	</texture>
+		<mapSize>	4096 3413	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>
+			<music>	musics/zly3	</music>
+		</bgMusics>
+		<bgSounds>	</bgSounds>
+		<areas>
+			<area>	蓬莱仙岛
+				<polygon>	[(192,-810),(-146,-810),(-146,-366),(-270,-278),(-270,-155),(-275,-108),(-314,-76),(-155,86),(-127,228),(-128,-6),(195,-6),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	华阳洞天
+				<polygon>	[(-124,826),(-985,826),(-984,-76),(-314,-76),(-155,86),(-127,228),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	赤城山
+				<polygon>	[(-314,-76),(-984,-76),(-984,-810),(-146,-810),(-146,-366),(-270,-278),(-270,-155),(-275,-108),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	东华紫府
+				<polygon>	[(-124,826),(194,854),(195,-6),(-128,-6),(-127,228),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	仙阆苑
+				<polygon>	[(195,-6),(194,854),(971,854),(973,-76),(195,-76),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	凤麟州
+				<polygon>	[(195,-76),(192,-810),(971,-810),(973,-76),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	372 299 3335 2791	</effectiveRect>
+	</peng_lai>
+	<kun_lun>	昆仑
+		<spaceFolder>	kun_lun	</spaceFolder>
+		<texture>	space/kun_lun/kun_lun_high_definition.tga	</texture>
+		<mapSize>	4096 3891	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>
+			<music>	musics/zly1	</music>
+		</bgMusics>
+		<bgSounds>	</bgSounds>
+		<areas>
+			<area>	舍生崖
+				<polygon>	[(149,803),(147,534),(146,402),(-213,405),(-211,246),(-712,246),(-711,802),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	太阿城
+				<polygon>	[(-213,405),(-211,246),(-211,19),(144,18),(146,402),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	落日坊
+				<polygon>	[(-712,246),(-710,-87),(-210,-84),(-211,19),(-211,246),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	锁魂台
+				<polygon>	[(-710,-87),(-712,-718),(-208,-718),(-211,19),(-210,-84),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	香雪海
+				<polygon>	[(-208,-718),(144,-717),(144,18),(-211,19),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	赤水河
+				<polygon>	[(144,-717),(144,18),(906,-80),(908,-717),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	瑶池天阶
+				<polygon>	[(144,18),(146,402),(147,534),(149,803),(906,803),(906,-80),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	384 404 3316 3114	</effectiveRect>
+	</kun_lun>
+	<chu_yao_shan_gu>	潜能副本 ：剑鸣谷
+		<spaceFolder>	fu_ben_shan_gu	</spaceFolder>
+		<texture>	space/fu_ben_shan_gu/fu_ben_shan_gu.tga	</texture>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	剑鸣谷
+				<polygon>	[(-86,171),(227,171),(228,-136),(-86,-135),]	</polygon>
+				<texture>	space/fu_ben_shan_gu/fu_ben_shan_gu_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 2002.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	201 206 820 609	</effectiveRect>
+	</chu_yao_shan_gu>
+	<jiao_fei_shan_gu>	潜能副本：剑鸣谷
+		<spaceFolder>	fu_ben_shan_gu	</spaceFolder>
+		<texture>	space/fu_ben_shan_gu/fu_ben_shan_gu.tga	</texture>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	剑鸣谷
+				<polygon>	[(-86,171),(227,171),(228,-136),(-86,-135),]	</polygon>
+				<texture>	space/fu_ben_shan_gu/fu_ben_shan_gu_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 2002.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	201 206 820 609	</effectiveRect>
+	</jiao_fei_shan_gu>
+	<fu_ben_shan_gu>	潜能副本13：剑鸣谷
+		<spaceFolder>	fu_ben_shan_gu	</spaceFolder>
+		<texture>	space/fu_ben_shan_gu/fu_ben_shan_gu.tga	</texture>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	剑鸣谷
+				<polygon>	[(-86,171),(227,171),(228,-136),(-86,-135),]	</polygon>
+				<texture>	space/fu_ben_shan_gu/fu_ben_shan_gu_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 2002.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	201 206 820 609	</effectiveRect>
+	</fu_ben_shan_gu>
+	<chu_yao_lin_di>	潜能副本 ：幽影丛林
+		<spaceFolder>	fu_ben_lin_di	</spaceFolder>
+		<texture>	space/fu_ben_lin_di/fu_ben_lin_di.tga	</texture>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/you_ying_chong_lin	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	幽影丛林
+				<polygon>	[(-87,155),(-88,-37),(171,-41),(173,152),]	</polygon>
+				<texture>	space/fu_ben_lin_di/fu_ben_lin_di_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1535.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</chu_yao_lin_di>
+	<jiao_fei_lin_di>	潜能副本：幽影丛林
+		<spaceFolder>	fu_ben_lin_di	</spaceFolder>
+		<texture>	space/fu_ben_lin_di/fu_ben_lin_di.tga	</texture>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/you_ying_chong_lin	</music>
+		</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	幽影丛林
+				<polygon>	[(-87,155),(-88,-37),(171,-41),(173,152),]	</polygon>
+				<texture>	space/fu_ben_lin_di/fu_ben_lin_di_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1535.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</jiao_fei_lin_di>
+	<fu_ben_lin_di>	潜能副本11：幽影丛林
+		<spaceFolder>	fu_ben_lin_di	</spaceFolder>
+		<texture>	space/fu_ben_lin_di/fu_ben_lin_di.tga	</texture>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/you_ying_chong_lin	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	幽影丛林
+				<polygon>	[(-87,155),(-88,-37),(171,-41),(173,152),]	</polygon>
+				<texture>	space/fu_ben_lin_di/fu_ben_lin_di_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1535.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_lin_di>
+	<chu_yao_shan_ding>	潜能副本 ： 雪域之巅
+		<spaceFolder>	fu_ben_shan_ding	</spaceFolder>
+		<texture>	space/fu_ben_shan_ding/fu_ben_shan_ding.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/xue_yu_zhi_dian	</music>
+		</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	雪域之巅
+				<polygon>	[(-97,91),(-96,-58),(85,-59),(84,91),]	</polygon>
+				<texture>	space/fu_ben_shan_ding/fu_ben_shan_ding_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1687.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</chu_yao_shan_ding>
+	<fu_ben_shan_ding>	潜能副本12： 雪域之巅
+		<spaceFolder>	fu_ben_shan_ding	</spaceFolder>
+		<texture>	space/fu_ben_shan_ding/fu_ben_shan_ding.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/xue_yu_zhi_dian	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	雪域之巅
+				<polygon>	[(-97,91),(-96,-58),(85,-59),(84,91),]	</polygon>
+				<texture>	space/fu_ben_shan_ding/fu_ben_shan_ding_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1687.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shan_ding>
+	<jiao_fei_shan_ding>	潜能副本:雪域之巅
+		<spaceFolder>	fu_ben_shan_ding	</spaceFolder>
+		<texture>	space/fu_ben_shan_ding/fu_ben_shan_ding.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/xue_yu_zhi_dian	</music>
+		</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	雪域之巅
+				<polygon>	[(-97,91),(-96,-58),(85,-59),(84,91),]	</polygon>
+				<texture>	space/fu_ben_shan_ding/fu_ben_shan_ding_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1687.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</jiao_fei_shan_ding>
+	<chu_yao_shi_di>	潜能副本:雾隐沼泽
+		<spaceFolder>	fu_ben_shi_di	</spaceFolder>
+		<texture>	space/fu_ben_shi_di/fu_ben_shi_di.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/wu_yin_zhao_ze	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	雾隐沼泽
+				<polygon>	[(-84,52),(-84,-145),(221,-143),(221,52),]	</polygon>
+				<texture>	space/fu_ben_shi_di/fu_ben_shi_di_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1325.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</chu_yao_shi_di>
+	<jiao_fei_shi_di>	潜能副本 : 雾隐沼泽
+		<spaceFolder>	fu_ben_shi_di	</spaceFolder>
+		<texture>	space/fu_ben_shi_di/fu_ben_shi_di.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/wu_yin_zhao_ze	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	雾隐沼泽
+				<polygon>	[(-84,52),(-84,-145),(221,-143),(221,52),]	</polygon>
+				<texture>	space/fu_ben_shi_di/fu_ben_shi_di_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1325.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</jiao_fei_shi_di>
+	<fu_ben_shi_di>	潜能副本10: 雾隐沼泽
+		<spaceFolder>	fu_ben_shi_di	</spaceFolder>
+		<texture>	space/fu_ben_shi_di/fu_ben_shi_di.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/wu_yin_zhao_ze	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	雾隐沼泽
+				<polygon>	[(-84,52),(-84,-145),(221,-143),(221,52),]	</polygon>
+				<texture>	space/fu_ben_shi_di/fu_ben_shi_di_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1325.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shi_di>
+	<chu_yao_dao_yu>	潜能副本 : 赤炎岛
+		<spaceFolder>	fu_ben_dao_yu	</spaceFolder>
+		<texture>	space/fu_ben_dao_yu/fu_ben_dao_yu.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	896.0 896.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	fuben/you_ying_chong_lin	</music>
+		</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	赤炎岛
+				<polygon>	[(-110,130),(-110,-74),(188,-74),(188,130),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1398	</mapSize>
+				<texture>	space/fu_ben_dao_yu/fu_ben_dao_yu_area.tga	</texture>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</chu_yao_dao_yu>
+	<jiao_fei_dao_yu>	潜能副本:赤炎岛
+		<spaceFolder>	fu_ben_dao_yu	</spaceFolder>
+		<texture>	space/fu_ben_dao_yu/fu_ben_dao_yu.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	896.0 896.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	fuben/you_ying_chong_lin	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	赤炎岛
+				<polygon>	[(-110,130),(-110,-74),(188,-74),(188,130),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1398	</mapSize>
+				<texture>	space/fu_ben_dao_yu/fu_ben_dao_yu_area.tga	</texture>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</jiao_fei_dao_yu>
+	<fu_ben_dao_yu>	潜能副本1 : 岛屿
+		<spaceFolder>	fu_ben_dao_yu	</spaceFolder>
+		<texture>	space/fu_ben_dao_yu/fu_ben_dao_yu.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	896.0 896.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	fuben/you_ying_chong_lin	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	赤炎岛
+				<polygon>	[(-110,130),(-110,-74),(188,-74),(188,130),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1398	</mapSize>
+				<texture>	space/fu_ben_dao_yu/fu_ben_dao_yu_area.tga	</texture>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_dao_yu>
+	<chu_yao_tian_xiang_xue_ling>	潜能副本：天香雪岭
+		<spaceFolder>	fu_ben_tian_xiang_xue_ling	</spaceFolder>
+		<texture>	space/fu_ben_tian_xiang_xue_ling/fu_ben_tian_xiang_xue_ling.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天香雪岭
+				<polygon>	[(-147,121),(-147,-175),(150,-175),(151,121),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	271 402.0 1519 1519	</effectiveRect>
+	</chu_yao_tian_xiang_xue_ling>
+	<fu_ben_tian_xiang_xue_ling>	潜能副本2：天香雪岭
+		<spaceFolder>	fu_ben_tian_xiang_xue_ling	</spaceFolder>
+		<texture>	space/fu_ben_tian_xiang_xue_ling/fu_ben_tian_xiang_xue_ling.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天香雪岭
+				<polygon>	[(-147,121),(-147,-175),(150,-175),(151,121),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	271 402.0 1519 1519	</effectiveRect>
+	</fu_ben_tian_xiang_xue_ling>
+	<chu_yao_liu_sha_mi_cheng>	潜能副本:流沙迷城
+		<spaceFolder>	fu_ben_liu_sha_mi_cheng_001	</spaceFolder>
+		<texture>	space/fu_ben_liu_sha_mi_cheng_001/fu_ben_liu_sha_mi_cheng_001.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 1463.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/kl1	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	流沙迷城
+				<polygon>	[(-146,188),(-146,-77),(194,-76),(193,188),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	449 326.0 996 774	</effectiveRect>
+	</chu_yao_liu_sha_mi_cheng>
+	<fu_ben_liu_sha_mi_cheng_001>	潜能副本9:流沙迷城
+		<spaceFolder>	fu_ben_liu_sha_mi_cheng_001	</spaceFolder>
+		<texture>	space/fu_ben_liu_sha_mi_cheng_001/fu_ben_liu_sha_mi_cheng_001.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 1463.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/kl1	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	流沙迷城
+				<polygon>	[(-146,188),(-146,-77),(194,-76),(193,188),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	449 326.0 996 774	</effectiveRect>
+	</fu_ben_liu_sha_mi_cheng_001>
+	<chu_yao_li_hen_shan_lin>	潜能副本
+		<spaceFolder>	fu_ben_li_hen_shan_lin_001	</spaceFolder>
+		<texture>	space/fu_ben_li_hen_shan_lin_001/fu_ben_li_hen_shan_lin_001.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	离恨山林
+				<polygon>	[(-146,188),(-147,-135),(192,-134),(193,188),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	528 382 1150 1100	</effectiveRect>
+	</chu_yao_li_hen_shan_lin>
+	<fu_ben_li_hen_shan_lin_001>	潜能副本8：离恨山林
+		<spaceFolder>	fu_ben_li_hen_shan_lin_001	</spaceFolder>
+		<texture>	space/fu_ben_li_hen_shan_lin_001/fu_ben_li_hen_shan_lin_001.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	离恨山林
+				<polygon>	[(-146,188),(-147,-135),(192,-134),(193,188),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	528 382 1150 1100	</effectiveRect>
+	</fu_ben_li_hen_shan_lin_001>
+	<chu_yao_feng_hua_jue_gu>	潜能副本:风华绝谷
+		<spaceFolder>	chu_yao_feng_hua_jue_gu	</spaceFolder>
+		<texture>	space/fu_ben_feng_hua_jue_gu/fu_ben_feng_hua_jue_gu.tga	</texture>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	风华绝谷
+				<polygon>	[(-146,188),(-147,-135),(192,-134),(193,188),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	277 61 1731 1648	</effectiveRect>
+	</chu_yao_feng_hua_jue_gu>
+	<chu_yao_feng_hua_jue_gu>	潜能副本3:风华绝谷
+		<spaceFolder>	chu_yao_feng_hua_jue_gu	</spaceFolder>
+		<texture>	space/fu_ben_feng_hua_jue_gu/fu_ben_feng_hua_jue_gu.tga	</texture>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	风华绝谷
+				<polygon>	[(-146,188),(-147,-135),(192,-134),(193,188),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	277 61 1731 1648	</effectiveRect>
+	</chu_yao_feng_hua_jue_gu>
+	<fu_ben_zhui_hun_ya>	潜能副本4:坠魂崖
+		<spaceFolder>	fu_ben_zhui_hun_ya	</spaceFolder>
+		<texture>	space/fu_ben_zhui_hun_ya/fu_ben_zhui_hun_ya.tga	</texture>
+		<mapSize>	2048 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	坠魂崖
+				<polygon>	[(-399,297),(-399,-297),(496,-298),(496,298),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	3 4 2039 924	</effectiveRect>
+	</fu_ben_zhui_hun_ya>
+	<fu_ben_feng_quan_gu>	潜能副本5:酆泉谷
+		<spaceFolder>	fu_ben_feng_quan_gu	</spaceFolder>
+		<texture>	space/fu_ben_feng_quan_gu/fu_ben_feng_quan_gu.tga	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	2024 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	酆泉谷
+				<polygon>	[(-363,477),(-364,-387),(340,-386),(340,478),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	94 48.0 1778 1969	</effectiveRect>
+	</fu_ben_feng_quan_gu>
+	<chu_yao_ran_hun_shan_gu>	潜能副本:燃魂山谷
+		<spaceFolder>	fu_ben_ran_hun_shan_gu	</spaceFolder>
+		<texture>	space/fu_ben_ran_hun_shan_gu/fu_ben_ran_hun_shan_gu.tga	</texture>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	燃魂山谷
+				<polygon>	[(-146,188),(-147,-135),(192,-134),(193,188),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	220 458.0 1385 1320	</effectiveRect>
+	</chu_yao_ran_hun_shan_gu>
+	<fu_ben_ran_hun_shan_gu>	潜能副本7:燃魂山谷
+		<spaceFolder>	fu_ben_ran_hun_shan_gu	</spaceFolder>
+		<texture>	space/fu_ben_ran_hun_shan_gu/fu_ben_ran_hun_shan_gu.tga	</texture>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	燃魂山谷
+				<polygon>	[(-146,188),(-147,-135),(192,-134),(193,188),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	220 458.0 1385 1320	</effectiveRect>
+	</fu_ben_ran_hun_shan_gu>
+	<fu_ben_tian_yong_cheng>	潜能副本6:天镛城
+		<spaceFolder>	fu_ben_tian_yong_cheng	</spaceFolder>
+		<texture>	space/fu_ben_tian_yong_cheng/fu_ben_tian_yong_cheng.tga	</texture>
+		<mapSize>	2022.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天镛城
+				<polygon>	[(-170,344),(-170,-220),(201,-220),(202,344),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	437 164 1251 1652	</effectiveRect>
+	</fu_ben_tian_yong_cheng>
+	<fu_ben_yu_xu_feng>	潜能副本14:玉虚峰
+		<spaceFolder>	fu_ben_yu_xu_feng	</spaceFolder>
+		<texture>	space/fu_ben_yu_xu_feng/fu_ben_yu_xu_feng.tga	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	1519.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	玉虚峰
+				<polygon>	[(-277,390),(-278,-294),(289,-294),(289,391),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	56 27 1436 2002	</effectiveRect>
+	</fu_ben_yu_xu_feng>
+	<fu_ben_exp_melee>	诸天幻境
+		<spaceFolder>	fu_ben_xuan_tian_huan_jie	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</fu_ben_exp_melee>
+	<fu_ben_xuan_tian_huan_jie>	玄天幻界
+		<spaceFolder>	fu_ben_xuan_tian_huan_jie	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</fu_ben_xuan_tian_huan_jie>
+	<ye_wai_xuan_tian_huan_jie>	副本：玄天幻界
+		<spaceFolder>	fu_ben_xuan_tian_huan_jie	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</ye_wai_xuan_tian_huan_jie>
+	<fu_ben_tian_guan_02>	副本:天关
+		<spaceFolder>	fu_ben_tian_guan_02	</spaceFolder>
+		<texture>	space/fu_ben_tian_guan_02/fu_ben_tian_guan_02.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 768.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	司命宫
+				<polygon>	[(-213,299),(-399,299),(-399,-299),(-213,-299),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	司禄宫
+				<polygon>	[(-213,299),(-213,-299),(-80,-299),(-80,299),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	溢算宫
+				<polygon>	[(-80,299),(-80,-299),(36,-299),(36,299),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	度厄宫
+				<polygon>	[(36,299),(36,-299),(177,-299),(177,299),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	长生宫
+				<polygon>	[(177,299),(398,299),(398,-299),(177,-299),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tian_guan_02>
+	<ye_wai_shui_jing_jing_ling>	副本:水晶精灵
+		<spaceFolder>	shui_jing_jing_ling	</spaceFolder>
+		<texture>	space/shui_jing_jing_ling/shui_jing_jing_ling_area.tga	</texture>
+		<textureSize>	256.0 256.0	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	水晶结界
+				<polygon>	[(-100,100),(-99,-102),(101,-101),(101,100),]	</polygon>
+				<texture>	space/shui_jing_jing_ling/shui_jing_jing_ling_area.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</ye_wai_shui_jing_jing_ling>
+	<shuijing>	副本
+		<spaceFolder>	shui_jing_jing_ling	</spaceFolder>
+		<texture>	space/shui_jing_jing_ling/shui_jing_jing_ling_area.tga	</texture>
+		<textureSize>	256.0 256.0	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	水晶结界
+				<polygon>	[(-100,100),(-99,-102),(101,-101),(101,100),]	</polygon>
+				<texture>	space/shui_jing_jing_ling/shui_jing_jing_ling_area.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</shuijing>
+	<shuijing>	副本
+		<spaceFolder>	shui_jing_jing_ling	</spaceFolder>
+		<texture>	space/shui_jing_jing_ling/shui_jing_jing_ling_area.tga	</texture>
+		<textureSize>	256.0 256.0	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	水晶结界
+				<polygon>	[(-100,100),(-99,-102),(101,-101),(101,100),]	</polygon>
+				<texture>	space/shui_jing_jing_ling/shui_jing_jing_ling_area.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</shuijing>
+	<ye_wai_shen_gui_mi_jing>	副本神鬼秘境
+		<spaceFolder>	fu_ben_shen_gui_mi_jing	</spaceFolder>
+		<texture>	space/fu_ben_shen_gui_mi_jing/fu_ben_shen_gui_mi_jing_area.tga	</texture>
+		<textureSize>	1024.0 512.0	</textureSize>
+		<mapSize>	640.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	神鬼秘境
+				<polygon>	[(-139,120),(-139,-123),(229,-123),(229,120),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1350	</mapSize>
+				<texture>	space/fu_ben_shen_gui_mi_jing/fu_ben_shen_gui_mi_jing_area.tga	</texture>
+				<bgMusics>
+					<music>	fuben/shen_gui_mi_jing	</music>
+				</bgMusics>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</ye_wai_shen_gui_mi_jing>
+	<fu_ben_shen_gui_mi_jing>	副本
+		<spaceFolder>	fu_ben_shen_gui_mi_jing	</spaceFolder>
+		<texture>	space/fu_ben_shen_gui_mi_jing/fu_ben_shen_gui_mi_jing_area.tga	</texture>
+		<textureSize>	1024.0 512.0	</textureSize>
+		<mapSize>	640.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	神鬼秘境
+				<polygon>	[(-139,120),(-139,-123),(229,-123),(229,120),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1350	</mapSize>
+				<texture>	space/fu_ben_shen_gui_mi_jing/fu_ben_shen_gui_mi_jing_area.tga	</texture>
+				<bgMusics>
+					<music>	fuben/shen_gui_mi_jing	</music>
+				</bgMusics>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shen_gui_mi_jing>
+	<fu_ben_shen_gui_mi_jing_1>	副本
+		<spaceFolder>	fu_ben_shen_gui_mi_jing	</spaceFolder>
+		<texture>	space/fu_ben_shen_gui_mi_jing/fu_ben_shen_gui_mi_jing_area.tga	</texture>
+		<textureSize>	1024.0 512.0	</textureSize>
+		<mapSize>	640.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	神鬼秘境
+				<polygon>	[(-139,120),(-139,-123),(229,-123),(229,120),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1350	</mapSize>
+				<texture>	space/fu_ben_shen_gui_mi_jing/fu_ben_shen_gui_mi_jing_area.tga	</texture>
+				<bgMusics>
+					<music>	fuben/shen_gui_mi_jing	</music>
+				</bgMusics>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shen_gui_mi_jing_1>
+	<fu_ben_shen_gui_mi_jing_2>	副本
+		<spaceFolder>	fu_ben_shen_gui_mi_jing	</spaceFolder>
+		<texture>	space/fu_ben_shen_gui_mi_jing/fu_ben_shen_gui_mi_jing_area.tga	</texture>
+		<textureSize>	1024.0 512.0	</textureSize>
+		<mapSize>	640.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	神鬼秘境
+				<polygon>	[(-139,120),(-139,-123),(229,-123),(229,120),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1350	</mapSize>
+				<texture>	space/fu_ben_shen_gui_mi_jing/fu_ben_shen_gui_mi_jing_area.tga	</texture>
+				<bgMusics>
+					<music>	fuben/shen_gui_mi_jing	</music>
+				</bgMusics>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shen_gui_mi_jing_2>
+	<ye_wai_wu_yao_wang_bao_zang>	副本
+		<spaceFolder>	fu_ben_wu_yao_wang_bao_zang	</spaceFolder>
+		<texture>	space/ffu_ben_wu_yao_wang_bao_zang/fu_ben_wu_yao_wang_bao_zang_area.tga	</texture>
+		<textureSize>	512.0 512.0	</textureSize>
+		<mapSize>	384.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	妖异空间
+				<polygon>	[(-100,197),(-99,-198),(198,-198),(198,197),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	1536 2048	</mapSize>
+				<texture>	space/fu_ben_wu_yao_wang_bao_zang/fu_ben_wu_yao_wang_bao_zang_area.tga	</texture>
+				<bgMusics>
+					<music>	musics/shenguimijing	</music>
+				</bgMusics>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</ye_wai_wu_yao_wang_bao_zang>
+	<fu_ben_wu_yao_wang_bao_zang>	副本
+		<spaceFolder>	fu_ben_wu_yao_wang_bao_zang	</spaceFolder>
+		<texture>	space/ffu_ben_wu_yao_wang_bao_zang/fu_ben_wu_yao_wang_bao_zang_area.tga	</texture>
+		<textureSize>	512.0 512.0	</textureSize>
+		<mapSize>	384.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	妖异空间
+				<polygon>	[(-100,197),(-99,-198),(198,-198),(198,197),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	1536 2048	</mapSize>
+				<texture>	space/fu_ben_wu_yao_wang_bao_zang/fu_ben_wu_yao_wang_bao_zang_area.tga	</texture>
+				<bgMusics>
+					<music>	musics/shenguimijing	</music>
+				</bgMusics>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_wu_yao_wang_bao_zang>
+	<ye_wai_wu_yao_qian_shao>	副本:巫妖前哨
+		<spaceFolder>	fu_ben_wu_yao_qian_shao	</spaceFolder>
+		<texture>	space/fu_ben_wu_yao_qian_shao/fu_ben_wu_yao_qian_shao.tga	</texture>
+		<textureSize>	512.0 1024.0	</textureSize>
+		<mapSize>	384.0 640.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	狮虎山
+				<polygon>	[(-102,301),(-105,-201),(201,-198),(201,301),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	1230 2048	</mapSize>
+				<texture>	space/fu_ben_wu_yao_qian_shao/fu_ben_wu_yao_qian_shao_area.tga	</texture>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</ye_wai_wu_yao_qian_shao>
+	<fu_ben_wu_yao_qian_shao>	巫妖前哨
+		<spaceFolder>	fu_ben_kua_fu_shen_dian_001	</spaceFolder>
+		<texture>	space/fu_ben_kua_fu_shen_dian_001/fu_ben_kua_fu_shen_dian_001.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	896 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	巫妖前哨
+				<polygon>	[(-114,256),(-114,-277),(277,-277),(277,256),]	</polygon>
+				<texture>	space/fu_ben_kua_fu_shen_dian_001/fu_ben_kua_fu_shen_dian_001.tga	</texture>
+				<mapSize>	1500 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	238 184 501 683	</effectiveRect>
+	</fu_ben_wu_yao_qian_shao>
+	<fu_ben_wu_yao_qian_shao_1>	巫妖前哨
+		<spaceFolder>	fu_ben_kua_fu_shen_dian_001	</spaceFolder>
+		<texture>	space/fu_ben_kua_fu_shen_dian_001/fu_ben_kua_fu_shen_dian_001.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	896 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	巫妖前哨
+				<polygon>	[(-114,256),(-114,-277),(277,-277),(277,256),]	</polygon>
+				<texture>	space/fu_ben_kua_fu_shen_dian_001/fu_ben_kua_fu_shen_dian_001.tga	</texture>
+				<mapSize>	1500 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	238 184 501 683	</effectiveRect>
+	</fu_ben_wu_yao_qian_shao_1>
+	<fu_ben_wu_yao_qian_shao_2>	巫妖前哨
+		<spaceFolder>	fu_ben_kua_fu_shen_dian_001	</spaceFolder>
+		<texture>	space/fu_ben_kua_fu_shen_dian_001/fu_ben_kua_fu_shen_dian_001.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	896 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	巫妖前哨
+				<polygon>	[(-114,256),(-114,-277),(277,-277),(277,256),]	</polygon>
+				<texture>	space/fu_ben_kua_fu_shen_dian_001/fu_ben_kua_fu_shen_dian_001.tga	</texture>
+				<mapSize>	1500 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	238 184 501 683	</effectiveRect>
+	</fu_ben_wu_yao_qian_shao_2>
+	<ye_wai_zheng_jiu_ya_yu>	副本:拯救猰貐
+		<spaceFolder>	fu_ben_zheng_jiu_ya_yu	</spaceFolder>
+		<texture>	space/fu_ben_zheng_jiu_ya_yu/fu_ben_zheng_jiu_ya_yu.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 1682.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/zhen_jiu_ya_yu	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	神藏峪
+				<polygon>	[(-180,143),(-180,-138),(161,-138),(161,143),]	</polygon>
+				<texture>	space/fu_ben_zheng_jiu_ya_yu/fu_ben_zheng_jiu_ya_yu.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1682	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</ye_wai_zheng_jiu_ya_yu>
+	<fu_ben_zheng_jiu_ya_yu>	副本
+		<spaceFolder>	fu_ben_zheng_jiu_ya_yu	</spaceFolder>
+		<texture>	space/fu_ben_zheng_jiu_ya_yu/fu_ben_zheng_jiu_ya_yu.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 1682.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/zhen_jiu_ya_yu	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	神藏峪
+				<polygon>	[(-180,143),(-180,-138),(161,-138),(161,143),]	</polygon>
+				<texture>	space/fu_ben_zheng_jiu_ya_yu/fu_ben_zheng_jiu_ya_yu.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1682	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_zheng_jiu_ya_yu>
+	<fu_ben_tian_jiang_qi_shou>	副本
+		<spaceFolder>	fu_ben_lin_di	</spaceFolder>
+		<texture>	space/fu_ben_lin_di/fu_ben_lin_di.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	奇兽幻境
+				<polygon>	[(-87,155),(-88,-37),(171,-41),(173,152),]	</polygon>
+				<texture>	space/fu_ben_lin_di/tian_jiang_qi_shou_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1535.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tian_jiang_qi_shou>
+	<fu_ben_hun_dun_ru_qin>	副本
+		<spaceFolder>	fu_ben_shan_gu	</spaceFolder>
+		<texture>	space/fu_ben_shan_gu/fu_ben_shan_gu.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	争战谷
+				<polygon>	[(-86,171),(227,171),(228,-136),(-86,-135),]	</polygon>
+				<texture>	space/fu_ben_shan_gu/hun_dun_ru_qin_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 2002.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_hun_dun_ru_qin>
+	<fu_ben_du_du_zhu>	副本
+		<spaceFolder>	fu_ben_shi_di	</spaceFolder>
+		<texture>	space/fu_ben_shi_di/fu_ben_shi_di.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/music01	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	嘟嘟乐园
+				<polygon>	[(-84,52),(-84,-145),(221,-143),(221,52),]	</polygon>
+				<texture>	space/fu_ben_shi_di/fu_ben_du_du_zhu_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1325.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_du_du_zhu>
+	<ye_wai_xie_long_dong_xue>	副本:邪龙洞穴
+		<spaceFolder>	fu_ben_xie_long_dong_xue	</spaceFolder>
+		<texture>	space/fu_ben_xie_long_dong_xue/fu_ben_xie_long_dong_xue.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	640 640	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	邪龙洞穴
+				<polygon>	[(-191,280),(-190,-150),(238,-149),(237,278),]	</polygon>
+				<texture>	space/fu_ben_xie_long_dong_xue/fu_ben_xie_long_dong_xue_area.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2048	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</ye_wai_xie_long_dong_xue>
+	<fu_ben_xie_long_dong_xue>	副本
+		<spaceFolder>	fu_ben_xie_long_dong_xue	</spaceFolder>
+		<texture>	space/fu_ben_xie_long_dong_xue/fu_ben_xie_long_dong_xue.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	640 640	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	邪龙洞穴
+				<polygon>	[(-191,280),(-190,-150),(238,-149),(237,278),]	</polygon>
+				<texture>	space/fu_ben_xie_long_dong_xue/fu_ben_xie_long_dong_xue_area.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2048	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_xie_long_dong_xue>
+	<fu_ben_xie_long_dong_xue_1>	副本
+		<spaceFolder>	fu_ben_xie_long_dong_xue	</spaceFolder>
+		<texture>	space/fu_ben_xie_long_dong_xue/fu_ben_xie_long_dong_xue.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	640 640	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	邪龙洞穴
+				<polygon>	[(-191,280),(-190,-150),(238,-149),(237,278),]	</polygon>
+				<texture>	space/fu_ben_xie_long_dong_xue/fu_ben_xie_long_dong_xue_area.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2048	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_xie_long_dong_xue_1>
+	<fu_ben_xie_long_dong_xue_2>	副本
+		<spaceFolder>	fu_ben_xie_long_dong_xue	</spaceFolder>
+		<texture>	space/fu_ben_xie_long_dong_xue/fu_ben_xie_long_dong_xue.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	640 640	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	邪龙洞穴
+				<polygon>	[(-191,280),(-190,-150),(238,-149),(237,278),]	</polygon>
+				<texture>	space/fu_ben_xie_long_dong_xue/fu_ben_xie_long_dong_xue_area.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2048	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_xie_long_dong_xue_2>
+	<ye_wai_she_hun_mi_zhen>	副本：摄魂迷阵
+		<spaceFolder>	she_hun_mi_zhen	</spaceFolder>
+		<texture>	space/she_hun_mi_zhen/she_hun_mi_zhen.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	1024 768	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	摄魂迷阵
+				<polygon>	[(-249,176),(-248,-159),(205,-160),(205,175),]	</polygon>
+				<texture>	space/she_hun_mi_zhen/she_hun_mi_zhen.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1516	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</ye_wai_she_hun_mi_zhen>
+	<fu_ben_she_hun_mi_zhen>	副本
+		<spaceFolder>	she_hun_mi_zhen	</spaceFolder>
+		<texture>	space/she_hun_mi_zhen/she_hun_mi_zhen.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	1024 768	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	摄魂迷阵
+				<polygon>	[(-249,176),(-248,-159),(205,-160),(205,175),]	</polygon>
+				<texture>	space/she_hun_mi_zhen/she_hun_mi_zhen.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1516	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_she_hun_mi_zhen>
+	<ye_wai_feng_jian_shen_gong_001>	副本:封剑神宫
+		<spaceFolder>	fu_ben_feng_jian_shen_gong_001	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	768 768	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	神宫回廊
+				<polygon>	[(-208,290),(-207,-20),(-60,-21),(-12,82),(188,82),(189,290),]	</polygon>
+				<effectFlag>	3	</effectFlag>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	封剑神宫
+				<polygon>	[(189,-94),(188,82),(-12,82),(-60,-21),(-207,-20),(-207,-93),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</ye_wai_feng_jian_shen_gong_001>
+	<fu_ben_feng_jian_shen_gong>	副本
+		<spaceFolder>	fu_ben_feng_jian_shen_gong_001	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	768 768	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	神宫回廊
+				<polygon>	[(-208,290),(-207,-20),(-60,-21),(-12,82),(188,82),(189,290),]	</polygon>
+				<effectFlag>	3	</effectFlag>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	封剑神宫
+				<polygon>	[(189,-94),(188,82),(-12,82),(-60,-21),(-207,-20),(-207,-93),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_feng_jian_shen_gong>
+	<fu_ben_shi_tu_fu_ben>	副本
+		<spaceFolder>	fu_ben_shi_tu_fu_ben	</spaceFolder>
+		<texture>	space/fu_ben_shi_tu_fu_ben/fu_ben_shi_tu_fu_ben.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	512 512	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	凤鸣后山
+				<polygon>	[(-199,126),(-199,-110),(198,-109),(198,126),]	</polygon>
+				<texture>	space/fu_ben_shi_tu_fu_ben/fu_ben_shi_tu_fu_ben.tga	</texture>
+				<mapSize>	2048 1217	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	0 0 512 512	</effectiveRect>
+	</fu_ben_shi_tu_fu_ben>
+	<ye_wai_kua_fu_shen_dian_001>	副本：夸父神殿
+		<spaceFolder>	fu_ben_kua_fu_shen_dian_001	</spaceFolder>
+		<texture>	space/fu_ben_kua_fu_shen_dian_001/fu_ben_kua_fu_shen_dian_001.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	896 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	夸父神殿
+				<polygon>	[(-114,256),(-114,-277),(277,-277),(277,256),]	</polygon>
+				<texture>	space/fu_ben_kua_fu_shen_dian_001/fu_ben_kua_fu_shen_dian_001.tga	</texture>
+				<mapSize>	1500 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	238 184 501 683	</effectiveRect>
+	</ye_wai_kua_fu_shen_dian_001>
+	<fu_ben_kua_fu_shen_dian>	副本
+		<spaceFolder>	fu_ben_kua_fu_shen_dian_001	</spaceFolder>
+		<texture>	space/fu_ben_kua_fu_shen_dian_001/fu_ben_kua_fu_shen_dian_001.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	896 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	夸父神殿
+				<polygon>	[(-114,256),(-114,-277),(277,-277),(277,256),]	</polygon>
+				<texture>	space/fu_ben_kua_fu_shen_dian_001/fu_ben_kua_fu_shen_dian_001.tga	</texture>
+				<mapSize>	1500 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	238 184 501 683	</effectiveRect>
+	</fu_ben_kua_fu_shen_dian>
+	<fu_ben_qian_shi>	副本
+		<spaceFolder>	fu_ben_ju_qing_001	</spaceFolder>
+		<texture>	space/fu_ben_ju_qing_001/fu_ben_ju_qing_001.tga	</texture>
+		<textureSize>	1024 1024	</textureSize>
+		<mapSize>	1024 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	20ji_juqing_fuben/20jifuben_huanjing_yinyue/20jifuben_zonghebeijing	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	时空幻境
+				<polygon>	[(-402,399),(-401,-298),(398,-294),(398,399),]	</polygon>
+				<texture>	space/fu_ben_ju_qing_001/fu_ben_ju_qing_001.tga	</texture>
+				<mapSize>	1024 896	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	2 -2 1021 957	</effectiveRect>
+	</fu_ben_qian_shi>
+	<wu_dao>	武道大会
+		<spaceFolder>	fu_ben_wu_dao_da_hui	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</wu_dao>
+	<fu_ben_zu_dui_jing_ji_chang>	组队竞技
+		<spaceFolder>	fu_ben_zu_dui_jing_ji_chang	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	团队竞技场
+				<polygon>	[(-402,398),(-402,-320),(398,-322),(397,398),]	</polygon>
+				<ignore>	true	</ignore>
+				<texture>	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2048	</mapSize>
+			</area>
+		</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</fu_ben_zu_dui_jing_ji_chang>
+	<tong_abattoir>	竞技
+		<spaceFolder>	fu_ben_npc_zheng_duo_zhan	</spaceFolder>
+		<texture>	space/fu_ben_npc_zheng_duo_zhan/fu_ben_npc_zheng_duo_zhan_area.tga	</texture>
+		<textureSize>	1024.0 512.0	</textureSize>
+		<mapSize>	640.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	帮会战场
+				<polygon>	[(-182,176),(-182,-163),(268,-163),(268,176),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1542	</mapSize>
+				<texture>	space/fu_ben_npc_zheng_duo_zhan/fu_ben_npc_zheng_duo_zhan_area.tga	</texture>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</tong_abattoir>
+	<fu_ben_npc_zheng_duo_zhan>	竞技
+		<spaceFolder>	fu_ben_npc_zheng_duo_zhan	</spaceFolder>
+		<texture>	space/fu_ben_npc_zheng_duo_zhan/fu_ben_npc_zheng_duo_zhan_area.tga	</texture>
+		<textureSize>	1024.0 512.0	</textureSize>
+		<mapSize>	640.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/yh_city2	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	争夺战战场
+				<polygon>	[(-182,176),(-182,-163),(268,-163),(268,176),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 1542	</mapSize>
+				<texture>	space/fu_ben_npc_zheng_duo_zhan/fu_ben_npc_zheng_duo_zhan_area.tga	</texture>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_npc_zheng_duo_zhan>
+	<city_war_a>	竞技:帮会夺城战房间
+		<spaceFolder>	fu_ben_bang_hui_zhan_chang_01	</spaceFolder>
+		<texture>	space/fu_ben_bang_hui_zhan_chang_01/fu_ben_bang_hui_zhan_chang_01.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>	</bgMusics>
+		<areas>
+			<area>	离火岭
+				<polygon>	[(-158,-162),(-158,117),(157,116),(153,-162),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</city_war_a>
+	<city_war_b>	竞技:帮会夺城战房间
+		<spaceFolder>	fu_ben_bang_hui_zhan_chang_02	</spaceFolder>
+		<texture>	space/fu_ben_bang_hui_zhan_chang_02/fu_ben_bang_hui_zhan_chang_02.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>	</bgMusics>
+		<areas>
+			<area>	震木墟
+				<polygon>	[(-163,134),(-163,-162),(149,-161),(149,134),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</city_war_b>
+	<city_war_c>	竞技:帮会夺城战房间
+		<spaceFolder>	fu_ben_bang_hui_zhan_chang_03	</spaceFolder>
+		<texture>	space/fu_ben_bang_hui_zhan_chang_03/fu_ben_bang_hui_zhan_chang_03.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>	</bgMusics>
+		<areas>
+			<area>	销金涧
+				<polygon>	[(-163,235),(-163,-162),(172,-162),(173,235),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</city_war_c>
+	<city_war_d>	竞技:帮会夺城战房间
+		<spaceFolder>	fu_ben_bang_hui_zhan_chang_04	</spaceFolder>
+		<texture>	space/fu_ben_bang_hui_zhan_chang_04/fu_ben_bang_hui_zhan_chang_04.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>	</bgMusics>
+		<areas>
+			<area>	崩土林
+				<polygon>	[(-139,154),(-139,-168),(193,-168),(193,154),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</city_war_d>
+	<city_war_e>	竞技:帮会夺城战房间
+		<spaceFolder>	fu_ben_bang_hui_zhan_chang_05	</spaceFolder>
+		<texture>	space/fu_ben_bang_hui_zhan_chang_05/fu_ben_bang_hui_zhan_chang_05.tga	</texture>
+		<mapSize>	2048.0 1463	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>
+			<music>	</music>
+		</bgMusics>
+		<areas>
+			<area>	枯水源
+				<polygon>	[(-144,194),(239,194),(239,-55),(-144,-56),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	458 310 1122 732	</effectiveRect>
+	</city_war_e>
+	<fu_ben_jia_zu_jing_ji_chang>	帮会竞技
+		<spaceFolder>	fu_ben_zu_dui_jing_ji_chang	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/master-end	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</fu_ben_jia_zu_jing_ji_chang>
+	<fu_ben_zu_dui_jing_ji_chang>	队伍竞技
+		<spaceFolder>	fu_ben_zu_dui_jing_ji_chang	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</fu_ben_zu_dui_jing_ji_chang>
+	<fu_ben_ge_ren_jing_ji_chang>	个人竞技
+		<spaceFolder>	fu_ben_zu_dui_jing_ji_chang	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</fu_ben_ge_ren_jing_ji_chang>
+	<liu_wang_mu_001>	帝王古墓一层
+		<spaceFolder>	liu_wang_mu_001	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/bgm_dwgm	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</liu_wang_mu_001>
+	<liu_wang_mu_002>	帝王古墓二层
+		<spaceFolder>	liu_wang_mu_002	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/bgm_dwgm	</music>
+		</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</liu_wang_mu_002>
+	<liu_wang_mu_003>	帝王古墓三层
+		<spaceFolder>	liu_wang_mu_003	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/bgm_dwgm	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</liu_wang_mu_003>
+	<liu_wang_mu_004>	帝王古墓四层
+		<spaceFolder>	liu_wang_mu_004	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/bgm_dwgm	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</liu_wang_mu_004>
+	<liu_wang_mu_005>	帝王古墓五层
+		<spaceFolder>	liu_wang_mu_005	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/bgm_dwgm	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</liu_wang_mu_005>
+	<liu_wang_mu_006>	帝王古墓六层
+		<spaceFolder>	liu_wang_mu_006	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	bgm/bgm_dwgm	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</liu_wang_mu_006>
+	<gumigong>	古秘宫
+		<spaceFolder>	fu_ben_gu_mi_gong	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</gumigong>
+	<fu_ben_gu_mi_gong_mo_55>	神兽崖密道
+		<spaceFolder>	fu_ben_gu_mi_gong	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</fu_ben_gu_mi_gong_mo_55>
+	<fu_ben_gu_mi_gong_xian_55>	神兽崖密道
+		<spaceFolder>	fu_ben_gu_mi_gong	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</fu_ben_gu_mi_gong_xian_55>
+	<fu_ben_long_qi_dong_01>	洞穴:龙岐洞一层
+		<spaceFolder>	fu_ben_long_qi_dong_01	</spaceFolder>
+		<texture>	space/fu_ben_long_qi_dong_01/fu_ben_long_qi_dong_01_high_definition.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	1280.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	龙岐洞一层
+				<polygon>	[(-199,400),(-199,-398),(297,-398),(298,400),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_long_qi_dong_01>
+	<fu_ben_long_qi_dong_02>	洞穴:龙岐洞二层
+		<spaceFolder>	fu_ben_long_qi_dong_02	</spaceFolder>
+		<texture>	space/fu_ben_long_qi_dong_02/fu_ben_long_qi_dong_02_high_definition.tga	</texture>
+		<textureSize>	2048.0 2048.0	</textureSize>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	龙岐洞二层
+				<polygon>	[(-299,300),(-300,-298),(298,-298),(299,300),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_long_qi_dong_02>
+	<fu_ben_bing_dong_001>	洞穴
+		<spaceFolder>	fu_ben_bing_dong_001	</spaceFolder>
+		<texture>	space/fu_ben_bing_dong_001/fu_ben_bing_dong_001_high_definition.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	640.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	苍冥窟一层
+				<polygon>	[(-174,158),(-174,-188),(211,-188),(210,158),]	</polygon>
+				<texture>	space/fu_ben_bing_dong_001/fu_ben_bing_dong_001_high_definition.tga	</texture>
+				<mapSize>	2048 1840	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	0 0 640 512	</effectiveRect>
+	</fu_ben_bing_dong_001>
+	<fu_ben_bing_dong_002>	洞穴
+		<spaceFolder>	fu_ben_bing_dong_002	</spaceFolder>
+		<texture>	space/fu_ben_bing_dong_002/fu_ben_bing_dong_002_high_definition.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	640 640	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	苍冥窟二层
+				<polygon>	[(-88,204),(-88,-145),(216,-145),(216,203),]	</polygon>
+				<texture>	space/fu_ben_bing_dong_002/fu_ben_bing_dong_002_high_definition.tga	</texture>
+				<mapSize>	1782 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	0 0 640 640	</effectiveRect>
+	</fu_ben_bing_dong_002>
+	<fu_ben_bing_dong_003>	洞穴
+		<spaceFolder>	fu_ben_bing_dong_003	</spaceFolder>
+		<texture>	space/fu_ben_bing_dong_003/fu_ben_bing_dong_003_high_definition.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	640.0 640.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_dungeons	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	苍冥窟三层
+				<polygon>	[(-91,191),(-91,-111),(299,-110),(298,191),]	</polygon>
+				<texture>	space/fu_ben_bing_dong_003/fu_ben_bing_dong_003_high_definition.tga	</texture>
+				<mapSize>	2048 1585	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	0 0 640 640	</effectiveRect>
+	</fu_ben_bing_dong_003>
+	<sai_ma_chang_01>	休闲
+		<spaceFolder>	sai_ma_chang_01	</spaceFolder>
+		<texture>	space/sai_ma_chang_01/sai_ma_chang_01.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	640.0 768.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/saima	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	海岛赛马场
+				<polygon>	[(-102,144),(-102,-180),(202,-180),(202,144),]	</polygon>
+				<texture>	space/sai_ma_chang_01/sai_ma_chang_01_area.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	1928 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</sai_ma_chang_01>
+	<sai_ma_chang_03>	冰雪赛马场
+		<spaceFolder>	sai_ma_chang_03	</spaceFolder>
+		<texture>	space/sai_ma_chang_03/sai_ma_chang_03.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	640.0 640.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/zheng_jiu_ya_yu	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</sai_ma_chang_03>
+	<fu_ben_wu_tai_001>	舞厅
+		<spaceFolder>	fu_ben_wu_tai_001	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	wutingmusic/wutingdisco1	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</fu_ben_wu_tai_001>
+	<fu_ben_rabbit_run>	休闲
+		<spaceFolder>	sai_ma_chang_01	</spaceFolder>
+		<texture>	space/sai_ma_chang_01/sai_ma_chang_01.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	640.0 768.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/tu_zi_kuai_pao	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	小兔快跑
+				<polygon>	[(-102,144),(-102,-180),(202,-180),(202,144),]	</polygon>
+				<texture>	space/sai_ma_chang_01/sai_ma_chang_01_area.tga	</texture>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	1928 2048	</mapSize>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_rabbit_run>
+	<prison>	监狱
+		<spaceFolder>	fu_ben_jian_yu	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	256.0 256.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/jian_yu	</music>
+		</bgMusics>
+		<bgSounds>	</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</prison>
+	<fu_ben_bang_hui_ling_di>	帮会
+		<spaceFolder>	fu_ben_bang_hui_ling_di	</spaceFolder>
+		<texture>	space/fu_ben_bang_hui_ling_di/fu_ben_bang_hui_ling_di.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/master-end	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	帮会领地
+				<polygon>	[(-174,134),(-174,-205),(172,-205),(172,134),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2012	</mapSize>
+				<mapOffset>	</mapOffset>
+				<texture>	space/fu_ben_bang_hui_ling_di/fu_ben_bang_hui_ling_di_area.tga	</texture>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_bang_hui_ling_di>
+	<bao_hu_bang_pai_mid_autumn>	活动
+		<spaceFolder>	fu_ben_bang_hui_ling_di	</spaceFolder>
+		<texture>	space/fu_ben_bang_hui_ling_di/fu_ben_bang_hui_ling_di.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/master-end	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	月饼大乱斗
+				<polygon>	[(-174,134),(-174,-205),(172,-205),(172,134),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2012	</mapSize>
+				<mapOffset>	</mapOffset>
+				<texture>	space/fu_ben_bang_hui_ling_di/fu_ben_bang_hui_ling_di_area.tga	</texture>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</bao_hu_bang_pai_mid_autumn>
+	<bao_hu_bang_pai>	活动
+		<spaceFolder>	fu_ben_bang_hui_ling_di	</spaceFolder>
+		<texture>	space/fu_ben_bang_hui_ling_di/fu_ben_bang_hui_ling_di.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/master-end	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	保护帮派
+				<polygon>	[(-174,134),(-174,-205),(172,-205),(172,134),]	</polygon>
+				<textureSize>	2048 2048	</textureSize>
+				<mapSize>	2048 2012	</mapSize>
+				<mapOffset>	</mapOffset>
+				<texture>	space/fu_ben_bang_hui_ling_di/fu_ben_bang_hui_ling_di_area.tga	</texture>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</bao_hu_bang_pai>
+	<ye_wai_gdfb_hai_dao>	格斗副本：海岛
+		<spaceFolder>	fu_ben_gdfb_hai_dao	</spaceFolder>
+		<texture>	space/fu_ben_gdfb_hai_dao/fu_ben_gdfb_hai_dao.tga	</texture>
+		<mapSize>	1024.0 731	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>
+			<music>	</music>
+		</bgMusics>
+		<areas>
+			<area>	海岛
+				<polygon>	[(-161,178),(253,177),(252,-137),(-161,-134),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+		<effectiveRect>	204 175 606 462	</effectiveRect>
+	</ye_wai_gdfb_hai_dao>
+	<fu_ben_hua_shan_002>	格斗副本海岛
+		<spaceFolder>	fu_ben_gdfb_hai_dao	</spaceFolder>
+		<texture>	space/fu_ben_gdfb_hai_dao/fu_ben_gdfb_hai_dao.tga	</texture>
+		<mapSize>	1024.0 731	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>
+			<music>	</music>
+		</bgMusics>
+		<areas>
+			<area>	海岛
+				<polygon>	[(-161,178),(253,177),(252,-137),(-161,-134),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+		<effectiveRect>	204 175 606 462	</effectiveRect>
+	</fu_ben_hua_shan_002>
+	<ye_wai_gdfb_fu_kong_dao>	格斗副本:浮空岛
+		<spaceFolder>	gdfb_fu_kong_dao	</spaceFolder>
+		<texture>	maps/gdfb_fu_kong_dao/gdfb_fu_kong_dao.tga	</texture>
+		<mapSize>	1024.0 342	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>
+			<music>	</music>
+		</bgMusics>
+		<areas>
+			<area>	浮空岛
+				<polygon>	[(-316,96),(87,96),(90,-96),(-317,-96),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+		<effectiveRect>	142 9 693 333	</effectiveRect>
+	</ye_wai_gdfb_fu_kong_dao>
+	<fu_ben_hua_shan_001>	格斗副本浮空岛
+		<spaceFolder>	gdfb_fu_kong_dao	</spaceFolder>
+		<texture>	maps/gdfb_fu_kong_dao/gdfb_fu_kong_dao.tga	</texture>
+		<mapSize>	1024.0 342	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_temple	</sound>
+		</bgSounds>
+		<areas>
+			<area>	浮空岛
+				<polygon>	[(-316,96),(87,96),(90,-96),(-317,-96),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+		<effectiveRect>	142 9 693 333	</effectiveRect>
+	</fu_ben_hua_shan_001>
+	<bei_ming>	北冥
+		<spaceFolder>	bei_ming	</spaceFolder>
+		<texture>	space\bei_ming\bei_ming_high_definition.tga	</texture>
+		<mapSize>	4096 3528	</mapSize>
+		<ignore>	true	</ignore>
+		<bgSounds>
+			<sound>	huanj/scene_temple	</sound>
+		</bgSounds>
+		<areas>
+			<area>	玄武野外
+				<polygon>	[(1388,-1490),(-20,-1561),(-113,-534),(0,-253),(45,-140),(435,-148),(454,-296),(599,-394),(882,-691),(925,-825),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	玄武殿
+				<polygon>	[(14,-452),(119,-361),(271,-460),(382,-536),(457,-616),(488,-618),(539,-663),(529,-688),(578,-735),(563,-831),(495,-882),(406,-842),(343,-909),(203,-925),(22,-744),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	北冥瀚海
+				<polygon>	[(1388,-1490),(925,-825),(882,-691),(599,-394),(454,-296),(435,-148),(785,206),(1109,452),(1796,833),(1797,-1496),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	钟山
+				<polygon>	[(-20,-1561),(-1037,-1495),(-1016,-900),(-930,-459),(-810,-209),(-649,35),(-338,156),(-341,279),(-66,60),(45,-140),(0,-253),(-113,-534),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	两仪谷
+				<polygon>	[(1796,1600),(467,1603),(463,1038),(214,746),(83,563),(-27,511),(-210,512),(-345,398),(-341,279),(-66,60),(45,-140),(435,-148),(785,206),(1109,452),(1796,833),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	造化司
+				<polygon>	[(467,1603),(-1802,1601),(-1802,996),(-1494,617),(-1018,569),(-670,654),(-563,525),(-345,398),(-210,512),(-27,511),(83,563),(214,746),(463,1038),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+			<area>	万象森罗
+				<polygon>	[(-1800,-1493),(-1802,996),(-1494,617),(-1018,569),(-670,654),(-563,525),(-345,398),(-341,279),(-338,156),(-649,35),(-810,-209),(-930,-459),(-1016,-900),(-1037,-1495),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	-3 -2 4095 3529	</effectiveRect>
+	</bei_ming>
+	<gedou_jingji>	格斗竞技
+		<spaceFolder>	fu_ben_gdfb_hai_dao	</spaceFolder>
+		<texture>	</texture>
+		<mapSize>	2048.0 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	</openFlag>
+	</gedou_jingji>
+	<fu_ben_mu_xing_01>	天璇星
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_mu_xing_01\fu_ben_mu_xing_01_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	175 153 612 685	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天璇星
+				<polygon>	[(-180,295),(239,293),(239,-170),(-180,-172),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_mu_xing_01>
+	<fu_ben_mu_xing_02>	天璇星域
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_mu_xing_01/fu_ben_mu_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	110 268 827 533	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天璇星
+				<polygon>	[(-223,217),(336,215),(338,-144),(-225,-145),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_mu_xing_02>
+	<fu_ben_mu_xing_03>	天璇星
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_mu_xing_01/fu_ben_mu_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	110 268 827 533	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天璇星域
+				<polygon>	[(-223,217),(336,215),(338,-144),(-225,-145),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_mu_xing_03>
+	<fu_ben_mu_xing_04>	天璇星域
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_mu_xing_01/fu_ben_mu_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	110 268 827 533	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天璇星域
+				<polygon>	[(-223,217),(336,215),(338,-144),(-225,-145),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_mu_xing_04>
+	<fu_ben_mu_xing_05>	天璇
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_mu_xing_01/fu_ben_mu_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	110 268 827 533	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天璇星
+				<polygon>	[(-223,217),(336,215),(338,-144),(-225,-145),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_mu_xing_05>
+	<fu_ben_mu_xing_06>	天璇星
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_mu_xing_01/fu_ben_mu_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	110 268 827 533	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天璇
+				<polygon>	[(-223,217),(336,215),(338,-144),(-225,-145),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_mu_xing_06>
+	<fu_ben_tu_xing_04>	土星
+		<spaceFolder>	fu_ben_tu_xing_xiao	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space/fu_ben_tu_xing_01/fu_ben_tu_xing_xiao_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	408 1065 913 411	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星战场
+				<polygon>	[(-281,27),(209,27),(210,-192),(-280,-191),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tu_xing_04>
+	<fu_ben_tu_xing_05>	土星
+		<spaceFolder>	fu_ben_tu_xing_xiao	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space/fu_ben_tu_xing_01/fu_ben_tu_xing_xiao_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	408 1065 913 411	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星
+				<polygon>	[(-281,27),(209,27),(210,-192),(-280,-191),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tu_xing_05>
+	<fu_ben_tu_xing_06>	土星战场
+		<spaceFolder>	fu_ben_tu_xing_xiao	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space/fu_ben_tu_xing_01/fu_ben_tu_xing_xiao_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	408 1065 913 411	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星战场
+				<polygon>	[(-281,27),(209,27),(210,-192),(-280,-191),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tu_xing_06>
+	<fu_ben_huo_xing_01>	熔岩之地
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_huo_xing_01\fu_ben_huo_xing_01_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	220 197 740 622	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	熔岩之地
+				<polygon>	[(-171,184),(263,182),(261,-180),(-170,-179),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_huo_xing_01>
+	<fu_ben_huo_xing_02>	熔岩之地
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_huo_xing_02\fu_ben_huo_xing_02_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	120 100 441 728	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	熔岩之地
+				<polygon>	[(-230,322),(29,321),(29,-245),(-230,-245),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_huo_xing_02>
+	<fu_ben_huo_xing_03>	熔岩之地
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_huo_xing_01/fu_ben_huo_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	200 113 745 765	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	熔岩之地
+				<polygon>	[(-183,233),(253,233),(254,-214),(-183,-214),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_huo_xing_03>
+	<fu_ben_huo_xing_04>	熔岩之地
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_huo_xing_01/fu_ben_huo_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	200 113 745 765	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	熔岩之地
+				<polygon>	[(-183,233),(253,233),(254,-214),(-183,-214),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_huo_xing_04>
+	<fu_ben_huo_xing_05>	熔岩之地
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_huo_xing_01/fu_ben_huo_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	200 113 745 765	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	熔岩之地
+				<polygon>	[(-183,233),(253,233),(254,-214),(-183,-214),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_huo_xing_05>
+	<fu_ben_huo_xing_06>	熔岩之地
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_huo_xing_01/fu_ben_huo_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	200 113 745 765	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	熔岩之地
+				<polygon>	[(-183,233),(253,233),(254,-214),(-183,-214),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_huo_xing_06>
+	<fu_ben_shui_xing_01>	水星
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_shui_xing_01\fu_ben_shui_xing_01_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	615 647 759 607	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	水星领地
+				<polygon>	[(-200,184),(169,183),(170,-112),(-200,-112),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shui_xing_01>
+	<fu_ben_shui_xing_02>	水星
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space/fu_ben_shui_xing_01/fu_ben_shui_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	332 413 1381 1115	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	水星
+				<polygon>	[(-339,299),(335,299),(337,-244),(-337,-244),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shui_xing_02>
+	<fu_ben_shui_xing_03>	水星领地
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space/fu_ben_shui_xing_01/fu_ben_shui_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	332 413 1381 1115	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	水星领地
+				<polygon>	[(-339,299),(335,299),(337,-244),(-337,-244),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shui_xing_03>
+	<fu_ben_shui_xing_04>	水星领地
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space/fu_ben_shui_xing_01/fu_ben_shui_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	332 413 1381 1115	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	水星领地
+				<polygon>	[(-339,299),(335,299),(337,-244),(-337,-244),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shui_xing_04>
+	<fu_ben_shui_xing_05>	水星域
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space/fu_ben_shui_xing_01/fu_ben_shui_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	332 413 1381 1115	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	水星领地
+				<polygon>	[(-339,299),(335,299),(337,-244),(-337,-244),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shui_xing_05>
+	<fu_ben_shui_xing_06>	水星域
+		<spaceFolder>	fu_ben_huo_xing_01	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space/fu_ben_shui_xing_01/fu_ben_shui_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	332 413 1381 1115	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	水星
+				<polygon>	[(-339,299),(335,299),(337,-244),(-337,-244),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_shui_xing_06>
+	<fu_ben_ying_xiong_lian_meng_01>	英雄联盟
+		<spaceFolder>	fu_ben_ying_xiong_lian_meng_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_ying_xiong_lian_meng_01/fu_ben_ying_xiong_lian_meng_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	234 225 598 550	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	英雄王座
+				<polygon>	[(-139,122),(140,122),(141,-126),(-142,-125),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_ying_xiong_lian_meng_01>
+	<fu_ben_jin_xing_01>	斜阳破
+		<spaceFolder>	fu_ben_jin_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_jin_xing_01\fu_ben_jin_xing_01_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	斜阳破
+				<polygon>	[(-168,164),(91,163),(90,-159),(-169,-159),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	299 301 329 416	</effectiveRect>
+	</fu_ben_jin_xing_01>
+	<fu_ben_jin_xing_02>	残阳破
+		<spaceFolder>	fu_ben_jin_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_jin_xing/fu_ben_jin_xing_01_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	残阳破
+				<polygon>	[(-149,203),(77,203),(77,-157),(-147,-159),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	323 252 291 463	</effectiveRect>
+	</fu_ben_jin_xing_02>
+	<fu_ben_jin_xing_04>	残阳破
+		<spaceFolder>	fu_ben_jin_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_jin_xing_04\fu_ben_jin_xing_04_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	残阳破
+				<polygon>	[(-169,164),(90,164),(91,-158),(-168,-159),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	296 303 334 413	</effectiveRect>
+	</fu_ben_jin_xing_04>
+	<fu_ben_jin_xing_05>	残阳破
+		<spaceFolder>	fu_ben_jin_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_jin_xing/fu_ben_jin_xing_01_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	残阳破
+				<polygon>	[(-149,203),(77,203),(77,-157),(-147,-159),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	323 252 291 463	</effectiveRect>
+	</fu_ben_jin_xing_05>
+	<fu_ben_jin_xing_06>	金星域
+		<spaceFolder>	fu_ben_jin_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_jin_xing/fu_ben_jin_xing_01_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	金星战场
+				<polygon>	[(-149,203),(77,203),(77,-157),(-147,-159),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	323 252 291 463	</effectiveRect>
+	</fu_ben_jin_xing_06>
+	<zy_xiu_luo_dian>	修罗殿
+		<spaceFolder>	zy_xiu_luo_dian	</spaceFolder>
+		<texture>	space/zy_xiu_luo_dian/zy_xiu_luo_dian_definition.tga	</texture>
+		<mapSize>	1024 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<sound>	bgm/bgm_xiuluo	</sound>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_temple	</sound>
+		</bgSounds>
+		<areas>
+			<area>	修罗殿
+				<polygon>	[(-194,292),(-195,-289),(202,-288),(201,291),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	6 8 834 996	</effectiveRect>
+	</zy_xiu_luo_dian>
+	<zy_tian_mo_gong>	天魔宫
+		<spaceFolder>	zy_tian_mo_gong	</spaceFolder>
+		<texture>	space/zy_tian_mo_gong/zy_tian_mo_gong_definition.tga	</texture>
+		<mapSize>	1024 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<sound>	bgm/bgm_tianmo	</sound>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<bgSounds>	bgm_tianmo
+			<sound>	huanj/scene_temple	</sound>
+		</bgSounds>
+		<areas>
+			<area>	天魔宫
+				<polygon>	[(-245,390),(387,389),(389,-297),(-244,-292),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	223 6 761 822	</effectiveRect>
+	</zy_tian_mo_gong>
+	<zy_wa_huang_gong>	娲皇宫
+		<spaceFolder>	zy_wa_huang_gong	</spaceFolder>
+		<texture>	space/zy_wa_huang_gong/zy_wa_huang_gong_definition.tga	</texture>
+		<mapSize>	1024 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	huanj/scene_temple	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	娲皇宫
+				<polygon>	[(-245,390),(387,389),(389,-297),(-244,-292),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	223 6 761 822	</effectiveRect>
+	</zy_wa_huang_gong>
+	<zy_zi_xiao_gong>	紫霄宫
+		<spaceFolder>	zy_zi_xiao_gong	</spaceFolder>
+		<texture>	space/zy_zi_xiao_gong/zy_zi_xiao_gong_definition.tga	</texture>
+		<mapSize>	1024 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<sound>	bgm/bgm_zixiao	</sound>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<bgSounds>	bgm_zixiao
+			<sound>	huanj/scene_temple	</sound>
+		</bgSounds>
+		<areas>
+			<area>	紫霄宫
+				<polygon>	[(-245,390),(387,389),(389,-297),(-244,-292),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	223 6 761 822	</effectiveRect>
+	</zy_zi_xiao_gong>
+	<ying_xiong_lian_meng_01>	英雄王座
+		<spaceFolder>	ying_xiong_lian_meng_01	</spaceFolder>
+		<texture>	space/ying_xiong_lian_meng_01/ying_xiong_lian_meng_01_high_definition.tga	</texture>
+		<mapSize>	2048 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	英雄王座
+				<polygon>	[(-319,196),(173,197),(173,-242),(-318,-242),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	335 601 1072 975	</effectiveRect>
+	</ying_xiong_lian_meng_01>
+	<ying_xiong_lian_meng_pvp>	英雄王座
+		<spaceFolder>	ying_xiong_lian_meng_01	</spaceFolder>
+		<texture>	space/ying_xiong_lian_meng_01/ying_xiong_lian_meng_01_high_definition.tga	</texture>
+		<mapSize>	2048 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	英雄王座
+				<polygon>	[(-319,196),(173,197),(173,-242),(-318,-242),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	370 620 1010 898	</effectiveRect>
+	</ying_xiong_lian_meng_pvp>
+	<xing_xiu_dong>	星宿洞
+		<spaceFolder>	xing_xiu_dong	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/kl1	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</xing_xiu_dong>
+	<50modao_ya_yu_shen_yan>	猰貐神坛
+		<spaceFolder>	50modao_ya_yu_shen_yan	</spaceFolder>
+		<texture>	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	512.0 512.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	musics/kl1	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>	</areas>
+		<openFlag>	forbidToOpen	</openFlag>
+	</50modao_ya_yu_shen_yan>
+	<fu_ben_maps_shen_gui_0_1>	酆泉谷
+		<spaceFolder>	fu_ben_feng_quan_gu	</spaceFolder>
+		<texture>	space/fu_ben_feng_quan_gu/fu_ben_feng_quan_gu.tga	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	2024 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	酆泉谷
+				<polygon>	[(-363,477),(-364,-387),(340,-386),(340,478),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	94 48.0 1778 1969	</effectiveRect>
+	</fu_ben_maps_shen_gui_0_1>
+	<fu_ben_maps_shen_gui_0_2>	坠魂崖
+		<spaceFolder>	fu_ben_zhui_hun_ya	</spaceFolder>
+		<texture>	space/fu_ben_zhui_hun_ya/fu_ben_zhui_hun_ya.tga	</texture>
+		<mapSize>	2048 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	坠魂崖
+				<polygon>	[(-399,297),(-399,-297),(496,-298),(496,298),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	3 4 2039 924	</effectiveRect>
+	</fu_ben_maps_shen_gui_0_2>
+	<fu_ben_maps_shen_gui_1_1>	酆泉谷
+		<spaceFolder>	fu_ben_feng_quan_gu	</spaceFolder>
+		<texture>	space/fu_ben_feng_quan_gu/fu_ben_feng_quan_gu.tga	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	2024 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	酆泉谷
+				<polygon>	[(-363,477),(-364,-387),(340,-386),(340,478),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	94 48.0 1778 1969	</effectiveRect>
+	</fu_ben_maps_shen_gui_1_1>
+	<fu_ben_maps_shen_gui_1_2>	坠魂崖
+		<spaceFolder>	fu_ben_zhui_hun_ya	</spaceFolder>
+		<texture>	space/fu_ben_zhui_hun_ya/fu_ben_zhui_hun_ya.tga	</texture>
+		<mapSize>	2048 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	坠魂崖
+				<polygon>	[(-399,297),(-399,-297),(496,-298),(496,298),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	3 4 2039 924	</effectiveRect>
+	</fu_ben_maps_shen_gui_1_2>
+	<fu_ben_maps_shen_gui_2_1>	酆泉谷
+		<spaceFolder>	fu_ben_feng_quan_gu	</spaceFolder>
+		<texture>	space/fu_ben_feng_quan_gu/fu_ben_feng_quan_gu.tga	</texture>
+		<textureSize>	</textureSize>
+		<mapSize>	2024 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	酆泉谷
+				<polygon>	[(-363,477),(-364,-387),(340,-386),(340,478),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	94 48.0 1778 1969	</effectiveRect>
+	</fu_ben_maps_shen_gui_2_1>
+	<fu_ben_maps_shen_gui_2_2>	坠魂崖
+		<spaceFolder>	fu_ben_zhui_hun_ya	</spaceFolder>
+		<texture>	space/fu_ben_zhui_hun_ya/fu_ben_zhui_hun_ya.tga	</texture>
+		<mapSize>	2048 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	坠魂崖
+				<polygon>	[(-399,297),(-399,-297),(496,-298),(496,298),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	3 4 2039 924	</effectiveRect>
+	</fu_ben_maps_shen_gui_2_2>
+	<fu_ben_ye_zhan_feng_qi>	凤栖镇
+		<spaceFolder>	feng_xi_zhen	</spaceFolder>
+		<texture>	space/feng_xi_zhen/feng_xi_zhen.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	凤栖镇
+				<polygon>	[(-195,282),(227,282),(229,-163),(-192,-169),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	228 150 595 574	</effectiveRect>
+	</fu_ben_ye_zhan_feng_qi>
+	<fu_ben_tu_xing_0304>	星辰领域
+		<spaceFolder>	fu_ben_tu_xing_boss_001	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_tu_xing_boss_001\fu_ben_tu_xing_boss_001_high_definition.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	星辰领域
+				<polygon>	[(-106,239),(223,238),(223,-137),(-107,-138),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	178 131 709 758	</effectiveRect>
+	</fu_ben_tu_xing_0304>
+	<fu_ben_tu_xing_0203>	土星之巅
+		<spaceFolder>	fu_ben_qian_shao_3	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_qian_shao_3\fu_ben_qian_shao_3_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星之巅
+				<polygon>	[(-102,170),(295,170),(295,-94),(-103,-94),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	286.0 337 587 387	</effectiveRect>
+	</fu_ben_tu_xing_0203>
+	<fu_ben_jin_xing_032>	残阳破
+		<spaceFolder>	fu_ben_jin_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_jin_xing_01\fu_ben_jin_xing_01_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	残阳破
+				<polygon>	[(-169,163),(91,163),(90,-158),(-167,-157),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	299 302 330 411	</effectiveRect>
+	</fu_ben_jin_xing_032>
+	<fu_ben_jin_xing_012>	通幽径
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_mu_xing_01\fu_ben_mu_xing_01_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	176 158 612 678	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	通幽径
+				<polygon>	[(-179,294),(241,293),(241,-172),(-180,-172),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_jin_xing_012>
+	<fu_ben_jin_xing_023>	通幽径
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_mu_xing_01\fu_ben_mu_xing_01_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	177 155 613 680	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	通幽径
+				<polygon>	[(-179,295),(241,294),(241,-172),(-178,-172),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_jin_xing_023>
+	<fu_ben_jin_xing_033>	通幽径
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_mu_xing_01\fu_ben_mu_xing_01_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	176 153 616 684	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	通幽径
+				<polygon>	[(-178,294),(241,295),(239,-170),(-180,-172),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_jin_xing_033>
+	<fu_ben_jin_xing_022>	天柱核心
+		<spaceFolder>	fu_ben_tu_xing_xiao	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_tu_xing_xiao\fu_ben_tu_xing_xiao_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	373 1083 1087 433	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天柱核心
+				<polygon>	[(-298,18),(283,17),(285,-214),(-298,-213),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_jin_xing_022>
+	<fu_ben_jin_xing_03>	天柱核心
+		<spaceFolder>	fu_ben_tu_xing_xiao	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_tu_xing_xiao\fu_ben_tu_xing_xiao_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	372 1084 1088 430	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天柱核心
+				<polygon>	[(-299,17),(283,17),(283,-212),(-299,-214),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_jin_xing_03>
+	<fu_ben_jin_xing_034>	红云领域
+		<spaceFolder>	fu_ben_jin_xing_04	</spaceFolder>
+		<mapSize>	512 512	</mapSize>
+		<texture>	space\fu_ben_jin_xing_04\fu_ben_jin_xing_04_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	红云领域
+				<polygon>	[(-142,87),(96,90),(96,-130),(-141,-130),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	71 147 313 275	</effectiveRect>
+	</fu_ben_jin_xing_034>
+	<fu_ben_tu_xing_0302>	风吼坡
+		<spaceFolder>	fu_ben_tu_xing_03	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_tu_xing_03\fu_ben_tu_xing_03_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	819 510 648 953	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	风吼坡
+				<polygon>	[(-100,276),(214,275),(216,-143),(-99,-142),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tu_xing_0302>
+	<fu_ben_tu_xing_0102>	风吼坡
+		<spaceFolder>	fu_ben_tu_xing_03	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_tu_xing_03\fu_ben_tu_xing_03_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	819 510 648 953	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	风吼坡
+				<polygon>	[(-100,276),(214,275),(216,-143),(-99,-142),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tu_xing_0102>
+	<fu_ben_tu_xing_0202>	风吼坡
+		<spaceFolder>	fu_ben_tu_xing_03	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_tu_xing_03\fu_ben_tu_xing_03_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	819 510 648 953	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	风吼坡
+				<polygon>	[(-100,276),(214,275),(216,-143),(-99,-142),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tu_xing_0202>
+	<fu_ben_tu_xing_02>	土星山脊
+		<spaceFolder>	fu_ben_qian_shao_1	</spaceFolder>
+		<mapSize>	768 1024	</mapSize>
+		<texture>	space\fu_ben_qian_shao_1\fu_ben_qian_shao_1_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星山脊
+				<polygon>	[(-185,89),(82,91),(81,-309),(-185,-309),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	194.0 393 456 515	</effectiveRect>
+	</fu_ben_tu_xing_02>
+	<fu_ben_tu_xing_01>	土星山脊
+		<spaceFolder>	fu_ben_qian_shao_1	</spaceFolder>
+		<mapSize>	768 1024	</mapSize>
+		<texture>	space\fu_ben_qian_shao_1\fu_ben_qian_shao_1_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星山脊
+				<polygon>	[(-186,91),(80,92),(81,-310),(-185,-309),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	194.0 395 458 516	</effectiveRect>
+	</fu_ben_tu_xing_01>
+	<fu_ben_tu_xing_03>	土星山脊
+		<spaceFolder>	fu_ben_qian_shao_1	</spaceFolder>
+		<mapSize>	768 1024	</mapSize>
+		<texture>	space\fu_ben_qian_shao_1\fu_ben_qian_shao_1_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星山脊
+				<polygon>	[(-185,91),(80,93),(80,-308),(-183,-309),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	194.0 396 455 515	</effectiveRect>
+	</fu_ben_tu_xing_03>
+	<fu_ben_tu_xing_0303>	土星之巅
+		<spaceFolder>	fu_ben_qian_shao_3	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_qian_shao_3\fu_ben_qian_shao_3_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星之巅
+				<polygon>	[(-102,170),(295,170),(295,-94),(-103,-94),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	286.0 337 587 387	</effectiveRect>
+	</fu_ben_tu_xing_0303>
+	<fu_ben_huo_xing_0102>	金星
+		<spaceFolder>	fu_ben_huo_xing_02	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_huo_xing_02\fu_ben_huo_xing_02_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	金星战场
+				<polygon>	[(-173,128),(142,126),(143,-136),(-175,-136),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	289 348 403 341	</effectiveRect>
+	</fu_ben_huo_xing_0102>
+	<fu_ben_huo_xing_0203>	汤山之巅
+		<spaceFolder>	fu_ben_jin_xing_03	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_jin_xing_03\fu_ben_jin_xing_03_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	汤山之巅
+				<polygon>	[(-173,128),(140,128),(139,-135),(-174,-137),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	288 346 409 344	</effectiveRect>
+	</fu_ben_huo_xing_0203>
+	<fu_ben_huo_xing_0303>	汤山之巅
+		<spaceFolder>	fu_ben_jin_xing_03	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_jin_xing_03\fu_ben_jin_xing_03_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	汤山之巅
+				<polygon>	[(-175,130),(141,127),(143,-137),(-175,-137),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	289 345 403 345	</effectiveRect>
+	</fu_ben_huo_xing_0303>
+	<fu_ben_huo_xing_0202>	熔火核心
+		<spaceFolder>	fu_ben_huo_xing_02	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_huo_xing_02\fu_ben_huo_xing_02_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	120 100 441 728	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	熔火核心
+				<polygon>	[(-230,322),(29,321),(29,-245),(-230,-245),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_huo_xing_0202>
+	<fu_ben_huo_xing_0302>	熔火核心
+		<spaceFolder>	fu_ben_huo_xing_02	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_huo_xing_02\fu_ben_huo_xing_02_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	120 100 441 728	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	熔火核心
+				<polygon>	[(-230,322),(29,321),(29,-245),(-230,-245),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_huo_xing_0302>
+	<zy_zi_xiao_gong_45_mo>	紫霄宫
+		<spaceFolder>	zy_zi_xiao_gong	</spaceFolder>
+		<texture>	space/zy_zi_xiao_gong/zy_zi_xiao_gong_definition.tga	</texture>
+		<mapSize>	1024 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<bgMusics>	</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	紫霄宫
+				<polygon>	[(-245,390),(387,389),(389,-297),(-244,-292),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	223 6 761 822	</effectiveRect>
+	</zy_zi_xiao_gong_45_mo>
+	<zly_ying_ke_cun_45_dao>	雷音仙境
+		<spaceFolder>	zly_ying_ke_cun_dao_45	</spaceFolder>
+		<texture>	space/zly_ying_ke_cun/zly_ying_ke_cun_high_definition.tga	</texture>
+		<mapSize>	4096 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	musics/zly1	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	雷音仙境
+				<polygon>	[(-532,426),(-531,797),(-75,798),(-74,427),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	1613 1000 1099 854	</effectiveRect>
+	</zly_ying_ke_cun_45_dao>
+	<fu_ben_huo_xing_0604>	极之境
+		<spaceFolder>	fu_ben_jin_xing_04	</spaceFolder>
+		<mapSize>	512 512	</mapSize>
+		<texture>	space\fu_ben_jin_xing_04\fu_ben_jin_xing_04_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	极之境
+				<polygon>	[(-142,87),(96,90),(96,-130),(-141,-130),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	71 147 313 275	</effectiveRect>
+	</fu_ben_huo_xing_0604>
+	<fu_ben_huo_xing_0503>	熔火核心
+		<spaceFolder>	fu_ben_huo_xing_02	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_huo_xing_02\fu_ben_huo_xing_02_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	120 100 441 728	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	熔火核心
+				<polygon>	[(-230,322),(29,321),(29,-245),(-230,-245),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_huo_xing_0503>
+	<fu_ben_huo_xing_0502>	汤山之巅
+		<spaceFolder>	fu_ben_jin_xing_03	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_jin_xing_03\fu_ben_jin_xing_03_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	汤山之巅
+				<polygon>	[(-175,130),(141,127),(143,-137),(-175,-137),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	289 345 403 345	</effectiveRect>
+	</fu_ben_huo_xing_0502>
+	<fu_ben_huo_xing_0402>	汤山之巅
+		<spaceFolder>	fu_ben_jin_xing_03	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_jin_xing_03\fu_ben_jin_xing_03_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	汤山之巅
+				<polygon>	[(-175,130),(141,127),(143,-137),(-175,-137),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	289 345 403 345	</effectiveRect>
+	</fu_ben_huo_xing_0402>
+	<fu_ben_huo_xing_0304>	极之境
+		<spaceFolder>	fu_ben_jin_xing_04	</spaceFolder>
+		<mapSize>	512 512	</mapSize>
+		<texture>	space\fu_ben_jin_xing_04\fu_ben_jin_xing_04_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	极之境
+				<polygon>	[(-142,87),(96,90),(96,-130),(-141,-130),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	71 147 313 275	</effectiveRect>
+	</fu_ben_huo_xing_0304>
+	<fu_ben_tu_xing_0604>	星辰领域
+		<spaceFolder>	fu_ben_tu_xing_boss_001	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_tu_xing_boss_001\fu_ben_tu_xing_boss_001_high_definition.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	星辰领域
+				<polygon>	[(-106,239),(223,238),(223,-137),(-107,-138),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	178 131 709 758	</effectiveRect>
+	</fu_ben_tu_xing_0604>
+	<fu_ben_tu_xing_0603>	土星之巅
+		<spaceFolder>	fu_ben_qian_shao_3	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_qian_shao_3\fu_ben_qian_shao_3_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星之巅
+				<polygon>	[(-102,170),(295,170),(295,-94),(-103,-94),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	286.0 337 587 387	</effectiveRect>
+	</fu_ben_tu_xing_0603>
+	<fu_ben_tu_xing_0503>	土星之巅
+		<spaceFolder>	fu_ben_qian_shao_3	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_qian_shao_3\fu_ben_qian_shao_3_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星之巅
+				<polygon>	[(-102,170),(295,170),(295,-94),(-103,-94),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	286.0 337 587 387	</effectiveRect>
+	</fu_ben_tu_xing_0503>
+	<fu_ben_tu_xing_06>	土星山脊
+		<spaceFolder>	fu_ben_qian_shao_1	</spaceFolder>
+		<mapSize>	768 1024	</mapSize>
+		<texture>	space\fu_ben_qian_shao_1\fu_ben_qian_shao_1_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星山脊
+				<polygon>	[(-185,91),(80,93),(80,-308),(-183,-309),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	194.0 396 455 515	</effectiveRect>
+	</fu_ben_tu_xing_06>
+	<fu_ben_tu_xing_05>	土星山脊
+		<spaceFolder>	fu_ben_qian_shao_1	</spaceFolder>
+		<mapSize>	768 1024	</mapSize>
+		<texture>	space\fu_ben_qian_shao_1\fu_ben_qian_shao_1_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星山脊
+				<polygon>	[(-185,91),(80,93),(80,-308),(-183,-309),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	194.0 396 455 515	</effectiveRect>
+	</fu_ben_tu_xing_05>
+	<fu_ben_tu_xing_0602>	风吼坡
+		<spaceFolder>	fu_ben_tu_xing_03	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_tu_xing_03\fu_ben_tu_xing_03_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	819 510 648 953	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	风吼坡
+				<polygon>	[(-100,276),(214,275),(216,-143),(-99,-142),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tu_xing_0602>
+	<fu_ben_tu_xing_0502>	风吼坡
+		<spaceFolder>	fu_ben_tu_xing_03	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_tu_xing_03\fu_ben_tu_xing_03_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	819 510 648 953	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	风吼坡
+				<polygon>	[(-100,276),(214,275),(216,-143),(-99,-142),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tu_xing_0502>
+	<fu_ben_tu_xing_04>	土星山脊
+		<spaceFolder>	fu_ben_qian_shao_1	</spaceFolder>
+		<mapSize>	768 1024	</mapSize>
+		<texture>	space\fu_ben_qian_shao_1\fu_ben_qian_shao_1_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	土星山脊
+				<polygon>	[(-185,91),(80,93),(80,-308),(-183,-309),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	194.0 396 455 515	</effectiveRect>
+	</fu_ben_tu_xing_04>
+	<fu_ben_tu_xing_0402>	风吼坡
+		<spaceFolder>	fu_ben_tu_xing_03	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_tu_xing_03\fu_ben_tu_xing_03_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	819 510 648 953	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	风吼坡
+				<polygon>	[(-100,276),(214,275),(216,-143),(-99,-142),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_tu_xing_0402>
+	<fu_ben_jin_xing_063>	通幽径
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_mu_xing_01/fu_ben_mu_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	110 268 827 533	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	通幽径
+				<polygon>	[(-223,217),(336,215),(338,-144),(-225,-145),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_jin_xing_063>
+	<fu_ben_jin_xing_053>	通幽径
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_mu_xing_01/fu_ben_mu_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	110 268 827 533	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	通幽径
+				<polygon>	[(-223,217),(336,215),(338,-144),(-225,-145),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_jin_xing_053>
+	<fu_ben_jin_xing_042>	通幽径
+		<spaceFolder>	fu_ben_mu_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space/fu_ben_mu_xing_01/fu_ben_mu_xing_da.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	110 268 827 533	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	通幽径
+				<polygon>	[(-223,217),(336,215),(338,-144),(-225,-145),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_jin_xing_042>
+	<fu_ben_jin_xing_06>	天柱核心
+		<spaceFolder>	fu_ben_tu_xing_xiao	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_tu_xing_xiao\fu_ben_tu_xing_xiao_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	372 1084 1088 430	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天柱核心
+				<polygon>	[(-299,17),(283,17),(283,-212),(-299,-214),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_jin_xing_06>
+	<fu_ben_jin_xing_052>	天柱核心
+		<spaceFolder>	fu_ben_tu_xing_xiao	</spaceFolder>
+		<mapSize>	2048 2048	</mapSize>
+		<texture>	space\fu_ben_tu_xing_xiao\fu_ben_tu_xing_xiao_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<effectiveRect>	372 1084 1088 430	</effectiveRect>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	天柱核心
+				<polygon>	[(-299,17),(283,17),(283,-212),(-299,-214),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_jin_xing_052>
+	<fu_ben_jin_xing_062>	残阳破
+		<spaceFolder>	fu_ben_jin_xing_01	</spaceFolder>
+		<mapSize>	1024 1024	</mapSize>
+		<texture>	space\fu_ben_jin_xing_01\fu_ben_jin_xing_01_high_definition.tga	</texture>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	残阳破
+				<polygon>	[(-169,163),(91,163),(90,-158),(-167,-157),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	299 302 330 411	</effectiveRect>
+	</fu_ben_jin_xing_062>
+	<fu_ben_xin_shou_cun_54_mo>	神兽崖之巅
+		<spaceFolder>	fu_ben_xin_shou_cun_10	</spaceFolder>
+		<texture>	space/fu_ben_xin_shou_cun/fu_ben_xin_shou_cun_high_definition.tga	</texture>
+		<mapSize>	2048.0 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	神兽崖之巅
+				<polygon>	[(-424,409),(-423,-405),(421,-404),(419,410),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	155 156 1825 1724	</effectiveRect>
+	</fu_ben_xin_shou_cun_54_mo>
+	<zly_ban_quan_xiang_34_mo>	北山天险
+		<spaceFolder>	zly_ban_quan_xiang_36_dao	</spaceFolder>
+		<texture>	space/zly_ban_quan_xiang/zly_ban_quan_xiang_high_definition.tga	</texture>
+		<mapSize>	3511 4096	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<bgMusics>
+			<music>	musics/zly1	</music>
+		</bgMusics>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	北山天险
+				<polygon>	[(-311,441),(12,442),(360,345),(436,352),(542,372),(1106,400),(1105,996),(-311,999),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	370 393 2765 3319	</effectiveRect>
+	</zly_ban_quan_xiang_34_mo>
+	<zly_ying_ke_cun_45_mo>	紫御天宫
+		<spaceFolder>	zy_zi_xiao_gong	</spaceFolder>
+		<texture>	space/zy_zi_xiao_gong/zy_zi_xiao_gong_definition.tga	</texture>
+		<mapSize>	1024 1024	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<bgSounds>
+			<sound>	huanj/scene_Jungle	</sound>
+		</bgSounds>
+		<areas>
+			<area>	紫御天宫
+				<polygon>	[(-245,390),(387,389),(389,-297),(-244,-292),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	223 6 761 822	</effectiveRect>
+	</zly_ying_ke_cun_45_mo>
+	<camp_ying_xiong_wang_zuo>	英雄王座
+		<spaceFolder>	ying_xiong_lian_meng_01	</spaceFolder>
+		<texture>	space/ying_xiong_lian_meng_01/ying_xiong_lian_meng_01_high_definition.tga	</texture>
+		<mapSize>	2048 2048	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>	</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	英雄王座
+				<polygon>	[(-319,196),(173,197),(173,-242),(-318,-242),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+		<effectiveRect>	370 620 1010 898	</effectiveRect>
+	</camp_ying_xiong_wang_zuo>
+	<fu_ben_du_du_zhu_rw>	副本
+		<spaceFolder>	fu_ben_shi_di	</spaceFolder>
+		<texture>	space/fu_ben_shi_di/fu_ben_shi_di.tga	</texture>
+		<textureSize>	1024.0 1024.0	</textureSize>
+		<mapSize>	1024.0 1024.0	</mapSize>
+		<mapOffset>	0.0 0.0	</mapOffset>
+		<autoSeekingPath>	</autoSeekingPath>
+		<bgMusics>
+			<music>	fuben/music01	</music>
+		</bgMusics>
+		<ignore>	true	</ignore>
+		<areas>
+			<area>	嘟嘟乐园
+				<polygon>	[(-84,52),(-84,-145),(221,-143),(221,52),]	</polygon>
+				<texture>	space/fu_ben_shi_di/fu_ben_du_du_zhu_area.tga	</texture>
+				<textureSize>	2048.0 2048.0	</textureSize>
+				<mapSize>	2048.0 1325.0	</mapSize>
+				<mapOffset>	0.0 0.0	</mapOffset>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</fu_ben_du_du_zhu_rw>
+	<zy_lei_yin_si>	雷音寺
+		<spaceFolder>	zy_lei_yin_si	</spaceFolder>
+		<texture>	space/zy_lei_yin_si/zy_lei_yin_si_high_definition.tga	</texture>
+		<mapSize>	4096.0 4096.0	</mapSize>
+		<effectiveRect>	1650 938 1016 827	</effectiveRect>
+		<areas>
+			<area>	雷音寺
+				<polygon>	[(-515,437),(-515,809),(-94,809),(-94,435),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</zy_lei_yin_si>
+	<zy_wu_ji_dian>	无极殿
+		<spaceFolder>	zy_wu_ji_dian	</spaceFolder>
+		<texture>	space/zy_wu_ji_dian/zy_wu_ji_dian_high_definition.tga	</texture>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<effectiveRect>	472 419 901 772	</effectiveRect>
+		<areas>
+			<area>	无极殿
+				<polygon>	[(-385,397),(-385,210),(-165,210),(-166,397),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</zy_wu_ji_dian>
+	<zy_huo_yun_gong>	火云宫
+		<spaceFolder>	zy_huo_yun_gong	</spaceFolder>
+		<texture>	space/zy_huo_yun_gong/zy_huo_yun_gong_high_definition.tga	</texture>
+		<mapSize>	3351.0 4096.0	</mapSize>
+		<effectiveRect>	636 1533 648 644	</effectiveRect>
+		<areas>
+			<area>	火云宫
+				<polygon>	[(-1019,131),(-1020,476),(-736,477),(-737,130),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</zy_huo_yun_gong>
+	<zy_yu_xu_gong>	玉虚宫
+		<spaceFolder>	zy_yu_xu_gong	</spaceFolder>
+		<texture>	space/zy_yu_xu_gong/zy_yu_xu_gong_high_definition.tga	</texture>
+		<mapSize>	3482.0 4096.0	</mapSize>
+		<effectiveRect>	1827 1612 901 1002	</effectiveRect>
+		<areas>
+			<area>	玉虚宫
+				<polygon>	[(359,512),(358,25),(733,25),(732,512),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</zy_yu_xu_gong>
+	<zy_bi_you_gong>	碧游宫
+		<spaceFolder>	zy_bi_you_gong	</spaceFolder>
+		<texture>	space/zy_bi_you_gong/zy_bi_you_gong_high_definition.tga	</texture>
+		<mapSize>	2048.0 2048.0	</mapSize>
+		<effectiveRect>	376 224 881 889	</effectiveRect>
+		<areas>
+			<area>	碧游宫
+				<polygon>	[(-318,450),(-318,255),(-124,255),(-124,450),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</zy_bi_you_gong>
+	<zy_ba_jing_gong>	八景宫
+		<spaceFolder>	zy_ba_jing_gong	</spaceFolder>
+		<texture>	space/zy_ba_jing_gong/zy_ba_jing_gong_high_definition.tga	</texture>
+		<mapSize>	4096.0 3234.0	</mapSize>
+		<effectiveRect>	1259 1144 883 846	</effectiveRect>
+		<areas>
+			<area>	八景宫
+				<polygon>	[(-715,-219),(-716,-528),(-306,-529),(-308,-219),]	</polygon>
+				<ignore>	true	</ignore>
+			</area>
+		</areas>
+	</zy_ba_jing_gong>
+</root>

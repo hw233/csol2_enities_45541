@@ -1,0 +1,17 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+	</Properties>
+	
+	<BaseMethods>
+		<addSpawnPointCopy>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	STRING	</Arg>
+		</addSpawnPointCopy>
+		<openDoor>
+			<Arg>	PY_DICT	</Arg>
+		</openDoor>
+	</BaseMethods>
+
+</root>

@@ -1,0 +1,28 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Implements>
+		<Interface>	SpaceCopyYeWaiInterface		</Interface>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+		<teamLevel>				<!--队伍等级-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</teamLevel>
+
+		<teamMaxLevel>				<!--队伍最高等级-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</teamMaxLevel>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

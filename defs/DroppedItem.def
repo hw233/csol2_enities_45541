@@ -1,0 +1,42 @@
+<root>
+	<Implements>
+		<Interface>	GameObject	</Interface>
+	</Implements>
+
+	<Properties>
+		<itemProp>
+			<Type>			ITEM				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>	false				</Persistent>
+		</itemProp>
+
+		<pickupEntityID>
+			<!-- 锁定正在捡的对像ID，防止已有玩家拾取的时候其它玩家也去拾取，
+			也为了防止玩家重复的拾取 -->
+			<Type>			OBJECT_ID			</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>		0					</Default>
+			<Editable>		false				</Editable>
+			<Persistent>	false				</Persistent>
+		</pickupEntityID>
+
+		<ownerIDs>
+			<!-- (拥有者ID, ...)，如果列表为空表示所有人都可以捡 -->
+			<Type>	ARRAY <of> OBJECT_ID </of>	</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>		[]					</Default>
+			<Editable>		false				</Editable>
+			<Persistent>	false				</Persistent>
+		</ownerIDs>
+	</Properties>
+
+	<CellMethods>
+		<pickup>	<!-- 被其它player entity调用的，如果捡的是钱，参数则随便填，呵呵 -->
+			<Exposed/>
+		</pickup>
+		<pickupCB>
+			<Arg>	UINT8		</Arg>	<!-- state, 0 is False and 1 is True -->
+		</pickupCB>
+	</CellMethods>
+</root>

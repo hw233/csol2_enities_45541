@@ -1,0 +1,28 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<teamChallengeInfos>
+			<Type> TEAM_CHALLENGE_INFOS </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent> false </Persistent>
+		</teamChallengeInfos>
+		<hasClearNoFight>
+			<Type>		BOOL				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</hasClearNoFight>
+	</Properties>
+
+	<BaseMethods>
+
+	</BaseMethods>
+	<CellMethods>
+		<addWatchPlayer>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</addWatchPlayer>
+	</CellMethods>
+
+
+</root>

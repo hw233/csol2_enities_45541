@@ -1,0 +1,24 @@
+<root>
+	<Parent>	NPC	</Parent>
+	<ClientName>	NPC	</ClientName>
+
+	<Properties>
+		<players>		<!-- 激活我的队伍所有成员 -->
+			<Type>		ARRAY <of> DATABASE_ID </of>	</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</players>
+	</Properties>
+
+	<BaseMethods>
+
+	</BaseMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<onProtectTongOver/>
+		<onSpaceCopyMonsterDead/>
+	</CellMethods>
+</root>

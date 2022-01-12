@@ -1,0 +1,149 @@
+<root>
+	<Properties>
+		<toBuildData>
+			<Type>		UINT16			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</toBuildData>
+		<toBuildLevel>
+			<Type>		UINT16			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</toBuildLevel>
+		<shenshouType>
+			<Type>		UINT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</shenshouType>
+		<shenshouReviveTime>
+			<Type>		INT64			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</shenshouReviveTime>
+		<jk_level>
+			<Type>		UINT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</jk_level>
+		<ssd_level>
+			<Type>		UINT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</ssd_level>
+		<ck_level>
+			<Type>		UINT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</ck_level>
+		<tjp_level>
+			<Type>		UINT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</tjp_level>
+		<sd_level>
+			<Type>		UINT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</sd_level>
+		<yjy_level>
+			<Type>		UINT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</yjy_level>
+		<spendMoney>
+			<Type>		INT32			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</spendMoney>
+		<isLockedTerritoryNPC>
+			<Type>		BOOL			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</isLockedTerritoryNPC>
+		<pauseBuilds>
+			<Type>		PY_DICT			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>		{}		</Default>
+			<Persistent>		true			</Persistent>
+		</pauseBuilds>
+
+	</Properties>
+
+	<BaseMethods>
+		<giveBuildingSpendMoney/>
+		<chargeSpendMoney/>
+
+		<onSelectShouShou>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT8		</Arg>
+		</onSelectShouShou>
+
+		<addNagualReviveTimer/>
+
+		<onRegisterTerritory>
+			<Arg>	MAILBOX	</Arg>
+		</onRegisterTerritory>
+
+		<onRequestCreateTongTerritory>
+			<Arg>	MAILBOX		</Arg>
+		</onRequestCreateTongTerritory>
+
+		<onChapmanRequestItems>
+			<Arg>	MAILBOX		</Arg>
+		</onChapmanRequestItems>
+
+		<onSellItems>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	ITEM_ID		</Arg>
+			<Arg>	UINT32		</Arg>
+		</onSellItems>
+
+		<onRequestOpenTongShop>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</onRequestOpenTongShop>
+
+		<onOpenShenShouSelectWindow>
+			<Arg>	DATABASE_ID		</Arg>
+		</onOpenShenShouSelectWindow>
+
+		<onRequestBuildingSpendMoney>
+			<Arg>	MAILBOX		</Arg><!--player base-->
+		</onRequestBuildingSpendMoney>
+		<onRequestOpenTongSpecialShop>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</onRequestOpenTongSpecialShop>
+		<onChapmanRequestSpecialItems>
+			<Arg>	MAILBOX		</Arg>
+		</onChapmanRequestSpecialItems>
+		<onSellSpecialItems>
+			<Arg>	MAILBOX		</Arg>	<!-- palerBase -->
+			<Arg>	DATABASE_ID		</Arg>	<!-- dbid -->
+			<Arg>	ITEM_ID		</Arg>
+			<Arg>	UINT16		</Arg>
+		</onSellSpecialItems>
+		<buyTongSpecialArrayFromNPC>
+			<Arg>	MAILBOX	</Arg>	<!-- entity -->
+			<Arg>	DATABASE_ID		</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID		</Arg>	<!-- dbid -->
+			<Arg>	ARRAY <of> ITEM_ID </of> </Arg>
+			<Arg>	ARRAY <of> INT32 </of> </Arg>
+		</buyTongSpecialArrayFromNPC>
+	</BaseMethods>
+</root>

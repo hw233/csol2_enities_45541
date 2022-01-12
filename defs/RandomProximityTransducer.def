@@ -1,0 +1,42 @@
+<root>
+	<!-- 接近触发器
+		作用：产生一个不能移动的entity，当有entity靠近的时候触发，执行一件事情；
+		玩家在随机的一处碰到陷阱，这陷阱有一定几率触发，陷阱触发后，要隔一段可配置时间再可触发
+	-->
+	<Parent>	ProximityTransducer	</Parent>
+	<Properties>
+		<enterTime>		<!-- 陷阱被触发的时间 -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0.0				</Default>
+			<Editable>		true				</Editable>
+		</enterTime>
+		<randomPosition>	<!-- 随机位置 -->
+			<Type>			INT32				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Editable>		true				</Editable>
+		</randomPosition>
+		<triggerRate>		<!-- 触发几率，默认为0，即不触发 -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0.0				</Default>
+			<Editable>		true				</Editable>
+		</triggerRate>
+		<triggerInterval>	<!-- 触发间隔 -->
+			<Type>			INT32	</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		0				</Default>
+			<Editable>		true				</Editable>
+		</triggerInterval>
+		<questID>		<!-- 任务ID-->
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>		0				</Default>
+			<Editable>		true				</Editable>
+		</questID>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

@@ -1,0 +1,17 @@
+<root>
+		<spaceName>	攝魂迷陣	</spaceName>
+		<EntityType>	SpaceCopyShehunmizhen	</EntityType>
+		<DomainType>	SpaceDomainShehunmizhen	</DomainType>
+		<script>	SpaceCopyShehunmizhen	</script>
+		<SpaceType>	SPACE_TYPE_SHE_HUN_MI_ZHEN	</SpaceType>
+		<className>	fu_ben_she_hun_mi_zhen	</className>
+		<dirMapping>	universes/she_hun_mi_zhen 	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/she_hun_mi_zhen.xml </spawnFile>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入獄<-->
+		<Space>
+		</Space>
+</root>

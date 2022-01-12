@@ -1,0 +1,35 @@
+<root>
+	<EntityType>SpaceCopyYXLMPVP</EntityType>
+	<DomainType>SpaceDomainYXLMPVP</DomainType>
+	<script>SpaceCopyYXLMPVP</script>
+	<SpaceType>	SPACE_TYPE_YXLM_PVP	</SpaceType>
+	<className> ying_xiong_lian_meng_pvp </className>
+	<dirMapping> universes/ying_xiong_lian_meng_01 </dirMapping>
+	<CanPk>	1	</CanPk>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/ying_xiong_lian_meng_pvp.xml		</spawnFile>
+	<playerAoI>	100	</playerAoI>				<!--玩家的视野范围-->
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<Space>
+		<spaceBBoxMin>	-2000,-100,-2000	</spaceBBoxMin>
+		<spaceBBoxMax>	2000,1000,2000	</spaceBBoxMax>
+		<deathDepth>	-250	</deathDepth>
+		<birthPos>
+			<item>
+				<position>	-201.734 15.928 -147.079	</position>
+				<direction>	0 0 1.4				 		</direction>
+			</item>
+			<item>
+				<position>	50.887 16.076 105.075	</position>
+				<direction>	0.0 -134.999 0.0		</direction>
+			</item>
+		</birthPos>
+	</Space>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<CalcPkValue/>
+	<CanPk>1</CanPk>
+	<patrolLists>D812E735.4AD74FCF.9886C7AF.3780E1DD|D2AFB81A.4E2B7073.264680AD.249F606F|F2AEAB83.4EEAA751.D5166B97.2C91E846</patrolLists>
+	<patrolNpcs>20724025|20724038|20724039</patrolNpcs>
+</root>

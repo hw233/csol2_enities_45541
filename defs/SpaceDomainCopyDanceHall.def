@@ -1,0 +1,15 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<removeDBIDToSpaceNumber>
+			<Arg>		OBJECT_ID		</Arg>
+		</removeDBIDToSpaceNumber>
+	</BaseMethods>
+</root>

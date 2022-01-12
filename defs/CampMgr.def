@@ -1,0 +1,28 @@
+<root>
+	<Implements>
+		<Interface>	CampActivityMgr			</Interface>
+		<Interface>	CampTurnWarManager		</Interface>
+		<Interface>	CampYingXiongCopyMgr		</Interface>
+		<Interface>	CampFengHuoLianTianMgr		</Interface>
+	</Implements>
+	<Properties>
+		<taoismMorale>
+			<Type>		UINT32			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</taoismMorale>
+		<demonMorale>
+			<Type>		UINT32			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</demonMorale>
+	</Properties>
+	<BaseMethods>
+		<addMorale>
+			<Arg>	UINT16	</Arg>
+			<Arg>	INT32	</Arg>
+		</addMorale>
+	</BaseMethods>
+</root>

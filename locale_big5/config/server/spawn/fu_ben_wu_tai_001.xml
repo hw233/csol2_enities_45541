@@ -1,0 +1,46 @@
+<root>
+	<entity_1>
+		<type>	NPCSpawnPoint	</type>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	32.674599 1.513833 30.397205	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	10111149	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	SpaceDoor	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	36.013195 0.025908 -7.177654	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	</className>
+			<useRectangle>	1	</useRectangle>
+			<radius>	0.000000	</radius>
+			<volume>	4.000000 4.000000 4.000000	</volume>
+			<modelNumber>	gw7123	</modelNumber>
+			<modelScale>	30.000000	</modelScale>
+			<destSpace>	fengming	</destSpace>
+			<description>	</description>
+			<uname>	</uname>
+			<nickname>	</nickname>
+			<destPosition>	-171.636002 4.871000 -52.265999	</destPosition>
+			<destDirection>	0.000000 30.000000 0.000000	</destDirection>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+</root>

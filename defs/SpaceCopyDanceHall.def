@@ -1,0 +1,30 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<spawnPointBases>
+			<Type>		PY_DICT					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+		</spawnPointBases>
+	</Properties>
+
+	<BaseMethods>
+
+	</BaseMethods>
+
+	<CellMethods>
+		<setDanceHallInfo>
+			<Arg>		UINT8	</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		PYTHON		</Arg>
+		</setDanceHallInfo>
+		<registerDanceKingSpawnPoint>
+			<Arg>		UINT8	</Arg>
+			<Arg>		MAILBOX	</Arg>			
+		</registerDanceKingSpawnPoint>
+		<spawnDanceKing>
+			<Arg>		UINT8	</Arg>
+			<Arg>		PYTHON		</Arg>		
+		</spawnDanceKing>
+	</CellMethods>
+</root>

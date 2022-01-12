@@ -1,0 +1,22 @@
+<root>
+	<Parent>	QuestBox	</Parent>
+
+	<Properties>
+		<ownCamp> 
+			<Type>			DATABASE_ID	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownCamp>
+		<lastTime> 
+			<Type>			FLOAT	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		false			</Persistent>
+		</lastTime>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

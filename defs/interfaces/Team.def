@@ -1,0 +1,554 @@
+<root>
+	<Properties>
+		<teamID>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			BASE				</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>		true				</Persistent>
+		</teamID>
+
+		<teamMembers>
+			<!-- 队伍成员，使用此方式记录队伍成员的dbid和base mailbox，
+			用于在cell中能根据mailbox与所有队伍成员通讯，以及能在进入队伍相关副本时找到队友的副本 -->
+			<Type>			ARRAY <of> DBID2MAILBOX </of>	</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>		false				</Persistent>
+		</teamMembers>
+
+		<captainID>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>		false				</Persistent>
+		</captainID>
+
+		<teamMailbox>
+			<Type>			MAILBOX				</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>		false				</Persistent>
+		</teamMailbox>
+
+		<lastPickUpID>
+			<!-- 队伍中最后一次拾取的ID-->
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</lastPickUpID>
+
+		<pickUpState>
+			<!-- 拾取方式，默认为自由拾取-->
+			<Type>			UINT8				</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</pickUpState>
+
+		<pickRegulation>
+			<!-- 拾取方式，默认为自由拾取-->
+			<Type>			TEAM_REGULATION			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Persistent>		false				</Persistent>
+		</pickRegulation>
+
+		<leaveTeamTimer>
+			<Type>			CONTROLLER_ID			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>		false				</Persistent>
+		</leaveTeamTimer>
+
+	</Properties>
+
+	<BaseMethods>
+		<!-- 邀请组队 -->
+		<teamRemoteInviteFC>
+			<Exposed/>
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+		</teamRemoteInviteFC>
+
+		<!-- 答复组队邀请 -->
+		<replyTeamInviteByFC>
+			<Exposed/>
+			<Arg>	INT8		</Arg>	<!-- agree -->
+		</replyTeamInviteByFC>
+
+		<!-- (踢人)离队 -->
+		<leaveTeamFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- OBJECT_ID -->
+		</leaveTeamFC>
+
+		<disbandTeamFC>
+			<Exposed/>
+		</disbandTeamFC>
+
+		<!-- 改变队长 -->
+		<changeCaptainFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</changeCaptainFC>
+
+		<!-- 数据更新 -->
+		<requestTeammateInfoFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</requestTeammateInfoFC>
+
+		<replyTeamInvite>
+			<Arg>	INT8		</Arg>	<!-- agree -->
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+			<!--	<Arg>	INT32		</Arg>	 headTextureID -->
+		</replyTeamInvite>
+
+		<!-- 被某玩家邀请组队，这里是邀请组队的最终入口，无论是近程邀请还是远程邀请。 -->
+		<teamInviteBy>
+			<Arg>	MAILBOX		</Arg>	<!-- invitePlayerBase -->
+			<Arg>	STRING		</Arg>	<!-- invitePlayerName -->
+			<Arg>	UINT8		</Arg>
+		</teamInviteBy>
+
+		<teamInvitedToBy>
+			<Arg>	MAILBOX		</Arg>	<!-- invitePlayerBase -->
+			<Arg>	STRING		</Arg>	<!-- invitePlayerName -->
+		</teamInvitedToBy>
+
+		<joinTeamNotify>
+			<Arg>	INT32		</Arg>	<!-- captainID -->
+			<Arg>	MAILBOX		</Arg>	<!-- teamMailbox -->
+			<!-- <Arg>	INT32		</Arg>  headTextureID -->
+		</joinTeamNotify>
+
+		<addTeamMember>
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+			<Arg>	INT32		</Arg>	<!-- playerRaceclass -->
+			<Arg>	INT32		</Arg>	<!-- headTextureID -->
+		</addTeamMember>
+
+		<teamInfoNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- captainID -->
+			<Arg>	MAILBOX		</Arg>	<!-- teamMailBox -->
+		</teamInfoNotify>
+
+		<!-- 玩家离队、开除、队伍解散 -->
+		<leaveTeamNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- srcEntityID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- dstEntityID -->
+		</leaveTeamNotify>
+
+		<!-- 队伍解散通知 -->
+		<disbandTeamNotify/>
+
+		<changeCaptainNotify>
+			<Arg>	DATABASE_ID	</Arg>	<!-- captainDBID -->
+		</changeCaptainNotify>
+
+		<!-- 改变拾取状态-->
+		<changePickUpStateNotify>
+			<Arg>	INT8		</Arg>	<!-- pickUpState -->
+		</changePickUpStateNotify>
+
+		<!-- 清除队伍相关数据 -->
+		<clearTeamInfo/>
+
+		<rejoinTeam>
+			<Arg>	OBJECT_ID	</Arg>	<!-- oldEntityID -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+		</rejoinTeam>
+
+		<!-- 成员下线 -->
+		<logoutNotify>
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+		</logoutNotify>
+
+		<joinFullTeamNotify>
+		</joinFullTeamNotify>
+
+
+		<!-- 队伍拾取方式改变，由队长调用-->
+		<changePickUpState>
+			<Exposed/>
+			<Arg>	INT8	</Arg>
+		</changePickUpState>
+
+		<!-- 改变拾取品质 -->
+		<changePickUpQuality>
+			<Exposed/>
+			<Arg>	INT8	</Arg>
+		</changePickUpQuality>
+
+		<changeRollQuality>
+			<Exposed/>
+			<Arg>	INT8	</Arg>
+		</changeRollQuality>
+
+		<refuseTeammateInvite>
+			<Exposed/>
+			<Arg>		STRING	</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</refuseTeammateInvite>
+		<captainAcceptTeamRequest>
+			<Arg>		MAILBOX	</Arg>
+		</captainAcceptTeamRequest>
+		<teamInviteByTeammate>
+			<Arg>		STRING	</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</teamInviteByTeammate>
+		<teamRequestRemote>
+			<Arg>		MAILBOX	</Arg>
+			<Arg>		STRING	</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		BOOL	</Arg>
+		</teamRequestRemote>
+		<captainAcceptTeamNear>
+			<Arg>		MAILBOX	</Arg>
+			<Arg>		STRING	</Arg>
+		</captainAcceptTeamNear>
+		<receiveJoinTeamRequest>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</receiveJoinTeamRequest>
+		<refusePlayerJoinTeam>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</refusePlayerJoinTeam>
+		<addFobidTeamPlayer>
+			<Arg>	OBJECT_ID	</Arg>
+		</addFobidTeamPlayer>
+		<acceptTeamRequset>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</acceptTeamRequset>
+		<createTeamBySelf>
+			<Exposed/>
+		</createTeamBySelf>
+
+		<teamChat>						<!-- 原来没 def -->
+			<Arg>	STRING		</Arg>
+			<Arg>	BLOB_ARRAY	</Arg>
+		</teamChat>
+		<requestTeammatePetInfoFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</requestTeammatePetInfoFC>
+	</BaseMethods>
+
+	<CellMethods>
+		<!-- 组队邀请 -->
+		<teamInviteFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</teamInviteFC>
+
+		<teamInviteBy>
+			<Arg>	MAILBOX		</Arg>	<!-- invitePlayerBase -->
+			<Arg>	STRING		</Arg>	<!-- invitePlayerName -->
+			<Arg>	UINT8		</Arg>
+		</teamInviteBy>
+
+		<teamInviteByTeammate>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</teamInviteByTeammate>
+
+		<addTeamMember>
+			<Arg>	DATABASE_ID	</Arg>	<!-- databaseID of player -->
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+		</addTeamMember>
+
+		<removeTeamMember>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</removeTeamMember>
+
+		<!-- 队伍通知 -->
+		<teamInfoNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- captainID -->
+			<Arg>	MAILBOX		</Arg>	<!-- teamMailBox -->
+		</teamInfoNotify>
+
+		<!-- 改变队长 -->
+		<changeCaptainNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- captainDBID -->
+		</changeCaptainNotify>
+
+		<!-- 改变拾取状态-->
+		<changePickUpStateNotify>
+			<Arg>	INT8		</Arg>	<!-- pickUpState -->
+		</changePickUpStateNotify>
+
+		<!-- 数据更新 -->
+		<requestTeammateInfo>
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+		</requestTeammateInfo>
+
+		<teamMemberLevel2client>
+			<Arg>	MAILBOX		</Arg>	<!-- mailbox of team member base entity -->
+		</teamMemberLevel2client>
+
+		<!-- 队伍解散通知 -->
+		<disbandTeamNotify/>
+
+		<!-- 队伍最后一个拾取者通知-->
+		<onChangePickUpOrder>
+			<Arg>	OBJECT_ID		</Arg>
+		</onChangePickUpOrder>
+
+		<setTeamPickRegulationVal1>
+			<Arg>	INT32			</Arg>
+		</setTeamPickRegulationVal1>
+
+
+		<setTeamPickRegulationVal2>
+			<Arg>	INT32			</Arg>
+		</setTeamPickRegulationVal2>
+
+		<selectTeamPickRegulation>
+			<Exposed/>
+			<Arg>	INT8			</Arg>
+		</selectTeamPickRegulation>
+
+		<addTeamMembersTasksItem>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</addTeamMembersTasksItem>
+
+		<buildBoxOwners>
+			<Arg>		OBJECT_ID			</Arg> <!-- 箱子ID -->
+			<Arg>		ARRAY<of>ITEMDICT_ITEM</of>	</Arg>
+		</buildBoxOwners>
+		<changePickUpQualityNotify>
+			<Arg>		INT8		</Arg>
+		</changePickUpQualityNotify>
+
+
+		<changeRollQualityNotify>
+			<Arg>		INT8		</Arg>
+		</changeRollQualityNotify>
+
+		<!-- 组队跟随 -->
+		<team_replyForFollowRequest>	<!-- 回复跟随邀请 -->
+			<Exposed/>
+			<Arg>		BOOL	</Arg>	<!-- reply -->
+		</team_replyForFollowRequest>
+		<leadTeam>			<!-- 队长进入引导状态 -->
+			<Exposed/>
+		</leadTeam>
+		<team_cancelFollow>
+			<Exposed/>
+		</team_cancelFollow>
+		<captainStopFollow>
+			<Exposed/>
+		</captainStopFollow>
+		<cancelTeamFollow>
+		</cancelTeamFollow>
+		<followCaptainTransport/>
+		<requestCaptainPosition>
+			<Arg>	MAILBOX	</Arg>
+		</requestCaptainPosition>
+		<receiveCaptainPosition>
+			<Arg>		MAILBOX	</Arg>
+			<Arg>		POSITION	</Arg>
+		</receiveCaptainPosition>
+		<backToLastSpace>
+			<Exposed/>
+		</backToLastSpace>
+		<requestJoinTeamNear>
+			<Exposed/>
+		</requestJoinTeamNear>
+		<refusePlayerJoinTeam>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+		</refusePlayerJoinTeam>
+		<acceptTeamRequestNear>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+		</acceptTeamRequestNear>
+		<requestTeammatePetInfo>
+			<Arg>	MAILBOX		</Arg>
+		</requestTeammatePetInfo>
+	</CellMethods>
+
+	<ClientMethods>
+		<!-- 邀请加入 -->
+		<teamInviteBy>
+			<Arg>	STRING	</Arg> <!-- 邀请者的名称 -->
+		</teamInviteBy>
+
+		<!-- 成员信息 -->
+		<addTeamMember>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+			<Arg>	INT32		</Arg>	<!-- playerRaceclass -->
+			<Arg>	INT8		</Arg>	<!-- onlineState -->
+			<Arg>	INT32		</Arg>	<!-- headTextureID -->
+		</addTeamMember>
+
+		<!-- 玩家离队、开除、队伍解散 -->
+		<leaveTeamNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	INT8		</Arg>	<!-- disemploy -->
+		</leaveTeamNotify>
+
+		<!-- 队长 -->
+		<teamInfoNotify>
+			<Arg>	INT32		</Arg>	<!-- teamID -->
+			<Arg>	INT32		</Arg>	<!-- captainID -->
+		</teamInfoNotify>
+
+		<changeCaptainNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</changeCaptainNotify>
+
+		<!-- 改变拾取状态-->
+		<changePickUpStateNotify>
+			<Arg>	INT8		</Arg>	<!-- pickUpState -->
+		</changePickUpStateNotify>
+
+		<!-- 上线 -->
+		<rejoinTeam>
+			<Arg>	OBJECT_ID	</Arg>	<!-- oldEntityID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- newEntityID -->
+		</rejoinTeam>
+
+		<!-- 下线 -->
+		<logoutNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</logoutNotify>
+
+		<!-- 数据更新 -->
+		<teammateInfoNotify>
+			<Arg>	OBJECT_ID		</Arg>	<!-- entityID -->
+			<Arg>	UINT8			</Arg>	<!-- level -->
+			<Arg>	INT32			</Arg>	<!-- hp -->
+			<Arg>	INT32			</Arg>	<!-- hpMax -->
+			<Arg>	INT32			</Arg>	<!-- mp -->
+			<Arg>	INT32			</Arg>	<!-- mpMax -->
+			<Arg>	INT32			</Arg>	<!-- buff -->
+			<Arg>	STRING			</Arg>	<!-- spaceLabel -->
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	INT32			</Arg>	<!-- spaceID -->
+		</teammateInfoNotify>
+
+		<teammateLevelChange>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	INT32		</Arg>	<!-- level -->
+		</teammateLevelChange>
+
+		<teammateNameChange>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+		</teammateNameChange>
+
+		<teammateSpaceChange>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	STRING		</Arg>	<!-- spaceLabel -->
+		</teammateSpaceChange>
+
+		<!-- 队伍解散通知 -->
+		<disbandTeamNotify/>
+
+		<!-- about buff ( hyw 2008.09.24 )-->
+		<team_onMemberAddBuff>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		BUFF				</Arg>
+		</team_onMemberAddBuff>
+		<team_onMemberRemoveBuff>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		UINT16				</Arg>	<!-- index -->
+		</team_onMemberRemoveBuff>
+		<team_onMemberUpdateBuff>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		UINT8 				</Arg>
+			<Arg>		BUFF				</Arg>	<!-- buff -->
+		</team_onMemberUpdateBuff>
+
+		<!-- 改变拾取品质-->
+		<changePickUpQuality>
+			<Arg>	INT8		</Arg>	<!-- pickUpState -->
+		</changePickUpQuality>
+
+
+		<!-- 改变Roll品质-->
+		<changeRollQuality>
+			<Arg>	INT8		</Arg>	<!-- pickUpState -->
+		</changeRollQuality>
+
+		<teamNotifyWithMemberName>
+			<Arg>		INT16				</Arg>	<!-- statusID : defined in common/csstatus.py -->
+			<Arg>		OBJECT_ID			</Arg>
+		</teamNotifyWithMemberName>
+
+		<team_requestFollow>	<!-- 询问是否同意跟随 -->
+		</team_requestFollow>
+		<team_followPlayer>
+			<Arg>	OBJECT_ID	</Arg>
+		</team_followPlayer>
+
+		<allcateDropItem>		<!-- 队长分配品质装备 -->
+			<Arg>	UINT8	</Arg>
+		</allcateDropItem>
+		<onLeaveTeamInSpecialSpace>
+			<Arg>	INT32		</Arg>	<!-- remainTime -->
+		</onLeaveTeamInSpecialSpace>
+		<receiveJoinTeamRequest>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</receiveJoinTeamRequest>
+		<teamInviteByTeammate>
+			<Arg>	STRING	</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</teamInviteByTeammate>
+		<addTeamMemberPet>
+			<Arg>	OBJECT_ID		</Arg>	<!-- entityID -->
+			<Arg>	OBJECT_ID		</Arg>	<!-- petID -->
+			<Arg>	STRING			</Arg>	<!-- uname -->
+			<Arg>	STRING			</Arg>	<!-- name -->
+			<Arg>	STRING			</Arg>	<!-- modelNumber -->
+			<Arg>	UINT8			</Arg>	<!-- species -->
+		</addTeamMemberPet>
+		<teammatePetInfoNotify>
+			<Arg>	OBJECT_ID		</Arg>	<!-- entityID -->
+			<Arg>	OBJECT_ID		</Arg>	<!-- petID -->
+			<Arg>	STRING			</Arg>	<!-- uname -->
+			<Arg>	STRING			</Arg>	<!-- name -->
+			<Arg>	UINT8			</Arg>	<!-- level -->
+			<Arg>	INT32			</Arg>	<!-- hp -->
+			<Arg>	INT32			</Arg>	<!-- hpMax -->
+			<Arg>	INT32			</Arg>	<!-- mp -->
+			<Arg>	INT32			</Arg>	<!-- mpMax -->
+			<Arg>	INT32			</Arg>	<!-- buff -->
+			<Arg>	STRING			</Arg>	<!-- modelNumber -->
+			<Arg>	UINT8			</Arg>	<!-- species -->
+		</teammatePetInfoNotify>
+		<team_onMemberPetAddBuff>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		BUFF				</Arg>	<!-- buff -->
+		</team_onMemberPetAddBuff>
+		<team_onMemberPetRemoveBuff>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		BUFF				</Arg>	<!-- buff -->
+		</team_onMemberPetRemoveBuff>
+		<team_onPetConjureNotify>
+			<Arg>	OBJECT_ID		</Arg>	<!-- roleID -->
+			<Arg>	OBJECT_ID		</Arg>	<!-- petID -->
+			<Arg>	STRING			</Arg>	<!-- uname -->
+			<Arg>	STRING			</Arg>	<!-- name -->
+			<Arg>	STRING			</Arg>	<!-- modelNumber -->
+			<Arg>	UINT8			</Arg>	<!-- species -->
+		</team_onPetConjureNotify>
+		<team_onPetWithdrawNotify>
+			<Arg>	OBJECT_ID		</Arg>	<!-- entityID -->
+		</team_onPetWithdrawNotify>
+	</ClientMethods>
+
+</root>

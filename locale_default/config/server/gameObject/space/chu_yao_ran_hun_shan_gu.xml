@@ -1,0 +1,78 @@
+<root>
+		<spaceName>	³ýÑý¸±±¾8	</spaceName>
+		<EntityType>	SpaceCopyPotential	</EntityType>
+		<SpaceType>	SPACE_TYPE_POTENTIAL	</SpaceType>
+		<DomainType>	SpaceDomainPotential	</DomainType>
+		<script>	SpaceCopyPotential	</script>
+		<className>	chu_yao_ran_hun_shan_gu	</className>
+		<TimeOfDay>	50400	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_ran_hun_shan_gu	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<doorPoint>
+				<pos>	3.214,21.289,139.179	</pos>
+				<radius>	2.600000	</radius>
+			</doorPoint>
+			<monsterPoint>	</monsterPoint>
+			<playerEnterPoint>
+				<pos>	9.319,21.195,136.531	</pos>
+				<direction>	0,105,0	</direction>
+			</playerEnterPoint>
+			<BossPoint>
+				<item>
+					<pos>	-2.145,1.708,5.391	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	1	</playerAmount>
+				</item>
+				<item>
+					<pos>	-2.145,1.708,5.391	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	2	</playerAmount>
+				</item>
+				<item>
+					<pos>	-2.145,1.708,5.391	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	3	</playerAmount>
+				</item>
+				<item>
+					<pos>	-2.145,1.708,5.391	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	4	</playerAmount>
+				</item>
+				<item>
+					<pos>	-2.145,1.708,5.391	</pos>
+					<direction>	0,0,0	</direction>
+					<randomWalkRange>	3.0	</randomWalkRange>
+					<playerAmount>	5	</playerAmount>
+				</item>
+			</BossPoint>
+			<smallBossPoint>	</smallBossPoint>
+		</Space>
+		<spawn>
+			<item>
+				<playerAmount>	1	</playerAmount>
+				<spawnFile>	config/server/spawn/chu_yao_ran_hun_shan_gu_1P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	2	</playerAmount>
+				<spawnFile>	config/server/spawn/chu_yao_ran_hun_shan_gu_2P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	3	</playerAmount>
+				<spawnFile>	config/server/spawn/chu_yao_ran_hun_shan_gu_3P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	4	</playerAmount>
+				<spawnFile>	config/server/spawn/chu_yao_ran_hun_shan_gu_4P.xml	</spawnFile>
+			</item>
+			<item>
+				<playerAmount>	5	</playerAmount>
+				<spawnFile>	config/server/spawn/chu_yao_ran_hun_shan_gu_5P.xml	</spawnFile>
+			</item>
+		</spawn>
+</root>

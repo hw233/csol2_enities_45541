@@ -1,0 +1,2824 @@
+<root>
+	<1>
+		<questionID>	1	</questionID>
+		<questionDes>	技能學習受哪些因素的影響？	</questionDes>
+		<a>	等級	</a>
+		<b>	經驗	</b>
+		<c>	潛能	</c>
+		<d>	等級和潛能	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	1	</type>
+		<info>	</info>
+	</1>
+	<2>
+		<questionID>	2	</questionID>
+		<questionDes>	潛能獲得的主要方式是什麼？	</questionDes>
+		<a>	潛能副本	</a>
+		<b>	任務	</b>
+		<c>	殺野外怪	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	1	</type>
+		<info>	</info>
+	</2>
+	<3>
+		<questionID>	3	</questionID>
+		<questionDes>	鳳鳴的潛能導師是誰？	</questionDes>
+		<a>	金烏王	</a>
+		<b>	烈伯	</b>
+		<c>	小蓮	</c>
+		<d>	萬戶	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	1	</type>
+		<info>	</info>
+	</3>
+	<4>
+		<questionID>	4	</questionID>
+		<questionDes>	騎寵能佩帶的裝備有幾種？	</questionDes>
+		<a>	3	</a>
+		<b>	4	</b>
+		<c>	5	</c>
+		<d>	6	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	2	</type>
+		<info>	
+  @S{4}騎寵的最大功用是方便出行，增加移動的速度，不同的騎寵能增加的速度也不盡相同。但是，騎寵的功用並不僅僅只是這麼一點，@F{fc=c26}騎寵本身是有屬性能夠升級的，等級越高，騎寵的屬性也就越強，當騎寵被主人騎乘時，騎寵的屬性會被加到主人和主人的出戰寵物的身上，讓主人和主人的出戰寵物擁有更強的能力@F{fc=(230, 227, 185, 255)}，更加方便主人的戰鬥。
+@B{2}@S{4}騎寵的能擁有並學習技能，這些技能對於主人的戰鬥，是會有非常大的幫助的，而且主人還能替你的騎寵規劃技能的學習，馴養出完全適應主人需要的騎寵。
+@B{2}@S{4}騎寵還能像人一般穿戴裝備，騎寵可以穿戴的裝備有馬鞍、籠頭、項鏈、爪環、披風、護甲。	</info>
+	</4>
+	<5>
+		<questionID>	5	</questionID>
+		<questionDes>	騎寵的屬性會被加成在誰的身上？	</questionDes>
+		<a>	主人	</a>
+		<b>	出戰寵物	</b>
+		<c>	主人和主人的出戰寵物都有	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	2	</type>
+		<info>	
+  @S{4}騎寵的最大功用是方便出行，增加移動的速度，不同的騎寵能增加的速度也不盡相同。但是，騎寵的功用並不僅僅只是這麼一點，@F{fc=c26}騎寵本身是有屬性能夠升級的，等級越高，騎寵的屬性也就越強，當騎寵被主人騎乘時，騎寵的屬性會被加到主人和主人的出戰寵物的身上，讓主人和主人的出戰寵物擁有更強的能力@F{fc=(230, 227, 185, 255)}，更加方便主人的戰鬥。
+@B{2}@S{4}騎寵的能擁有並學習技能，這些技能對於主人的戰鬥，是會有非常大的幫助的，而且主人還能替你的騎寵規劃技能的學習，馴養出完全適應主人需要的騎寵。
+@B{2}@S{4}騎寵還能像人一般穿戴裝備，騎寵可以穿戴的裝備有馬鞍、籠頭、項鏈、爪環、披風、護甲。	</info>
+	</5>
+	<6>
+		<questionID>	6	</questionID>
+		<questionDes>	每次自動戰鬥最多可維持多久？	</questionDes>
+		<a>	1小時	</a>
+		<b>	4小時	</b>
+		<c>	8小時	</c>
+		<d>	24小時	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	3	</type>
+		<info>	  @S{4}自動戰鬥欄位置在快捷欄上方，一共有五個空格，第一、二、三個是人物技能欄，將技能圖標拖拽放入後，自動戰鬥時便會自動使用此技能。同時你如果想手動釋放其他技能的話也不會被影響。
+@B{2}@S{4}第四和第五格放置的是人物的恢復生命和法力的藥品，不論是否開啟了自動戰鬥，如果你的生命和法力值低於你設定的比例的話，這些藥品都會被自動使用。
+@B{2}@S{4}不過需要注意的是，自動使用藥品是有一定限製的。如果你放入的是非常珍貴的由道具商城中購買的收費藥品，那麼就不受限製。如果放入的是普通藥品，則同時需要使用靈藥。
+@B{2}@S{4}每個靈藥的作用時間為30分鐘，在靈藥的作用時間內，普通藥品也可以自動被使用，如果不在靈藥的作用時間內，普通藥品是無法被自動使用的。靈藥分為兩類，分別通過系統贈與和戰鬥掉落獲得，通過系統贈與的靈藥每個角色身上最多擁有7個，通過戰鬥掉落獲得的靈藥則無數量限製。
+@B{2}@S{4}然後就是“開啟”和“設置”兩個按鍵了，“開啟”是控制是否進行自動戰鬥的按鍵，當點擊“開啟”，自動戰鬥被開啟後，按鍵會變成“關閉”，點擊“關閉”，正在進行的自動戰鬥也會停止了。
+@B{2}@S{4}點擊“設置”按鍵可以進行自動戰鬥時的一些設置，通過設置百分比，可以控制戰鬥時喝藥的時機，通過勾選自動撿取欄，可以選擇在自動戰鬥中是否自動拾取物品。
+@B{2}@S{4}每次的自動戰鬥最多可維持8小時，超過8小時後自動戰鬥就會停止，此時你需要點擊“開啟”重新開始自動戰鬥。	</info>
+	</6>
+	<7>
+		<questionID>	7	</questionID>
+		<questionDes>	自動戰鬥欄一共有幾個空格？	</questionDes>
+		<a>	2	</a>
+		<b>	3	</b>
+		<c>	4	</c>
+		<d>	5	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	3	</type>
+		<info>	  @S{4}自動戰鬥欄位置在快捷欄上方，一共有五個空格，第一、二、三個是人物技能欄，將技能圖標拖拽放入後，自動戰鬥時便會自動使用此技能。同時你如果想手動釋放其他技能的話也不會被影響。
+@B{2}@S{4}第四和第五格放置的是人物的恢復生命和法力的藥品，不論是否開啟了自動戰鬥，如果你的生命和法力值低於你設定的比例的話，這些藥品都會被自動使用。
+@B{2}@S{4}不過需要注意的是，自動使用藥品是有一定限製的。如果你放入的是非常珍貴的由道具商城中購買的收費藥品，那麼就不受限製。如果放入的是普通藥品，則同時需要使用靈藥。
+@B{2}@S{4}每個靈藥的作用時間為30分鐘，在靈藥的作用時間內，普通藥品也可以自動被使用，如果不在靈藥的作用時間內，普通藥品是無法被自動使用的。靈藥分為兩類，分別通過系統贈與和戰鬥掉落獲得，通過系統贈與的靈藥每個角色身上最多擁有7個，通過戰鬥掉落獲得的靈藥則無數量限製。
+@B{2}@S{4}然後就是“開啟”和“設置”兩個按鍵了，“開啟”是控制是否進行自動戰鬥的按鍵，當點擊“開啟”，自動戰鬥被開啟後，按鍵會變成“關閉”，點擊“關閉”，正在進行的自動戰鬥也會停止了。
+@B{2}@S{4}點擊“設置”按鍵可以進行自動戰鬥時的一些設置，通過設置百分比，可以控制戰鬥時喝藥的時機，通過勾選自動撿取欄，可以選擇在自動戰鬥中是否自動拾取物品。
+@B{2}@S{4}每次的自動戰鬥最多可維持8小時，超過8小時後自動戰鬥就會停止，此時你需要點擊“開啟”重新開始自動戰鬥。	</info>
+	</7>
+	<8>
+		<questionID>	8	</questionID>
+		<questionDes>	自動戰鬥欄第一格內是放置什麼的？	</questionDes>
+		<a>	人物技能	</a>
+		<b>	寵物技能	</b>
+		<c>	回覆生命藥劑	</c>
+		<d>	回覆法力藥劑	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	3	</type>
+		<info>	  @S{4}自動戰鬥欄位置在快捷欄上方，一共有五個空格，第一、二、三個是人物技能欄，將技能圖標拖拽放入後，自動戰鬥時便會自動使用此技能。同時你如果想手動釋放其他技能的話也不會被影響。
+@B{2}@S{4}第四和第五格放置的是人物的恢復生命和法力的藥品，不論是否開啟了自動戰鬥，如果你的生命和法力值低於你設定的比例的話，這些藥品都會被自動使用。
+@B{2}@S{4}不過需要注意的是，自動使用藥品是有一定限製的。如果你放入的是非常珍貴的由道具商城中購買的收費藥品，那麼就不受限製。如果放入的是普通藥品，則同時需要使用靈藥。
+@B{2}@S{4}每個靈藥的作用時間為30分鐘，在靈藥的作用時間內，普通藥品也可以自動被使用，如果不在靈藥的作用時間內，普通藥品是無法被自動使用的。靈藥分為兩類，分別通過系統贈與和戰鬥掉落獲得，通過系統贈與的靈藥每個角色身上最多擁有7個，通過戰鬥掉落獲得的靈藥則無數量限製。
+@B{2}@S{4}然後就是“開啟”和“設置”兩個按鍵了，“開啟”是控制是否進行自動戰鬥的按鍵，當點擊“開啟”，自動戰鬥被開啟後，按鍵會變成“關閉”，點擊“關閉”，正在進行的自動戰鬥也會停止了。
+@B{2}@S{4}點擊“設置”按鍵可以進行自動戰鬥時的一些設置，通過設置百分比，可以控制戰鬥時喝藥的時機，通過勾選自動撿取欄，可以選擇在自動戰鬥中是否自動拾取物品。
+@B{2}@S{4}每次的自動戰鬥最多可維持8小時，超過8小時後自動戰鬥就會停止，此時你需要點擊“開啟”重新開始自動戰鬥。	</info>
+	</8>
+	<9>
+		<questionID>	9	</questionID>
+		<questionDes>	普通藥品要被自動使用的話，需要同時使用什麼道具？	</questionDes>
+		<a>	靈藥	</a>
+		<b>	天幣票	</b>
+		<c>	食物	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	3	</type>
+		<info>	  @S{4}自動戰鬥欄位置在快捷欄上方，一共有五個空格，第一、二、三個是人物技能欄，將技能圖標拖拽放入後，自動戰鬥時便會自動使用此技能。同時你如果想手動釋放其他技能的話也不會被影響。
+@B{2}@S{4}第四和第五格放置的是人物的恢復生命和法力的藥品，不論是否開啟了自動戰鬥，如果你的生命和法力值低於你設定的比例的話，這些藥品都會被自動使用。
+@B{2}@S{4}不過需要注意的是，自動使用藥品是有一定限製的。如果你放入的是非常珍貴的由道具商城中購買的收費藥品，那麼就不受限製。如果放入的是普通藥品，則同時需要使用靈藥。
+@B{2}@S{4}每個靈藥的作用時間為30分鐘，在靈藥的作用時間內，普通藥品也可以自動被使用，如果不在靈藥的作用時間內，普通藥品是無法被自動使用的。靈藥分為兩類，分別通過系統贈與和戰鬥掉落獲得，通過系統贈與的靈藥每個角色身上最多擁有7個，通過戰鬥掉落獲得的靈藥則無數量限製。
+@B{2}@S{4}然後就是“開啟”和“設置”兩個按鍵了，“開啟”是控制是否進行自動戰鬥的按鍵，當點擊“開啟”，自動戰鬥被開啟後，按鍵會變成“關閉”，點擊“關閉”，正在進行的自動戰鬥也會停止了。
+@B{2}@S{4}點擊“設置”按鍵可以進行自動戰鬥時的一些設置，通過設置百分比，可以控制戰鬥時喝藥的時機，通過勾選自動撿取欄，可以選擇在自動戰鬥中是否自動拾取物品。
+@B{2}@S{4}每次的自動戰鬥最多可維持8小時，超過8小時後自動戰鬥就會停止，此時你需要點擊“開啟”重新開始自動戰鬥。	</info>
+	</9>
+	<10>
+		<questionID>	10	</questionID>
+		<questionDes>	潛能獲得的主要方式是什麼？	</questionDes>
+		<a>	潛能副本	</a>
+		<b>	任務	</b>
+		<c>	殺野外怪	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	4	</type>
+		<info>	  @S{4}在天上人間，技能的提升是需要消耗潛能，而獲得潛能的主要方式是在潛能導師處領取並完成潛能任務而獲得。潛能任務的主要形式是進入副本戰鬥。@B{2}@S{4}潛能任務沒有完成次數的限製，但是每一次任務都有時間限製，即必須在60分鐘內必須完成，否則判為失敗。@B{2}@S{4}潛能是通過特定的戰鬥修煉來領悟獲得的，在成長的不同階段，會有不同的潛能導師給予不同的修煉內容。比如鳳鳴地區的潛能任務主要內容就是剿匪。	</info>
+	</10>
+	<11>
+		<questionID>	11	</questionID>
+		<questionDes>	鳳鳴的潛能導師是誰？	</questionDes>
+		<a>	金烏王	</a>
+		<b>	烈伯	</b>
+		<c>	小蓮	</c>
+		<d>	萬戶	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	4	</type>
+		<info>	  @S{4}在天上人間，技能的提升是需要消耗潛能，而獲得潛能的主要方式是在潛能導師處領取並完成潛能任務而獲得。潛能任務的主要形式是進入副本戰鬥。@B{2}@S{4}潛能任務沒有完成次數的限製，但是每一次任務都有時間限製，即必須在60分鐘內必須完成，否則判為失敗。@B{2}@S{4}潛能是通過特定的戰鬥修煉來領悟獲得的，在成長的不同階段，會有不同的潛能導師給予不同的修煉內容。比如鳳鳴地區的潛能任務主要內容就是剿匪。	</info>
+	</11>
+	<12>
+		<questionID>	12	</questionID>
+		<questionDes>	鳳鳴潛能任務的內容是什麼？	</questionDes>
+		<a>	除魔	</a>
+		<b>	降妖	</b>
+		<c>	剿匪	</c>
+		<d>	滅神	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	4	</type>
+		<info>	  @S{4}在天上人間，技能的提升是需要消耗潛能，而獲得潛能的主要方式是在潛能導師處領取並完成潛能任務而獲得。潛能任務的主要形式是進入副本戰鬥。@B{2}@S{4}潛能任務沒有完成次數的限製，但是每一次任務都有時間限製，即必須在60分鐘內必須完成，否則判為失敗。@B{2}@S{4}潛能是通過特定的戰鬥修煉來領悟獲得的，在成長的不同階段，會有不同的潛能導師給予不同的修煉內容。比如鳳鳴地區的潛能任務主要內容就是剿匪。	</info>
+	</12>
+	<13>
+		<questionID>	13	</questionID>
+		<questionDes>	潛能任務的時限是多少？	</questionDes>
+		<a>	20分鐘	</a>
+		<b>	30分鐘	</b>
+		<c>	40分鐘	</c>
+		<d>	60分鐘	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	4	</type>
+		<info>	  @S{4}在天上人間，技能的提升是需要消耗潛能，而獲得潛能的主要方式是在潛能導師處領取並完成潛能任務而獲得。潛能任務的主要形式是進入副本戰鬥。@B{2}@S{4}潛能任務沒有完成次數的限製，但是每一次任務都有時間限製，即必須在60分鐘內必須完成，否則判為失敗。@B{2}@S{4}潛能是通過特定的戰鬥修煉來領悟獲得的，在成長的不同階段，會有不同的潛能導師給予不同的修煉內容。比如鳳鳴地區的潛能任務主要內容就是剿匪。	</info>
+	</13>
+	<14>
+		<questionID>	14	</questionID>
+		<questionDes>	法寶等級的提升需要什麼？	</questionDes>
+		<a>	經驗	</a>
+		<b>	潛能	</b>
+		<c>	時間	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	5	</type>
+		<info>	  @S{4}在天上人間，法寶主要通過任務、打怪、商城購買等方式獲得，且大致分為三個層級，即：@F{fc=c26}凡品、仙品、神品@F{fc=(230, 227, 185, 255)}。
+
+@B{2}@S{4}其中凡品是初始獲得的法寶，仙品和神品分別是法寶等級到50和100級時利用@F{fc=c26}玄天奇石@F{fc=(230, 227, 185, 255)}強化法寶獲得的，強化過後的法寶會獲得外形和屬性的變化。@B{2}@S{4}@F{fc=c26}屬性@F{fc=(230, 227, 185, 255)}，法寶每次強化都可以增加兩條與其品級對應的隨機屬性，但不能超出兩條，如果對法寶屬性不滿意，可以利用與其品級相對應的@F{fc=c26}天罡石@F{fc=(230, 227, 185, 255)}來改造屬性，改造後的屬性隨機。@B{2}@S{4}@F{fc=c26}技能@F{fc=(230, 227, 185, 255)}，法寶除去屬性之外，還擁有技能，技能通過法寶的等級提升獲得，即當法寶等級提升到一定程度後，有一定機率領悟法寶技能，其技能與法寶綁定，一類法寶固定對應一個技能，如果想使用技能，將其圖標拖放到快捷欄中，就可以使用了。@B{2}@S{4}@F{fc=c26}法寶的升級@F{fc=(230, 227, 185, 255)}，需要玩家用自身的經驗換取，而法寶技能的等級提升，則需要用潛能值換取，法寶的等級和技能的等級越高，其屬性和技能的效果就越好。@B{2}@S{4}正如這人間的生老病死，法寶也有自己的使用壽命，也就是@F{fc=c26}使用時間@F{fc=(230, 227, 185, 255)}，如果使用時間剩餘為0，則無法使用法寶技能，也無法獲得屬性加成，這時需要購買@F{fc=c26}“女媧石”@F{fc=(230, 227, 185, 255)}來為法寶沖入時間，每顆女媧石能增加30天的使用時間，疊加時間無上限。 	</info>
+	</14>
+	<15>
+		<questionID>	15	</questionID>
+		<questionDes>	最高品級的法寶是什麼品級？	</questionDes>
+		<a>	凡品	</a>
+		<b>	神品	</b>
+		<c>	仙品	</c>
+		<d>	聖品	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	5	</type>
+		<info>	  @S{4}在天上人間，法寶主要通過任務、打怪、商城購買等方式獲得，且大致分為三個層級，即：@F{fc=c26}凡品、仙品、神品@F{fc=(230, 227, 185, 255)}。
+
+@B{2}@S{4}其中凡品是初始獲得的法寶，仙品和神品分別是法寶等級到50和100級時利用@F{fc=c26}玄天奇石@F{fc=(230, 227, 185, 255)}強化法寶獲得的，強化過後的法寶會獲得外形和屬性的變化。@B{2}@S{4}@F{fc=c26}屬性@F{fc=(230, 227, 185, 255)}，法寶每次強化都可以增加兩條與其品級對應的隨機屬性，但不能超出兩條，如果對法寶屬性不滿意，可以利用與其品級相對應的@F{fc=c26}天罡石@F{fc=(230, 227, 185, 255)}來改造屬性，改造後的屬性隨機。@B{2}@S{4}@F{fc=c26}技能@F{fc=(230, 227, 185, 255)}，法寶除去屬性之外，還擁有技能，技能通過法寶的等級提升獲得，即當法寶等級提升到一定程度後，有一定機率領悟法寶技能，其技能與法寶綁定，一類法寶固定對應一個技能，如果想使用技能，將其圖標拖放到快捷欄中，就可以使用了。@B{2}@S{4}@F{fc=c26}法寶的升級@F{fc=(230, 227, 185, 255)}，需要玩家用自身的經驗換取，而法寶技能的等級提升，則需要用潛能值換取，法寶的等級和技能的等級越高，其屬性和技能的效果就越好。@B{2}@S{4}正如這人間的生老病死，法寶也有自己的使用壽命，也就是@F{fc=c26}使用時間@F{fc=(230, 227, 185, 255)}，如果使用時間剩餘為0，則無法使用法寶技能，也無法獲得屬性加成，這時需要購買@F{fc=c26}“女媧石”@F{fc=(230, 227, 185, 255)}來為法寶沖入時間，每顆女媧石能增加30天的使用時間，疊加時間無上限。 	</info>
+	</15>
+	<16>
+		<questionID>	16	</questionID>
+		<questionDes>	法寶每提升一個品級能提升幾條屬性？	</questionDes>
+		<a>	1	</a>
+		<b>	2	</b>
+		<c>	3	</c>
+		<d>	4	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	5	</type>
+		<info>	  @S{4}在天上人間，法寶主要通過任務、打怪、商城購買等方式獲得，且大致分為三個層級，即：@F{fc=c26}凡品、仙品、神品@F{fc=(230, 227, 185, 255)}。
+
+@B{2}@S{4}其中凡品是初始獲得的法寶，仙品和神品分別是法寶等級到50和100級時利用@F{fc=c26}玄天奇石@F{fc=(230, 227, 185, 255)}強化法寶獲得的，強化過後的法寶會獲得外形和屬性的變化。@B{2}@S{4}@F{fc=c26}屬性@F{fc=(230, 227, 185, 255)}，法寶每次強化都可以增加兩條與其品級對應的隨機屬性，但不能超出兩條，如果對法寶屬性不滿意，可以利用與其品級相對應的@F{fc=c26}天罡石@F{fc=(230, 227, 185, 255)}來改造屬性，改造後的屬性隨機。@B{2}@S{4}@F{fc=c26}技能@F{fc=(230, 227, 185, 255)}，法寶除去屬性之外，還擁有技能，技能通過法寶的等級提升獲得，即當法寶等級提升到一定程度後，有一定機率領悟法寶技能，其技能與法寶綁定，一類法寶固定對應一個技能，如果想使用技能，將其圖標拖放到快捷欄中，就可以使用了。@B{2}@S{4}@F{fc=c26}法寶的升級@F{fc=(230, 227, 185, 255)}，需要玩家用自身的經驗換取，而法寶技能的等級提升，則需要用潛能值換取，法寶的等級和技能的等級越高，其屬性和技能的效果就越好。@B{2}@S{4}正如這人間的生老病死，法寶也有自己的使用壽命，也就是@F{fc=c26}使用時間@F{fc=(230, 227, 185, 255)}，如果使用時間剩餘為0，則無法使用法寶技能，也無法獲得屬性加成，這時需要購買@F{fc=c26}“女媧石”@F{fc=(230, 227, 185, 255)}來為法寶沖入時間，每顆女媧石能增加30天的使用時間，疊加時間無上限。 	</info>
+	</16>
+	<17>
+		<questionID>	17	</questionID>
+		<questionDes>	法寶技能等級的提升需要什麼？	</questionDes>
+		<a>	經驗	</a>
+		<b>	潛能	</b>
+		<c>	時間	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	5	</type>
+		<info>	  @S{4}在天上人間，法寶主要通過任務、打怪、商城購買等方式獲得，且大致分為三個層級，即：@F{fc=c26}凡品、仙品、神品@F{fc=(230, 227, 185, 255)}。
+
+@B{2}@S{4}其中凡品是初始獲得的法寶，仙品和神品分別是法寶等級到50和100級時利用@F{fc=c26}玄天奇石@F{fc=(230, 227, 185, 255)}強化法寶獲得的，強化過後的法寶會獲得外形和屬性的變化。@B{2}@S{4}@F{fc=c26}屬性@F{fc=(230, 227, 185, 255)}，法寶每次強化都可以增加兩條與其品級對應的隨機屬性，但不能超出兩條，如果對法寶屬性不滿意，可以利用與其品級相對應的@F{fc=c26}天罡石@F{fc=(230, 227, 185, 255)}來改造屬性，改造後的屬性隨機。@B{2}@S{4}@F{fc=c26}技能@F{fc=(230, 227, 185, 255)}，法寶除去屬性之外，還擁有技能，技能通過法寶的等級提升獲得，即當法寶等級提升到一定程度後，有一定機率領悟法寶技能，其技能與法寶綁定，一類法寶固定對應一個技能，如果想使用技能，將其圖標拖放到快捷欄中，就可以使用了。@B{2}@S{4}@F{fc=c26}法寶的升級@F{fc=(230, 227, 185, 255)}，需要玩家用自身的經驗換取，而法寶技能的等級提升，則需要用潛能值換取，法寶的等級和技能的等級越高，其屬性和技能的效果就越好。@B{2}@S{4}正如這人間的生老病死，法寶也有自己的使用壽命，也就是@F{fc=c26}使用時間@F{fc=(230, 227, 185, 255)}，如果使用時間剩餘為0，則無法使用法寶技能，也無法獲得屬性加成，這時需要購買@F{fc=c26}“女媧石”@F{fc=(230, 227, 185, 255)}來為法寶沖入時間，每顆女媧石能增加30天的使用時間，疊加時間無上限。 	</info>
+	</17>
+	<18>
+		<questionID>	18	</questionID>
+		<questionDes>	法寶的技能如何獲得？	</questionDes>
+		<a>	使用技能書學習	</a>
+		<b>	從導師處學習	</b>
+		<c>	隨著法寶等級的提升自行領悟	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	5	</type>
+		<info>	  @S{4}在天上人間，法寶主要通過任務、打怪、商城購買等方式獲得，且大致分為三個層級，即：@F{fc=c26}凡品、仙品、神品@F{fc=(230, 227, 185, 255)}。
+
+@B{2}@S{4}其中凡品是初始獲得的法寶，仙品和神品分別是法寶等級到50和100級時利用@F{fc=c26}玄天奇石@F{fc=(230, 227, 185, 255)}強化法寶獲得的，強化過後的法寶會獲得外形和屬性的變化。@B{2}@S{4}@F{fc=c26}屬性@F{fc=(230, 227, 185, 255)}，法寶每次強化都可以增加兩條與其品級對應的隨機屬性，但不能超出兩條，如果對法寶屬性不滿意，可以利用與其品級相對應的@F{fc=c26}天罡石@F{fc=(230, 227, 185, 255)}來改造屬性，改造後的屬性隨機。@B{2}@S{4}@F{fc=c26}技能@F{fc=(230, 227, 185, 255)}，法寶除去屬性之外，還擁有技能，技能通過法寶的等級提升獲得，即當法寶等級提升到一定程度後，有一定機率領悟法寶技能，其技能與法寶綁定，一類法寶固定對應一個技能，如果想使用技能，將其圖標拖放到快捷欄中，就可以使用了。@B{2}@S{4}@F{fc=c26}法寶的升級@F{fc=(230, 227, 185, 255)}，需要玩家用自身的經驗換取，而法寶技能的等級提升，則需要用潛能值換取，法寶的等級和技能的等級越高，其屬性和技能的效果就越好。@B{2}@S{4}正如這人間的生老病死，法寶也有自己的使用壽命，也就是@F{fc=c26}使用時間@F{fc=(230, 227, 185, 255)}，如果使用時間剩餘為0，則無法使用法寶技能，也無法獲得屬性加成，這時需要購買@F{fc=c26}“女媧石”@F{fc=(230, 227, 185, 255)}來為法寶沖入時間，每顆女媧石能增加30天的使用時間，疊加時間無上限。 	</info>
+	</18>
+	<19>
+		<questionID>	19	</questionID>
+		<questionDes>	經驗代練頁面位於何處？	</questionDes>
+		<a>	包裹頁面中	</a>
+		<b>	幫會頁面中	</b>
+		<c>	人物屬性頁面中	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	6	</type>
+		<info>	 @S{4}在人物的屬性界面下方有一個分頁按鈕。使用這個分頁按鈕就可以切換到“經驗代練”界面。充值代練，領取經驗都是在經驗代練界面下完成的。
+@B{2}@S{4}如果想要通過別人的幫助來迅速的讓自己提高的話，那就在經驗代練頁面中沖入代練時間，在其他玩家的幫助下，就算完全不上線，都會在別人的幫助下聚積經驗。
+@B{2}@S{4}在經驗代練界面中，有“開始普通代練”和“開始刻苦代練”兩個按鈕。只需要點“開始普通代練”，就會有熱心人幫你進行代練。點“停止代練”，你就會發現經過代練獲得的經驗已經儲存在經驗代練頁面中了。
+@B{2}@S{4}旁邊有個按鈕“開始刻苦代練”。如果你選擇這樣的代練方式，會獲得更多的代練收益，但是消耗代練時間也會翻倍！
+@B{2}@S{4}當你的經驗代練頁面中充有經驗，並且代練已經停止，就可以在經驗石界面中點“吸經驗”按鈕，讓你自己獲得經驗了！
+@B{2}@S{4}在人物經驗代練界面的下方，你還能看到寵物的經驗代練界面，寵物的吸取規則和人物是一樣的。但是寵物吸取經驗需要在寵物界面中點擊“吸經驗”按鈕進行吸取。	</info>
+	</19>
+	<20>
+		<questionID>	20	</questionID>
+		<questionDes>	經驗代練有幾種代練形式？	</questionDes>
+		<a>	1	</a>
+		<b>	2	</b>
+		<c>	3	</c>
+		<d>	4	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	6	</type>
+		<info>	 @S{4}在人物的屬性界面下方有一個分頁按鈕。使用這個分頁按鈕就可以切換到“經驗代練”界面。充值代練，領取經驗都是在經驗代練界面下完成的。
+@B{2}@S{4}如果想要通過別人的幫助來迅速的讓自己提高的話，那就在經驗代練頁面中沖入代練時間，在其他玩家的幫助下，就算完全不上線，都會在別人的幫助下聚積經驗。
+@B{2}@S{4}在經驗代練界面中，有“開始普通代練”和“開始刻苦代練”兩個按鈕。只需要點“開始普通代練”，就會有熱心人幫你進行代練。點“停止代練”，你就會發現經過代練獲得的經驗已經儲存在經驗代練頁面中了。
+@B{2}@S{4}旁邊有個按鈕“開始刻苦代練”。如果你選擇這樣的代練方式，會獲得更多的代練收益，但是消耗代練時間也會翻倍！
+@B{2}@S{4}當你的經驗代練頁面中充有經驗，並且代練已經停止，就可以在經驗石界面中點“吸經驗”按鈕，讓你自己獲得經驗了！
+@B{2}@S{4}在人物經驗代練界面的下方，你還能看到寵物的經驗代練界面，寵物的吸取規則和人物是一樣的。但是寵物吸取經驗需要在寵物界面中點擊“吸經驗”按鈕進行吸取。	</info>
+	</20>
+	<21>
+		<questionID>	21	</questionID>
+		<questionDes>	“文房四寶”裡不包括下列哪一項？	</questionDes>
+		<a>	筆	</a>
+		<b>	墨	</b>
+		<c>	紙	</c>
+		<d>	書	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	7	</type>
+		<info>	 @S{4}梁春答應給你紙筆，但是要先考考你一些關於紙和筆的小知識。不要害怕，錯了還是有機會重來的……	</info>
+	</21>
+	<22>
+		<questionID>	22	</questionID>
+		<questionDes>	毛筆中的“狼毫”是用什麼動物毛製成的？	</questionDes>
+		<a>	小狼 	</a>
+		<b>	黃鼠狼	</b>
+		<c>	老狼	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	7	</type>
+		<info>	 @S{4}梁春答應給你紙筆，但是要先考考你一些關於紙和筆的小知識。不要害怕，錯了還是有機會重來的……	</info>
+	</22>
+	<23>
+		<questionID>	23	</questionID>
+		<questionDes>	“紫毫”是用什麼動物的毛做成的毛筆？	</questionDes>
+		<a>	 黃鼠狼 	</a>
+		<b>	兔 	</b>
+		<c>	羊 	</c>
+		<d>	狼 	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	7	</type>
+		<info>	 @S{4}梁春答應給你紙筆，但是要先考考你一些關於紙和筆的小知識。不要害怕，錯了還是有機會重來的……	</info>
+	</23>
+	<24>
+		<questionID>	24	</questionID>
+		<questionDes>	銀靈子是毫無主見的笨蛋嗎？	</questionDes>
+		<a>	是	</a>
+		<b>	不是	</b>
+		<c>	我不清楚	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	8	</type>
+		<info>	@S{4}阿繡看來是要刁難你，先回答她提出來的問題吧。	</info>
+	</24>
+	<25>
+		<questionID>	25	</questionID>
+		<questionDes>	你怎麼看待人和妖的戀情？	</questionDes>
+		<a>	堅決反對	</a>
+		<b>	舉雙手贊成	</b>
+		<c>	既不贊成也不反對	</c>
+		<d>	關我甚事？	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	8	</type>
+		<info>	@S{5}阿繡看來是要刁難你，先回答她提出來的問題吧。	</info>
+	</25>
+	<26>
+		<questionID>	26	</questionID>
+		<questionDes>	要是我和他結合了，生出奇怪的小孩該怎麼辦？	</questionDes>
+		<a>	偷偷丟掉	</a>
+		<b>	給孩子他奶奶	</b>
+		<c>	再苦也要養	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	8	</type>
+		<info>	@S{6}阿繡看來是要刁難你，先回答她提出來的問題吧。	</info>
+	</26>
+	<27>
+		<questionID>	27	</questionID>
+		<questionDes>	男兒都出徵(打一時下身份稱謂)	</questionDes>
+		<a>	剩男	</a>
+		<b>	剩女	</b>
+		<c>	標題黨 	</c>
+		<d>	鳳凰男	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</27>
+	<28>
+		<questionID>	28	</questionID>
+		<questionDes>	木蘭換裝驚總兵（打一常用語）	</questionDes>
+		<a>	酷斃了	</a>
+		<b>	遜斃了	</b>
+		<c>	太有才了	</c>
+		<d>	帥呆了	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</28>
+	<29>
+		<questionID>	29	</questionID>
+		<questionDes>	單於卻攬沛公妻（打一字）	</questionDes>
+		<a>	推	</a>
+		<b>	淮 	</b>
+		<c>	哥	</c>
+		<d>	好	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</29>
+	<30>
+		<questionID>	30	</questionID>
+		<questionDes>	哪一首歌曲的歌詞中有李玟？（打一首歌曲）	</questionDes>
+		<a>	《月亮代表我的心》	</a>
+		<b>	《真情人》	</b>
+		<c>	《月光愛人》	</c>
+		<d>	《滴答滴》	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</30>
+	<31>
+		<questionID>	31	</questionID>
+		<questionDes>	頭是一，腰是一，其實不是一（打一字）	</questionDes>
+		<a>	天	</a>
+		<b>	三 	</b>
+		<c>	夫	</c>
+		<d>	王	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</31>
+	<32>
+		<questionID>	32	</questionID>
+		<questionDes>	身自端方，體自堅硬；雖不能言，有言必應。（打文房四寶之一）	</questionDes>
+		<a>	硯臺	</a>
+		<b>	毛筆	</b>
+		<c>	宣紙	</c>
+		<d>	松煙墨	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</32>
+	<33>
+		<questionID>	33	</questionID>
+		<questionDes>	猴子身輕站樹梢（打一水果）	</questionDes>
+		<a>	栗子	</a>
+		<b>	栗子	</b>
+		<c>	荔枝 	</c>
+		<d>	梨子	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</33>
+	<34>
+		<questionID>	34	</questionID>
+		<questionDes>	能使妖魔膽盡摧，身如束帛氣如雷；一聲震得人方恐，回首相看已成灰。（打一物品）	</questionDes>
+		<a>	蠟燭	</a>
+		<b>	燈籠	</b>
+		<c>	煙花	</c>
+		<d>	爆竹	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</34>
+	<35>
+		<questionID>	35	</questionID>
+		<questionDes>	天運人功理不窮，有功無運也難逢。因何鎮日紛紛亂?只為陰陽數不同。（打一物品）	</questionDes>
+		<a>	算盤	</a>
+		<b>	賬本	</b>
+		<c>	計算器	</c>
+		<d>	電腦	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</35>
+	<36>
+		<questionID>	36	</questionID>
+		<questionDes>	階下兒童仰面時，清明妝點最堪宜。遊絲一斷渾無力，莫向東風怨別離。（打一物品）	</questionDes>
+		<a>	氣球	</a>
+		<b>	飛機	</b>
+		<c>	竹蜻蜓	</c>
+		<d>	風箏	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</36>
+	<37>
+		<questionID>	37	</questionID>
+		<questionDes>	南面而坐，北面而朝。象憂亦憂，象喜亦喜。（打一物品）	</questionDes>
+		<a>	椅子	</a>
+		<b>	鏡子	</b>
+		<c>	床 	</c>
+		<d>	窗戶	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</37>
+	<38>
+		<questionID>	38	</questionID>
+		<questionDes>	一邊綠，一邊紅，一邊怕水，一邊怕蟲。（打一字）	</questionDes>
+		<a>	秒    	</a>
+		<b>	種  	</b>
+		<c>	秋   	</c>
+		<d>	秧	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</38>
+	<39>
+		<questionID>	39	</questionID>
+		<questionDes>	九九歸一（打一中草藥名）	</questionDes>
+		<a>	當歸	</a>
+		<b>	百合	</b>
+		<c>	黃杞	</c>
+		<d>	黨參	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</39>
+	<40>
+		<questionID>	40	</questionID>
+		<questionDes>	什麼動物最沒有方向感？（打一動物）	</questionDes>
+		<a>	蝸牛	</a>
+		<b>	馴鹿	</b>
+		<c>	豬 	</c>
+		<d>	麋鹿	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</40>
+	<41>
+		<questionID>	41	</questionID>
+		<questionDes>	綠化北平（打一水滸傳好漢名）	</questionDes>
+		<a>	宋清	</a>
+		<b>	張青	</b>
+		<c>	扈三娘	</c>
+		<d>	燕青	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</41>
+	<42>
+		<questionID>	42	</questionID>
+		<questionDes>	金鈿遍野（打一中草藥名）	</questionDes>
+		<a>	過路黃	</a>
+		<b>	地黃	</b>
+		<c>	黃杞	</c>
+		<d>	黃精	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</42>
+	<43>
+		<questionID>	43	</questionID>
+		<questionDes>	中國見聞（打一電視劇名）	</questionDes>
+		<a>	《玉觀音》	</a>
+		<b>	《蝸居》	</b>
+		<c>	《宮心計》	</c>
+		<d>	《漢武大帝》	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</43>
+	<44>
+		<questionID>	44	</questionID>
+		<questionDes>	歸來淚垂窗欞影（打一電視劇名）	</questionDes>
+		<a>	《孽子》	</a>
+		<b>	《還珠格格》	</b>
+		<c>	《聊齋》	</c>
+		<d>	《亮劍》	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</44>
+	<45>
+		<questionID>	45	</questionID>
+		<questionDes>	加一筆不好，加一倍不少（打一字）	</questionDes>
+		<a>	多	</a>
+		<b>	移	</b>
+		<c>	二	</c>
+		<d>	夕	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</45>
+	<46>
+		<questionID>	46	</questionID>
+		<questionDes>	叔叔一只眼，百事都愛管 (打一字)	</questionDes>
+		<a>	椒	</a>
+		<b>	盯 	</b>
+		<c>	督	</c>
+		<d>	認	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</46>
+	<47>
+		<questionID>	47	</questionID>
+		<questionDes>	一邊大一邊小，一邊跳一邊跑，一邊吃肉一邊吃草，一邊難追一邊難找。（打一字）	</questionDes>
+		<a>	鰲	</a>
+		<b>	他	</b>
+		<c>	馭	</c>
+		<d>	騷	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</47>
+	<48>
+		<questionID>	48	</questionID>
+		<questionDes>	黃河大合唱（打一歌曲名）	</questionDes>
+		<a>	《搖籃曲》	</a>
+		<b>	《山路十八彎》	</b>
+		<c>	《黃土高坡》	</c>
+		<d>	《信天遊》	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</48>
+	<49>
+		<questionID>	49	</questionID>
+		<questionDes>	一再躲避（打一宗教用語）	</questionDes>
+		<a>	道藏	</a>
+		<b>	阿門	</b>
+		<c>	無量天尊	</c>
+		<d>	三藏	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</49>
+	<50>
+		<questionID>	50	</questionID>
+		<questionDes>	尋尋覓覓冷冷清清凄凄慘慘戚戚 （打一詞牌名)	</questionDes>
+		<a>	蝶戀花	</a>
+		<b>	字字雙	</b>
+		<c>	念奴嬌	</c>
+		<d>	聲聲慢	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</50>
+	<51>
+		<questionID>	51	</questionID>
+		<questionDes>	走自己的路（打一馮鞏參演電影)	</questionDes>
+		<a>	《誰說我不在乎》	</a>
+		<b>	《其實男人最辛苦》	</b>
+		<c>	《心急吃不了熱豆腐》	</c>
+		<d>	《誰是孩子他爹》	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</51>
+	<52>
+		<questionID>	52	</questionID>
+		<questionDes>	棄女（打一成語）	</questionDes>
+		<a>	重男輕女	</a>
+		<b>	女大難留	</b>
+		<c>	女大當嫁	</c>
+		<d>	一擲千金	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</52>
+	<53>
+		<questionID>	53	</questionID>
+		<questionDes>	公開課（打一中國古代宗教名）	</questionDes>
+		<a>	明教	</a>
+		<b>	景教	</b>
+		<c>	白蓮教	</c>
+		<d>	摩尼教	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</53>
+	<54>
+		<questionID>	54	</questionID>
+		<questionDes>	認祖歸宗（打一民族名）	</questionDes>
+		<a>	閃族	</a>
+		<b>	滿族	</b>
+		<c>	回族	</c>
+		<d>	鄂倫春族	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</54>
+	<55>
+		<questionID>	55	</questionID>
+		<questionDes>	藍天（打一佛教用語）	</questionDes>
+		<a>	無量壽佛	</a>
+		<b>	色即是空	</b>
+		<c>	苦海無邊，回頭是岸	</c>
+		<d>	無垢無凈，無增無減	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</55>
+	<56>
+		<questionID>	56	</questionID>
+		<questionDes>	授課不虛假（打一宗教名）	</questionDes>
+		<a>	拜火教	</a>
+		<b>	摩門教	</b>
+		<c>	全真教	</c>
+		<d>	真理教	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</56>
+	<57>
+		<questionID>	57	</questionID>
+		<questionDes>	周轉（打一成語）	</questionDes>
+		<a>	八風不動	</a>
+		<b>	無動於衷	</b>
+		<c>	穩如泰山	</c>
+		<d>	百年樹人	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</57>
+	<58>
+		<questionID>	58	</questionID>
+		<questionDes>	北風吹（打一省名）	</questionDes>
+		<a>	雲南	</a>
+		<b>	湖南	</b>
+		<c>	廣東	</c>
+		<d>	山西	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</58>
+	<59>
+		<questionID>	59	</questionID>
+		<questionDes>	千里共嬋娟（打一歌名)	</questionDes>
+		<a>	《明月幾時有》	</a>
+		<b>	《城裡的月光》	</b>
+		<c>	《月光愛人》	</c>
+		<d>	《一樣的月光》	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</59>
+	<60>
+		<questionID>	60	</questionID>
+		<questionDes>	童星（打一西遊記人物）	</questionDes>
+		<a>	哪吒	</a>
+		<b>	紅孩兒	</b>
+		<c>	孫悟空	</c>
+		<d>	惠岸行者	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</60>
+	<61>
+		<questionID>	61	</questionID>
+		<questionDes>	無息貸款（打一佛教語）	</questionDes>
+		<a>	舍利	</a>
+		<b>	浮屠	</b>
+		<c>	菩薩	</c>
+		<d>	剎帝利	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</61>
+	<62>
+		<questionID>	62	</questionID>
+		<questionDes>	水庫（打一字）	</questionDes>
+		<a>	泬	</a>
+		<b>	治	</b>
+		<c>	滄	</c>
+		<d>	澠	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</62>
+	<63>
+		<questionID>	63	</questionID>
+		<questionDes>	陳玉成（打一字)	</questionDes>
+		<a>	鈺	</a>
+		<b>	虎	</b>
+		<c>	瑛	</c>
+		<d>	城	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</63>
+	<64>
+		<questionID>	64	</questionID>
+		<questionDes>	兔子請老虎（打一成語）	</questionDes>
+		<a>	不安好心	</a>
+		<b>	寅吃卯糧	</b>
+		<c>	與虎謀皮	</c>
+		<d>	寅支卯糧	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</64>
+	<65>
+		<questionID>	65	</questionID>
+		<questionDes>	漢高祖高興（打一明星名）	</questionDes>
+		<a>	劉孜	</a>
+		<b>	高峰	</b>
+		<c>	劉歡 	</c>
+		<d>	劉翔	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</65>
+	<66>
+		<questionID>	66	</questionID>
+		<questionDes>	大聖大喜（打一明星名）	</questionDes>
+		<a>	孫悅 	</a>
+		<b>	孫楠	</b>
+		<c>	孫興	</c>
+		<d>	孫耀威	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</66>
+	<67>
+		<questionID>	67	</questionID>
+		<questionDes>	粽子臉，梅花腳。前面喊叫，後面舞刀。（打一動物名）	</questionDes>
+		<a>	螳螂	</a>
+		<b>	狗	</b>
+		<c>	貓	</c>
+		<d>	猴子	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</67>
+	<68>
+		<questionID>	68	</questionID>
+		<questionDes>	船板硬，船面高。四把槳，慢慢搖。（打一動物名）	</questionDes>
+		<a>	鯨魚	</a>
+		<b>	海葵	</b>
+		<c>	烏龜	</c>
+		<d>	青蛙	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</68>
+	<69>
+		<questionID>	69	</questionID>
+		<questionDes>	多兄長（打一動物名）	</questionDes>
+		<a>	八哥	</a>
+		<b>	鷯哥	</b>
+		<c>	鸚哥	</c>
+		<d>	信天翁	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</69>
+	<70>
+		<questionID>	70	</questionID>
+		<questionDes>	紅娘子，上高樓。心裡疼，眼淚流。（打一日常用品）	</questionDes>
+		<a>	宮燈	</a>
+		<b>	蠟燭	</b>
+		<c>	鞭炮	</c>
+		<d>	油燈	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</70>
+	<71>
+		<questionID>	71	</questionID>
+		<questionDes>	有硬有軟，有長有寬。白天空閑，夜晚上班。（打一日常用品）	</questionDes>
+		<a>	路燈	</a>
+		<b>	睡衣	</b>
+		<c>	床	</c>
+		<d>	枕頭	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</71>
+	<72>
+		<questionID>	72	</questionID>
+		<questionDes>	好讀書（打《論語》一句）	</questionDes>
+		<a>	學而時習之	</a>
+		<b>	學而不厭	</b>
+		<c>	溫故而知新	</c>
+		<d>	不亦樂乎	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</72>
+	<73>
+		<questionID>	73	</questionID>
+		<questionDes>	人微言輕（打一文學名詞）	</questionDes>
+		<a>	小說	</a>
+		<b>	小小說	</b>
+		<c>	短文	</c>
+		<d>	散文	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</73>
+	<74>
+		<questionID>	74	</questionID>
+		<questionDes>	車譜（打一歌曲名）	</questionDes>
+		<a>	《四季歌》	</a>
+		<b>	《追風少年》	</b>
+		<c>	《High歌》	</c>
+		<d>	《萬物生》	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</74>
+	<75>
+		<questionID>	75	</questionID>
+		<questionDes>	天各一方共話鼠（打一畫家名）	</questionDes>
+		<a>	柳亞子	</a>
+		<b>	潘天壽	</b>
+		<c>	吳道子	</c>
+		<d>	張擇端	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</75>
+	<76>
+		<questionID>	76	</questionID>
+		<questionDes>	筆走龍蛇（打一中藥名）	</questionDes>
+		<a>	枸杞	</a>
+		<b>	黃杞	</b>
+		<c>	川穹	</c>
+		<d>	通草	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</76>
+	<77>
+		<questionID>	77	</questionID>
+		<questionDes>	兩只小口袋，天天隨身帶。要是少一只，就把人笑壞。（打一日常用品）	</questionDes>
+		<a>	手套	</a>
+		<b>	襪子	</b>
+		<c>	鞋子	</c>
+		<d>	褲子	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</77>
+	<78>
+		<questionID>	78	</questionID>
+		<questionDes>	絞刑架下的報告（打一文學名詞） 	</questionDes>
+		<a>	比喻	</a>
+		<b>	懸念	</b>
+		<c>	伏筆	</c>
+		<d>	呼應	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</78>
+	<79>
+		<questionID>	79	</questionID>
+		<questionDes>	羽（打一成語）	</questionDes>
+		<a>	不毛之地	</a>
+		<b>	栩栩如生	</b>
+		<c>	吉光片羽	</c>
+		<d>	出言不遜	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</79>
+	<80>
+		<questionID>	80	</questionID>
+		<questionDes>	樓臺接樓臺，層層疊起來。上面飄白霧，下面水花開。（打一日常用品）	</questionDes>
+		<a>	磨盤 	</a>
+		<b>	豆漿機	</b>
+		<c>	蒸籠 	</c>
+		<d>	開水壺	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</80>
+	<81>
+		<questionID>	81	</questionID>
+		<questionDes>	一只沒腳雞，立著從不啼。吃水不吃米，客來敬個禮。（打一日常用品）	</questionDes>
+		<a>	茶壺	</a>
+		<b>	暖壺	</b>
+		<c>	開水瓶	</c>
+		<d>	榨汁機	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</81>
+	<82>
+		<questionID>	82	</questionID>
+		<questionDes>	守株待兔（打一字） 	</questionDes>
+		<a>	仰	</a>
+		<b>	柳	</b>
+		<c>	鉚	</c>
+		<d>	坳	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</82>
+	<83>
+		<questionID>	83	</questionID>
+		<questionDes>	葉公（打一動物名）	</questionDes>
+		<a>	恐龍	</a>
+		<b>	海豚	</b>
+		<c>	熊貓	</c>
+		<d>	獾	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</83>
+	<84>
+		<questionID>	84	</questionID>
+		<questionDes>	狗脾氣（打一字）	</questionDes>
+		<a>	耿	</a>
+		<b>	狄	</b>
+		<c>	狂	</c>
+		<d>	獲	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</84>
+	<85>
+		<questionID>	85	</questionID>
+		<questionDes>	豬八戒過火焰山（打一菜肴名）	</questionDes>
+		<a>	烤乳豬	</a>
+		<b>	梅菜扣肉	</b>
+		<c>	蜜汁叉燒	</c>
+		<d>	紅燒豬蹄	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</85>
+	<86>
+		<questionID>	86	</questionID>
+		<questionDes>	馬嵬坡下泥土中（打一遊戲名）	</questionDes>
+		<a>	奪寶奇兵	</a>
+		<b>	古墓麗影	</b>
+		<c>	鬼吹燈	</c>
+		<d>	神墓	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</86>
+	<87>
+		<questionID>	87	</questionID>
+		<questionDes>	陳橋兵變，疑點重重（打一西遊記人名） 	</questionDes>
+		<a>	金角大王	</a>
+		<b>	文殊菩薩	</b>
+		<c>	托塔天王	</c>
+		<d>	黃袍怪	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</87>
+	<88>
+		<questionID>	88	</questionID>
+		<questionDes>	莫等閑白了少年頭（打一紅樓夢人名）	</questionDes>
+		<a>	惜春	</a>
+		<b>	李紈	</b>
+		<c>	香菱	</c>
+		<d>	秦鐘	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</88>
+	<89>
+		<questionID>	89	</questionID>
+		<questionDes>	進洞像龍，出洞像鳳。鳳生百子，百子成龍。（打一動物名） 	</questionDes>
+		<a>	蛾 	</a>
+		<b>	蟬 	</b>
+		<c>	蠶	</c>
+		<d>	虱	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</89>
+	<90>
+		<questionID>	90	</questionID>
+		<questionDes>	娘子娘子，身似盒子。麒麟剪刀，八個釵子。（打一動物名）	</questionDes>
+		<a>	蜈蚣	</a>
+		<b>	章魚 	</b>
+		<c>	水母	</c>
+		<d>	蟹	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</90>
+	<91>
+		<questionID>	91	</questionID>
+		<questionDes>	全面整頓（打一地名）	</questionDes>
+		<a>	全州	</a>
+		<b>	大理 	</b>
+		<c>	通州	</c>
+		<d>	周口	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</91>
+	<92>
+		<questionID>	92	</questionID>
+		<questionDes>	叔伯昆仲（打一地名）	</questionDes>
+		<a>	洛陽	</a>
+		<b>	咸陽	</b>
+		<c>	鳳陽	</c>
+		<d>	揭陽	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</92>
+	<93>
+		<questionID>	93	</questionID>
+		<questionDes>	北平解放後（打一城市名）	</questionDes>
+		<a>	北海	</a>
+		<b>	成都	</b>
+		<c>	西安	</c>
+		<d>	南寧	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</93>
+	<94>
+		<questionID>	94	</questionID>
+		<questionDes>	古文觀止（打一字）	</questionDes>
+		<a>	估	</a>
+		<b>	詁	</b>
+		<c>	故	</c>
+		<d>	咕	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</94>
+	<95>
+		<questionID>	95	</questionID>
+		<questionDes>	看瘋子耍戲法（打一醫學名詞）	</questionDes>
+		<a>	視神經病變	</a>
+		<b>	視網膜脫落	</b>
+		<c>	帕金森	</c>
+		<d>	神經阻滯	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</95>
+	<96>
+		<questionID>	96	</questionID>
+		<questionDes>	園中改變舊模樣（打一節日）	</questionDes>
+		<a>	中元節	</a>
+		<b>	元宵節	</b>
+		<c>	元旦節 	</c>
+		<d>	國慶節	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</96>
+	<97>
+		<questionID>	97	</questionID>
+		<questionDes>	青梅煮酒論英雄（打一歌曲名）	</questionDes>
+		<a>	《我和你》	</a>
+		<b>	《只有我和你》	</b>
+		<c>	《天地在我心中》	</c>
+		<d>	《朋友》	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</97>
+	<98>
+		<questionID>	98	</questionID>
+		<questionDes>	平等待客（打一文學名詞）	</questionDes>
+		<a>	主人公	</a>
+		<b>	懸念	</b>
+		<c>	小小說	</c>
+		<d>	傳奇	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</98>
+	<99>
+		<questionID>	99	</questionID>
+		<questionDes>	青梅煮酒論英雄（打一民族名）	</questionDes>
+		<a>	塔吉克族 	</a>
+		<b>	俄羅斯族	</b>
+		<c>	維吾爾族	</c>
+		<d>	土家族	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</99>
+	<100>
+		<questionID>	100	</questionID>
+		<questionDes>	綠色長城（打一中草藥名）	</questionDes>
+		<a>	草蔻 	</a>
+		<b>	陳皮	</b>
+		<c>	防風	</c>
+		<d>	烏頭	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</100>
+	<101>
+		<questionID>	101	</questionID>
+		<questionDes>	逢人只說三句話（打一文學名詞）	</questionDes>
+		<a>	頂針 	</a>
+		<b>	藏頭詩 	</b>
+		<c>	七言絕句	</c>
+		<d>	小說	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</101>
+	<102>
+		<questionID>	102	</questionID>
+		<questionDes>	鮫人揮淚（打一中草藥名）	</questionDes>
+		<a>	珍珠散 	</a>
+		<b>	冬青	</b>
+		<c>	天冬	</c>
+		<d>	枸杞	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</102>
+	<103>
+		<questionID>	103	</questionID>
+		<questionDes>	默許（打一字）	</questionDes>
+		<a>	人	</a>
+		<b>	午	</b>
+		<c>	牛	</c>
+		<d>	干	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</103>
+	<104>
+		<questionID>	104	</questionID>
+		<questionDes>	豎桿（打一字）	</questionDes>
+		<a>	訐 	</a>
+		<b>	親	</b>
+		<c>	汗	</c>
+		<d>	慳	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</104>
+	<105>
+		<questionID>	105	</questionID>
+		<questionDes>	先乘除（打一字）	</questionDes>
+		<a>	詬	</a>
+		<b>	逅	</b>
+		<c>	垢	</c>
+		<d>	增	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</105>
+	<106>
+		<questionID>	106	</questionID>
+		<questionDes>	大重九（打一字）	</questionDes>
+		<a>	麻	</a>
+		<b>	擴	</b>
+		<c>	度	</c>
+		<d>	床	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</106>
+	<107>
+		<questionID>	107	</questionID>
+		<questionDes>	祛除雀斑（打一字）	</questionDes>
+		<a>	鳥 	</a>
+		<b>	烏	</b>
+		<c>	美	</c>
+		<d>	俊	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</107>
+	<108>
+		<questionID>	108	</questionID>
+		<questionDes>	夫人何處去?(打一字)  	</questionDes>
+		<a>	二	</a>
+		<b>	天	</b>
+		<c>	父	</c>
+		<d>	君	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</108>
+	<109>
+		<questionID>	109	</questionID>
+		<questionDes>	劉邦聞之喜，劉備聞之泣。（打一字）	</questionDes>
+		<a>	催 	</a>
+		<b>	翠	</b>
+		<c>	汊	</c>
+		<d>	漢	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</109>
+	<110>
+		<questionID>	110	</questionID>
+		<questionDes>	中國正在騰飛（打一字）	</questionDes>
+		<a>	由 	</a>
+		<b>	甲	</b>
+		<c>	田	</c>
+		<d>	思	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</110>
+	<111>
+		<questionID>	111	</questionID>
+		<questionDes>	柴扉半掩（打一字）	</questionDes>
+		<a>	排	</a>
+		<b>	誹	</b>
+		<c>	楊	</c>
+		<d>	樞	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</111>
+	<112>
+		<questionID>	112	</questionID>
+		<questionDes>	千條線，萬條線，掉到河中就不見（打我國一城市名）	</questionDes>
+		<a>	武漢	</a>
+		<b>	哈爾濱	</b>
+		<c>	九江	</c>
+		<d>	天水	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</112>
+	<113>
+		<questionID>	113	</questionID>
+		<questionDes>	炅（打一句詩詞）	</questionDes>
+		<a>	東風夜放花千樹	</a>
+		<b>	人約黃昏後	</b>
+		<c>	萬紫千紅總是春	</c>
+		<d>	火樹銀花不夜天	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</113>
+	<114>
+		<questionID>	114	</questionID>
+		<questionDes>	大禹（打一四字常言）	</questionDes>
+		<a>	實屬空前	</a>
+		<b>	萬人空巷	</b>
+		<c>	難能可貴	</c>
+		<d>	實屬不易	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</114>
+	<115>
+		<questionID>	115	</questionID>
+		<questionDes>	千里姻緣（打一法律術語）	</questionDes>
+		<a>	非婚生子女	</a>
+		<b>	事實婚姻	</b>
+		<c>	重婚	</c>
+		<d>	繼承權	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</115>
+	<116>
+		<questionID>	116	</questionID>
+		<questionDes>	隴頭富家翁（打一日本名人名字）	</questionDes>
+		<a>	田中芳樹 	</a>
+		<b>	田中裕子	</b>
+		<c>	德川哥喜磨	</c>
+		<d>	川島由紀夫	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</116>
+	<117>
+		<questionID>	117	</questionID>
+		<questionDes>	傷口癒合（打一經濟學名詞）	</questionDes>
+		<a>	股市反彈	</a>
+		<b>	勞動價值論 	</b>
+		<c>	創收	</c>
+		<d>	無息貨幣	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</117>
+	<118>
+		<questionID>	118	</questionID>
+		<questionDes>	莫須有（打一常用語）	</questionDes>
+		<a>	不要胡來	</a>
+		<b>	自說自話	</b>
+		<c>	瘋言瘋語	</c>
+		<d>	樂於助人	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</118>
+	<119>
+		<questionID>	119	</questionID>
+		<questionDes>	仲尼日月也（打成語一句）	</questionDes>
+		<a>	管中窺豹 	</a>
+		<b>	一孔之見	</b>
+		<c>	瞎子摸象	</c>
+		<d>	悲從中來	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</119>
+	<120>
+		<questionID>	120	</questionID>
+		<questionDes>	十五天（打一字）	</questionDes>
+		<a>	明	</a>
+		<b>	畔	</b>
+		<c>	胖	</c>
+		<d>	膀	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</120>
+	<121>
+		<questionID>	121	</questionID>
+		<questionDes>	遊泳比賽（打一個成語）	</questionDes>
+		<a>	嚴懲不貸 	</a>
+		<b>	明察秋毫	</b>
+		<c>	力爭上遊	</c>
+		<d>	據理力爭	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</121>
+	<122>
+		<questionID>	122	</questionID>
+		<questionDes>	十個哥哥（打一字）	</questionDes>
+		<a>	克 	</a>
+		<b>	倀	</b>
+		<c>	協	</c>
+		<d>	勀	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</122>
+	<123>
+		<questionID>	123	</questionID>
+		<questionDes>	撥開雲霧現紅輪（打廣東一地名）	</questionDes>
+		<a>	河源 	</a>
+		<b>	番禺	</b>
+		<c>	惠陽	</c>
+		<d>	揭陽	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</123>
+	<124>
+		<questionID>	124	</questionID>
+		<questionDes>	擋不住的飛將軍（打《滕王閣序》其中一句）	</questionDes>
+		<a>	俊採星馳	</a>
+		<b>	物華天寶	</b>
+		<c>	馮唐易老	</c>
+		<d>	李廣難封	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</124>
+	<125>
+		<questionID>	125	</questionID>
+		<questionDes>	醒後得知一場夢（打一西遊記人名）	</questionDes>
+		<a>	善財	</a>
+		<b>	悟空	</b>
+		<c>	彌勒	</c>
+		<d>	迦葉	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</125>
+	<126>
+		<questionID>	126	</questionID>
+		<questionDes>	父故兄為長（打一紅樓夢人名）	</questionDes>
+		<a>	賈薔	</a>
+		<b>	茗煙 	</b>
+		<c>	賴大	</c>
+		<d>	柳兒	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</126>
+	<127>
+		<questionID>	127	</questionID>
+		<questionDes>	勸君更盡一杯酒 (打一歐洲地名)	</questionDes>
+		<a>	巴黎	</a>
+		<b>	雷克雅未克	</b>
+		<c>	冰島	</c>
+		<d>	巴爾干	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</127>
+	<128>
+		<questionID>	128	</questionID>
+		<questionDes>	李逵，去把宋江叫來（打一成語）	</questionDes>
+		<a>	神通廣大 	</a>
+		<b>	呼風喚雨 	</b>
+		<c>	風雨無阻	</c>
+		<d>	黑風暴雨	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</128>
+	<129>
+		<questionID>	129	</questionID>
+		<questionDes>	明月松間照，清泉石上流( 打一二字詞語) 	</questionDes>
+		<a>	影響	</a>
+		<b>	映像	</b>
+		<c>	反映	</c>
+		<d>	印象	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</129>
+	<130>
+		<questionID>	130	</questionID>
+		<questionDes>	秀才舞刀（打一字）	</questionDes>
+		<a>	利	</a>
+		<b>	劉	</b>
+		<c>	乃	</c>
+		<d>	銹	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</130>
+	<131>
+		<questionID>	131	</questionID>
+		<questionDes>	飛入尋常百姓家 (打一水滸傳人名) 	</questionDes>
+		<a>	徐寧	</a>
+		<b>	皇甫謐	</b>
+		<c>	朱仝	</c>
+		<d>	時遷	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</131>
+	<132>
+		<questionID>	132	</questionID>
+		<questionDes>	昨日之日不可留 (打一國家名) 	</questionDes>
+		<a>	剛果	</a>
+		<b>	巴西	</b>
+		<c>	巴基斯坦	</c>
+		<d>	乍得	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</132>
+	<133>
+		<questionID>	133	</questionID>
+		<questionDes>	兒童不宜 (打一數學用語) 	</questionDes>
+		<a>	無窮大	</a>
+		<b>	化整為零	</b>
+		<c>	無限大	</c>
+		<d>	等量代換	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</133>
+	<134>
+		<questionID>	134	</questionID>
+		<questionDes>	七六 (打一國家名稱) 	</questionDes>
+		<a>	文萊	</a>
+		<b>	希臘	</b>
+		<c>	越南	</c>
+		<d>	東帝汶	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</134>
+	<135>
+		<questionID>	135	</questionID>
+		<questionDes>	天寒音訊稀（打一紅樓夢人名）	</questionDes>
+		<a>	晴雯	</a>
+		<b>	司棋	</b>
+		<c>	雪雁	</c>
+		<d>	林如海	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</135>
+	<136>
+		<questionID>	136	</questionID>
+		<questionDes>	拍個巴掌（打一地名）	</questionDes>
+		<a>	巴山	</a>
+		<b>	五指山	</b>
+		<c>	黃山 	</c>
+		<d>	萬泉河	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</136>
+	<137>
+		<questionID>	137	</questionID>
+		<questionDes>	嫁出一個七仙女（打一成語）	</questionDes>
+		<a>	朝三暮四	</a>
+		<b>	朝秦暮楚 	</b>
+		<c>	滄海桑田	</c>
+		<d>	六神無主	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</137>
+	<138>
+		<questionID>	138	</questionID>
+		<questionDes>	心有餘而力不足（打一字）	</questionDes>
+		<a>	想 	</a>
+		<b>	思	</b>
+		<c>	協	</c>
+		<d>	忍	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</138>
+	<139>
+		<questionID>	139	</questionID>
+		<questionDes>	破曉過河（打一詞匯）	</questionDes>
+		<a>	透明度	</a>
+		<b>	暗箱操作 	</b>
+		<c>	波及無辜	</c>
+		<d>	暗無天日	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</139>
+	<140>
+		<questionID>	140	</questionID>
+		<questionDes>	中華騰飛（打一水滸傳人名）	</questionDes>
+		<a>	吳用 	</a>
+		<b>	高俅	</b>
+		<c>	李應	</c>
+		<d>	公孫勝	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</140>
+	<141>
+		<questionID>	141	</questionID>
+		<questionDes>	兩個幼童去砍柴,沒有力氣砍不來,回家又怕人笑話,躲在山中不出來。（打一字）	</questionDes>
+		<a>	繡 	</a>
+		<b>	幽	</b>
+		<c>	佑 	</c>
+		<d>	絲	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</141>
+	<142>
+		<questionID>	142	</questionID>
+		<questionDes>	一心填空白（打一字）	</questionDes>
+		<a>	息 	</a>
+		<b>	怕	</b>
+		<c>	念	</c>
+		<d>	愁	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</142>
+	<143>
+		<questionID>	143	</questionID>
+		<questionDes>	十字路口放兔子（打一省名）	</questionDes>
+		<a>	湖南	</a>
+		<b>	廣東	</b>
+		<c>	四川	</c>
+		<d>	雲南	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</143>
+	<144>
+		<questionID>	144	</questionID>
+		<questionDes>	螢火蟲（打一城市名）	</questionDes>
+		<a>	包頭	</a>
+		<b>	成都 	</b>
+		<c>	蘭州	</c>
+		<d>	昆明	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</144>
+	<145>
+		<questionID>	145	</questionID>
+		<questionDes>	一物生來真奇怪，它是世上一盤菜，娘死它才生，它死娘還在。（打一食物）	</questionDes>
+		<a>	木耳	</a>
+		<b>	青椒	</b>
+		<c>	玉米	</c>
+		<d>	蘑菇	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</145>
+	<146>
+		<questionID>	146	</questionID>
+		<questionDes>	盼過冬（打一國家名）	</questionDes>
+		<a>	越南	</a>
+		<b>	馬來西亞	</b>
+		<c>	希臘	</c>
+		<d>	秘魯	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</146>
+	<147>
+		<questionID>	147	</questionID>
+		<questionDes>	兄弟四五人,各進一道門,要是進錯了,定會笑死人（打一日常用品）	</questionDes>
+		<a>	手套	</a>
+		<b>	襪子	</b>
+		<c>	鞋子	</c>
+		<d>	紐扣	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</147>
+	<148>
+		<questionID>	148	</questionID>
+		<questionDes>	弟兄幾十個,分成幾面坐,見到有人來,從你頭上過（打一文體用品）	</questionDes>
+		<a>	象棋 	</a>
+		<b>	保齡球	</b>
+		<c>	奧賽羅	</c>
+		<d>	跳棋 	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</148>
+	<149>
+		<questionID>	149	</questionID>
+		<questionDes>	黃梅時節家家雨（打一地名）	</questionDes>
+		<a>	六盤水	</a>
+		<b>	天水	</b>
+		<c>	沈陽	</c>
+		<d>	貴陽	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</149>
+	<150>
+		<questionID>	150	</questionID>
+		<questionDes>	一口咬掉牛尾巴（打一字）	</questionDes>
+		<a>	午	</a>
+		<b>	生	</b>
+		<c>	豐 	</c>
+		<d>	年	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</150>
+	<151>
+		<questionID>	151	</questionID>
+		<questionDes>	兄弟七八個,圍著柱子坐,大家一分手,衣服全扯破（打一食物）	</questionDes>
+		<a>	山竹	</a>
+		<b>	大蒜	</b>
+		<c>	青椒	</c>
+		<d>	橘子	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</151>
+	<152>
+		<questionID>	152	</questionID>
+		<questionDes>	南陽諸葛亮，穩坐中軍帳，擺起八卦陣，單捉飛來將。（打一昆蟲）	</questionDes>
+		<a>	蟋蟀	</a>
+		<b>	螞蚱 	</b>
+		<c>	蟬	</c>
+		<d>	蜘蛛	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</152>
+	<153>
+		<questionID>	153	</questionID>
+		<questionDes>	四四方方一座城，城裡有人上西天，都想往裡去，哭死不開門（打一昆蟲）	</questionDes>
+		<a>	蚯蚓	</a>
+		<b>	蚊子	</b>
+		<c>	燕尾蝶	</c>
+		<d>	金龜子	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</153>
+	<154>
+		<questionID>	154	</questionID>
+		<questionDes>	彩排（打一國家名）	</questionDes>
+		<a>	阿根廷	</a>
+		<b>	以色列	</b>
+		<c>	埃及 	</c>
+		<d>	挪威	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</154>
+	<155>
+		<questionID>	155	</questionID>
+		<questionDes>	破曉碰頭（打一地名）	</questionDes>
+		<a>	巴黎	</a>
+		<b>	明石	</b>
+		<c>	約旦	</c>
+		<d>	西雅圖	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</155>
+	<156>
+		<questionID>	156	</questionID>
+		<questionDes>	絕不批發（打一國家名）	</questionDes>
+		<a>	丹麥	</a>
+		<b>	澳大利亞	</b>
+		<c>	瑞典	</c>
+		<d>	西班牙	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</156>
+	<157>
+		<questionID>	157	</questionID>
+		<questionDes>	八戒喊加油（打一食品）	</questionDes>
+		<a>	蛋糕	</a>
+		<b>	巧克力	</b>
+		<c>	麻花	</c>
+		<d>	奶昔	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</157>
+	<158>
+		<questionID>	158	</questionID>
+		<questionDes>	一點一橫長，一撇飄南洋，南洋有個人，只有一寸長。（打一字）	</questionDes>
+		<a>	床	</a>
+		<b>	府	</b>
+		<c>	庂 	</c>
+		<d>	守	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</158>
+	<159>
+		<questionID>	159	</questionID>
+		<questionDes>	故鄉（打一味中草藥）	</questionDes>
+		<a>	天麻	</a>
+		<b>	芍藥 	</b>
+		<c>	熟地	</c>
+		<d>	相思子	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</159>
+	<160>
+		<questionID>	160	</questionID>
+		<questionDes>	二人不分家，自古人人夸；從來講信義，博愛傳天下（猜一字）	</questionDes>
+		<a>	從 	</a>
+		<b>	叢	</b>
+		<c>	坐 	</c>
+		<d>	仁	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</160>
+	<161>
+		<questionID>	161	</questionID>
+		<questionDes>	天庭飽滿，地閣方圓。（猜一禮貌用語）	</questionDes>
+		<a>	大家好	</a>
+		<b>	對不起	</b>
+		<c>	首長好	</c>
+		<d>	謝謝儂	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</161>
+	<162>
+		<questionID>	162	</questionID>
+		<questionDes>	故友兩離別。（猜陰歷一名詞）	</questionDes>
+		<a>	正月	</a>
+		<b>	臘月	</b>
+		<c>	冬月	</c>
+		<d>	大寒	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</162>
+	<163>
+		<questionID>	163	</questionID>
+		<questionDes>	鳳頭虎尾（打一字）	</questionDes>
+		<a>	幾	</a>
+		<b>	夙	</b>
+		<c>	虔	</c>
+		<d>	唬	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</163>
+	<164>
+		<questionID>	164	</questionID>
+		<questionDes>	 有馬行千里，有水能養魚，有人非你我，有土能耕作。（打一字）	</questionDes>
+		<a>	子	</a>
+		<b>	平	</b>
+		<c>	也	</c>
+		<d>	木	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</164>
+	<165>
+		<questionID>	165	</questionID>
+		<questionDes>	七層褥子八層被，一個黑兒裡頭睡，有個紅兒來叫門，蹬了褥子踹了被。（打一娛樂用品）	</questionDes>
+		<a>	煙花 	</a>
+		<b>	鞭炮	</b>
+		<c>	風箏	</c>
+		<d>	陀螺	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</165>
+	<166>
+		<questionID>	166	</questionID>
+		<questionDes>	木蘭之子（打一食物）	</questionDes>
+		<a>	茄子	</a>
+		<b>	花生	</b>
+		<c>	花菜	</c>
+		<d>	無花果	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</166>
+	<167>
+		<questionID>	167	</questionID>
+		<questionDes>	脫了衣服見頭髮，撥開頭髮就見牙（打一農作物）	</questionDes>
+		<a>	玉米	</a>
+		<b>	馬鈴薯	</b>
+		<c>	高粱	</c>
+		<d>	小麥	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</167>
+	<168>
+		<questionID>	168	</questionID>
+		<questionDes>	一個娃娃真稀奇，身穿三百多件衣，每天脫去衣一件，脫到年底剩張皮。（打一日用品）	</questionDes>
+		<a>	表 	</a>
+		<b>	鐘	</b>
+		<c>	書	</c>
+		<d>	日歷	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</168>
+	<169>
+		<questionID>	169	</questionID>
+		<questionDes>	導（打一成語）	</questionDes>
+		<a>	固執己見 	</a>
+		<b>	見賢思齊	</b>
+		<c>	固步自封 	</c>
+		<d>	抱殘守缺	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</169>
+	<170>
+		<questionID>	170	</questionID>
+		<questionDes>	桃花譚水深千尺（打一成語）	</questionDes>
+		<a>	美輪美奐 	</a>
+		<b>	精妙絕倫	</b>
+		<c>	杞人憂天 	</c>
+		<d>	無與倫比	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</170>
+	<171>
+		<questionID>	171	</questionID>
+		<questionDes>	詫（打一成語）	</questionDes>
+		<a>	見微知著 	</a>
+		<b>	百家爭鳴	</b>
+		<c>	一家之言 	</c>
+		<d>	非同凡響	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</171>
+	<172>
+		<questionID>	172	</questionID>
+		<questionDes>	增加十兩（打一城市）	</questionDes>
+		<a>	天津	</a>
+		<b>	北京	</b>
+		<c>	南京	</c>
+		<d>	廣州	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</172>
+	<173>
+		<questionID>	173	</questionID>
+		<questionDes>	八十萬禁軍誰掌管？（打一成語）	</questionDes>
+		<a>	馬首是瞻 	</a>
+		<b>	首當其沖 	</b>
+		<c>	一夫當關	</c>
+		<d>	天人合一	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</173>
+	<174>
+		<questionID>	174	</questionID>
+		<questionDes>	寶玉求婚（打一美國歷史人物）	</questionDes>
+		<a>	華盛頓	</a>
+		<b>	羅斯福 	</b>
+		<c>	亞當斯密	</c>
+		<d>	林肯	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</174>
+	<175>
+		<questionID>	175	</questionID>
+		<questionDes>	唐宮月色渾似水（打一中國古代文人）	</questionDes>
+		<a>	李白 	</a>
+		<b>	屈原	</b>
+		<c>	李清照	</c>
+		<d>	溫庭筠	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</175>
+	<176>
+		<questionID>	176	</questionID>
+		<questionDes>	斬草除根（打一字）	</questionDes>
+		<a>	旦	</a>
+		<b>	日	</b>
+		<c>	曰	</c>
+		<d>	申	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</176>
+	<177>
+		<questionID>	177	</questionID>
+		<questionDes>	時到日落人方歸 （打一字）	</questionDes>
+		<a>	休	</a>
+		<b>	僅	</b>
+		<c>	付	</c>
+		<d>	仕	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</177>
+	<178>
+		<questionID>	178	</questionID>
+		<questionDes>	十六兩多一點 （打一字） 	</questionDes>
+		<a>	酥	</a>
+		<b>	訴	</b>
+		<c>	斥	</c>
+		<d>	圻	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</178>
+	<179>
+		<questionID>	179	</questionID>
+		<questionDes>	舉頭望明月（打一外國地名）	</questionDes>
+		<a>	新加坡	</a>
+		<b>	柬埔寨	</b>
+		<c>	吳哥窟	</c>
+		<d>	仰光	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</179>
+	<180>
+		<questionID>	180	</questionID>
+		<questionDes>	好米（打一海峽名）	</questionDes>
+		<a>	白令海峽 	</a>
+		<b>	英吉利海峽	</b>
+		<c>	直布羅陀海峽	</c>
+		<d>	臺灣海峽	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</180>
+	<181>
+		<questionID>	181	</questionID>
+		<questionDes>	說話拐彎又抹角（打一音樂名詞）	</questionDes>
+		<a>	片尾曲 	</a>
+		<b>	敘事曲	</b>
+		<c>	詠嘆調 	</c>
+		<d>	協奏曲	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</181>
+	<182>
+		<questionID>	182	</questionID>
+		<questionDes>	高速抽殺（打一曲藝形式）	</questionDes>
+		<a>	花鼓戲	</a>
+		<b>	快板	</b>
+		<c>	梆子戲	</c>
+		<d>	相聲	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</182>
+	<183>
+		<questionID>	183	</questionID>
+		<questionDes>	歸心似箭（打一稱謂）	</questionDes>
+		<a>	受益人	</a>
+		<b>	月光族	</b>
+		<c>	思想家 	</c>
+		<d>	樂活族	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</183>
+	<184>
+		<questionID>	184	</questionID>
+		<questionDes>	坐也坐，臥也坐，立也坐，走也坐。（打一動物）	</questionDes>
+		<a>	青蛙 	</a>
+		<b>	蝌蚪	</b>
+		<c>	魚	</c>
+		<d>	狗	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</184>
+	<185>
+		<questionID>	185	</questionID>
+		<questionDes>	秦王一刀殺三人（打一字）	</questionDes>
+		<a>	釗 	</a>
+		<b>	副	</b>
+		<c>	剔	</c>
+		<d>	利	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</185>
+	<186>
+		<questionID>	186	</questionID>
+		<questionDes>	夜半三更喲，盼天明（打一地名）	</questionDes>
+		<a>	倫敦	</a>
+		<b>	巴黎	</b>
+		<c>	日照	</c>
+		<d>	日內瓦	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</186>
+	<187>
+		<questionID>	187	</questionID>
+		<questionDes>	吃人嘴短（打一字）	</questionDes>
+		<a>	疙	</a>
+		<b>	仡	</b>
+		<c>	角 	</c>
+		<d>	嗤	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</187>
+	<188>
+		<questionID>	188	</questionID>
+		<questionDes>	卷我屋上三重茅（打一成語）	</questionDes>
+		<a>	風吹草動	</a>
+		<b>	草木皆兵	</b>
+		<c>	風聲鶴唳	</c>
+		<d>	八風不動	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</188>
+	<189>
+		<questionID>	189	</questionID>
+		<questionDes>	七子八婿笏滿床（打紅樓夢一人名）	</questionDes>
+		<a>	金釧 	</a>
+		<b>	鴛鴦	</b>
+		<c>	多官兒 	</c>
+		<d>	平兒	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</189>
+	<190>
+		<questionID>	190	</questionID>
+		<questionDes>	誰家童子巧稱象？（打一成語）	</questionDes>
+		<a>	駟馬難追	</a>
+		<b>	首當其沖	</b>
+		<c>	東床快婿 	</c>
+		<d>	聞風喪膽	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</190>
+	<191>
+		<questionID>	191	</questionID>
+		<questionDes>	身在曹營心在漢（打一成語）	</questionDes>
+		<a>	關懷備至	</a>
+		<b>	東張西望	</b>
+		<c>	瞻前顧後	</c>
+		<d>	朝三暮四	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</191>
+	<192>
+		<questionID>	192	</questionID>
+		<questionDes>	沛公取咸陽（打一成語）	</questionDes>
+		<a>	天無二日	</a>
+		<b>	先入為主	</b>
+		<c>	有機可乘	</c>
+		<d>	乘人之危	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</192>
+	<193>
+		<questionID>	193	</questionID>
+		<questionDes>	車裂之刑（打一文學常用語）	</questionDes>
+		<a>	修辭 	</a>
+		<b>	雙關	</b>
+		<c>	題材 	</c>
+		<d>	體裁	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</193>
+	<194>
+		<questionID>	194	</questionID>
+		<questionDes>	他鄉遇故知（打一詞牌名）	</questionDes>
+		<a>	相見歡 	</a>
+		<b>	卜算子	</b>
+		<c>	何滿子 	</c>
+		<d>	念奴嬌	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</194>
+	<195>
+		<questionID>	195	</questionID>
+		<questionDes>	守口如瓶（打一文學名詞）	</questionDes>
+		<a>	世家 	</a>
+		<b>	別傳	</b>
+		<c>	散文	</c>
+		<d>	隱喻	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</195>
+	<196>
+		<questionID>	196	</questionID>
+		<questionDes>	 咸陽古都（打一古代猛將名）	</questionDes>
+		<a>	秦瓊 	</a>
+		<b>	關羽	</b>
+		<c>	嶽飛	</c>
+		<d>	秦良玉	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</196>
+	<197>
+		<questionID>	197	</questionID>
+		<questionDes>	西遊記（打一古代人名)	</questionDes>
+		<a>	郭守敬	</a>
+		<b>	沈括 	</b>
+		<c>	僧一行	</c>
+		<d>	孫思邈	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</197>
+	<198>
+		<questionID>	198	</questionID>
+		<questionDes>	鷹擊長空（打一地名）	</questionDes>
+		<a>	藍田 	</a>
+		<b>	高雄	</b>
+		<c>	拉薩 	</c>
+		<d>	長沙	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</198>
+	<199>
+		<questionID>	199	</questionID>
+		<questionDes>	空中碼頭（打一地名）	</questionDes>
+		<a>	天津	</a>
+		<b>	朝天門	</b>
+		<c>	秦皇島	</c>
+		<d>	連雲港	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</199>
+	<200>
+		<questionID>	200	</questionID>
+		<questionDes>	景陽崗（打一風景名勝）	</questionDes>
+		<a>	丹霞山	</a>
+		<b>	峨眉山	</b>
+		<c>	虎丘 	</c>
+		<d>	虎跳峽	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</200>
+	<201>
+		<questionID>	201	</questionID>
+		<questionDes>	智叟勸愚公（打一風景名勝）	</questionDes>
+		<a>	靈隱寺 	</a>
+		<b>	莫干山 	</b>
+		<c>	一線天 	</c>
+		<d>	丈人峰	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</201>
+	<202>
+		<questionID>	202	</questionID>
+		<questionDes>	行萬里路，讀萬卷書（打一學科名）	</questionDes>
+		<a>	運動學	</a>
+		<b>	力學	</b>
+		<c>	光學 	</c>
+		<d>	化學	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</202>
+	<203>
+		<questionID>	203	</questionID>
+		<questionDes>	攻書莫畏難（打一學科名）	</questionDes>
+		<a>	暴力美學 	</a>
+		<b>	物理學	</b>
+		<c>	應用力學	</c>
+		<d>	紅學	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</203>
+	<204>
+		<questionID>	204	</questionID>
+		<questionDes>	鑿壁偷光（打一學科名）	</questionDes>
+		<a>	透視學	</a>
+		<b>	臨床醫學	</b>
+		<c>	運動光學	</c>
+		<d>	教育心理學	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</204>
+	<205>
+		<questionID>	205	</questionID>
+		<questionDes>	兩別相思又十載（打一風味食物名）	</questionDes>
+		<a>	腐竹	</a>
+		<b>	醪糟	</b>
+		<c>	豆豉  	</c>
+		<d>	湯圓	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</205>
+	<206>
+		<questionID>	206	</questionID>
+		<questionDes>	金烏西墜，玉兔東升。（打一影院用語）	</questionDes>
+		<a>	輪流上映 	</a>
+		<b>	票房冠軍	</b>
+		<c>	熱映	</c>
+		<d>	賀歲大片	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</206>
+	<207>
+		<questionID>	207	</questionID>
+		<questionDes>	同行十二年，不知木蘭是女郎。（打一報刊雜誌用語）	</questionDes>
+		<a>	特刊	</a>
+		<b>	增刊	</b>
+		<c>	副刊	</c>
+		<d>	花邊新聞	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</207>
+	<208>
+		<questionID>	208	</questionID>
+		<questionDes>	花落子規啼（打一影視節目用語）	</questionDes>
+		<a>	自編自導	</a>
+		<b>	鳴謝	</b>
+		<c>	合作拍攝	</c>
+		<d>	冠名播出	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</208>
+	<209>
+		<questionID>	209	</questionID>
+		<questionDes>	 軒轅子孫（打一畫家名）	</questionDes>
+		<a>	黃胄	</a>
+		<b>	葉淺予 	</b>
+		<c>	黃苗子	</c>
+		<d>	高劍父	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</209>
+	<210>
+		<questionID>	210	</questionID>
+		<questionDes>	有口皆碑（打一畫家名）	</questionDes>
+		<a>	徐悲鴻 	</a>
+		<b>	齊白石	</b>
+		<c>	張大千	</c>
+		<d>	林風眠	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</210>
+	<211>
+		<questionID>	211	</questionID>
+		<questionDes>	大器晚成（打中國黨史人物）	</questionDes>
+		<a>	陳獨秀	</a>
+		<b>	王明 	</b>
+		<c>	徐特立	</c>
+		<d>	葉挺	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</211>
+	<212>
+		<questionID>	212	</questionID>
+		<questionDes>	中國母親（打一人體穴位）	</questionDes>
+		<a>	玉堂 	</a>
+		<b>	人中	</b>
+		<c>	膻中	</c>
+		<d>	腰眼	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</212>
+	<213>
+		<questionID>	213	</questionID>
+		<questionDes>	丹鳳眼臥蠶眉（打一人體穴位）	</questionDes>
+		<a>	睛明 	</a>
+		<b>	關儀	</b>
+		<c>	商丘	</c>
+		<d>	涌泉	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</213>
+	<214>
+		<questionID>	214	</questionID>
+		<questionDes>	天下英雄盡入彀中（打一現代詞匯）	</questionDes>
+		<a>	因特網	</a>
+		<b>	豬流感	</b>
+		<c>	山寨機	</c>
+		<d>	標題黨	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</214>
+	<215>
+		<questionID>	215	</questionID>
+		<questionDes>	雌雄同體（打一電腦術語）	</questionDes>
+		<a>	分辨率	</a>
+		<b>	屏保	</b>
+		<c>	兼容性	</c>
+		<d>	另存為	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</215>
+	<216>
+		<questionID>	216	</questionID>
+		<questionDes>	萬壽無疆（打一植物學術語）	</questionDes>
+		<a>	喜陰性 	</a>
+		<b>	生長期 	</b>
+		<c>	自花授粉 	</c>
+		<d>	光合作用	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</216>
+	<217>
+		<questionID>	217	</questionID>
+		<questionDes>	漢初三杰（打一乒乓運動員名）	</questionDes>
+		<a>	孔令輝	</a>
+		<b>	馬寧	</b>
+		<c>	福原愛 	</c>
+		<d>	劉國梁	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</217>
+	<218>
+		<questionID>	218	</questionID>
+		<questionDes>	大敗姜伯約（打一電器品牌名）	</questionDes>
+		<a>	明基	</a>
+		<b>	華碩	</b>
+		<c>	創維	</c>
+		<d>	東芝	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</218>
+	<219>
+		<questionID>	219	</questionID>
+		<questionDes>	深受啟發（打一汽車品牌）	</questionDes>
+		<a>	奧迪	</a>
+		<b>	本田	</b>
+		<c>	雅閣	</c>
+		<d>	奔馳	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</219>
+	<220>
+		<questionID>	220	</questionID>
+		<questionDes>	毛澤東詩詞（打一商品品牌名）	</questionDes>
+		<a>	紅雙喜	</a>
+		<b>	雙魚	</b>
+		<c>	東風	</c>
+		<d>	飄影	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</220>
+	<221>
+		<questionID>	221	</questionID>
+		<questionDes>	曉鏡但愁雲鬢改（打一現代常用語）	</questionDes>
+		<a>	與時俱進	</a>
+		<b>	知識老化	</b>
+		<c>	環保主義	</c>
+		<d>	全球變暖	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</221>
+	<222>
+		<questionID>	222	</questionID>
+		<questionDes>	天下第二峰（打一國名）	</questionDes>
+		<a>	岡比亞	</a>
+		<b>	贊比亞	</b>
+		<c>	土耳其	</c>
+		<d>	加拿大	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</222>
+	<223>
+		<questionID>	223	</questionID>
+		<questionDes>	梵蒂岡（打一國名）	</questionDes>
+		<a>	意大利 	</a>
+		<b>	中國	</b>
+		<c>	新加坡	</c>
+		<d>	朝鮮	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</223>
+	<224>
+		<questionID>	224	</questionID>
+		<questionDes>	 明皇擊鼓唱霓裳（打一娛樂用語）	</questionDes>
+		<a>	上榜歌曲	</a>
+		<b>	排行榜	</b>
+		<c>	主打歌曲 	</c>
+		<d>	音樂TV	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</224>
+	<225>
+		<questionID>	225	</questionID>
+		<questionDes>	一壺濁酒喜相逢（打一音樂名詞）	</questionDes>
+		<a>	C大調	</a>
+		<b>	樂曲	</b>
+		<c>	二重唱	</c>
+		<d>	三部輪唱	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</225>
+	<226>
+		<questionID>	226	</questionID>
+		<questionDes>	敗走麥城（打一字）	</questionDes>
+		<a>	翠	</a>
+		<b>	逞 	</b>
+		<c>	詡	</c>
+		<d>	橙	</d>
+		<e>	</e>
+		<answer>	a	</answer>
+		<type>	9	</type>
+		<info>	</info>
+	</226>
+	<227>
+		<questionID>	227	</questionID>
+		<questionDes>	紅豆家的小孩是誰？	</questionDes>
+		<a>	東郭	</a>
+		<b>	西果	</b>
+		<c>	南國	</c>
+		<d>	北國	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	10	</type>
+		<info>	</info>
+	</227>
+	<228>
+		<questionID>	228	</questionID>
+		<questionDes>	壯壯和旺旺到先生家背書，先生會讓哪個先背？	</questionDes>
+		<a>	壯壯	</a>
+		<b>	旺旺	</b>
+		<c>	不清楚哦	</c>
+		<d>	</d>
+		<e>	</e>
+		<answer>	b	</answer>
+		<type>	10	</type>
+		<info>	</info>
+	</228>
+	<229>
+		<questionID>	229	</questionID>
+		<questionDes>	說出你最崇拜的人	</questionDes>
+		<a>	盤古	</a>
+		<b>	我自己	</b>
+		<c>	專治不服的人	</c>
+		<d>	識時務者為俊傑，當然最崇拜鏡靈大大了	</d>
+		<e>	</e>
+		<answer>	d	</answer>
+		<type>	10	</type>
+		<info>	</info>
+	</229>
+	<230>
+		<questionID>	230	</questionID>
+		<questionDes>	如果你要給一個人跪下,你會跪給誰?	</questionDes>
+		<a>	父母	</a>
+		<b>	天地	</b>
+		<c>	當然是鏡靈大大了	</c>
+		<d>	老師	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	10	</type>
+		<info>	</info>
+	</230>
+	<231>
+		<questionID>	231	</questionID>
+		<questionDes>	你可曾看出那廢棄的盔甲的主人是誰？	</questionDes>
+		<a>	據比	</a>
+		<b>	飛廉	</b>
+		<c>	屏翳	</c>
+		<d>	後卿	</d>
+		<e>	</e>
+		<answer>	c	</answer>
+		<type>	11	</type>
+		<info>	</info>
+	</231>
+</root>

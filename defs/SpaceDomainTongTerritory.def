@@ -1,0 +1,25 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onCreateTongTerritory>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	UINT8			</Arg>
+			<Arg>	INT64			</Arg>
+		</onCreateTongTerritory>
+
+		<onCreateTongTerritoryError>
+			<Arg>	DATABASE_ID		</Arg>
+		</onCreateTongTerritoryError>
+	</BaseMethods>
+</root>

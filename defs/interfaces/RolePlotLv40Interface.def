@@ -1,0 +1,21 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<ClientMethods>
+		<plotLv40_showNpcHP/>
+
+		<plotLv40_hideNpcHP/>
+
+		<plotLv40_stoveHPChange>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</plotLv40_stoveHPChange>
+
+		<plotLv40_protectCoverHPChange>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</plotLv40_protectCoverHPChange>
+	</ClientMethods>
+</root>

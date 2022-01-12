@@ -1,0 +1,50 @@
+<root>
+	<Properties>
+		<onFengQi>
+			<Type>		BOOL			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</onFengQi>
+	</Properties>
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<fengQiAddPlayerIntegral>
+			<Arg>	INT32	</Arg>
+		</fengQiAddPlayerIntegral>
+		<fengQiOnEnter>
+			<Arg>	BOOL	</Arg>
+		</fengQiOnEnter>
+		<fengQiOnExit/>
+		<fengQiReqExit>
+			<Exposed/>
+		</fengQiReqExit>
+		<fengQiAction/>
+		<fengQiCloseActivity/>
+	</CellMethods>
+	<ClientMethods>
+		<fengQiOnEnter/>
+		<fengQiOnExit/>
+		<fengQiUpReport>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT32		</Arg>
+		</fengQiUpReport>
+		<fengQiUpIntegral>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UINT32		</Arg>
+		</fengQiUpIntegral>
+		<fengQiUpBox>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UINT32		</Arg>
+		</fengQiUpBox>
+		<fengQiExitMember>
+			<Arg>	OBJECT_ID	</Arg>
+		</fengQiExitMember>
+		<fengQiCountDown/>
+		<fengQiCloseActivity/>
+		<fengQiReviveClew>
+			<Arg>	INT32		</Arg>
+		</fengQiReviveClew>
+	</ClientMethods>
+</root>

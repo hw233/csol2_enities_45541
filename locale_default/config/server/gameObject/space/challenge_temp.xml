@@ -1,0 +1,33 @@
+<root>
+	<EntityType>	SpaceMultiLine	</EntityType>
+	<DomainType>	SpaceDomainMultiLine</DomainType>
+	<script>	SpaceMultiLine	</script>
+	<className>	 challenge_temp</className>		<!--CSOL-12289 临时使用 -->
+	<dirMapping>	universes/fu_ben_zu_dui_jing_ji_chang 	</dirMapping>
+	<CanPk>	1	</CanPk>
+	<TimeOn>	0	</TimeOn>
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/challenge_temp.xml	</spawnFile>
+	<TimeOn>	0	</TimeOn>
+	<canFly>	1	</canFly>
+	<CanQieCuo>	1	</CanQieCuo>		<!-- 允许切磋 -->
+	<canArrest>	</canArrest>
+	<maxLine>	1	</maxLine>
+	<initLine>	1	</initLine>
+	<newLineByPlayerAmount>	50	</newLineByPlayerAmount>
+	<maxPlayerAmount>	263	</maxPlayerAmount>
+	<Space>
+		<Transport>	</Transport>
+		<Door>	</Door>
+		<Tomb>
+			<fengming01>
+				<SpaceName>	challenge_temp</SpaceName>
+				<Position>	910.364 208.160 213.759	</Position>
+				<Direction>	0.0 0.0 -180.0	</Direction>
+			</fengming01>
+		</Tomb>
+		<spaceBBoxMin> -999, -999, -999 </spaceBBoxMin>
+		<spaceBBoxMax> 999, 999, 999 </spaceBBoxMax>
+		<deathDepth>	-999	</deathDepth>
+	</Space>
+</root>

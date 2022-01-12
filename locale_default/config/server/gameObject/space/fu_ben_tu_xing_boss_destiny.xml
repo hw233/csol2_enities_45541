@@ -1,0 +1,26 @@
+<root>
+		<spaceName>	Õ¡–«BOSS	</spaceName>
+		<EntityType>	SpaceCopyDestinyTrans	</EntityType>
+		<SpaceType>	SPACE_TYPE_DESTINY_TRANS	</SpaceType>
+		<DomainType>	SpaceDomainDestinyTrans	</DomainType>
+		<script>	SpaceCopyDestinyTrans	</script>
+		<className>	fu_ben_tu_xing_boss_destiny	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_tu_xing_boss_001	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<enterPos>
+				<pos>	49.841,0.212,85.972	</pos>
+				<direction>	0,0,-3.14	</direction>
+			</enterPos>
+			<bossID>
+				<className> 20724081 	</className>
+			</bossID>
+			<spawn>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_tu_xing_boss_002.xml	</spawnFile>
+				</item>
+			</spawn>
+		</Space>
+</root>

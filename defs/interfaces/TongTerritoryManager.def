@@ -1,0 +1,21 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onRequestCreateTongTerritory>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+		</onRequestCreateTongTerritory>
+
+		<onRegisterTerritory>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</onRegisterTerritory>
+
+		<onTongEntityRequestTerritory>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+		</onTongEntityRequestTerritory>
+	</BaseMethods>
+</root>

@@ -1,0 +1,110 @@
+<root>
+	<EntityType>SpaceCopyShuijing</EntityType>
+	<DomainType>SpaceDomainShuijing</DomainType>
+	<script>SpaceCopyShuijing</script>
+	<SpaceType>	SPACE_TYPE_SHUIJING	</SpaceType>
+	<className>shuijing</className>
+	<dirMapping>	universes/shui_jing_jing_ling	</dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	51000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/shui_jing_jing_ling.xml	</spawnFile>
+	<waitingCycle>	10	</waitingCycle>
+	<maxPlayer>	5	</maxPlayer>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<Space>
+		<Transport>
+			<item>
+				<Name> door1 </Name>
+				<Pos> 0 0 0 </Pos>
+				<radius> 0 0 0 </radius>
+				<Sign>1</Sign>
+			</item>			
+		</Transport>
+		<playerEnterPoint>
+			<item>
+				<checkPoint>	1	</checkPoint>
+				<pos>	237.927 43.348 123.322	</pos>
+				<direction>	0.000000 0.000000 1.497165		</direction>
+			</item>
+			<item>
+				<checkPoint>	2	</checkPoint>
+				<pos>	-19.396 19.277 13.045	</pos>
+				<direction>	0.000000 0.000000 1.497165		</direction>
+			</item>
+			<item>
+				<checkPoint>	3	</checkPoint>
+				<pos>	375.769 34.924 -35.570	</pos>
+				<direction>	0.000000 0.000000 1.497165		</direction>
+			</item>
+		</playerEnterPoint>
+		<randomGroup>	20756009;20724068,20711044;20756011;20711043,20741083	</randomGroup>
+		<thirdGroupShuiingCount>	2;4;6	</thirdGroupShuiingCount>
+		<FlyTeleportInfo>
+			<patrolPathNode>		</patrolPathNode>
+			<patrolList>		</patrolList>
+			<spaceName>		</spaceName>
+			<position>	398.864  37.214  -22.465	</position>
+			<direction>	0.000000 0.000000 1.497165	</direction>
+		</FlyTeleportInfo>
+		<FlyTeleportTrapInfo>
+			<item>
+				<checkPoint>	1	</checkPoint>
+				<enterTrap>
+					<lifetime>	1800	</lifetime>
+					<radius>	5	</radius>
+					<enterSpell>	112748002	</enterSpell>
+					<leaveSpell>	0	</leaveSpell>
+					<modelNumber>	gw7504	</modelNumber>
+					<isDisposable>	0	</isDisposable>
+					<position>	216.639 44.210 103.012	</position>
+				</enterTrap>
+				<leaveTrap>
+					<lifetime>	1800	</lifetime>
+					<radius>	5	</radius>
+					<enterSpell>	112750001	</enterSpell>
+					<leaveSpell>	0	</leaveSpell>
+					<modelNumber>	gw7217	</modelNumber>
+					<isDisposable>	0	</isDisposable>
+					<position>	1.595 17.406 -10.42	</position>
+				</leaveTrap>
+			</item>
+			<item>
+				<checkPoint>	2	</checkPoint>
+				<enterTrap>
+					<lifetime>	1800	</lifetime>
+					<radius>	5	</radius>
+					<enterSpell>	112748001	</enterSpell>
+					<leaveSpell>	0	</leaveSpell>
+					<modelNumber>	gw7504	</modelNumber>
+					<isDisposable>	0	</isDisposable>
+					<position>	-3.882 17.641 -2.264	</position>
+				</enterTrap>
+				<leaveTrap>
+					<lifetime>	1800	</lifetime>
+					<radius>	5	</radius>
+					<enterSpell>	112750001	</enterSpell>
+					<leaveSpell>	0	</leaveSpell>
+					<modelNumber>	gw7217	</modelNumber>
+					<isDisposable>	0	</isDisposable>
+					<position>	387.735 34.750 -38.82	</position>
+				</leaveTrap>
+			</item>
+		</FlyTeleportTrapInfo>
+		<Door>
+			<!-- 切换点tag -->
+			<row1>
+				<Name>	传送点		</Name>
+				<Pos>	-24.083 20.177 18.614	</Pos>
+				<radius>		2		</radius>
+				<DestSpace>	shuijing02	</DestSpace>
+				<DestPos>   398.864  37.214  -22.465	</DestPos>
+				<DestDirection> 0.0  135.0  0.0	</DestDirection>
+				<level> 1 </level>
+				<modelNumber>	gw7123	</modelNumber>
+				<modelScale>	1.0	</modelScale>
+			</row1>
+		</Door>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

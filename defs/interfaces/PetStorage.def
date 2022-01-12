@@ -1,0 +1,101 @@
+<root>
+	<Properties>
+		<_PetStorage__storedPets>
+			<Type>	ARRAY <of> SOTRED_PET	</of>	</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</_PetStorage__storedPets>
+		<_PetStorage__stype>
+			<Type>			UINT8		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</_PetStorage__stype>
+		<_PetStorage__endTime>
+			<Type>			INT64		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</_PetStorage__endTime>
+		<_PetStorage__notified>
+			<Type>			BOOL		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</_PetStorage__notified>
+
+		<_PetStorage__status>
+			<Type>			BOOL		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false		</Persistent>
+		</_PetStorage__status>
+	</Properties>
+
+	<ClientMethods>
+		<pst_onHireResult>
+			<Arg>			BOOL		</Arg>
+		</pst_onHireResult>
+		<pst_onUpdateHireTime>
+			<Arg>			INT64		</Arg>
+		</pst_onUpdateHireTime>
+
+		<pst_onOpen>
+			<Arg>		UINT8			</Arg>
+			<Arg>			BOOL		</Arg>
+			<Arg>	ARRAY <of>	SOTRED_PET </of>	</Arg>
+		</pst_onOpen>
+		<pst_openHire>
+			<Arg>	OBJECT_ID			</Arg>	<!-- entity ID-->
+		</pst_openHire>
+
+		<pst_onStoredPet>
+			<Arg>	SOTRED_PET	</Arg>
+		</pst_onStoredPet>
+		<pst_onTakenPet>
+			<Arg>		DATABASE_ID		</Arg>
+		</pst_onTakenPet>
+	</ClientMethods>
+
+	<BaseMethods>
+		<pst_hireStorage>
+			<Exposed/>
+			<Arg>			UINT8	</Arg>
+			<Arg>			UINT8	</Arg>
+		</pst_hireStorage>
+		<pst_open>
+		</pst_open>
+		<pst_storePet>
+			<Arg>		DATABASE_ID		</Arg>
+		</pst_storePet>
+		<pst_takePet>
+			<Arg>		DATABASE_ID		</Arg>
+		</pst_takePet>
+
+		<set_storageEndTime>
+			<Arg>		INT32			</Arg>
+		</set_storageEndTime>
+		<!-- exposed methods -->
+		<pst_updateClient>
+			<Exposed/>
+		</pst_updateClient>
+	</BaseMethods>
+
+	<CellMethods>
+		<!-- methods called by base -->
+		<pst_onStatusChanged>
+			<Arg>			UINT8		</Arg>
+		</pst_onStatusChanged>
+		<pst_onEndOperating>
+		</pst_onEndOperating>
+
+		<!-- exposed methods -->
+		<pst_storePet>
+			<Exposed/>
+			<Arg>			DATABASE_ID	</Arg>
+		</pst_storePet>
+		<pst_takePet>
+			<Exposed/>
+			<Arg>			DATABASE_ID	</Arg>
+		</pst_takePet>
+	</CellMethods>
+</root>

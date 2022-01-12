@@ -1,0 +1,63 @@
+<root>
+		<spaceName>	家族擂臺	</spaceName>
+		<EntityType>	SpaceCopyFamilyAba	</EntityType>
+		<DomainType>	SpaceDomainFamilyAba	</DomainType>
+		<script>	SpaceCopyFamilyAba	</script>
+		<SpaceType>	SPACE_TYPE_FAMILY_ABA	</SpaceType>
+		<className>	family_abattoir	</className>
+		<TimeOfDay>	45900	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_npc_zheng_duo_zhan	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest/>	<!-->是否可逮捕入獄<-->
+		<Space>
+			<right_playerEnterPoint>
+				<pos>	168.044 6.895 49.160	</pos>
+				<direction>	0.0 -89.997 0	</direction>
+			</right_playerEnterPoint>
+			<right_relivePoint1>
+				<pos>	127.834 6.738 0.613	</pos>
+				<direction>	0 -89.997 0	</direction>
+			</right_relivePoint1>
+			<right_relivePoint2>
+				<pos>	103.57 8.249 55.052	</pos>
+				<direction>	0.0 -119.997 0.027	</direction>
+			</right_relivePoint2>
+			<right_relivePoint3>
+				<pos>	168.044 6.895 49.160	</pos>
+				<direction>	0.0 -89.997 0.0	</direction>
+			</right_relivePoint3>
+			<right_chapmanPoint>
+				<pos>	170.356 6.328 37.928	</pos>
+				<direction>	0.0 -89.997 0.0	</direction>
+			</right_chapmanPoint>
+			<left_playerEnterPoint>
+				<pos>	-99.112 20.599 40.667	</pos>
+				<direction>	0.0 165.001 0.0	</direction>
+			</left_playerEnterPoint>
+			<left_relivePoint1>
+				<pos>	-99.112 20.599 40.667	</pos>
+				<direction>	0.0 165.001 0.0	</direction>
+			</left_relivePoint1>
+			<left_relivePoint2>
+				<pos>	-42.567 13.978 5.680	</pos>
+				<direction>	0.0 105.0 0.0	</direction>
+			</left_relivePoint2>
+			<left_relivePoint3>
+				<pos>	-93.460 19.898 -25.244	</pos>
+				<direction>	0.0 135.0 0.0	</direction>
+			</left_relivePoint3>
+			<left_chapmanPoint>
+				<pos>	-98.564 20.181 31.051	</pos>
+				<direction>	0.0 180.0 0.0	</direction>
+			</left_chapmanPoint>
+			<chapmanNPCID>	10111241	</chapmanNPCID>
+			<enterLimitLevel>	30	</enterLimitLevel>
+			<familyExitFirstPunish>	300	</familyExitFirstPunish>
+			<familyExitTimePunish>	300	</familyExitTimePunish>
+			<bekillPunish>	100	</bekillPunish>
+			<initTotalMark>	8000	</initTotalMark>
+			<beLateForPunish>	800	</beLateForPunish>
+			<playerInitBuyMark>	300	</playerInitBuyMark>
+			<playerOnDiedAddBuyMark>	20	</playerOnDiedAddBuyMark>
+		</Space>
+</root>

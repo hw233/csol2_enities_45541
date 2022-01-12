@@ -1,0 +1,143 @@
+<root>
+	<entity_1>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.965925 0.000000 0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258819 0.000000 0.965925	</row2>
+			<row3>	-419.664063 29.175627 67.613770	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<modelNumber>	cr0002	</modelNumber>
+			<modelScale>	1.000000	</modelScale>
+			<walkSpeed>	3.200000	</walkSpeed>
+			<runSpeed>	8.000000	</runSpeed>
+			<radius>	4.000000	</radius>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	AreaRestrictTransducer	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	1.934845 0.629989 39.742001	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<radius>	50.000000	</radius>
+			<enterSpell>	721035001	</enterSpell>
+			<leaveSpell>	721035001	</leaveSpell>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707106 0.000000 0.707106	</row2>
+			<row3>	629.617310 9.357349 30.703077	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<modelNumber>	cr0003	</modelNumber>
+			<modelScale>	1.000000	</modelScale>
+			<walkSpeed>	2.000000	</walkSpeed>
+			<runSpeed>	3.000000	</runSpeed>
+			<radius>	4.000000	</radius>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.965925 0.000000 0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258819 0.000000 0.965925	</row2>
+			<row3>	694.756714 14.789506 14.341247	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<modelNumber>	cr0002	</modelNumber>
+			<modelScale>	1.000000	</modelScale>
+			<walkSpeed>	3.200000	</walkSpeed>
+			<runSpeed>	8.000000	</runSpeed>
+			<radius>	4.000000	</radius>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707106 0.000000 0.707106	</row2>
+			<row3>	627.846436 9.285550 28.823381	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<modelNumber>	cr0003	</modelNumber>
+			<modelScale>	1.000000	</modelScale>
+			<walkSpeed>	2.000000	</walkSpeed>
+			<runSpeed>	3.000000	</runSpeed>
+			<radius>	4.000000	</radius>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707106 0.000000 0.707106	</row2>
+			<row3>	650.422913 12.610279 4.011266	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<modelNumber>	cr0003	</modelNumber>
+			<modelScale>	1.000000	</modelScale>
+			<walkSpeed>	2.000000	</walkSpeed>
+			<runSpeed>	3.000000	</runSpeed>
+			<radius>	4.000000	</radius>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_6>
+</root>

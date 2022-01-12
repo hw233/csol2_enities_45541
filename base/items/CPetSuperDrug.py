@@ -1,0 +1,9 @@
+# -*- coding: gb18030 -*-
+
+from CSuperDrug import CSuperDrug
+
+class CPetSuperDrug( CSuperDrug ) :
+	"""
+	³èÎï³¬¼¶»Ø¸´Ò©
+	"""
+	pass

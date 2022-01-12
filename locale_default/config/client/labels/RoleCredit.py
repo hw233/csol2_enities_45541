@@ -1,0 +1,12 @@
+# -*- coding: gb18030 -*-
+
+PRESTIGE_ENEMY		= "³ðµÐ"
+PRESTIGE_STRANGE	= "Àäµ­"
+PRESTIGE_NEUTRAL	= "ÖÐÁ¢"
+PRESTIGE_FRIENDLY	= "ÓÑÉÆ"
+PRESTIGE_RESPECT	= "×ð¾´"
+PRESTIGE_ADMIRE		= "³ç¾´"
+PRESTIGE_ADORE		= "³ç°Ý"
+TITLE_COUPLE	= "·òÆÞ"
+TITLE_PRENTICE	= "Í½µÜ"
+TITLE_ALLY		= "½á°Ý"

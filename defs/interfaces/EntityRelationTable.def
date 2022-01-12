@@ -1,0 +1,55 @@
+<root>
+	<Properties>
+		<enemyList>		<!-- 战斗列表 dic 	Role: like { entityID:time } -->
+			<Type>		FIGHT_LIST		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</enemyList>
+
+		<damageList>		<!-- 伤害列表 dic 	Role: like { entityID:value } -->
+			<Type>		FIGHT_RECORD		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</damageList>
+
+		<cureList>		<!-- 治疗列表 dic 	Role: like { entityID:value } -->
+			<Type>		FIGHT_RECORD		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</cureList>
+
+		<friendList>		<!-- 好友列表 list 	Role: like [ entityID,... ]-->
+			<Type>		ARRAY<of>OBJECT_ID</of></Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</friendList>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<addEnemy>		<!-- 添加敌人列表 -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</addEnemy>
+
+		<addDamageList>		<!-- 添加伤害列表 -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	INT32		</Arg>	<!-- damage -->
+		</addDamageList>
+
+		<addCureList>		<!-- 添加治疗列表 -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	INT32		</Arg>	<!-- damage -->
+		</addCureList>
+
+		<addFriendList>		<!-- 添加治疗列表 -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</addFriendList>
+
+		<removeEnemy>		<!-- 删除一个敌人 -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</removeEnemy>
+
+	</CellMethods>
+</root>

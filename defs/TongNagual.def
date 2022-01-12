@@ -1,0 +1,40 @@
+<root>
+	<Parent>	Monster							</Parent>
+
+	<Properties>
+		<ownTongDBID> 
+			<Type>			DATABASE_ID			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>		false				</Persistent>
+		</ownTongDBID>
+		<fixPlace> 
+			<Type>			POSITION			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>		false				</Persistent>
+		</fixPlace>
+		<fixDirection> 
+			<Type>			DIRECTION			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>		false				</Persistent>
+		</fixDirection>
+		<enemyTongDBIDList> 
+			<Type>			ARRAY<of>DATABASE_ID</of>	</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>		false				</Persistent>
+		</enemyTongDBIDList>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<disableNagual/>
+		<activeNagual>
+			<Arg>	DATABASE_ID		</Arg>
+		</activeNagual>
+		<updateLevel>		<!-- 用于让cellApp同步更新level属性 -->
+			<Arg>		UINT8			</Arg>
+		</updateLevel>
+	</CellMethods>
+
+
+</root>

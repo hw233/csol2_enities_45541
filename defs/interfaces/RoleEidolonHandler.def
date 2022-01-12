@@ -1,0 +1,52 @@
+<root>
+	<Properties>
+		<vip>
+			<Type>		UINT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+			<Default>	0			</Default>
+		</vip>
+		<isShareVip>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Default>	0			</Default>
+		</isShareVip>
+	</Properties>
+	<CellMethods>
+		<conjureEidolon>
+			<Exposed/>
+		</conjureEidolon>
+		<withdrawEidolon>
+			<Exposed/>
+		</withdrawEidolon>
+		<eidolonTeleport/>
+
+		<conjureEidolonSuccess>
+			<Arg>	MAILBOX		</Arg>
+		</conjureEidolonSuccess>
+		<onEidolonDestory/>
+		<vipShareSwitch>
+			<Exposed/>
+		</vipShareSwitch>
+		<withdrawEidolonBeforeBuff>
+			<Exposed/>
+		</withdrawEidolonBeforeBuff>
+		<conjureEidolonAfterBuff>
+			<Exposed/>
+		</conjureEidolonAfterBuff>
+	</CellMethods>
+	<ClientMethods>
+		<eidolonDirect>
+			<Arg>	OBJECT_ID			</Arg>	<!-- entity ID-->
+		</eidolonDirect>
+		<eidolonQueryHelp>
+			<Arg>	OBJECT_ID			</Arg>	<!-- entity ID-->
+		</eidolonQueryHelp>
+		<eidolonLevelHelp>
+			<Arg>	OBJECT_ID			</Arg>	<!-- entity ID-->
+		</eidolonLevelHelp>
+		<onWithdrawEidolon>
+		</onWithdrawEidolon>
+	</ClientMethods>
+</root>

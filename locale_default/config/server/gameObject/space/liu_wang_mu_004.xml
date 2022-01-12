@@ -1,0 +1,20 @@
+<root>
+	<spaceName> liu_wang_mu_004	</spaceName>
+	<EntityType>SpaceCopyLiuWangMu</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopyLiuWangMu</script>
+	<className>liu_wang_mu_004</className>
+	<dirMapping> universes/liu_wang_mu_004 </dirMapping>
+	<CanPk>	1	</CanPk>
+	<campHonourReward/>			<!-- 有阵营击杀荣誉值奖励;另外在没有配置此字段的地图中，被击杀不计入“被阵营击杀次数” -->
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<canVehicle> 0 </canVehicle>	<!-- 是否允许上坐骑 -->
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/liu_wang_mu_004.xml		</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<CalcPkValue/>
+	<Space>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

@@ -1,0 +1,120 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Properties>
+		<entityName>	<!-- 产生的entity类型，为怪物或NPC的关键字 -->
+			<Type>		STRING					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	false					</Persistent>
+			<Editable>	true					</Editable>
+		</entityName>
+
+		<spawnType>
+			<Type>		STRING					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	false					</Persistent>
+		</spawnType>
+		
+		<spaceType>
+			<Type>		STRING					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	false					</Persistent>
+		</spaceType>
+		
+		<rediviousTime>	<!-- 复活时间，单位：秒 -->
+			<Type>		FLOAT					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>	60.0					</Default>
+			<Persistent>	false					</Persistent>
+			<Editable>	true					</Editable>
+		</rediviousTime>
+
+		<rediviousTotal>	<!-- 一个复活点总出现个数 -->
+			<Type>		INT8					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>		1				</Default>
+			<Persistent>	false					</Persistent>
+			<Editable>		true				</Editable>
+		</rediviousTotal>
+
+		<currentRedivious>	<!-- 当前需要复活的怪物数量 -->
+			<Type>		INT8					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>		0				</Default>
+		</currentRedivious>
+
+		<rediviousTimer>	<!-- 0表示没有正在复活的怪物 -->
+			<Type>		CONTROLLER_ID				</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false					</Persistent>
+		</rediviousTimer>
+
+		<patrolPathNode>
+			<!-- 如果不需要决定是哪个点开始，此项可以不要。
+				另文档上说需要的是<patrolNode>其实是错误的。
+			-->
+			<Type>			STRING				</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+		</patrolPathNode>
+		<patrolList>
+			<Type>			PATROL_PATH			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Editable>		true				</Editable>
+		</patrolList>
+
+		<randomWalkRange>	<!-- 怪物的随机行走范围 -->
+			<Type>		FLOAT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	3.0		</Default>
+			<Editable>		true				</Editable>
+		</randomWalkRange>
+		
+		<entityParams>
+			<Type>		PY_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	{}		</Default>
+		</entityParams>
+
+		<lineNumber>	<!-- 决定该spawPoint在哪条线创建entity， 如果为0则每条线都创建 -->
+			<Type>		UINT8					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>	0					</Default>
+			<Editable>	false					</Editable>
+		</lineNumber>
+		
+		<spawnRecord>
+			<Type>		SPAWN_POINT_RECORDS			</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+		</spawnRecord>
+	</Properties>
+
+	<CellMethods>
+		<entityDead/>		<!-- entity死亡通知 -->
+		<onBaseGotCell/>	<!-- 用于当base触发onGetCell()时回调，以求解决怪物出生时出生坐标有可能不正确的问题 -->
+		<createEntity>
+			<Arg>	PY_DICT	</Arg>
+		</createEntity>
+		<destroyEntity>
+			<Arg>	PY_DICT	</Arg>
+		</destroyEntity>
+		<createEntityNormal/>
+		<remoteCallScript>
+			<Arg>	STRING	</Arg>
+			<Arg>	PY_DICT	</Arg>
+		</remoteCallScript>
+	</CellMethods>
+
+	<BaseMethods>
+		<createBaseEntity>
+			<Arg>	STRING	</Arg>
+			<Arg>	PY_DICT	</Arg>
+		</createBaseEntity>
+	</BaseMethods>
+
+</root>
+
+
+

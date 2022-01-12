@@ -1,0 +1,157 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<uname>
+			<Type>		STRING				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+		</uname>
+		<title>
+			<Type>		STRING				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+		</title>
+		<tongName>
+			<Type>		STRING				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+		</tongName>
+		<raceclass>	<!-- 种族 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</raceclass>
+		<hairNumber>	<!-- 发型编号-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</hairNumber>
+
+		<faceNumber>	<!-- 脸部编号-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</faceNumber>
+
+		<bodyFDict>	<!-- 胸部自定义数据-->
+			<Type>			ARMOR_EFFECT	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</bodyFDict>
+
+		<volaFDict>	<!-- 手部自定义数据-->
+			<Type>			ARMOR_EFFECT	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</volaFDict>
+
+		<breechFDict>	<!-- 腿部自定义数据-->
+			<Type>			ARMOR_EFFECT	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</breechFDict>
+
+		<feetFDict>	<!-- 足部自定义数据-->
+			<Type>			ARMOR_EFFECT	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</feetFDict>
+
+		<lefthandFDict><!-- 左手自定义数据-->
+			<Type>			WEAPON_EFFECT	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</lefthandFDict>
+
+		<righthandFDict><!-- 右手自定义数据-->
+			<Type>			WEAPON_EFFECT	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</righthandFDict>
+
+		<talismanNum>	<!--法宝编号-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</talismanNum>
+
+		<fashionNum>			<!-- 时装编号 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</fashionNum>
+
+		<adornNum>			<!-- 饰品编号 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</adornNum>
+
+		<weaponAppendState><!-- 武器悬挂激活状态 默认为激活-->
+			<Type>			INT8			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+		</weaponAppendState>
+
+		<modelScale>
+			<Type>		FLOAT					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>	1.0					</Default>
+			<Editable>	true					</Editable>
+		</modelScale>
+	</Properties>
+
+	<ClientMethods>
+		<setName>
+			<Arg>	STRING	</Arg>
+		</setName>
+		<setTitle>
+			<Arg>	STRING	</Arg>
+		</setTitle>
+		<setRaceclass>
+			<Arg>	INT32	</Arg>
+		</setRaceclass>	
+		<setHairNumber>
+			<Arg>	INT32	</Arg>
+		</setHairNumber>
+		<setFaceNumber>
+			<Arg>	INT32	</Arg>
+		</setFaceNumber>
+		<setBodyFDict>
+			<Arg>	ARMOR_EFFECT	</Arg>
+		</setBodyFDict>	
+		<setVolaFDict>
+			<Arg>	ARMOR_EFFECT	</Arg>
+		</setVolaFDict>	
+		<setBreechFDict>
+			<Arg>	ARMOR_EFFECT	</Arg>
+		</setBreechFDict>	
+		<setFeetFDict>
+			<Arg>	ARMOR_EFFECT	</Arg>
+		</setFeetFDict>	
+		<setLefthandFDict>
+			<Arg>	WEAPON_EFFECT	</Arg>
+		</setLefthandFDict>	
+		<setRighthandFDict>
+			<Arg>	WEAPON_EFFECT	</Arg>
+		</setRighthandFDict>	
+		<setTalismanNum>
+			<Arg>	INT32	</Arg>
+		</setTalismanNum>
+		<setFashionNum>
+			<Arg>	INT32	</Arg>
+		</setFashionNum>
+		<setAdornNum>
+			<Arg>	INT32	</Arg>
+		</setAdornNum>
+		<setAction>
+			<Arg>	STRING	</Arg>
+		</setAction>
+		<setModelScale>
+			<Arg>	FLOAT	</Arg>
+		</setModelScale>
+		<setTongName>
+			<Arg>	STRING	</Arg>
+		</setTongName>
+	</ClientMethods>
+
+	<CellMethods>		
+	</CellMethods>
+</root>

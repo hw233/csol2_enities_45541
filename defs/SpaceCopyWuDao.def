@@ -1,0 +1,24 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<databaseIDList>			<!--记录所有进入武道大会的databaseID-->
+			<Type>	ARRAY<of>	DATABASE_ID	</of>	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</databaseIDList>
+		<hasClearNoFight>
+			<Type>		BOOL				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</hasClearNoFight>
+	</Properties>
+
+	<BaseMethods>
+
+	</BaseMethods>
+	<CellMethods>
+	</CellMethods>
+
+
+</root>

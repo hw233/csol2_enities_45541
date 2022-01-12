@@ -1,0 +1,38 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<turnToMatchedTeam>
+			<Arg>	STRING	</Arg>		<!-- copyLabel -->
+			<Arg>	UINT8	</Arg>		<!-- copyLevel -->
+			<Arg>	PY_DICT	</Arg>		<!-- memberToDuty -->
+		</turnToMatchedTeam>
+		<turnToNormalTeam/>
+		<resumeHaltedRaidBy>
+			<Arg>	DATABASE_ID	</Arg>		<!-- initiatorDBID -->
+			<Arg>	OBJECT_ID	</Arg>		<!-- teamID -->
+			<Arg>   UINT8            </Arg>          <!-- camp -->			
+		</resumeHaltedRaidBy>
+		<initiateVoteForKickingMember>
+			<Arg>	OBJECT_ID	</Arg>		<!-- initiatorID -->
+			<Arg>	OBJECT_ID	</Arg>		<!-- suffererID -->
+			<Arg>	STRING		</Arg>		<!-- reason -->
+		</initiateVoteForKickingMember>
+		<memberVoteForKicking>
+			<Arg>	OBJECT_ID	</Arg>		<!-- playerID -->
+			<Arg>	BOOL		</Arg>		<!-- agree -->
+		</memberVoteForKicking>
+		<absorbMatchedMembers>
+			<Arg>	ARRAY <of> MAILBOX </of>	</Arg>		<!-- members -->
+		</absorbMatchedMembers>
+		<onMatchedCopyClosed/>
+		<onMatchedRaidFinished/>
+		<onRematchedAsRecruiter>
+			<Arg>	UID	</Arg>		<!-- groupID -->
+		</onRematchedAsRecruiter>
+		<onRematchedCompleted>
+			<Arg>	PY_DICT	</Arg>		<!-- memberToDuty -->
+		</onRematchedCompleted>
+	</BaseMethods>
+</root>

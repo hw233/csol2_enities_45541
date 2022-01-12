@@ -1,0 +1,100 @@
+<root>
+	<Properties>
+		<robWarFailureList>
+			<Type>	ARRAY <of> DATABASE_ID </of>	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</robWarFailureList>
+
+		<tongRequestRecord>
+			<Type>	ARRAY <of> DATABASE_ID </of>	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</tongRequestRecord>
+
+		<robWarInfos>
+			<Type> TONG_ROB_WAR_INFOS		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</robWarInfos>
+
+		<preMonthRobWarTopRecords>
+			<Type> 		PYTHON			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	{}			</Default>
+			<Persistent>	true			</Persistent>
+		</preMonthRobWarTopRecords>
+
+		<robWarTopRecords>
+			<Type> 		PYTHON			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	{}			</Default>
+			<Persistent>	true			</Persistent>
+		</robWarTopRecords>
+
+		<robWarGetRewardRecords>
+			<Type> 	ARRAY <of>DATABASE_ID</of>	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</robWarGetRewardRecords>
+
+		<isRegisterRobWarRecord>
+			<Type> 		INT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</isRegisterRobWarRecord>
+	</Properties>
+
+	<BaseMethods>
+		<onRegisterPreMonthRobWarPoint/>
+
+		<onRequestRobWar>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+		</onRequestRobWar>
+
+		<onAnswerRobWar>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>
+		</onAnswerRobWar>
+
+		<onRequestRobWarSuccessfully>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	STRING				</Arg>
+		</onRequestRobWarSuccessfully>
+
+		<onRobWarOver>
+			<Arg>	DATABASE_ID			</Arg>
+		</onRobWarOver>
+
+		<findRequestRobWar>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	STRING				</Arg>
+		</findRequestRobWar>
+
+		<onTongRobWarManagerStartNotice/>
+		<onTongRobWarManagerStart/>
+		<onTongRobWarManagerEnd/>
+		<onTongRobWarManagerSignUpStart/>
+		<onTongRobWarManagerSignUpEnd/>
+
+		<queryTongRobWarPoint>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	OBJECT_ID			</Arg>
+		</queryTongRobWarPoint>
+
+		<getTongRobWarPoint>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	DATABASE_ID			</Arg>
+		</getTongRobWarPoint>
+
+		<onRewardRobWarPlayerCB>
+			<Arg>	DATABASE_ID			</Arg>
+			<Arg>	BOOL				</Arg>
+		</onRewardRobWarPlayerCB>
+	</BaseMethods>
+</root>

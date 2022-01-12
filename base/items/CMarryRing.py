@@ -1,0 +1,14 @@
+# -*- coding: gb18030 -*-
+
+from CItemBase import CItemBase
+
+class CMarryRing( CItemBase ):
+	"""
+	Ω·ªÈΩ‰÷∏
+	"""
+	def __init__( self, srcData ):
+		"""
+		"""
+		CItemBase.__init__( self, srcData )
+		
+		

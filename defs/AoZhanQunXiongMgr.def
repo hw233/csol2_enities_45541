@@ -1,0 +1,51 @@
+<root>
+	<Properties>
+		<dataMgr>
+			<Type>			AO_ZHAN_MGR_DATA	</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0			</Default>
+			<Persistent>		False			</Persistent>
+		</dataMgr>
+	</Properties>
+
+	<BaseMethods>
+		<startSignUp/>
+		<endSignUp/>
+		<onStart/>
+		<onEnd/>
+		<onSignUp>
+			<Arg> MAILBOX	</Arg>
+			<Arg> DATABASE_ID</Arg>
+			<Arg> STRING	</Arg>
+			<Arg> UINT16	</Arg>
+			<Arg> UINT16	</Arg>
+		</onSignUp>
+		<setResult>
+			<Arg> UINT32		</Arg>
+			<Arg> DATABASE_ID	</Arg>
+			<Arg> UINT32		</Arg>
+			<Arg> FLOAT		</Arg>
+			<Arg> UINT32		</Arg>
+		</setResult>
+		<requestEnterSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- domain base -->
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</requestEnterSpace>
+		<getBattlefield>
+			<Arg> MAILBOX	</Arg>
+		</getBattlefield>
+		<getSignUpList>
+			<Arg> MAILBOX	</Arg>
+		</getSignUpList>
+		<playerInit>
+			<Arg> DATABASE_ID	</Arg>
+			<Arg> MAILBOX	</Arg>
+		</playerInit>
+		<playerDestroy>
+			<Arg> DATABASE_ID	</Arg>
+		</playerDestroy>
+	</BaseMethods>
+</root>

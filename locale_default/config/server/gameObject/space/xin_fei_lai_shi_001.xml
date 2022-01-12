@@ -1,0 +1,88 @@
+<root>
+	<EntityType>SpaceMultiLine</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceMultiLine</script>
+	<className>xin_fei_lai_shi_001</className>
+	<dirMapping> universes/xin_fei_lai_shi_001 </dirMapping>
+	<CanPk>	1	</CanPk>
+	<campHonourReward/>			<!-- 有阵营击杀荣誉值奖励;另外在没有配置此字段的地图中，被击杀不计入“被阵营击杀次数” -->
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<CanQieCuo>	1	</CanQieCuo>		<!-- 允许切磋 -->
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/xin_fei_lai_shi_001.xml		</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>
+	<maxPlayerAmount>525</maxPlayerAmount>
+	<initLine>1</initLine>
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 
+	<Space>
+		<spaceBBoxMin>	-660,-100,-552	</spaceBBoxMin>
+		<spaceBBoxMax>	275,300,605	</spaceBBoxMax>
+		<Transport>
+			<!--
+			<fengming01>
+				<Name>	凤鸣传送点一	</Name>
+				<Pos>	723.648 20.219 441.282	</Pos>
+				<radius>	3	</radius>
+				<Sign>	8 </Sign>
+				<ReturnPos>   723.620 20.209 436.006	</ReturnPos>
+				<ReturnDirection> 	0 0 -180	</ReturnDirection>
+			</fengming01>
+			<fengming02>
+				<Name>	凤鸣传送点二	</Name>
+				<Pos>	-598.729 62.120 131.477	</Pos>
+				<radius>	6	</radius>
+				<Sign>	16 </Sign>
+				<ReturnPos>   -591.000 62.120 131.578	</ReturnPos>
+				<ReturnDirection> 	0 0 90	</ReturnDirection>
+			</fengming02>
+			-->
+		</Transport>
+		<Door>
+			<!-- 切换点tag -->
+			<!--
+			<fengming0>
+				<Name>	桥东传送点		</Name>
+				<Pos>	910.642 208.160 174.529	</Pos>
+				<radius>		4		</radius>
+				<DestSpace>	fengming	</DestSpace>
+				<DestPos>   382.742 220.863 193.968	</DestPos>
+				<DestDirection> 0 0 -90	</DestDirection>
+			</fengming0>
+			<fengming1>
+				<Name>	桥东传送点		</Name>
+				<Pos>	910.388 208.160 213.725	</Pos>
+				<radius>		4		</radius>
+				<DestSpace>	fengming	</DestSpace>
+				<DestPos>   382.742 220.863 193.968	</DestPos>
+				<DestDirection> 0 0 -90	</DestDirection>
+			</fengming1>
+			<fengming2>
+				<Name>	桥西传送点		</Name>
+				<Pos>	405.610 220.863 174.546	</Pos>
+				<radius>		4		</radius>
+				<DestSpace>	fengming	</DestSpace>
+				<DestPos>   926.002 208.160 191.781	</DestPos>
+				<DestDirection> 0 0 90	</DestDirection>
+			</fengming2>
+			<fengming3>
+				<Name>	桥西传送点		</Name>
+				<Pos>	405.627 220.863 213.419	</Pos>
+				<radius>		4		</radius>
+				<DestSpace>	fengming	</DestSpace>
+				<DestPos>   926.002 208.160 191.781	</DestPos>
+				<DestDirection> 0 0 90	</DestDirection>
+			</fengming3>
+			-->
+		</Door>
+		<Tomb>
+			<xinfeilaishi>
+				<SpaceName>xin_fei_lai_shi_001</SpaceName>
+				<Position>124.131 -6.601 156.641</Position>
+				<Direction>	0 60 0	</Direction>	<!-- 复活后的面向方向，暂未实现 -->
+			</xinfeilaishi>
+		</Tomb>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

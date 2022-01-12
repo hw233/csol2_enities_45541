@@ -1,0 +1,19 @@
+<root>
+	<Parent>	QuestBox	</Parent>
+	<ClientName>	QuestBox	</ClientName>
+
+	<Properties>
+		<isShow>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</isShow>
+	</Properties>
+
+	<CellMethods>
+		<spawnShell></spawnShell>	<!-- ÔÚcellÈÃ±´¿ÇË¢³ö -->
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

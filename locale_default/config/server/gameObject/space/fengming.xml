@@ -1,0 +1,28 @@
+<root>
+	<EntityType>	 SpaceCopySunBath </EntityType>
+	<DomainType>	 SpaceDomainMultiLine </DomainType>
+	<script>	 SpaceSunBath </script>
+	<className>	 fengming </className>
+	<dirMapping> universes/feng_ming_20 </dirMapping>
+	<CanPk>		 1 	</CanPk>
+	<campHonourReward/>			<!-- 有阵营击杀荣誉值奖励;另外在没有配置此字段的地图中，被击杀不计入“被阵营击杀次数” -->
+	<TimeOn>	 0 	</TimeOn>
+	<canFly>	 1 	</canFly>			<!-- 是否允许飞行 -->
+	<CanQieCuo>	 1 	</CanQieCuo>	<!-- 允许切磋 -->
+	<TimeOfDay>	 41400 </TimeOfDay>
+	<spawnFile>		config/server/spawn/fengming.xml </spawnFile>
+	<spellRefreshTime>	 60 </spellRefreshTime>	<!-->间隔时间<-->
+	<spellNum>	 20 </spellNum>	<!-->每次刷新贝壳数量<-->
+	<removeItems> 	60101013|60101014|60101015|60101016|60101017|60101018|60101019|60101020 </removeItems>	<!-->需要没收的物品列表<-->
+	<Space>
+		<spaceBBoxMin>	 -351,	-100,	-958 </spaceBBoxMin>
+		<spaceBBoxMax>	 863,300,236 </spaceBBoxMax>
+		<deathDepth>	 -50 </deathDepth>
+	</Space>
+	<canArrest/>	<!-- 是否可逮捕入狱 -->
+	<maxLine>	 1 	</maxLine>
+	<initLine>	 1 	</initLine>
+	<maxPlayerAmount>	 525 	</maxPlayerAmount>
+	<newLineByPlayerAmount>	 400 	</newLineByPlayerAmount>
+	<spaceItemBuffers>	0	</spaceItemBuffers>
+</root>

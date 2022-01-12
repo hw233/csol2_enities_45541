@@ -1,0 +1,17 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<addItems>
+			<Arg>	MAILBOX			</Arg>
+			<Arg>	ARRAY <of> UID </of>	</Arg> <!-- uids  -->
+			<Arg>	ARRAY <of> UINT64 </of>	</Arg> <!-- lifeTimes  -->
+		</addItems>
+		<removeItems>
+			<Arg>	MAILBOX			</Arg>
+			<Arg>	ARRAY <of> UID </of>	</Arg> <!-- uids  -->
+			<Arg>	ARRAY <of> UINT64 </of>	</Arg> <!-- lifeTimes  -->
+		</removeItems>
+	</BaseMethods>
+</root>

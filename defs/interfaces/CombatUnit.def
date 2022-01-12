@@ -1,0 +1,1863 @@
+<root>
+	<Implements>
+		<Interface> State		</Interface>
+		<Interface> SpellUnit	</Interface>
+		<Interface> EntityRelationTable	</Interface>
+	</Implements>
+
+	<Properties>
+		<viewRange>		<!--视野范围-->
+			<Type>			UINT16			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		50				</Default>
+		</viewRange>
+
+		<targetID>
+			<!-- 用来表示当前可战斗单位所处理的对象的entityID，
+			此值一般用于需要临时目标转换时使用，
+			我们的概念是同一时间只能做一件事情，
+			因此只要一个对象记录即可解决这些需要。
+			-->
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</targetID>
+
+		<raceclass>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</raceclass>
+
+		<isUseCombatCamp>
+			<Type>		BOOL			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+		</isUseCombatCamp>
+
+		<combatCamp>
+			<Type>		UINT16			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</combatCamp>
+
+		<relationMode>
+			<Type>			UINT8			</Type>
+			<Flags>			ALL_CLIENTS				</Flags>
+			<Editable>		false				</Editable>
+			<Default>		1			</Default>
+		</relationMode>
+
+		<relationInsList>
+			<Type>			ARRAY <of> RELATIONDYNAMICOBJ </of>			</Type>
+			<Flags>			ALL_CLIENTS				</Flags>
+		</relationInsList>
+
+		<HP>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</HP>
+
+		<MP>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</MP>
+
+		<level>
+			<Type>			UINT8				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		1				</Default>
+			<Persistent>	true				</Persistent>
+			<IndexType> Normal </IndexType>
+		</level>
+
+		<HP_Max>		<!-- 生命上限值 最终值 -->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1			</Default>
+		</HP_Max>
+		<HP_Max_base>	<!-- = 生命上限值 基础 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</HP_Max_base>
+		<HP_Max_extra>	<!-- = 生命上限值 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</HP_Max_extra>
+		<HP_Max_percent>	<!-- = 生命上限值 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</HP_Max_percent>
+		<HP_Max_value>	<!-- = 生命上限值 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</HP_Max_value>
+
+		<HP_regen>		<!-- 生命恢复速度 最终值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+		</HP_regen>
+		<HP_regen_base>	<!-- = 生命恢复速度 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</HP_regen_base>
+		<HP_regen_extra>	<!-- = 生命恢复速度 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</HP_regen_extra>
+		<HP_regen_percent>	<!-- = 生命恢复速度 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</HP_regen_percent>
+		<HP_regen_value>	<!-- = 生命恢复速度 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</HP_regen_value>
+
+		<MP_Max>		<!-- 法力上限值 最终值 -->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1			</Default>
+		</MP_Max>
+		<MP_Max_base>	<!-- = 法力上限值 基础 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</MP_Max_base>
+		<MP_Max_extra>	<!-- = 法力上限值 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</MP_Max_extra>
+		<MP_Max_percent>	<!-- = 法力上限值 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</MP_Max_percent>
+		<MP_Max_value>	<!-- = 法力上限值 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</MP_Max_value>
+
+		<MP_regen>		<!-- 法力恢复速度 最终值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+		</MP_regen>
+		<MP_regen_base>	<!-- = 法力恢复速度 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</MP_regen_base>
+		<MP_regen_extra>	<!-- = 法力恢复速度 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</MP_regen_extra>
+		<MP_regen_percent>	<!-- = 法力恢复速度 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</MP_regen_percent>
+		<MP_regen_value>	<!-- = 法力恢复速度 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</MP_regen_value>
+
+		<strength>		<!-- 力量 最终值 -->
+			<Type>			INT32			</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Default>		0				</Default>
+		</strength>
+		<strength_base>	<!-- = 力量 基础值-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		100.0				</Default>
+		</strength_base>
+		<strength_extra>	<!-- = 力量 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</strength_extra>
+		<strength_percent>	<!-- = 力量 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</strength_percent>
+		<strength_value>	<!-- = 力量 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</strength_value>
+
+		<dexterity>		<!-- 敏捷 最终值 -->
+			<Type>			INT32			</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Default>		0				</Default>
+		</dexterity>
+		<dexterity_base>	<!-- = 敏捷 基础值-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		100.0				</Default>
+		</dexterity_base>
+		<dexterity_extra>	<!-- = 敏捷 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</dexterity_extra>
+		<dexterity_percent>	<!-- = 敏捷 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</dexterity_percent>
+		<dexterity_value>	<!-- = 敏捷 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</dexterity_value>
+
+		<intellect>		<!-- 智力 最终值 -->
+			<Type>			INT32			</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Default>		0				</Default>
+		</intellect>
+		<intellect_base>	 <!-- = 智力 基础值-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		100.0				</Default>
+		</intellect_base>
+		<intellect_extra>	<!-- = 智力 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</intellect_extra>
+		<intellect_percent>	<!-- = 智力 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</intellect_percent>
+		<intellect_value>	<!-- = 智力 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</intellect_value>
+
+		<corporeity>		<!-- 体质 最终值 -->
+			<Type>			INT32			</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Default>		0				</Default>
+		</corporeity>
+		<corporeity_base>	<!-- = 体质 基础值-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		100.0				</Default>
+		</corporeity_base>
+		<corporeity_extra>	<!-- = 体质 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</corporeity_extra>
+		<corporeity_percent>	<!-- = 体质 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</corporeity_percent>
+		<corporeity_value>	<!-- = 体质 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</corporeity_value>
+
+		<magic_damage>			<!-- 法术攻击力  最终值,由于宠物需要改为客户端所有玩家可见 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>		0				</Default>
+		</magic_damage>
+		<magic_damage_base>		<!-- = 法术攻击力 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_damage_base>
+		<magic_damage_extra>		<!-- = 法术攻击力额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_damage_extra>
+		<magic_damage_percent>		<!-- = 法术攻击力加成 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_damage_percent>
+		<magic_damage_value>		<!-- = 法术攻击力加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_damage_value>
+
+		<receive_damage_percent>  <!-- 被伤害加成 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</receive_damage_percent>
+		<receive_magic_damage_percent>  <!-- 被伤害加成 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</receive_magic_damage_percent>
+		<receive_damage_value>  <!-- 被伤害加值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</receive_damage_value>
+		<receive_magic_damage_value>  <!-- 被伤害加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</receive_magic_damage_value>
+
+		<receive_be_hit_percent>  <!-- 被命中加成 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</receive_be_hit_percent>
+		<receive_magic_be_hit_percent>  <!-- 被法术命中加成 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</receive_magic_be_hit_percent>
+		<receive_be_hit_value>  <!-- 被命中加值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</receive_be_hit_value>
+		<receive_magic_be_hit_value>  <!-- 被法术命中加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</receive_magic_be_hit_value>
+
+		<hitProbability>		<!-- = 物理命中 额外 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			OWN_CLIENT	</Flags>
+			<Default>		0.0				</Default>
+		</hitProbability>
+		<hitProbability_base>		<!-- = 物理命中 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		9000				</Default>
+		</hitProbability_base>
+		<hitProbability_extra>		<!-- = 物理命中 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</hitProbability_extra>
+		<hitProbability_percent>		<!-- = 物理命中 加成 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</hitProbability_percent>
+		<hitProbability_value>			<!-- = 物理命中加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</hitProbability_value>
+
+		<magic_hitProbability>				<!-- 法术命中 -->
+			<Type>			FLOAT			</Type>
+			<Flags>		OWN_CLIENT	</Flags>
+			<Default>		0.0				</Default>
+		</magic_hitProbability>
+		<magic_hitProbability_base>		<!-- = 命中 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		9000				</Default>
+		</magic_hitProbability_base>
+		<magic_hitProbability_extra>		<!-- = 法术命中 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_hitProbability_extra>
+		<magic_hitProbability_percent>		<!-- = 法术命中 加成 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_hitProbability_percent>
+		<magic_hitProbability_value>			<!-- = 法术命中加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_hitProbability_value>
+
+		<double_hit_probability>		<!-- 物理暴击率 最终值，由于宠物需要改为客户端所有玩家可见 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>		0.0				</Default>
+		</double_hit_probability>
+		<double_hit_probability_base>	<!-- = 物理暴击率 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</double_hit_probability_base>
+		<double_hit_probability_extra>	<!-- = 物理暴击率 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</double_hit_probability_extra>
+		<double_hit_probability_percent>	<!-- = 物理暴击率 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</double_hit_probability_percent>
+		<double_hit_probability_value>	<!-- = 物理暴击率 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</double_hit_probability_value>
+
+		<be_double_hit_probability>	<!-- = 被物理暴击率 降低或者增加几率-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</be_double_hit_probability>
+
+		<be_double_hit_probability_reduce>	<!-- = 被物理暴击率 降低或者增加几率-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</be_double_hit_probability_reduce>
+
+		<magic_double_hit_probability>		<!-- 法术暴击率 最终值，由于宠物需要改为客户端所有玩家可见 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>		0.0				</Default>
+		</magic_double_hit_probability>
+		<magic_double_hit_probability_base>	<!-- = 法术暴击率 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_double_hit_probability_base>
+		<magic_double_hit_probability_extra>	<!-- = 法术暴击率 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_double_hit_probability_extra>
+		<magic_double_hit_probability_percent>	<!-- = 法术暴击率 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_double_hit_probability_percent>
+		<magic_double_hit_probability_value>	<!-- = 法术暴击率 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_double_hit_probability_value>
+
+		<be_magic_double_hit_probability>	<!-- = 被法术暴击率 降低或者增加几率 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</be_magic_double_hit_probability>
+
+		<be_magic_double_hit_probability_reduce>	<!-- = 被法术暴击率 减免 降低或者增加几率 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</be_magic_double_hit_probability_reduce>
+
+		<resist_hit_probability>		<!-- 招架率 最终值，由于宠物需要改为客户端所有玩家可见 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>		0.0				</Default>
+		</resist_hit_probability>
+		<resist_hit_probability_base>	<!-- = 招架 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</resist_hit_probability_base>
+		<resist_hit_probability_extra>	<!-- = 招架 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</resist_hit_probability_extra>
+		<resist_hit_probability_percent>	<!-- = 招架 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</resist_hit_probability_percent>
+		<resist_hit_probability_value>	<!-- = 招架 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</resist_hit_probability_value>
+
+		<resist_in_affected>				<!-- 闪避率是否生效 true为生效，false为不生效 -->
+			<Type>			BOOL		</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0		</Default>
+		</resist_in_affected>
+
+		<dodge_probability>				<!-- 闪避率，由于宠物需要改为客户端所有玩家可见-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>		0.0				</Default>
+		</dodge_probability>
+		<dodge_probability_base>		<!-- = 闪避基础值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</dodge_probability_base>
+		<dodge_probability_extra>	<!-- = 闪避 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</dodge_probability_extra>
+		<dodge_probability_percent>	<!-- = 闪避 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</dodge_probability_percent>
+		<dodge_probability_value>	<!-- = 闪避加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</dodge_probability_value>
+
+		<armor>				<!-- 物理 防御力 最终 由于宠物需要改为客户端所有玩家可见-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>		0				</Default>
+		</armor>
+		<armor_base>		<!-- = 物理 防御力 基础 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</armor_base>
+		<armor_extra>	<!-- = 物理 防御力 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</armor_extra>
+		<armor_percent>	<!-- = 物理 防御力 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</armor_percent>
+		<armor_value>		<!-- = 物理 防御力加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</armor_value>
+
+		<armor_reduce_damage_extra><!-- 物理防御减伤   这里没有基础值 和最终值 提供给伤害计算流程中用 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</armor_reduce_damage_extra>
+		<armor_reduce_damage_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</armor_reduce_damage_percent>
+		<armor_reduce_damage_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</armor_reduce_damage_value>
+
+		<magic_armor>				<!-- 法术 防御力 最终 由于宠物需要改为客户端所有玩家可见-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>		0				</Default>
+		</magic_armor>
+		<magic_armor_base>		<!-- = 法术 防御力 基础 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_armor_base>
+		<magic_armor_extra>	<!-- = 法术 防御力 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_armor_extra>
+		<magic_armor_percent>	<!-- = 法术 防御力 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_armor_percent>
+		<magic_armor_value>		<!-- = 法术 防御力加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</magic_armor_value>
+
+		<magic_armor_reduce_damage_extra><!-- 法术防御减伤   这里没有基础值 和最终值 提供给伤害计算流程中用 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</magic_armor_reduce_damage_extra>
+		<magic_armor_reduce_damage_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+		</magic_armor_reduce_damage_percent>
+		<magic_armor_reduce_damage_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+		</magic_armor_reduce_damage_value>
+	
+		<reduce_role_damage>				<!-- 御敌 客户端所有玩家可见-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>		0.0				</Default>
+		</reduce_role_damage>
+		<reduce_role_damage_base>		<! 御敌 基础值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</reduce_role_damage_base>
+		<reduce_role_damage_extra>	<!-- = 御敌值 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</reduce_role_damage_extra>
+		<reduce_role_damage_percent>	<!-- = 御敌值 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</reduce_role_damage_percent>
+		<reduce_role_damage_value>	<!-- = 御敌 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</reduce_role_damage_value>
+
+
+		<add_role_damage>				<!-- 破敌 客户端所有玩家可见-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>		0.0				</Default>
+		</add_role_damage>
+		<add_role_damage_base>		<! 破敌 基础值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</add_role_damage_base>
+		<add_role_damage_extra>	<!-- = 破敌 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</add_role_damage_extra>
+		<add_role_damage_percent>	<!-- = 破敌 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</add_role_damage_percent>
+		<add_role_damage_value>	<!-- = 破敌 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</add_role_damage_value>
+		
+		
+		<move_speed>		<!-- 移动速度 = 移动速度基础值 + 移动速度加值 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0				</Default>
+		</move_speed>
+		<move_speed_base>	<!-- = 移动速度 基础 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		45000				</Default>
+		</move_speed_base>
+		<move_speed_extra>	<!-- = 移动速度 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</move_speed_extra>
+		<move_speed_percent>	<!-- = 移动速度 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</move_speed_percent>
+		<move_speed_value>	<!-- = 移动速度加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</move_speed_value>
+
+
+		<hitDelay>		<!-- 攻击延迟 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Default>		0.0				</Default>
+		</hitDelay>
+
+		<hit_speed>		<!-- 攻击速度 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			OWN_CLIENT	</Flags>
+			<Default>		0.0				</Default>
+		</hit_speed>
+		<hit_speed_base>	<!-- = 攻击速度 基础 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		8000				</Default>
+		</hit_speed_base>
+		<hit_speed_extra>	<!-- = 攻击速度 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</hit_speed_extra>
+		<hit_speed_percent>	<!-- = 攻击速度 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</hit_speed_percent>
+		<hit_speed_value>	<!-- = 攻击速度加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</hit_speed_value>
+
+		<range>			<!-- 攻击距离 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Default>		0.0				</Default>
+		</range>
+		<range_base>	<!-- = 攻击距离 基础 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		20000				</Default>
+		</range_base>
+		<range_extra>	<!-- = 攻击距离 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</range_extra>
+		<range_percent>	<!-- = 攻击距离 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</range_percent>
+		<range_value>	<!-- = 攻击距离 加值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</range_value>
+
+		<damage_derate>		<!-- 物理伤害减免值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+		</damage_derate>
+		<damage_derate_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</damage_derate_base>
+		<damage_derate_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</damage_derate_extra>
+		<damage_derate_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</damage_derate_percent>
+		<damage_derate_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</damage_derate_value>
+
+		<magic_damage_derate>		<!-- 法术伤害减免值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+		</magic_damage_derate>
+		<magic_damage_derate_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</magic_damage_derate_base>
+		<magic_damage_derate_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</magic_damage_derate_extra>
+		<magic_damage_derate_percent>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</magic_damage_derate_percent>
+		<magic_damage_derate_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</magic_damage_derate_value>
+
+		<damage_derate_ratio>		<!-- 物理伤害减免率 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0.0				</Default>
+		</damage_derate_ratio>
+		<damage_derate_ratio_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</damage_derate_ratio_base>
+		<damage_derate_ratio_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</damage_derate_ratio_extra>
+		<damage_derate_ratio_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</damage_derate_ratio_percent>
+		<damage_derate_ratio_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</damage_derate_ratio_value>
+
+		<magic_damage_derate_ratio>		<!-- 法术伤害减免率 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0.0				</Default>
+		</magic_damage_derate_ratio>
+		<magic_damage_derate_ratio_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</magic_damage_derate_ratio_base>
+		<magic_damage_derate_ratio_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</magic_damage_derate_ratio_extra>
+		<magic_damage_derate_ratio_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</magic_damage_derate_ratio_percent>
+		<magic_damage_derate_ratio_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</magic_damage_derate_ratio_value>
+
+		<resist_giddy_probability>		<!-- 抵抗眩晕几率 客户端所有人都可以查看-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>		0.0				</Default>
+		</resist_giddy_probability>
+		<resist_giddy_probability_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		500				</Default>
+		</resist_giddy_probability_base>
+		<resist_giddy_probability_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_giddy_probability_extra>
+		<resist_giddy_probability_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_giddy_probability_percent>
+		<resist_giddy_probability_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_giddy_probability_value>
+
+		<resist_yuanli> 			<!-- 元力 客户端所有人都可以查看-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN			</Flags>
+			<Default>		0.0				</Default>
+		</resist_yuanli>
+		<resist_yuanli_base>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_yuanli_base>
+		<resist_yuanli_extra>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_yuanli_extra>
+		<resist_yuanli_percent>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_yuanli_percent>
+		<resist_yuanli_value>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_yuanli_value>
+
+		<resist_lingli> 			<!-- 灵力 客户端所有人都可以查看-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN			</Flags>
+			<Default>		0.0				</Default>
+		</resist_lingli>
+		<resist_lingli_base>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_lingli_base>
+		<resist_lingli_extra>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_lingli_extra>
+		<resist_lingli_percent>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_lingli_percent>
+		<resist_lingli_value>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_lingli_value>
+
+		<resist_tipo> 			<!-- 体魄 客户端所有人都可以查看-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN			</Flags>
+			<Default>		0.0				</Default>
+		</resist_tipo>
+		<resist_tipo_base>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_tipo_base>
+		<resist_tipo_extra>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_tipo_extra>
+		<resist_tipo_percent>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_tipo_percent>
+		<resist_tipo_value>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0.0				</Default>
+		</resist_tipo_value>
+
+		<resist_fix_probability>		<!-- 抵抗定身几率 客户端所有人都可以查看-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>		0.0				</Default>
+		</resist_fix_probability>
+		<resist_fix_probability_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		500				</Default>
+		</resist_fix_probability_base>
+		<resist_fix_probability_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_fix_probability_extra>
+		<resist_fix_probability_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_fix_probability_percent>
+		<resist_fix_probability_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_fix_probability_value>
+
+		<resist_chenmo_probability>		<!-- 抵抗沉默几率 客户端所有人都可以查看-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>		0.0				</Default>
+		</resist_chenmo_probability>
+		<resist_chenmo_probability_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		500				</Default>
+		</resist_chenmo_probability_base>
+		<resist_chenmo_probability_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_chenmo_probability_extra>
+		<resist_chenmo_probability_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_chenmo_probability_percent>
+		<resist_chenmo_probability_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_chenmo_probability_value>
+
+		<resist_sleep_probability>		<!-- 抵抗睡眠几率 客户端所有人都可以查看-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>		0.0				</Default>
+		</resist_sleep_probability>
+		<resist_sleep_probability_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		500				</Default>
+		</resist_sleep_probability_base>
+		<resist_sleep_probability_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_sleep_probability_extra>
+		<resist_sleep_probability_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_sleep_probability_percent>
+		<resist_sleep_probability_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_sleep_probability_value>
+
+		<double_hit_multiple>		<!-- 基础物理暴击倍数 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0				</Default>
+		</double_hit_multiple>
+		<double_hit_multiple_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		30000				</Default>
+		</double_hit_multiple_base>
+		<double_hit_multiple_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</double_hit_multiple_extra>
+		<double_hit_multiple_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</double_hit_multiple_percent>
+		<double_hit_multiple_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</double_hit_multiple_value>
+
+		<magic_double_hit_multiple>		<!-- 基础法术暴击倍数 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0				</Default>
+		</magic_double_hit_multiple>
+		<magic_double_hit_multiple_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		30000				</Default>
+		</magic_double_hit_multiple_base>
+		<magic_double_hit_multiple_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</magic_double_hit_multiple_extra>
+		<magic_double_hit_multiple_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</magic_double_hit_multiple_percent>
+		<magic_double_hit_multiple_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</magic_double_hit_multiple_value>
+
+		<resist_hit_derate>		<!-- 招架减伤 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0.0				</Default>
+		</resist_hit_derate>
+		<resist_hit_derate_base>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		5000				</Default>
+		</resist_hit_derate_base>
+		<resist_hit_derate_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_hit_derate_extra>
+		<resist_hit_derate_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_hit_derate_percent>
+		<resist_hit_derate_value>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</resist_hit_derate_value>
+
+		<physics_dps>		<!-- 物理dps -->
+			<Type>		FLOAT			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0.0			</Default>
+		</physics_dps>
+		<physics_dps_base>		<!-- 基础物理dps -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</physics_dps_base>
+		<physics_dps_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</physics_dps_extra>
+		<physics_dps_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</physics_dps_percent>
+		<physics_dps_value>		<!-- 物理dps加值 如:所有武器带来的dps -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</physics_dps_value>
+
+		<wave_dps>		<!-- dps波动 -->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0.0			</Default>
+		</wave_dps>
+		<wave_dps_base>		<!-- 基础dps波动 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	3000			</Default>
+		</wave_dps_base>
+		<wave_dps_extra>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</wave_dps_extra>
+		<wave_dps_percent>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</wave_dps_percent>
+		<wave_dps_value>		<!-- dps波动加值 如:所有武器带来的dps -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</wave_dps_value>
+
+		<damage_min>				<!-- 物理 攻击力最小值 最终 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>		0				</Default>
+		</damage_min>
+		<damage_min_base>		<!-- = 物理 攻击力最小值 基础 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</damage_min_base>
+		<damage_min_extra>	<!-- = 物理 攻击力最小值 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</damage_min_extra>
+		<damage_min_percent>	<!-- = 物理 攻击力最小值 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</damage_min_percent>
+		<damage_min_value>		<!-- = 物理 攻击力最小值 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</damage_min_value>
+
+		<damage_max>				<!-- 物理 攻击力最大值 最终 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>		0				</Default>
+		</damage_max>
+		<damage_max_base>		<!-- = 物理 攻击力最大值 基础 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</damage_max_base>
+		<damage_max_extra>	<!-- = 物理 攻击力最大值 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</damage_max_extra>
+		<damage_max_percent>	<!-- = 物理 攻击力最大值 加成-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0				</Default>
+		</damage_max_percent>
+		<damage_max_value>		<!-- = 物理 攻击力最小值 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</damage_max_value>
+
+
+		<skill_extra_percent>		<!-- = 物理 技能影响力额外的加成 (可能由装备带来的)-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</skill_extra_percent>
+		<skill_extra_value>		<!-- = 物理 技能影响力额外的加值 (可能由装备带来的)-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</skill_extra_value>
+		<magic_skill_extra_percent>		<!-- = 法术 技能影响力额外的加成 (可能由装备带来的)-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</magic_skill_extra_percent>
+		<magic_skill_extra_value>		<!-- = 法术 技能影响力额外的加值 (可能由装备带来的)-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+		</magic_skill_extra_value>
+
+		<springReceiveMonsterExpList>	<!-- 获得杀怪经验时 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</springReceiveMonsterExpList>
+
+		<springReceiverCureList><!-- 被治疗时... -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</springReceiverCureList>
+		<springCasterCureList><!-- 治疗目标时 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</springCasterCureList>
+
+		<springVictimHitList><!-- 被命中后... -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</springVictimHitList>
+		<springAttackerHitList><!-- 命中后 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</springAttackerHitList>
+
+		<springVictimDodgeList><!-- 闪避成功时 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</springVictimDodgeList>
+		<springAttackerDodgeList><!-- 目标闪避成功时  -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</springAttackerDodgeList>
+
+		<springVictimDoubleHitList><!-- 被物理暴击时... -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</springVictimDoubleHitList>
+		<springAttackerDoubleHitList><!-- 产生物理暴击时 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</springAttackerDoubleHitList>
+
+		<springVictimResistHitList><!-- 招架成功时... -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</springVictimResistHitList>
+		<springAttackerResistHitList><!-- 目标招架成功时 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</springAttackerResistHitList>
+
+		<springAttackerBeforeDamageList><!-- 在伤害计算前 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</springAttackerBeforeDamageList>
+
+		<springVictimBeforeDamageList><!-- 在伤害计算前 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</springVictimBeforeDamageList>
+
+		<springAttackerAfterDamageList><!-- 在伤害计算后 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</springAttackerAfterDamageList>
+
+		<springVictimAfterDamageList><!-- 在伤害计算后 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</springVictimAfterDamageList>
+
+		<springImmunityBuffList><!--免疫BUFF列表 由于需要免疫的类型非常的多非常的不确定因此使用该处理方式-->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+		</springImmunityBuffList>
+
+		<shields>	<!-- 所有护盾 -->
+			<Type>	SKILL_ARRAY </Type>
+			<Flags>	CELL_PUBLIC				</Flags>
+		</shields>
+
+		<springOnUseSkillList><!-- 使用技能时 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</springOnUseSkillList>
+
+		<springOnUseMaligSkill><!-- 恶性技能使用后（计算伤害后）触发 -->
+			<Type>	SKILL_ARRAY		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</springOnUseMaligSkill>
+
+		<phyManaVal_value>
+			<Type>		INT16			</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</phyManaVal_value>
+		<phyManaVal_percent>
+			<Type>		INT32			</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</phyManaVal_percent>
+		<magicManaVal_value>
+			<Type>		INT16			</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</magicManaVal_value>
+		<magicManaVal_percent>
+			<Type>		INT32			</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</magicManaVal_percent>
+
+		<phySkillRangeVal_value>
+			<Type>		INT16			</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</phySkillRangeVal_value>
+		<phySkillRangeVal_percent>
+			<Type>		INT32			</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</phySkillRangeVal_percent>
+		<magicSkillRangeVal_value>
+			<Type>		INT16			</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</magicSkillRangeVal_value>
+		<magicSkillRangeVal_percent>
+			<Type>		INT32			</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</magicSkillRangeVal_percent>
+
+		<realLookLevelAmend>	<!-- 侦测等级值修正 -->
+			<Type>		UINT8			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+		</realLookLevelAmend>
+
+		<realLookAmend>		<!-- 增加的侦测几率 -->
+			<Type>		UINT16			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+		</realLookAmend>
+
+		<sneakLevelAmend>	<!-- 潜行等级值修正 -->
+			<Type>		UINT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</sneakLevelAmend>
+
+		<lessRealLookAmend>	<!-- 降低的被侦测几率 -->
+			<Type>		UINT16			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</lessRealLookAmend>
+
+		<elem_huo_damage>	<!-- 火元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_damage>
+		<elem_huo_damage_base>	<!-- 火元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_damage_base>
+		<elem_huo_damage_percent>	<!-- 火元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_damage_percent>
+		<elem_huo_damage_extra>	<!-- 火元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_damage_extra>
+		<elem_huo_damage_value>	<!-- 火元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_damage_value>
+
+		<elem_huo_deep_ratio><!-- 火元素 伤害加深 -->
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0				</Default>
+		</elem_huo_deep_ratio>
+		<elem_huo_deep_ratio_base><!-- 火元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_deep_ratio_base>
+		<elem_huo_deep_ratio_percent><!-- 火元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_deep_ratio_percent>
+		<elem_huo_deep_ratio_extra><!-- 火元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_deep_ratio_extra>
+		<elem_huo_deep_ratio_value><!-- 火元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_deep_ratio_value>
+
+		<elem_huo_derate_ratio><!-- 火元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0				</Default>
+		</elem_huo_derate_ratio>
+		<elem_huo_derate_ratio_base><!-- 火元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_derate_ratio_base>
+		<elem_huo_derate_ratio_percent><!-- 火元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_derate_ratio_percent>
+		<elem_huo_derate_ratio_extra><!-- 火元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_derate_ratio_extra>
+		<elem_huo_derate_ratio_value><!-- 火元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_huo_derate_ratio_value>
+
+		<elem_xuan_damage>	<!-- 玄元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_damage>
+		<elem_xuan_damage_base>	<!-- 玄元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_damage_base>
+		<elem_xuan_damage_percent>	<!-- 玄元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_damage_percent>
+		<elem_xuan_damage_extra>	<!-- 玄元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_damage_extra>
+		<elem_xuan_damage_value>	<!-- 玄元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_damage_value>
+
+		<elem_xuan_deep_ratio><!-- 玄元素 伤害加深 -->
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_deep_ratio>
+		<elem_xuan_deep_ratio_base><!-- 玄元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_deep_ratio_base>
+		<elem_xuan_deep_ratio_percent><!-- 玄元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_deep_ratio_percent>
+		<elem_xuan_deep_ratio_extra><!-- 玄元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_deep_ratio_extra>
+		<elem_xuan_deep_ratio_value><!-- 玄元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_deep_ratio_value>
+
+		<elem_xuan_derate_ratio><!-- 玄元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_derate_ratio>
+		<elem_xuan_derate_ratio_base><!-- 玄元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_derate_ratio_base>
+		<elem_xuan_derate_ratio_percent><!-- 玄元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_derate_ratio_percent>
+		<elem_xuan_derate_ratio_extra><!-- 玄元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_derate_ratio_extra>
+		<elem_xuan_derate_ratio_value><!-- 玄元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</elem_xuan_derate_ratio_value>
+
+		<elem_lei_damage>	<!-- 雷元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_damage>
+		<elem_lei_damage_base>	<!-- 雷元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_damage_base>
+		<elem_lei_damage_percent>	<!-- 雷元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_damage_percent>
+		<elem_lei_damage_extra>	<!-- 雷元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_damage_extra>
+		<elem_lei_damage_value>	<!-- 雷元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_damage_value>
+
+		<elem_lei_deep_ratio><!-- 雷元素 伤害加深 -->
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0				</Default>
+		</elem_lei_deep_ratio>
+		<elem_lei_deep_ratio_base><!-- 雷元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_deep_ratio_base>
+		<elem_lei_deep_ratio_percent><!-- 雷元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_deep_ratio_percent>
+		<elem_lei_deep_ratio_extra><!-- 雷元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_deep_ratio_extra>
+		<elem_lei_deep_ratio_value><!-- 雷元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_deep_ratio_value>
+
+		<elem_lei_derate_ratio><!-- 雷元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0				</Default>
+		</elem_lei_derate_ratio>
+		<elem_lei_derate_ratio_base><!-- 雷元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_derate_ratio_base>
+		<elem_lei_derate_ratio_percent><!-- 雷元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_derate_ratio_percent>
+		<elem_lei_derate_ratio_extra><!-- 雷元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_derate_ratio_extra>
+		<elem_lei_derate_ratio_value><!-- 雷元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_lei_derate_ratio_value>
+
+		<elem_bing_damage>	<!-- 冰元素 伤害 -->
+			<Type>		FLOAT				</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_damage>
+		<elem_bing_damage_base>	<!-- 冰元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_damage_base>
+		<elem_bing_damage_percent>	<!-- 冰元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_damage_percent>
+		<elem_bing_damage_extra>	<!-- 冰元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_damage_extra>
+		<elem_bing_damage_value>	<!-- 冰元素 伤害 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_damage_value>
+
+		<elem_bing_deep_ratio><!-- 冰元素 伤害加深 -->
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0				</Default>
+		</elem_bing_deep_ratio>
+		<elem_bing_deep_ratio_base><!-- 冰元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_deep_ratio_base>
+		<elem_bing_deep_ratio_percent><!-- 冰元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_deep_ratio_percent>
+		<elem_bing_deep_ratio_extra><!-- 冰元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_deep_ratio_extra>
+		<elem_bing_deep_ratio_value><!-- 冰元素 伤害加深 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_deep_ratio_value>
+
+		<elem_bing_derate_ratio><!-- 冰元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0				</Default>
+		</elem_bing_derate_ratio>
+		<elem_bing_derate_ratio_base><!-- 冰元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_derate_ratio_base>
+		<elem_bing_derate_ratio_percent><!-- 冰元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_derate_ratio_percent>
+		<elem_bing_derate_ratio_extra><!-- 冰元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_derate_ratio_extra>
+		<elem_bing_derate_ratio_value><!-- 冰元素 抗性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</elem_bing_derate_ratio_value>
+
+		<damage_share_percent><!-- 伤害分享, 即自己对目标造成的伤害， 自己分享一部分 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</damage_share_percent>
+		<daoheng> <!-- 道行属性 -->
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	1				</Default>
+			<Persistent>	true				</Persistent>
+		</daoheng>
+		<chaos_penetrate> <!-- 玩家混乱穿透属性 -->
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true				</Persistent>
+		</chaos_penetrate>
+		<chaos_resist>	<!-- 玩家混乱抵抗属性 -->
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true				</Persistent>
+		</chaos_resist>
+		<friendlyCamps>	<!-- 友好阵营列表 -->
+			<Type>		ARRAY <of> UINT8 </of>		</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+		</friendlyCamps>
+	</Properties>
+
+	<ClientMethods>
+		<onSnakeStateChange>		<!--潜行状态改变-->
+			<Arg>			BOOL			</Arg>
+		</onSnakeStateChange>
+
+		<onMakeASound>			<!--发出一个声音-->
+			<Arg>			STRING			</Arg>		<!--Sound Event form FMOD-->
+                        <Arg>			INT8			</Arg>	<!--3D/2D -->
+                </onMakeASound>
+
+		<moveToPosFC><!-- 移动到某坐标，通知客户端做表现 -->
+			<Arg>	VECTOR3	</Arg>	<!-- 目标坐标点 -->
+			<Arg>	FLOAT	</Arg>	<!-- 移动速度 -->
+			<Arg>	BOOL	</Arg>	<!-- 移动朝向 -->
+		</moveToPosFC>
+		<getRelationEntity/>
+
+		<setFilterLatency>
+		</setFilterLatency>
+	</ClientMethods>
+
+	<CellMethods>
+		<affectPropValue>		<!-- 影响基础属性值（用于给附属 Entity 需要影响自身属性值时调用，譬如骑宠技能影响角色属性，宠物属性等）-->
+			<Arg>			STRING			</Arg>		<!-- propName -->
+			<Arg>			INT32			</Arg>		<!-- delta -->
+			<Arg>			STRING			</Arg>		<!-- calcMethodName -->
+		</affectPropValue>
+
+		<receiveDamage>
+			<Arg>			OBJECT_ID		</Arg>		<!-- casterID -->
+			<Arg>			SKILLID			</Arg>		<!-- skillID -->
+			<Arg>			UINT16			</Arg>		<!-- damageType -->
+			<Arg>			UINT32			</Arg>		<!-- damage -->
+		</receiveDamage>
+
+		<filtrateMarShields>
+		</filtrateMarShields>
+
+		<reboundDamage>
+			<Arg>			OBJECT_ID		</Arg>		<!-- casterID -->
+			<Arg>			SKILLID			</Arg>		<!-- skillID -->
+			<Arg>			UINT32			</Arg>		<!-- damage -->
+			<Arg>			UINT16			</Arg>		<!-- damageType -->
+		</reboundDamage>
+
+		<addHP>	<!-- 增加hp值 -->
+			<Arg>			INT16				</Arg>	<!-- quantity -->
+		</addHP>
+
+		<addMP>	<!-- 增加mp值 -->
+			<Arg>			INT16				</Arg>	<!-- quantity -->
+		</addMP>
+
+		<equipDamage>	<!-- 受击者装备磨损 -->
+			<Arg>			UINT32				</Arg>	<!-- 伤害数值 -->
+		</equipDamage>
+
+		<equipAbrasion>	<!-- 攻击者装备磨损 -->
+			<Arg>			UINT32				</Arg>	<!-- 伤害数值 -->
+		</equipAbrasion>
+
+		<doReceiverOnCure>
+			<Arg>			MAILBOX			</Arg>		<!-- caster -->
+		</doReceiverOnCure>
+
+		<doVictimOnDodge>
+			<Arg>			MAILBOX			</Arg>		<!-- caster -->
+			<Arg>			UINT16			</Arg>		<!-- damageType -->
+		</doVictimOnDodge>
+
+		<doVictimOnHit>
+			<Arg>			MAILBOX			</Arg>		<!-- caster -->
+			<Arg>			UINT16			</Arg>		<!-- damageType -->
+		</doVictimOnHit>
+
+		<doVictimOnDoubleHit>
+			<Arg>			MAILBOX			</Arg>		<!-- caster -->
+			<Arg>			UINT16			</Arg>		<!-- damageType -->
+		</doVictimOnDoubleHit>
+
+		<doVictimOnResistHit>
+			<Arg>			MAILBOX			</Arg>		<!-- caster -->
+			<Arg>			UINT16			</Arg>		<!-- damageType -->
+		</doVictimOnResistHit>
+
+		<doVictimOnDamage>
+			<Arg>			SKILL		</Arg>		<!-- SKILL -->
+			<Arg>			MAILBOX			</Arg>		<!-- caster -->
+			<Arg>			UINT32			</Arg>	<!-- damage -->
+		</doVictimOnDamage>
+
+		<isRealLook>			<!--是否侦测到目标-->
+			<Arg>			OBJECT_ID		</Arg>
+		</isRealLook>
+
+		<addCombatRelationIns>
+			<Arg>	UINT16	</Arg>
+			<Arg>	INT64	</Arg>
+		</addCombatRelationIns>
+
+		<queryCombatRelationIns>
+			<Arg>	UINT16	</Arg>
+			<Arg>	INT64	</Arg>
+		</queryCombatRelationIns>
+
+		<removeCombatRelationIns>
+			<Arg>	UINT16	</Arg>
+			<Arg>	INT64	</Arg>
+		</removeCombatRelationIns>
+
+		<changeRelationMode>
+			<Arg>	UINT8	</Arg>
+		</changeRelationMode>
+		<getRelationEntity/>
+	</CellMethods>
+</root>

@@ -1,0 +1,21 @@
+<root>
+	<Properties>
+		<magicChangeObj>
+			<Type>			MAGIC_CHANGE_DATA			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</magicChangeObj>
+	</Properties>
+
+	<CellMethods>
+		<startMagicChange>
+			<Arg>		STRING		</Arg>
+		</startMagicChange>
+		<stopMagicChange>
+		</stopMagicChange>
+		<startMagicChangeChallenge>
+		</startMagicChangeChallenge>
+		<stopMagicChangeChallenge>
+		</stopMagicChangeChallenge>
+	</CellMethods>
+</root>

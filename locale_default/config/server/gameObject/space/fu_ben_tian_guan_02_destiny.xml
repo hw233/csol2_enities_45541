@@ -1,0 +1,26 @@
+<root>
+		<spaceName>	Ìì¹Ø	</spaceName>
+		<EntityType>	SpaceCopyDestinyTrans	</EntityType>
+		<SpaceType>	SPACE_TYPE_DESTINY_TRANS	</SpaceType>
+		<DomainType>	SpaceDomainDestinyTrans	</DomainType>
+		<script>	SpaceCopyDestinyTrans	</script>
+		<className>	fu_ben_tian_guan_02_destiny	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_tian_guan_02	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<enterPos>
+				<pos>	-121.491,52.199,76.749	</pos>
+				<direction>	0,0,-2.82	</direction>
+			</enterPos>
+			<bossID>
+				<className> 20724080 	</className>
+			</bossID>
+			<spawn>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_tian_guan_02_01.xml	</spawnFile>
+				</item>
+			</spawn>
+		</Space>
+</root>

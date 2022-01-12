@@ -1,0 +1,58 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable> 		true			</Editable>
+		</name>
+		
+		<modelName>	<!-- 模型名称，此模型用于中间转动的圆盘 -->
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable> 		true			</Editable>
+		</modelName>
+
+		<flag>
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable> 		true			</Editable>
+		</flag>
+
+		<patrolPathNode>
+			<!-- 使用此属性代替原来的node属性 -->
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</patrolPathNode>
+		
+		<patrolList>
+			<Type>			PATROL_PATH			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</patrolList>
+
+		<patrolDest>
+			<Type>			VECTOR3				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</patrolDest>
+		<patrolRadius>
+			<Type>      	FLOAT       		</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		5.0  				</Default>
+			<Editable>		true				</Editable>
+		</patrolRadius>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

@@ -1,0 +1,18 @@
+<root>
+	<Parent>	MonsterBelongTeam		</Parent>
+	<ClientName>	MonsterBelongTeam		</ClientName>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	<Properties>
+	</Properties>
+	<CellMethods>
+		<recvSAICommand>
+			<Arg>	UINT16			</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	MAILBOX			</Arg>	
+		</recvSAICommand>
+	</CellMethods>
+</root>

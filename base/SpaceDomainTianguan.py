@@ -1,0 +1,14 @@
+# -*- coding: gb18030 -*-
+
+
+from SpaceDomainCopyTeam import SpaceDomainCopyTeam
+
+class SpaceDomainTianguan( SpaceDomainCopyTeam ):
+	"""
+	´³Ìì¹Ø
+	"""
+	def teleportEntityOnLogin( self, baseMailbox, params ):
+		"""
+		"""
+		baseMailbox.logonSpaceInSpaceCopy()
+

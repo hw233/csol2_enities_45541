@@ -1,0 +1,16 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onEnterWarSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterWarSpace>
+		<closeCityWarRoom>
+			<Arg>	STRING	</Arg>
+		</closeCityWarRoom>
+	</BaseMethods>
+</root>

@@ -1,0 +1,12 @@
+<root>
+	<Properties>
+		<trapRange>
+			<Type>		INT8		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	false		</Persistent>
+		</trapRange>
+	</Properties>
+	<Parent> 				NPCObject				</Parent>
+	<ClientName> 				NPCObject				</ClientName>
+</root>

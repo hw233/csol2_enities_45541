@@ -1,0 +1,16 @@
+# -*- coding: gb18030 -*-
+
+
+
+from CItemBase import CItemBase
+
+
+class CSilverYuanBaoPiao( CItemBase ):
+	"""
+	ÒøÔª±¦Æ±
+	"""
+	def __init__( self, srcData ):
+		CItemBase.__init__( self, srcData )
+		self.set( 'silverYuanbao', int( srcData["param1"] ))
+		
+		

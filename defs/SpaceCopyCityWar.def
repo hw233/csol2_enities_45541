@@ -1,0 +1,37 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<warInfos>
+			<Type>	TONG_CITY_WAR_INFOS	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</warInfos>
+	</Properties>
+
+	<BaseMethods>
+		<closeCityWarRoom/>
+		<onWarOver/>
+	</BaseMethods>
+
+	<CellMethods>
+		<closeCityWarRoom/>
+
+		<onRoleBeKill>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+		</onRoleBeKill>
+		
+		<addTongIntegral>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	UINT32			</Arg>
+		</addTongIntegral>
+		
+		<onRoleRelive>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</onRoleRelive>
+	</CellMethods>
+</root>

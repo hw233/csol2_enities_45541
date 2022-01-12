@@ -1,0 +1,26 @@
+<root>
+		<spaceName>	»ªÉ½Õò	</spaceName>
+		<EntityType>	SpaceCopyDestinyTrans	</EntityType>
+		<SpaceType>	SPACE_TYPE_DESTINY_TRANS	</SpaceType>
+		<DomainType>	SpaceDomainDestinyTrans	</DomainType>
+		<script>	SpaceCopyDestinyTrans	</script>
+		<className>	fu_ben_tian_yong_cheng_destiny	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_tian_yong_cheng	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<enterPos>
+				<pos>	39.575,70.725,170.696	</pos>
+				<direction>	0,0,-1.61	</direction>
+			</enterPos>
+			<bossID>
+				<className> 20742091 	</className>
+			</bossID>
+			<spawn>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_tian_yong_cheng_01.xml	</spawnFile>
+				</item>
+			</spawn>
+		</Space>
+</root>

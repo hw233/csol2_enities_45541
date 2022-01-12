@@ -1,0 +1,18 @@
+<root>
+	<Properties>
+	</Properties>
+	<CellMethods>
+		<itb_removeCrystal>
+			<Exposed/>
+			<Arg>	OBJECT_ID		</Arg> <!--crystalId-->
+		</itb_removeCrystal>
+		<specialStuffCompose>
+			<Exposed/>
+			<Arg>		ARRAY <of> UID </of>	</Arg> <!--crystalId-->
+		</specialStuffCompose>
+		<equipBind>
+			<Exposed/>
+			<Arg>		ARRAY <of> UID </of>	</Arg> <!--crystalId-->
+		</equipBind>
+	</CellMethods>
+</root>

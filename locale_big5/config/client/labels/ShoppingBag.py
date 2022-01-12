@@ -1,0 +1,3 @@
+# -*- coding: cp950 -*-
+
+REPAIRCOST = "­×²z¶O¥Î:"

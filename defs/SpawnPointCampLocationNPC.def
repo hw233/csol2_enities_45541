@@ -1,0 +1,77 @@
+<root>
+	<Parent> 				SpawnPointActivity			</Parent>
+
+	<Properties>
+		<enemyCampClassName>
+			<Type>		STRING					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	false					</Persistent>
+			<Editable>	true					</Editable>
+		</enemyCampClassName>
+		<isOccued>
+			<Type>			UINT8			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</isOccued>
+		<isCount>
+			<Type>			UINT8			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</isCount>
+		<level>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+			<Persistent>		false			</Persistent>
+			<Editable>		true			</Editable>
+		</level>
+		<camp>
+			<Type>			UINT16			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+			<Persistent>		false			</Persistent>
+			<Editable>		true			</Editable>
+		</camp>
+		<spawnList>
+			<Type>		ARRAY <of> OBJECT_ID </of>		</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	false					</Persistent>
+			<Editable>	False				</Editable>
+		</spawnList>
+		<recoverTimer>
+			<Type>		CONTROLLER_ID				</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false					</Persistent>
+		</recoverTimer>
+		<spawnTimer>
+			<Type>		CONTROLLER_ID				</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false					</Persistent>
+		</spawnTimer>
+		<spawnTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	false			</Persistent>
+		</spawnTime>
+		<activityTypes>	<!-- 阵营活动类型 -->
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>	true			</Editable>
+		</activityTypes>
+	</Properties>
+
+	<CellMethods>
+		<onLocationOccuped/>
+		<recoverLocation/>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>

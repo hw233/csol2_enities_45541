@@ -1,0 +1,33 @@
+<root>
+	<EntityType>SpaceCopySunBath</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceSunBath</script>
+	<className>yun_meng_ze_02</className>
+	<dirMapping> universes/yun_meng_ze_02 </dirMapping>
+	<CanPk>	1	</CanPk>
+	<campHonourReward/>			<!-- 有阵营击杀荣誉值奖励;另外在没有配置此字段的地图中，被击杀不计入“被阵营击杀次数” -->
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<CanQieCuo>	1	</CanQieCuo>		<!-- 允许切磋 -->
+	<TimeOfDay>	50160	</TimeOfDay>
+	<spawnFile>	config/server/spawn/yun_meng_ze_02.xml	</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>
+	<maxPlayerAmount>1050</maxPlayerAmount>    
+	<initLine>1</initLine>
+	<newLineByPlayerAmount>400</newLineByPlayerAmount>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<spellNum>		10			</spellNum>	<!-->每次刷新贝壳数量<-->
+	<Space>
+		<spaceBBoxMin>	-31,-130,-366	</spaceBBoxMin>
+		<spaceBBoxMax>	900,700,940	</spaceBBoxMax>
+		<Tomb>
+			<fengming01>
+				<SpaceName>fengming</SpaceName>
+				<Position>910.364 208.160 213.759</Position>
+				<Direction>	0.0 0.0 -180.0	</Direction>	<!-- 复活后的面向方向，暂未实现 -->
+			</fengming01>
+		</Tomb>
+		<deathDepth>	-110	</deathDepth>
+	</Space>
+</root>

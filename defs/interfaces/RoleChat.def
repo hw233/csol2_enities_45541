@@ -1,0 +1,102 @@
+<root>
+	<Properties>
+		<chat_fbds>			<!-- 被屏蔽的频道 -->
+			<Type>		PY_DICT			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	{}				</Default>
+			<Persistent>	true		</Persistent>
+		</chat_fbds>
+	</Properties>
+
+	<BaseMethods>
+		<!-- defined methods -->
+		<chat_handleMessage>
+			<Arg>	UINT8		</Arg>	<!-- channelID : 频道号 -->
+			<Arg>	STRING		</Arg>	<!-- rcvName   : 发言对象名称 -->
+			<Arg>	STRING		</Arg>	<!-- msg	   : 发言内容 -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- blobArgs  : 消息参数列表 -->
+		</chat_handleMessage>
+
+		<chat_lockMyChannels>						<!-- 屏蔽一组发言频道 -->
+			<Arg> ARRAY <of> UINT8 </of> </Arg>		<!-- chids	  : 禁言的频道列表 -->
+			<Arg>		UINT8		 	 </Arg>		<!-- reason   : 禁言原因( csdefine 中定义 ) -->
+			<Arg>		INT64			 </Arg>		<!-- duration : 持续时间 -->
+		</chat_lockMyChannels>
+		<chat_unlockMyChannels>						<!-- 解蔽发言频道 -->
+			<Arg> ARRAY <of> UINT8 </of> </Arg>		<!-- chids  : 频道 id 列表 -->
+			<Arg>		UINT8			 </Arg>		<!-- reason	: 屏蔽原因( csdefine 中定义 ) -->
+		</chat_unlockMyChannels>
+		<chat_lockOthersChannel>		<!-- 屏蔽某人的发言频道 -->
+			<Arg>	STRING		</Arg>	<!-- playerName : 角色名 -->
+			<Arg>	STRING		</Arg>	<!-- chName	    : 频道号 -->
+			<Arg>	UINT32		</Arg>	<!-- dulation   : 屏蔽时间 -->
+		</chat_lockOthersChannel>
+		<chat_unlockOthersChannel>		<!-- 解蔽某人的发言频道 -->
+			<Arg>	STRING		</Arg>	<!-- playerName : 角色名 -->
+			<Arg>	STRING		</Arg>	<!-- chName		: 频道名 -->
+		</chat_unlockOthersChannel>
+
+		<!-- exposed methodds -->
+		<chat_sendMessage>		<!-- chating interface -->
+			<Exposed/>
+			<Arg>	UINT8		</Arg>	<!-- channelID : 频道号 -->
+			<Arg>	STRING		</Arg>	<!-- rcvName   : 发言对象名称 -->
+			<Arg>	STRING		</Arg>	<!-- msg	   : 发言内容 -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- args	   : 消息参数列表 -->
+		</chat_sendMessage>
+		<chat_requireRoleInfo>	<!-- 请求发送指定角色信息( hyw 2008.08.29 ) -->
+			<Exposed/>
+			<Arg>		STRING	</Arg>
+		</chat_requireRoleInfo>
+	</BaseMethods>
+
+	<CellMethods>
+		<!-- defined methods -->
+		<chat_handleMessage>
+			<Arg>	UINT8		</Arg>	<!-- channelID : 频道号 -->
+			<Arg>	STRING		</Arg>	<!-- rcvName   : 发言对象名称 -->
+			<Arg>	STRING		</Arg>	<!-- msg	   : 发言内容 -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- blobArgs  : 消息参数列表 -->
+		</chat_handleMessage>
+
+		<chat_sendRoleInfo>			<!-- base 中要求发送角色信息到指定客户端 -->
+			<Arg>	MAILBOX			</Arg>
+		</chat_sendRoleInfo>
+		<chat_switchFengQi>			<!-- 切换聊天框状态 -->
+			<Exposed/>
+			<Arg>		BOOL			</Arg>
+		</chat_switchFengQi>
+	</CellMethods>
+
+	<ClientMethods>
+		<chat_systemInfo>				<!-- 发送一条简单的文本消息，通过消息前缀来区分发送到的频道（尽量用 statusMessage 代替此方法） -->
+			<Arg>	STRING		</Arg>	<!-- msg : message received -->
+		</chat_systemInfo>
+
+		<chat_onChannelMessage>			<!-- used for receiving chatting message -->
+			<Arg>	UINT8		</Arg>	<!-- channelID : channel id -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- spkID	   : 发言者的 entity ID -->
+			<Arg>	STRING		</Arg>	<!-- spkName   : 发言者的名称 -->
+			<Arg>	STRING		</Arg>	<!-- msg 	   : 发言内容 -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- args	   : 消息参数列表 -->
+		</chat_onChannelMessage>
+		<chat_onReceiveRoleInfo>	<!-- 收到请求的角色信息 -->
+			<Arg>	CHAT_ROLE_INFO		</Arg>
+		</chat_onReceiveRoleInfo>
+		<chat_onRcvOflMessage>		<!-- used for receiving offline message -->
+			<Arg>	UINT8		</Arg>	<!-- channelID : channel id -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- spkID	   : 发言者的 entity ID -->
+			<Arg>	STRING		</Arg>	<!-- spkName   : 发言者的名称 -->
+			<Arg>	STRING		</Arg>	<!-- msg 	   : 发言内容 -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- args	   : 消息参数列表 -->
+			<Arg>	STRING		</Arg>	<!-- sendTime 	   : 消息发送时间 -->
+		</chat_onRcvOflMessage>
+		<chat_onScenarioMsg>		<!-- 服务器发送剧情提示文本 -->
+			<Arg>	STRING		</Arg>	<!-- msg   : 剧情文本 -->
+			<Arg>	BOOL		</Arg>	<!-- visible: 是否隐藏玩家界面-->
+		</chat_onScenarioMsg>
+		<chat_onSwitchFengQi>
+			<Arg>	BOOL		</Arg>	<!-- 切换聊天框锁定状态-->
+		</chat_onSwitchFengQi>
+	</ClientMethods>
+</root>

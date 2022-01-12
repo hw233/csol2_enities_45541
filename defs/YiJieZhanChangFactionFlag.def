@@ -1,0 +1,17 @@
+<root>
+	<Parent>	QuestBox	</Parent>
+
+	<Properties>
+		<ownBattleFaction><!-- 所属战场阵营 -->
+			<Type>			UINT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</ownBattleFaction>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

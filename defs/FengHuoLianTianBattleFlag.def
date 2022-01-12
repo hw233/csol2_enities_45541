@@ -1,0 +1,22 @@
+<root>
+	<Parent>	QuestBox	</Parent>
+
+	<Properties>
+		<ownTongDBID> 
+			<Type>			DATABASE_ID	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownTongDBID>
+		<lastTime> 
+			<Type>			FLOAT	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		false			</Persistent>
+		</lastTime>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

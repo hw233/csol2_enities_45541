@@ -1,0 +1,20 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Implements>
+		<Interface>	SpaceCopyYeWaiInterface		</Interface>
+	</Implements>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<addSpawnPointCopy>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	STRING	</Arg>
+		</addSpawnPointCopy>
+		<spawnMonsters>
+			<Arg>	PY_DICT	</Arg>
+		</spawnMonsters>
+	</BaseMethods>
+</root>

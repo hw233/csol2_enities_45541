@@ -1,0 +1,65 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<spaceKey>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</spaceKey>
+		<matchEnd>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</matchEnd>
+		<matchType>
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</matchType>
+		<roundTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	false			</Persistent>
+		</roundTime>
+		<userTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	false			</Persistent>
+		</userTime>
+		<score>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</score>
+		<battleData>
+			<Type>		AO_ZHAN_QUN_XIONG_DATA	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</battleData>
+		<gFailureDieNum>
+			<Type>		UINT16			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</gFailureDieNum>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<activityStart/>
+		<closeActivity/>
+		<onRoleBeKill>
+			<Arg> MAILBOX	</Arg>
+			<Arg> MAILBOX	</Arg>
+		</onRoleBeKill>
+	</CellMethods>
+</root>

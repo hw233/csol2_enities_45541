@@ -1,0 +1,377 @@
+<root>
+	<row>
+		<id>	0x0001	</id>
+		<text>	按鍵盤"w"@B角色會向前移動 </text>
+		<comment>	向前移動提示	</comment>
+	</row>
+	<row>
+		<id>	0x0002	</id>
+		<text>	按鍵@B盤"A"@B角色會向@B左移@B動 </text>
+		<comment>	向左移動提示	</comment>
+	</row>
+	<row>
+		<id>	0x0003	</id>
+		<text>	按鍵盤"S"角色@B會向後移動 </text>
+		<comment>	向後移動提示	</comment>
+	</row>
+	<row>
+		<id>	0x0004	</id>
+		<text>	按鍵@B盤"D"@B角色會向@B右移@B動 </text>
+		<comment>	向右移動提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0005	</id>
+		<text>	滑鼠左鍵@B單擊地面@B進行移動</text>
+		<style>	7 </style>
+		<comment>	滑鼠點擊地面移動提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0010	</id>
+		<text>	左鍵單擊綠色鏈@B接可以選擇自動@B尋路或引路蜂自@B動到達指定位置。 </text>
+		<style>	4 </style>
+		<icon>	mouse.gui	</icon>
+		<comment>	任務追蹤提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0011	</id>
+		<text>	左鍵單擊綠色鏈@B接可以選擇自動@B尋路或引路蜂自@B動到達指定位置。 </text>
+		<style>	7 </style>
+		<icon>	mouse.gui	</icon>
+		<unframe> true </unframe>
+		<comment>	任務追蹤提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0020	</id>
+		<text>	係統會發放定時獎@B勵。有新手獎勵，@B老玩家在線獎勵。@B總之，你上線就有@B獎勵。這裡記錄了@B今天的獲獎信@B息。 </text>
+		<style>	8 </style>
+		<unframe> 	true	</unframe>
+		<comment>	獎勵界面提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0030	</id>
+		<text>	左鍵點擊“任務”@B圖標或按默認快@B捷鍵“Q”可以@B打開任務界面，@B查看任務情況。 </text>
+		<style>	6 </style>
+		<icon>	mouse.gui	</icon>
+		<comment>	打開任務界面操作提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0031	</id>
+		<text>	左鍵單擊“接受@B任務”按鈕可以@B接受這個任務，@B按“Q”可以查@B看它。 </text>
+		<style>	1 </style>
+		<icon>	mouse.gui	</icon>
+		<comment>	接受任務提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0032	</id>
+		<text>	這裡列出了完成此@B任務您可以獲得的@B獎勵。</text>
+		<style>	7 </style>
+		<unframe> true </unframe>
+		<comment>	任務獎勵提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0033	</id>
+		<text>	左鍵單擊“完成@B任務”按鈕可以@B提交任務並獲得獎勵。</text>
+		<style>	7 </style>
+		<icon>	mouse.gui	</icon>
+		<comment>	完成任務提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0034	</id>
+		<text>	很多任務可以由您自己從@B多種獎勵中選擇一個，左@B鍵單擊物品選中它，@B完成任務後獲得該獎勵。</text>
+		<style>	1 </style>
+		<unframe> true </unframe>
+		<icon>	mouse.gui	</icon>
+		<comment>	可選任務獎勵物品提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0035	</id>
+		<text>	NPC頭上和NPC對話可以@B通過以下標記判斷任務@B的完成情況:@B@I{p=maps/ophelp_icons/option_0.gui}表示已經完成的任務；@B@I{p=maps/ophelp_icons/option_1.gui}表示可以領取的任務；@B@I{p=maps/ophelp_icons/option_2.gui}表示未完成的任務；@B@I{p=maps/ophelp_icons/option_3.gui}表示可以重復的任務；@B@I{p=maps/ophelp_icons/option_4.gui}表示可以直接交物品的任務；</text>
+		<style>	1 </style>
+		<unframe> 	true	</unframe>
+		<comment>	任務標記類型提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0036	</id>
+		<text>	和技能導師對話，@B點@I{p=maps/ophelp_icons/option_5.gui}圖標可以打開@B技能學習界面，學@B習自己職業的技能</text>
+		<style>	5 </style>
+		<unframe> 	true	</unframe>
+		<comment>	技能學習標記提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0040	</id>
+		<text>	左鍵單擊“寵物”@B圖標或按默認快@B捷鍵“P”可以@B打開寵物、坐騎@B界面。 </text>
+		<style>	6 </style>
+		<icon>	mouse.gui	</icon>
+		<comment>	打開騎寵界面	</comment>
+	</row>
+	<row>
+		<id>	0x0041	</id>
+		<text>	左鍵單擊“騎寵”@B分頁按鈕，可以切@B換到騎寵界面，查@B看騎寵屬性。 </text>
+		<comment>	打開騎寵分頁提示	</comment>
+	</row>
+	<row>
+		<id>	0x0042	</id>
+		<text>	在坐騎列表中@B選擇一只坐騎，點“召@B喚”按鈕可以乘坐@B這只坐騎。 </text>
+		<comment>	召喚坐騎提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0043	</id>
+		<text>	你現在獲得了一個坐騎，@B左鍵單擊“包裹”圖標或@B按默認快捷鍵“B”可以@B打開包裹界面，找到它。</text>
+		<comment>	獲得坐騎提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0044	</id>
+		<text>	你現在獲得了一個坐騎，@B右鍵單擊包裹中坐騎的圖@B標可以獲得這只坐騎，打@B開坐騎界面，可以找到它 </text>
+		<comment>騎寵物品召喚提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0045	</id>
+		<text>	滑鼠放在坐騎頭像上可以@B查看它的等級和快樂度，@B左鍵單擊頭像旁邊的@I{p=maps/ophelp_icons/vehicle.gui}@D@B可以收回坐騎 </text>
+		<style>	4 </style>
+		<comment>騎寵物品召喚提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0046	</id>
+		<text>	滑鼠懸停在此圖標上，@B可以查看坐騎提高的移動速@B度，右鍵單擊可以取消騎乘@B狀態，收回坐騎。 </text>
+		<style>	4 </style>
+		<comment>騎寵物品召喚提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0049	</id>
+		<text>	左鍵點擊可以選擇寵物@B模式:@B@I{p=maps/ophelp_icons/defense.gui}@D攻擊正在攻擊主人@B的目標；@B@I{p=maps/ophelp_icons/assault.gui}@D攻擊所有可以攻擊@B的目標；@B@I{p=maps/ophelp_icons/passive.gui}@D等待主人命令，不主@B動攻擊；</text>
+		<style>	6 </style>
+		<comment>	寵物戰鬥模式提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x004a	</id>
+		<text>	左鍵單擊“寵物”@B圖標或按默認快@B捷鍵“P”可以@B打開寵物、坐騎@B界面。 </text>
+		<style>	6 </style>
+		<icon>	mouse.gui	</icon>
+		<comment>	打開寵物界面	</comment>
+	</row>
+
+	<row>
+		<id>	0x004b	</id>
+		<text>	下拉列表列出了您@B所攜帶的寵物。在@B下拉列表中選擇，@B可以選中某一只查@B看屬性或進行操作。 </text>
+		<style>	7 </style>
+		<comment>	寵物下拉列表提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x004c	</id>
+		<text>	選擇一只寵物，點@B擊“出戰”按鈕可@B以放它出來，並且@B幫助你戰鬥。</text>
+		<style>	6 </style>
+		<comment>	寵物出戰按鈕提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x004d	</id>
+		<text>	選擇一只寵物，點@B擊“放生”按鈕可@B以丟棄它，為您的@B新寵物留出空間。 </text>
+		<style>	2 </style>
+		<icon>	mouse.gui	</icon>
+		<comment>	寵物放生按鈕提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x004e	</id>
+		<text>	寵物操作界面:@B@I{p=maps/ophelp_icons/attack.gui}@D可以讓寵物攻擊您的目標；@B@I{p=maps/ophelp_icons/follow.gui}@D可以讓寵物跟隨您；@B@I{p=maps/ophelp_icons/stop.gui}@D可以讓寵物停留在某處；@B@I{p=maps/ophelp_icons/temper.gui}@D顯示寵物快樂度，點擊可@B以馴養它；</text>
+		<style>	6 </style>
+		<comment>	寵物操作提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x004f	</id>
+		<text>	寵物技能設置界面:@B從寵物界面中將寵物@B主動技能拖拽到這裡@B，左鍵點擊可以命令@B寵物施放該技能，右鍵@B點擊可以設置技能是@B否主動施放。</text>
+		<style>	6 </style>
+		<comment>	寵物技能設置提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0050	</id>
+		<text>	右鍵點擊或左鍵按住拖@B動到裝備欄的對應位置，@B可以裝備這件道具。 </text>
+		<style>	4 </style>
+		<comment>	裝備使用提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0051	</id>
+		<text>	右鍵點擊或者將藥品@B拖放到技能快捷欄中按@B對應按鈕可以使用藥@B品，其他可以使用的@B道具使用方法也是如@B此。 </text>
+		<style>	4 </style>
+		<comment>	背包藥品使用提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0052	</id>
+		<text>	選擇一只可以被捕捉@B的寵物作為目標，右@B鍵點擊或則將捕獸器@B拖放到技能快捷中,@B按對應按鈕可以捕捉這@B只寵物 </text>
+		<style>	4 </style>
+		<comment>捕獸器使用提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0060	</id>
+		<text>	左鍵點擊可以選擇它為目@B標。和玩家交流，NPC對@B話，攻擊怪物都需要先選@B擇它為目標。 </text>
+		<comment>	滑鼠移動到 entity 身上時的提示	</comment>
+	</row>
+	<row>
+		<id>	0x0061	</id>
+		<text>	選擇一個怪物作為目標，@B滑鼠再次點擊，或按 1-0@B快捷鍵使用技能可以攻擊@B它。 </text>
+		<comment>	選中怪物後，提示如何攻擊	</comment>
+	</row>
+
+	<row>
+		<id>	0x0062	</id>
+		<text>	左鍵單擊“角色”圖標或@B按默認快捷鍵“E”可以@B打開角色界面。左鍵單擊“包裹”圖標或@B按默認快捷鍵“B”可以@B打開包裹界面。打開這2個界面裝備道具</text>
+		<comment>	選中怪物後，提示如何攻擊	</comment>
+		<style>	7 </style>
+	</row>
+
+	<row>
+		<id>	0x0070	</id>
+		<text>	殺死怪物會獲得物@B品獎勵，左鍵點擊@B地上的紅色箱子@B或在附近按“Z”@B可以打開拾取界面@B拾取箱子中的物品。 </text>
+		<comment>	撿拾掉落提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0071	</id>
+		<text>	打開拾取界面，左鍵@B點擊其中的物品，可@B以將其收入背包中。@B點界面最下方的“全@B部拾取”可以拾取其@B中的所有物品。 </text>
+		<style>	7 </style>
+		<comment>	拾取界面提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0081	</id>
+		<text>	技能列表，綠色字體@B代表達到學習條件的@B技能，紅色字體代表@B條件不足無法學習的@B技能。 </text>
+		<style>	7 </style>
+		<comment>	技能學習條件提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0082	</id>
+		<text>	選中技能的技能信@B息，包括技能作用、@B需要潛能、學習條@B件、技能圖標等。 </text>
+		<style>	7 </style>
+		<comment>	技能學習條件提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0083	</id>
+		<text>	題目答案選項，在您@B認為正確的答案後邊@B的框中單擊滑鼠左鍵@B打鉤。 </text>
+		<style>	1 </style>
+		<comment>	天上人間問答選項提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0084	</id>
+		<text>	如果您不知道題目的@B答案，可以閱讀這裡@B的提示，答案就隱藏@B在這邊。 </text>
+		<style>	1 </style>
+		<comment>	天上人間問答答案提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0085	</id>
+		<text>	進行答題之後，可以@B在這裡選擇進行下一@B題或退出答題。</text>
+		<style>	6 </style>
+		<comment>	天上人間問答操作提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0090	</id>
+		<text>	前三個空格可以擺放@B3個角色技能，開啟@B自動戰鬥之後在符合@B技能施放條件下，會@B自動施放這些技能攻@B擊目標</text>
+		<style>	5 </style>
+		<comment>	自動戰鬥欄角色技能提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0091	</id>
+		<text>	前一個格子放置補充@B生命的藥品，後一個@B格子放置補充法力的@B藥品。如果是收費藥@B或服用靈藥後放置普@B通藥，則可以自動服@B用。</text>
+		<style>	6 </style>
+		<comment>	角色自動補充藥品提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0092	</id>
+		<text>	點“開啟”按鈕或@B“CTRL+Z”可以開啟@B自動戰鬥，自動選擇附@B近目標攻擊。@B點“設置”按鈕可以@B打開自動戰鬥設置界@B面，規劃自動戰鬥。</text>
+		<style>	7 </style>
+		<comment>	自動戰鬥設置提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0093	</id>
+		<text>	前一個格子放置補充@B寵物生命的藥品，後@B一個格子放置補充寵@B物法力的藥品。如果@B是收費藥或服用靈藥@B後放置普通藥，則可@B以自動服用。</text>
+		<style>	6 </style>
+		<comment>	寵物自動補充藥品提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0095	</id>
+		<text>	在這裡填寫自動喝藥@B條件。當條件符合之@B後，會自動使用放置@B在自動戰鬥欄中的藥@B品。如果是普通藥品，@B需要提前服用“靈藥”。</text>
+		<style>	1 </style>
+		<comment>	自動戰鬥補充藥品設置提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0096	</id>
+		<text>	勾選“自動召喚”，@B自動戰鬥可以自動@B召喚寵物出戰。@B勾選“自動馴養”，@B可以根據您設置的自@B動使用補充快樂度。@B要攜帶對應數量和等級的布娃娃。</text>
+		<style>	4 </style>
+		<unframe> true </unframe>
+		<comment>	自動戰鬥寵物設置提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0097	</id>
+		<text>	設置自動戰鬥範圍。</text>
+		<style>	4 </style>
+		<unframe> true </unframe>
+		<comment>	自動戰鬥範圍提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0098	</id>
+		<text>	是否勾選這個選項決@B定了自動戰鬥過程中@B是否會自動拾取周圍@B的物品進入自己包裹。</text>
+		<style>	4 </style>
+		<unframe> true </unframe>
+		<comment>	自動拾取提示提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x0099	</id>
+		<text>	勾選之後，可以自動@B施放增益技能。點擊按鈕@B可以選擇的施放增益@B技能。在下邊選擇施放@B技能的目標。</text>
+		<style>	8 </style>
+		<unframe> true </unframe>
+		<comment>	設置增益技能提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x00a0	</id>
+		<text>	在背包中找到神機匣@B右鍵點擊或左鍵拖拽@B到這個位置，可以裝@B備神機匣，裝備神機@B匣後，左鍵單擊這裡@B可以打開神機匣界面。</text>
+		<style>	5 </style>
+		<unframe> true </unframe>
+		<unframe> true </unframe>
+		<comment>	未裝備神機匣提示	</comment>
+	</row>
+
+	<row>
+		<id>	0x00a1	</id>
+		<text>	裝備神機匣，點擊@B這裡可以打開神機匣界面。</text>
+		<style>	6 </style>
+		<comment>	已裝備神機匣提示	</comment>
+	</row>
+
+</root>

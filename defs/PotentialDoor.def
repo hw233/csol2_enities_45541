@@ -1,0 +1,21 @@
+<root>
+	<Parent> 	SpaceDoor		</Parent>
+	<ClientName>	SpaceDoor		</ClientName>
+
+	<Properties>
+		<ownerVisibleInfos> <!-- 拥有者ID， 拥有者队伍ID -->
+			<Type>		TUPLE <of> OBJECT_ID </of>	</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Default>
+				<item>	0	</item>
+				<item>	0	</item>
+			</Default>
+		</ownerVisibleInfos>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

@@ -1,0 +1,1618 @@
+<root>
+	<entity_1>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.762160 0.000000 0.647384	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.647385 0.000000 0.762161	</row2>
+			<row3>	-7.844902 8.748044 -25.350113	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.822584 0.000000 -0.568633	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.568633 0.000000 0.822585	</row2>
+			<row3>	-37.021206 9.443357 -11.040451	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.822586 0.000000 0.568634	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.568635 0.000000 -0.822587	</row2>
+			<row3>	-29.777672 9.123044 -13.625809	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.744508 -0.180283 0.642802	</row0>
+			<row1>	0.193820 0.979744 0.050297	</row1>
+			<row2>	-0.638852 0.087142 0.764373	</row2>
+			<row3>	-7.178596 7.996092 -15.363701	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.568634 0.000000 -0.822585	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.822585 0.000000 -0.568634	</row2>
+			<row3>	-25.378098 8.763669 -3.166321	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<type>	CollectPoint	</type>
+		<transform>
+			<row0>	0.866302 0.000000 -0.499519	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.499519 0.000000 0.866302	</row2>
+			<row3>	-37.040257 9.267575 -4.738892	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30112125	</className>
+			<rediviousTime>	2100.000000	</rediviousTime>
+			<lineNumber>	1	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<type>	CollectPoint	</type>
+		<transform>
+			<row0>	-0.503499 0.063106 0.861687	</row0>
+			<row1>	0.085849 0.996046 -0.022783	</row1>
+			<row2>	-0.859718 0.062504 -0.506927	</row2>
+			<row3>	-18.512474 8.871450 -12.812897	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30112113	</className>
+			<rediviousTime>	2100.000000	</rediviousTime>
+			<lineNumber>	1	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.903742 0.000000 0.428062	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.428063 0.000000 0.903742	</row2>
+			<row3>	-16.882942 3.886718 9.588826	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.428062 0.000000 -0.903743	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.903743 0.000000 0.428063	</row2>
+			<row3>	-34.564163 4.587890 25.985348	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.081159 0.000000 -0.996696	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.996697 0.000000 -0.081158	</row2>
+			<row3>	-35.281113 7.935545 3.324738	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.563040 -0.161331 0.810521	</row0>
+			<row1>	0.069158 0.986516 0.148320	</row1>
+			<row2>	-0.823524 -0.027456 0.566605	</row2>
+			<row3>	-15.930725 4.255857 40.595821	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.649736 0.068275 -0.757077	</row0>
+			<row1>	0.069158 0.986515 0.148320	</row1>
+			<row2>	0.756997 -0.148727 0.636255	</row2>
+			<row3>	-5.215271 2.917968 24.855478	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.994710 -0.056889 -0.085434	</row0>
+			<row1>	0.069158 0.986515 0.148320	</row1>
+			<row2>	0.075844 -0.153444 0.985234	</row2>
+			<row3>	-12.438126 3.015625 27.945063	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<type>	CollectPoint	</type>
+		<transform>
+			<row0>	-0.259332 0.101085 0.960482	</row0>
+			<row1>	0.072972 0.993715 -0.084880	</row1>
+			<row2>	-0.963026 0.048076 -0.265080	</row2>
+			<row3>	-7.669487 2.805647 40.902836	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30112107	</className>
+			<rediviousTime>	2100.000000	</rediviousTime>
+			<lineNumber>	1	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.999839 -0.017052 -0.005545	</row0>
+			<row1>	0.016914 0.999575 -0.023788	</row1>
+			<row2>	0.005949 0.023691 0.999701	</row2>
+			<row3>	-48.140594 4.437946 80.810509	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.702563 -0.036814 0.710669	</row0>
+			<row1>	0.003246 0.998485 0.054934	</row1>
+			<row2>	-0.711615 0.040903 -0.701378	</row2>
+			<row3>	-19.825294 3.713052 82.935555	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.701861 -0.184734 0.687943	</row0>
+			<row1>	0.167021 0.981541 0.093174	</row1>
+			<row2>	-0.692456 0.049507 0.719760	</row2>
+			<row3>	-43.642879 4.716369 68.340057	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.965452 -0.067478 0.251694	</row0>
+			<row1>	0.067284 0.997690 0.009388	</row1>
+			<row2>	-0.251745 0.007872 0.967761	</row2>
+			<row3>	-30.695694 4.520627 73.125244	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.000894 -0.149881 0.988704	</row0>
+			<row1>	0.056659 0.987124 0.149590	</row1>
+			<row2>	-0.998393 0.055887 0.009374	</row2>
+			<row3>	-28.120789 3.801853 83.027008	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.996897 0.022136 0.075544	</row0>
+			<row1>	0.018949 0.998911 -0.042645	</row1>
+			<row2>	-0.076404 -0.041079 -0.996231	</row2>
+			<row3>	-23.387184 3.176769 93.720345	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.888085 0.196098 -0.415753	</row0>
+			<row1>	0.155706 0.979304 0.129308	</row1>
+			<row2>	0.432507 0.050102 -0.900238	</row2>
+			<row3>	-32.928513 3.499121 96.715523	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<type>	CollectPoint	</type>
+		<transform>
+			<row0>	-0.998853 -0.047814 0.001734	</row0>
+			<row1>	-0.047814 0.996226 -0.072434	</row1>
+			<row2>	0.001735 -0.072434 -0.997371	</row2>
+			<row3>	-35.781509 3.580055 89.323364	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30112101	</className>
+			<rediviousTime>	2100.000000	</rediviousTime>
+			<lineNumber>	1	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.704638 -0.024808 -0.709131	</row0>
+			<row1>	-0.087000 0.988827 -0.121043	</row1>
+			<row2>	0.704211 0.146987 0.694607	</row2>
+			<row3>	-4.669830 1.008353 110.255600	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.860632 -0.066476 -0.504868	</row0>
+			<row1>	0.093769 0.995177 0.028809	</row1>
+			<row2>	0.500518 -0.072134 0.862714	</row2>
+			<row3>	-30.557831 3.356403 115.511147	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.494222 -0.000342 -0.869334	</row0>
+			<row1>	-0.000251 1.000000 -0.000537	</row1>
+			<row2>	0.869334 0.000485 0.494222	</row2>
+			<row3>	-55.629642 4.431528 109.283035	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.862974 -0.020416 -0.504834	</row0>
+			<row1>	0.020726 0.999773 -0.005002	</row1>
+			<row2>	0.504821 -0.006144 0.863202	</row2>
+			<row3>	-46.959911 3.861389 105.131439	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.832511 0.216686 0.509876	</row0>
+			<row1>	0.244146 0.969646 -0.013442	</row1>
+			<row2>	-0.497310 0.113295 -0.860144	</row2>
+			<row3>	-16.733902 2.843454 100.898651	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.006505 0.001912 -0.999976	</row0>
+			<row1>	0.030029 0.999547 0.001716	</row1>
+			<row2>	0.999527 -0.030017 -0.006560	</row2>
+			<row3>	-38.799091 3.584380 111.470421	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20641164	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<type>	SpaceDoor	</type>
+		<transform>
+			<row0>	-0.965940 0.000938 -0.258770	</row0>
+			<row1>	-0.010845 0.998968 0.044106	</row1>
+			<row2>	0.258544 0.045410 -0.964933	</row2>
+			<row3>	-26.083015 2.892580 135.363007	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	</className>
+			<useRectangle>	1	</useRectangle>
+			<radius>	0.000000	</radius>
+			<volume>	9.000000 5.000000 1.000000	</volume>
+			<modelNumber>	gw7123	</modelNumber>
+			<modelScale>	90.000000	</modelScale>
+			<destSpace>	fu_ben_bing_dong_001	</destSpace>
+			<description>	</description>
+			<uname>	</uname>
+			<nickname>	</nickname>
+			<destPosition>	159.151001 0.689000 19.525000	</destPosition>
+			<destDirection>	0.000000 -125.000000 0.000000	</destDirection>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.568632 0.000000 0.822583	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.822584 0.000000 0.568632	</row2>
+			<row3>	2.160189 7.701170 -17.567039	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.996697 0.000000 0.081159	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.081159 0.000000 -0.996698	</row2>
+			<row3>	13.083174 5.042967 -6.917259	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.980448 -0.094664 0.172474	</row0>
+			<row1>	0.069158 0.986516 0.148320	</row1>
+			<row2>	-0.184191 -0.133492 0.973777	</row2>
+			<row3>	1.626986 6.127278 -7.405075	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<type>	CollectPoint	</type>
+		<transform>
+			<row0>	0.498943 -0.078596 0.863063	</row0>
+			<row1>	-0.040621 0.992663 0.113883	</row1>
+			<row2>	-0.865683 -0.091879 0.492090	</row2>
+			<row3>	28.256994 3.165440 -7.919174	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30112119	</className>
+			<rediviousTime>	2100.000000	</rediviousTime>
+			<lineNumber>	1	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.996696 0.000000 -0.081158	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.081159 0.000000 0.996696	</row2>
+			<row3>	37.387440 3.515625 -5.612801	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.081159 0.000000 -0.996696	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.996698 0.000000 -0.081159	</row2>
+			<row3>	13.289944 4.761717 -2.407188	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.824674 -0.000313 -0.565624	</row0>
+			<row1>	0.000472 0.999999 0.000133	</row1>
+			<row2>	0.565622 -0.000373 0.824675	</row2>
+			<row3>	98.520393 -1.874305 -1.223885	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.756997 0.148726 -0.636255	</row0>
+			<row1>	0.069158 0.986516 0.148320	</row1>
+			<row2>	0.649737 0.068276 -0.757077	</row2>
+			<row3>	-0.143875 2.781250 38.219299	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.762158 0.000000 -0.647383	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.647383 0.000000 -0.762159	</row2>
+			<row3>	28.417755 2.638671 2.228388	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.647383 0.000000 -0.762158	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.762159 0.000000 0.647383	</row2>
+			<row3>	43.546768 1.662109 5.159124	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.822584 0.000000 0.568632	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.568634 0.000000 -0.822584	</row2>
+			<row3>	20.826693 0.826172 43.968792	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.428062 0.000000 0.903739	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.903740 0.000000 -0.428060	</row2>
+			<row3>	33.177181 -0.919922 30.768127	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.996695 0.000000 0.081158	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.081159 0.000000 -0.996696	</row2>
+			<row3>	34.212364 -1.294922 45.888653	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.822582 0.000000 0.568630	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.568632 0.000000 -0.822580	</row2>
+			<row3>	45.479324 -2.068359 38.018925	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.822584 0.000000 -0.568634	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.568633 0.000000 0.822585	</row2>
+			<row3>	0.469831 4.384764 2.046211	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.996694 0.000000 0.081158	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.081159 0.000000 -0.996695	</row2>
+			<row3>	49.627071 -2.871093 77.453041	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.996695 0.000000 0.081158	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.081159 0.000000 -0.996695	</row2>
+			<row3>	63.992874 -2.294921 90.803810	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.941728 0.000000 0.336356	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.336357 0.000000 -0.941728	</row2>
+			<row3>	32.272861 -2.337890 60.167877	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<type>	CollectPoint	</type>
+		<transform>
+			<row0>	0.965781 0.000000 0.259355	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.259355 0.000000 0.965781	</row2>
+			<row3>	77.963509 0.363281 62.894936	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30112125	</className>
+			<rediviousTime>	2100.000000	</rediviousTime>
+			<lineNumber>	1	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.568632 0.000000 -0.822584	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.822584 0.000000 -0.568633	</row2>
+			<row3>	77.716316 -2.773437 90.961754	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.081158 0.000000 -0.996694	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.996694 0.000000 -0.081159	</row2>
+			<row3>	89.124496 -2.560546 86.983513	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.822582 0.000000 0.568630	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.568632 0.000000 -0.822580	</row2>
+			<row3>	59.764790 -2.035156 76.381752	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.179571 0.000000 0.983739	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.983740 0.000000 -0.179570	</row2>
+			<row3>	71.693718 -2.175781 81.147942	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.428063 0.000000 0.903742	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.903743 0.000000 -0.428062	</row2>
+			<row3>	42.713833 -2.455078 67.394814	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.568633 0.000000 0.822584	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.822585 0.000000 0.568634	</row2>
+			<row3>	71.189781 -1.044922 50.976059	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.179571 0.000000 0.983739	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.983740 0.000000 -0.179570	</row2>
+			<row3>	72.829498 -0.517578 63.038311	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.983735 0.000000 -0.179571	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.179568 0.000000 -0.983735	</row2>
+			<row3>	50.250458 -1.294922 55.661263	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.568630 0.000000 -0.822581	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.822579 0.000000 -0.568632	</row2>
+			<row3>	62.451710 -1.044922 35.123425	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.081158 0.000000 -0.996691	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.996690 0.000000 -0.081160	</row2>
+			<row3>	58.693699 -2.230468 43.452267	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.330711 -0.162940 0.929552	</row0>
+			<row1>	0.069158 0.986516 0.148320	</row1>
+			<row2>	-0.941188 0.015236 0.337520	</row2>
+			<row3>	13.312272 0.365234 31.559834	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.994711 0.056887 0.085434	</row0>
+			<row1>	0.069158 0.986516 0.148320	</row1>
+			<row2>	-0.075844 0.153445 -0.985235	</row2>
+			<row3>	7.906341 1.625000 35.443394	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20311027	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<type>	CollectPoint	</type>
+		<transform>
+			<row0>	-0.712171 -0.000001 0.702004	</row0>
+			<row1>	-0.000001 0.999998 0.000000	</row1>
+			<row2>	-0.702002 -0.000001 -0.712172	</row2>
+			<row3>	86.347939 -2.100451 95.144447	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30112113	</className>
+			<rediviousTime>	2100.000000	</rediviousTime>
+			<lineNumber>	1	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.650095 -0.002946 -0.759858	</row0>
+			<row1>	0.056975 0.997365 0.044878	</row1>
+			<row2>	0.757724 -0.072465 0.648553	</row2>
+			<row3>	90.357689 -1.916903 1.481524	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.095284 -0.086040 -0.991726	</row0>
+			<row1>	-0.073575 0.994143 -0.079181	</row1>
+			<row2>	0.992731 0.065423 -0.101056	</row2>
+			<row3>	94.761665 -1.643612 21.908978	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.428062 0.000000 -0.903741	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.903742 0.000000 0.428061	</row2>
+			<row3>	76.843765 -2.728515 101.478271	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741015	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.817841 0.000125 -0.575447	</row0>
+			<row1>	0.000170 1.000001 0.000457	</row1>
+			<row2>	0.575447 -0.000470 0.817842	</row2>
+			<row3>	125.682129 -1.882135 -23.670158	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.907287 0.040223 0.418594	</row0>
+			<row1>	-0.052447 0.998467 0.017738	</row1>
+			<row2>	-0.417242 -0.038043 0.908005	</row2>
+			<row3>	123.193550 -1.824749 -6.455025	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.985211 -0.002891 0.171344	</row0>
+			<row1>	0.002148 0.999988 0.004530	</row1>
+			<row2>	-0.171358 -0.004093 0.985205	</row2>
+			<row3>	112.929886 -1.877776 -1.855408	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_67>
+	<entity_68>
+		<type>	CollectPoint	</type>
+		<transform>
+			<row0>	0.965815 -0.001991 0.259229	</row0>
+			<row1>	0.002174 0.999998 -0.000413	</row1>
+			<row2>	-0.259228 0.000963 0.965818	</row2>
+			<row3>	120.192596 -1.877279 -25.900551	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30112119	</className>
+			<rediviousTime>	2100.000000	</rediviousTime>
+			<lineNumber>	1	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_68>
+	<entity_69>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.081744 0.049352 0.995435	</row0>
+			<row1>	-0.021377 0.998631 -0.047754	</row1>
+			<row2>	-0.996430 -0.017372 0.082685	</row2>
+			<row3>	109.224312 -1.789085 41.640842	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_69>
+	<entity_70>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.424498 0.099711 0.899927	</row0>
+			<row1>	0.109735 0.992257 -0.058177	</row1>
+			<row2>	-0.898759 0.074061 -0.432155	</row2>
+			<row3>	125.599442 -1.754947 47.867817	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_70>
+	<entity_71>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.564215 0.034148 -0.824930	</row0>
+			<row1>	0.023218 0.999405 0.025489	</row1>
+			<row2>	0.825311 -0.004769 -0.564671	</row2>
+			<row3>	148.113892 -1.729826 28.348608	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_71>
+	<entity_72>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.075786 0.031681 -0.996628	</row0>
+			<row1>	0.058970 0.997887 0.027236	</row1>
+			<row2>	0.995387 -0.056705 -0.077491	</row2>
+			<row3>	141.485779 -1.794332 35.632732	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_72>
+	<entity_73>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.430833 -0.015968 -0.902299	</row0>
+			<row1>	0.067781 0.997591 0.014709	</row1>
+			<row2>	0.899891 -0.067494 0.430881	</row2>
+			<row3>	133.265289 -1.525773 39.881870	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_73>
+	<entity_74>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.906095 0.048133 0.420340	</row0>
+			<row1>	-0.038966 0.998779 -0.030370	</row1>
+			<row2>	-0.421290 0.011143 0.906863	</row2>
+			<row3>	125.472031 -1.634273 33.900829	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_74>
+	<entity_75>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.343362 0.000006 0.939209	</row0>
+			<row1>	-0.000002 1.000000 -0.000005	</row1>
+			<row2>	-0.939211 0.000004 0.343360	</row2>
+			<row3>	113.631004 -2.090860 21.798483	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_75>
+	<entity_76>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.575390 -0.007396 0.817852	</row0>
+			<row1>	-0.045733 0.998104 0.041202	</row1>
+			<row2>	-0.816608 -0.061106 0.573959	</row2>
+			<row3>	124.412170 -2.091333 24.636530	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_76>
+	<entity_77>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.977989 0.193260 -0.078789	</row0>
+			<row1>	-0.193910 0.981018 -0.000635	</row1>
+			<row2>	0.077166 0.015902 0.996901	</row2>
+			<row3>	124.595947 -1.832419 8.115239	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_77>
+	<entity_78>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	-0.648321 -0.073903 0.757778	</row0>
+			<row1>	-0.050353 0.997261 0.054182	</row1>
+			<row2>	-0.759707 -0.003026 -0.650269	</row2>
+			<row3>	119.243011 -1.846569 41.039417	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_78>
+	<entity_79>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.171929 -0.000001 -0.985111	</row0>
+			<row1>	-0.000002 1.000001 -0.000002	</row1>
+			<row2>	0.985112 0.000005 0.171930	</row2>
+			<row3>	110.843468 -1.840254 30.107578	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_79>
+	<entity_80>
+		<type>	SpaceDoor	</type>
+		<transform>
+			<row0>	0.500021 0.013833 0.865904	</row0>
+			<row1>	0.003030 0.999838 -0.017722	</row1>
+			<row2>	-0.866009 0.011485 0.499900	</row2>
+			<row3>	157.067535 -2.043334 5.297407	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	</className>
+			<useRectangle>	1	</useRectangle>
+			<radius>	0.000000	</radius>
+			<volume>	9.000000 5.000000 1.000000	</volume>
+			<modelNumber>	gw7123	</modelNumber>
+			<modelScale>	90.000000	</modelScale>
+			<destSpace>	fu_ben_bing_dong_003	</destSpace>
+			<description>	</description>
+			<uname>	</uname>
+			<nickname>	</nickname>
+			<destPosition>	200.604004 14.634000 -2.645000	</destPosition>
+			<destDirection>	0.000000 -62.000000 0.000000	</destDirection>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_80>
+	<entity_81>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.183046 -0.018741 -0.982933	</row0>
+			<row1>	0.077833 0.996956 -0.004515	</row1>
+			<row2>	0.980026 -0.075674 0.183949	</row2>
+			<row3>	137.006409 -1.736768 8.699324	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_81>
+	<entity_82>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.982747 -0.049161 0.178325	</row0>
+			<row1>	0.036608 0.996659 0.073022	</row1>
+			<row2>	-0.181321 -0.065232 0.981264	</row2>
+			<row3>	133.527771 -0.899770 -0.104084	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_82>
+	<entity_83>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.903217 -0.001501 0.429192	</row0>
+			<row1>	-0.013709 0.999383 0.032348	</row1>
+			<row2>	-0.428977 -0.035098 0.902638	</row2>
+			<row3>	131.340088 -1.480660 5.512447	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_83>
+	<entity_84>
+		<type>	MonsterSpawnPoint	</type>
+		<transform>
+			<row0>	0.985987 0.051854 0.158578	</row0>
+			<row1>	-0.052328 0.998630 -0.001191	</row1>
+			<row2>	-0.158423 -0.007121 0.987349	</row2>
+			<row3>	101.907333 -1.887011 24.508274	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20121010	</entityName>
+			<rediviousTime>	15.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_84>
+	<entity_85>
+		<type>	CollectPoint	</type>
+		<transform>
+			<row0>	-0.964515 0.045176 0.260139	</row0>
+			<row1>	0.068667 0.994270 0.081929	</row1>
+			<row2>	-0.254948 0.096885 -0.962090	</row2>
+			<row3>	135.202423 -1.987738 45.174740	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30112101	</className>
+			<rediviousTime>	2100.000000	</rediviousTime>
+			<lineNumber>	1	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_85>
+	<entity_86>
+		<type>	CollectPoint	</type>
+		<transform>
+			<row0>	0.498326 0.073683 0.863852	</row0>
+			<row1>	-0.032318 0.997267 -0.066420	</row1>
+			<row2>	-0.866386 0.005181 0.499346	</row2>
+			<row3>	107.614746 -1.841207 30.767166	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30112107	</className>
+			<rediviousTime>	2100.000000	</rediviousTime>
+			<lineNumber>	1	</lineNumber>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_86>
+</root>

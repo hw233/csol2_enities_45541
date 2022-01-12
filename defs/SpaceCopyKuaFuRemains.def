@@ -1,0 +1,27 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+		<addSpawnPoint>
+			<Arg>	PY_DICT		</Arg>
+		</addSpawnPoint>
+		<spawnMonster>
+			<Arg>	PY_DICT		</Arg>
+		</spawnMonster>
+		<openDoor>
+			<Arg>	UINT8	</Arg>
+		</openDoor>
+	</BaseMethods>
+	<CellMethods>
+		<onMonsterDie>
+			<Arg>	PY_DICT	</Arg>
+		</onMonsterDie>
+		<onGodWoodHPChange>
+			<Arg>	UINT32	</Arg>
+			<Arg>	UINT32	</Arg>
+		</onGodWoodHPChange>
+	</CellMethods>
+</root>

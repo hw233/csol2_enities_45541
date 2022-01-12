@@ -1,0 +1,167 @@
+<root>
+	<Properties>
+		<tongCityRecords>
+			<Type>		TONG_CITY_RECORDS	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</tongCityRecords>
+		<tongCityWarFightInfos>
+			<Type>		TONG_CITY_FIGHT_ITEMS	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</tongCityWarFightInfos>
+		<cityRevenue>
+			<Type>		TONG_CITY_REVENUES	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</cityRevenue>
+		<tongChiefRewardRecords>
+			<Type>		ARRAY <of>  DATABASE_ID </of>	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</tongChiefRewardRecords>
+	</Properties>
+
+	<BaseMethods>
+		<onRequestSetCityRevenueRate>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</onRequestSetCityRevenueRate>
+		<onSetCityRevenueRate>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT16		</Arg>
+		</onSetCityRevenueRate>
+		
+		<onSignUpCityWarResult>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	BOOL	</Arg>
+		</onSignUpCityWarResult>
+
+		<onRoleSelectEnterWar>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>	<!-- dbid -->
+		</onRoleSelectEnterWar>
+		
+		<cityWarQueryIsCanSignUp>
+			<Arg>	MAILBOX		</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</cityWarQueryIsCanSignUp>
+
+		<requestContestCityWar>
+			<Arg>	MAILBOX		</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</requestContestCityWar>
+
+		<onEnterCityWarSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterCityWarSpace>
+
+		<registerCityWarDomain>
+			<Arg>	MAILBOX		</Arg>
+		</registerCityWarDomain>
+
+		<onQueryCityTong>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</onQueryCityTong>
+
+		<onQeryCityWarVersus>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</onQeryCityWarVersus>
+
+		<onTongCityWarStart/>
+
+		<onTongCityWarEnd/>
+
+		<onTongCityWarSignUpStart/>
+
+		<onTongCityWarSignUpEnd/>
+			
+		<onCityWarWillSignUpNotify/>
+
+		<onCityWarFinalStartNotify/>
+		
+		<onTongCityWarFinalStart/>
+		<onTakeCityRevenue>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT32		</Arg>
+		</onTakeCityRevenue>
+
+		<onCalcAllCityRevenue/>
+
+		<onViewCityRevenue>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</onViewCityRevenue>
+		
+		<getCityTongChiefReward>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</getCityTongChiefReward>
+		
+		<onGetCityTongChiefRewardSuccess>
+			<Arg>	DATABASE_ID	</Arg>
+		</onGetCityTongChiefRewardSuccess>
+
+		<getCityTongItem>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+		</getCityTongItem>
+
+		<onGetCityTongItemSuccess>
+			<Arg>	DATABASE_ID	</Arg>
+		</onGetCityTongItemSuccess>
+
+		<cityWarIntegralReward>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	INT32		</Arg>
+		</cityWarIntegralReward>
+
+		<getCityTongSkill>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+		</getCityTongSkill>
+		<cityWarSetResult>
+			<Arg>	STRING		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</cityWarSetResult>
+		<cityWarLeave>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</cityWarLeave>
+	
+		<cityWarDelMaster>
+			<Arg>	STRING		</Arg>
+		</cityWarDelMaster>
+
+		<cityWarOnQueryMasterInfo>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MASTER_CHIEF_DATA </Arg>
+		</cityWarOnQueryMasterInfo>
+		<cityWarRegisterMasterSpawnPoint>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</cityWarRegisterMasterSpawnPoint>
+	</BaseMethods>
+</root>

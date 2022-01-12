@@ -1,0 +1,10 @@
+# -*- coding: gb18030 -*-
+
+
+from SpaceDomainCopyTeam import SpaceDomainCopyTeam
+
+class SpaceDomainKuaFuRemains( SpaceDomainCopyTeam ):
+	"""
+	¿ä¸¸Éñµî»î¶¯
+	"""
+	pass

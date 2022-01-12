@@ -1,0 +1,601 @@
+<Root>
+	<Properties>
+		<!--夫妻系统-->
+		<coupleItem> <!--爱人的base mailbox-->
+			<Type>		RELATION_ITEM		</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Persistent>	false		</Persistent>
+		</coupleItem>
+
+		<!--师徒系统-->
+		<masterItem>
+			<Type>		RELATION_ITEM		</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Persistent>	false		</Persistent>
+		</masterItem>
+		<prenticeList>
+			<Type>	ARRAY <of> RELATION_ITEM	</of>	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+		</prenticeList>
+		<allyPlayers> <!-- 结义关系数据 -->
+			<Type>	ARRAY <of> RELATION_ITEM	</of>	</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Persistent>	false		</Persistent>
+		</allyPlayers>
+	</Properties>
+
+	<BaseMethods>
+		<addTeamFriendlyValue>
+			<Arg>	ARRAY <of> DATABASE_ID	</of></Arg>
+		</addTeamFriendlyValue>
+		<rlt_onPlayerLogon>
+			<Arg>	UINT32	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</rlt_onPlayerLogon>
+		<rlt_onPlayerLogout>
+			<Arg>	UINT32	</Arg>
+		</rlt_onPlayerLogout>
+		<addFriend>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</addFriend>
+		<beInvitedForFriend>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	STRING	</Arg>
+		</beInvitedForFriend>
+		<beInvitedToFriend>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	STRING	</Arg>
+		</beInvitedToFriend>
+		<replyForFriendInvite>
+			<Exposed/>
+			<Arg>	BOOL		</Arg>
+		</replyForFriendInvite>
+		<addFriendReplyTrue>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</addFriendReplyTrue>
+		<addFriendSuccess>
+			<Arg>	UINT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</addFriendSuccess>
+		<dstRemoveFriend>
+			<Arg>	UINT32	</Arg>
+		</dstRemoveFriend>
+		<addBlacklist>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</addBlacklist>
+		<removeBlacklist>
+			<Exposed/>
+			<Arg>	UINT32	</Arg>
+		</removeBlacklist>
+		<beAdded2BlackList>
+			<Arg>	UINT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</beAdded2BlackList>
+		 <beUpdated2Blacklist>
+			<Arg>	UINT32	</Arg>
+		</beUpdated2Blacklist>
+		<dstRemoveBlacklist>
+			<Arg>	UINT32	</Arg>
+		</dstRemoveBlacklist>
+		<rlt_addBlacklistRequest>
+			<Arg> MAILBOX	</Arg>
+		</rlt_addBlacklistRequest>
+		<rlt_addBlacklistReply>
+			<Arg> MAILBOX	</Arg>
+			<Arg> DATABASE_ID	</Arg>
+			<Arg> STRING	</Arg>
+		</rlt_addBlacklistReply>
+
+		<removeFriend>
+			<Exposed/>
+			<Arg>	UINT32	</Arg>
+		</removeFriend>
+		<addSweetie>
+			<Arg>	UINT32	</Arg>
+		</addSweetie>
+		<beInvitedSweetie>
+			<Arg>	INT32			</Arg> <!-- 性别 -->
+			<Arg>	UINT32		</Arg>
+		</beInvitedSweetie>
+		<beInvitedToSweetie>
+			<Arg>	UINT32		</Arg>
+		</beInvitedToSweetie>
+		<replyForSweetieInvite>
+			<Exposed/>
+			<Arg> BOOL		</Arg>
+		</replyForSweetieInvite>
+		<addSweetieSuceeded>
+			<Arg>	UINT32	</Arg>
+		</addSweetieSuceeded>
+		<updateRelation2Sweetie>
+			<Arg>	UINT32	</Arg>
+		</updateRelation2Sweetie>
+		<removeSweetie>
+			<Exposed/>
+			<Arg>	UINT32	</Arg>
+		</removeSweetie>
+		<dstRemoveSweetie>
+			<Arg>	UINT32	</Arg>
+		</dstRemoveSweetie>
+		<couple_forceDivorce>
+		</couple_forceDivorce>
+		<requestMarriage>
+			<Arg>	DATABASE_ID	</Arg>
+		</requestMarriage>
+		<couple_swear>
+			<Arg>	DATABASE_ID	</Arg>
+		</couple_swear>
+		<couple_marrySuccess>
+			<Arg>	DATABASE_ID	</Arg>
+		</couple_marrySuccess>
+		<couple_divorceSuccess>
+		</couple_divorceSuccess>
+		<couple_findWeddingRing>
+		</couple_findWeddingRing>
+		<rlt_queryAreaInfo>
+			<Exposed/>
+			<Arg>	UINT16	</Arg>
+		</rlt_queryAreaInfo>
+
+		<addKillerFoe>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</addKillerFoe>
+		<beAddedFoeSuccess>
+			<Arg>	UINT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</beAddedFoeSuccess>
+		<rlt_addFoeRequest>
+			<Arg> MAILBOX	</Arg>
+		</rlt_addFoeRequest>
+		<rlt_addFoeReply>
+			<Arg> MAILBOX	</Arg>
+			<Arg> DATABASE_ID	</Arg>
+			<Arg> STRING	</Arg>
+		</rlt_addFoeReply>
+		<updateRelation2Foe>
+			<Arg>	UINT32	</Arg>
+		</updateRelation2Foe>
+		<updateRelation2Friend>
+			<Arg>	UINT32	</Arg>
+		</updateRelation2Friend>
+		<addFoe>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</addFoe>
+		<removeFoe>
+			<Exposed/>
+			<Arg>	UINT32	</Arg>
+		</removeFoe>
+		<dstRemoveFoe>
+			<Arg>	UINT32	</Arg>
+		</dstRemoveFoe>
+		<rlt_checkAddFriendyValue>
+			<Arg>	DATABASE_ID	</Arg>
+		</rlt_checkAddFriendyValue>
+		<addItemFriendlyValue>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	INT32		</Arg>
+		</addItemFriendlyValue>
+
+		<teach_requestDisband>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</teach_requestDisband>
+		<masterDisbandTeach>
+		</masterDisbandTeach>
+		<prenticeDisbandTeach>
+			<Arg>	DATABASE_ID	</Arg>
+		</prenticeDisbandTeach>
+		<beTeachedSuccess>
+			<Arg>	UINT32	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</beTeachedSuccess>
+		<teach_disband>
+			<Arg>	DATABASE_ID	</Arg>
+		</teach_disband>
+		<masterEndTeach>
+			<Arg>	DATABASE_ID	</Arg>
+		</masterEndTeach>
+		<endTeachSuccess>
+			<Arg>	DATABASE_ID	</Arg>
+		</endTeachSuccess>
+		<teach_requestBeTeached>
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg>
+		</teach_requestBeTeached>
+		<requestBeTeachedResult>
+			<Arg>	UINT16			</Arg>
+		</requestBeTeachedResult>
+		<teach_masterRemoteTeachReply>
+			<Exposed/>
+			<Arg>	BOOL			</Arg> <!--是否同意-->
+		</teach_masterRemoteTeachReply>
+		<teach_prenticeRemoteTeachReply>
+			<Exposed/>
+			<Arg>	BOOL			</Arg> <!--是否同意-->
+		</teach_prenticeRemoteTeachReply>
+		<prenticeRequestBeTeached>
+			<Arg>	STRING	</Arg>
+			<Arg>	MAILBOX			</Arg>
+		</prenticeRequestBeTeached>
+		<teach_beginRemoteTeach>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	MAILBOX			</Arg>
+		</teach_beginRemoteTeach>
+		<remoteTeachSuccess>
+			<Arg>	UINT32	</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	MAILBOX			</Arg>
+		</remoteTeachSuccess>
+		<teach_beginTeach> <!--玩家收徒的接口，把相关信息写到数据库-->
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	STRING			</Arg> <!--玩家名字-->
+			<Arg>	MAILBOX			</Arg> <!--玩家base mailbox-->
+		</teach_beginTeach>
+		<autoTeach_disband>
+			<Arg>	DATABASE_ID		</Arg>
+		</autoTeach_disband>
+
+		<onTongChangeNotifyRelation>
+			<Arg>	STRING			</Arg> <!--帮会名字-->
+		</onTongChangeNotifyRelation>
+		<rlt_allySuccess>
+			<Arg>	ARRAY <of> DATABASE_ID	</of>	</Arg>
+		</rlt_allySuccess>
+		<rlt_requestAlly>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	ARRAY <of> DATABASE_ID	</of>	</Arg>
+		</rlt_requestAlly>
+		<rlt_startAlly>
+			<Arg>	ARRAY <of> DATABASE_ID	</of>	</Arg>
+		</rlt_startAlly>
+		<rlt_changeAllyTitle>
+			<Arg>	STRING	</Arg>
+		</rlt_changeAllyTitle>
+		<receiveAllyTitle>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT8	</Arg>		<!-- reason	: 改变称号原因( csdefine 中定义 ) -->
+		</receiveAllyTitle>
+		<rlt_disbandAlly>
+		</rlt_disbandAlly>
+		<rlt_quitAlly>
+		</rlt_quitAlly>
+		<rlt_memberQuitAlly>
+			<Arg>	UINT32	</Arg>
+		</rlt_memberQuitAlly>
+		<rlt_joinNewAllyMember>
+			<Arg>	ARRAY <of> DATABASE_ID	</of></Arg>
+		</rlt_joinNewAllyMember>
+
+		<requestTeachPrentice>
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg>
+		</requestTeachPrentice>
+		<teach_prenticeReplyTrue>
+			<Arg>	MAILBOX		</Arg>
+		</teach_prenticeReplyTrue>
+		<masterRequestTeach>
+			<Arg>	STRING	</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</masterRequestTeach>
+		<teach_registerTeacher/>
+		<teach_registerPrentice/>
+		<setTeachExtraInfo/>
+		<queryTongGrade>
+			<Exposed/>
+			<Arg>	UINT32	</Arg> <!--relationUID-->
+		</queryTongGrade>
+	</BaseMethods>
+	<CellMethods>
+		<couple_marrySuccess>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</couple_marrySuccess>
+		<couple_dstMarryFalse>
+			<Arg>	OBJECT_ID	</Arg>
+		</couple_dstMarryFalse>
+		<couple_dstForceDivorce> <!--对方强制离婚,设置自己的夫妻数据-->
+		</couple_dstForceDivorce>
+		<rlt_sendPlayerInfo>
+			<Arg>	MAILBOX		</Arg> <!-- base -->
+			<Arg>	UINT32		</Arg> <!-- relationUID -->
+			<Arg>	UINT32		</Arg> <!-- relationUID -->
+			<Arg>	UINT16		</Arg> <!-- relationStatuss -->
+		</rlt_sendPlayerInfo>
+		<beAskedToFriend>
+			<Arg>   MAILBOX		</Arg> <!-- base -->
+			<Arg>	STRING		</Arg> <!-- playerName -->
+		</beAskedToFriend>
+		<addSweetie>
+			<Exposed/>
+			<Arg>	UINT32	</Arg>
+		</addSweetie>
+		<beInvitedToSweetie>
+			<Arg> 	MAILBOX		</Arg>
+			<Arg>	UINT32		</Arg>
+		</beInvitedToSweetie>
+		<addSweetieSuceeded>
+			<Arg>	UINT32	</Arg>
+		</addSweetieSuceeded>
+		<couple_forceDivorce>
+			<Exposed/>
+			<Arg>	STRING		</Arg> <!--dstPlayerName-->
+		</couple_forceDivorce>
+		<couple_dstDivorceFalse>
+		</couple_dstDivorceFalse>
+		<rlt_sendAreaInfo>
+			<Arg>	UINT32	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</rlt_sendAreaInfo>
+		<rlt_requestPlayerInfo>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	UINT32	</Arg>
+		</rlt_requestPlayerInfo>
+		<couple_requestPosition> <!-- 请求伴侣的位置信息 -->
+		</couple_requestPosition>
+		<couple_teleport> <!-- 告诉对方传送到目标位置 -->
+			<Arg>	STRING			</Arg> <!--空间名字-->
+			<Arg>	UINT16			</Arg>
+			<Arg>	POSITION		</Arg> <!--position-->
+			<Arg>	DIRECTION		</Arg> <!--direction-->
+			<Arg>	STRING		</Arg>
+		</couple_teleport>
+		<onHelpmateLogin> <!--伴侣上线 -->
+			<Arg>	MAILBOX			</Arg> <!--BASE MAILBOX-->
+		</onHelpmateLogin>
+		<onHelpmateLogout> <!-- 伴侣下线 -->
+		</onHelpmateLogout>
+		<couple_canMarry>
+			<Arg>	OBJECT_ID		</Arg>
+		</couple_canMarry>
+		<couple_replyForMarriage>
+			<Exposed/>
+			<Arg>	BOOL			</Arg>
+		</couple_replyForMarriage>
+		<couple_replyForDivorce>
+			<Exposed/>
+			<Arg>	BOOL			</Arg>
+		</couple_replyForDivorce>
+		<couple_divorceSuccess> <!--成功离婚-->
+		</couple_divorceSuccess>
+		<couple_findWeddingRing>
+			<Arg>	STRING	</Arg>
+		</couple_findWeddingRing>
+
+		<rlt_checkAddFriendyResult>
+			<Arg>	BOOL			</Arg>
+		</rlt_checkAddFriendyResult>
+		<receiveCoupleInfo>
+			<Arg>	RELATION_ITEM		</Arg>
+		</receiveCoupleInfo>
+		<cancelAgreeCouple>
+			<Exposed/>
+		</cancelAgreeCouple>
+		<receiveTeachInfo>
+			<Arg>	RELATION_ITEM		</Arg>
+			<Arg>	UINT16			</Arg>
+		</receiveTeachInfo>
+		<targetDisbandTeach>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT16		</Arg>
+		</targetDisbandTeach>
+		<teach_disband> <!--玩家解除师徒关系的接口-->
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg> <!--玩家的playerName-->
+		</teach_disband>
+		<endTeachSuccess>
+		</endTeachSuccess>
+		<hadRegisteredTeacher>
+		</hadRegisteredTeacher>
+		<teach_queryTeachInfo>
+			<Exposed/>
+		</teach_queryTeachInfo>
+		<teach_beginRemoteTeach>
+			<Arg>	MAILBOX			</Arg> <!--师父的mailbox-->
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING			</Arg> <!--玩家的playerName-->
+			<Arg>	INT32			</Arg>
+		</teach_beginRemoteTeach>
+		<teach_remoteTeachForMaster>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX			</Arg> <!--师父的mailbox-->
+			<Arg>	STRING			</Arg> <!--玩家的playerName-->
+			<Arg>	INT32			</Arg> <!--判断谁是接受请求的一方-->
+		</teach_remoteTeachForMaster>
+		<teach_receiveAward>
+			<Arg>	UINT8			</Arg>
+		</teach_receiveAward>
+		<teach_prenticeCall> <!-- 告诉对方传送到目标位置 -->
+			<Arg>	STRING		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg> <!--空间名字-->
+			<Arg>	UINT16		</Arg>
+			<Arg>	POSITION		</Arg> <!--position-->
+			<Arg>	DIRECTION		</Arg> <!--direction-->
+		</teach_prenticeCall>
+		<onTeachLogin>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT16		</Arg> <!-- relationStatuss -->
+		</onTeachLogin>
+		<onTeachLogout>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT16		</Arg> <!-- relationStatuss -->
+		</onTeachLogout>
+		<teach_respondPrenticeCall>
+			<Exposed/>
+			<Arg>	BOOL	</Arg>
+		</teach_respondPrenticeCall>
+		<rlt_requestAlly>
+			<Exposed/>
+		</rlt_requestAlly>
+		<rlt_newMemberJoinAlly>
+			<Exposed/>
+		</rlt_newMemberJoinAlly>
+		<rlt_changeAllyTitle>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</rlt_changeAllyTitle>
+		<rlt_allyCheckResult>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT16	</Arg>
+			<Arg>	PYTHON	</Arg>
+		</rlt_allyCheckResult>
+		<receiveAllyInfo>
+			<Arg>	RELATION_ITEM	</Arg>
+		</receiveAllyInfo>
+		<rlt_quitAlly>
+			<Exposed/>
+		</rlt_quitAlly>
+		<rlt_memberQuitAlly>
+			<Arg>	DATABASE_ID	</Arg>
+		</rlt_memberQuitAlly>
+		<rlt_disbandAlly>
+		</rlt_disbandAlly>
+		<onAllyTitleChanged>
+			<Arg>	STRING	</Arg>
+		</onAllyTitleChanged>
+		<rlt_allySuccess>
+			<Arg>	ARRAY <of> DATABASE_ID	</of>	</Arg>
+		</rlt_allySuccess>
+		<teach_enterKillMonsterSpaceSuccess>
+		</teach_enterKillMonsterSpaceSuccess>
+		<teach_deregisterTeachInfo>
+		</teach_deregisterTeachInfo>
+		<teach_registerTeacher>
+			<Arg>	INT32	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</teach_registerTeacher>
+		<teach_registerPrentice>
+			<Arg>	FLOAT	</Arg>
+		</teach_registerPrentice>
+		<onSendTongGrade>
+			<Arg>	UINT32		</Arg> <!--relationUID-->
+			<Arg>	MAILBOX		</Arg> <!--玩家mailbox-->
+		</onSendTongGrade>
+		<autoDisbandSuccess>
+			<Arg>	DATABASE_ID	</Arg>
+		</autoDisbandSuccess>
+	</CellMethods>
+	<ClientMethods>
+		<friendlyValueChanged>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT32		</Arg>
+		</friendlyValueChanged>
+		<endRelationUpdate>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT16		</Arg>
+		</endRelationUpdate>
+		<couple_divorceSuccess> <!--成功离婚-->
+		</couple_divorceSuccess>
+		<rtf_receiveNameInfo>
+			<Arg>	STRING		</Arg> <!-- name -->
+			<Arg>	UINT32		</Arg> <!--  -->
+			<Arg>	UINT32		</Arg> <!--  -->
+			<Arg>	UINT16		</Arg> <!--  -->
+		</rtf_receiveNameInfo>
+		<rlt_receivePlayerInfo>
+			<Arg>	UINT32		</Arg> <!--  -->
+			<Arg>	STRING		</Arg> <!-- name -->
+			<Arg>	UINT8		</Arg> <!-- level -->
+			<Arg>	INT32		</Arg> <!-- raceClass -->
+			<Arg>	STRING		</Arg> <!-- tongName -->
+			<Arg>	UINT32		</Arg> <!--  -->
+			<Arg>	UINT32		</Arg> <!-- headTextureID -->
+			<Arg>	UINT16		</Arg> <!--  -->
+		</rlt_receivePlayerInfo>
+		<rlt_playerLogon>
+			<Arg>	UINT32		</Arg> <!--  -->
+			<Arg>	UINT8		</Arg> <!-- level -->
+			<Arg>	INT32		</Arg> <!-- raceClass -->
+			<Arg>	STRING		</Arg> <!-- tongName -->
+			<Arg>	UINT32		</Arg> <!-- headTextureID -->
+		</rlt_playerLogon>
+		<beAskedForFriend>
+			<Arg>	STRING	</Arg>
+		</beAskedForFriend>
+		<beInvitedSweetie>
+			<Arg>	UINT32	</Arg>
+		</beInvitedSweetie>
+		<rlt_offlineUpdate>
+			<Arg>	UINT32	</Arg>
+		</rlt_offlineUpdate>
+		<askForMarriage>
+			<Arg>	UINT32		</Arg> <!--  -->	
+		</askForMarriage>
+		<couple_requestDivorce>
+		</couple_requestDivorce>
+		<couple_requestForceDivorce>
+		</couple_requestForceDivorce>
+		<rlt_receiveAreaInfo>
+			<Arg>	UINT32		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	POSITION		</Arg> <!-- position -->
+			<Arg>	UINT16		</Arg> <!-- 哪一线 -->
+		</rlt_receiveAreaInfo>
+		<rlt_onLevelChanged>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT16		</Arg>
+		</rlt_onLevelChanged>
+		<rtf_relationUpdate>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT16		</Arg>
+		</rtf_relationUpdate>
+
+		<teach_receiveTeachInfo>
+			<Arg>	PYTHON	</Arg>
+			<Arg>	INT32		</Arg>
+		</teach_receiveTeachInfo>
+		<teach_requestDisband>
+		</teach_requestDisband>
+		<teach_prenticeCall>
+			<Arg>	STRING	</Arg>
+		</teach_prenticeCall>
+		<showTeachInfo>
+		</showTeachInfo>
+		<prenticeRequestBeTeached>
+			<Arg>	STRING	</Arg>
+		</prenticeRequestBeTeached>
+		<onRealtionTongChanged>
+			<Arg>	UINT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</onRealtionTongChanged>
+		<onReceiveTongGrade>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT8		</Arg>
+		</onReceiveTongGrade>
+		<receiveAllyTitle>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT8		</Arg>		<!-- reason	: 改变称号原因( csdefine 中定义 ) -->
+		</receiveAllyTitle>
+		<rlt_askForJoinAllyMember>
+		</rlt_askForJoinAllyMember>
+		<rlt_askForStartAlly>
+		</rlt_askForStartAlly>
+		<rlt_askForChangeAllyTitle>
+		</rlt_askForChangeAllyTitle>
+		<rlt_askForQuitAlly>
+		</rlt_askForQuitAlly>
+		<masterRequestTeach>
+			<Arg>	STRING	</Arg>
+		</masterRequestTeach>
+	</ClientMethods>
+</Root>

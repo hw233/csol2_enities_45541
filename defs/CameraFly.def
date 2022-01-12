@@ -1,0 +1,34 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+	</Volatile>
+
+	<Properties>
+		<eventID>
+			<Type>		UINT16			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</eventID>
+		<isReady>
+			<Type>		BOOL			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+		</isReady>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>
+
+
+

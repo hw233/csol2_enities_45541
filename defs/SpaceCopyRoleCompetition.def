@@ -1,0 +1,20 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<gradeList>		
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</gradeList>
+	</Properties>
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<addRoleKillerCount>
+			<Arg>	INT32	</Arg>			<!-- playerID -->
+			<Arg>	INT16	</Arg>			<!-- playerDBID -->
+		</addRoleKillerCount>
+		<noticeGrade/>
+	</CellMethods>
+</root>

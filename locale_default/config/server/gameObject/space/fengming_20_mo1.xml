@@ -1,0 +1,22 @@
+<root>
+	<EntityType>SpaceCopyStarMap</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopyStarMap</script>
+	<className>fengming_20_mo1</className>
+	<dirMapping> universes/feng_ming_20 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fengming_20_mo1.xml		</spawnFile>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<Space>
+		<spaceBBoxMin>	 -351,	-100,	-958 </spaceBBoxMin>
+		<spaceBBoxMax>	 863,300,236 </spaceBBoxMax>
+		<deathDepth>	 -50 </deathDepth>
+	</Space>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>                                  		
+	<initLine>1</initLine>
+	<maxPlayerAmount>525</maxPlayerAmount>                           
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 	
+</root>

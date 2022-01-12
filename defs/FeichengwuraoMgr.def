@@ -1,0 +1,40 @@
+<root>
+	<Properties>
+		
+	</Properties>
+	<BaseMethods>
+		<queryLoveMsgByIndex>				<!-- 取一条信息 -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT32		</Arg>		<!-- 索引 -->
+		</queryLoveMsgByIndex>
+		<queryLoveMsgsByRange>				<!-- 取一组信息 -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT32		</Arg>		<!-- 一组的索引 -->
+		</queryLoveMsgsByRange>
+		<queryLoveMsgsByReceiverName>			<!-- 取一组信息 -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>		<!-- 收件人名字 -->
+		</queryLoveMsgsByReceiverName>
+		<queryLoveMsgsBySenderName>			<!-- 取一组信息 -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>		<!-- 发件人名字 -->
+		</queryLoveMsgsBySenderName>
+		<addLoveMsg>	
+			<Arg>	LOVE_MSG	</Arg>		<!-- 一组的索引 -->
+		</addLoveMsg>
+		<voteLoveMsg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>		<!-- 投票人名字 -->
+			<Arg>	UINT32		</Arg>		<!-- 索引 -->
+			<Arg>	UINT8		</Arg>		<!-- 投票项 -->
+		</voteLoveMsg>
+		<onStart/>
+		<onEnd/>
+		<onHandle_result/>
+		<cleanAllDatas/>
+		<queryLoveMsgsResult>
+			<Arg>	MAILBOX		</Arg>
+		</queryLoveMsgsResult>
+	</BaseMethods>
+</root>

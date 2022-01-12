@@ -1,0 +1,47 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<waitDestroy>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</waitDestroy>
+		<createTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</createTime>
+		<copyKey>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</copyKey>
+		<copyStatBoss>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</copyStatBoss>
+		<copyStatMonster>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</copyStatMonster>
+	</Properties>
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<onCloseMapsCopy/>
+		<setCopyKillBoss>
+			<Arg> UINT32	</Arg>
+		</setCopyKillBoss>
+		<setCopyKillMonster>
+			<Arg> UINT32	</Arg>
+		</setCopyKillMonster>
+
+		<onAllCopyMonsterkilled>
+			<Arg>	STRING	</Arg>
+		</onAllCopyMonsterkilled>
+	</CellMethods>
+</root>

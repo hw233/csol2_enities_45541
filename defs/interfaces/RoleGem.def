@@ -1,0 +1,72 @@
+<root>
+	<Properties>
+		<gemActive> <!--经验宝石激活标记-->
+			<Type>		UINT8		</Type>
+			<Flags>		OWN_CLIENT	</Flags>
+			<Persistent>	true		</Persistent>
+		</gemActive>
+		<roleTrainGem> <!-- 玩家代练经验宝石 -->
+			<Type>		ROLE_TRAIN_GEM	</Type>
+			<Flags>		OWN_CLIENT	</Flags>
+			<Persistent>	true		</Persistent>
+		</roleTrainGem>
+		<roleCommonGem>	<!-- 玩家领取的经验宝石 -->
+			<Type>	ARRAY <of> ROLE_COMMON_GEM </of></Type>
+			<Flags>	OWN_CLIENT		</Flags>
+			<Persistent>	false		</Persistent>
+		</roleCommonGem>
+	</Properties>
+
+	<ClientMethods>
+		<onUpdateRoleGem>	<!-- 玩家经验宝石数据更新 -->
+			<Arg>	INT8			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	PYTHON			</Arg>
+		</onUpdateRoleGem>
+		<gem_offload>	<!-- 玩家卸下经验宝石成功的通知 -->
+			<Arg>	INT8			</Arg> <!-- index -->
+		</gem_offload>
+		<gem_loadComGem>	<!-- 玩家卸下经验宝石成功的通知 -->
+			<Arg>	INT8			</Arg> <!-- index -->
+		</gem_loadComGem>
+	</ClientMethods>
+
+	<CellMethods>
+		<gem_charge>	<!-- 给代练宝石充值 -->
+			<Arg>	UINT32			</Arg>
+		</gem_charge>
+		<gem_startTrain>	<!-- 开始代练 -->
+			<Exposed/>
+			<Arg>	UINT8			</Arg>
+		</gem_startTrain>
+		<gem_stopTrain>	<!-- 停止代练 -->
+			<Exposed/>
+		</gem_stopTrain>
+		<gem_derive>	<!-- 从代练宝石汲取经验 -->
+			<Exposed/>
+		</gem_derive>
+		<gem_hire>	<!-- 租用经验宝石 -->
+			<Exposed/>
+			<Arg>	INT8			</Arg>
+			<Arg>	INT64			</Arg>
+		</gem_hire>
+		<gem_endHire>	<!-- 中止租用经验宝石 -->
+			<Exposed/>
+			<Arg>	INT8			</Arg>
+		</gem_endHire>
+		<gem_updateTrain>	<!-- 请求更新代练宝石数据 -->
+			<Exposed/>
+		</gem_updateTrain>
+	</CellMethods>
+
+	<BaseMethods>
+		<gem_charge>	<!-- 给代练宝石充值 -->
+			<Exposed/>
+			<Arg>	UINT32			</Arg>
+		</gem_charge>
+		<gem_chargeCB>
+			<Arg>	UINT32			</Arg>
+			<Arg>	BOOL				</Arg>
+		</gem_chargeCB>
+	</BaseMethods>
+</root>

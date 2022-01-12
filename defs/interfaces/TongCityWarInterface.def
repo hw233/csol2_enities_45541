@@ -1,0 +1,51 @@
+<root>
+	<Properties>
+		<getHoldCityRevenueData>
+			<Type>			STRING	 	</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</getHoldCityRevenueData>
+	</Properties>
+	<BaseMethods>
+		<setHoldCity>
+			<Arg>	STRING				</Arg>	<!-- dbid -->
+			<Arg>	BOOL				</Arg>
+		</setHoldCity>
+
+		<onContestCityWar>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	UINT16				</Arg>
+			<Arg>	UINT32				</Arg>
+			<Arg>	STRING				</Arg>
+		</onContestCityWar>
+		
+		<onNotifyTongCityWarEnd>
+		</onNotifyTongCityWarEnd>
+
+		<onCityWarBuyMachine>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	INT16				</Arg>
+			<Arg>	MAILBOX				</Arg>
+			<Arg>	VECTOR3				</Arg>
+		</onCityWarBuyMachine>
+
+		<buildCityWarTower>
+			<Arg>	DATABASE_ID			</Arg>	<!-- dbid -->
+			<Arg>	INT16				</Arg>
+			<Arg>	MAILBOX				</Arg>
+		</buildCityWarTower>
+		
+		<onCityWarIntegralRewar>
+			<Arg>	UINT32				</Arg>
+		</onCityWarIntegralRewar>
+
+		<requestCityTongRevenue>
+			<Arg>	STRING				</Arg>
+			<Arg>	DATABASE_ID			</Arg>
+		</requestCityTongRevenue>
+
+		<onGetCityTongRevenue>
+			<Arg>	DATABASE_ID			</Arg>
+		</onGetCityTongRevenue>
+	</BaseMethods>
+</root>

@@ -1,0 +1,35 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<copyUserTimers>
+			<Type>		PY_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>	{}		</Default>
+		</copyUserTimers>
+		<_delayActionUserArg>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>	0		</Default>
+		</_delayActionUserArg>
+		<copyShareTempMapping>
+			<Type>			MAPPING		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	false		</Persistent>
+		</copyShareTempMapping>
+	</Properties>
+	<BaseMethods>
+		<copyTemplate_addSpawnPoint>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT8	</Arg>
+		</copyTemplate_addSpawnPoint>
+		<spawnMonsters>
+			<Arg>	PY_DICT	</Arg>
+		</spawnMonsters>
+	</BaseMethods>
+	<CellMethods>
+
+	</CellMethods>
+</root>

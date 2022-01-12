@@ -1,0 +1,10 @@
+# -*- coding: gb18030 -*-
+
+from SpawnPointActivity import SpawnPointActivity
+
+class SpawnPointNormalActivity( SpawnPointActivity ):
+	"""
+	Ó¢ÐÛÁªÃËPVP BOSSË¢ÐÂµã
+	"""
+	def initEntity( self, selfEntity ):
+		SpawnPointActivity.initEntity( self, selfEntity )

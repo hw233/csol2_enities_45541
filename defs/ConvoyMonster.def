@@ -1,0 +1,23 @@
+<root>
+	<Properties>
+		<ownerID>				<!-- 关联的玩家ID -->
+			<Type>		INT32		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	false		</Persistent>
+		</ownerID>
+		<ownerName>				<!-- 关联的玩家ID -->
+			<Type>		STRING		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	false		</Persistent>
+		</ownerName>
+	</Properties>
+	<Parent> 				Monster					</Parent>
+	<ClientName> 				ConvoyMonster					</ClientName>
+
+	<CellMethods>		
+		<defDestroy>
+		</defDestroy>
+	</CellMethods>
+</root>

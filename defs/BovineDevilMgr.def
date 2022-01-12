@@ -1,0 +1,14 @@
+<root>
+	<Properties>
+		
+	</Properties>
+	<Implements>
+		<Interface>	NormalActivityManager			</Interface>
+	</Implements>
+	<BaseMethods>
+		<setGMSpaceName>
+			<Arg>	STRING	</Arg>
+		</setGMSpaceName>
+	</BaseMethods>
+
+</root>

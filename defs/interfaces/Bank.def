@@ -1,0 +1,293 @@
+<root>
+	<Properties>
+		<bankBags> <!--钱庄存储空间-->
+			<Type>		KITBAGS		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</bankBags>
+
+		<bankItemsBag> <!--钱庄存储空间-->
+			<Type>		KITBAG		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</bankItemsBag>
+
+		<bankMoney> <!--钱庄存储的金钱-->
+			<Type>		UINT32		</Type>
+			<Flags>		OWN_CLIENT	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true		</Persistent>
+		</bankMoney>
+
+		<!--钱庄密码锁功能-->
+		<bankPassword> <!--钱庄的密码-->
+			<Type>		STRING		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	true		</Persistent>
+		</bankPassword>
+		<bankUnlockLimitTime> <!--限制钱庄解锁行为时间-->
+			<Type>		INT32		</Type>
+			<Flags>		OWN_CLIENT	</Flags>
+			<Persistent>	true		</Persistent>
+		</bankUnlockLimitTime>
+		<bankForceUnlockLimitTime> <!--强制解锁钱庄剩余时间-->
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	true		</Persistent>
+		</bankForceUnlockLimitTime>
+		<bankLockerStatus> <!--密码锁状态数据-->
+			<Type>		UINT8		</Type>
+			<Flags>		OWN_CLIENT	</Flags>
+			<Persistent>	false		</Persistent>
+		</bankLockerStatus>
+		<bankNameList> <!--包裹名列表-->
+			<Type>		ARRAY <of> STRING	</of></Type>
+			<Flags>		BASE_AND_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</bankNameList>
+	</Properties>
+
+	<ClientMethods>
+		<enterBank> <!--打开钱庄系统的客户端接口-->
+			<Arg>	INT32		</Arg> <!--NPC编号-->
+		</enterBank>
+		<bank_activateBagSuccess> <!--激活包裹成功的通知-->
+		</bank_activateBagSuccess>
+		<bank_receiveBaseData> <!--获得钱庄物品数据-->
+			<Arg>	INT8		</Arg> <!-- 包裹位号 -->
+			<Arg>	ARRAY <of> ITEM </of></Arg>
+		</bank_receiveBaseData>
+
+		<bank_delItemUpdate> <!--删除一个钱庄物品的更新函数-->
+			<Arg>	UINT8		</Arg> <!--bankBagNum-->
+			<Arg>	INT16		</Arg> <!--order-->
+		</bank_delItemUpdate>
+		<bank_storeItemUpdate> <!--背包往钱庄存储一个物品的更新函数-->
+			<Arg>	ITEM		</Arg> <!--item-->
+		</bank_storeItemUpdate>
+		<bank_splitItemUpdate> <!--拆分一个钱庄物品的更新函数,更新源格子物品的数目-->
+			<Arg>	UINT8		</Arg> <!--包裹位-->
+			<Arg>	INT16		</Arg> <!--格子号-->
+			<Arg>	INT16		</Arg> <!--数目-->
+		</bank_splitItemUpdate>
+		<moveItemCB> <!--交换两个道具的位置的客户端回调-->
+			<Arg>	UINT8		</Arg> <!--bankBagNum-->
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	UINT8		</Arg> <!--bankBagNum-->
+			<Arg>	INT16		</Arg> <!--order-->
+		</moveItemCB>
+		<bank_lockerNotify> <!--钱庄密码锁功能统一通知函数-->
+			<Arg>	UINT8		</Arg> <!--根据此数据选择通知的类型-->
+			<Arg>	UINT32		</Arg> <!--解锁限制期限剩余时间：秒-->
+		</bank_lockerNotify>
+		<bank_bagNameUpdate> <!--包裹名更新通知-->
+			<Arg>	UINT8		</Arg> <!--包裹索引-->
+			<Arg>	STRING		</Arg> <!--包裹名-->
+		</bank_bagNameUpdate>
+		<noticeFailure>
+		</noticeFailure>
+
+		<openGoldToItemInterface>
+		</openGoldToItemInterface>
+		<bank_onConfirmForceUnlock><!-- 仓库强制解锁确认-->
+		</bank_onConfirmForceUnlock>
+	</ClientMethods>
+
+	<CellMethods>
+		<!---------------------------------往钱庄里存物品 BEGIN------------------------------------------->
+		<bank_storeItem2Order>
+			<Exposed/>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_storeItem2Order>
+		<bank_storeItem2Bag>
+			<Exposed/>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	UINT8		</Arg> <!--bankBagNum-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_storeItem2Bag>
+		<bank_storeItem2Bank>
+			<Exposed/>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_storeItem2Bank>
+
+		<bank_storeItemSuccess01>
+			<Arg>	INT16		</Arg> <!--order-->
+		</bank_storeItemSuccess01>
+		<bank_storeItemSuccess02>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg> <!--item-->
+		</bank_storeItemSuccess02>
+		<!---------------------------------往钱庄里存物品 END------------------------------------------->
+
+		<!---------------------------------从钱庄里取物品 BEGIN------------------------------------------->
+		<bank_fetchItem2Order>
+			<Exposed/>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_fetchItem2Order>
+		<bank_fetchItem2Kitbags>
+			<Exposed/>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_fetchItem2Kitbags>
+
+		<bank_fetchItem2OrderCB>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg> <!--item-->
+			<Arg>	INT16		</Arg> <!--order-->
+		</bank_fetchItem2OrderCB>
+		<bank_fetchItem2KitbagsCB>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg> <!--item-->
+		</bank_fetchItem2KitbagsCB>
+		<!---------------------------------从钱庄里取物品 END------------------------------------------->
+
+		<bank_destroyItem> <!--销毁一个物品-->
+			<Exposed/>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_destroyItem>
+		<bank_moveItem> <!--在同一个包裹中移动一个物品-->
+			<Exposed/>
+			<Arg>	INT16		</Arg> <!--srcOrder-->
+			<Arg>	INT16		</Arg> <!--dstOrder-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_moveItem>
+		<bank_storeMoney> <!--玩家往钱庄存储金钱的接口-->
+			<Exposed/>
+			<Arg>	UINT32		</Arg> <!--money-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_storeMoney>
+		<bank_fetchMoney> <!--玩家从钱庄取出金钱的接口-->
+			<Exposed/>
+			<Arg>	UINT32		</Arg> <!--money-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_fetchMoney>
+		<bank_unfreezeBag>
+			<Arg>	UINT8		</Arg>
+		</bank_unfreezeBag>
+		<bank_storeItemFailed>
+			<Arg>	INT16		</Arg>
+		</bank_storeItemFailed>
+		<onBank_activateBagSuccess>
+			<Arg>	UINT8		</Arg>
+		</onBank_activateBagSuccess>
+		<bank_activateBag>
+			<Exposed/>
+		</bank_activateBag>
+		<bank_changeGoldToItem>
+			<Arg>	INT32		</Arg> <!--金元宝 数目-->
+		</bank_changeGoldToItem>
+		<!-----------------------------------钱庄密码锁功能  BEGIN------------------------------------------->
+		<bank_setPassword> <!--设置、修改钱庄密码都使用此接口。钱庄密码为空时，srcPassword值为"",修改密码时srcPassword值为 玩家的旧密码-->
+			<Exposed/>
+			<Arg>	STRING		</Arg> <!--srcPassword-->
+			<Arg>	STRING		</Arg> <!--password-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_setPassword>
+		<bank_lock> <!--给钱庄上锁-->
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_lock>
+		<bank_unlock> <!--给钱庄解锁-->
+			<Exposed/>
+			<Arg>	STRING		</Arg> <!--password-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_unlock>
+		<bank_clearPassword> <!--给钱庄永久解锁-->
+			<Exposed/>
+			<Arg>	STRING		</Arg> <!--password-->
+			<Arg>	OBJECT_ID	</Arg> <!--钱庄npc的id-->
+		</bank_clearPassword>
+		<bank_onForceUnlock><!--给仓库强制解锁-->
+			<Exposed/>
+		</bank_onForceUnlock>
+		<!-----------------------------------钱庄密码锁功能  END------------------------------------------->
+	</CellMethods>
+
+
+	<BaseMethods>
+		<bank_requestBankBag>
+			<Exposed/>
+			<Arg>	UINT16		</Arg>
+		</bank_requestBankBag>
+		<bank_activateBag>
+			<Arg>	UINT16		</Arg>
+		</bank_activateBag>
+
+		<bank_changeName>
+			<Exposed/>
+			<Arg>	UINT8		</Arg>
+			<Arg>	STRING		</Arg>
+		</bank_changeName>
+		<bank_fetchItemFailed>
+			<Arg>	INT16		</Arg>
+		</bank_fetchItemFailed>
+		<!---------------------------------往钱庄里存物品 BEGIN----------------------------------->
+		<bank_storeItem2Order>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg> <!--item-->
+			<Arg>	INT16		</Arg> <!--order-->
+		</bank_storeItem2Order>
+
+		<bank_storeItem2Bank>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg> <!--item-->
+		</bank_storeItem2Bank>
+		<bank_storeItem2Bag>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg> <!--item-->
+			<Arg>	UINT8		</Arg> <!--bankBagNum-->
+		</bank_storeItem2Bag>
+
+		<!---------------------------------往钱庄里存物品 BEGIN---------------------------------->
+
+		<!---------------------------------从钱庄里取物品 BEGIN---------------------------------->
+		<bank_fetchItem2Order>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	INT16		</Arg> <!--order-->
+		</bank_fetchItem2Order>
+		<bank_fetchItem2Kitbags>
+			<Arg>	INT16		</Arg> <!--order-->
+		</bank_fetchItem2Kitbags>
+
+		<bank_fetchItemSuccess01>
+			<Arg>	INT16		</Arg> <!--order-->
+		</bank_fetchItemSuccess01>
+		<bank_fetchItemSuccess02>
+			<Arg>	INT16		</Arg> <!--order-->
+			<Arg>	ITEM		</Arg> <!--item-->
+		</bank_fetchItemSuccess02>
+		<!---------------------------------从钱庄里取物品 END------------------------------------>
+
+		<bank_destroyItem> <!--销毁一个物品-->
+			<Arg>	INT16		</Arg> <!--order-->
+		</bank_destroyItem>
+		<bank_moveItem> <!--在钱庄同一个包裹中移动一个物品-->
+			<Arg>	INT16		</Arg> <!--srcOrder-->
+			<Arg>	INT16		</Arg> <!--dstOrder-->
+		</bank_moveItem>
+		<bank_unfreezeBag>
+			<Arg>	UINT8		</Arg> <!--包裹位号-->
+		</bank_unfreezeBag>
+		<bank_changeGoldToItem>
+			<Exposed/>
+			<Arg>	UINT32	</Arg>
+		</bank_changeGoldToItem>
+		<bank_changeGoldToItemCB>
+			<Arg>	UINT32	</Arg>
+			<Arg>	BOOL		</Arg>
+		</bank_changeGoldToItemCB>
+		<bank_item2Gold>
+			<Arg>	INT64		</Arg>
+		</bank_item2Gold>
+		
+		<leaveBank>
+			<Exposed/>
+		</leaveBank>
+	</BaseMethods>
+</root>

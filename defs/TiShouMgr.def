@@ -1,0 +1,164 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+		<startTS>
+			<Arg>		DATABASE_ID		</Arg>
+		</startTS>
+		<stopTS>
+			<Arg>		DATABASE_ID		</Arg>
+		</stopTS>
+		<removeTSItem>
+			<Arg>		UID		</Arg>
+		</removeTSItem>
+		<addTSItem>
+			<Arg>		ITEM		</Arg>
+			<Arg>		UINT32		</Arg>		<!-- price -->
+			<Arg>		INT32		</Arg>		<!-- itemType -->
+			<Arg>		INT32		</Arg>		<!-- level -->
+			<Arg>		INT32		</Arg>		<!-- quality -->
+			<Arg>		STRING		</Arg>		<!-- metier -->
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		UINT32		</Arg>		<!-- roleProcess -->
+		</addTSItem>
+		<updateTSRecordMoney>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		UINT32		</Arg>		<!-- money -->
+		</updateTSRecordMoney>
+		<updateTSItemPrice>
+			<Arg>	UID		</Arg>
+			<Arg>	UINT32		</Arg>		<!-- price -->
+			<Arg>	DATABASE_ID	</Arg>
+		</updateTSItemPrice>
+		<addTSPet>
+			<Arg>	PET_EPITOME	</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UINT32		</Arg>		<!-- roleProcess -->
+		</addTSPet>
+		<removeTSPet>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</removeTSPet>
+		<updateTSPetPrice>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</updateTSPetPrice>
+		<addNewTiShou>			<!-- 增加新替售行为 -->
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	FLOAT		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</addNewTiShou>
+		<queryShopInfo>				<!-- 查询商铺 -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryShopInfo>
+		<queryItemInfo>				<!-- 查询物品信息 -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryItemInfo>
+		<queryPetInfo>				<!-- 查询宠物信息 -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryPetInfo>
+		<addTiShouUnit>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</addTiShouUnit>
+		<buyTSItemFromTishouMgr>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UID		</Arg>
+			<Arg>	UINT32		</Arg>	<!-- item id -->
+			<Arg>	UINT32		</Arg>	<!-- item count -->
+			<Arg>	UINT32		</Arg>
+		</buyTSItemFromTishouMgr>
+		<buyTSPetFromTishouMgr>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32		</Arg>
+		</buyTSPetFromTishouMgr>
+		<removeUnit>
+			<Arg>	OBJECT_ID	</Arg>
+		</removeUnit>
+		<queryTiShouData>				<!-- npc 查询替售数据 -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</queryTiShouData>
+		<setTSItemDelFlag>
+			<Arg>		UID		</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		UINT32		</Arg>
+		</setTSItemDelFlag>
+		<setTSPetDelFlag>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		UINT32		</Arg>
+		</setTSPetDelFlag>
+		<takeTSMoneyFromTiShouMgr>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</takeTSMoneyFromTiShouMgr>
+		<takeTSItemFromTiShouMgr>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</takeTSItemFromTiShouMgr>
+		<roleHadTakeTishouItems>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32		</Arg>
+		</roleHadTakeTishouItems>
+		<takeTSPetFromTiShouMgr>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</takeTSPetFromTiShouMgr>
+		<roleHadTakeTishouPets>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32		</Arg>
+		</roleHadTakeTishouPets>
+		<queryRoleTSFlag>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</queryRoleTSFlag>
+		<playerCometoTiShouNpc>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	INT8		</Arg>
+		</playerCometoTiShouNpc>
+		<onTiShouMoneyTaked>
+			<Arg>	DATABASE_ID	</Arg>
+		</onTiShouMoneyTaked>
+		<queryTiShouInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</queryTiShouInfo>
+		<changeTiShouNPCModel>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</changeTiShouNPCModel>
+	</BaseMethods>
+</root>

@@ -1,0 +1,29 @@
+<root>
+		<spaceName>	ÓñÐé·å	</spaceName>
+		<EntityType>	SpaceCopyDestinyTrans	</EntityType>
+		<SpaceType>	SPACE_TYPE_DESTINY_TRANS	</SpaceType>
+		<DomainType>	SpaceDomainDestinyTrans	</DomainType>
+		<script>	SpaceCopyDestinyTrans	</script>
+		<className>	fu_ben_yu_xu_feng_destiny	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_yu_xu_feng	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<enterPos>
+				<pos>	103.207,109.782,10.837	</pos>
+				<direction>	0,0,0.53	</direction>
+			</enterPos>
+			<spawn>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_yu_xu_feng_01.xml	</spawnFile>
+				</item>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_yu_xu_feng_02.xml	</spawnFile>
+				</item>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_yu_xu_feng_03.xml	</spawnFile>
+				</item>
+			</spawn>
+		</Space>
+</root>

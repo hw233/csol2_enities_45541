@@ -1,0 +1,150 @@
+# -*- coding: cp950 -*-
+Datas = ({
+	'name':'50»È','fact_odds':0.0960000008345,'falsity_odds':0.00999999977648,'itemLevel':7,'amount':5000,'id':'60101001',
+},
+{
+	'name':'¯»¦â¸Ë³Æ','fact_odds':0.396000012755,'falsity_odds':0.180000001565,'itemLevel':6,'amount':1,'id':'equip',
+},
+{
+	'name':'¤G¯ÅÅK','fact_odds':0.447000011802,'falsity_odds':0.229000000283,'itemLevel':3,'amount':1,'id':'80101003',
+},
+{
+	'name':'¤G¯Åµ·º÷','fact_odds':0.498000010848,'falsity_odds':0.277999999002,'itemLevel':3,'amount':1,'id':'80101009',
+},
+{
+	'name':'¤G¯Å¤ì§÷','fact_odds':0.549000009894,'falsity_odds':0.32699999772,'itemLevel':3,'amount':1,'id':'80101015',
+},
+{
+	'name':'¤G¯Å¥É','fact_odds':0.600000008941,'falsity_odds':0.375999996439,'itemLevel':3,'amount':1,'id':'80101021',
+},
+{
+	'name':'¤G¯Å¥Ö­²','fact_odds':0.651000007987,'falsity_odds':0.424999995157,'itemLevel':3,'amount':1,'id':'80101027',
+},
+{
+	'name':'¤T¯ÅÅK','fact_odds':0.656000007875,'falsity_odds':0.436999995261,'itemLevel':2,'amount':1,'id':'80101004',
+},
+{
+	'name':'¤T¯Åµ·º÷','fact_odds':0.661000007764,'falsity_odds':0.448999995366,'itemLevel':2,'amount':1,'id':'80101010',
+},
+{
+	'name':'¤T¯Å¤ì§÷','fact_odds':0.666000007652,'falsity_odds':0.46099999547,'itemLevel':2,'amount':1,'id':'80101016',
+},
+{
+	'name':'¤T¯Å¥É','fact_odds':0.67100000754,'falsity_odds':0.472999995574,'itemLevel':2,'amount':1,'id':'80101022',
+},
+{
+	'name':'¤T¯Å¥Ö­²','fact_odds':0.676000007428,'falsity_odds':0.484999995679,'itemLevel':2,'amount':1,'id':'80101028',
+},
+{
+	'name':'¥|¯ÅÅK','fact_odds':0.678000007523,'falsity_odds':0.499999995343,'itemLevel':1,'amount':1,'id':'80101005',
+},
+{
+	'name':'¥|¯Åµ·º÷','fact_odds':0.680000007618,'falsity_odds':0.514999995008,'itemLevel':1,'amount':1,'id':'80101011',
+},
+{
+	'name':'¥|¯Å¤ì§÷','fact_odds':0.682000007713,'falsity_odds':0.529999994673,'itemLevel':1,'amount':1,'id':'80101017',
+},
+{
+	'name':'¥|¯Å¥É','fact_odds':0.684000007808,'falsity_odds':0.544999994338,'itemLevel':1,'amount':1,'id':'80101023',
+},
+{
+	'name':'¥|¯Å¥Ö­²','fact_odds':0.686000007903,'falsity_odds':0.559999994002,'itemLevel':1,'amount':1,'id':'80101029',
+},
+{
+	'name':'¥Õ¦âÀs¯]','fact_odds':0.698000008008,'falsity_odds':0.569999993779,'itemLevel':6,'amount':1,'id':'80101031',
+},
+{
+	'name':'ÂÅ¦âÀs¯]','fact_odds':0.715000008931,'falsity_odds':0.584999993443,'itemLevel':4,'amount':1,'id':'80101032',
+},
+{
+	'name':'¶À¦âÀs¯]','fact_odds':0.729000009364,'falsity_odds':0.614999992773,'itemLevel':3,'amount':1,'id':'80101037',
+},
+{
+	'name':'¯»¦âÀs¯]','fact_odds':0.740000009304,'falsity_odds':0.634999992326,'itemLevel':2,'amount':1,'id':'80101038',
+},
+{
+	'name':'ºñ¦âÀs¯]','fact_odds':0.748000009684,'falsity_odds':0.659999992698,'itemLevel':1,'amount':1,'id':'80101039',
+},
+{
+	'name':'ªì¯Å©¯¹B¥Û','fact_odds':0.768000009237,'falsity_odds':0.669999992475,'itemLevel':5,'amount':1,'id':'80101033',
+},
+{
+	'name':'°ª¯Å©¯¹B¥Û','fact_odds':0.777300009271,'falsity_odds':0.696999993175,'itemLevel':1,'amount':1,'id':'80101043',
+},
+{
+	'name':'ÁÙµ£¤¦','fact_odds':0.785600009141,'falsity_odds':0.71999999322,'itemLevel':5,'amount':1,'id':'60201002',
+},
+{
+	'name':'Âk©R²Åöü','fact_odds':0.785600009141,'falsity_odds':0.71999999322,'itemLevel':5,'amount':1,'id':'110103001',
+},
+{
+	'name':'¤Ñ­µ²Å','fact_odds':0.794000008842,'falsity_odds':0.729999992996,'itemLevel':5,'amount':1,'id':'110103014',
+},
+{
+	'name':'©w¦ì²Å','fact_odds':0.802400008542,'falsity_odds':0.739999992773,'itemLevel':5,'amount':1,'id':'110109001',
+},
+{
+	'name':'¤Þ¸ô¸Á','fact_odds':0.810800008243,'falsity_odds':0.749999992549,'itemLevel':5,'amount':1,'id':'50101002',
+},
+{
+	'name':'ÆF»îÂêÃì','fact_odds':0.819200007943,'falsity_odds':0.759999992326,'itemLevel':5,'amount':1,'id':'110108001',
+},
+{
+	'name':'¥Ö­²¥]»q','fact_odds':0.836000007344,'falsity_odds':0.779999991879,'itemLevel':5,'amount':1,'id':'70101002',
+},
+{
+	'name':'¯«¾÷§X','fact_odds':0.849600007525,'falsity_odds':0.789999991655,'itemLevel':5,'amount':1,'id':'70101008',
+},
+{
+	'name':'ª÷µ·¤ì','fact_odds':0.858000007225,'falsity_odds':0.799999991432,'itemLevel':5,'amount':1,'id':'110103020',
+},
+{
+	'name':'¤EÂàª÷¤¦','fact_odds':0.859000007273,'falsity_odds':0.809999991208,'itemLevel':5,'amount':1,'id':'110102001',
+},
+{
+	'name':'º½¦À¥É²G','fact_odds':0.86000000732,'falsity_odds':0.819999990985,'itemLevel':5,'amount':1,'id':'110102005',
+},
+{
+	'name':'³q©ú¤¦','fact_odds':0.870000007097,'falsity_odds':0.829999990761,'itemLevel':5,'amount':1,'id':'110101025',
+},
+{
+	'name':'¥Í©R¤§¥ú','fact_odds':0.871000007144,'falsity_odds':0.839999990538,'itemLevel':5,'amount':1,'id':'110102009',
+},
+{
+	'name':'ªk¤O¤§¥ú','fact_odds':0.872000007192,'falsity_odds':0.849999990314,'itemLevel':5,'amount':1,'id':'110102010',
+},
+{
+	'name':'¬~Åè¤¦','fact_odds':0.878000007244,'falsity_odds':0.869999989867,'itemLevel':5,'amount':1,'id':'60201003',
+},
+{
+	'name':'§Ñ¼~¤¦','fact_odds':0.883000007132,'falsity_odds':0.879999989644,'itemLevel':5,'amount':1,'id':'60201005',
+},
+{
+	'name':'¶W¯ÅÁÙµ£¤¦','fact_odds':0.883000007132,'falsity_odds':0.879999989644,'itemLevel':5,'amount':1,'id':'60201055',
+},
+{
+	'name':'ºë·Ò²Å','fact_odds':0.893000006909,'falsity_odds':0.88999998942,'itemLevel':5,'amount':1,'id':'60201020',
+},
+{
+	'name':'ÂI¤Æ²Å','fact_odds':0.903000006685,'falsity_odds':0.899999989197,'itemLevel':5,'amount':1,'id':'60201021',
+},
+{
+	'name':'¶W¯Å¬~Åè¤¦','fact_odds':0.903000006685,'falsity_odds':0.899999989197,'itemLevel':5,'amount':1,'id':'60201056',
+},
+{
+	'name':'©µ¹Ø¤¦','fact_odds':0.923000006238,'falsity_odds':0.909999988973,'itemLevel':5,'amount':1,'id':'60201004',
+},
+{
+	'name':'¤@µ¥¾r±s¯«¨å','fact_odds':0.933000006014,'falsity_odds':0.91999998875,'itemLevel':5,'amount':1,'id':'60201022',
+},
+{
+	'name':'°Q¥ï¥O','fact_odds':0.943000005791,'falsity_odds':0.929999988526,'itemLevel':5,'amount':1,'id':'110103003',
+},
+{
+	'name':'¤õ¯¾ÒFºµ³J','fact_odds':0.948000005679,'falsity_odds':0.939999988303,'itemLevel':5,'amount':1,'id':'60201086',
+},
+)
+Totalodds = {
+	'falsity_odds':0.939999988303,'fact_odds':0.948000005679,
+}
+

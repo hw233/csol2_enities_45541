@@ -1,0 +1,3143 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Implements>
+		<!--<Interface>	MailboxCallback			</Interface>-->
+		<Interface>	GameObject			</Interface>
+		<Interface>	OPRecorder		</Interface>
+		<Interface>	QuickBar			</Interface> <!-- 快捷栏 -->
+		<Interface>	RoleChangeBody		</Interface>
+		<Interface>	RoleChat			</Interface>
+		<Interface>	RoleEnmity			</Interface>
+		<Interface> 	ItemsBag			</Interface>
+		<Interface> 	Team				</Interface>
+		<Interface>	RoleImageVerify			</Interface>
+		<Interface>	RoleDialogForward		</Interface>
+		<Interface> 	RoleQuestInterface		</Interface>
+		<Interface>	SkillBox			</Interface>
+		<Interface> 	SpaceFace			</Interface>
+		<Interface> 	PostInterface			</Interface>
+		<Interface>	PetCage				</Interface>
+		<Interface>	RoleCommissionSale		</Interface>
+		<Interface>	Bank				</Interface> <!-- 钱庄系统 -->
+		<Interface>	RoleMail			</Interface>
+		<Interface>	EquipModel			</Interface>
+		<Interface>	RoleRelation			</Interface> <!-- 玩家与其它玩家的关系 -->
+		<Interface>	TongInterface			</Interface> <!-- 帮会-->
+		<Interface>	RoleCredit			</Interface> <!-- 玩家声望、称号、荣誉 -->
+		<Interface>	RoleGem				</Interface> <!-- 玩家经验宝石系统 -->
+		<Interface>	RoleSpecialShop			</Interface> <!-- 玩家道具商城 -->
+		<Interface>	HorseRacer			</Interface> <!-- 玩家赛马 -->
+		<Interface> 	LotteryItem			</Interface> <!-- 锦囊 -->
+		<Interface>	AntiWallow			</Interface> <!-- 防沉迷系统 -->
+		<Interface>	AmbulantObject			</Interface> <!-- 移动系统 -->
+		<Interface>	RoleQuizGame			</Interface> <!-- 全民知识问答-->
+		<Interface> 	PresentChargeUnite		</Interface> <!-- 领取奖品和领取充值元宝-->
+		<Interface> 	GameRanking			</Interface> <!-- GameRanking游戏排行榜数据 -->
+		<Interface> 	LivingSystem			</Interface> <!-- 生活系统-->
+		<Interface>	YuanBaoTradeInterface		</Interface> <!-- 元宝交易 -->
+		<Interface>	ItemBagSpecialInterface		</Interface> <!-- 背包特殊功能接口-->
+		<Interface>	RoleEidolonHandler		</Interface> <!-- 小精灵操作-->
+		<Interface>	RoleMagicChangeInterface	</Interface> <!-- 变身接口-->
+		<Interface>	RoleChallengeSpaceInterface	</Interface> <!-- 挑战副本对话接口-->
+		<Interface>	RoleChallengeInterface		</Interface> <!-- 竞技公用接口-->
+		<Interface>	RoleUpgradeSkillInterface	</Interface> <!--技能升级接口-->
+		<Interface>	RolePlotLv40Interface		</Interface> <!--40级剧情副本-->
+		<Interface>	SpaceViewerInterface		</Interface> <!--副本观察者-->
+		<Interface>	RoleStarMapInterface		</Interface> <!--星际地图-->
+		<Interface>	CopyMatcherInterface		</Interface> <!--副本组队系统相关接口-->
+		<Interface>	RoleCampInterface			</Interface>
+		<Interface>	BaoZangCopyInterface		</Interface> <!--宝藏副本接口( 英雄联盟 )-->
+		<Interface>	RoleShuijingSpaceInterface	</Interface> <!-- 水晶副本对话接口-->
+		<Interface>	RoleYeZhanFengQiInterface	</Interface> <!-- 夜战凤栖-->
+		<Interface>	ScrollCompose			</Interface> <!-- 装备打造-->
+		<Interface>	ZhengDaoInterface		</Interface> <!-- 证道系统 -->
+		<Interface>	RoleDestinyTransInterface	</Interface> <!-- 天命轮回副本接口 -->
+		<Interface>	Fisher				</Interface> <!-- 天命轮回副本接口 -->
+		<Interface>	TDBattleInterface		</Interface> <!-- 仙魔论战活动接口 -->
+		<Interface>	RoleYiJieZhanChangInterface	</Interface> <!-- 异界战场-->
+		<Interface>	RoleJueDiFanJiInterface		</Interface> <!-- 绝地反击活动接口 -->
+		<Interface>	RoleCopyInterface		</Interface> <!-- 副本接口 -->
+	</Implements>
+
+	<Properties>
+		<actWord>		<!-- override it in State -->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+		</actWord>
+
+		<!-- 实体属性 -->
+		<className>		<!-- override it in GameObject -->
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</className>
+
+		<databaseID>
+			<Type>		DATABASE_ID		</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</databaseID>
+
+		<redeemItems> <!--可赎回物品列表-->
+			<Type>		ITEMS			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</redeemItems>
+
+		<roleState>		<!-- 角色的状态 目前只有删除状态 0 正常 1 删除 -->
+			<Type>		UINT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</roleState>
+
+		<lastSpaceLineNumber>		<!-- 角色上次进入过的分线地图的线号码 -->
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</lastSpaceLineNumber>
+
+		<lastSpaceMaxLine>		<!-- 角色上次进入过的分线地图的最大线 -->
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</lastSpaceMaxLine>
+
+		<deleteTime>
+			<Type>		UINT64			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</deleteTime>
+
+		<playerName>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength>255			</DatabaseLength>
+			<Identifier>	true			</Identifier>
+		</playerName>
+
+		<headTextureID>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</headTextureID>
+
+		<grade>
+			<Type>		INT8			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	30			</Default>
+			<Persistent>	true			</Persistent>
+		</grade>
+
+		<!-- 基本属性 -->
+		<EXP>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</EXP>
+		<money>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+			<IndexType> Normal </IndexType>
+		</money>
+		<gold>
+			<Type>		UINT32		</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+		</gold>
+		<silver>
+			<Type>		UINT32		</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+		</silver>
+		<!-- <repute>
+			<Type>		INT16			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</repute> 没有发现该属性被使用 先屏蔽掉-->
+		<!-- <karma>
+			<Type>		INT16			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</karma> 没有发现该属性被使用 先屏蔽掉-->
+		<!--  <luck>
+			<Type>		INT16			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</luck> 没有发现该属性被使用 先屏蔽掉-->
+
+		<!-- 增加的属性 -->
+		<!-- <confraternity>
+			<Type>		STRING			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</confraternity> 该属性没有发现被调用 故暂时屏蔽掉 -->
+		<!-- <contribute>
+			<Type>		UINT16			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</contribute> 该属性没有发现被调用 故暂时屏蔽掉 -->
+
+		<!-- <histrionic>
+			<Type>		UINT16			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</histrionic> 该属性没有发现被调用 故暂时屏蔽掉 -->
+
+		<loginTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</loginTime>
+
+		<loginLockTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	true			</Persistent>
+		</loginLockTime>
+
+		<parentDBID>
+			<Type>		INT64			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+			<IndexType> Normal </IndexType>
+		</parentDBID>
+
+		<accountEntity>		<!-- 记录它的帐号entity,用于shutdown的时候通知或把控制权转交 -->
+			<Type>		MAILBOX			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</accountEntity>
+
+		<lifetime>		<!-- 玩家角色游戏总时间 -->
+			<Type>		INT32			</Type>
+			<Flags>		BASE_AND_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</lifetime>
+
+		<benefitTime>		<!--玩家封测奖励领取时间，表示玩家多长时间没成功领取奖励，17:09 2009-4-1，wsf-->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	true			</Persistent>
+		</benefitTime>
+		<calBenefitTime>	<!--本次在线期间计算进封测奖励的时间点-->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0.0			</Default>
+		</calBenefitTime>
+
+		<potential>		<!-- 学习技能的潜能点 -->
+			<Type>		INT32			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</potential>
+		<potential_percent>	<!-- 学习技能的潜能点 加成-->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0.0			</Default>
+		</potential_percent>
+
+		<teachCredit>	<!--功勋值，玩家带新人会获得功勋值-->
+			<Type>		INT32		</Type>
+			<Flags>		OWN_CLIENT	</Flags>
+			<Persistent>	true		</Persistent>
+		</teachCredit>
+		<revertID>
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</revertID>
+		<energyRevertID>
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</energyRevertID>
+
+		<multExp>		<!-- 多倍经验 -->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</multExp>
+
+		<vehicle_multExp>	<!-- 骑宠多倍经验 -->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</vehicle_multExp>
+
+		<!-- space相关，场景控制 -->
+		<transportHistory>
+			<Type>		INT64			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Editable>	true			</Editable>
+			<Persistent>	true			</Persistent>
+		</transportHistory>
+
+		<reviveSpace>		<!-- 复活地图-->
+			<Type>		STRING			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	xin_ban_xin_shou_cun	</Default>
+			<Persistent>	true			</Persistent>
+		</reviveSpace>
+
+		<revivePosition>	<!-- 复活坐标 -->
+			<Type>		VECTOR3			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	-48.499 17.075 75.503	</Default>
+			<Persistent>	true			</Persistent>
+		</revivePosition>
+
+		<reviveDirection>	<!-- 复活方向 -->
+			<Type>		VECTOR3			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0 -120 0		</Default>
+			<Persistent>	true			</Persistent>
+		</reviveDirection>
+
+		<kaStone_SpellID>	<!-- 魂魄石技能 -->
+			<Type>		SKILLID			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0	</Default>
+			<Persistent>	false			</Persistent>
+		</kaStone_SpellID>
+
+		<fightTimerID>		<!-- 战斗TimerID-->
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</fightTimerID>
+
+		<sunBathDailyRecord>	<!--  -->
+			<Type>		SUNBATHRECORD		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true			</Persistent>
+		</sunBathDailyRecord>
+
+		<fishingRecord>		<!-- 玩家每天可以领取钓鱼时间的次数记录 -->
+			<Type>		DAILYRECORD		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Editable>	true			</Editable>
+			<Persistent>	true			</Persistent>
+		</fishingRecord>
+
+		<cifuRecord>		<!-- 玩家每天可以进行的海神赐福的次数记录 -->
+			<Type>		DAILYRECORD		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Editable>	true			</Editable>
+			<Persistent>	true			</Persistent>
+		</cifuRecord>
+
+		<xianlingRecord>		<!-- 玩家每天可以进行的龙王显灵的次数记录 -->
+			<Type>		DAILYRECORD		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Editable>	true			</Editable>
+			<Persistent>	true			</Persistent>
+		</xianlingRecord>
+
+		<jianZhengRecord>		<!-- 玩家每天可以进行的龙王见证情缘的次数记录 -->
+			<Type>		DAILYRECORD		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Editable>	true			</Editable>
+			<Persistent>	true			</Persistent>
+		</jianZhengRecord>
+
+		<pearlPrimeRecord>		<!-- 玩家每天可以进行的吸取珍珠精华的次数记录 -->
+			<Type>		DAILYRECORD		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Editable>	true			</Editable>
+			<Persistent>	true			</Persistent>
+		</pearlPrimeRecord>
+
+		<absorbableEXPLevelValue>	<!-- 代练宝石每级已吸取经验量 by jy -->
+			<Type>			INT64			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</absorbableEXPLevelValue>
+
+		<lastTianguanTeamID>	<!-- 上次进入天关的队伍 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true			</Persistent>
+		</lastTianguanTeamID>
+
+		<suanGuaZhanBuDailyRecord>	<!--算卦占卜记录-->
+			<Type>		DAILYRECORD		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true			</Persistent>
+		</suanGuaZhanBuDailyRecord>
+
+		<shiTuChouJiangDailyRecord>	<!--师徒抽奖记录-->
+			<Type>		DAILYRECORD		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true			</Persistent>
+		</shiTuChouJiangDailyRecord>
+
+		<chuShiRewardRecord>	<!--出师奖励记录-->
+			<Type>		INT8		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true			</Persistent>
+		</chuShiRewardRecord>
+
+		<!--PK系统-->
+		<pkValue>		<!-- pk值-->
+			<Type>		UINT16			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+			<Persistent>	true			</Persistent>
+		</pkValue>
+
+		<goodnessValue>		<!-- 善良值-->
+			<Type>		UINT8			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</goodnessValue>
+
+		<pkMode>		<!-- pk模式-->
+			<Type>		INT8			</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	5			</Default>
+			<Persistent>	true			</Persistent>
+		</pkMode>
+
+		<pkState>		<!-- pk状态-->
+			<Type>		INT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+		</pkState>
+		
+		<pkFlags>		<!-- pk标识位-->
+			<Type>		INT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</pkFlags>
+
+		<goodnessTimer>		<!-- 善良值timer -->
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</goodnessTimer>
+
+		<pkValueTimer>		<!-- pk值Timer -->
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</pkValueTimer>
+
+		<pkAttackTimer>		<!-- pk攻击状态timer -->
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</pkAttackTimer>
+
+		<takeExpRecord>
+			<Type>		TAKE_EXP_RECORD		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</takeExpRecord>
+
+		<danceRecord>
+			<Type>		DANCE_RECORD		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</danceRecord>
+
+		<requestDanceID>	<!-- 邀请舞伴的ID -->
+			<Type>		OBJECT_ID			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+		</requestDanceID>
+
+		<dancePartnerID>	<!-- 共舞舞伴的ID -->
+			<Type>		OBJECT_ID			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+		</dancePartnerID>
+
+		<isPkModelock>	<!-- pk模式锁定 -->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>	false			</Default>
+		</isPkModelock>
+		<roleRecord>
+			<Type>		MAPPING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</roleRecord>
+		<accountRecord>
+			<Type>		MAPPING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</accountRecord>
+
+		<role_activated_time>		<!-- 角色创建时间 -->
+			<Type>		UINT32			</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true			</Persistent>
+		</role_activated_time>
+		<role_last_offline>		<!-- 角色上次下线时间 by jy -->
+			<Type>		UINT32			</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true			</Persistent>
+		</role_last_offline>
+		<reg_ip>					<!-- 角色注册的IP -->
+			<Type>		UINT32			</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true			</Persistent>
+		</reg_ip>
+		<last_login_ip>					<!-- 角色最后一次登录的IP -->
+			<Type>		UINT32			</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true			</Persistent>
+		</last_login_ip>
+		<firstLoginTime>	<!-- 角色第一次登陆服务器的时间 -->
+			<Type>		UINT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</firstLoginTime>
+		<dancePoint>	<!-- 跳舞积分 -->
+			<Type>		INT16			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>	0			</Default>
+		</dancePoint>
+		<dancePointDailyRecord>	<!--一天跳舞积分-->
+			<Type>		DAILYRECORD		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	true			</Persistent>
+		</dancePointDailyRecord>
+		<activityFlags>		<!--活动能否参与标志-->
+			<Type>		UINT32			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Editable>	false			</Editable>
+			<Persistent>	false			</Persistent>
+		</activityFlags>
+		<godSuitEquipActive>	<!--全逆天套装效果激活标记 by jy-->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</godSuitEquipActive>
+		<weekOnlineTime>
+			<Type>		PY_DICT			</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>	{}		</Default>
+		</weekOnlineTime>
+		<persistentMapping>
+			<Type>			MAPPING		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true		</Persistent>
+		</persistentMapping>
+		<homicideNumber>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+			<IndexType> Normal </IndexType>
+		</homicideNumber>
+		<deadNumber>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</deadNumber>
+
+		<!-- 新单人骑宠PRO -->
+		<vehicleDatas>		<!-- 骑宠数据集合 -->
+			<Type>		VEHICLEDATAS		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</vehicleDatas>
+
+		<currVehicleData>	<!-- 当前召唤骑宠数据 -->
+			<Type>		VEHICLEDATA_SPEED		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	true			</Persistent>
+		</currVehicleData>
+		<currAttrVehicleData>	<!-- 当前属性加成骑宠数据 -->
+			<Type>		VEHICLEDATA_ATTR	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</currAttrVehicleData>
+		<fd_aTimmerID>
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</fd_aTimmerID>
+		<fd_cTimmerID>
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</fd_cTimmerID>
+		<currentVehicleBuffIndexs>
+			<Type>		ARRAY <of>UINT16</of>	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</currentVehicleBuffIndexs>
+
+		<vehicleModelNum>	<!-- 当前骑宠模型编号 -->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</vehicleModelNum>
+
+		<vehicleJoyancyTime>	<!-- 用于骑乘状态下记录快乐度的时间-->
+			<Type>		UINT16			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</vehicleJoyancyTime>
+
+		<rollState>	<!-- 用于放弃ROLL-->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</rollState>
+		<recordProcess>	<!-- 用于匹配独立的数据库表格进度和角色进度-->
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</recordProcess>
+
+		<!--切磋系统-->
+		<qieCuoState>		<!--切磋状态-->
+			<Type>		UINT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</qieCuoState>
+
+		<qieCuoTargetID>	<!--切磋目标-->
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+		</qieCuoTargetID>
+
+		<qieCuoTimer>		<!--切磋Timer-->
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</qieCuoTimer>
+
+		<statistic>		<!-- 统计 -->
+			<Type>		PY_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>	{}			</Default>
+		</statistic>
+
+		<baseSectionMD5Code>	<!-- 需要进行MD5校验数据库字段的MD5码 by jy -->
+			<Type>		STRING			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</baseSectionMD5Code>
+		<collectionBag>		<!-- 收集包 -->
+			<Type>		ARRAY <of> OWN_COLLECTION_ITEM </of>	</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>	0					</Default>
+			<Persistent>	false					</Persistent>
+		</collectionBag>
+		<receivedRewardTick>	<!--新手奖励的已奖励时刻-->
+			<Type>		ARRAY <of> UINT16 </of>			</Type>
+			<Flags>		BASE					</Flags>
+			<Default>	0					</Default>
+			<Persistent>	true					</Persistent>
+		</receivedRewardTick>
+		<dailyRewardTimes>	<!-- 每日老手奖励的已奖励等级 by jy -->
+			<Type>		UINT16			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</dailyRewardTimes>
+		<oldPlayerRewardTick>	<!-- 每日老手定时奖励将要领奖的时刻，标准是lifetime by jy -->
+			<Type>		UINT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</oldPlayerRewardTick>
+
+		<honor>	<!-- 荣誉 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+			<IndexType> Normal </IndexType>
+		</honor>
+
+		<tongCompetitionScore>	<!-- 帮会竞技积分 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+			<IndexType> Normal </IndexType>
+		</tongCompetitionScore>
+
+		<personalScore>	<!-- 个人竞技积分 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+			<IndexType> Normal </IndexType>
+		</personalScore>
+
+		<yiJieZhanChangScore>	<!-- 异界战场积分 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+			<IndexType> Normal </IndexType>
+		</yiJieZhanChangScore>
+
+		<af_time_limit>	<!-- 当日自动战斗时间剩余 by jy -->
+			<Type>		INT32			</Type>
+			<Flags>		BASE_AND_CLIENT	</Flags>
+			<Default>	28800			</Default>
+			<Persistent>	true			</Persistent>
+		</af_time_limit>
+		<af_time_extra>	<!-- 充值累积的自动战斗时间 by jy -->
+			<Type>		INT32			</Type>
+			<Flags>		BASE_AND_CLIENT	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</af_time_extra>
+		<persistentFlags>	<!-- 存储的标志位 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</persistentFlags>
+		<oksIndex>	<!-- 一键换装的装备序号记录 -->
+			<Type>		UINT8			</Type>
+			<Flags>		BASE_AND_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</oksIndex>
+
+		<fallDownHeight>	<!--掉落开始时的高度-->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	false			</Persistent>
+		</fallDownHeight>
+
+		<!--身轻如燕-->
+		<onWaterArea>		<!--是否在水面-->
+			<Type>		BOOL			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</onWaterArea>
+
+		<totalEquipDamage>	<!--装备总磨损-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</totalEquipDamage>
+
+		<teamCompetitionPoint>	<!--组队竞技积分-->
+			<Type>		INT16			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>	0			</Default>
+		</teamCompetitionPoint>
+		<energy> <!--跳跃能量值 -->
+			<Type>		UINT8			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>	0			</Default>
+		</energy>
+		<autoEnergyID><!--跳跃能量值每秒恢复值的回调timerID-->
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</autoEnergyID>
+
+		<extraAccumRate>		<!-- 获得气运值难度修正，默认为1.0 -->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	1.0			</Default>
+		</extraAccumRate>
+
+		<isAccelerate>		<!-- 水域加速效果是否触发 -->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</isAccelerate>
+
+		<curActionSkillID>		<!-- 行为技能状态 -->
+			<Type>		INT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+		</curActionSkillID>
+
+		<sysPKMode>		<!-- 系统指定的PK模式，如帮会模式 -->
+			<Type>		INT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+		</sysPKMode>
+
+		<pkTargetList>		<!--PK目标-->
+			<Type>		FIGHT_LIST		</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+		</pkTargetList>
+
+		<pkFightBackTimer>	<!-- pk反击状态timer -->
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	{}			</Default>
+		</pkFightBackTimer>
+		<hasAutoFight> 		<!--是否开放自动战斗功能 -->
+			<Type>		BOOL			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</hasAutoFight>
+		<moveDirection> 		<!--是否开放自动战斗功能 -->
+			<Type>		ARRAY <of> FLOAT </of>			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+		</moveDirection>
+                <combatCount> <!--格斗点数 -->
+			<Type>		UINT8			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+		</combatCount>
+                <autoCombatCountID><!--脱离战斗格斗点数自动衰减timmer-->
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</autoCombatCountID>
+		<LastAddDanceBuffTime>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	true			</Persistent>			
+		</LastAddDanceBuffTime>
+		<challengeIndex>
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>			
+		</challengeIndex>
+		<playerModelInfo>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PUBLIC_AND_OWN	</Flags>
+		</playerModelInfo>
+		<_dancechellengeTimerID>
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>			
+		</_dancechellengeTimerID>
+		<jueDiFanJiState>	<!--是否参加了绝地反击活动-->
+			<Type>		UINT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</jueDiFanJiState>
+		<danceKingType>
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	True			</Persistent>			
+		</danceKingType>
+		<spaceDanceHallNumber>
+			<Type>		SPACE_NUMBER			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	True			</Persistent>				
+		</spaceDanceHallNumber>
+		<patrolPath>
+			<Type>		STRING			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</patrolPath>
+		<patrolModel>
+			<Type>		STRING			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</patrolModel>
+	</Properties>
+
+	<CellMethods>
+		<recordLastSpaceLineData>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UINT8	</Arg>
+		</recordLastSpaceLineData>
+
+		<onSaveDoubleExpBuff>
+			<Exposed/>
+		</onSaveDoubleExpBuff>
+
+		<requestInitialize>
+			<Exposed/>	<!-- 请求初始化( hyw : 2008.06.05 )-->
+			<Arg>		UINT8	</Arg>		<!-- 初始化类型，在 csdefine 中定义 -->
+		</requestInitialize>
+
+		<interruptSpellFC>	<!-- 请求中断技能施展，由client调用 -->
+			<Exposed/>
+			<Arg>		UINT16	</Arg>		<!-- 打断原因，在 csstatus 中 -->
+		</interruptSpellFC>
+
+		<onJumpNotifyFC>	<!-- 向server通知跳跃，由client调用 -->
+			<Exposed/>
+			<Arg>		UINT8	</Arg>	<!-- action index -->
+		</onJumpNotifyFC>
+
+		<onFlyJumpUpNotifyFC>	<!-- 向server通知飞行上升高度，由client调用 -->
+			<Exposed/>
+		</onFlyJumpUpNotifyFC>
+
+		<ChangeTime> <!--HZM 0308  change time -->
+			<Exposed/>
+			<Arg>		FLOAT			</Arg> <!-- new time, 0:0 ~ 23:59, or a float -->
+			<Arg>		UINT16			</Arg> <!-- duration in minute -->
+		</ChangeTime>
+
+		<changeTargetID>
+			<Exposed/>
+			<Arg>		OBJECT_ID			</Arg> <!-- duration in minute -->
+		</changeTargetID>
+
+		<wizCommand>
+			<Exposed/>
+			<Arg>		OBJECT_ID		</Arg>	<!-- dstEntityID -->
+			<Arg>		STRING			</Arg>	<!-- command -->
+			<Arg>		STRING			</Arg>	<!-- args -->
+		</wizCommand>
+
+		<doCasketFunction>
+			<Exposed/>
+			<Arg>		UINT8			</Arg>	<!-- funIndex -->
+		</doCasketFunction>
+		<doSpecialCompose>
+			<Exposed/>
+			<Arg>		UINT8			</Arg>	<!-- 配方Index -->
+		</doSpecialCompose>
+		<stuffCompose>
+			<Exposed/>
+			<Arg>		UINT8			</Arg>	<!-- baseAmount -->
+		</stuffCompose>
+
+		<doEquipIntensify>
+			<Exposed/>
+			<Arg> 		ARRAY <of> UINT64</of> </Arg>	<!-- 物品的uid列表 -->
+		</doEquipIntensify>
+
+		<equipMake>
+			<Exposed/>
+			<Arg> 		ITEM_ID			</Arg>	<!-- itemID -->
+			<Arg> 		ARRAY <of> INT16</of> </Arg>	<!-- orderList -->
+		</equipMake>
+
+		<EquipUp>		<!--装备飞升-->
+			<Exposed/>
+			<Arg> UINT64 </Arg>	<!--装备的uid-->
+			<Arg> UINT64 </Arg>	<!--飞升灵玉的uid-->
+		</EquipUp>
+
+		<EquipAttrRebuild>		<!--装备属性重铸-->
+			<Exposed/>
+			<Arg> UINT64 </Arg>	<!--装备的uid-->
+			<Arg> STRING </Arg>	<!--属性类别-->
+			<Arg> UINT32 </Arg>	<!--重铸的属性id-->
+		</EquipAttrRebuild>
+
+		<revive>
+			<Exposed/>
+			<Arg>		UINT8			</Arg>	<!-- reviveType -->
+		</revive>
+
+		<reviveActivity>
+		</reviveActivity>
+
+		<dieReviveDoSth>
+			<Exposed/>
+			<Arg>		UINT8			</Arg>	<!-- reviveType -->
+		</dieReviveDoSth>
+
+		<setRevivePos>
+			<Arg>		STRING			</Arg>	<!-- reviveSpace -->
+			<Arg>		VECTOR3			</Arg>	<!-- revivePosition -->
+			<Arg>		VECTOR3			</Arg>	<!-- revivedirection -->
+		</setRevivePos>
+
+		<setCurPosRevivePos/>
+
+		<repairOneEquip>
+			<Arg>		UINT8			</Arg>	<!-- repairLevel -->
+			<Arg>		UINT16			</Arg>	<!-- kitBagID -->
+			<Arg>		INT32			</Arg>	<!-- orderID -->
+			<Arg>		UINT16			</Arg>	<!-- revenueRate -->
+			<Arg>		STRING			</Arg>	<!-- 修理的NPC ID-->
+		</repairOneEquip>
+
+		<repairAllEquip>
+			<Arg>		UINT8			</Arg>	<!-- repairLevel -->
+			<Arg>		UINT16			</Arg>	<!-- revenueRate -->
+			<Arg>		STRING			</Arg>	<!-- 修理的NPC ID-->
+		</repairAllEquip>
+
+		<!-- space相关-->
+		<tagTransport>
+			<Arg>		INT64			</Arg>	<!-- spaceSign -->
+		</tagTransport>
+
+		<flyToNpc>
+			<Exposed/>
+			<Arg>		STRING			</Arg>	<!--NPC id-->
+			<Arg>		INT32			</Arg>	<!--任务 id-->
+			<Arg>		INT16			</Arg>	<!--背包位置-->
+		</flyToNpc>
+		<onRequestCell>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		MAILBOX			</Arg>
+		</onRequestCell>
+		<addMoney>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</addMoney>
+
+		<getTargetAttribute>		<!-- 向服务器请求玩家的部分自身属性 如力量,智力...... -->
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</getTargetAttribute>
+		<getTargetEquip>			<!-- 向服务器请求玩家的装备 -->
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	INT16	</Arg>		<!-- 取的装备的开始位置 -->
+			<Arg>	INT16	</Arg>		<!-- 一次要取的装备的数量 -->
+		</getTargetEquip>
+		<getTargetEspialAttribute>	<!-- 发送玩家的部分属性给观察的人 -->
+			<Arg>	MAILBOX		</Arg>	<!-- 观察者的mailbox -->
+		</getTargetEspialAttribute>
+		<getTargetEspialEquip>	<!-- 发送玩家的部分属性给观察的人 -->
+			<Arg>	MAILBOX		</Arg>	<!-- 观察者的mailbox -->
+			<Arg>	INT16	</Arg>		<!-- 取的装备的开始位置 -->
+			<Arg>	INT16	</Arg>		<!-- 一次要取的装备的数量 -->
+		</getTargetEspialEquip>
+		<updateDartPrestige>				<!-- 更新镖局声望值 -->
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</updateDartPrestige>
+
+		<gotoRacehorseMap>
+			<Exposed/>
+		</gotoRacehorseMap>
+
+		<onTongRaceCreateSuccessed>
+		</onTongRaceCreateSuccessed>
+
+		<gotoSpaceTianguan>
+			<Arg>	STRING		</Arg>
+			<Arg>	VECTOR3		</Arg>
+			<Arg>	VECTOR3		</Arg>
+		</gotoSpaceTianguan>
+		<useItemRevive>
+			<Exposed/>
+		</useItemRevive>
+
+		<requestAddItem>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT8		</Arg>	<!--  物品索引 -->
+			<Arg>		ITEM		</Arg>
+			<Arg>		BOOL		</Arg>	<!-- 是否任务物品 -->
+		</requestAddItem>
+
+		<requestAddRollItem>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT8		</Arg>	<!--  物品索引 -->
+			<Arg>		ITEM		</Arg>
+		</requestAddRollItem>
+
+		<addTasksItem>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		STRING		</Arg>
+		</addTasksItem>
+
+		<!--  法宝增加经验 -->
+		<addTalismanExp>
+			<Exposed/>
+		</addTalismanExp>
+
+		<!--  法宝修复 -->
+		<addTalismanLife>
+			<Exposed/>
+		</addTalismanLife>
+
+		<!--  法宝增加潜能 -->
+		<addTalismanPotential>
+			<Exposed/>
+		</addTalismanPotential>
+
+		<!--  提示法宝品质 -->
+		<updateTalismanGrade>
+			<Exposed/>
+		</updateTalismanGrade>
+
+		<!--  激活法宝属性 -->
+		<activateTalismanAttr>
+			<Exposed/>
+			<Arg>		UID			</Arg>
+		</activateTalismanAttr>
+
+		<!--  改造法宝属性 -->
+		<rebuildTalismanAttr>
+			<Exposed/>
+			<Arg>		ARRAY <of> UINT8 </of>	</Arg>	<!-- 要改造的法宝品级 -->
+			<Arg>		ARRAY <of> UINT8 </of>	</Arg>	<!-- 品级对应的属性Index -->
+		</rebuildTalismanAttr>
+
+		<onCellReady>
+		</onCellReady>
+
+		<!-- PK系统 -->
+		<setPkMode>		<!-- 请求设置pk保护模式 -->
+			<Exposed/>
+			<Arg>		INT8			</Arg>
+		</setPkMode>
+
+		<pushPkMode> <!--将当前Pk模式压栈，并设置新的PK模式-->
+			<Arg>	INT8	</Arg>	<!--新的PK模式-->
+		</pushPkMode>
+
+		<popPkMode>	<!--将上次压栈的Pk模式出栈，并设置为当前PK模式-->
+		</popPkMode>
+
+		<addPkValue>		<!-- 增加pk值 -->
+			<Arg>		INT16			</Arg>
+		</addPkValue>
+
+		<pkAttackStateCheck>	<!-- pk状态检测 -->
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		BOOL			</Arg>
+		</pkAttackStateCheck>
+
+		<setSysPKMode>	<!-- 设置系统指定的PK模式 -->
+			<Arg>		INT8			</Arg>
+		</setSysPKMode>
+
+		<queryMoneyInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryMoneyInfo>
+		<cometoAction>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</cometoAction>
+		<catchAction>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</catchAction>
+		<querySkillInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</querySkillInfo>
+		<queryBagInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryBagInfo>
+		<queryBankInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryBankInfo>
+		<queryStateInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryStateInfo>
+		<queryPosInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryPosInfo>
+
+		<onItemLifeOver>
+			<Arg>		UID				</Arg>
+		</onItemLifeOver>
+
+		<flyToSpacePosition>
+			<Exposed/>
+			<Arg>		INT16				</Arg>
+			<Arg>		INT16				</Arg>
+		</flyToSpacePosition>
+		<flyToPlayerPosition>
+			<Exposed/>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT16			</Arg>
+			<Arg>		VECTOR3			</Arg>
+			<Arg>		INT16			</Arg>
+		</flyToPlayerPosition>
+		<onTeleportReady>
+			<Exposed/>
+			<Arg>		INT32				</Arg>
+		</onTeleportReady>
+
+		<doKLJDActivity>
+			<Exposed/>
+		</doKLJDActivity>
+
+		<doSuperKLJDActivity>
+			<Exposed/>
+		</doSuperKLJDActivity>
+
+		<addTeamCompetitionReward>
+			<Arg>		INT8				</Arg>
+		</addTeamCompetitionReward>
+
+		<onEnterTeamCompetition>
+		</onEnterTeamCompetition>
+
+		<onEnterTongCompetition>
+		</onEnterTongCompetition>
+
+		<onLeaveTeamCompetition>
+		</onLeaveTeamCompetition>
+
+		<lockPkMode>				<!-- 锁定PK模式 -->
+		</lockPkMode>
+		<unLockPkMode>				<!-- 解锁PK模式 -->
+		</unLockPkMode>
+
+		<singleDance>
+		</singleDance>
+		<doubleDance>
+		</doubleDance>
+
+		<stopDance>
+			<Exposed/>
+		</stopDance>
+
+		<saveDanceBuff>
+			<Exposed/>
+		</saveDanceBuff>
+
+		<sendRequestDance>
+			<Arg>		MAILBOX	</Arg>
+		</sendRequestDance>
+
+		<answerDanceRequest>
+			<Exposed/>
+			<Arg>		BOOL		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</answerDanceRequest>
+
+		<stopRequestDance>
+			<Exposed/>
+		</stopRequestDance>
+
+		<stopFaceAction>
+			<Exposed/>
+			<Arg>	ARRAY <of> STRING </of>	</Arg> <!-- 表情动作 -->
+		</stopFaceAction>
+
+		<initRoleRecord>
+			<Arg>	STRING		</Arg>
+		</initRoleRecord>
+
+		<createAccountRecord>
+			<Arg>	STRING		</Arg>
+		</createAccountRecord>
+		<requestAddQuestItem>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT8		</Arg>	<!--  物品索引 -->
+			<Arg>		ITEM		</Arg>
+		</requestAddQuestItem>
+
+		<addKillMonsterExp>
+			<Arg>		INT32		</Arg>
+		</addKillMonsterExp>
+		<addExp>
+			<Arg>		INT32		</Arg>
+			<Arg>		UINT8		</Arg>
+		</addExp>
+		<updateShuijingRecord> <!-- 更新水晶记录 -->
+		</updateShuijingRecord>
+		<queryDartInfo>
+			<Arg>	MAILBOX		</Arg>
+		</queryDartInfo>
+		<queryTeamCompetitionInfo>
+			<Exposed/>
+		</queryTeamCompetitionInfo>
+		<queryTongCompetitionInfo>
+			<Exposed/>
+		</queryTongCompetitionInfo>
+
+		<createNPCObjectFormBase>
+			<Arg>	STRING		</Arg>	<!-- spaceKey -->
+			<Arg>	STRING		</Arg>	<!-- npcID -->
+			<Arg>	POSITION	</Arg>	<!-- dst position -->
+			<Arg>	DIRECTION	</Arg>	<!-- dst direction -->
+			<Arg>	PY_DICT		</Arg>	<!-- additional state, see also cell::BigWorld.createEntity() -->
+		</createNPCObjectFormBase>
+
+		<createCellNPCObjectFormBase>
+			<Arg>	STRING		</Arg>	<!-- spaceKey -->
+			<Arg>	STRING		</Arg>	<!-- npcID -->
+			<Arg>	POSITION	</Arg>	<!-- dst position -->
+			<Arg>	DIRECTION	</Arg>	<!-- dst direction -->
+			<Arg>	PY_DICT		</Arg>	<!-- additional state, see also cell::BigWorld.createEntity() -->
+		</createCellNPCObjectFormBase>
+
+		<switchSpaceLineNumber>
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+		</switchSpaceLineNumber>
+		<leaveDart>
+			<Arg>		UINT32		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</leaveDart>
+		<selectSuanGuaZhanBu>
+			<Exposed/>
+		</selectSuanGuaZhanBu>
+		<setActivityFlag>
+			<Arg>		UINT32		</Arg>
+		</setActivityFlag>
+		<set>
+			<Arg>	PYTHON		</Arg>
+			<Arg>	PYTHON		</Arg>
+		</set>
+		<remove>
+			<Arg>	PYTHON		</Arg>
+		</remove>
+		<setAccountRecord>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</setAccountRecord>
+		<addTeachCredit>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT8		</Arg>
+		</addTeachCredit>
+		<getjkCardGiftResult>			<!-- 通知cell给玩家新手卡奖励 -->
+			<Arg>	ITEM_ID		</Arg>
+		</getjkCardGiftResult>
+
+		<onPrisonContribute>
+			<Exposed/>
+		</onPrisonContribute>
+
+		<increaseHomicideNum>
+		</increaseHomicideNum>
+
+		<!-- 新单人骑宠CELL-->
+		<conjureVehicle>	<!--召唤骑宠base通知-->
+			<Arg>		VEHICLEDATA	</Arg>
+		</conjureVehicle>
+		<activateVehicle>	<!--激活骑宠base通知-->
+			<Arg>		VEHICLEDATA	</Arg>
+		</activateVehicle>
+		<deactivateVehicle>	<!--取消激活骑宠 client端请求-->
+			<Exposed/>
+		</deactivateVehicle>
+		<actAndConjureVehicle>
+			<Arg>		VEHICLEDATA	</Arg>
+		</actAndConjureVehicle>
+		<retractVehicle>	<!--收回骑宠-->
+			<Exposed/>
+		</retractVehicle>
+
+		<useVehicleItem>	<!-- 使用骑宠物品 -->
+			<Exposed/>
+			<Arg>		UID		</Arg>
+		</useVehicleItem>
+		<useTurnVehicleItem>	<!-- 使用转换的骑宠物品 -->
+			<Exposed/>
+			<Arg>		UID		</Arg>
+		</useTurnVehicleItem>
+
+		<onUseVehicleItemNotify><!-- 使用骑宠物品BASE通知 -->
+			<Arg>		UID		</Arg>
+			<Arg>		BOOL		</Arg>
+		</onUseVehicleItemNotify>
+		<onUseTurnVehicleItemNotify><!-- 使用转换骑宠物品BASE通知 -->
+			<Arg>		UID		</Arg>
+			<Arg>		BOOL		</Arg>
+		</onUseTurnVehicleItemNotify>
+		<feedVehicle>		<!-- 骑宠喂食base通知 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		ITEM_ID		</Arg>
+		</feedVehicle>
+		<domesticateVehicle>	<!-- 骑宠喂养通知 -->
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+			<Arg>		ITEM_ID		</Arg>
+			<Arg>		UINT16		</Arg>
+		</domesticateVehicle>
+
+		<onVehiclePropertyNotify>	<!-- 骑宠等级base通知 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT8		</Arg>
+		</onVehiclePropertyNotify>
+
+		<upStepVehicle><!--骑宠升阶-->
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		ITEM_ID		</Arg>
+		</upStepVehicle>
+		<onUpStepVehicle>
+		</onUpStepVehicle>
+		<vehicleToItem>
+			<Arg>		VEHICLEDATA		</Arg>
+			<Arg>		ITEM_ID		</Arg>
+		</vehicleToItem>
+
+		<onVehicleSkPointNotify><!-- 骑宠技能点base通知 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT32		</Arg>
+		</onVehicleSkPointNotify>
+
+		<onUpdateVehicleFullDegree><!-- 骑宠饱腹度更新CELL端方法 -->
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT64			</Arg>
+		</onUpdateVehicleFullDegree>
+
+		<onVehicleAddSkillNotify><!-- 骑宠增加技能base通知 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		SKILLID		</Arg>
+		</onVehicleAddSkillNotify>
+
+		<onUpdateVehicleSkillNotify><!-- 骑宠更新技能base通知 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		SKILLID		</Arg>
+			<Arg>		SKILLID		</Arg>
+		</onUpdateVehicleSkillNotify>
+
+		<freeVehicle>		<!-- 骑宠放生 -->
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+		</freeVehicle>
+
+		<setRollState>		<!-- 是否需要ROLL -->
+			<Exposed/>
+			<Arg>		BOOL		</Arg>
+		</setRollState>
+
+		<onReceiveTSItem>	<!-- 收到寄售物品 -->
+			<Arg>		ITEM		</Arg>
+			<Arg>		UINT32		</Arg>
+		</onReceiveTSItem>
+
+		<buyTSItem>
+			<Arg>		UID		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		INT32		</Arg>		<!-- item id -->
+			<Arg>		INT32		</Arg>		<!-- item count -->
+			<Arg>		INT32		</Arg>		<!-- price -->
+		</buyTSItem>
+		<addTSItem>
+			<Arg>		UID		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</addTSItem>
+		<onAddTSItem>
+			<Arg>		UID		</Arg>
+		</onAddTSItem>
+
+		<takeTSItem>
+			<Arg>		UINT32		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		ITEM_ID		</Arg>		<!-- item id -->
+			<Arg>		INT32		</Arg>		<!-- item count -->
+		</takeTSItem>
+		<buyTSPet>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		INT32		</Arg>		<!-- price -->
+		</buyTSPet>
+		<addTSPet>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</addTSPet>
+		<takeTSPet>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</takeTSPet>
+		<sellPointCard>
+			<Exposed/>
+			<Arg>		STRING		</Arg>		<!-- 卡号 -->
+			<Arg>		STRING		</Arg>		<!-- 密码 -->
+			<Arg>		STRING		</Arg>		<!-- 服务器名字 -->
+			<Arg>		INT32		</Arg>		<!-- 价格 -->
+		</sellPointCard>
+		<onSellPointCard/>
+		<buyPointCard>
+			<Exposed/>
+			<Arg>		STRING		</Arg>		<!-- 卡号 -->
+		</buyPointCard>
+		<onBuyPointCard>
+			<Arg>		INT32		</Arg>		<!-- 价格 -->
+		</onBuyPointCard>
+		<createTSNPC>
+			<Exposed/>
+			<Arg>		INT8		</Arg>		<!-- NPC类型 -->
+			<Arg>		STRING		</Arg>		<!-- 店名 -->
+		</createTSNPC>
+		<giveNewPlayerReward>	<!-- 给予新手在线定时奖励 by jy -->
+			<Arg>		INT64		</Arg>		<!-- 在线时间 -->
+			<Arg>		INT8		</Arg>		<!-- 第几份奖励 -->
+		</giveNewPlayerReward>
+		<sendNextAwarderToClient>	<!-- 通知客户端新手奖励提示 -->
+			<Arg>		INT64		</Arg>		<!-- 在线时间 -->
+			<Arg>		INT8		</Arg>		<!-- 已领几份奖励 -->
+			<Arg>		ITEM_ID		</Arg>		<!-- 上一次奖励的ID -->
+		</sendNextAwarderToClient>
+		<giveOldPlayerReward>	<!-- 给与老手在线定时奖励 by jy -->
+			<Arg>		UINT8		</Arg>		<!-- 第几份奖励 -->
+		</giveOldPlayerReward>
+		<buyTSItemFromTishouMgr>
+			<Exposed/>
+			<Arg>		UID		</Arg>
+			<Arg>		INT32		</Arg>		<!-- item id -->
+			<Arg>		INT32		</Arg>		<!-- item count -->
+			<Arg>		INT32		</Arg>
+		</buyTSItemFromTishouMgr>
+		<buyTSPetFromTishouMgr>
+			<Exposed/>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		INT32		</Arg>
+		</buyTSPetFromTishouMgr>
+		<startTS>
+		</startTS>
+		<stopTS>
+		</stopTS>
+
+		<testTakeTishouItems>
+			<Arg>		ITEMS			</Arg>
+		</testTakeTishouItems>
+		<testTakeTishouPets>
+			<Arg>		ARRAY <of> PET_EPITOME </of>	</Arg>
+		</testTakeTishouPets>
+		<addTSMoney>
+			<Arg>		INT32		</Arg>
+		</addTSMoney>
+		<addTSFlag>
+		</addTSFlag>
+		<removeTSFlag>
+		</removeTSFlag>
+		<cometoTSNPC>
+			<Exposed/>
+			<Arg>		INT8		</Arg>
+		</cometoTSNPC>
+		<addDayStat>
+			<Arg>		STRING		</Arg>
+		</addDayStat>
+		<getStatistic>
+			<Exposed/>
+		</getStatistic>
+
+		<!-- 切磋系统 -->
+		<requestQieCuo>	<!-- 请求切磋 -->
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+		</requestQieCuo>
+
+		<replyQieCuo>	<!-- 答复切磋 -->
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	BOOL		</Arg>
+		</replyQieCuo>
+
+		<changeQieCuoState>	<!--切磋状态更改-->
+			<Arg>	UINT8		</Arg>
+		</changeQieCuoState>
+
+		<changeQieCuoTarget>	<!--切磋目标更改-->
+			<Arg>	OBJECT_ID	</Arg>
+		</changeQieCuoTarget>
+		<onRobotVerifyResult>
+			<Arg>	UINT16	</Arg>
+		</onRobotVerifyResult>
+
+		<addCollectionItem>
+			<Exposed/>
+			<Arg>		COLLECTION_ITEM		</Arg>
+		</addCollectionItem>
+
+		<enterAutoFight>
+			<Exposed/>
+		</enterAutoFight>
+		<leaveAutoFight>
+			<Exposed/>
+		</leaveAutoFight>
+		<onAddCollectionItem>
+			<Arg>		COLLECTION_ITEM		</Arg>
+		</onAddCollectionItem>
+
+		<removeCollectionItem>
+			<Exposed/>
+			<Arg>		UID			</Arg>
+		</removeCollectionItem>
+
+		<onRemoveCollectionItem>
+			<Arg>		COLLECTION_ITEM		</Arg>
+		</onRemoveCollectionItem>
+
+		<takeCollectedItems>
+			<Exposed/>
+		</takeCollectedItems>
+
+		<onTakeCollectedItems>
+			<Arg>	ARRAY <of> 	COLLECTION_ITEM	 </of>	</Arg>
+		</onTakeCollectedItems>
+
+		<queryCollectionInfo>
+			<Exposed/>
+			<Arg>		DATABASE_ID			</Arg>
+		</queryCollectionInfo>
+
+		<sellCollectionItems>
+			<Exposed/>
+			<Arg>	ARRAY <of> 	COLLECTION_ITEM	 </of>	</Arg>
+			<Arg>		DATABASE_ID			</Arg>
+		</sellCollectionItems>
+
+		<onSellCollectionItems>
+			<Arg>	ARRAY <of> 	COLLECTION_ITEM	 </of>	</Arg>
+			<Arg>		DATABASE_ID			</Arg>
+		</onSellCollectionItems>
+
+		<rollRandom>
+			<Exposed/>
+			<Arg>			OBJECT_ID		</Arg>
+			<Arg>			UINT8			</Arg>
+		</rollRandom>
+		<abandonRoll>
+			<Exposed/>
+			<Arg>			OBJECT_ID		</Arg>
+			<Arg>			UINT8			</Arg>
+		</abandonRoll>
+		<addOwnCollectionItem>
+			<Exposed/>
+			<Arg>			OWN_COLLECTION_ITEM	</Arg>
+		</addOwnCollectionItem>
+		<removeOwnCollectionItem>
+			<Exposed/>
+			<Arg>			UID			</Arg>
+		</removeOwnCollectionItem>
+		<queryOwnCollectionItem>
+			<Exposed/>
+		</queryOwnCollectionItem>
+		<sellOwnCollectionItem>
+			<Exposed/>
+			<Arg>			OWN_COLLECTION_ITEM	</Arg>
+		</sellOwnCollectionItem>
+		<doCollectionItemTrade>
+			<Exposed/>
+			<Arg>			OWN_COLLECTION_ITEM	</Arg>
+		</doCollectionItemTrade>
+		<onDoCollectionItemTrade>
+			<Arg>			OBJECT_ID		</Arg>
+			<Arg>			OWN_COLLECTION_ITEM	</Arg>
+		</onDoCollectionItemTrade>
+		<requestReward>
+			<Arg>			MAILBOX		</Arg>
+		</requestReward>
+		<removeTongRaceItem>
+		</removeTongRaceItem>
+		<addHonor>
+			<Arg>			UINT32		</Arg>
+			<Arg>			UINT8		</Arg>
+		</addHonor>
+		<subHonor>
+			<Arg>			UINT32		</Arg>
+			<Arg>			UINT8		</Arg>
+		</subHonor>
+		<addTongScore>
+			<Arg>			UINT32		</Arg>
+		</addTongScore>
+		<addPersonalScore>
+			<Arg>			UINT32		</Arg>
+			<Arg>			UINT8		</Arg>
+		</addPersonalScore>
+		<subPersonalScore>
+			<Arg>			UINT32		</Arg>
+			<Arg>			UINT8		</Arg>
+		</subPersonalScore>
+		<onExp2PotFC>	<!-- 用经验兑换潜能 -->
+			<Exposed/>
+			<Arg>		INT32	</Arg>	<!-- potential -->
+		</onExp2PotFC>
+		<updateOwnCollectionItemInfo>
+			<Exposed/>
+			<Arg>			OWN_COLLECTION_ITEM	</Arg>
+		</updateOwnCollectionItemInfo>
+		<updateCollectionItemInfo>
+			<Exposed/>
+			<Arg>			COLLECTION_ITEM	</Arg>
+		</updateCollectionItemInfo>
+		<onUpdateCollectionItem>
+			<Arg>			COLLECTION_ITEM	</Arg>
+			<Arg>			COLLECTION_ITEM	</Arg>
+		</onUpdateCollectionItem>
+		<takeCollectionDeposit>
+			<Exposed/>
+		</takeCollectionDeposit>
+		<onTakeCollectionDeposit>
+			<Arg>	UINT32		</Arg>
+		</onTakeCollectionDeposit>
+		<onNoticeCollectionOver>
+		</onNoticeCollectionOver>
+		<remoteAddActivityCount>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	STRING		</Arg>
+		</remoteAddActivityCount>
+		<addActivityCount>
+			<Arg>	UINT8		</Arg>
+		</addActivityCount>
+		<brocastMessageDart>
+			<Arg>	UINT32		</Arg>
+		</brocastMessageDart>
+		<brocastMessageSlaveDart>
+			<Arg>	UINT16		</Arg>
+		</brocastMessageSlaveDart>
+		<equipGodWeapon>
+			<Exposed/>
+			<Arg>	ITEM		</Arg>
+		</equipGodWeapon>
+		<withdrawPet>
+		</withdrawPet>
+		<addPotentialBook>
+			<Arg>	UINT32		</Arg>
+		</addPotentialBook>
+		<addPotentialPickAnima>
+			<Arg>	UINT32		</Arg>
+		</addPotentialPickAnima>
+		<awardItem>	<!-- base通知cell在玩家身上生成物品 -->
+			<Arg>  PYTHON  </Arg>	<!-- 物品的ID和数量  -->
+		</awardItem>
+
+		<giveKJReward>	<!-- 科举奖励 by jy -->
+			<Arg>	UINT16		</Arg>
+		</giveKJReward>
+
+		<sendLoveMsg>
+			<Arg>		STRING		</Arg>	<!-- receiveName -->
+			<Arg>		STRING		</Arg>	<!-- msg -->
+			<Arg>		BOOL		</Arg>	<!-- 是否匿名 -->
+			<Arg>		BOOL		</Arg>	<!-- 是否发送邮箱 -->
+		</sendLoveMsg>
+
+		<pickFruit>		<!--采集魅力果树-->
+			<Exposed/>
+			<Arg> OBJECT_ID </Arg>
+		</pickFruit>
+
+		<equipPour>		<!--装备属性灌注-->
+			<Exposed/>
+			<Arg> ARRAY <of> UID </of> </Arg>
+		</equipPour>
+
+		<equipExtract>		<!--装备属性抽取-->
+			<Exposed/>
+			<Arg> ARRAY <of> UID </of> </Arg>
+		</equipExtract>
+
+		<onEnterWater>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</onEnterWater>
+
+		<onLeaveWater>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</onLeaveWater>
+
+		<onEnterRabbitRunRoadPoint>
+			<Arg>	UINT8		</Arg>		<!-- point index-->
+			<Arg>	UINT8		</Arg>		<!-- point counts-->
+			<Arg>	UINT8		</Arg>		<!-- isEndPoint-->
+		</onEnterRabbitRunRoadPoint>
+		<winInRabbitRun>
+			<Arg>	UINT8		</Arg>		<!-- 名次-->
+		</winInRabbitRun>
+		<answerBuffQuestion>
+			<Exposed/>
+			<Arg>	INT32		</Arg>		<!-- buffID-->
+			<Arg>	STRING		</Arg>		<!-- 答案-->
+		</answerBuffQuestion>
+		<addPersistentFlag>
+			<Arg>		UINT32		</Arg>
+		</addPersistentFlag>
+		<removePersistentFlag>
+			<Arg>		UINT32		</Arg>
+		</removePersistentFlag>
+		<changFashionNum>	<!--时装切换-->
+			<Exposed/>
+		</changFashionNum>
+
+		<!--玩家跌落到最大深度的通知-->
+		<onMinHeightDetected>
+			<Exposed/>
+		</onMinHeightDetected>
+
+		<changeHeadAbout>
+			<Exposed/>
+			<Arg>	UINT32	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>	UINT32	</Arg>
+		</changeHeadAbout>
+
+		<!--身轻如燕-->
+		<switchWater>	<!--出入水服务器通知-->
+			<Exposed/>
+			<Arg>		BOOL		</Arg>
+		</switchWater>
+		<leaveCopySpace>
+			<Exposed/>
+		</leaveCopySpace>
+		<onCompleteVideo>
+			<Exposed/>
+		</onCompleteVideo>
+		<infoTongMemberFly>
+			<Exposed/>
+			<Arg>		UINT16			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		VECTOR3			</Arg>
+			<Arg>		VECTOR3			</Arg>
+		</infoTongMemberFly>
+		<setAoI>
+			<Exposed/>
+			<Arg>		FLOAT			</Arg>
+		</setAoI>
+		<sendAICmd>
+			<Exposed/>
+			<Arg>	ARRAY <of>OBJECT_ID</of>	</Arg>
+			<Arg>		UINT16			</Arg>
+		</sendAICmd>
+                <onGetAllVehicleDatas>
+                    <Arg>		VEHICLEDATAS		</Arg>
+                </onGetAllVehicleDatas>
+		<addComboCount/>
+		<transVehicle>
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT32			</Arg>
+		</transVehicle>
+		<delayTeleport>
+			<Exposed/>
+			<Arg>		STRING			</Arg>
+			<Arg>		VECTOR3			</Arg>
+			<Arg>		BOOL			</Arg>
+		</delayTeleport>
+		<openAutoFight>
+			<Exposed/>
+		</openAutoFight>
+
+		<setRoleModelInfo>
+			<Exposed/>
+			<Arg>		PYTHON		</Arg>		<!--palyerModelInfo-->
+		</setRoleModelInfo>
+		<setDanceChallengeIndex>
+			<Exposed/>
+			<Arg>		UINT8	</Arg>
+		</setDanceChallengeIndex>
+		<noticeChallengeResult>
+			<Arg>		BOOL		</Arg>		<!--challengeResult-->
+		</noticeChallengeResult>
+		<teleportToDanceChallengeSpace>
+			<Exposed/>
+			<Arg>		UINT8	</Arg>
+		</teleportToDanceChallengeSpace>
+		<teleportToDancePracticeSpace>
+			<Exposed/>
+			<Arg>		UINT8	</Arg>
+		</teleportToDancePracticeSpace>
+		<requestDancingKingInfos>
+			<Arg>		PYTHON		</Arg>		<!-- dancingKingInfos-->
+		</requestDancingKingInfos>
+		<onQueryRoleEquipItems>
+			<Arg>		MAILBOX		</Arg>
+		</onQueryRoleEquipItems>
+		<removeDanceTypeTemp>
+			<Exposed/>
+		</removeDanceTypeTemp>
+		<addWuTingBuff>
+			<Exposed/>
+			<Arg>	UINT8		</Arg>
+			<Arg>	PYTHON		</Arg>
+		</addWuTingBuff>
+		<quitDance>
+			<Exposed/>
+		</quitDance>
+		<onEnterDanceCopy>
+		</onEnterDanceCopy>
+		<onLeaveDanceCopy>
+		</onLeaveDanceCopy>
+		<askforDanceInfos>
+			<Exposed/>
+		</askforDanceInfos>
+		<enterWuTing>
+		</enterWuTing>
+		<leaveWuTing>
+		</leaveWuTing>
+		<challengeSuccess>
+		</challengeSuccess>
+		<gotoDanceChallengeSpace>
+			<Arg>	UINT8	</Arg>	
+		</gotoDanceChallengeSpace>
+		<onLeaveYaYuCopy/>
+		<getDanceExp>
+			<Arg>	INT32	</Arg>
+			<Arg>	BOOL	</Arg>
+		</getDanceExp>
+		<canGetDancePosition>
+			<Exposed/>
+			<Arg>		UINT8	</Arg>		
+		</canGetDancePosition>
+		<playSoundByQuest>
+			<Arg>		QUESTID	</Arg>	
+			<Arg>		UINT8		</Arg>	
+			<Arg>		STRING		</Arg>	
+		</playSoundByQuest>
+		<setPartrol>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</setPartrol>
+		<loseDancePosition>
+			<Arg>		UINT8		</Arg>
+		</loseDancePosition>
+		<onCreatePotential/>
+		<!-- 捡起道具 -->
+		<pickupItem>
+			<!-- 把item entity的cell mailbox传给base虽然会有不可意料的可能性产生，
+				但最坏的情况也就是cell entity已经被销毁，这个无所谓，
+				没了就没了，反正要这个mailbox也只是用于通知捡拾是否成功而已 -->
+			<Arg>	MAILBOX		</Arg>	<!-- cell entity's mailbox of item , 主要用于回调通知cell时用 -->
+			<Arg>	ITEM		</Arg>	<!-- itemData -->
+		</pickupItem>
+
+		<!-- 捡起钱 -->
+		<pickupMoney>
+			<Arg>	MAILBOX		</Arg>	<!-- cell entity's mailbox of item , 主要用于回调通知cell时用 -->
+			<Arg>	UINT32		</Arg>	<!-- money amount -->
+		</pickupMoney>
+	</CellMethods>
+
+	<BaseMethods>
+
+		<requestInitialize>
+			<Exposed/>			<!-- 请求初始化( hyw : 2008.06.05 ) -->
+			<Arg>	UINT8	</Arg>		<!-- 初始化类型，在 csdefine 中定义 -->
+		</requestInitialize>
+
+		<logout>
+			<Exposed/>
+		</logout>
+
+		<addRewardRecord>	<!-- 通知base保存已领奖励记录 -->
+			<Arg>		INT32		</Arg>		<!-- 奖励的tick -->
+		</addRewardRecord>
+
+		<sendLifetime2Client>
+			<Exposed/>
+		</sendLifetime2Client>
+
+		<updateLevel>		<!-- 用于让cellApp同步更新level属性 -->
+			<Arg>		UINT8			</Arg>
+		</updateLevel>
+
+		<onClientGetVersion>
+			<Exposed/>
+		</onClientGetVersion>
+
+		<addDartData>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</addDartData>
+
+		<onWuDaoOver>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	INT8		</Arg>
+		</onWuDaoOver>
+
+		<queryActivityScheme>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</queryActivityScheme>
+		<queryPlayerAmountAction>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryPlayerAmountAction>
+		<queryPlayerNameAction>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryPlayerNameAction>
+		<queryIPAction>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryIPAction>
+		<kickAction>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</kickAction>
+		<queryAccountInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryAccountInfo>
+		<queryBankInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryBankInfo>
+		<queryLoginInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryLoginInfo>
+		<queryLastLoginInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryLastLoginInfo>
+		<blockPlayerAccount>
+			<Arg>	PY_DICT		</Arg>
+		</blockPlayerAccount>
+		<clientSendApexMessage>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT32	</Arg>
+		</clientSendApexMessage>
+		<saveRoleRecord>
+			<Arg>	STRING		</Arg>
+		</saveRoleRecord>
+		<saveAccountRecord>
+			<Arg>	STRING		</Arg>
+		</saveAccountRecord>
+		<queryWeekOnlineTime>
+			<Arg>	OBJECT_ID	</Arg>
+		</queryWeekOnlineTime>
+		<update_grade>
+			<Arg>	INT8		</Arg>
+		</update_grade>
+		<getWeekOnlineTimeGift>
+			<Arg>	INT32		</Arg>
+		</getWeekOnlineTimeGift>
+		<getjackarooCardGift>				<!-- 领取新手卡奖励 -->
+			<Arg>	UINT8		</Arg>		<!-- 要领取的奖品的等级 如 5级新手卡奖品 -->
+			<Arg>	ITEM_ID		</Arg>		<!-- 要领取的奖品的ID -->
+		</getjackarooCardGift>
+		<onGetjkCardGiftFailed>				<!-- 领取失败告知base -->
+		</onGetjkCardGiftFailed>
+
+		<!-- 新单人骑宠BASE -->
+		<useVehicleItem>	<!-- 使用骑宠物品 -->
+			<Arg>		ITEM		</Arg>
+		</useVehicleItem>
+		<useTurnVehicleItem>	<!-- 使用转换的骑宠物品 -->
+			<Arg>		ITEM		</Arg>
+		</useTurnVehicleItem>
+		<conjureVehicle>	<!--召唤骑宠-->
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+		</conjureVehicle>
+		<activateVehicle>	<!--激活骑宠-->
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+		</activateVehicle>
+		<upStepVehicle><!--骑宠升阶-->
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		ITEM_ID		</Arg>
+		</upStepVehicle>
+		<vehicleToItem><!--骑宠转换成物品-->
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+			<Arg>		ITEM_ID		</Arg>
+		</vehicleToItem>
+		<vehicleToItemSuc>
+			<Arg>		UINT8		</Arg>
+		</vehicleToItemSuc>
+		<setVehicleLevel>	<!-- 设置骑宠等级 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT8		</Arg>
+		</setVehicleLevel>
+
+		<setVehicleGrowth>	<!-- 设置骑宠成长度 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT8		</Arg>
+		</setVehicleGrowth>
+
+		<transAddVehicleExp>	<!-- 传功增加骑宠经验 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT32		</Arg>
+		</transAddVehicleExp>
+
+		<addVehicleExp>		<!-- 增加骑宠经验 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT32		</Arg>
+		</addVehicleExp>
+
+		<setVehicleExp>		<!-- 设置骑宠经验 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT32		</Arg>
+		</setVehicleExp>
+
+		<addVehicleSkPoint>	<!-- 增加骑宠技能点 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT32		</Arg>
+		</addVehicleSkPoint>
+
+		<setVehicleSkPoint>	<!-- 设置骑宠技能点 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT32		</Arg>
+		</setVehicleSkPoint>
+
+		<addVehicleFullDegree>	<!-- 增加骑宠饱腹度 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT32		</Arg>
+		</addVehicleFullDegree>
+
+		<setVehicleFullDegree>	<!-- 设置骑宠饱腹度 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT64		</Arg>
+		</setVehicleFullDegree>
+
+		<addVehicleDeadTime>	<!-- 增加骑宠生存时间 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT64		</Arg>
+		</addVehicleDeadTime>
+
+		<setVehicleDeadTime>	<!-- 设置骑宠生存时间 -->
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT64		</Arg>
+		</setVehicleDeadTime>
+
+		<feedVehicle>		<!-- 骑宠喂食 -->
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+		</feedVehicle>
+
+		<freeVehicle>		<!-- 骑宠放生 -->
+			<Arg>		UINT8		</Arg>
+		</freeVehicle>
+
+		<addVehicleSkill>
+			<Arg>		UINT8		</Arg>
+			<Arg>		SKILLID		</Arg>
+		</addVehicleSkill>
+
+		<updateVehicleSkill>
+			<Arg>		UINT8		</Arg>
+			<Arg>		SKILLID		</Arg>
+			<Arg>		SKILLID		</Arg>
+		</updateVehicleSkill>
+		<onReceiveTSPet>
+			<Arg>		PET_EPITOME	</Arg>
+			<Arg>		INT32		</Arg>		<!-- 价格 -->
+		</onReceiveTSPet>
+		<sellPointCard>
+			<Arg>		STRING		</Arg>		<!-- 卡号 -->
+			<Arg>		STRING		</Arg>		<!-- 密码 -->
+			<Arg>		STRING		</Arg>		<!-- 服务器名字 -->
+			<Arg>		INT32		</Arg>		<!-- 价格 -->
+		</sellPointCard>
+		<buyPointCard>
+			<Arg>		STRING		</Arg>		<!-- 卡号 -->
+			<Arg>		UINT32		</Arg>		<!-- 金钱 -->
+		</buyPointCard>
+		<queryTishouShopInfo>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>		<!-- 页数 -->
+			<Arg>		PY_DICT		</Arg>		<!-- 条件 -->
+		</queryTishouShopInfo>
+		<queryTishouItemInfo>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>		<!-- 页数 -->
+			<Arg>		PY_DICT		</Arg>		<!-- 条件 -->
+		</queryTishouItemInfo>
+		<queryTishouPetInfo>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>		<!-- 页数 -->
+			<Arg>		PY_DICT		</Arg>		<!-- 条件 -->
+		</queryTishouPetInfo>
+		<takeTSMoneyFromTiShouMgr>
+			<Exposed/>
+		</takeTSMoneyFromTiShouMgr>
+		<takeTSItemFromTiShouMgr>
+			<Exposed/>
+		</takeTSItemFromTiShouMgr>
+		<takeTSPetFromTiShouMgr>
+			<Exposed/>
+		</takeTSPetFromTiShouMgr>
+		<addTSPet>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		UINT32		</Arg>		<!-- roleProcess -->
+		</addTSPet>
+		<testTakeTishouPets>
+			<Arg>		ARRAY <of> PET_EPITOME </of>	</Arg>
+		</testTakeTishouPets>
+		<queryPointCards>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>		<!-- page -->
+		</queryPointCards>
+		<answerRobotVerify>
+			<Exposed/>
+			<Arg>		PYTHON		</Arg>
+		</answerRobotVerify>
+		<triggerAntiRobot>
+		</triggerAntiRobot>
+		<requestCancelVerify>
+			<Exposed/>
+		</requestCancelVerify>
+		<queryPointCardsByValue>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>		<!-- page -->
+			<Arg>		STRING		</Arg>		<!-- value -->
+		</queryPointCardsByValue>
+
+		<tongSignSendStart>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>	ARRAY <of> STRING </of>	</Arg>
+		</tongSignSendStart>
+
+		<awardResult>
+			<Arg>		BOOL		</Arg>
+		</awardResult>
+		<awardItem>
+			<Arg>		UINT8		</Arg>
+			<Arg>		STRING		</Arg>
+		</awardItem>
+
+		<onEnterAutoFight>
+			<Exposed/>
+		</onEnterAutoFight>
+		<onLeaveAutoFight>
+			<Exposed/>
+		</onLeaveAutoFight>
+		<takeSilver>
+		</takeSilver>
+		<sendLoveMsg>
+			<Exposed/>
+			<Arg>		STRING		</Arg>	<!-- receiveName -->
+			<Arg>		STRING		</Arg>	<!-- msg -->
+			<Arg>		BOOL		</Arg>	<!-- 是否匿名 -->
+			<Arg>		BOOL		</Arg>	<!-- 是否发送邮箱 -->
+		</sendLoveMsg>
+		<queryLoveMsgByIndex>				<!-- 取一条信息 -->
+			<Exposed/>
+			<Arg>	UINT32		</Arg>		<!-- 索引 -->
+		</queryLoveMsgByIndex>
+		<queryLoveMsgsByRange>				<!-- 取一组信息 -->
+			<Exposed/>
+			<Arg>	UINT32		</Arg>		<!-- 一组的索引 -->
+		</queryLoveMsgsByRange>
+		<queryLoveMsgsBySenderName>			<!-- 取一组信息 -->
+			<Exposed/>
+			<Arg>	STRING		</Arg>		<!-- 发件人名字 -->
+		</queryLoveMsgsBySenderName>
+		<queryLoveMsgsByReceiverName>			<!-- 取一组信息 -->
+			<Exposed/>
+			<Arg>	STRING		</Arg>		<!-- 收件人名字 -->
+		</queryLoveMsgsByReceiverName>
+		<voteLoveMsg>
+			<Exposed/>
+			<Arg>	UINT32		</Arg>		<!-- 索引 -->
+			<Arg>	UINT8		</Arg>		<!-- 投票项 -->
+		</voteLoveMsg>
+		<queryLoveMsgsResult>
+			<Exposed/>
+		</queryLoveMsgsResult>
+
+		<autoFightExtraTimeCharge>
+			<Arg>		INT32		</Arg>
+		</autoFightExtraTimeCharge>
+		<autoFightTimeCharge>
+			<Arg>		INT32		</Arg>
+		</autoFightTimeCharge>
+		<addSuit>
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>ARRAY<of>UINT64</of>	</Arg>
+		</addSuit>
+		<updateSuit>
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+			<Arg>ARRAY<of>UINT64</of>	</Arg>
+		</updateSuit>
+		<renameSuit>
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+			<Arg>		STRING		</Arg>
+		</renameSuit>
+		<onSwitchSuit>
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+		</onSwitchSuit>
+
+		<addVehicleBuff>
+			<Arg>	UINT32	</Arg>
+			<Arg>	BUFF	</Arg>
+		</addVehicleBuff>
+		<updateVehicleBuffs>
+			<Arg>	UINT32	</Arg>
+			<Arg>	ARRAY<of>BUFF</of>	</Arg>
+		</updateVehicleBuffs>
+		<queryMatchLog>
+			<Exposed/>
+		</queryMatchLog>
+		<updateMatchLog>
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</updateMatchLog>
+		<confirmToReceiveNewPlayerReward>		<!--	领取新手在线奖励	-->
+			<Exposed/>
+		</confirmToReceiveNewPlayerReward>
+		<confirmToReceiveOldPlayerReward>		<!--	领取老手在线奖励	-->
+			<Exposed/>
+		</confirmToReceiveOldPlayerReward>
+                <getAllVehicleDatasFromBase>
+                </getAllVehicleDatasFromBase>
+		<baoZangBroadCastEnemyPos>		<!--	宝藏副本更新附近敌人信息给队友	-->
+			<Exposed/>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		POSITION	</Arg>
+		</baoZangBroadCastEnemyPos>
+		<baoZangBroadCastDisposeEnemy>		<!--	超出AOI通知队友	-->
+			<Exposed/>
+			<Arg>		OBJECT_ID	</Arg>
+		</baoZangBroadCastDisposeEnemy>
+		<transVehicle>  <!--传功-->
+			<Exposed/>
+			<Arg>		UINT8	</Arg>
+		</transVehicle>
+		<noticeDanceMgrIsChallenged>
+			<Exposed/>
+			<Arg>		UINT8	</Arg>  <!--challengeIndex-->
+		</noticeDanceMgrIsChallenged>
+		<canChallengeDanceKing>
+			<Exposed/>
+			<Arg>		UINT8	</Arg>  <!--challengeIndex-->		
+		</canChallengeDanceKing>
+		<queryRoleEquipItems>
+			<Exposed/>
+			<Arg>		STRING	</Arg>
+		</queryRoleEquipItems>
+		<setJueDiFanJiState>
+			<Arg>		UINT8	</Arg>
+		</setJueDiFanJiState>
+		<enterWuTing>
+		</enterWuTing>
+		<leaveWuTing>
+		</leaveWuTing>
+	</BaseMethods>
+
+
+	<ClientMethods>
+		<onInitialized>
+			<Arg>		UINT8			</Arg> <!-- 初始化完毕某个初始化类型时被调用 -->
+		</onInitialized>
+
+		<ReceiveChangeTime> <!--HZM 0308  control time -->
+			<Exposed/>
+			<Arg>		FLOAT			</Arg> <!-- new time, 0:0 ~ 23:59, or a float -->
+		</ReceiveChangeTime>
+
+		<onJumpNotifyFS>	<!--	cell发送jump通知的广播消息　cell调用	-->
+			<Exposed/>
+			<Arg>		UINT8			</Arg> <!-- action index -->
+		</onJumpNotifyFS>
+
+		<onFlyJumpUpNotifyFS>	<!-- 向server通知飞行上升高度，由client调用 -->
+			<Exposed/>
+		</onFlyJumpUpNotifyFS>
+
+		<onStatusMessage>	<!-- used for receiving states message from server -->
+			<Arg>		UINT16			</Arg>	<!-- statusID : defined in common/csstatus.py -->
+			<Arg>		STRING			</Arg>	<!-- speaker  : message match the statusID, defined in csstatus_msg.py -->
+		</onStatusMessage>
+
+		<onDirectMessage>	<!-- used for receiving direct message from server -->
+			<Arg>		UINT8_ARRAY		</Arg>	<!-- chids : 频道列表 -->
+			<Arg>		STRING			</Arg>	<!-- speaker  : 发言者 -->
+			<Arg>		STRING			</Arg>	<!-- msg      : 消息内容 -->
+		</onDirectMessage>
+
+		<set_lifetime>
+			<Arg>		FLOAT			</Arg>
+		</set_lifetime>
+
+		<cooldownChanged>
+			<Arg>		INT32			</Arg>	<!-- cooldown typeID -->
+			<Arg>		INT16			</Arg>	<!-- cooldown lastTime -->
+			<Arg>		INT16			</Arg>	<!-- cooldown totalTime -->
+		</cooldownChanged>
+
+
+		<equipRepairCompleteNotify>
+		</equipRepairCompleteNotify>
+
+		<onEnterAreaFS>
+		</onEnterAreaFS>
+		<onLeaveAreaFS>
+		</onLeaveAreaFS>
+
+		<initSkillBox>
+			<Arg>			ARRAY <of> SKILLID </of>	</Arg>
+		</initSkillBox>
+		<initSpaceSkills>
+			<Arg>			ARRAY <of> SKILLID </of>	</Arg>
+			<Arg>			INT16	</Arg>			<!-- spaceType -->
+		</initSpaceSkills>
+
+		<!-- 装备制造 -->
+		<enterEquipMake>
+			<Arg>	OBJECT_ID		</Arg> <!--NPC编号-->
+		</enterEquipMake>
+
+		<!-- 装备属性抽取 -->
+		<enterEquipExtract>
+			<Arg>	OBJECT_ID		</Arg> <!--NPC编号-->
+		</enterEquipExtract>
+
+		<!-- 装备属性灌注 -->
+		<enterEquipPour>
+			<Arg>	OBJECT_ID		</Arg> <!--NPC编号-->
+		</enterEquipPour>
+
+		<!-- 装备属性飞升 -->
+		<enterEquipUp>
+			<Arg>	OBJECT_ID		</Arg> <!--NPC编号-->
+		</enterEquipUp>
+
+		<!--装备属性重铸-->
+		<enterEquipAttrRebuild>
+			<Arg>	OBJECT_ID		</Arg> <!--NPC编号-->
+		</enterEquipAttrRebuild>
+
+		<!--装备属性重铸成功通知-->
+		<equipAttrRebuildSuccess/>
+
+		<onGetServerVersion>
+			<Arg>		STRING			</Arg>
+		</onGetServerVersion>
+		<showTargetAttribute>		<!-- 将数据发往客户端,让客户端显示对方属性 -->
+			<Arg>	OBJECT_ID		</Arg>
+		</showTargetAttribute>
+
+		<showTargetEquip>		<!-- 将对方玩家的单个装备数据发往客户端 -->
+			<Arg>	ITEMS	</Arg>	<!-- 对方玩家的装备属性 -->
+			<Arg>	BOOL	</Arg>	<!-- 是否已经发送完全部的装备 -->
+		</showTargetEquip>
+
+		<startRacehorse>
+		</startRacehorse>
+
+		<startTongRacehorse>
+		</startTongRacehorse>
+
+		<onCasketResult>
+			<Arg>		INT16			</Arg>
+		</onCasketResult>
+
+
+		<onTalismanLvUp>		<!-- 当法宝升级时调用 -->
+		</onTalismanLvUp>
+
+		<onTalismanSkillLvUp>		<!-- 当法宝技能升级时调用 -->
+		</onTalismanSkillLvUp>
+
+		<onRebuildAttrCB>
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT8			</Arg>
+		</onRebuildAttrCB>
+		<onActivatyAttrCB>
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT8			</Arg>
+		</onActivatyAttrCB>
+
+		<onAssaultEnd>			<!-- 冲锋结束回调（09.01.13）-->
+		</onAssaultEnd>
+		<change_money>			<!-- 改变客户端金钱-->
+			<Arg>	UINT32	</Arg>	<!-- 改变的金钱数量 -->
+			<Arg>	UINT8	</Arg>	<!-- 改变的原因 -->
+		</change_money>
+		<change_EXP>			<!-- 改变客户端经验值-->
+			<Arg>	INT32	</Arg>	<!-- 经验值变化值 -->
+			<Arg>	INT32	</Arg>	<!-- 最终经验值 -->
+			<Arg>	UINT8	</Arg>	<!-- 改变的原因 -->
+		</change_EXP>
+		<startCopyTime>
+			<Arg>	UINT16	</Arg>
+		</startCopyTime>
+
+		<endCopyTime>
+		</endCopyTime>
+
+		<onAddScheme>
+			<Arg>	STRING	</Arg>	<!-- 活动名字 -->
+			<Arg>	INT32 	</Arg>	<!-- 是否开始点 -->
+			<Arg>	STRING	</Arg>	<!-- 描述 -->
+			<Arg>	STRING	</Arg>	<!-- 时间字符 -->
+			<Arg>	STRING	</Arg>	<!-- 活动条件 -->
+			<Arg>	STRING	</Arg>	<!-- 活动地区 -->
+			<Arg>	STRING	</Arg>	<!-- 活动类型 -->
+			<Arg>	STRING	</Arg>	<!-- 活动线路 -->
+			<Arg>	INT8	</Arg>	<!-- 活动推荐度 -->
+			<Arg>	UINT32	</Arg>	<!-- 活动持续时间 -->
+		</onAddScheme>
+
+		<onOneActivityDataSendOver>
+		</onOneActivityDataSendOver>
+
+		<onActivityDataSendOver>
+		</onActivityDataSendOver>
+
+		<onSaveDoubleExpBuff>
+		</onSaveDoubleExpBuff>
+
+		<onOpenCopySpaceInterface>
+			<Arg>		ARRAY <of> INT32 </of>	</Arg>
+		</onOpenCopySpaceInterface>
+
+		<onCloseCopySpaceInterface/>
+
+		<updateGold>
+			<Arg>	UINT32	</Arg>
+			<Arg>	UINT8		</Arg>
+		</updateGold>
+		<updateSilver>
+			<Arg>	UINT32	</Arg>
+			<Arg>	UINT8		</Arg>
+		</updateSilver>
+
+		<onTeleportVehicleModeActionChanged>
+			<Arg>	STRING	</Arg>
+		</onTeleportVehicleModeActionChanged>
+
+		<startKLJDActivity>
+		</startKLJDActivity>
+
+		<endKLJDReward>
+		</endKLJDReward>
+
+		<startSuperKLJDActivity>
+		</startSuperKLJDActivity>
+
+		<onTeamCompetitionStart>
+		</onTeamCompetitionStart>
+
+		<onEnterTeamCompetitionSpace>
+			<Arg>	UINT32	</Arg>
+		</onEnterTeamCompetitionSpace>
+
+		<onLeaveTeamCompetitionSpace>
+		</onLeaveTeamCompetitionSpace>
+
+		<onTeamCompetitionEnd>
+		</onTeamCompetitionEnd>
+
+		<saveDanceBuff>
+		</saveDanceBuff>
+
+		<receiveRequestDance>
+			<Arg>		OBJECT_ID		</Arg>
+		</receiveRequestDance>
+
+		<stopRequestDance>
+		</stopRequestDance>
+
+		<playFaceAction>
+			<Arg>	ARRAY <of> STRING </of>		</Arg> <!-- 表情动作 -->
+		</playFaceAction>
+
+		<stopFaceAction>
+			<Arg>	ARRAY <of> STRING </of>		</Arg> <!-- 表情动作 -->
+		</stopFaceAction>
+
+		<clientRecvApexMessage>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT32	</Arg>
+		</clientRecvApexMessage>
+
+		<startClientApex>
+		</startClientApex>
+
+		<alertMessageBox>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</alertMessageBox>
+
+		<onTeamCompetitionInfo>
+			<Arg>	UINT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT16	</Arg>
+			<Arg>	UINT8	</Arg>
+		</onTeamCompetitionInfo>
+
+		<updataTeamCompetitionInfo>
+
+		</updataTeamCompetitionInfo>
+		<disDartEntity>
+			<Arg>			OBJECT_ID		</Arg>
+			<Arg>			UINT8			</Arg>
+		</disDartEntity>
+
+		<askSuanGuaZhanBu>
+			<Arg>			UINT32			</Arg>
+		</askSuanGuaZhanBu>
+
+		<onLoginSpaceIsFull/>
+		<onGetBenefitTime>	<!--客户端回调 用于通知客户端开始在线计时 by jy-->
+			<Arg>			FLOAT			</Arg>
+		</onGetBenefitTime>
+
+		<onNPCOwnerFamilyNameChanged>
+			<Arg>			OBJECT_ID		</Arg>
+			<Arg>			STRING			</Arg>
+		</onNPCOwnerFamilyNameChanged>
+
+		<!-- 新单人骑宠CLIENT -->
+		<onAddVehicle>		<!-- 增加骑宠 -->
+			<Arg>		VEHICLEDATA		</Arg>
+		</onAddVehicle>
+
+		<onDisMountDart>	<!-- 下镖车 -->
+		</onDisMountDart>
+
+		<onVehicleAddSkill>	<!-- 骑宠添加技能更新 -->
+			<Arg>		SKILLID			</Arg>
+		</onVehicleAddSkill>
+
+		<onVehicleUpdateSkill>	<!-- 骑宠升级技能更新 -->
+			<Arg>		SKILLID			</Arg>
+			<Arg>		SKILLID 		</Arg>
+		</onVehicleUpdateSkill>
+
+		<onUpdateVehicleExp>	<!-- 骑宠经验值更新-->
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT32			</Arg>
+		</onUpdateVehicleExp>
+
+		<onUpdateVehicleProperty>	<!-- 骑宠属性更新-->
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		ITEM_ID		</Arg>
+		</onUpdateVehicleProperty>
+
+		<onUpdateVehicleFullDegree><!-- 骑宠饱腹度更新客户端方法 -->
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT64			</Arg>
+		</onUpdateVehicleFullDegree>
+
+		<onUpdateVehicleDead>	<!-- 骑宠存活时间更新 -->
+			<Arg>		UINT8			</Arg>
+			<Arg>		INT64			</Arg>
+		</onUpdateVehicleDead>
+
+		<onUpdateVehicleSkPoint><!-- 骑宠技能点更新 -->
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT32			</Arg>
+		</onUpdateVehicleSkPoint>
+		<onFreeVehicle>		<!-- 骑宠放生更新 -->
+			<Arg>		UINT8			</Arg>
+		</onFreeVehicle>
+
+		<onPrisonContributeSure>
+			<Arg>			UINT32			</Arg>
+		</onPrisonContributeSure>
+		<openTiShouSelect/>	<!-- 打开替售选择NPC界面-->
+		<onReceiveQueryShopInfo>		<!-- 商店信息返回 -->
+			<Arg>		DATABASE_ID	</Arg>		<!-- 店主DBID -->
+			<Arg>		STRING		</Arg>		<!-- 店主名-->
+			<Arg>		STRING		</Arg>		<!-- 店铺名-->
+		</onReceiveQueryShopInfo>
+		<onReceiveQueryItemInfo>
+			<Arg>		DATABASE_ID	</Arg>		<!-- 店主DBID -->
+			<Arg>		UID		</Arg>		<!-- 物品UID -->
+			<Arg>		ITEM		</Arg>		<!-- 物品 -->
+			<Arg>		UINT32		</Arg>		<!-- 价格 -->
+			<Arg>		STRING		</Arg>		<!-- 店主名 -->
+			<Arg>		STRING		</Arg>		<!-- 店铺名 -->
+		</onReceiveQueryItemInfo>
+		<onReceiveQueryPetInfo>
+			<Arg>		DATABASE_ID	</Arg>		<!-- 店主DBID -->
+			<Arg>		DATABASE_ID	</Arg>		<!-- 宠物DBID -->
+			<Arg>		PET_EPITOME	</Arg>		<!-- 宠物 -->
+			<Arg>		UINT32		</Arg>		<!-- 价格 -->
+			<Arg>		STRING		</Arg>		<!-- 店主名 -->
+			<Arg>		STRING		</Arg>		<!-- 店铺名 -->
+		</onReceiveQueryPetInfo>
+		<removeTSItemFromQueryInterFace>
+			<Arg>		UID		</Arg>		<!-- 物品UID -->
+		</removeTSItemFromQueryInterFace>
+		<removeTSPetFromQueryInterFace>
+			<Arg>		DATABASE_ID	</Arg>		<!-- 宠物DBID -->
+		</removeTSPetFromQueryInterFace>
+		<newTSItem>
+			<Arg>	ITEM	</Arg>		<!-- item -->
+			<Arg>	INT32	</Arg>		<!-- price -->
+			<Arg>		DATABASE_ID	</Arg>
+		</newTSItem>
+		<newTSPet>
+			<Arg>	PET_EPITOME	</Arg>		<!-- item -->
+			<Arg>	INT32		</Arg>		<!-- price -->
+			<Arg>		DATABASE_ID	</Arg>
+		</newTSPet>
+		<removeTSItem>
+			<Arg>		UID		</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+		</removeTSItem>
+		<removeTSPet>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</removeTSPet>
+		<updateTSItemPrice>
+			<Arg>		UID		</Arg>
+			<Arg>		INT32		</Arg>		<!-- price -->
+			<Arg>		DATABASE_ID	</Arg>
+		</updateTSItemPrice>
+		<updateTSPetPrice>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		INT32		</Arg>		<!-- price -->
+			<Arg>		DATABASE_ID		</Arg>
+		</updateTSPetPrice>
+		<onFixTimeReward>
+			<Arg>		INT32		</Arg>		<!--TimeTick-->
+			<Arg>		ITEM_ID		</Arg>
+			<Arg>		INT8		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM_ID		</Arg>
+		</onFixTimeReward>
+		<onOldFixTimeReward>	<!-- 给与老手在线定时奖励 by jy -->
+			<Arg>		INT32		</Arg>		<!--TimeTick-->
+			<Arg>		UINT8		</Arg>		<!-- RewardNum-->
+			<Arg>		INT8		</Arg>		<!-- RewardType -->
+			<Arg>		UINT32		</Arg>		<!-- Param(exp,itemID...) -->
+		</onOldFixTimeReward>
+
+		<!-- 切磋系统 -->
+		<onReceivedQieCuo>	<!-- 客户端收到请求切磋 -->
+			<Arg>		OBJECT_ID	</Arg>
+		</onReceivedQieCuo>
+
+		<onRequestQieCuo>	<!--某玩家发送了切磋邀请-->
+			<Arg>		OBJECT_ID	</Arg>
+		</onRequestQieCuo>
+
+		<onQieCuoEnd/>
+
+		<moveToTSNPC>
+			<Arg>		STRING			</Arg>	<!-- Space Name -->
+			<Arg>		UINT8			</Arg>	<!-- lineNumber -->
+			<Arg>		VECTOR3			</Arg>	<!-- Position -->
+			<Arg>		VECTOR3			</Arg>	<!-- Direction -->
+		</moveToTSNPC>
+
+		<onReceiveTSRecord>
+			<Arg>		STRING			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+                        <Arg>		UINT8			</Arg>
+		</onReceiveTSRecord>
+		<onReceivePointCard>
+			<Arg>		POINTCARDINFO		</Arg>
+		</onReceivePointCard>
+
+		<receiveStatistic>
+			<Arg>		PY_DICT		</Arg>
+		</receiveStatistic>
+		<trigerImageVerify>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT8			</Arg>
+		</trigerImageVerify>
+		<onBuyPointCardInterface/>
+		<onSellPointCardInterface/>
+
+		<onAddPointCard>
+			<Arg>		POINTCARDINFO		</Arg>
+		</onAddPointCard>
+
+		<removePointCard>
+			<Arg>		STRING		</Arg>
+		</removePointCard>
+
+		<onAddCollectionItem>
+			<Arg>		COLLECTION_ITEM		</Arg>
+		</onAddCollectionItem>
+
+		<onRemoveCollectionItem>
+			<Arg>		UID			</Arg>
+		</onRemoveCollectionItem>
+
+		<onReceiveCollectionItem>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		COLLECTION_ITEM		</Arg>
+		</onReceiveCollectionItem>
+
+		<showRollInterface>
+			<Arg>		UINT8		</Arg>
+			<Arg>		ITEM		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</showRollInterface>
+		<receiverRollValue>
+			<Arg>	UINT8	</Arg>	<!--index-->
+			<Arg>	UINT8	</Arg>	<!--point-->
+			<Arg>		OBJECT_ID	</Arg>
+		</receiverRollValue>
+		<closeRollInterface>
+			<Arg>	UINT8	</Arg>	<!--index-->
+			<Arg>		OBJECT_ID	</Arg>
+		</closeRollInterface>
+		<onAddOwnCollectionItem>
+			<Arg>		OWN_COLLECTION_ITEM	</Arg>
+		</onAddOwnCollectionItem>
+		<onQueryOwnCollectionItem>
+			<Arg>		OWN_COLLECTION_ITEM	</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</onQueryOwnCollectionItem>
+		<removeOwnCollectionItemTotal>
+			<Arg>		OWN_COLLECTION_ITEM	</Arg>
+		</removeOwnCollectionItemTotal>
+		<onEnterRoleCompetitionSpace>
+			<Arg>	UINT32	</Arg>
+			<Arg>	UINT32	</Arg>
+		</onEnterRoleCompetitionSpace>
+		<onLeaveRoleCompetitionSpace/>
+
+		<onEnterFamilyCompetitionSpace>
+			<Arg>	UINT32	</Arg>
+		</onEnterFamilyCompetitionSpace>
+		<onTongCompetitionStart>
+		</onTongCompetitionStart>
+
+		<onTongCompetitionInfo>
+			<Arg>	UINT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT16	</Arg>
+			<Arg>	UINT8	</Arg>
+		</onTongCompetitionInfo>
+
+		<updataTongCompetitionInfo>
+		</updataTongCompetitionInfo>
+
+		<onLeaveFamilyCompetitionSpace/>
+		<onFamilyCompetitionEnd/>
+		<onShowExp2PotWindow>
+			<Arg>	OBJECT_ID			</Arg>	<!-- entity ID-->
+		</onShowExp2PotWindow>
+		<onRemoveOwnCollectionItem>
+			<Arg>			UID			</Arg>
+		</onRemoveOwnCollectionItem>
+		<onUpdateOwnCollectionItem>
+			<Arg>		OWN_COLLECTION_ITEM	</Arg>
+		</onUpdateOwnCollectionItem>
+		<onUpdateCollectionItem>
+			<Arg>		COLLECTION_ITEM		</Arg>
+		</onUpdateCollectionItem>
+		<onClearCollectionTable>
+			<Arg>			DATABASE_ID	</Arg>
+		</onClearCollectionTable>
+		<showGodWeaponMaker>
+		</showGodWeaponMaker>
+		<onEquipGodWeapon>
+		</onEquipGodWeapon>
+
+		<onAFLimitTimeChanged>
+			<Arg>		UINT32		</Arg>
+		</onAFLimitTimeChanged>
+
+		<receiveLoveMsgs>
+			<Arg>		LOVE_MSG	</Arg>
+		</receiveLoveMsgs>
+		<openFeichengwuraoInterface/>
+		<receiveLoveMsgsResult>
+			<Arg>		PY_DICT		</Arg>
+		</receiveLoveMsgsResult>
+		<onVoteLoveMsgSuccessful>
+			<Arg>		LOVE_MSG	</Arg>
+		</onVoteLoveMsgSuccessful>
+		<onSendLoveMsgSucc>
+		</onSendLoveMsgSucc>
+
+		<onAFLimitTimeExtraChanged>
+			<Arg>		UINT32		</Arg>
+		</onAFLimitTimeExtraChanged>
+		<shakeCamera>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		POSITION	</Arg>
+		</shakeCamera>
+		<onBuffQuestionStart>
+			<Arg>		QUESTION	</Arg>
+		</onBuffQuestionStart>
+		<onBuffQuestionEnd/>
+
+		<unfoldScroll>						<!--10级别副本中展开画卷-->
+			<Arg>		OBJECT_ID	</Arg>		<!--对话的 NPCID-->
+			<Arg>		UINT32		</Arg>		<!--画卷的标志-->
+		</unfoldScroll>
+
+		<onCameraFly>
+			<Arg>		UINT16		</Arg>		<!-- 摄像头飞行事件ID -->
+		</onCameraFly>
+
+		<onAddRoleHP>
+			<Arg>		UINT32		</Arg>		<!-- entity id -->
+			<Arg>		UINT32		</Arg>		<!-- added hp -->
+		</onAddRoleHP>
+		<onGetSuitDatas>
+			<Arg>		PY_DICT	</Arg>
+		</onGetSuitDatas>
+		<onSwitchSuit>
+			<Arg>		UINT8		</Arg>
+		</onSwitchSuit>
+
+		<enableFlyingRelatedDetection>		<!--开启和飞行有关的检测-->
+			<Arg>		VECTOR3		</Arg>	<!--空间外接盒的一个顶点-->
+			<Arg>		VECTOR3		</Arg>	<!--空间外接盒的另一个顶点-->
+		</enableFlyingRelatedDetection>
+
+		<disableFlyingRelatedDetection/>	<!--关闭和飞行有关的检测-->
+		<interruptAttackByServer>
+			<Arg>		UINT32		</Arg>	<!-- reason -->
+		</interruptAttackByServer>
+
+		<visibleRootUIs>			<!-- 通知客户端显示/隐藏界面 -->
+			<Arg>		BOOL		</Arg>
+		</visibleRootUIs>
+
+		<unifyYaw/>	<!--将$p.yaw和dcursor().yaw统一化，用于防止诸如Entity.teleport()中direction假失效的问题-->
+		<changeWorldCamHandler>
+			<Arg>		UINT8		</Arg>		<!-- 使用的摄像机控制类型 -->
+		</changeWorldCamHandler>
+		<setFogDistance>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+		</setFogDistance>
+		<setFarPlane>
+			<Arg>		UINT8		</Arg>
+		</setFarPlane>
+		<showCastIndicator>
+			<Arg>		ARRAY <of> UINT16	</of>		</Arg>
+		</showCastIndicator>
+		<hideCastIndicator>
+			<Arg>		ARRAY <of> UINT16	</of>	</Arg>
+		</hideCastIndicator>
+
+		<showQuestTrapTip>			<!-- 通知客户端显示触发陷阱的提示-->
+			<Arg>		OBJECT_ID	</Arg>
+		</showQuestTrapTip>
+		<hideQuestTrapTip>			<!-- 通知客户端隐藏触发陷阱的提示-->
+			<Arg>		OBJECT_ID	</Arg>
+		</hideQuestTrapTip>
+		<playVideo>				<!-- 播放视频 -->
+			<Arg>		STRING		</Arg>
+		</playVideo>
+		<playSound>				<!-- 播放音频 -->
+			<Arg>		STRING		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT64		</Arg>
+			<Arg>		UINT8		</Arg>
+		</playSound>
+		<playSoundFromGender>				<!-- 根据性别播放音频 -->
+			<Arg>		STRING		</Arg>
+			<Arg>		UINT64		</Arg>
+			<Arg>		UINT8		</Arg>
+		</playSoundFromGender>
+		<updateMatchRecord>
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT32		</Arg>
+		</updateMatchRecord>
+		<initMatchRecord>
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</initMatchRecord>
+		<setCameraFlyState>
+			<Arg>		STRING		</Arg>
+		</setCameraFlyState>
+		<updateSkill>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</updateSkill>
+		<updateItem>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</updateItem>
+		<infoTongMember>
+			<Arg>		INT16			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT16			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		VECTOR3			</Arg>
+			<Arg>		VECTOR3			</Arg>
+		</infoTongMember>
+		<vend_addRecordNotify2><!--更新收购记录-->
+			<Arg>		PYTHON			</Arg> <!--[ playerName, itemID, price, time ]-->
+		</vend_addRecordNotify2>
+
+		<onShowYXLMCopyNPCSign>						<!-- 打开英雄联盟副本NPC位置显示界面 -->
+			<Arg>		STRING			</Arg>
+		</onShowYXLMCopyNPCSign>
+
+		<onCloseYXLMCopyNPCSign>					<!-- 关闭英雄联盟副本NPC位置显示界面 -->
+		</onCloseYXLMCopyNPCSign>
+
+		<onShowYXLMCopyBossSign>					<!-- Boss 创建时显示Boss标记 -->
+			<Arg>		INT32			</Arg>		<!-- Boss ID -->
+			<Arg>		STRING			</Arg>		<!-- className -->
+			<Arg>		VECTOR3			</Arg>		<!-- spawnPos -->
+			<Arg>		INT8			</Arg>		<!-- relation -->
+			<Arg>		INT8			</Arg>		<!-- signType -->
+		</onShowYXLMCopyBossSign>
+
+		<onYXLMCopyBossDied>						<!-- Boss 死亡时更新Boss标记 -->
+			<Arg>		INT32			</Arg>		<!-- Boss ID -->
+			<Arg>		STRING			</Arg>		<!-- className -->
+			<Arg>		VECTOR3			</Arg>		<!-- spawnPos -->
+			<Arg>		VECTOR3			</Arg>		<!-- diedPos -->
+			<Arg>		INT8			</Arg>		<!-- relation -->
+		</onYXLMCopyBossDied>
+
+		<onUpdateYXLMCopyBossPos>					<!-- 服务器更新Boss位置信息 -->
+			<Arg>		INT32			</Arg>		<!-- Boss ID -->
+			<Arg>		STRING			</Arg>		<!-- className -->
+			<Arg>		VECTOR3			</Arg>		<!-- pos -->
+			<Arg>		INT8			</Arg>		<!-- relation -->
+		</onUpdateYXLMCopyBossPos>
+
+		<onYXLMMonsterGetDamage>
+			<Arg>		INT32			</Arg>		<!-- Monster ID -->
+			<Arg>		INT8			</Arg>		<!-- flashTime 闪烁时长 -->
+		</onYXLMMonsterGetDamage>
+		<baoZangOnReceiveEnemyPos>		<!--	宝藏副本接收队友附近敌人位置信息	-->
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		POSITION	</Arg>
+		</baoZangOnReceiveEnemyPos>
+		<baoZangOnDisPoseEnemy>
+			<Arg>		OBJECT_ID	</Arg>
+		</baoZangOnDisPoseEnemy>
+		<updateComboCount>
+			<Arg>		UINT16	</Arg>
+		</updateComboCount>
+		<onShowAccumPoint>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT32	</Arg>
+		</onShowAccumPoint>
+
+		<onUseFlyItem>
+		</onUseFlyItem>
+
+		<onPKListChange>
+			<Arg>		FIGHT_LIST	</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</onPKListChange>
+
+		<doRandomRun>
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</doRandomRun>
+		<onUpdateIntensifyItem>
+			<Arg>		UID		</Arg> <!--uid-->
+		</onUpdateIntensifyItem>
+
+		<onOpenSpaceTowerInterface/>		<!-- 打开猰貐副本防御塔界面 -->
+		<onCloseSpaceTowerInterface/>		<!-- 关闭猰貐副本防御塔界面-->
+		<showHeadPortraitAndText>
+			<Arg>		INT8			</Arg>		<!-- 文本显示类型 -->
+			<Arg>		STRING			</Arg>		<!-- npc名字 -->
+			<Arg>		STRING			</Arg>		<!-- 头像文本ID -->
+			<Arg>		STRING			</Arg>		<!-- 显示的文字 -->
+			<Arg>		FLOAT			</Arg>		<!-- 持续的时间 -->
+		</showHeadPortraitAndText>
+		<enterTowerDefenceSpace>
+		</enterTowerDefenceSpace>
+		<addTowerDefenseSpaceSkill>
+			<Arg>			SKILLID	</Arg>
+			<Arg>			INT16	</Arg>			<!-- spaceType -->
+		</addTowerDefenseSpaceSkill>
+		<endTowerDefenseSpaceSkill>
+		</endTowerDefenseSpaceSkill>
+		<onPlayMonsterSound>
+			<Arg>			INT8	</Arg>			<!-- msg -->
+			<Arg>			STRING	</Arg>			<!-- msg -->
+		</onPlayMonsterSound>
+		<onStopMonsterSound/>		
+		<showRankList>
+			<Arg>			PYTHON	</Arg>			<!-- msg -->
+		</showRankList>
+		<canChallengeDanceKingCb>
+			<Arg>		UINT8		</Arg>		<!--challengeIndex-->
+			<Arg>		UINT8		</Arg>		<!--result-->
+		</canChallengeDanceKingCb>
+		<addDancingKingInfo>
+			<Arg>		UINT8		</Arg>
+			<Arg>		PY_DICT		</Arg>
+		</addDancingKingInfo>
+		<sendDancingKingInfosOver>
+		</sendDancingKingInfosOver>
+		<onQueryRoleEquip>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>	UINT16	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	ROLE_MODEL_INFO	</Arg>
+			<Arg>	ITEMS	</Arg>	<!-- 对方玩家的装备属性 -->
+		</onQueryRoleEquip>
+		<onShowPatrol>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</onShowPatrol>
+
+		<planeSpacePrepare/>
+		<enterWuTing>
+		</enterWuTing>
+		<leaveWuTing>
+		</leaveWuTing>
+		<enterDanceCopy>
+			<Arg>		BOOL		</Arg>
+		</enterDanceCopy>
+		<leaveDanceCopy>
+			<Arg>		BOOL		</Arg>
+		</leaveDanceCopy>
+		<canGetDancePositionCb>
+			<Arg>		UINT8		</Arg>
+		</canGetDancePositionCb>
+	</ClientMethods>
+
+	<!-- Data LoD'ing example.
+	<LoDLevels>
+		<level> 20	<hyst>  4 </hyst> <label> NEAR	</label>	</level>
+		<level> 100	<hyst> 10 </hyst> <label> MEDIUM</label>	</level>
+		<level> 250	<hyst> 20 </hyst> <label> FAR	</label>	</level>
+	</LoDLevels>
+	-->
+</root>

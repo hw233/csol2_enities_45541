@@ -1,0 +1,15 @@
+<root>
+	<Properties>
+		
+	</Properties>
+	<Implements>
+		<Interface>	NormalActivityManager			</Interface>
+	</Implements>
+	<BaseMethods>
+		<addActivityBuffSpawnPoint>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</addActivityBuffSpawnPoint>
+	</BaseMethods>
+
+</root>

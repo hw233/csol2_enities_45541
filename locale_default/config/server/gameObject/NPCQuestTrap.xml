@@ -1,0 +1,34 @@
+<root>
+	<normal003>
+		<EntityType>	RandomProximityTransducer	</EntityType>
+		<script>	RandomQuestTransducer	</script>
+		<className>	normal003	</className>
+		<uname>	</uname>
+		<modelNumber>	</modelNumber>
+		<modelScale>	1.000000	</modelScale>
+		<visible>	0	</visible>
+		<radius>	30.000000	</radius>
+		<randomPosition>
+			<item>	0.000000 0.000000 0.000000	</item>
+		</randomPosition>
+		<triggerRate>	1	</triggerRate>
+		<questID>	90101001	</questID>
+		<triggerInterval>	5.000000	</triggerInterval>
+	</normal003>
+	<normal004>
+		<EntityType>	RandomProximityTransducer	</EntityType>
+		<script>	RandomQuestTransducer	</script>
+		<className>	normal004	</className>
+		<uname>	</uname>
+		<modelNumber>	</modelNumber>
+		<modelScale>	1.000000	</modelScale>
+		<visible>	0	</visible>
+		<radius>	30.000000	</radius>
+		<randomPosition>
+			<item>	239.188004 86.708000 114.429001	</item>
+		</randomPosition>
+		<triggerRate>	1	</triggerRate>
+		<questID>	90101002	</questID>
+		<triggerInterval>	5.000000	</triggerInterval>
+	</normal004>
+</root>

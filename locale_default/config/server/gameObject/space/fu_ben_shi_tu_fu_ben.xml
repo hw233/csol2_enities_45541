@@ -1,0 +1,31 @@
+<root>
+		<spaceName>	师徒副本	</spaceName>
+		<EntityType>	SpaceCopyTeachKillMonster	</EntityType>
+		<DomainType>	SpaceDomainCopyTeam	</DomainType>
+		<script>	SpaceCopyTeachKillMonster	</script>
+		<SpaceType>	SPACE_TYPE_TEACH_KILL_MONSTER	</SpaceType>
+		<className>	fu_ben_shi_tu_fu_ben	</className>
+		<TimeOfDay>	45000	</TimeOfDay>
+		<warTotalTime>	2700	</warTotalTime>
+		<spawnFile>	config/server/spawn/fu_ben_shi_tu_fu_ben.xml	</spawnFile>
+		<dirMapping>	universes/fu_ben_shi_tu_fu_ben	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<masterSkills>344007001;344002001;344003001;344004001</masterSkills>
+		<prenticeSkills>344005001;344009001;344008001;344006001</prenticeSkills>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Door>
+			<Name>	传送点		</Name>
+			<Pos>		80.436 4.863 -72.283	</Pos>
+			<radius>		2		</radius>
+			<DestSpace>	fengming	</DestSpace>
+			<DestPos>  65.25 8.86 -80.50	</DestPos>
+			<DestDirection> 0.0  0.0  0.0	</DestDirection>
+			<level> 1 </level>
+			<modelNumber>	gw7504	</modelNumber>
+			<modelScale>	1.0	</modelScale>
+		</Door>
+			<deathDepth>	-90	</deathDepth>
+		<Space></Space>
+</root>

@@ -1,0 +1,64 @@
+<root>
+	<Properties>
+	</Properties>
+	<ClientMethods>
+	</ClientMethods>
+	<CellMethods>
+	</CellMethods>
+	<BaseMethods>
+		<requestAbattoir>
+			<Arg>	MAILBOX		</Arg>	<!-- 帮主的base mailbox -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- tongDBID -->
+		</requestAbattoir>
+		<onEnterAbattoirSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- domain base -->
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterAbattoirSpace>
+		<onTongAbaOverFromSpace>
+			<Arg>	DATABASE_ID	</Arg>	<!-- 胜利帮会的dbid -->
+			<Arg>	BOOL		</Arg>
+		</onTongAbaOverFromSpace>
+		<onTongAbaOverFromSpaceNoWinner>
+			<Arg>	DATABASE_ID	</Arg>	<!-- 帮会1 dbid -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- 帮会2 dbid -->
+			<Arg>	BOOL		</Arg>
+		</onTongAbaOverFromSpaceNoWinner>
+		<onTongAbattoirWarStartNotice/>
+		<onTongAbattoirWarSignUpStart/>
+		<onTongAbattoirWarSignUpEnd/>
+		<requestAbaData>
+			<Arg>	MAILBOX	</Arg>
+		</requestAbaData>
+		<onMemberLeave>
+			<Arg>	DATABASE_ID	</Arg>	<!-- 帮会 dbid -->
+		</onMemberLeave>
+		<onMemberEnter>
+			<Arg>	DATABASE_ID	</Arg>	<!-- 帮会 dbid -->
+		</onMemberEnter>
+
+		<recordJoinPlayer>
+			<Arg>	STRING		</Arg>	<!-- player name -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	UINT8		</Arg>	<!-- plyer level -->
+		</recordJoinPlayer>
+		
+		<recordRound>
+			<Arg>	INT64		</Arg>	<! -- playerDBID -- >
+			<Arg>	UINT8		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	MAILBOX		</Arg>	<!-- playerMailbox -->
+		</recordRound>
+		
+		<onInputEndGM/>
+		<updateEnterTong>
+			<Arg>	INT64		</Arg>	<! -- tongDBID -- >
+		</updateEnterTong>
+		
+		<addEnterTong>
+			<Arg>	INT64		</Arg>	<! -- tongDBID -- >
+		</addEnterTong>
+	</BaseMethods>
+</root>

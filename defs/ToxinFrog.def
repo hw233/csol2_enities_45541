@@ -1,0 +1,40 @@
+<root>
+	<Parent>	Monster		</Parent>
+	<ClientName>	Monster		</ClientName>
+
+	<Properties>
+		<littleMonsterIDs>
+			<Type>		ARRAY <of> INT32 </of> 		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	false		</Persistent>
+		</littleMonsterIDs>
+		<callBlewMonsterTimer>	<!-- ÕÙ»½×Ô±¬¹ÖÎïtimer -->
+			<Type>		CONTROLLER_ID			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</callBlewMonsterTimer>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+
+		<callMonsters>
+			<Arg>	STRING	</Arg>	<!-- monster className -->
+			<Arg>	INT8	</Arg>	<!-- monster amount -->
+		</callMonsters>
+
+		<setAINowLevel>
+			<Arg>			UINT8			</Arg>	<!-- aiLevel -->
+		</setAINowLevel>
+
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+</root>
+

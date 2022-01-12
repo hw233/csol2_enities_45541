@@ -1,0 +1,85 @@
+<root>
+	<Properties>
+		<cms_itemNum>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		true			</Persistent>
+			<Default>		0			</Default>
+		</cms_itemNum>
+	</Properties>
+
+	<ClientMethods>
+
+		<cms_enterTrade>
+		</cms_enterTrade>
+		<cms_receiveQueryInfo>
+			<Arg>		ARRAY	<of>	STRING		</of></Arg> <!--[index,owner,price,item]-->
+		</cms_receiveQueryInfo>
+		<cms_receiveOwnGoodsInfo>
+			<Arg>		ARRAY	<of>	STRING		</of></Arg> <!--[index,owner,price,item]-->
+		</cms_receiveOwnGoodsInfo>
+
+	</ClientMethods>
+	
+	
+	<CellMethods>
+		<cms_enterTrade>
+			<Arg>		OBJECT_ID		</Arg>	<!--寄卖npc的id-->
+		</cms_enterTrade>
+		<cms_buyGoods> <!-- 买入一个物品-->
+			<Exposed/>
+			<Arg>		INT32		</Arg>	<!-- 物品index-->
+			<Arg>		OBJECT_ID	</Arg>	<!--寄卖npc的id-->
+		</cms_buyGoods>		
+		<cms_cancelSaleGoods><!--取消寄卖物品-->
+			<Exposed/>
+			<Arg>		INT32		</Arg>	<!-- 物品index-->
+			<Arg>		OBJECT_ID	</Arg>	<!--寄卖npc的id-->
+		</cms_cancelSaleGoods>
+		<cms_saleGoods> <!--寄卖一个物品接口-->
+			<Exposed/>
+			<Arg>		UINT32		</Arg> <!-- 寄卖价格-->
+			<Arg>		UID		</Arg> <!-- 物品的唯一ID-->
+			<Arg>		OBJECT_ID	</Arg>	<!--寄卖npc的id-->
+		</cms_saleGoods>
+		<cms_queryByType>
+			<Exposed/>
+			<Arg>		STRING		</Arg> <!-- 物品类型-->
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg> <!--起始位置-->
+			<Arg>		INT8		</Arg> <!-- 类型标识参数-->
+			<Arg>		OBJECT_ID	</Arg>	<!--寄卖npc的id-->
+		</cms_queryByType>
+		<cms_queryByItemName>
+			<Exposed/>
+			<Arg>		STRING		</Arg> <!--物品名字-->
+			<Arg>		INT32		</Arg> <!-- 起始位置-->
+			<Arg>		OBJECT_ID	</Arg>	<!--寄卖npc的id-->
+		</cms_queryByItemName>
+		<cms_queryOwnGoods>
+			<Exposed/>
+			<Arg>		INT32		</Arg> <!-- 起始位置-->
+			<Arg>		OBJECT_ID	</Arg>	<!--寄卖npc的id-->
+		</cms_queryOwnGoods>
+		<cms_receiveSaleItem>
+			<Arg>		STRING			</Arg>	<!--owner-->
+			<Arg>		UINT32			</Arg>	<!--price-->
+			<Arg>		ITEM			</Arg>	<!--item-->
+			<Arg>		INT32			</Arg>	<!--index-->
+		</cms_receiveSaleItem>
+		<cms_receiveCancelItem>
+			<Arg>		ITEM			</Arg>	<!--item-->
+			<Arg>		INT32			</Arg>	<!--index-->
+		</cms_receiveCancelItem>
+		<cms_receiveMoney>
+			<Arg>		UINT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</cms_receiveMoney>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

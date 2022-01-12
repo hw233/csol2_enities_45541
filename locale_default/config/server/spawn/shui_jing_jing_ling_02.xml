@@ -1,0 +1,80 @@
+<root>
+	<entity_1>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.500065 -0.008375 -0.865938	</row0>
+			<row1>	0.008666 0.999939 -0.004667	</row1>
+			<row2>	0.865931 -0.005167 0.500113	</row2>
+			<row3>	376.621887 34.766537 -34.781616	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20756009	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<group>	0	</group>
+			<checkpoints>	3	</checkpoints>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.500094 -0.008667 -0.865922	</row0>
+			<row1>	0.008666 0.999942 -0.005003	</row1>
+			<row2>	0.865917 -0.004998 0.500144	</row2>
+			<row3>	376.611603 34.934940 -34.784515	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20741083	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<group>	1	</group>
+			<checkpoints>	3	</checkpoints>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<stopLinkStation>	00000000.00000000.00000000.00000000	</stopLinkStation>
+		<animation>	</animation>
+		<animationEven>	</animationEven>
+		<type>	SpawnPointShuijing	</type>
+		<transform>
+			<row0>	0.499970 -0.008670 -0.865985	</row0>
+			<row1>	0.008671 0.999936 -0.005006	</row1>
+			<row2>	0.865982 -0.005008 0.500022	</row2>
+			<row3>	375.959045 34.855106 -35.115860	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20756010	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<lineNumber>	0	</lineNumber>
+			<group>	-1	</group>
+			<checkpoints>	3	</checkpoints>
+			<patrolPathNode>	</patrolPathNode>
+			<actionDefaultName>	</actionDefaultName>
+			<ownModelName>	</ownModelName>
+		</properties>
+	</entity_3>
+</root>

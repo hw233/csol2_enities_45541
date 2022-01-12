@@ -1,0 +1,29 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<onRoleDied>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</onRoleDied>
+		<queryTongWinner>
+		</queryTongWinner>
+		<notifyTongWinner>
+		</notifyTongWinner>
+		<queryTongCompInfo>
+			<Arg>	MAILBOX		</Arg>
+		</queryTongCompInfo>
+		<removePlayer>
+			<Arg>	MAILBOX		</Arg>
+		</removePlayer>
+	</BaseMethods>
+	<CellMethods>
+		<onQueryTongWinner>
+			<Arg>		OBJECT_ID		</Arg>
+		</onQueryTongWinner>
+	</CellMethods>
+</root>

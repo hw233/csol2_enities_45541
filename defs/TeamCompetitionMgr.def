@@ -1,0 +1,46 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onStartNotice/>
+		<onSignupStart/>
+		<onStart/>
+		<onEnd/>
+		<requestTeamCompetition>
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+			<Arg>	INT32		</Arg>	<!-- playerlevel/10-->
+			<Arg>	MAILBOX		</Arg>	<!-- teamMailbox -->
+		</requestTeamCompetition>
+		
+		<onTeamDeregister>
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->
+		</onTeamDeregister>
+
+		<savePlayersInfo>
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+			<Arg>	MAILBOX		</Arg>	<!-- playerMailbox -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->
+			<Arg>	INT32		</Arg>	<!-- playerlevel-->
+		</savePlayersInfo>
+
+		<saveLeavePlayerInfo>
+			<Arg>	OBJECT_ID	</Arg>	<!-- playerID -->
+		</saveLeavePlayerInfo>
+
+		<setChampionBox>
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->
+		</setChampionBox>
+		
+		<recordPoint>
+			<Arg>	INT64		</Arg>	<! -- playerDBID -- >
+			<Arg>	UINT8		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	MAILBOX		</Arg>	<!-- playerMailbox -->
+		</recordPoint>
+
+		<setSignUpTime>
+			<Arg>	INT32		</Arg>
+		</setSignUpTime>
+	</BaseMethods>
+</root>

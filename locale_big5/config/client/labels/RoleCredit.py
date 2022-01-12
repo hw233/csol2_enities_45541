@@ -1,0 +1,12 @@
+# -*- coding: cp950 -*-
+
+PRESTIGE_ENEMY		= "¤³¼Ä"
+PRESTIGE_STRANGE	= "§N²H"
+PRESTIGE_NEUTRAL	= "¤¤¥ß"
+PRESTIGE_FRIENDLY	= "¤Íµ½"
+PRESTIGE_RESPECT	= "´L·q"
+PRESTIGE_ADMIRE		= "±R·q"
+PRESTIGE_ADORE		= "±R«ô"
+TITLE_COUPLE	= "¤Ò©d"
+TITLE_PRENTICE	= "®{§Ì"
+TITLE_ALLY		= "µ²«ô"

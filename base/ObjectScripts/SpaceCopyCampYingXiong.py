@@ -1,0 +1,8 @@
+# -*- coding: gb18030 -*-
+
+from SpaceCopyYXLMPVP import SpaceCopyYXLMPVP
+
+class SpaceCopyCampYingXiong( SpaceCopyYXLMPVP ):
+	#ÕóÓªÓ¢ÐÛÍõ×ù½Å±¾
+	def __init__( self ):
+		SpaceCopyYXLMPVP.__init__( self )

@@ -1,0 +1,12 @@
+# -*- coding: gb18030 -*-
+
+from CEquip import CEquip
+
+class CPotentialBook( CEquip ):
+	"""
+	Ç±ÄÜÊé by ½ªÒã
+	"""
+	def __init__( self, srcData ):
+		"""
+		"""
+		CEquip.__init__( self, srcData )

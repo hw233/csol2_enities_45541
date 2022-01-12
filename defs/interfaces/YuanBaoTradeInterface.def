@@ -1,0 +1,298 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<ClientMethods>
+		<onBuyYBRequest>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+		</onBuyYBRequest>
+		<onBuyYB>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+		</onBuyYB>
+
+		<onSellYBRequest>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+		</onSellYBRequest>
+		<onSellYB>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+		</onSellYB>
+
+		<onEstablishBuyBillRequest>
+			<Arg>		UINT8		</Arg>
+		</onEstablishBuyBillRequest>
+		<onEstablishBuyBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</onEstablishBuyBill>
+
+		<onEstablishSellBillRequest>
+			<Arg>		UINT8		</Arg>
+		</onEstablishSellBillRequest>
+		<onEstablishSellBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</onEstablishSellBill>
+
+		<onCancleBillRequest>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		UINT8		</Arg>
+		</onCancleBillRequest>
+		<onCancleBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+		</onCancleBill>
+
+		<onDrawYBRequest>
+		</onDrawYBRequest>
+		<onDrawYB>
+		</onDrawYB>
+		<onDrawMoneyRequest>
+		</onDrawMoneyRequest>
+		<onDrawMoney>
+		</onDrawMoney>
+
+		<onGetBuyBillInfo>
+			<Arg>	STRING </Arg>
+		</onGetBuyBillInfo>
+		<onGetSellBillsInfo>
+			<Arg>	STRING </Arg>
+		</onGetSellBillsInfo>
+		<onGetMyBillsInfo>
+			<Arg>	STRING </Arg>
+		</onGetMyBillsInfo>
+		<onGetAllMyBills>
+			<Arg>	STRING </Arg>
+		</onGetAllMyBills>
+		<onGetBalanceMoney>
+			<Arg>		UINT32		</Arg>
+		</onGetBalanceMoney>
+		<onGetBalanceYB>
+			<Arg>		INT32		</Arg>
+		</onGetBalanceYB>
+	</ClientMethods>
+
+	<CellMethods>
+		<buyYB>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</buyYB>
+		<onBuyYB>
+			<Arg>		INT32		</Arg>
+		</onBuyYB>
+
+		<sellYB>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</sellYB>
+		<onSellYB>
+			<Arg>		UINT32		</Arg>
+		</onSellYB>
+
+		<establishBuyBillRequest>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</establishBuyBillRequest>
+		<establishBuyBill>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</establishBuyBill>
+		<onEstablishBuyBill>
+			<Arg>		UINT32		</Arg>
+		</onEstablishBuyBill>
+
+		<establishSellBillRequest>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</establishSellBillRequest>
+		<establishSellBill>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</establishSellBill>
+		<onEstablishSellBill>
+			<Arg>		INT32		</Arg>
+		</onEstablishSellBill>
+
+		<cancleBillRequest>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		UINT8		</Arg>
+		</cancleBillRequest>
+		<cancleBill>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		UINT8		</Arg>
+		</cancleBill>
+		<onCancleBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+		</onCancleBill>
+
+		<drawYBRequest>
+			<Exposed/>
+		</drawYBRequest>
+		<drawYB>
+			<Exposed/>
+		</drawYB>
+
+		<drawMoneyRequest>
+			<Exposed/>
+		</drawMoneyRequest>
+		<drawMoney>
+			<Exposed/>
+		</drawMoney>
+		<onDrawMoney>
+			<Arg>		INT32		</Arg>
+		</onDrawMoney>
+	</CellMethods>
+
+	<BaseMethods>
+		<ybt_switch>
+			<Arg>		UINT8		</Arg>
+		</ybt_switch>
+
+		<buyYBRequest>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+		</buyYBRequest>
+		<unBuyYB>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+		</unBuyYB>
+		<buyYB>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</buyYB>
+		<onBuyYB>
+			<Arg>		UINT32		</Arg>
+		</onBuyYB>
+
+		<sellYBRequest>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+		</sellYBRequest>
+		<unSellYB>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+		</unSellYB>
+		<sellYB>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</sellYB>
+		<onSellYB>
+			<Arg>		INT32		</Arg>
+		</onSellYB>
+
+		<establishBuyBillRequest>
+		</establishBuyBillRequest>
+		<establishBuyBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</establishBuyBill>
+		<onEstablishBuyBill>
+			<Arg>		INT32		</Arg>
+		</onEstablishBuyBill>
+		<establishSellBillRequest>
+			<Arg>		INT32		</Arg>
+		</establishSellBillRequest>
+		<establishSellBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</establishSellBill>
+		<onEstablishSellBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</onEstablishSellBill>
+
+		<cancleBillRequest>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		UINT8		</Arg>
+		</cancleBillRequest>
+		<cancleBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		UINT8		</Arg>
+		</cancleBill>
+		<onCancleBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+		</onCancleBill>
+
+		<drawYB>
+		</drawYB>
+		<onDrawYB>
+			<Arg>		INT32		</Arg>
+		</onDrawYB>
+
+		<drawMoney>
+		</drawMoney>
+
+		<billLockRecord>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		UINT8		</Arg>
+		</billLockRecord>
+		<billUnLockRecord>
+		</billUnLockRecord>
+
+		<getBuyBillsInfo>
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT8		</Arg>
+		</getBuyBillsInfo>
+		<getSellBillsInfo>
+			<Exposed/>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT8		</Arg>
+		</getSellBillsInfo>
+		<getMyBillsInfo>
+			<Exposed/>
+		</getMyBillsInfo>
+		<getAllMyBills>
+			<Exposed/>
+		</getAllMyBills>
+		<getBalanceMoney>
+			<Exposed/>
+		</getBalanceMoney>
+		<getBalanceYB>
+			<Exposed/>
+		</getBalanceYB>
+	</BaseMethods>
+</root>

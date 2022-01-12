@@ -1,0 +1,29 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<onQueryRankingData>		<!-- 向客户端发送数据 -->
+			<Arg> UINT8  </Arg>		<!-- 发送的数据的类型 -->
+			<Arg> UINT8  </Arg>		<!-- 发送的数据的起始位置 -->
+			<Arg> PYTHON </Arg>		<!-- 发送的数据	-->
+		</onQueryRankingData>
+		<onQueryRankingEnd>				<!-- 通知客户端该类型的数据已经发送完毕 -->
+			<Arg> UINT8  </Arg>			<!-- 发送的数据的类型 -->
+		</onQueryRankingEnd>
+		<onShowGameRanking>				<!-- 通知客户端请求接收排行榜数据 -->
+			<Arg> UINT32  </Arg>		<!-- 服务器端更新数据的时间 -->
+		</onShowGameRanking>
+	</ClientMethods>
+
+	<BaseMethods>
+		<queryRankingData>			<!-- 请求服务器发送数据 -->
+			<Exposed/>
+			<Arg> UINT8  </Arg>		<!-- 发送的数据的类型     -->
+			<Arg> UINT8  </Arg>		<!-- 发送的数据的起始位置 -->
+		</queryRankingData>
+		<showGameRanking>			<!-- 通知base端 让base端发送更新数据的时间到客户端-->
+		</showGameRanking>
+	</BaseMethods>
+
+</root>

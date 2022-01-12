@@ -1,0 +1,16 @@
+<root>
+	<Parent> 				MonsterBuilding					</Parent>
+	<Properties>
+		<ownTongDBID> 
+			<Type>			DATABASE_ID	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownTongDBID>
+	</Properties>
+	<CellMethods>
+	</CellMethods>
+	<ClientMethods>
+	</ClientMethods>
+	<BaseMethods>
+	</BaseMethods>
+</root>

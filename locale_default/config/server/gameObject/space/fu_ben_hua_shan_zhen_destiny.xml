@@ -1,0 +1,26 @@
+<root>
+		<spaceName>	»ªÉ½Õò	</spaceName>
+		<EntityType>	SpaceCopyDestinyTrans	</EntityType>
+		<SpaceType>	SPACE_TYPE_DESTINY_TRANS	</SpaceType>
+		<DomainType>	SpaceDomainDestinyTrans	</DomainType>
+		<script>	SpaceCopyDestinyTrans	</script>
+		<className>	fu_ben_hua_shan_zhen_destiny	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_hua_shan_zhen	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<enterPos>
+				<pos>	-56.465,138.777,10.416	</pos>
+				<direction>	0,93.709,0	</direction>
+			</enterPos>
+			<bossID>
+				<className> 20712057 	</className>
+			</bossID>
+			<spawn>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_hua_shan_zhen_01.xml	</spawnFile>
+				</item>
+			</spawn>
+		</Space>
+</root>

@@ -1,0 +1,51 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<TDB_receiveReslut>
+			<Arg> 		TDB_RESULT_LIST		 </Arg>
+		</TDB_receiveReslut>
+
+		<TDB_showTransWindow>
+			<Arg> 		UINT8		 </Arg>
+		</TDB_showTransWindow>
+
+		<TDB_hideActButton/>
+		<TDB_showActButton/>
+
+		<TDB_showActTip/>
+	</ClientMethods>
+
+	<CellMethods>
+		<addFightMonster>
+			<Arg> 		OBJECT_ID	 </Arg>
+		</addFightMonster>
+
+		<removeFightMonster>
+			<Arg> 		OBJECT_ID	 </Arg>
+		</removeFightMonster>
+
+		<TDB_transToActPos>
+			<Exposed/>
+		</TDB_transToActPos>
+
+		<TDB_transportBack>
+			<Exposed/>
+		</TDB_transportBack>
+
+		<TDB_onClickActButton>
+			<Exposed/>
+		</TDB_onClickActButton>
+
+		<TDB_showTransWindow/>
+
+		<TDB_onPlayerLogin>
+			<Exposed/>
+		</TDB_onPlayerLogin>
+
+		<TDB_onBattleOver>
+			<Arg> 		INT32		 </Arg>
+		</TDB_onBattleOver>
+	</CellMethods>
+</root>

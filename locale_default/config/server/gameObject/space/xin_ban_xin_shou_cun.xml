@@ -1,0 +1,35 @@
+<root>
+	<EntityType>SpaceMultiLine</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceMultiLine</script>
+	<className>	xin_ban_xin_shou_cun	</className>
+	<dirMapping>	universes/xin_ban_xin_shou_cun	</dirMapping>
+	<CanPk>	1	</CanPk>
+	<campHonourReward/>			<!-- 有阵营击杀荣誉值奖励;另外在没有配置此字段的地图中，被击杀不计入“被阵营击杀次数” -->
+	<TimeOn>	0	</TimeOn>
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/xin_ban_xin_shou_cun.xml	</spawnFile>
+	<TimeOn>	0	</TimeOn>
+	<canFly>	0	</canFly>
+	<CanQieCuo>	1	</CanQieCuo>		<!-- 允许切磋 -->
+	<canArrest>	</canArrest>
+	<maxLine>	1	</maxLine>
+	<initLine>	1	</initLine>
+	<newLineByPlayerAmount>	100	</newLineByPlayerAmount>
+	<maxPlayerAmount>	263	</maxPlayerAmount>
+	<Space>
+		<Transport>	</Transport>
+		<Door>	</Door>
+		<Tomb>
+			<fengming01>
+				<SpaceName>	xin_ban_xin_shou_cun	</SpaceName>
+				<Position>	910.364 208.160 213.759	</Position>
+				<Direction>	0.0 0.0 -180.0	</Direction>
+			</fengming01>
+		</Tomb>
+
+		<spaceBBoxMin> -310,-100,-210 </spaceBBoxMin>
+		<spaceBBoxMax> 310,200,170 </spaceBBoxMax>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

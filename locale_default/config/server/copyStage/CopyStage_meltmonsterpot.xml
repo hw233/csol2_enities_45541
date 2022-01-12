@@ -1,0 +1,1464 @@
+<root>
+	<start>
+		<event1>
+			<type>	1	</type>
+			<comment> 副本关卡开始事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	2	</id>
+							<comment> 30秒后结束当前关卡	</comment>
+							<delayTime>		30	</delayTime>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	15	</id>
+							<comment> 	20秒后广播即将刷怪通知（id: 103）	</comment>
+							<param1>	COPY_EVENT_MMP_ON_BEFORE_SPAWN_GOBLIN	</param1>
+							<param2>	20	</param2>
+							<param3>	1	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event1>
+		<event2>
+			<type>	103	</type>
+			<comment> 广播即将刷怪事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	29	</id>
+							<comment> 带NPC头像的提示	</comment>
+							<param1>	0	</param1>
+							<param2>	gw2072	</param2>
+							<param3>	COPY_MMP_STAGE_PREPARE	</param3>
+							<param4>	壶中仙	</param4>
+							<param5>	5	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event2>
+	</start>
+	<Stage1>
+		<event0>
+			<type>	1	</type>
+			<comment> 副本关卡开始事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	29	</id>
+							<comment> 带NPC头像的提示	</comment>
+							<param1>	0	</param1>
+							<param2>	gw2072	</param2>
+							<param3>	妖灵破开封印冲出来了，道友赶快将其镇压，收回到炼妖壶中！	</param3>
+							<param4>	壶中仙	</param4>
+							<param5>	5	</param5>
+						</item>
+						<item>
+							<id>	15	</id>
+							<comment> 开启副本刷怪事件，使用默认值：1秒一次，无限循环（id: 100）	</comment>
+							<param1>	COPY_EVENT_MMP_ON_SPAWN_GOBLIN	</param1>
+							<param2> 1.0	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	19	</id>
+							<comment> 记录当前时间点	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event0>
+		<event1>
+			<type>	100	</type>
+			<comment> 副本刷怪事件	</comment>
+			<items>
+				<item>
+					<condition>
+						<item>
+							<id>	6	</id>
+							<comment> 是否在前15秒时间段	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	15	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔3秒刷一次	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	3	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从3个随机位置刷2个红色妖灵，假设className是0	</comment>
+							<param1>	20129478	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	1	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	6	</id>
+							<comment> 是否在前30秒时间段	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	30	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	7	</id>
+							<comment> 是否已经超过前15秒时间段	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	15	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔2秒刷一次	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	2	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从3个随机位置刷1个红色妖灵，假设className是0	</comment>
+							<param1>	20129478	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	1	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<!--XX-->
+				<item>
+					<condition>
+						<item>
+							<id>	7	</id>
+							<comment> 是否已经超过前30秒时间段	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	30	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔2秒刷一次	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	2	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从几个随机位置刷红色妖灵，假设className是0	</comment>
+							<param1>	20129478	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	1	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event1>
+		<event2>
+			<type>	2	</type>
+			<comment> 怪物死亡事件	</comment>
+			<items>
+				<item>
+					<condition>
+						<item>
+							<id>	10	</id>
+							<comment> 死亡怪物的className是否是红色妖灵的，假设是1	</comment>
+							<param1>	20129478	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	23	</id>
+							<comment> 炼妖壶增加妖气	</comment>
+							<param1>	2	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	24	</id>
+							<comment> 给造成伤害者增加指定数量的妖丹	</comment>
+							<param1>	1	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	4	</id>
+							<comment> 妖气数量达到1/3	</comment>
+							<param1>	0.3333	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	2	</id>
+							<comment> 结束当前关卡	</comment>
+							<delayTime>			</delayTime>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event2>
+	</Stage1>
+	<Stage2>
+		<event0>
+			<type>	1	</type>
+			<comment> 副本关卡开始事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	29	</id>
+							<comment> 带NPC头像的提示	</comment>
+							<param1>	0	</param1>
+							<param2>	gw2072	</param2>
+							<param3>	COPY_MMP_STAGE_2_START	</param3>
+							<param4>	壶中仙	</param4>
+							<param5>	5	</param5>
+						</item>
+						<item>
+							<id>	15	</id>
+							<comment> 开启事件循环	</comment>
+							<param1>	COPY_EVENT_MMP_ON_EVIL_WIND	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	19	</id>
+							<comment> 记录当前时间点——吹妖风	</comment>
+							<param1>	TIME_FLAG_EVIL_WIND	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event0>
+		<event10>
+			<type>	101	</type>
+			<comment> 吹妖风事件	</comment>
+			<items>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔30秒刷一次	</comment>
+							<param1>	TIME_FLAG_EVIL_WIND	</param1>
+							<param2>	30	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从指定位置刷妖风	</comment>
+							<param1>	20129511	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	20	</id>
+							<comment> 从指定位置刷妖风	</comment>
+							<param1>	20129511	</param1>
+							<param2>
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event10>
+		<event1>
+			<type>	100	</type>
+			<comment> 副本刷怪事件	</comment>
+			<items>
+				<item>
+					<condition>
+						<item>
+							<id>	6	</id>
+							<comment> 是否在前7秒时间段	</comment>
+							<param1>	TIME_FLAG_EVIL_WIND	</param1>
+							<param2>	7	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	7	</id>
+							<comment> 是否已经超过前6秒时间段	</comment>
+							<param1>	TIME_FLAG_EVIL_WIND	</param1>
+							<param2>	6	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	29	</id>
+							<comment> 带NPC头像的提示	</comment>
+							<param1>	0	</param1>
+							<param2>	gw2072	</param2>
+							<param3>	COPY_MMP_STAGE_WB_MONSTER_SPAWN	</param3>
+							<param4>	壶中仙	</param4>
+							<param5>	5	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	7	</id>
+							<comment> 是否已经超过前6秒时间段	</comment>
+							<param1>	TIME_FLAG_EVIL_WIND	</param1>
+							<param2>	5.5	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔55秒提示一次刷黑白妖灵	</comment>
+							<param1>	TIME_FLAG_EVIL_WIND	</param1>
+							<param2>	55	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	29	</id>
+							<comment> 带NPC头像的提示	</comment>
+							<param1>	0	</param1>
+							<param2>	gw2072	</param2>
+							<param3>	COPY_MMP_STAGE_WB_MONSTER_SPAWN	</param3>
+							<param4>	壶中仙	</param4>
+							<param5>	5	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔5秒刷一次	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	5	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从几个随机位置刷红色妖灵，假设className是0	</comment>
+							<param1>	20129478	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔10秒刷一次	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	10	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	11	</id>
+							<comment> 50%概率刷白色妖灵	</comment>
+							<param1>	0.5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	12	</id>
+							<comment>	白色妖灵的最大数量判断，最多同时存在30个	</comment>
+							<param1>	20129481	</param1>
+							<param2>	30	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从几个随机位置刷白色妖灵，假设className是2	</comment>
+							<param1>	20129481	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	21	</id>
+							<comment> 设置刷新白色妖灵标记	</comment>
+							<param1>	WHITE_GOBLIN_HAS_SPAWN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	26	</id>
+							<comment>	白色妖灵数量加1	</comment>
+							<param1>	20129481	</param1>
+							<param2>	1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔10秒刷一次	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	10	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	9	</id>
+							<comment> 刷新白色妖灵标记未被设置，即50%概率判断失败	</comment>
+							<param1>	WHITE_GOBLIN_HAS_SPAWN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	12	</id>
+							<comment>	黑色妖灵的最大数量判断，最多同时存在30个	</comment>
+							<param1>	20129480	</param1>
+							<param2>	30	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从几个随机位置刷黑色妖灵，假设className是1	</comment>
+							<param1>	20129480	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	26	</id>
+							<comment>	黑色妖灵数量加1	</comment>
+							<param1>	20129480	</param1>
+							<param2>	1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	8	</id>
+							<comment> 如果刷新白色妖灵标记被设置，就把它删除	</comment>
+							<param1>	WHITE_GOBLIN_HAS_SPAWN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	22	</id>
+							<comment> 删除刷新白色妖灵标记	</comment>
+							<param1>	WHITE_GOBLIN_HAS_SPAWN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	8	</id>
+							<comment> 如果刷新白色妖灵标记被设置，就把它删除	</comment>
+							<param1>	WHITE_GOBLIN_HAS_SPAWN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	22	</id>
+							<comment> 删除刷新白色妖灵标记	</comment>
+							<param1>	WHITE_GOBLIN_HAS_SPAWN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event1>
+		<event2>
+			<type>	2	</type>
+			<comment> 怪物死亡事件	</comment>
+			<items>
+				<item>
+					<condition>
+						<item>
+							<id>	10	</id>
+							<comment> 死亡怪物的className是否是红色妖灵的，假设是1	</comment>
+							<param1>	20129478	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	23	</id>
+							<comment> 炼妖壶增加妖气	</comment>
+							<param1>	2	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	24	</id>
+							<comment> 给造成伤害者增加指定数量的妖丹	</comment>
+							<param1>	1	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	10	</id>
+							<comment> 死亡怪物的className是否是白色妖灵的，假设是2	</comment>
+							<param1>	20129481	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	23	</id>
+							<comment> 炼妖壶增加妖气	</comment>
+							<param1>	5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	24	</id>
+							<comment> 给造成伤害者增加指定数量的妖丹	</comment>
+							<param1>	5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	27	</id>
+							<comment>	白色妖灵数量减1	</comment>
+							<param1>	20129481	</param1>
+							<param2>	1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	10	</id>
+							<comment> 死亡怪物的className是否是黑色妖灵的，假设是1	</comment>
+							<param1>	20129480	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	23	</id>
+							<comment> 炼妖壶增加妖气	</comment>
+							<param1>	5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	24	</id>
+							<comment> 给造成伤害者增加指定数量的妖丹	</comment>
+							<param1>	5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	27	</id>
+							<comment>	黑色妖灵数量减1	</comment>
+							<param1>	20129480	</param1>
+							<param2>	1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	4	</id>
+							<comment> 妖气数量达到2/3	</comment>
+							<param1>	0.666667	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	2	</id>
+							<comment> 结束当前关卡	</comment>
+							<delayTime>			</delayTime>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event2>
+	</Stage2>
+	<Stage3>
+		<event0>
+			<type>	1	</type>
+			<comment> 副本关卡开始事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	29	</id>
+							<comment> 带NPC头像的提示	</comment>
+							<param1>	0	</param1>
+							<param2>	gw2072	</param2>
+							<param3>	COPY_MMP_STAGE_3_START	</param3>
+							<param4>	壶中仙	</param4>
+							<param5>	5	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event0>
+		<event10>
+			<type>	101	</type>
+			<comment> 吹妖风事件	</comment>
+			<items>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔30秒刷一次	</comment>
+							<param1>	TIME_FLAG_EVIL_WIND	</param1>
+							<param2>	30	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从指定位置刷妖风	</comment>
+							<param1>	20129511	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	20	</id>
+							<comment> 从指定位置刷妖风	</comment>
+							<param1>	20129511	</param1>
+							<param2>
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event10>
+		<event1>
+			<type>	100	</type>
+			<comment> 副本刷怪事件	</comment>
+			<items>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔55秒提示一次刷黑白妖灵	</comment>
+							<param1>	TIME_FLAG_EVIL_WIND	</param1>
+							<param2>	55	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	29	</id>
+							<comment> 带NPC头像的提示	</comment>
+							<param1>	0	</param1>
+							<param2>	gw2072	</param2>
+							<param3>	COPY_MMP_STAGE_WB_MONSTER_SPAWN	</param3>
+							<param4>	壶中仙	</param4>
+							<param5>	5	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔3秒刷一次	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	3	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从几个随机位置刷红色妖灵，假设className是0	</comment>
+							<param1>	20129478	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔6秒刷一次	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	6	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	11	</id>
+							<comment> 50%概率刷白色妖灵	</comment>
+							<param1>	0.5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	12	</id>
+							<comment>	白色妖灵的最大数量判断，最多同时存在30个	</comment>
+							<param1>	20129481	</param1>
+							<param2>	30	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从几个随机位置刷白色妖灵，假设className是2	</comment>
+							<param1>	20129481	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	21	</id>
+							<comment> 设置刷新白色妖灵标记	</comment>
+							<param1>	WHITE_GOBLIN_HAS_SPAWN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	26	</id>
+							<comment>	白色妖灵数量加1	</comment>
+							<param1>	20129481	</param1>
+							<param2>	1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔6秒刷一次	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	6	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	9	</id>
+							<comment> 刷新白色妖灵标记未被设置，即50%概率判断失败	</comment>
+							<param1>	WHITE_GOBLIN_HAS_SPAWN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	12	</id>
+							<comment>	黑色妖灵的最大数量判断，最多同时存在30个	</comment>
+							<param1>	20129480	</param1>
+							<param2>	30	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从几个随机位置刷黑色妖灵，假设className是1	</comment>
+							<param1>	20129480	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	26	</id>
+							<comment>	黑色妖灵数量加1	</comment>
+							<param1>	20129480	</param1>
+							<param2>	1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	8	</id>
+							<comment> 如果刷新白色妖灵标记被设置，就把它删除	</comment>
+							<param1>	WHITE_GOBLIN_HAS_SPAWN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	22	</id>
+							<comment> 删除刷新白色妖灵标记	</comment>
+							<param1>	WHITE_GOBLIN_HAS_SPAWN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔12秒刷一次	</comment>
+							<param1>	TIME_FLAG_SPAWN_GOBLIN	</param1>
+							<param2>	12	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	12	</id>
+							<comment>	青色妖灵的最大数量判断，最多同时存在20个	</comment>
+							<param1>	20129479	</param1>
+							<param2>	20	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从几个随机位置刷青色妖灵，假设className是3	</comment>
+							<param1>	20129479	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	26	</id>
+							<comment>	青色妖灵数量加1	</comment>
+							<param1>	20129479	</param1>
+							<param2>	1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event1>
+		<event2>
+			<type>	2	</type>
+			<comment> 怪物死亡事件	</comment>
+			<items>
+				<item>
+					<condition>
+						<item>
+							<id>	10	</id>
+							<comment> 死亡怪物的className是否是红色妖灵的，假设是1	</comment>
+							<param1>	20129478	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	23	</id>
+							<comment> 炼妖壶增加妖气	</comment>
+							<param1>	2	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	24	</id>
+							<comment> 给造成伤害者增加指定数量的妖丹	</comment>
+							<param1>	1	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	10	</id>
+							<comment> 死亡怪物的className是否是白色妖灵的，假设是2	</comment>
+							<param1>	20129481	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	23	</id>
+							<comment> 炼妖壶增加妖气	</comment>
+							<param1>	5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	24	</id>
+							<comment> 给造成伤害者增加指定数量的妖丹	</comment>
+							<param1>	5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	27	</id>
+							<comment>	白色妖灵数量减1	</comment>
+							<param1>	20129481	</param1>
+							<param2>	1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	10	</id>
+							<comment> 死亡怪物的className是否是黑色妖灵的，假设是1	</comment>
+							<param1>	20129480	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	23	</id>
+							<comment> 炼妖壶增加妖气	</comment>
+							<param1>	5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	24	</id>
+							<comment> 给造成伤害者增加指定数量的妖丹	</comment>
+							<param1>	5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	27	</id>
+							<comment>	黑色妖灵数量减1	</comment>
+							<param1>	20129480	</param1>
+							<param2>	1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	10	</id>
+							<comment> 死亡怪物的className是否是青色妖灵的	</comment>
+							<param1>	20129479	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	23	</id>
+							<comment> 炼妖壶增加妖气	</comment>
+							<param1>	2	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	24	</id>
+							<comment> 给造成伤害者增加指定数量的妖丹	</comment>
+							<param1>	5	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	27	</id>
+							<comment>	青色妖灵数量减1	</comment>
+							<param1>	20129479	</param1>
+							<param2>	1	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+				<item>
+					<condition>
+						<item>
+							<id>	4	</id>
+							<comment> 妖气数量达到1	</comment>
+							<param1>	1.0	</param1>
+							<param2>	0	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	2	</id>
+							<comment> 结束当前关卡	</comment>
+							<delayTime>			</delayTime>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event2>
+	</Stage3>
+	<Stage4>
+		<event0>
+			<type>	1	</type>
+			<comment> 副本关卡开始事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	29	</id>
+							<comment> 带NPC头像的提示	</comment>
+							<param1>	0	</param1>
+							<param2>	gw2072	</param2>
+							<param3>	COPY_MMP_STAGE_4_START	</param3>
+							<param4>	壶中仙	</param4>
+							<param5>	5	</param5>
+						</item>
+						<item>
+							<id>	20	</id>
+							<comment> 刷妖王	</comment>
+							<param1>	20129482	</param1>
+							<param2>
+										((0.201871,-0.337002,0.590445), (0,0,0)),
+							</param2>
+							<param3>	1	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	16	</id>
+							<comment> 停止事件循环	</comment>
+							<delayTime>			</delayTime>
+							<param1>	COPY_EVENT_MMP_ON_SPAWN_GOBLIN	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event0>
+		<event10>
+			<type>	101	</type>
+			<comment> 吹妖风事件	</comment>
+			<items>
+				<item>
+					<condition>
+						<item>
+							<id>	5	</id>
+							<comment> 每隔30秒刷一次	</comment>
+							<param1>	TIME_FLAG_EVIL_WIND	</param1>
+							<param2>	30	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	20	</id>
+							<comment> 从指定位置刷妖风	</comment>
+							<param1>	20129511	</param1>
+							<param2>
+										((10.976530,-0.337002,35.664062), (0,0,-2.822525)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	20	</id>
+							<comment> 从指定位置刷妖风	</comment>
+							<param1>	20129511	</param1>
+							<param2>
+										((31.929087,-0.337002,-19.647936), (0,0,-1.202641)),
+										((-33.699821,-0.337002,-16.113611), (0,0,1.129010)),
+							</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event10>
+		<event3>
+			<type>	2	</type>
+			<comment> 怪物死亡事件	</comment>
+			<items>
+				<item>
+					<condition>
+						<item>
+							<id>	10	</id>
+							<comment> 死亡怪物的className是否是妖王的，假设是6	</comment>
+							<param1>	20129482	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</condition>
+					<action>
+						<item>
+							<id>	2	</id>
+							<comment> 结束当前关卡	</comment>
+							<delayTime>			</delayTime>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	16	</id>
+							<comment> 停止事件循环	</comment>
+							<delayTime>			</delayTime>
+							<param1>	COPY_EVENT_MMP_ON_EVIL_WIND	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	29	</id>
+							<comment> 带NPC头像的提示	</comment>
+							<param1>	0	</param1>
+							<param2>	gw2072	</param2>
+							<param3>	COPY_MMP_STAGE_YAOWANG_DEAD	</param3>
+							<param4>	壶中仙	</param4>
+							<param5>	5	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event3>
+	</Stage4>
+	<End>
+		<event1>
+			<type>	1	</type>
+			<comment> 副本关卡开始事件	</comment>
+			<items>
+				<item>
+					<condition>
+					</condition>
+					<action>
+						<item>
+							<id>	10	</id>
+							<comment> 3秒后广播副本结束消息	</comment>
+							<delayTime>		3	</delayTime>
+							<param1>	24740	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+						<item>
+							<id>	3	</id>
+							<comment> 60秒后踢出所有玩家，关闭副本	</comment>
+							<delayTime>		60	</delayTime>
+							<param1>	</param1>
+							<param2>	</param2>
+							<param3>	</param3>
+							<param4>	</param4>
+							<param5>	</param5>
+						</item>
+					</action>
+				</item>
+			</items>
+		</event1>
+	</End>
+</root>

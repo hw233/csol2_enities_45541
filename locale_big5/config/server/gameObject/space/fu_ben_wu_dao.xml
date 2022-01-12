@@ -1,0 +1,22 @@
+<root>
+		<spaceName>	武道大會	</spaceName>
+		<EntityType>	SpaceCopyWuDao	</EntityType>
+		<DomainType>	SpaceDomainWuDao	</DomainType>
+		<script>	SpaceCopyWuDao	</script>
+		<SpaceType>	SPACE_TYPE_WU_DAO	</SpaceType>
+		<className>	wu_dao	</className>
+		<dirMapping>	universes/fu_ben_wu_dao_da_hui	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+		<TimeOfDay>	55800	</TimeOfDay>
+		<canArrest/>	<!-->是否可逮捕入獄<-->
+	<Space>
+
+		<enterLimitLevel>	30	</enterLimitLevel>
+		<Transport>
+		</Transport>
+		
+		<Door>
+		</Door>
+	</Space>
+</root>

@@ -1,0 +1,24 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+	<Implements>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+
+	</BaseMethods>
+	<CellMethods>
+		<onOverMelee/>
+		<onMeleeMsg>
+			<Arg>		INT32		</Arg>
+		</onMeleeMsg>
+		<setLeaveTeamPlayerMB>
+			<Arg>		MAILBOX			</Arg>
+		</setLeaveTeamPlayerMB>
+	</CellMethods>
+
+
+</root>

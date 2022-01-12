@@ -1,0 +1,21 @@
+<root>
+	<setting>	1													<!--配置的ID-->
+		<spaces>													<!--需要应用此配置的地图，可填多个，没有对应地图时可不填。填上之后，玩家进入地图，则自动应用此配置，离开时自动恢复到进入前的配置，除非玩家手动修改了配置。注意一个地图只能对应一套配置-->
+			<item>	fu_ben_plot_lv40	</item>
+		</spaces>
+		<options>													<!--自定义选项，可填多个，但需要有对应的处理脚本，增加新项时要和程序协商。尽量不要配置需要重启客户端的选项-->
+			<item>	max_particles_count							<!--最大粒子数量-->
+				<script>	watcher	</script>					<!--处理脚本-->
+				<type> int </type>								<!--数据类型-->
+				<value>	100	</value>							<!--设置值-->
+				<content>@F{fc=(255,255,0)}粒子数量@D设置为@F{fc=(255,0,255)}100@D</content>			<!--修改描述-->
+			</item>
+			<item>	particles_distance							<!--粒子可视距离-->
+				<script>	watcher	</script>
+				<type> int </type>
+				<value>	1000	</value>
+				<content>@F{fc=(255,255,0)}粒子可视距离@D设置为@F{fc=(255,0,255)}1000米@D</content>
+			</item>
+		</options>
+	</setting>
+</root>

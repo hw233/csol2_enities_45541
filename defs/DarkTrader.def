@@ -1,0 +1,27 @@
+<root>
+	<Parent> 				Merchant				</Parent>
+
+	<Properties>
+		<currentGoodID>	<!-- 黑市商人当前收购的物品ID -->
+			<Type>		ITEM_ID		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	0		</Default>
+		</currentGoodID>
+		<currentBuyPercent>	<!-- 黑市商人当前收购的物品的回收价格比率 -->
+			<Type>		FLOAT		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	1.0		</Default>
+		</currentBuyPercent>
+	</Properties>
+
+	<CellMethods>
+		<receiveCurrntCollectGoodID>
+			<Arg>	INT32	</Arg>	<!-- item ID -->
+		</receiveCurrntCollectGoodID>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+</root>
+

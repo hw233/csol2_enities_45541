@@ -1,0 +1,8 @@
+# -*- coding: gb18030 -*-
+from SpaceCopyTeam import SpaceCopyTeam
+
+class SpaceCopyTowerDefense(SpaceCopyTeam):
+	"""
+	Ëþ·À¸±±¾
+	"""
+	pass

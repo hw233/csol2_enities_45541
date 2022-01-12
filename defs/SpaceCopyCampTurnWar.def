@@ -1,0 +1,32 @@
+<root>
+	<Parent>	SpaceCopy		</Parent>
+	<BaseMethods>
+		<onPlayerWin>
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+		</onPlayerWin>
+		<onPlayerLeave>
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+		</onPlayerLeave>
+		<onActivityOver/>
+		<resultOnActivityOver>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</resultOnActivityOver>
+		<allWarOver>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	BOOL		</Arg>
+		</allWarOver>
+	</BaseMethods>
+	<CellMethods>
+		<allWarOver/>
+		<onActivityOver/>
+		<telportPlayer>
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+			<Arg>	VECTOR3		</Arg>
+		</telportPlayer>
+	</CellMethods>
+</root>

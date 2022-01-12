@@ -1,0 +1,79 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+		<register>
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->
+			<Arg>	MAILBOX		</Arg>	<!-- teamMailBox -->
+		</register>
+
+		<deregister>
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->
+		</deregister>
+
+		<rejoinTeam>
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+			<Arg>	MAILBOX		</Arg>	<!-- teamMailBox -->
+		</rejoinTeam>
+
+		<addDeregisterListener>
+			<Arg>	MAILBOX		</Arg>	<!-- teamMailBox -->
+		</addDeregisterListener>
+
+		<removeDeregisterListener>
+			<Arg>	MAILBOX		</Arg>	<!-- teamMailBox -->
+		</removeDeregisterListener>
+		<setMessage>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UINT16		</Arg>
+		</setMessage>
+		<teamChallengeAddMember>
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- playerDBID -->
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+			<Arg>	UINT32		</Arg>	<!-- playerLevel -->
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+			<Arg>	INT32		</Arg>	<!-- playerMetier -->
+			<Arg>	INT32		</Arg>	<!-- headTextureID -->
+		</teamChallengeAddMember>
+		<teamChallengeChampion>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	ARRAY <of>DATABASE_ID</of>	</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT32		</Arg>
+		</teamChallengeChampion>
+		<teamChallengeGather>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UINT16		</Arg>
+		</teamChallengeGather>
+		<teamChallengeCloseGather>
+			<Arg>	ARRAY <of>OBJECT_ID</of>	</Arg>
+		</teamChallengeCloseGather>
+		<teamChallengeSetResult>
+			<Arg>	ARRAY <of>OBJECT_ID</of>	</Arg>
+			<Arg>	UINT16		</Arg>
+		</teamChallengeSetResult>
+		<teamChallengeUpInfo>
+			<Arg>	ARRAY <of>OBJECT_ID</of>	</Arg>
+			<Arg>	UINT16		</Arg>
+		</teamChallengeUpInfo>
+		<teamChallengeUpLevel>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT16		</Arg>
+		</teamChallengeUpLevel>
+		<teamChallengeClose>
+			<Arg>	ARRAY <of>OBJECT_ID</of>	</Arg>
+		</teamChallengeClose>
+		<teamRemoteCall>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	PY_ARGS		</Arg>
+		</teamRemoteCall>
+	</BaseMethods>
+
+</root>

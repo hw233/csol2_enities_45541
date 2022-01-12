@@ -1,0 +1,79 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<gossipWithForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+			<Arg>	STRING		</Arg>	<!-- talkID -->
+		</gossipWithForward>
+
+		<questSelectForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+			<Arg>	INT32		</Arg>	<!-- questID -->
+		</questSelectForward>
+
+		<questAcceptForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+			<Arg>	INT32		</Arg>	<!-- questID -->
+		</questAcceptForward>
+
+		<questDetailForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+			<Arg>	INT32		</Arg>	<!-- questID -->
+		</questDetailForward>
+
+		<questChooseRewardForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+			<Arg>	INT32		</Arg>	<!-- questID -->
+			<Arg>	INT8		</Arg>	<!-- rewardIndex -->
+		</questChooseRewardForward>
+
+		<questStatusForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+		</questStatusForward>
+
+		<gossipQuestChooseRewardForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+			<Arg>	INT32		</Arg>	<!-- questID -->
+			<Arg>	INT8		</Arg>	<!-- index -->
+		</gossipQuestChooseRewardForward>
+
+		<acceptQuestForward>
+			<Arg>	INT32		</Arg>	<!-- questID -->
+		</acceptQuestForward>
+
+		<setQuestVal>
+			<Arg>	INT32		</Arg>	<!-- questID -->
+			<Arg>	PYTHON		</Arg>	<!-- key -->
+			<Arg>	PYTHON		</Arg>	<!-- val -->
+		</setQuestVal>
+
+		<completeQuestForward>
+			<Arg>	INT32		</Arg>	<!-- questID -->
+			<Arg>	INT32		</Arg>	<!-- rewardIndex -->
+		</completeQuestForward>
+
+		<onIncreaseQuestTaskStateForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+		</onIncreaseQuestTaskStateForward>
+
+		<taskStatusForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+		</taskStatusForward>
+
+		<collectStatusForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+		</collectStatusForward>
+		<pickUpStatusForward>
+			<Arg>	MAILBOX		</Arg>	<!-- dstEntity -->
+			<Arg>	INT8		</Arg>	<!-- index -->
+		</pickUpStatusForward>
+	</CellMethods>
+</root>

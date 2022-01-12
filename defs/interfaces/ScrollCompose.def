@@ -1,0 +1,32 @@
+<root>
+	<Properties>
+            <scrollSkill>	<!--ÖÆ×÷¾íÅä·½-->
+                <Type>		SCROLLSKILLS	</Type>
+                <Flags>		OWN_CLIENT	</Flags>
+                <Persistent>	true		</Persistent>
+            </scrollSkill>
+	</Properties>
+
+	<ClientMethods>
+            <onClientGetScrollSkill>
+                <Arg>		SCROLLSKILL	</Arg>
+            </onClientGetScrollSkill>
+            <onClientDecCount>
+                <Arg>		INT8	</Arg>
+            </onClientDecCount>
+            <onDelScrollSkill>
+                <Arg>		INT8	</Arg>
+            </onDelScrollSkill>
+	</ClientMethods>
+
+	<CellMethods>		
+            <sc_requestDelSkill>
+                <Exposed/>
+                <Arg>		INT8	</Arg>
+            </sc_requestDelSkill>
+
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

@@ -1,0 +1,29 @@
+<root>
+		<spaceName>	»ºªÍ…Ωπ»	</spaceName>
+		<EntityType>	SpaceCopyDestinyTrans	</EntityType>
+		<SpaceType>	SPACE_TYPE_DESTINY_TRANS	</SpaceType>
+		<DomainType>	SpaceDomainDestinyTrans	</DomainType>
+		<script>	SpaceCopyDestinyTrans	</script>
+		<className>	fu_ben_ran_hun_shan_gu_destiny	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_ran_hun_shan_gu	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<enterPos>
+				<pos>	2.891,21.289,139.351	</pos>
+				<direction>	0,0,1.91	</direction>
+			</enterPos>
+			<spawn>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_ran_hun_shan_gu_01.xml	</spawnFile>
+				</item>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_ran_hun_shan_gu_02.xml	</spawnFile>
+				</item>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_ran_hun_shan_gu_03.xml	</spawnFile>
+				</item>
+			</spawn>
+		</Space>
+</root>

@@ -1,0 +1,44 @@
+<root>
+	<Properties>
+		<qbItems>
+			<Type>			ARRAY <of> QUICK_BAR_ITEM_DATA </of>				</Type>
+			<Flags>			BASE				</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>	true				</Persistent>
+		</qbItems>
+	</Properties>
+
+	<ClientMethods>
+		<!-- 更新一个快捷项 -->
+		<qb_onUpdateItem>
+			<Arg>	UINT16	</Arg>	<!-- index -->
+			<Arg>	UINT8	</Arg>	<!-- qbtype -->
+			<Arg>	UINT32	</Arg>	<!-- narg1 -->
+			<Arg>	STRING	</Arg>	<!-- sarg2 -->
+		</qb_onUpdateItem>
+	</ClientMethods>
+
+	<BaseMethods>
+		<!-- 修改一个快捷项 -->
+		<qb_updateItem>
+			<Exposed/>
+			<Arg>	UINT16	</Arg>	<!-- index -->
+			<Arg>	UINT8	</Arg>	<!-- qbtype -->
+			<Arg>	UINT32	</Arg>	<!-- narg1 -->
+			<Arg>	STRING	</Arg>	<!-- sarg2 -->
+		</qb_updateItem>
+
+		<!-- exchange two items -->
+		<qb_exchangeItem>
+			<Exposed/>
+			<Arg>	UINT16	</Arg>	<!-- origin index -->
+			<Arg>	UINT16	</Arg>	<!-- index of destination -->
+		</qb_exchangeItem>
+
+		<!-- 移走一个快捷项 -->
+		<qb_removeItem>
+			<Exposed/>
+			<Arg>	UINT16	</Arg>	<!-- index -->
+		</qb_removeItem>
+	</BaseMethods>
+</root>

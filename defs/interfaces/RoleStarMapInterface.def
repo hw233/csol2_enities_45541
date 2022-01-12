@@ -1,0 +1,93 @@
+<root>
+	<Properties>
+		<accumPoint> 			<!-- 气运点数accumulation point -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN	</Flags>
+			<Persistent>		false			</Persistent>
+			<Default>		0			</Default>
+		</accumPoint>
+		<mapSkills> 			<!-- 地图对应守护召唤技能 -->
+			<Type>			PY_DICT			</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN	</Flags>
+			<Persistent>		true			</Persistent>
+			<Default>		{}			</Default>
+		</mapSkills>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<registerPGNagual>		<!-- 将盘古守护注册到自己身上 -->
+			<Arg>			UINT8			</Arg>	<!-- attack type -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- ID -->
+		</registerPGNagual>
+
+		<removePGNagual>		<!-- 删除无效(如已经死亡)的盘古守护 -->
+			<Arg>			UINT8			</Arg>	<!-- attack type -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- ID -->
+		</removePGNagual>
+
+		<setPGActionMode>		<!-- 通过界面图标控制盘古守护的行为或攻击模式 -->
+			<Exposed/>
+			<Arg>			INT8			</Arg>	<!-- mode -->
+		</setPGActionMode>
+
+		<initAccumPoint/>		<!-- 初始化气运值 -->
+
+		<addAccumPoint>			<!-- 增加气运值-->
+			<Arg>			INT32			</Arg>
+		</addAccumPoint>
+
+		<getAccum/>			<!-- 获得气运值-->
+
+		<resetAccumPoint/>		<!-- 清空气运值 -->
+
+		<setStarMapFormation>		<!-- 设置阵型 -->
+			<Exposed/>
+			<Arg>			INT16			</Arg>
+		</setStarMapFormation>
+
+		<autoSetStarMapFormation>	<!-- 自动排兵布阵 -->
+			<Exposed/>
+			<Arg>			INT16			</Arg>
+		</autoSetStarMapFormation>
+		<addMapSkill>	<!-- 设置守护技能 -->
+			<Exposed/>
+			<Arg>			INT8			</Arg>
+			<Arg>			SKILLID			</Arg>
+		</addMapSkill>
+		<removeMapSkill>	<!-- 设置守护技能 -->
+			<Exposed/>
+			<Arg>			INT8			</Arg>
+		</removeMapSkill>
+		<queryItemFromBagAndAddItem>
+			<Arg>			UINT32			</Arg>
+			<Arg>			INT16			</Arg>
+			<Arg>			UINT32			</Arg>
+		</queryItemFromBagAndAddItem>
+	</CellMethods>
+
+	<ClientMethods>
+		<!-- 显示盘古守护控制界面 -->
+		<showPGControlPanel>
+			<Arg>			PY_DICT			</Arg>
+		</showPGControlPanel>
+
+		<!-- 关闭盘古守护控制界面 -->
+		<closePGControlPanel>
+		</closePGControlPanel>
+
+		<onClientGetPGSkill>		<!-- 服务器返回某个盘古守护的技能 -->
+			<Arg>			UINT32			</Arg>	<!-- skillID -->
+			<Arg>			UINT8			</Arg>	<!-- 境界 -->
+		</onClientGetPGSkill>
+		<onAddMapSkill>		<!-- 增加守护技能的回调 -->
+			<Arg>			INT8			</Arg>
+			<Arg>			SKILLID			</Arg>
+		</onAddMapSkill>
+		<onRemoveMapSkill>		<!-- 移除守护技能的回调 -->
+			<Arg>			INT8			</Arg>	<!-- 索引 -->
+		</onRemoveMapSkill>
+	</ClientMethods>
+</root>

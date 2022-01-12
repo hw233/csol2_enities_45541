@@ -1,0 +1,50 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<monsterInfos>
+			<Type>		PY_DICT_MAIL_BOX 	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</monsterInfos>
+	</Properties>
+
+	<BaseMethods>
+		<spawnMonsters>
+			<Arg>		PY_DICT		</Arg>
+		</spawnMonsters>
+	</BaseMethods>
+
+	<CellMethods>
+		<monster_choosePatrolList>
+			<Arg>		OBJECT_ID	</Arg>
+		</monster_choosePatrolList>
+
+		<onPlayerAddEquip>
+			<Arg>	DATABASE_ID	</Arg>	<!--playerDBID-->
+			<Arg>	ITEM		</Arg>	<!--equipItem-->
+		</onPlayerAddEquip>
+
+		<onPlayerRemoveEquip>
+			<Arg>	DATABASE_ID	</Arg>	<!--playerDBID-->
+			<Arg>	UID		</Arg> <!--equipUid-->
+		</onPlayerRemoveEquip>
+		
+		<closeYXLMSpace>
+		</closeYXLMSpace>
+		<registMonster>
+			<Arg>	STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</registMonster>
+		<unRegistMonster>
+			<Arg>	STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</unRegistMonster>
+		<sendSAICommand>
+			<Arg>	ARRAY<of>STRING</of>	</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	MAILBOX			</Arg>	
+		</sendSAICommand>
+	</CellMethods>
+</root>

@@ -1,0 +1,32 @@
+<root>
+	<Parent> 				NPC					</Parent>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+
+	<Properties>
+	</Properties>
+
+	<CellMethods>
+		<trainPlayer>	<!-- 教技能给玩家 -->
+			<Exposed/>
+			<Arg>	INT8	</Arg>	<!-- skillID -->
+		</trainPlayer>
+
+		<oblive>	<!-- 遗忘技能 -->
+			<Exposed/>
+			<Arg>	INT8	</Arg>	<!-- skillID -->
+		</oblive>
+
+		<skillLevelUp>	<!-- 升级一个技能 -->
+			<Exposed/>
+			<Arg>	INT8	</Arg>	<!-- skillID -->
+		</skillLevelUp>
+	</CellMethods>
+
+</root>
+

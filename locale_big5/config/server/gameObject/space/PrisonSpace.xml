@@ -1,0 +1,31 @@
+<root>
+		<spaceName>	監獄	</spaceName>
+		<EntityType>	SpaceMultiLine	</EntityType>
+		<SpaceType>	SPACE_TYPE_PRISON	</SpaceType>
+		<DomainType>	SpaceDomainMultiLine	</DomainType>
+		<script>	SpaceCopyPrison	</script>
+		<className>	prison	</className>
+		<TimeOfDay>	52200	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_jian_yu	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+		<CanPk>	0	</CanPk>
+		<Space>
+			<doorPoint>
+				<pos>	-21.58 6.760 1.865	</pos>
+				<direction>	-0.225 90.000 -0.034	</direction>
+			</doorPoint>
+			<NPCClassID>	10111254	</NPCClassID>
+			<NPCPoint>
+				<pos>	-37.141 8.5 1.483	</pos>
+				<direction>	0.0 89.999 0.0	</direction>
+			</NPCPoint>
+			<GuardData>
+				<item>
+					<NPCClassID>	10142001	</NPCClassID>
+					<position>	-29.663	8.5 7.784	</position>
+					<direction>	0.0 -179.998 0.027	</direction>
+				</item>
+			</GuardData>
+		</Space>
+</root>

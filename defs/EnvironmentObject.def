@@ -1,0 +1,46 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Properties>
+		<modelNumber><!-- 设置为public是因为技能会获取对方getBoundingBox会用到这个属性，可能为ghost -->
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</modelNumber>
+		<modelScale>	<!-- 模型放大的倍率 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1.0				</Default>
+		</modelScale>
+		<visible>
+			<Type>			BOOL			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		false			</Default>
+		</visible>
+		<festival_key>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</festival_key>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<setModelNumber>
+			<Arg>	STRING		</Arg>
+		</setModelNumber>
+		<setVisible>
+			<Arg>	BOOL		</Arg>
+		</setVisible>
+	</CellMethods>
+	<BaseMethods>
+		<destroyCellEnviObject>
+		</destroyCellEnviObject>
+		<createCellEnviObject>
+		</createCellEnviObject>
+	</BaseMethods>
+</root>

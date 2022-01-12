@@ -1,0 +1,113 @@
+<root>
+	<Properties>
+		<dancingKingInfos>
+			<Type>			PYTHON		</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</dancingKingInfos>
+		<playerDanceTimeInfos>
+			<Type>			PYTHON		</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>			
+		</playerDanceTimeInfos>
+		<tempMapping>
+			<Type>		MAPPING				</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	false				</Persistent>
+		</tempMapping>
+	</Properties>
+	<Implements>
+	</Implements>
+	<BaseMethods>
+		<registerSpace>
+			<Arg>	MAILBOX		</Arg>
+		</registerSpace>
+		<removeSpace>
+			<Arg>	MAILBOX		</Arg>
+		</removeSpace>
+		<indexIsChallenged>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT8	</Arg>  <!--challengeIndex-->
+			<Arg>	BOOL	</Arg>	<!--canChallenge-->
+		</indexIsChallenged>
+		<sendDanceKingInfos>
+			<Arg>	MAILBOX		</Arg>
+		</sendDanceKingInfos>
+		<canChallengeDanceKing>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	STRING		</Arg>
+		</canChallengeDanceKing>
+		<setModelInfo>	
+			<Arg>	PYTHON	</Arg>	<!--roleModelInfo-->
+			<Arg>	UINT8	</Arg>  <!--challengeIndex-->
+			<Arg>	MAILBOX	</Arg>	<!--playerBase-->
+			<Arg>	OBJECT_ID	</Arg>	<!--databaseID-->
+		</setModelInfo>
+		<addPlayerMailbox>	
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</addPlayerMailbox>
+		<removePlayerMailbox>
+			<Arg>	OBJECT_ID		</Arg>
+		</removePlayerMailbox>
+		<queryDanceExp>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	BOOL		</Arg>
+			<Arg>		UINT8	</Arg>
+		</queryDanceExp>
+		<getDanceExp>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	BOOL		</Arg>
+			<Arg>		UINT8	</Arg>
+		</getDanceExp>
+		<addDanceExpTime>
+			<Arg>	STRING	</Arg>
+		</addDanceExpTime>
+		<registerDanceHallSpaceDomain>
+			<Arg>	MAILBOX	</Arg>
+		</registerDanceHallSpaceDomain>
+		<canGetDancePosition>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	UINT8	</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING	</Arg>
+		</canGetDancePosition>
+		<setDanceHallInfo>
+			<Arg>	PYTHON	</Arg>
+		</setDanceHallInfo>
+		<registerDanceModelSpawnPoint>
+			<Arg>	UINT8		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</registerDanceModelSpawnPoint>
+		<registerDanceHallBase>
+			<Arg>	MAILBOX		</Arg>
+		</registerDanceHallBase>
+		<removeDanceHallBase>
+			<Arg>	MAILBOX		</Arg>
+		</removeDanceHallBase>
+		<enterDanceHall>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	PYTHON	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</enterDanceHall>
+		<updateDanceHall>
+			<Arg>	UINT8		</Arg>
+			<Arg>	PYTHON	</Arg>
+			<Arg>	MAILBOX	</Arg>			
+		</updateDanceHall>
+		<testDanceActivity>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	BOOL		</Arg>
+		</testDanceActivity>
+		<getLoseDanceKingPosition>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</getLoseDanceKingPosition>		
+	</BaseMethods>
+
+</root>

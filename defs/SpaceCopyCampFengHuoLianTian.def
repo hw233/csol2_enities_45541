@@ -1,0 +1,103 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<campFengHuoInfos>
+			<Type>	CAMP_FENG_HUO_LIAN_TIAN_INFOS	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</campFengHuoInfos>
+		<campCallBoxDict>
+			<Type>	PYTHON	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</campCallBoxDict>
+		<campCallMonsterDict>
+			<Type>	PYTHON	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</campCallMonsterDict>
+		<campTowerDict>
+			<Type>	PYTHON	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</campTowerDict>
+		<campAltarDict>
+			<Type>	PYTHON	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</campAltarDict>
+		<campLastIntegralList>
+			<Type>	PYTHON	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</campLastIntegralList>
+	</Properties>
+
+	<BaseMethods>
+		<closeCampFengHuoRoom/>
+	</BaseMethods>
+	<CellMethods>
+		<closeCampFengHuoRoom/>
+		<onRoleRelive>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</onRoleRelive>
+		<addCampFengHuoLianTianIntegral>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32	</Arg>
+		</addCampFengHuoLianTianIntegral>
+		<decCampFengHuoLianTianIntegral>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32	</Arg>
+		</decCampFengHuoLianTianIntegral>
+		<addHostilityCampIntegral>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32	</Arg>
+		</addHostilityCampIntegral>
+		<addCampCallBox>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32	</Arg>
+		</addCampCallBox>
+		<onMonsterXianFengDie>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING	</Arg>
+		</onMonsterXianFengDie>
+		<onRoleBeKill>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+		</onRoleBeKill>
+		<addIntegralTimer>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT32	</Arg>
+	`		<Arg>	BOOL	</Arg>
+		</addIntegralTimer>
+		<addSpawnPoint>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	INT8	</Arg>
+		</addSpawnPoint>
+		<addTowerNum>
+			<Arg>	DATABASE_ID	</Arg>
+		</addTowerNum>
+		<addAltarNum>
+			<Arg>	DATABASE_ID	</Arg>
+		</addAltarNum>
+		<decAltarNum>
+			<Arg>	DATABASE_ID	</Arg>
+		</decAltarNum>
+		<decTowerNum>
+			<Arg>	DATABASE_ID	</Arg>
+		</decTowerNum>
+		<noticePlayers>
+			<Arg>	STRING	</Arg>
+			<Arg>	BLOB_ARRAY	</Arg>
+		</noticePlayers>
+		<noticeCampSituation>
+			<Arg>	INT16	</Arg>
+		</noticeCampSituation>
+	</CellMethods>
+
+
+</root>

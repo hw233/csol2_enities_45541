@@ -1,0 +1,17 @@
+<root>
+		<spaceName>	巫妖前哨	</spaceName>
+		<EntityType>	SpaceCopyWuYaoQianShao	</EntityType>
+		<DomainType>	SpaceDomainWuYaoQianShao	</DomainType>
+		<script>	SpaceCopyWuYaoQianShao	</script>
+		<SpaceType>	SPACE_TYPE_WU_YAO_QIAN_SHAO	</SpaceType>
+		<className>	fu_ben_wu_yao_qian_shao	</className>
+		<dirMapping>	universes/fu_ben_wu_yao_qian_shao	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+		<TimeOfDay>	52200	</TimeOfDay>
+		<canArrest/>	<!-->是否可逮捕入獄<-->
+		<spawnFile>	config/server/spawn/fu_ben_wu_yao_qian_shao.xml		</spawnFile>
+		
+		<Space>
+		</Space>
+</root>

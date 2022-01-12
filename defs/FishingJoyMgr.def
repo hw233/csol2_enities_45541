@@ -1,0 +1,34 @@
+<root>
+	<BaseMethods>
+		<enterRoom>
+			<Arg>	STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT32		</Arg>
+		</enterRoom>
+		<leaveRoom>
+			<Arg>	OBJECT_ID	</Arg>
+		</leaveRoom>
+		<fisherHit>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	PYTHON	</Arg>
+		</fisherHit>
+		<fisherHitFish>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT8		</Arg>
+			<Arg>	INT8		</Arg>
+			<Arg>	ARRAY <of> INT32 </of>	</Arg>
+		</fisherHitFish>
+		<fisherChangeBullet>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	INT8		</Arg>
+		</fisherChangeBullet>
+		<fisherUseItem>
+			<Arg>	OBJECT_ID	</Arg>
+		</fisherUseItem>
+		<fisherUseItemOver>
+			<Arg>	OBJECT_ID	</Arg>
+		</fisherUseItemOver>
+	</BaseMethods>
+</root>

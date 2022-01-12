@@ -1,0 +1,16 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<addSpawnPointCopyDragon>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT8	</Arg>
+		</addSpawnPointCopyDragon>
+		<spawnMonsters>
+			<Arg>	PY_DICT	</Arg>
+		</spawnMonsters>
+	</BaseMethods>
+</root>

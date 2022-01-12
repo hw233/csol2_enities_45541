@@ -1,0 +1,18 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<copyTemplate_addSpawnPoint>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT8	</Arg>
+		</copyTemplate_addSpawnPoint>
+		<spawnMonsters>
+			<Arg>	PY_DICT	</Arg>
+		</spawnMonsters>
+	</BaseMethods>
+	<CellMethods>
+
+	</CellMethods>
+</root>

@@ -1,0 +1,13 @@
+# -*- coding: gb18030 -*-
+
+"""
+Ð°Áú¶´Ñ¨¸±±¾
+"""
+
+from SpaceCopyTeam import SpaceCopyTeam
+
+
+class SpaceCopyXieLongDongXue(SpaceCopyTeam):
+	"""
+	Ð°Áú¶´Ñ¨¸±±¾
+	"""

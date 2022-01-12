@@ -1,0 +1,37 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<send> <!-- 寄出邮件 --> 
+			<Arg>   MAILBOX		</Arg>  <!-- senderMB -->
+			<Arg>	STRING		</Arg>	<!-- receiverName -->
+			<Arg>	INT8		</Arg>	<!-- mailType -->
+			<Arg>	INT8		</Arg>	<!-- senderType -->
+			<Arg>	STRING		</Arg>	<!-- senderName -->
+			<Arg>	STRING		</Arg>	<!-- title -->
+			<Arg>	STRING		</Arg>	<!-- content -->
+			<Arg>	UINT32		</Arg>	<!-- money -->
+			<Arg>	ARRAY <of> STRING </of></Arg> <!-- itemDatas-->
+		</send>
+
+		<sendWithMailbox> <!-- 寄出邮件 --> 
+			<Arg>   MAILBOX		</Arg>  <!-- senderMB -->
+			<Arg>   MAILBOX		</Arg>  <!-- receiverBase -->
+			<Arg>	STRING		</Arg>	<!-- receiverName -->
+			<Arg>	INT8		</Arg>	<!-- mailType -->
+			<Arg>	INT8		</Arg>	<!-- senderType -->
+			<Arg>	STRING		</Arg>	<!-- senderName -->
+			<Arg>	STRING		</Arg>	<!-- title -->
+			<Arg>	STRING		</Arg>	<!-- content -->
+			<Arg>	UINT32		</Arg>	<!-- money -->
+			<Arg>	ARRAY <of> STRING </of> </Arg> <!-- itemDatas-->
+		</sendWithMailbox>
+
+		<returnMail>
+			<Arg>   MAILBOX		</Arg>  <!-- playerMB -->
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+			<Arg>	DATABASE_ID	</Arg>  <!-- mailId -->
+		</returnMail>
+	</BaseMethods>
+</root>

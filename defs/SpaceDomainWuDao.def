@@ -1,0 +1,16 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onEnterWuDaoSpace>
+			<Arg>	VECTOR3		</Arg>
+			<Arg>	VECTOR3		</Arg>
+			<Arg>	BOOL		</Arg>	<!--空间不存在时是否创建-->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterWuDaoSpace>
+	</BaseMethods>
+</root>

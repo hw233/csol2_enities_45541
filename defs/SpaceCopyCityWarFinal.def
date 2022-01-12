@@ -1,0 +1,99 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<warInfos>
+			<Type>			TONG_CITY_WAR_INFOS	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		false			</Persistent>
+		</warInfos>
+	</Properties>
+
+	<BaseMethods>
+		<spawnMonster>
+			<Arg>			PY_DICT			</Arg>	<!-- params -->
+		</spawnMonster>
+	</BaseMethods>
+
+	<CellMethods>
+		<onCityWarBaseCreated>
+			<Arg>			MAILBOX			</Arg>	<!-- baseMB -->
+			<Arg>			UINT8			</Arg>	<!-- baseType -->
+			<Arg>			UINT8			</Arg>	<!-- belong -->
+			<Arg>			STRING			</Arg>	<!-- className -->
+		</onCityWarBaseCreated>
+
+		<onRoleOccupyResource>
+			<Arg>			OBJECT_ID		</Arg>	<!-- casterID -->
+			<Arg>			MAILBOX			</Arg>	<!-- baseMB -->
+		</onRoleOccupyResource>
+
+		<onResourceBaseOccupied>
+			<Arg>			UINT8			</Arg>	<!-- baseType -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- baseID -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- ownerID -->
+			<Arg>			UINT8			</Arg>	<!-- belong -->
+		</onResourceBaseOccupied>
+
+		<onBattleBaseOccupied>
+			<Arg>			UINT8			</Arg>	<!-- baseType -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- baseID -->
+			<Arg>			STRING			</Arg>	<!-- baseID -->
+			<Arg>			UINT8			</Arg>	<!-- belong -->
+			<Arg>			UINT8			</Arg>	<!-- amount -->
+		</onBattleBaseOccupied>
+
+		<onFlagActivated>
+			<Arg>			UINT8			</Arg>	<!-- baseType -->
+		</onFlagActivated>
+
+		<onBaseFlagOccupied>
+			<Arg>			UINT8			</Arg>	<!-- baseType -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- baseID -->
+			<Arg>			UINT8			</Arg>	<!-- belong -->
+		</onBaseFlagOccupied>
+
+		<recordFlagGuardDamage>
+			<Arg>			OBJECT_ID		</Arg>	<!-- guardID -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- killerID -->
+			<Arg>			INT32			</Arg>	<!-- damage -->
+		</recordFlagGuardDamage>
+
+		<onFlagGuardDied>
+			<Arg>			OBJECT_ID		</Arg>	<!-- guardID -->
+			<Arg>			INT32			</Arg>	<!-- integral -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- killerID -->
+		</onFlagGuardDied>
+
+		<onHeroMonuDied>
+			<Arg>			OBJECT_ID		</Arg>	<!-- monuID -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- killerID -->
+		</onHeroMonuDied>
+
+		<onRoleBeKill>
+			<Arg>			DATABASE_ID		</Arg>	<!-- killerTongDBID -->
+			<Arg>			DATABASE_ID		</Arg>	<!-- killerDBID -->
+			<Arg>			DATABASE_ID		</Arg>	<!-- deaderTongDBID -->
+			<Arg>			DATABASE_ID		</Arg>	<!-- deaderDBID -->
+		</onRoleBeKill>
+
+		<onCityWarFinalEnd/>
+
+		<onRoleRelive>
+			<Arg>			MAILBOX			</Arg>	<!-- roleBaseMB -->
+			<Arg>			DATABASE_ID		</Arg>	<!-- tongDBID -->
+		</onRoleRelive>
+
+		<addIntegral>
+			<Arg>			DATABASE_ID		</Arg>	<!-- tongDBID -->
+			<Arg>			INT32			</Arg>	<!-- integral -->
+			<Arg>			UINT8			</Arg>	<!-- belong -->
+		</addIntegral>
+
+		<baseOccupiedNotice>
+			<Arg>			UINT8			</Arg>	<!-- baseType -->
+			<Arg>			STRING			</Arg>	<!-- baseName -->
+			<Arg>			UINT8			</Arg>	<!-- belong -->
+		</baseOccupiedNotice>
+	</CellMethods>
+</root>

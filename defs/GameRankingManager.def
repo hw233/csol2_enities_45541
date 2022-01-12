@@ -1,0 +1,14 @@
+<root>
+	<BaseMethods>
+		<LoadRankingDatas>		<!-- 更新排行榜数据 -->
+		</LoadRankingDatas>
+		<showGameRanking>
+			<Arg>	MAILBOX		</Arg>
+		</showGameRanking>
+		<queryRankingData>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT8		</Arg>
+		</queryRankingData>
+	</BaseMethods>
+</root>

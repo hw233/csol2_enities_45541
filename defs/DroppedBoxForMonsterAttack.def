@@ -1,0 +1,22 @@
+<root>
+	<Parent>			DroppedBox	</Parent>
+
+	<Properties>
+		<key_itemID>								<!-- 钥匙物品ID -->
+			<Type>		UINT32		 		</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+		</key_itemID>
+		<droperBoxName>								<!-- 宝箱名字 -->
+			<Type>		STRING		 		</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+		</droperBoxName>
+		<droperBoxModelName>							<!-- 宝箱模型 -->
+			<Type>		STRING		 		</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+		</droperBoxModelName>
+		<isFixed>								<!-- 是否确认主人 -->
+			<Type>		BOOL		 		</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+		</isFixed>
+	</Properties>
+</root>

@@ -1,0 +1,85 @@
+<root>
+	<Properties>
+		<_PetTrainer__commonGems>
+			<Type>	ARRAY <of> PET_COMMON_GEM </of></Type>			<!-- common gems -->
+			<Flags>			OWN_CLIENT		</Flags>
+			<Persistent>	false			</Persistent>
+		</_PetTrainer__commonGems>
+		<_PetTrainer__trainGem>
+			<Type>			PET_TRAIN_GEM	</Type>					<!-- gem for auto training -->
+			<Flags>			OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</_PetTrainer__trainGem>
+	</Properties>
+
+	<ClientMethods>
+		<ptn_onUpdateGemAttr>
+			<Arg>		INT8			</Arg>	<!-- the gem's index, if it is -1, it means train gem -->
+			<Arg>		STRING			</Arg>	<!-- attribute name -->
+			<Arg>		PYTHON			</Arg>	<!-- attribute value -->
+		</ptn_onUpdateGemAttr>
+		<ptn_loadComGem>
+			<Arg>		INT8			</Arg>	<!-- the gem's index, if it is -1, it means train gem -->
+		</ptn_loadComGem>
+		<ptn_offloadComGem>
+			<Arg>		INT8			</Arg>	<!-- the gem's index, if it is -1, it means train gem -->
+		</ptn_offloadComGem>
+	</ClientMethods>
+
+	<BaseMethods>
+		<ptn_feedPetEXP>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		INT32			</Arg>	<!-- attribute value  -->
+		</ptn_feedPetEXP>
+		<ptn_feedPetEXPNotLevel>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		INT32			</Arg>	<!-- attribute value  -->
+		</ptn_feedPetEXPNotLevel>
+		<ptn_trainCharge>
+			<Exposed/>
+			<Arg>		UINT32			</Arg>	<!-- gold -->
+		</ptn_trainCharge>
+		<ptn_trainChargeCB>
+			<Arg>		UINT32			</Arg>	<!-- gold -->
+			<Arg>		BOOL				</Arg>	<!-- state -->
+		</ptn_trainChargeCB>
+	</BaseMethods>
+
+	<CellMethods>
+		<!-- methods called by base -->
+		<ptn_onFeedEXPResult>
+			<Arg>		UINT16		</Arg>		<!-- status -->
+			<Arg>		INT32		</Arg>		<!-- exp value -->
+		</ptn_onFeedEXPResult>
+
+		<!-- exposed methods -->
+		<ptn_hireCommonGem>
+			<Exposed/>
+			<Arg>		UINT8		</Arg>		<!-- index -->
+			<Arg>		INT64		</Arg>		<!-- remainTime -->
+		</ptn_hireCommonGem>
+		<ptn_inactivateCommonGem>
+			<Exposed/>
+			<Arg>		UINT8		</Arg>		<!-- index -->
+		</ptn_inactivateCommonGem>
+
+		<ptn_flushTrain>
+			<Exposed/>
+		</ptn_flushTrain>
+		<ptn_trainCharge>
+			<Arg>		UINT32			</Arg>	<!-- gold -->
+		</ptn_trainCharge>
+		<ptn_stratTrain>
+			<Exposed/>
+			<Arg>		UINT8			</Arg>	<!-- train type -->
+		</ptn_stratTrain>
+		<ptn_stopTrain>
+			<Exposed/>
+		</ptn_stopTrain>
+		<ptn_feedPetEXP>
+			<Exposed/>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		INT32			</Arg>
+		</ptn_feedPetEXP>
+	</CellMethods>
+</root>

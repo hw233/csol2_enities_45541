@@ -1,0 +1,90 @@
+<root>
+	<Properties>
+		<jueDiFanJiKey>
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	true			</Persistent>
+		</jueDiFanJiKey>
+		<jueDiFanJiTimer>	<!-- ¾øµØ·´»÷timer -->
+			<Type>			CONTROLLER_ID	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+		</jueDiFanJiTimer>
+	</Properties>
+	<CellMethods>
+		<jueDiFanJiSignUp>
+			<Exposed/>
+		</jueDiFanJiSignUp>
+		<jueDiFanJiEnterConfirm>
+			<Exposed/>
+		</jueDiFanJiEnterConfirm>
+		<jueDiFanJiCancelEnter>
+			<Exposed/>
+		</jueDiFanJiCancelEnter>
+		<selectRepeatedVictory>
+			<Exposed/>
+		</selectRepeatedVictory>
+		<selectLeave>
+			<Exposed/>
+		</selectLeave>
+		<noticeAddTimer>
+			<Arg>	FLOAT	</Arg>
+		</noticeAddTimer>
+		<onRoleReviveCallBack>
+			<Arg>		STRING			</Arg>	<!-- Space Name -->
+			<Arg>		VECTOR3			</Arg>	<!-- Position -->
+			<Arg>		VECTOR3			</Arg>	<!-- Direction -->
+		</onRoleReviveCallBack>
+		<onReceiveStateInfo>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT16	</Arg>
+		</onReceiveStateInfo>
+		<initJueDiFanJiButtonState>
+			<Exposed/>
+		</initJueDiFanJiButtonState>
+		<jueDiFanJiCanCelTimer>
+		</jueDiFanJiCanCelTimer>
+		<onJueDiFanJiLogin>
+			<Exposed/>
+		</onJueDiFanJiLogin>
+		<receiveBulletin>
+			<Arg>	PYTHON	</Arg>			<!-- scoreList -->
+		</receiveBulletin>
+		<removeBulletin>
+		</removeBulletin>
+		<showJueDiFanJiRankList>
+			<Exposed/>
+		</showJueDiFanJiRankList>
+	</CellMethods>
+	<ClientMethods>
+		<jueDiFanJiStart>
+		</jueDiFanJiStart>
+		<jueDiFanJiEnd>
+		</jueDiFanJiEnd>
+		<receiveBulletin>
+			<Arg>	PYTHON	</Arg>			<!-- scoreList -->
+		</receiveBulletin>
+		<selectLeaveOrNot>
+			<Arg>	UINT8	</Arg>
+		</selectLeaveOrNot>
+		<leaveJueDiFanJiSpace>
+		</leaveJueDiFanJiSpace>
+		<receiveScoreInfo>
+			<Arg>	INT32	</Arg>
+		</receiveScoreInfo>
+		<jueDiVictoryCountChange>
+			<Arg>	UINT8	</Arg>
+		</jueDiVictoryCountChange>
+		<showJueDiFanJiPanel>
+			<Arg>	UINT8	</Arg>
+		</showJueDiFanJiPanel>
+		<onJueDiSignUp/>
+		<onJueDiMatchSuccess/>
+		<onJueDiConfirm/>
+		<onJueDiEnter/>
+		<onShowJueDiFanJiBox/>
+		<onJueDiFanJiCountDown>
+			<Arg>	UINT16	</Arg>
+		</onJueDiFanJiCountDown>
+	</ClientMethods>
+</root>

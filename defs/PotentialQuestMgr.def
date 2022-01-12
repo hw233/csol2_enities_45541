@@ -1,0 +1,14 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onRegisterPotentialObject>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</onRegisterPotentialObject>
+		<onUnRegisterPotentialObject>
+			<Arg>	DATABASE_ID	</Arg>
+		</onUnRegisterPotentialObject>
+	</BaseMethods>
+</root>

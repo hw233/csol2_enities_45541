@@ -1,0 +1,68 @@
+<root>
+	<Parent>	NPCObject	</Parent>
+
+	<Implements>
+		<Interface>	CombatUnit		</Interface>
+	</Implements>
+
+	<Properties>
+		<playEffect>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</playEffect>
+		<rediviousTime>	<!-- 复活时间，单位：秒；为0表示不复活 -->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0.0		</Default>
+			<Persistent>	false		</Persistent>
+			<Editable>		true		</Editable>
+		</rediviousTime>
+		<itemBox>								<!-- 普通物品 -->	
+			<Type>		ARRAY<of>ITEMDICT_ITEM</of>	</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Editable>	false				</Editable>
+			<Persistent>	false				</Persistent>
+		</itemBox>
+	</Properties>
+	
+	<ClientMethods>
+		<onTaskStatus>
+			<Arg>	INT8		</Arg>	
+		</onTaskStatus>
+		<receiveQuestItems>
+			<Arg>		ARRAY<of>ITEMDICT_ITEM</of> 		</Arg>
+		</receiveQuestItems>
+		<onBoxQuestItemRemove>
+			<Arg>	INT8		</Arg>	
+		</onBoxQuestItemRemove>
+	</ClientMethods>
+
+	<CellMethods>
+		<taskStatus>	<!-- 任务箱子从cell获得自己出现在某个玩家前面的样子-->
+			<Exposed/>
+		</taskStatus>
+		<onIncreaseQuestTaskState>
+			<Arg>	OBJECT_ID		</Arg>	
+		</onIncreaseQuestTaskState>
+		<entityDead/>		<!-- entity死亡通知 -->
+		<receiveQuestItemPickedCB>
+			<Arg>			OBJECT_ID		</Arg>		<!-- 物品箱子ID -->
+			<Arg>			INT8			</Arg>		<!-- 物品索引 -->
+			<Arg>			BOOL			</Arg>		<!-- 物品 -->
+		</receiveQuestItemPickedCB>
+		<pickQuestItem>
+			<Exposed/>
+			<Arg>			INT8			</Arg>		<!-- 物品索引 -->
+		</pickQuestItem>
+		<abandonBoxQuestItems>
+			<Exposed/>
+		</abandonBoxQuestItems>
+		<onItemsArrived>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		ARRAY<of>ITEMDICT_ITEM</of> 		</Arg>
+		</onItemsArrived>
+	</CellMethods>
+	<BaseMethods>
+
+	</BaseMethods>
+</root>

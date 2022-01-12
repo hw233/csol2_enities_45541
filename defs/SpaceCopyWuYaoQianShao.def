@@ -1,0 +1,52 @@
+<root>
+	<Parent>	SpaceCopyMaps	</Parent>
+
+	<Implements>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+		<teamLevel>				<!--队伍等级-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</teamLevel>
+
+		<teamMaxLevel>				<!--队伍最高等级-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</teamMaxLevel>
+
+		<createTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</createTime>
+		<copyKey>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</copyKey>
+		<isNotRevive>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		false			</Persistent>
+			<Editable>		true			</Editable>
+		</isNotRevive>
+	</Properties>
+
+	<BaseMethods>
+		<addSpawnPointCopy>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	STRING	</Arg>
+		</addSpawnPointCopy>
+		<createSpawnEntities>
+			<Arg>		PYTHON		</Arg>
+		</createSpawnEntities>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

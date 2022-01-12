@@ -1,0 +1,20 @@
+<root>
+	<Parent> 				NPC				</Parent>
+
+	<Properties>
+		<locationIndex>
+			<Type>			UINT8				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>		false				</Persistent>		
+		</locationIndex>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+
+	</ClientMethods>
+
+</root>
+

@@ -1,0 +1,29 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+		<addSpawnPoint>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		STRING		</Arg>	<!-- spaceLabel -->
+			<Arg>		UINT8		</Arg>	<!-- group -->
+			<Arg>		UINT8		</Arg>	<!-- part -->
+		</addSpawnPoint>
+		<addSpawnPointBuff>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		STRING		</Arg>	<!-- spaceLabel -->
+		</addSpawnPointBuff>
+		<addSpawnPointBox>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		STRING		</Arg>	<!-- spaceLabel -->
+			<Arg>		UINT8		</Arg>	<!-- group -->
+		</addSpawnPointBox>
+		<onMonsterDied>
+			<Arg>		PY_DICT		</Arg>
+		</onMonsterDied>
+		<onStart/>
+		<onEnd/>
+		<onStartNotice/>
+	</BaseMethods>
+</root>

@@ -1,0 +1,58 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+	<Implements>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+		<batchs>
+			<Type>		UINT16			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</batchs>
+		<curBatch>
+			<Type>		UINT16			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</curBatch>
+		<liveMonsterNum>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</liveMonsterNum>
+		<liveBossNum>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</liveBossNum>
+		<teamLevel>				<!--¶ÓÎéµÈ¼¶-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</teamLevel>
+	</Properties>
+
+	<BaseMethods>
+		<spawnFlagEntity>
+			<Arg>		PY_DICT		</Arg>
+		</spawnFlagEntity>
+		<spawnMonster>
+			<Arg>		INT16		</Arg>
+			<Arg>		PY_DICT		</Arg>
+		</spawnMonster>
+	</BaseMethods>
+	<CellMethods>
+		<setLeaveTeamPlayerMB>
+			<Arg>		MAILBOX			</Arg>
+		</setLeaveTeamPlayerMB>
+		<onNotifySpaceMonsterDie>
+			<Arg>		STRING			</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+		</onNotifySpaceMonsterDie>
+		<onNotifySpaceMonsterHP>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</onNotifySpaceMonsterHP>
+	</CellMethods>
+</root>

@@ -1,0 +1,48 @@
+<root>
+	<Properties>
+		<lastCreateTongRaceTime>
+			<Type>		STRING 			</Type>		<!-- 最后创建帮会赛马时间 -->
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</lastCreateTongRaceTime>
+
+		<lastOpenTongDartQuestTime>
+			<Type>		STRING 			</Type>		<!-- 最后开启帮会运镖时间 -->
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</lastOpenTongDartQuestTime>
+
+		<lastOpenTongNormalQuestTime>
+			<Type>		STRING 			</Type>		<!-- 最后开启帮会日常时间 -->
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</lastOpenTongNormalQuestTime>
+	</Properties>
+
+	<BaseMethods>
+		<startCampaign_monsterRaid>
+			<Arg>	DATABASE_ID</Arg>	<!-- dbid -->
+			<Arg>	UINT16		</Arg>
+		</startCampaign_monsterRaid>
+
+		<onCappaign_monsterRaidComplete/>
+
+		<requestCreateTongRace>
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+		</requestCreateTongRace>
+
+		<openTongDartQuest>
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+		</openTongDartQuest>
+
+		<openTongNormalQuest>
+			<Arg>	MAILBOX		</Arg>	<!-- playerBase -->
+			<Arg>	UINT8		</Arg>	<!-- type -->
+		</openTongNormalQuest>
+
+		<resetTongQuest/>
+
+		<onTongRaceOver/>
+	</BaseMethods>
+</root>

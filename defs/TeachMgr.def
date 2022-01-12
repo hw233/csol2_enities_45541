@@ -1,0 +1,59 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<queryTeachInfo>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT16		</Arg>	<!--level-->
+		</queryTeachInfo>
+		<register>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	STRING		</Arg>	<!--名字-->
+			<Arg>	INT16		</Arg>	<!--level-->
+			<Arg>	INT32		</Arg>	<!--职业-->
+			<Arg>	INT32		</Arg>	<!--title ID-->
+			<Arg>	INT8		</Arg>	<!--徒弟个数-->
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</register>
+		<deregister>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dbid -->
+			<Arg>	INT32		</Arg>	<!-- 注销类型 -->
+		</deregister>
+		<onPlayerLevelUp>
+			<Arg>	DATABASE_ID		</Arg> <!--DBID-->
+			<Arg>	INT16			</Arg>	<!--level-->
+		</onPlayerLevelUp>
+		<onPlayerTeachTitleChange>
+			<Arg>	DATABASE_ID		</Arg> <!--DBID-->
+			<Arg>	INT32			</Arg>	<!--称号ID-->
+		</onPlayerTeachTitleChange>
+		<onPrenticeNumChange>
+			<Arg>	DATABASE_ID		</Arg> <!--DBID-->
+			<Arg>	INT32			</Arg>	<!--功勋值-->
+		</onPrenticeNumChange>
+		<onPlayerGetCell>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	MAILBOX			</Arg>
+		</onPlayerGetCell>
+		<onPlayerLoseCell>
+			<Arg>	DATABASE_ID		</Arg>
+		</onPlayerLoseCell>
+		<requestBeTeached>
+			<Arg>	MAILBOX			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+		</requestBeTeached>
+		<requestTeach>
+			<Arg>	MAILBOX			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+		</requestTeach>
+		<getTeachExtraInfo>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</getTeachExtraInfo>
+	</BaseMethods>
+</root>

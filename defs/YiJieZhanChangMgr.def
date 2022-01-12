@@ -1,0 +1,52 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onNotice/>
+		<onStart/>
+		<onJoinTimeOver/>
+		<onEnd/>
+		<requestEnterSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- domain base -->
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</requestEnterSpace>
+		<requestEnterSpaceOnLogin>
+			<Arg>	MAILBOX		</Arg>	<!-- domain base -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</requestEnterSpaceOnLogin>
+		<addNewSpaceNumber>
+			<Arg>	INT32		</Arg>  <!-- spaceNumber -->
+		</addNewSpaceNumber>
+		<removeSpaceNumber>
+			<Arg>	INT32		</Arg>  <!-- spaceNumber -->
+		</removeSpaceNumber>
+		<onPlayerEnterBattleground>
+			<Arg>	DATABASE_ID	</Arg>	<!-- player dbID -->
+			<Arg>	INT32		</Arg>  <!-- spaceNumber -->
+			<Arg>	INT32		</Arg>  <!-- faction -->
+		</onPlayerEnterBattleground>
+		<onPlayerLeaveBattleground>
+			<Arg>	DATABASE_ID	</Arg>	<!-- player dbID -->
+			<Arg>	INT32		</Arg>  <!-- spaceNumber -->
+		</onPlayerLeaveBattleground>
+		<closeSpaceCopy>
+			<Arg>	INT32		</Arg>  <!-- spaceNumber -->
+		</closeSpaceCopy>
+		<addNeedShowYiJieScorePlayer>
+			<Arg>	DATABASE_ID		</Arg>	<!-- player dbID -->
+			<Arg>	YI_JIE_ROLE_INFOS	</Arg>	<!-- roleInfos -->
+		</addNeedShowYiJieScorePlayer>
+		<removeNeedShowYiJieScorePlayer>
+			<Arg>	DATABASE_ID	</Arg>	<!-- player dbID -->
+		</removeNeedShowYiJieScorePlayer>
+		<queryNeedShowYiJieScore>
+			<Arg>	DATABASE_ID	</Arg>	<!-- player dbID -->
+			<Arg>	MAILBOX		</Arg>	<!-- player cellMB -->
+		</queryNeedShowYiJieScore>
+	</BaseMethods>
+</root>

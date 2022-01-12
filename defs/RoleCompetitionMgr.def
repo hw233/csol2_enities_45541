@@ -1,0 +1,36 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onStartNotice/>
+		<onStart/>
+		<onEnd/>
+		<onEndNotice/>
+		<onGMStartNotice/>
+		<requestSignUp>
+			<Arg>		INT16		</Arg>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		STRING		</Arg>
+		</requestSignUp>
+		<onEnterRoleCompetitionSpace>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		PYTHON		</Arg>
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		INT16		</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+		</onEnterRoleCompetitionSpace>
+		<end_roleCompetition/>
+		<roleCompetition_Record>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		INT16		</Arg>
+			<Arg>		INT16		</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</roleCompetition_Record>
+		<roleCompetition_end>
+			<Arg>		STRING		</Arg>
+		</roleCompetition_end>
+	</BaseMethods>
+</root>

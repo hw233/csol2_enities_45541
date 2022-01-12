@@ -1,0 +1,28 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onNotice/>
+		<onStart/>
+		<onEnd/>
+		<requestEnterSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- domain base -->
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</requestEnterSpace>
+		<playerExit>
+			<Arg>	INT32		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</playerExit>
+		<addNewSpaceNumber>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</addNewSpaceNumber>
+		<removeSpaceNumber>
+			<Arg>	INT32	</Arg>
+		</removeSpaceNumber>
+	</BaseMethods>
+</root>

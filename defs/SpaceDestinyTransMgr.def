@@ -1,0 +1,71 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<registerSpaceInfo>	<!-- 将地图注册到管理器上 -->
+			<Arg>		STRING			</Arg>		<!-- spaceClassName -->
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+		</registerSpaceInfo>
+
+		<roleRequreEnter>	<!-- 请求开启副本，统一接口 -->
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		INT16			</Arg>
+		</roleRequreEnter>
+
+		<onRequestDestinyTransCom> <!-- 请求开启普通模式下的天命轮回副本 -->
+			<Arg>		ARRAY <of> MAILBOX </of>	</Arg>		<!-- 队伍成员MailBox -->
+			<Arg>		ARRAY <of> DATABASE_ID </of>	</Arg>		<!-- 队伍成员DBID -->
+			<Arg>		OBJECT_ID			</Arg>		<!-- 队伍ID -->
+		</onRequestDestinyTransCom>
+
+		<roleReqEnterDestinyGate> <!-- 玩家请求进入关卡 -->
+			<Arg>		INT8			</Arg>		<!-- 事件类型 -->
+			<Arg>		MAILBOX			</Arg>		<!-- Role mailBox -->
+		</roleReqEnterDestinyGate>
+
+		<updateRoleGateInfo>	<!-- 更新角色棋盘位置信息 -->
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		ARRAY <of> INT8	 </of>	</Arg>
+		</updateRoleGateInfo>
+
+		<roleReqOpenBoardInterface> <!-- 角色请求打开棋盘副本 -->
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+		</roleReqOpenBoardInterface>
+
+		<onRolePassedGate>	<!-- 玩家完成某一个关卡 -->
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+		</onRolePassedGate>
+
+		<onRolePassedAllGate>	<!-- 通关 -->
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+		</onRolePassedAllGate>
+
+		<onRoleDestroy>		<!-- 玩家下线 -->
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		STRING			</Arg>
+		</onRoleDestroy>
+
+		<onRoleLeaveTeam>	<!-- 玩家离队 -->
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		STRING			</Arg>
+		</onRoleLeaveTeam>
+
+		<onRoleLivePointChanged>	<!-- 玩家复活点数发生变化 -->
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		INT8			</Arg>
+		</onRoleLivePointChanged>
+	</BaseMethods>
+</root>

@@ -1,0 +1,25 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+	<Implements>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+	</Properties>
+	<CellMethods>
+		<onGodWeaponFJSG>
+		</onGodWeaponFJSG>
+	</CellMethods>
+	<BaseMethods>
+		<addSpawnPointCopy>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	STRING	</Arg>
+		</addSpawnPointCopy>
+		<spawnMonsters>
+			<Arg>	PY_DICT	</Arg>
+		</spawnMonsters>
+		<openDoor>
+			<Arg>	PY_DICT	</Arg>
+		</openDoor>
+	</BaseMethods>
+</root>

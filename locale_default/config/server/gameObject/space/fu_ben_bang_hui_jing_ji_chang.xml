@@ -1,0 +1,20 @@
+<root>
+		<spaceName>	帮会竞技	</spaceName>
+		<EntityType>	SpaceCopyTongCompetition	</EntityType>
+		<DomainType>	SpaceDomainTongCompetition	</DomainType>
+		<script>	SpaceCopyTongCompetition	</script>
+		<SpaceType>	SPACE_TYPE_TONG_COMPETITION	</SpaceType>
+		<className>	fu_ben_jia_zu_jing_ji_chang	</className>
+		<dirMapping>	universes/fu_ben_zu_dui_jing_ji_chang	</dirMapping>
+		<CanPk>	1	</CanPk>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<TimeOfDay>	56700	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_jia_zu_jing_ji_chang.xml </spawnFile>
+		<canArrest/>
+
+		<Space>
+			<maxPlayer>	35	</maxPlayer>
+			<deathDepth>	-90	</deathDepth>
+		</Space>
+</root>

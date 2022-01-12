@@ -1,0 +1,22 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<requestFete>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	INT16		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</requestFete>
+
+		<addTongFeteValue>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	UINT16		</Arg>
+		</addTongFeteValue>
+
+		<onRequestFeteSuccessfully>
+			<Arg>	DATABASE_ID		</Arg>
+		</onRequestFeteSuccessfully>
+
+	</BaseMethods>
+</root>

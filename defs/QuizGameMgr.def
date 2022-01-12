@@ -1,0 +1,34 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<signUp>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</signUp>
+		<playerQuit>
+			<Arg>	DATABASE_ID	</Arg>
+		</playerQuit>
+		<playerAnswer>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT8			</Arg>
+		</playerAnswer>
+		<useYourHead>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT8			</Arg>
+		</useYourHead>
+		<onStartNotice>
+		</onStartNotice>
+		<onStart>
+		</onStart>
+		<onEnd>
+		</onEnd>
+		<onRoleGetCell>
+			<Arg>	MAILBOX		</Arg>
+		</onRoleGetCell>
+	</BaseMethods>
+</root>

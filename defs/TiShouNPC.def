@@ -1,0 +1,247 @@
+<root>
+	<Parent>	NPC	</Parent>
+
+	<Properties>
+		<ownerDBID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</ownerDBID>
+		<tsState>						<!-- 替售状态 -->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</tsState>
+		<shopName>						<!-- 店铺名字 -->
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</shopName>		
+		<ownerName>						<!-- 店主名字 -->
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</ownerName>
+		<destroyTime>						<!-- 销毁时间 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</destroyTime>
+		<initByMgr>						<!-- 销毁时间 -->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</initByMgr>
+	</Properties>
+
+	<BaseMethods>
+		<startTS>
+		</startTS>
+		<stopTS>
+		</stopTS>
+		<addTSItem>
+			<Arg>	ITEM		</Arg>		<!-- item -->
+			<Arg>	INT32		</Arg>		<!-- price -->
+			<Arg>	INT32		</Arg>		<!-- itemType -->
+			<Arg>	INT32		</Arg>		<!-- level -->
+			<Arg>	INT32		</Arg>		<!-- quality -->
+			<Arg>	STRING		</Arg>		<!-- metier -->
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT32		</Arg>		<!-- roleProcess -->
+		</addTSItem>
+
+
+		<queryTSItems>
+			<Arg>	MAILBOX	</Arg>
+		</queryTSItems>
+		<queryTSPets>
+			<Arg>	MAILBOX	</Arg>
+		</queryTSPets>
+		<buyTSItem>
+			<Arg>	UID		</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT32		</Arg>		<!-- money -->
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	INT32		</Arg>		<!-- item id -->
+			<Arg>	INT32		</Arg>		<!-- item count -->
+			<Arg>	INT32		</Arg>		<!-- price -->
+		</buyTSItem>
+
+		<takeTSItem>
+			<Arg>	UID		</Arg>		<!-- item uid -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>		<!-- owner databaseID -->
+			<Arg>	UINT32		</Arg>		<!-- roleProcess -->
+			<Arg>	ITEM_ID		</Arg>		<!-- item id -->
+			<Arg>	INT32		</Arg>		<!-- item count -->
+		</takeTSItem>
+
+		<addTSPet>
+			<Arg>	PET_EPITOME	</Arg>
+			<Arg>	INT32		</Arg>		<!-- price -->
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT32		</Arg>		<!-- roleProcess -->
+		</addTSPet>
+
+		<initTSItem>
+			<Arg>	ITEM		</Arg>		<!-- item -->
+			<Arg>	INT32		</Arg>		<!-- price -->
+		</initTSItem>
+		
+		<initTSPet>
+			<Arg>	PET_EPITOME	</Arg>
+			<Arg>	INT32		</Arg>		<!-- price -->
+			<Arg>	DATABASE_ID	</Arg>
+		</initTSPet>
+
+		<takeTSMoney>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</takeTSMoney>
+		<updateTSItemPrice>
+			<Arg>	UID		</Arg>
+			<Arg>	UINT32		</Arg>		<!-- price -->
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</updateTSItemPrice>
+		<buyTSPet>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT32		</Arg>		<!-- money -->
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	INT32		</Arg>		<!-- price -->
+		</buyTSPet>
+
+		<takeTSPet>
+			<Arg>	DATABASE_ID	</Arg>		<!-- item uid -->
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	DATABASE_ID	</Arg>		<!-- owner databaseID -->
+			<Arg>	UINT32		</Arg>		<!-- roleProcess -->
+		</takeTSPet>
+
+		<updateTSPetPrice>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</updateTSPetPrice>
+		<setTSInfo>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+		</setTSInfo>
+		<queryTSRecord>
+			<Arg>		MAILBOX		</Arg>
+		</queryTSRecord>
+		<takeTiShouMoneyAway>
+		</takeTiShouMoneyAway>
+		<initTiShouMoney>
+			<Arg>	INT32		</Arg>
+		</initTiShouMoney>
+	</BaseMethods>
+
+	<ClientMethods>
+		<removeTSItem>
+			<Arg>	UID	</Arg>		<!-- item uid -->
+		</removeTSItem>
+		<receiveTSInfo>
+			<Arg>			STRING			</Arg>	<!-- 店铺名字 -->
+			<Arg>			DATABASE_ID		</Arg>	<!-- 店主DBID -->
+			<Arg>			INT32			</Arg>	<!-- 消失时间 -->
+		</receiveTSInfo>
+		<onStartTS>				<!-- 开始寄售-->
+		</onStartTS>				
+		<onStopTS>				<!-- 结束寄售-->
+		</onStopTS>
+	</ClientMethods>
+
+	<CellMethods>
+		<buyTSItem>
+			<Exposed/>
+			<Arg>	UID		</Arg>		<!-- item uid -->
+			<Arg>	INT32		</Arg>		<!-- item id -->
+			<Arg>	INT32		</Arg>		<!-- item count -->
+			<Arg>	INT32		</Arg>		<!-- price -->
+		</buyTSItem>
+		<addTSItem>
+			<Exposed/>
+			<Arg>	UID		</Arg>		<!-- item uid -->
+			<Arg>	INT32		</Arg>		<!-- price -->
+		</addTSItem>
+		<takeTSItem>
+			<Exposed/>
+			<Arg>	UID		</Arg>		<!-- item uid -->
+			<Arg>	ITEM_ID		</Arg>		<!-- item id -->
+			<Arg>	INT32		</Arg>		<!-- item count -->
+		</takeTSItem>
+		<buyTSPet>
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	INT32		</Arg>		<!-- price -->
+		</buyTSPet>
+		<addTSPet>
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	INT32		</Arg>		<!-- price -->
+		</addTSPet>
+		<takeTSPet>
+			<Exposed/>
+			<Arg>	DATABASE_ID	</Arg>
+		</takeTSPet>
+		<takeTSMoney>
+			<Exposed/>
+		</takeTSMoney>
+		<queryTSInfo>
+			<Exposed/>
+		</queryTSInfo>
+		<updateTSItemPrice>
+			<Exposed/>
+			<Arg>	UID		</Arg>
+			<Arg>	UINT32		</Arg>		<!-- price -->
+		</updateTSItemPrice>
+		<updateTSPetPrice>
+			<Exposed/>
+			<Arg>		DATABASE_ID	</Arg>
+			<Arg>		UINT32		</Arg>		<!-- price -->
+		</updateTSPetPrice>
+		<startTS>
+			<Exposed/>
+		</startTS>
+		<stopTS>
+			<Exposed/>
+		</stopTS>
+		<queryTSItems>
+			<Exposed/>
+		</queryTSItems>
+		<queryTSPets>
+			<Exposed/>
+		</queryTSPets>
+		<takeOwnerToMe>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		INT8		</Arg>
+		</takeOwnerToMe>
+		<queryTSRecord>
+			<Exposed/>
+		</queryTSRecord>
+		<setShopName>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</setShopName>
+		<updateTSNPCModel>
+			<Exposed/>
+			<Arg>		INT8		</Arg>
+		</updateTSNPCModel>
+	</CellMethods>
+</root>

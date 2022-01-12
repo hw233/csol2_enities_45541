@@ -1,0 +1,51 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<battlegroundMgr>
+			<Type>		YI_JIE_MGR	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+		</battlegroundMgr>
+		<factionFlagTimerInfos>
+			<Type>		PY_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</factionFlagTimerInfos>
+	</Properties>
+
+	<BaseMethods>
+		<spawnYiJieStone/>
+		<addSpawnPointCopy>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	STRING	</Arg>
+		</addSpawnPointCopy>
+	</BaseMethods>
+
+	<CellMethods>
+		<closeActivity>
+			<Arg> UINT16 </Arg>
+		</closeActivity>
+		<onRoleBeKill>
+			<Arg> 	VECTOR3		</Arg>
+			<Arg>	DATABASE_ID	</Arg>	<!-- dead dbID -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- killer dbID -->
+			<Arg> 	UINT32		</Arg>
+		</onRoleBeKill>
+		<onRoleRevive>
+			<Arg>	DATABASE_ID	</Arg>	<!-- killer dbID -->
+		</onRoleRevive>
+		<playerExit>
+			<Arg>	DATABASE_ID	</Arg>	<!-- player dbID -->
+		</playerExit>
+		<onPlayerUseUniqueSpell>
+			<Arg>	DATABASE_ID	</Arg>	<!-- player dbID -->
+		</onPlayerUseUniqueSpell>
+		<onPlayerRequestUniqueSpell>
+			<Arg>	DATABASE_ID	</Arg>	<!-- player dbID -->
+		</onPlayerRequestUniqueSpell>
+		<onOccupyFactionFlag>
+			<Arg>	OBJECT_ID	</Arg>	<!-- factionFlag id -->
+			<Arg>	UINT32		</Arg>	<!-- new ownBattleFaction -->
+		</onOccupyFactionFlag>
+	</CellMethods>
+</root>

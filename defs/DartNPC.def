@@ -1,0 +1,26 @@
+<root>
+	<Parent>	NPC	</Parent>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Implements>
+	</Implements>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>		
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+		<queryDartMessage>
+		</queryDartMessage>
+	</BaseMethods>
+</root>

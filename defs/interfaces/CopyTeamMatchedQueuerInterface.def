@@ -1,0 +1,40 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onPlayerConfirmMatched>
+			<Arg>	UID		</Arg>		<!-- groupID -->
+			<Arg>	OBJECT_ID	</Arg>		<!-- playerID -->
+			<Arg>	BOOL		</Arg>		<!-- accept -->
+		</onPlayerConfirmMatched>
+		<onQueryBossesKilledCallback>
+			<Arg>	UID		</Arg>		<!-- groupID -->
+			<Arg>	INT8		</Arg>		<!-- bossesKilled -->
+		</onQueryBossesKilledCallback>
+		<onMatchedNewTeamCreated>
+			<Arg>	UID		</Arg>		<!-- groupID -->
+			<Arg>	OBJECT_ID	</Arg>		<!-- captainID -->
+			<Arg>	MAILBOX		</Arg>		<!-- teamMailbox -->
+		</onMatchedNewTeamCreated>
+		<onPlayerReadyForMatchedTeam>
+			<Arg>	UID		</Arg>		<!-- groupID -->
+			<Arg>	OBJECT_ID	</Arg>		<!-- playerID -->
+		</onPlayerReadyForMatchedTeam>
+		<onPlayerJoinMatchedTeam>
+			<Arg>	UID		</Arg>		<!-- groupID -->
+			<Arg>	OBJECT_ID	</Arg>		<!-- playerID -->
+		</onPlayerJoinMatchedTeam>
+		<onMatchedPlayerCollapse>
+			<Arg>	UID		</Arg>		<!-- groupID -->
+			<Arg>	OBJECT_ID	</Arg>		<!-- playerID -->
+		</onMatchedPlayerCollapse>
+		<onMatchedQueuerCollapse>
+			<Arg>	UID		</Arg>		<!-- groupID -->
+			<Arg>	OBJECT_ID	</Arg>		<!-- queuerID -->
+		</onMatchedQueuerCollapse>
+		<reSetMatchStatus>
+			<Arg>	UID		</Arg>		<!-- groupID -->
+		</reSetMatchStatus>
+	</BaseMethods>
+</root>

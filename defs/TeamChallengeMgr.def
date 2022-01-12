@@ -1,0 +1,62 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<signUp>
+			<Arg> OBJECT_ID </Arg>
+			<Arg> UINT16 </Arg>
+			<Arg> MAILBOX </Arg>
+		</signUp>
+		<substitutePlayer>
+			<Arg> MAILBOX </Arg>
+			<Arg> UINT16 </Arg>
+		</substitutePlayer>
+		<calcelSubstitute>
+			<Arg> MAILBOX </Arg>
+		</calcelSubstitute>
+		<recruitTeam>
+			<Arg> MAILBOX </Arg>
+			<Arg> MAILBOX </Arg>
+			<Arg> UINT16 </Arg>
+			<Arg> UINT16 </Arg>
+		</recruitTeam>
+		<cancelRecruitTeam>
+			<Arg> MAILBOX </Arg>
+		</cancelRecruitTeam>
+		<teamDismiss>
+			<Arg> OBJECT_ID </Arg>
+		</teamDismiss>
+		<playerDestroy>
+			<Arg> MAILBOX </Arg>
+		</playerDestroy>
+		<recruitRresult>
+			<Arg> MAILBOX </Arg>
+			<Arg> UINT16 </Arg>
+			<Arg> OBJECT_ID </Arg>
+			<Arg> BOOL </Arg>
+		</recruitRresult>
+		<teamWin>
+			<Arg> OBJECT_ID </Arg>
+		</teamWin>
+		<teamDraw>
+			<Arg> OBJECT_ID </Arg>
+			<Arg> OBJECT_ID </Arg>
+		</teamDraw>
+		<getChampionReward>
+			<Arg> DATABASE_ID </Arg>
+			<Arg> MAILBOX </Arg>
+		</getChampionReward>
+		<onEnterSpace>
+			<Arg> MAILBOX </Arg>
+			<Arg> VECTOR3 </Arg>
+			<Arg> VECTOR3 </Arg>
+			<Arg> MAILBOX </Arg>
+			<Arg> PY_DICT </Arg>
+		</onEnterSpace>
+		<onStart>
+		</onStart>
+		<onEnd>
+		</onEnd>
+	</BaseMethods>
+</root>
+

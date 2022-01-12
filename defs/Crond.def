@@ -1,0 +1,25 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<addScheme>
+			<Arg>	STRING	</Arg>	<!-- scheme string -->
+			<Arg>	MAILBOX	</Arg>	<!-- which receive callback when event active. -->
+			<Arg>	STRING	</Arg>	<!-- name of callback -->
+		</addScheme>
+
+		<removeScheme>
+			<Arg>	STRING	</Arg>	<!-- scheme string -->
+			<Arg>	MAILBOX	</Arg>	<!-- which receive callback when event active. -->
+			<Arg>	STRING	</Arg>	<!-- name of callback -->
+		</removeScheme>
+		
+		<addAutoStartScheme>
+			<Arg>	STRING	</Arg> <!-- taskName -->
+			<Arg>	MAILBOX	</Arg> 
+			<Arg>	STRING	</Arg> <!-- callbackName -->
+		</addAutoStartScheme>
+
+	</BaseMethods>
+</root>

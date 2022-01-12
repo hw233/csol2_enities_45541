@@ -1,0 +1,30 @@
+# -*- coding: gb18030 -*-
+SemonWnd = { 'title': { 'color' : (237,226,155), 'text': "证 道", 'charSpace': 2 },
+				'exchange': { 'text': "积分兑换" },
+				"semon":{ 'text': "一键证道" },
+				"compose":{ 'text': "一键合成" },
+				"pickup":{ 'text': "一键拾取" },
+				"calltutor":{ 'text': "召唤导师" },
+				"sell":{ 'text': "卖出" },
+				"pick":{ 'text': "拾取" },
+				"inteDsp":{ 'text': "用于兑换道法" },
+				"semonDsp":{ 'text': "自动证道直至界面中道法已满或机缘不足" },
+				"compDsp":{ 'text': "出售白色道法并合成全部道法至第一个最高品质道法" },
+				"pickupDsp":{ 'text': "自动拾取非白色品质道法至道心" },
+				"freeSermon":{ 'text': "今日还可以免费证道 %s 次" },
+				"currJiYuan":{ 'text': "当前机缘值: %s" },
+				"integral":{ 'text': "积分" },
+				"guidDsp":{ 'text': "%s@B@F{fc = ( 255, 204, 0, 255 )}消耗机缘:%d" },
+				"xian":{ 'text': "召唤元始" },
+				"mo":{ 'text': "召唤接引" },
+			}
+TaoHeart = { 'title': { 'color' : (237,226,155), 'text': "道 心", 'charSpace': 2 },
+			"locking":{ 'text': "锁定" },
+			"unlocking":{ 'text': "解锁" },
+			"semon":{ 'text': "证道" },
+			"unlock":{ 'text': "等级达到%d级解锁" },
+		}
+
+ExchangWnd = { 'title': { 'color' : (237,226,155), 'text': "积分兑换", 'charSpace': 2 },
+				"exchange":{ 'text': "兑换" },
+		}

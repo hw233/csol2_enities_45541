@@ -1,0 +1,132 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Properties>
+		<domainMB>
+			<Type>		MAILBOX		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>false		</Persistent>
+		</domainMB>
+
+		<params>
+			<Type>		PY_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>false		</Persistent>
+		</params>
+
+		<dirmapping>
+			<Type>		STRING		</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false	</Persistent>
+		</dirmapping>
+
+		<!-- HZM 0308 Add Time Properties  -->
+		<timeon>	 <!-- whether time changes -->
+			<Type>		UINT8		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</timeon>
+
+		<spaceNumber>
+			<Type>		SPACE_NUMBER	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false	</Persistent>
+		</spaceNumber>
+
+		<createdTime>
+			<Type>		FLOAT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false	</Persistent>
+		</createdTime>
+
+	</Properties>
+
+	<BaseMethods>
+
+		<createCell>
+		</createCell>
+
+		<requestCellComponent>
+			<Arg>	MAILBOX		</Arg>	<!-- baseMailbox -->
+		</requestCellComponent>
+
+		<onEnter>
+			<Arg>	MAILBOX		</Arg>	<!-- cellMailbox -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnter>
+
+		<onLeave>
+			<Arg>	MAILBOX		</Arg>	<!-- cellMailbox -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onLeave>
+
+		<closeSpace>
+			<Arg>	INT8		</Arg>	<!-- delefromDB -->
+		</closeSpace>
+
+		<teleportEntity>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>
+		</teleportEntity>
+
+		<entityCreateCell>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+		</entityCreateCell>
+
+		<registerLogonPlayer>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+		</registerLogonPlayer>
+
+		<registerCreatePlayer>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+		</registerCreatePlayer>
+
+		<createNPCObjectFormBase>
+			<Arg>	STRING		</Arg>	<!-- npcID -->
+			<Arg>	POSITION	</Arg>	<!-- dst position -->
+			<Arg>	DIRECTION	</Arg>	<!-- dst direction -->
+			<Arg>	PY_DICT		</Arg>	<!-- additional state, see also cell::BigWorld.createEntity() -->
+		</createNPCObjectFormBase>
+
+		<onGetSpaceID>
+			<Arg>	INT32		</Arg>	<!-- spaceID -->
+		</onGetSpaceID>
+
+		<onChatChannelMessage>			<!-- used for receiving chatting message -->
+			<Arg>	UINT8		</Arg>	<!-- channelID : channel id -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- spkID	   : 发言者的 entity ID -->
+			<Arg>	STRING		</Arg>	<!-- spkName   : 发言者的名称 -->
+			<Arg>	STRING		</Arg>	<!-- msg 	   : 发言内容 -->
+			<Arg>	BLOB_ARRAY	</Arg>	<!-- blobArgs  : 消息参数 -->
+		</onChatChannelMessage>
+
+		<addMonsterCount/>
+		<subMonsterCount/>
+
+		<allPlayersRemoteCall>
+			<Arg>	STRING		</Arg>
+			<Arg>	PY_ARGS		</Arg>
+		</allPlayersRemoteCall>
+
+	</BaseMethods>
+
+	<CellMethods>
+		<onEnter>
+			<Arg>	MAILBOX		</Arg>	<!-- cellMailbox -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnter>
+
+		<onLeave>
+			<Arg>	MAILBOX		</Arg>	<!-- cellMailbox -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onLeave>
+
+		<onTeleportReady>
+			<Arg>	MAILBOX		</Arg>	<!-- cellMailbox -->
+		</onTeleportReady>
+	</CellMethods>
+
+</root>

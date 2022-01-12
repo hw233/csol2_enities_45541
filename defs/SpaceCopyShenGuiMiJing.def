@@ -1,0 +1,51 @@
+<root>
+	<Parent>	SpaceCopyMaps	</Parent>
+
+	<Implements>
+		<Interface>	SpaceCopyRaidRecordInterface	</Interface>
+	</Implements>
+
+	<Properties>
+		<createTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</createTime>
+		<copyKey>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</copyKey>
+		<teamLevel>				<!--队伍等级-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</teamLevel>
+
+		<teamMaxLevel>				<!--队伍最高等级-->
+			<Type>		INT16 			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</teamMaxLevel>
+	</Properties>
+
+	<BaseMethods>
+		<createSpawnEntities>
+			<Arg>		PYTHON		</Arg>
+		</createSpawnEntities>
+	</BaseMethods>
+
+	<CellMethods>
+	<onZhainanHPChange>
+		<Arg>	INT32	</Arg>			<!-- anger -->
+		<Arg>	INT32	</Arg>			<!-- anger_max -->
+	</onZhainanHPChange>
+
+	<onShowAnger>
+	</onShowAnger>
+
+	<onHideAnger>
+	</onHideAnger>
+
+	</CellMethods>
+</root>

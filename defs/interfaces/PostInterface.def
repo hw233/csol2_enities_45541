@@ -1,0 +1,22 @@
+<root>
+	<Properties>
+		<postofficeBase>
+			<Type>	MAILBOX		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</postofficeBase>
+	</Properties>
+		
+	<ClientMethods>
+
+	</ClientMethods>
+	
+	<CellMethods>
+		<onReceiveMail>
+			<Arg>	POST_MAIL </Arg>	<!-- mail -->
+		</onReceiveMail>
+	</CellMethods>
+	
+	<BaseMethods>
+
+	</BaseMethods>
+</root>

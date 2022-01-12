@@ -1,0 +1,14 @@
+# -*- coding: gb18030 -*-
+
+# $Id: CTeleportCharm.py
+
+from CItemBase import CItemBase
+
+class CTeleportCharm( CItemBase ):
+	"""
+	¶¨Ïò·û
+	"""
+	def __init__( self, srcData ):
+		"""
+		"""
+		CItemBase.__init__( self, srcData )

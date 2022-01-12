@@ -1,0 +1,36 @@
+<root>
+	<EntityType>SpaceCopyFishingJoy</EntityType>
+	<DomainType>SpaceDomainFishGround</DomainType>
+	<script>SpaceCopyFishingJoy</script>
+	<className>fishing_joy</className>
+	<dirMapping> universes/fu_ben_bu_yu </dirMapping>
+	<CanPk>	0	</CanPk>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fishing_joy_ground.xml		</spawnFile>
+	<Space>
+		<spaceBBoxMin>	-2000,-100,-2000	</spaceBBoxMin>
+		<spaceBBoxMax>	2000,1000,2000	</spaceBBoxMax>
+		<deathDepth>	-250	</deathDepth>
+	</Space>
+	<enterPosition>
+		<item>				<!-- 以元组格式填写，会使用eval处理 -->
+			(14.673370, 14, 23.970688)
+		</item>
+		<item>
+			(14.673370, 14, 23.970688)
+		</item>
+		<item>
+			(14.673370, 14, 23.970688)
+		</item>
+		<item>
+			(14.673370, 14, 23.970688)
+		</item>
+	</enterPosition>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>16</maxLine>
+	<initLine>1</initLine>
+	<maxPlayerAmount>4</maxPlayerAmount>
+	<newLineByPlayerAmount>4</newLineByPlayerAmount>
+</root>

@@ -1,0 +1,66 @@
+<root>
+	<Properties>
+		<walkSpeed>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</walkSpeed>
+		<runSpeed>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</runSpeed>
+		<chaseEntityID>						<!-- 追踪目标的 ID( hyw -- 2008.07.22 ) -->
+			<Type>			OBJECT_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</chaseEntityID>
+		<movingControlID>	<!-- 移动控制器ID -->
+			<Type>			CONTROLLER_ID	</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</movingControlID>
+		<volatileInfoControlID>	<!-- 用于关闭易变数据的timer -->
+			<Type>			CONTROLLER_ID	</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</volatileInfoControlID>
+		<movingType>
+			<Type>			INT8			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</movingType>
+		<lastMovingType>
+			<Type>			INT8			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</lastMovingType>
+		<navigateCount>	<!-- 用于记录短时间内共移过了多少次 -->
+			<Type>			INT8			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</navigateCount>
+		<navigateTime>	<!-- 用于记录两个移动之间的延时 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0.0				</Default>
+			<Persistent>	false			</Persistent>
+		</navigateTime>
+		<patrolListRecord>
+			<Type>			PATROL_PATH			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true				</Editable>
+		</patrolListRecord>
+		<canPatrol>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false				</Persistent>
+		</canPatrol>
+	</Properties>
+</root>

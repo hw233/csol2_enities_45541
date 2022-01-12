@@ -1,0 +1,36 @@
+<root>
+	<Parent>		Monster			</Parent>
+	<Properties>
+		<ownerID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</ownerID>
+		<ownerName>
+			<Type>			STRING		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Persistent>	false			</Persistent>
+		</ownerName>
+	</Properties>
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<flyToMasterSpace>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	POSITION	</Arg>
+		</flyToMasterSpace>
+		<destoryDartEntity>
+		</destoryDartEntity>
+
+		<onReceiveMasterInfo>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	POSITION	</Arg>
+		</onReceiveMasterInfo>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+</root>

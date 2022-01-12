@@ -1,0 +1,29 @@
+<root>
+		<spaceName>	Ëþ·À	</spaceName>
+		<EntityType>	SpaceCopyDestinyTrans	</EntityType>
+		<SpaceType>	SPACE_TYPE_DESTINY_TRANS	</SpaceType>
+		<DomainType>	SpaceDomainDestinyTrans	</DomainType>
+		<script>	SpaceCopyDestinyTrans	</script>
+		<className>	fu_ben_tian_xiang_xue_ling_destiny	</className>
+		<TimeOfDay>	54000	</TimeOfDay>
+		<dirMapping>	universes/fu_ben_tian_xiang_xue_ling	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canArrest>	1	</canArrest>
+		<Space>
+			<enterPos>
+				<pos>	-42.339,-1.599,-125.152	</pos>
+				<direction>	0,0,-0.26	</direction>
+			</enterPos>
+			<spawn>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_tian_xiang_xue_ling_01.xml	</spawnFile>
+				</item>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_tian_xiang_xue_ling_02.xml	</spawnFile>
+				</item>
+				<item>
+					<spawnFile>	config/server/spawn/destiny_trans_spawn/fu_ben_tian_xiang_xue_ling_03.xml	</spawnFile>
+				</item>
+			</spawn>
+		</Space>
+</root>

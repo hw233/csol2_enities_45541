@@ -1,0 +1,347 @@
+<!-- type 可以是 int, float, bool, Vector2, Vector3, Vector4 -->
+
+<root>
+	<!-- 角色自身 -->
+	<player>		<!-- 玩家所属角色自身信息设置 -->
+		<name>										<!-- 是否显示名称 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</name>
+		<title>										<!-- 是否显示称号 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</title>
+		<guild>										<!-- 是否显示帮会 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</guild>
+		<HP>										<!-- 是否显示生命 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为不显示 -->
+		</HP>
+		<sign>										<!-- 队伍标记 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</sign>
+	</player>
+	<playerPet>		<!-- 玩家宠物信息设置 -->
+		<name>										<!-- 是否显示自己宠物的名字 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</name>
+		<HP>										<!-- 是否显示生命 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为不显示 -->
+		</HP>
+	</playerPet>
+
+	<!-- 队友 -->
+	<teammate>
+		<name>										<!-- 是否显示名称 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</name>
+		<title>										<!-- 是否显示称号 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</title>
+		<guild>										<!-- 是否显示帮会 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</guild>
+		<HP>										<!-- 是否显示生命 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为不显示 -->
+		</HP>
+		<model>										<!-- 模型 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</model>
+		<sign>										<!-- 队伍标记 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</sign>
+	</teammate>
+	<teammatePet>
+		<name>										<!-- 是否显示自己宠物的名字 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</name>
+		<HP>										<!-- 是否显示生命 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为不显示 -->
+		</HP>
+		<model>										<!-- 模型 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</model>
+	</teammatePet>
+
+	<!-- 其他角色 -->
+	<role>	<!-- 其他角色信息设置 -->
+		<name>										<!-- 是否显示名称 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</name>
+		<title>										<!-- 是否显示称号 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</title>
+		<guild>										<!-- 是否显示帮会 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</guild>
+		<HP>										<!-- 是否显示生命 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为不显示 -->
+		</HP>
+		<model>										<!-- 模型 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</model>
+		<sign>										<!-- 队伍标记 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</sign>
+	</role>
+
+	<!-- 其他宠物 -->
+	<pet>
+		<name>										<!-- 是否显示自己宠物的名字 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</name>
+		<HP>										<!-- 是否显示生命 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为不显示 -->
+		</HP>
+		<model>										<!-- 模型 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</model>
+	</pet>
+
+	<!-- NPC 信息设置 -->
+	<npc>
+		<name>										<!-- 是否显示名称 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</name>
+		<title>										<!-- 是否显示头衔 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为不显示 -->
+		</title>
+	</npc>
+
+	<!-- 怪物信息设置 -->
+	<monster>
+		<name>										<!-- 是否显示名称 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</name>
+		<profession>								<!-- 是否显示职业 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</profession>
+		<HP>										<!-- 是否显示生命 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</HP>
+		<level>										<!-- 是否显示等级 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</level>
+		<persistence>								<!--是否持续显示-->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为不显示 -->
+		</persistence>
+		<title>										<!--是否显示标题-->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为不显示 -->
+		</title>
+	</monster>
+
+	<!-- 掉落物品 -->
+	<dropItem>
+		<particle>									<!-- 是否显示光效 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</particle>
+	</dropItem>
+
+	<!-- 系统提示 -->
+	<hide>
+		<centerMessage>								<!-- 是否屏蔽 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为不屏蔽 -->
+		</centerMessage>
+	</hide>
+
+	<!-- 窗口 -->
+	<window>
+		<fadein>									<!-- 渐显窗口 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为渐显 -->
+		</fadein>
+	</window>
+	<tipWindow>										<!-- 提示窗口 -->
+		<rightAnchor>								<!-- 是否靠右下角 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为 False( 跟随鼠标 ) -->
+		</rightAnchor>
+	</tipWindow>
+	<hideQuickBar>									<!-- 自动隐藏的快捷栏 -->
+		<valid>										<!-- 是否启用 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为启用 -->
+		</valid>
+	</hideQuickBar>
+	<bubble>
+		<visible>
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为启用 -->
+		</visible>
+		<style>
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为启用第一种风格 -->
+		</style>
+	</bubble>
+
+	<!-- 战斗信息设置 -->
+	<hitedInfo>
+		<enemy>										<!-- 是否在频道中显示敌人的受伤信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</enemy>
+		<skill>										<!-- 是否输出使用技能信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</skill>
+		<revert>
+			<type>	bool		</type>				<!--恢复信息 -->
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</revert>
+		<injured>									<!-- 是否在频道中显示受伤信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</injured>
+		<buff>										<!-- 是否在频道中显示 buff 信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</buff>
+	</hitedInfo>
+
+	<!--小地图图标显示设置-->
+	<entitySigns>
+		<npc>
+			<type>	bool		</type>				<!--是否显示小地图上的npc图标-->
+			<def>	true		</def>
+		</npc>
+		<teammate>
+			<type>	bool		</type>				<!--是否显示小地图上的队友图标-->
+			<def>	true		</def>
+		</teammate>
+		<monster>
+			<type>	bool		</type>				<!--是否显示小地图上的怪物图标-->
+			<def>	false		</def>
+		</monster>
+	</entitySigns>
+
+	<!--聊天消息-->
+	<chat>
+		<welkinAndTunel>										<!--是否显示天地音提示框-->
+			<type>	bool	</type>
+			<def>	true		</def>
+		</welkinAndTunel>
+	</chat>
+
+<!-- entity头顶飞扬文字设置-->
+	<roleCombat>										<!-- 自身战斗信息 -->
+		<skillName>										<!-- 是否显示技能名称-->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</skillName>
+		<statusInfo>										<!-- 是否显示状态信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</statusInfo>
+		<hitDamage>										<!-- 是否输出命中伤害 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</hitDamage>
+		<expObtain>									<!-- 经验获取 -->
+			<type>	bool		</type>				<!--恢复信息 -->
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</expObtain>
+		<revertUpLmt>									<!-- 是否显示恢复与上限 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</revertUpLmt>
+		<baseInfo>									<!-- 是否显示基本信息 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</baseInfo>
+		<homingComb>
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为不显示 -->
+		</homingComb>
+	</roleCombat>										
+	
+	<petCombat>										<!-- 宠物战斗信息 -->
+		<skillName>										<!-- 是否显示技能名称-->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</skillName>
+		<statusInfo>										<!-- 是否显示状态信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</statusInfo>
+		<hitDamage>										<!-- 是否输出命中伤害 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</hitDamage>
+		<expObtain>									<!-- 经验获取 -->
+			<type>	bool		</type>				<!--恢复信息 -->
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</expObtain>
+		<revertUpLmt>									<!-- 是否显示恢复与上限 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</revertUpLmt>
+		<baseInfo>									<!-- 是否显示基本信息 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</baseInfo>
+	</petCombat>
+	
+	<targetCombat>
+		<skillName>										<!-- 是否显示技能名称-->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</skillName>
+		<statusInfo>										<!-- 是否显示状态信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</statusInfo>
+		<hitDamage>										<!-- 是否输出命中伤害 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默认为显示 -->
+		</hitDamage>
+		<revertUpLmt>									<!-- 是否显示恢复与上限 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</revertUpLmt>
+		<baseInfo>									<!-- 是否显示基本信息 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默认为显示 -->
+		</baseInfo>
+	</targetCombat>
+
+	<!--角色是否自动反击设置-->
+	<fightControl>
+		<counter>										<!--是否自动反击-->
+			<type>	bool	</type>
+			<def>	false		</def>
+		</counter>
+	</fightControl>
+</root>

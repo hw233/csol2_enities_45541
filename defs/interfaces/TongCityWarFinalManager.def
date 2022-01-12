@@ -1,0 +1,74 @@
+<root>
+	<Properties>
+		<cityWarFinalInfos>
+			<Type>			TONG_CITY_WAR_FINAL_INFO </Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</cityWarFinalInfos>
+
+		<cityWarFinalRecords>
+			<Type>			TONG_FENG_HUO_LIAN_TIAN_RECORDS	</Type>
+			<Flags>			BASE				</Flags>
+			<Persistent>		true				</Persistent>
+		</cityWarFinalRecords>
+	</Properties>
+
+	<BaseMethods>
+		<onCityWarFinalNotice/>
+
+		<onCityWarFinalStart/>
+
+		<onCityWarFinalEnd/>
+
+		<getQuarterFinalRecord>
+			<Arg>			INT8			</Arg>	<!-- camp -->
+			<Arg>			STRING			</Arg>	<!-- spaceName -->
+		</getQuarterFinalRecord>
+
+		<requestEnterCityWarFinal>
+			<Arg>			DATABASE_ID		</Arg>	<!-- tongDBID -->
+			<Arg>			MAILBOX			</Arg>	<!-- roleMB -->
+			<Arg>			UINT8			</Arg>	<!-- roleMB -->
+			<Arg>			STRING			</Arg>	<!-- fight for spaceName -->
+			<Arg>			STRING			</Arg>	<!-- spaceKey -->
+		</requestEnterCityWarFinal>
+
+		<onEnterCityWarFinalSpace>
+			<Arg>			MAILBOX			</Arg>	<!-- spaceMB -->
+			<Arg>			MAILBOX			</Arg>	<!-- roleMB -->
+			<Arg>			PY_DICT			</Arg>	<!-- params -->
+		</onEnterCityWarFinalSpace>
+
+		<requestBattleFieldReset>
+			<Arg>			STRING			</Arg>	<!-- uidKey -->
+		</requestBattleFieldReset>
+
+		<cityWarFinalLeave>
+			<Arg>			STRING			</Arg>	<!-- spaceMB -->
+			<Arg>			DATABASE_ID		</Arg>	<!-- roleMB -->
+			<Arg>			DATABASE_ID		</Arg>	<!-- params -->
+		</cityWarFinalLeave>
+
+		<onGetCityWarFinalRecords>
+			<Arg>			STRING			</Arg>	<!-- uidKey -->
+			<Arg>			PY_DICT			</Arg>	<!-- integration -->
+			<Arg>			DATABASE_ID		</Arg>	<!-- tongDBID -->
+		</onGetCityWarFinalRecords>
+
+		<registerCityWarFinalSpaceBase>
+			<Arg>			MAILBOX			</Arg>	<!-- spaceMB -->
+		</registerCityWarFinalSpaceBase>
+
+		<unRegisterCityWarFianlSpaceBase>
+			<Arg>			MAILBOX			</Arg>	<!-- spaceMB -->
+		</unRegisterCityWarFianlSpaceBase>
+
+		<sendMessage2Alliance>
+			<Arg>			DATABASE_ID		</Arg>	<!-- tongDBID -->
+			<Arg>			OBJECT_ID		</Arg>	<!-- spkID -->
+			<Arg>			STRING			</Arg>	<!-- spkName -->
+			<Arg>			STRING			</Arg>	<!-- msg -->
+			<Arg>			BLOB_ARRAY		</Arg>	<!-- blobArgs -->
+		</sendMessage2Alliance>
+	</BaseMethods>
+</root>

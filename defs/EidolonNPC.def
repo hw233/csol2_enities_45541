@@ -1,0 +1,185 @@
+<root>
+	<Parent>	NPC	</Parent>
+
+	<Properties>
+		<ownerID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</ownerID>
+		<ownerName>						<!-- 主人名字 -->
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</ownerName>
+		<baseOwner>							<!-- 所属玩家的 base mailbox -->
+			<Type>			MAILBOX			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</baseOwner>
+		<ownerLevel>
+			<Type>			UINT16			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</ownerLevel>
+		<isShare>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</isShare>
+		<shareVIPLevel>
+			<Type>			UINT8		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</shareVIPLevel>
+		<ownerTeamID>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Persistent>		false				</Persistent>
+			<Default>		-1				</Default>
+		</ownerTeamID>
+		<bornTime>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>		false				</Persistent>
+		</bornTime>
+		<!--商店功能数据-->
+		<invSellPercent>	<!-- 出售价格百分比 -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		1.0				</Default>
+			<Persistent>	false					</Persistent>
+		</invSellPercent>
+		<invBuyPercent>	<!-- 回收价格百分比 -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0.2				</Default>
+			<Persistent>		false				</Persistent>
+		</invBuyPercent>
+		<invRestoreTime>	<!-- 商品恢复时间 -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		3600.0				</Default>
+			<Persistent>		false				</Persistent>
+		</invRestoreTime>
+		<isJoinRevenue>		<!-- 是否参与税收 -->
+			<Type>			BOOL				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>		false				</Persistent>
+		</isJoinRevenue>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<destroyEidolon/>
+		<teleportToOwner>			<!-- 将精灵 teleport 到玩家身边 -->
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		POSITION	</Arg>
+			<Arg>		DIRECTION	</Arg>
+		</teleportToOwner>
+		<giveControlToOwner/>
+		<clientReady>
+			<Exposed/>
+		</clientReady>
+		<changeModel>
+			<Arg>		STRING		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</changeModel>
+		<stopShare/>
+		<vipShare>
+			<Arg>		UINT8		</Arg>
+		</vipShare>
+		<onOwnerVIPLevelChange>
+			<Arg>		UINT8		</Arg>
+		</onOwnerVIPLevelChange>
+		<onOwnerLeaveTeam/>
+		<onOwnerJoinTeam>
+			<Arg>		OBJECT_ID	</Arg>
+		</onOwnerJoinTeam>
+		
+		<!--技能导师功能-->
+		<sendTrainInfoToPlayer>	<!-- 告诉client的训练师NPC，有哪些技能可学 -->
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UINT8		</Arg>
+		</sendTrainInfoToPlayer>
+		<trainPlayer>	<!-- 教技能给玩家 -->
+			<Exposed/>
+			<Arg> INT64	</Arg>	<!-- skillID -->
+		</trainPlayer>
+		
+		<!--商店功能-->
+		<sendInvoiceListToClient>	<!-- 告诉client的商人NPC，商人身上有些啥商品 -->
+			<Exposed/>
+		</sendInvoiceListToClient>
+		<requestInvoice>
+			<Exposed/>
+			<Arg>  UINT16 	</Arg>
+		</requestInvoice>
+		<sellTo>	<!-- 商人卖东西给玩家 -->
+			<Exposed/>
+			<Arg> UINT16	</Arg>	<!-- argIndex -->
+			<Arg> UINT16	</Arg>	<!-- argAmount -->
+		</sellTo>
+
+		<sellArrayTo>	<!-- 商人卖东西给玩家 -->
+			<Exposed/>
+			<Arg> ARRAY <of> UINT16	</of>	</Arg>	<!-- argIndices -->
+			<Arg> ARRAY <of> UINT16	</of>	</Arg>	<!-- argAmountList -->
+		</sellArrayTo>
+
+		<sellToCB>	<!-- 由玩家调用的回调 -->
+			<Arg> UINT16	</Arg>	<!-- argIndex -->
+			<Arg> UINT16	</Arg>	<!-- argAmount -->
+			<Arg> OBJECT_ID	</Arg>	<!-- object ID -->
+		</sellToCB>
+
+		<buyFrom>	<!-- 商人从玩家身上收购 -->
+			<Exposed/>
+			<Arg> UID	</Arg>	<!-- argUid -->
+			<Arg> UINT16	</Arg>	<!-- argAmount -->
+		</buyFrom>
+
+		<buyArrayFrom>	<!-- 商人从玩家身上整体收购 -->
+			<Exposed/>
+			<Arg> ARRAY <of> UID	</of> </Arg>	<!-- argUidList -->
+			<Arg> ARRAY <of> UINT16	</of> </Arg>	<!-- argAmountList -->
+		</buyArrayFrom>
+
+		<repairOneEquip>
+			<Exposed/>
+			<Arg>	UINT16	</Arg>	<!-- kitBagID -->
+			<Arg>	INT32	</Arg>	<!-- orderID -->
+			<Arg>	UINT8	</Arg>	<!-- repairLevel -->
+		</repairOneEquip>
+
+		<repairAllEquip>
+			<Exposed/>
+			<Arg>	UINT8	</Arg>	<!-- repairLevel -->
+		</repairAllEquip>
+	</CellMethods>
+	<ClientMethods>
+		<receiveTrainInfos>
+			<Arg>	ARRAY <of> INT64 </of>	</Arg>	<!-- skillIDs, 接收技能列表 -->
+		</receiveTrainInfos>
+		
+		<!--商店功能-->
+		<addInvoiceCB>	<!-- 增加一个商品 -->
+			<Arg> UINT16					</Arg>	<!-- argIndex -->
+			<Arg> INVOICEITEM 				</Arg>	<!-- argInvoice -->
+		</addInvoiceCB>
+		<onInvoiceLengthReceive> <!-- 商品长度发送 -->
+			<Arg>  UINT16			</Arg>
+		</onInvoiceLengthReceive>
+		<onBuyArrayFromCB>
+			<Arg>	UINT8	</Arg>	<!-- state -->
+		</onBuyArrayFromCB>
+
+		<resetInvoices>
+			<Arg>	UINT16	</Arg>	<!-- 商品数量 -->
+		</resetInvoices>
+	</ClientMethods>
+</root>

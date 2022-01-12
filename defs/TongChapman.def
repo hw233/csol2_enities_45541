@@ -1,0 +1,60 @@
+<root>
+	<Parent>	Chapman						</Parent>
+
+	<Properties>
+		<locked> 
+			<Type>			BOOL	</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</locked>
+		<ownTongDBID> 
+			<Type>			DATABASE_ID	</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>		false			</Persistent>
+		</ownTongDBID>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<lock/>
+		<unlock/>
+
+		<onRegisterTongItem>
+			<Arg>	ITEM_ID		</Arg>
+			<Arg>	UINT32		</Arg>
+		</onRegisterTongItem>
+
+		<onGetMemberBuyRecord>		<!-- 帮众购买记录 -->
+			<Arg>	TONG_MEMBER_BUY_TONG_ITEM_RECORD		</Arg>
+		</onGetMemberBuyRecord>
+
+		<initTongItems>
+			<Arg>	UINT8	</Arg>
+			<Arg>	BOOL	</Arg>
+		</initTongItems>
+
+		<onRequestOpenTongShop>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	BOOL		</Arg>
+		</onRequestOpenTongShop>
+	</CellMethods>
+	<ClientMethods>
+		<onReceiveMakeItemData>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>	TONG_ITEM_MAKE_DATA	</Arg>
+			<Arg>	ARRAY <of> TONG_ITEM_MAKE_DATA </of>	</Arg>
+		</onReceiveMakeItemData>
+		<onChangeMakeItem>
+			<Arg>	ITEM_ID	</Arg>
+			<Arg>	INT32	</Arg>			<!-- 生产数量允许为-1，表示无限量成产，因此将该参数类型由UINT16改为INT32 -->
+		</onChangeMakeItem>
+		<onReceiveGoodsAmountChange>		<!-- 客户端接收商品数量改变消息 -->
+			<Arg>		UINT16		</Arg>	<!-- 商品ID -->
+			<Arg>		UINT16		</Arg>	<!-- 剩余数量 -->
+		</onReceiveGoodsAmountChange>
+	</ClientMethods>
+
+</root>

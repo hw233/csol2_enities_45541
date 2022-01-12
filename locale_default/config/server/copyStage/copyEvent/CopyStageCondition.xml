@@ -1,0 +1,173 @@
+<root>
+	<row>
+		<id>	1	</id>
+		<name>	某类副本内容数据达到一定数值	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_spaceDataReach	</scriptName>
+		<param1>	副本内容显示数据 ID	</param1>
+		<param2>	临界值		</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	ID为param1的副本内容显示数据达到临界值param2	</comment>
+	</row>
+	<row>
+		<id>	2	</id>
+		<name>	当前副本是否有一用户自定义timer	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_hasUserTimer	</scriptName>
+		<param1>	用户自定义数据	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	判断当前副本是否有用户自定义数据为 param1 的 timer	</comment>
+	</row>
+	<row>
+		<id>	3	</id>
+		<name>	是否是某一用户自定义timer	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_isUserTimer	</scriptName>
+		<param1>	用户自定义数据	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	判断是否是某一用户自定义timer，主要用于onTimer事件中	</comment>
+	</row>
+	<row>
+		<id>	4	</id>
+		<name>	妖气比例判断	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_MMT_evilSoulPercent	</scriptName>
+		<param1>	percent	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	妖气比例判断	</comment>
+	</row>
+	<row>
+		<id>	5	</id>
+		<name>	距时间点间隔判断	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_timeModZero	</scriptName>
+		<param1>	时间点标记	</param1>
+		<param2>	模，判断时，将从记录时间点到现在经过的时间值对此值取模	</param2>
+		<param3>	灵敏度，上面取模的结果如果小于灵敏度，则判断通过	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	距时间点间隔判断，可以用来配合循环事件，实现每隔多少秒执行指定行为	</comment>
+	</row>
+	<row>
+		<id>	6	</id>
+		<name>	时间未超过指定值	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_timeEscapeNotReach	</scriptName>
+		<param1>	时间点标记	</param1>
+		<param2>	比较值	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	距时间点经过的时间值小于指定值	</comment>
+	</row>
+	<row>
+		<id>	7	</id>
+		<name>	时间超过指定值	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_timeEscapePass	</scriptName>
+		<param1>	时间点标记	</param1>
+		<param2>	比较值	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	距时间点经过的时间值大于指定值	</comment>
+	</row>
+	<row>
+		<id>	8	</id>
+		<name>	指定标识是否被设置	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_tempFlagHasSet	</scriptName>
+		<param1>	标识名称	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	指定标识是否被设置	</comment>
+	</row>
+	<row>
+		<id>	9	</id>
+		<name>	指定标识是否未被设置	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_tempFlagNotSet	</scriptName>
+		<param1>	标识名称	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	指定标识是否未被设置	</comment>
+	</row>
+	<row>
+		<id>	10	</id>
+		<name>	是否是指定className的Monster死亡	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_isMonsterTypeDied	</scriptName>
+		<param1>	className	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	判断事件相关者是否是指定className的Monster	</comment>
+	</row>
+	<row>
+		<id>	11	</id>
+		<name>	触发概率	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_rateLessThan	</scriptName>
+		<param1>	rate	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	触发概率	</comment>
+	</row>
+	<row>
+		<id>	12	</id>
+		<name>	npc数量判断	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_npcRecordLessThan	</scriptName>
+		<param1>	className	</param1>
+		<param2>	数量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	npc数量是否小于指定值	</comment>
+	</row>
+	<row>
+		<id>	13	</id>
+		<name>	是否是指定的某些怪物类型	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_isCertainMonsters	</scriptName>
+		<param1>	怪物的className列表，不同的className之间用空格隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	是否是指定的某些怪物类型,此条件用于有额外参数 params["monsterClassName"] 的事件
+					param1	配置举例：	20129494 20129495 20129496
+		</comment>
+	</row>
+	<row>
+		<id>	14	</id>
+		<name>	是否不是指定的某些怪物类型	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_Share_isNotCertainMonsters	</scriptName>
+		<param1>	怪物的className列表，不同的className之间用空格隔开	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	是否不是指定的某些怪物类型,此条件用于有额外参数 params["monsterClassName"] 的事件
+					param1	配置举例：	20129494 20129495 20129496
+		</comment>
+	</row>
+	<row>
+		<id>	15	</id>
+		<name>	判断是否是某一防守副本区域的机关开启	</name>
+		<scriptName>	CopyStageConditions:CopyStageCondition_FangShou_isTheArea	</scriptName>
+		<param1>	防守副本区域名称	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	判断当前开启的机关是否是防守副本区域 param1 的,此条件仅用于防守副本机关开启事件
+					param1	配置举例：	fu_ben_fang_shou_area_1 或 fu_ben_fang_shou_area_2 或 fu_ben_fang_shou_area_3
+		</comment>
+	</row>
+</root>

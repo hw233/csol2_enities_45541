@@ -1,0 +1,22 @@
+<root>
+	<EntityType>SpaceCopyRacehorse</EntityType>
+	<DomainType>SpaceDomainRacehorse</DomainType>
+	<script>SpaceCopyRacehorse</script>
+	<SpaceType>	SPACE_TYPE_RACE_HORSE	</SpaceType>
+	<className>sai_ma_chang_01</className>
+	<dirMapping> universes/sai_ma_chang_01 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	45600	</TimeOfDay>
+	<spawnFile>	config/server/spawn/sai_ma_chang_01.xml		</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<Space>
+
+		<Transport>
+		</Transport>
+
+		<Door>
+		</Door>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

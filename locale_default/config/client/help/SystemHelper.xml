@@ -1,0 +1,3446 @@
+<root>
+	<item>
+		<id>	1	</id>
+		<index>	1	</index>
+		<parentID>	-1	</parentID>
+		<title>	游戏介绍	</title>
+		<keys>	</keys>
+		<content>	</content>
+	</item>
+	<item>
+		<id>	8	</id>
+		<index>	2	</index>
+		<parentID>	1	</parentID>
+		<title>	基本属性	</title>
+		<keys>
+			<item>	基本属性	</item>
+			<item>	人物属性	</item>
+			<item>	名字	</item>
+			<item>	等级	</item>
+			<item>	职业	</item>
+			<item>	性别	</item>
+			<item>	经验	</item>
+			<item>	帮会	</item>
+			<item>	帮会名	</item>
+			<item>	潜能	</item>
+			<item>	潜能值	</item>
+			<item>	PK	</item>
+			<item>	善恶值	</item>
+			<item>	荣誉	</item>
+			<item>	荣誉值	</item>
+			<item>	力量	</item>
+			<item>	敏捷	</item>
+			<item>	智力	</item>
+			<item>	体质	</item>
+			<item>	生命	</item>
+			<item>	生命上限	</item>
+			<item>	法力	</item>
+			<item>	法力上限	</item>
+			<item>	物理攻击	</item>
+			<item>	物理攻击力	</item>
+			<item>	法术攻击	</item>
+			<item>	法术攻击力	</item>
+			<item>	攻击速度	</item>
+			<item>	物理命中	</item>
+			<item>	法术命中	</item>
+			<item>	物理暴击	</item>
+			<item>	命中	</item>
+			<item>	法术暴击	</item>
+			<item>	招架	</item>
+			<item>	闪避	</item>
+			<item>	物理命中率	</item>
+			<item>	法术命中率	</item>
+			<item>	物理暴击率	</item>
+			<item>	命中率	</item>
+			<item>	法术暴击率	</item>
+			<item>	招架率	</item>
+			<item>	闪避率	</item>
+			<item>	物理防御	</item>
+			<item>	法术防御	</item>
+			<item>	抵抗眩晕几率	</item>
+			<item>	抵抗定身几率	</item>
+			<item>	抵抗沉默几率	</item>
+			<item>	抵抗睡眠几率	</item>
+			<item>	眩晕	</item>
+			<item>	定身	</item>
+			<item>	沉默	</item>
+			<item>	睡眠	</item>
+			<item>	抗性	</item>
+			<item>	眩晕抗性	</item>
+			<item>	定身抗性	</item>
+			<item>	沉默抗性	</item>
+			<item>	昏睡	</item>
+			<item>	防御	</item>
+			<item>	防御力	</item>
+			<item>	物理闪避	</item>
+			<item>	法术闪避	</item>
+			<item>	物理闪避率	</item>
+			<item>	法术闪避率	</item>
+			<item>	升级	</item>
+			<item>	法力恢复速度	</item>
+			<item>	元素	</item>
+			<item>	攻击	</item>
+			<item>	活力	</item>
+			<item>	功勋	</item>
+			<item>	功勋值	</item>
+			<item>	PK值	</item>
+			<item>	善恶	</item>
+			<item>	暴击	</item>
+		</keys>
+		<content>	@S{2}@F{fc=c26}角色基本信息@D
+
+@S{4}名字：玩家给角色取的称呼。
+@S{4}等级：由角色@L{t=经验;m=srch:经验;cfc=255,128,64;hfc=255,169,128}值多少决定的差异级别。
+@S{4}职业：决定@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}和属性的类别。参阅@L{t=职业介绍;m=srch:职业介绍;cfc=255,128,64;hfc=255,169,128}。
+@S{4}性别：每个@L{t=职业;m=srch:职业;cfc=255,128,64;hfc=255,169,128}都提供男女两种角色供玩家选择。
+@S{4}经验：角色@L{t=等级;m=srch:等级;cfc=255,128,64;hfc=255,169,128}提升的凭据。
+@S{4}称号：角色在游戏中通过@L{t=任务;m=srch:任务;cfc=255,128,64;hfc=255,169,128}等途径获得的头衔。
+@S{4}潜能：@L{t=潜能;m=srch:潜能;cfc=255,128,64;hfc=255,169,128}用于学习@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}。
+@S{4}PK值：经过@L{t=PK;m=srch:PK;cfc=255,128,64;hfc=255,169,128}获得的数值，大于0将会红名。
+@S{4}善恶：@L{t=PK;m=srch:PK;cfc=255,128,64;hfc=255,169,128}值不大于0时，善恶值决定玩家名字颜色。
+@S{4}荣誉：角色通过@L{t=竞技;m=srch:竞技;cfc=255,128,64;hfc=255,169,128}活动获得的数值，用来换取奖励。
+@S{4}功勋：@L{t=师徒;m=srch:师徒;cfc=255,128,64;hfc=255,169,128}系统中，角色通过收徒、帮助徒弟升级获得。
+@S{4}活力：角色能否进行@L{t=采集;m=srch:采集;cfc=255,128,64;hfc=255,169,128}的依据，活力值每日刷新。
+
+
+@S{2}@F{fc=c26}角色基础属性@D
+
+@S{4}力量：影响角色@L{t=物理攻击力;m=srch:物理攻击力;cfc=255,128,64;hfc=255,169,128}，@L{t=招架率;m=srch:招架率;cfc=255,128,64;hfc=255,169,128}。
+@S{4}敏捷：影响@L{t=射手;m=srch:射手;cfc=255,128,64;hfc=255,169,128}和@L{t=剑客;m=srch:剑客;cfc=255,128,64;hfc=255,169,128}的@L{t=物理攻击力;m=srch:物理攻击力;cfc=255,128,64;hfc=255,169,128}，影响各职业的@L{t=物理暴击率;m=srch:物理暴击率;cfc=255,128,64;hfc=255,169,128}、@L{t=闪避率;m=srch:闪避率;cfc=255,128,64;hfc=255,169,128}。
+@S{4}智力：影响角色的@L{t=法力上限;m=srch:法力上限;cfc=255,128,64;hfc=255,169,128}、@L{t=法术攻击力;m=srch:法术攻击力;cfc=255,128,64;hfc=255,169,128}、@L{t=法术暴击率;m=srch:法术暴击率;cfc=255,128,64;hfc=255,169,128}、@L{t=法力恢复;m=srch:法力恢复;cfc=255,128,64;hfc=255,169,128}速度。
+@S{4}体质：影响角色的@L{t=生命上限;m=srch:生命上限;cfc=255,128,64;hfc=255,169,128}。
+
+@S{4}生命：角色的生命属性，受到伤害时会减少，使用@L{t=生命恢复物品;m=srch:生命恢复;cfc=255,128,64;hfc=255,169,128}药品时会增加，减少到0时角色@L{t=死亡;m=srch:死亡;cfc=255,128,64;hfc=255,169,128}。数值和体质有关。
+@S{4}法力：角色的能量属性，在施放技能或被特殊攻击后会减少，使用@L{t=法力恢复;m=srch:法力恢复;cfc=255,128,64;hfc=255,169,128}药品时会增加。法力不足时无法使用@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}。此属性受到角色@L{t=智力;m=srch:智力;cfc=255,128,64;hfc=255,169,128}影响。
+@S{4}生命上限：@L{t=生命;m=srch:生命;cfc=255,128,64;hfc=255,169,128}的最大值。角色生命力强弱的表现。
+@S{4}法力上限：@L{t=法力;m=srch:法力;cfc=255,128,64;hfc=255,169,128}的最大值。
+
+
+@S{2}@F{fc=c26}角色战斗属性@D
+
+@S{4}物理攻击力：角色普通攻击和物理攻击技能造成伤害的多少。受很多因素影响。
+@S{4}法术攻击力：角色使用法术技能所造成的伤害的多少。受很多因素影响。
+@S{4}攻击速度：表示角色攻击速度，主要取决于@L{t=装备属性;m=srch:装备属性;cfc=255,128,64;hfc=255,169,128}。
+
+@S{4}物理命中：决定角色普通攻击及物理攻击技能攻击命中目标的几率。
+@S{4}法术命中：决定角色法术技能命中目标的几率。
+@S{4}物理暴击率：决定角色物理攻击和物理技能攻击产生@L{t=暴击;m=srch:暴击;cfc=255,128,64;hfc=255,169,128}几率的高低，主要受角色敏捷影响。
+@S{4}法术暴击率：决定角色法术技能攻击产生暴击几率的高低，主要受角色智力影响。
+
+@S{4}招架率：招架率是指发生招架的几率。普通@L{t=物理攻击;m=srch:物理攻击;cfc=255,128,64;hfc=255,169,128}和物理技能攻击可以被招架，但是法术技能攻击不能被招架，招架触发后角色受到当前此次伤害降低50%。
+@S{4}闪避率：角色闪避对方攻击的几率。普通物理攻击和物理技能攻击可以被闪避，但是法术技能攻击不能被闪避，闪避触发后角色对当前此次伤害不受任何伤害。
+@S{4}物理防御：角色抵抗物理攻击伤害的属性，可以减少角色遭到物理攻击时所受伤害。
+@S{4}法术防御：角色抵抗@L{t=法术攻击;m=srch:法术攻击;cfc=255,128,64;hfc=255,169,128}伤害的属性，可以减少角色遭到法术攻击时所受伤害。
+
+@S{4}抵抗眩晕几率：角色对@L{t=眩晕;m=srch:眩晕;cfc=255,128,64;hfc=255,169,128}状态的抵抗几率。
+@S{4}抵抗定身几率：角色对@L{t=定身;m=srch:定身;cfc=255,128,64;hfc=255,169,128}状态的抵抗几率。
+@S{4}抵抗沉默几率：角色对@L{t=沉默;m=srch:沉默;cfc=255,128,64;hfc=255,169,128}状态的抵抗几率。
+@S{4}抵抗昏睡几率：角色对@L{t=昏睡;m=srch:昏睡;cfc=255,128,64;hfc=255,169,128}状态的抵抗几率。
+
+@S{4}元素属性：角色四种@L{t=元素;m=srch:元素;cfc=255,128,64;hfc=255,169,128}属性的攻击力和抵抗力。	</content>
+	</item>
+	<item>
+		<id>	2	</id>
+		<index>	3	</index>
+		<parentID>	1	</parentID>
+		<title>	游戏背景	</title>
+		<keys>
+			<item>	游戏故事	</item>
+			<item>	故事	</item>
+			<item>	游戏背景	</item>
+			<item>	背景	</item>
+		</keys>
+		<content>	@F{fc=(230, 227, 185, 255)}@S{4}太古时期，宇宙是个魔球，其中孕育两股力量，盘古和魔君。
+@B@S{4}在漫长的岁月之中的一日，盘古不满于现状，劈开魔球，化作万千星系，亿万星球。魔君想要回归原状，用黑洞将星球拉回，于是二人大战一场，盘古逐渐占上风，并将黑洞封印，魔君见大势已去，自爆于盘古共同灭亡。
+@B@S{4}创造完世界之后，精疲力竭的盘古倒下了。数千万年过去了，盘古和魔君的元神、精血、气息等化形而出，变为神魔。鸿钧一派占银河，自我修炼；罗睺一派占蛇夫星系，掠夺占领其他星系。
+@B@S{4}于是，我们的故事开始了……@D	</content>
+	</item>
+	<item>
+		<id>	3	</id>
+		<index>	4	</index>
+		<parentID>	1	</parentID>
+		<title>	职业介绍	</title>
+		<keys>
+			<item>	职业	</item>
+			<item>	职业介绍	</item>
+			<item>	战士	</item>
+			<item>	射手	</item>
+			<item>	剑客	</item>
+			<item>	法师	</item>
+			<item>	沉默	</item>
+			<item>	昏睡	</item>
+			<item>	生命	</item>
+			<item>	技能	</item>
+			<item>	闪避	</item>
+			<item>	心法	</item>
+			<item>	职业分支	</item>
+			<item>	敏捷	</item>
+			<item>	体质	</item>
+			<item>	防御	</item>
+			<item>	远攻	</item>
+			<item>	近攻	</item>
+		</keys>
+		<content>	@S{4}创世2分为四种职业，在PK和团队中发挥不同作用。
+
+@F{fc=c26}战士@D
+@S{4}战士拥有4种职业中最高的护甲，最高的@L{t=生命;m=srch:生命;cfc=255,128,64;hfc=255,169,128}值。攻击主要以物理攻击为主且伤害输出稳定，拥有很多控制@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}和拉近距离的技能。很多招式可以同时攻击多个目标。在单独练级的时候，同时攻击2-3个怪是比较有优势的。
+@S{4}高防御，高血量，多种控制技能决定了他在团队中TANK的位置。同时快速拉进与敌人的距离给敌人重重的一击也让很多射手望而生畏。
+
+@F{fc=c26}剑客@D
+@S{4}剑客是一个内外兼修的职业。平时挥舞双剑冲锋陷阵，关键时刻也能运用法术给予敌人致命一击。伤害输出有一定波动，往往爆发力惊人，常常给予敌人意想不到的打击。多年修行使他精神控制能力超强，可以打破昏睡，沉默和定身的控制。
+@S{4}剑客是一个比较平衡的多面手，可以弥补其他职业的不足，同时带来辅助效果。在PK中可能利用自己超强的爆发力秒杀各种血少职业。
+
+@F{fc=c26}射手@D
+@S{4}射手是超级远程攻击型职业。机敏、残酷是他的特点，埋伏在远处，冷不防的发起致命一击是射手的拿手好戏。他以物理攻击为主，配合法术技能。准确的射击可以直接命中敌人要害使其流血或者伤害敌人筋骨令其缓慢笨拙。
+@S{4}高命中、高伤害、高@L{t=闪避;m=srch:闪避;cfc=255,128,64;hfc=255,169,128}、伤害输出稳定、攻击效果多样，无论在历险还是在PK中都是个可怕的角色。但过分强调敏捷使得身体不够健硕，无法承受太多伤害。
+
+@F{fc=c26}法师@D
+@S{4}在任何地方你都会看到他的身影。法师永远是不可缺少的朋友。他们可以借助各种能源施放出可怕的力量。长时间的静修心神确实使他们拥有可怕的魔法力量，但同时也让他们体质欠佳。
+@S{4}多变的法术攻击、独特的@L{t=沉默;m=srch:沉默;cfc=255,128,64;hfc=255,169,128}、@L{t=睡眠;m=srch:睡眠;cfc=255,128,64;hfc=255,169,128}技能奠定了他在团队中的位置。强力法术伤害制造者，与敌人周旋的能手。但是对抗快速迅捷的物理攻击时却往往会落在下风。
+
+@S{4}@F{fc=c26}当玩家在游戏中掌握一定实力后，可以根据自己需要，通过修炼不同的技能@L{t=心法;m=srch:心法;cfc=255,128,64;hfc=255,169,128}。@D	</content>
+	</item>
+	<item>
+		<id>	9	</id>
+		<index>	5	</index>
+		<parentID>	1	</parentID>
+		<title>	地图介绍	</title>
+		<keys>
+			<item>	地图	</item>
+			<item>	凤鸣	</item>
+			<item>	凤鸣城	</item>
+			<item>	逐鹿原	</item>
+			<item>	云梦泽	</item>
+			<item>	地图介绍	</item>
+			<item>	昆仑	</item>
+			<item>	蓬莱	</item>
+		</keys>
+		<content>	@S{4}这个神秘的世界被山川与河流划分为多块领地。@L{t=凤鸣;m=srch:凤鸣;cfc=255,128,64;hfc=255,169,128}是我们冒险开始的地方，随着你等级的提升，你可以到达越来越多的神秘地域，面临越来越多的突发挑战。
+@S{4}点开旁边树状列表的“@F{fc=c39}+@D”号，展开列表，一一浏览你未来将会遇到的一切。	</content>
+	</item>
+	<item>
+		<id>	707	</id>
+		<index>	6	</index>
+		<parentID>	9	</parentID>
+		<title>	银沙村	</title>
+		<keys>
+			<item>	银沙村	</item>
+			<item>	新手村	</item>
+			<item>	新手	</item>
+			<item>	练级	</item>
+			<item>	出生地	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c7}银沙村@D（1-10）
+@S{4}安宁幽静的小村庄，也是创世2中盘古勇士的出生地，在村中勇士们能够学会各种生存技能，村子外面分布着不少“黑背金刚”“猪妖”等怪物，它们不会主动攻击人类，用来作为初生勇士的练手可是再好也不过了。
+	</content>
+	</item>
+	<item>
+		<id>	10	</id>
+		<index>	7	</index>
+		<parentID>	9	</parentID>
+		<title>	凤鸣	</title>
+		<keys>
+			<item>	羲和原	</item>
+			<item>	瑶光海角	</item>
+			<item>	人皇谷	</item>
+			<item>	青丘林	</item>
+			<item>	望海川	</item>
+			<item>	凤鸣城	</item>
+			<item>	凤鸣城	</item>
+			<item>	凤鸣	</item>
+			<item>	地图	</item>
+			<item>	地图查询	</item>
+			<item>	地图介绍	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c7}凤鸣城@D
+@S{4}凤鸣城是创世的都城，有各种功能NPC，没有怪物的侵袭。凤鸣的野外，有大量的野生动物，它们中的很多都可以捕捉作为玩家的随身宠物。
+
+@S{4}@F{fc=c45}羲和原：@D（11-12级）接近凤鸣城南门，那里分部着大量的@L{t=&apos;剑齿白虎($xz{20311001})&apos;;m=goto:20311001;cfc=c4;hfc=c3}，另外要小心旁边的@L{t=&apos;岩怪($xz{20611005})&apos;;m=goto:20611005;cfc=c4;hfc=c3}。
+
+@S{4}@F{fc=c45}瑶光海角：@D（13-14级）位于凤鸣以东，面海而望，来此地观赏风景的话是再好不过了。
+
+@S{4}@F{fc=c45}人皇谷：@D（15-16级）常年云雾缭绕的山谷，并不太适合生物生存。
+
+@S{4}@F{fc=c45}青丘林：@D（16-17级）凤鸣城外的平原，生存于此的@L{t=&apos;狡狐($xz{20341007})&apos;;m=goto:20341007;cfc=c4;hfc=c3}和@L{t=&apos;獒犬($xz{20341002})&apos;;m=goto:20341002;cfc=c4;hfc=c3}自混沌入侵之后变产生了变异，不但体型变大，甚至还会主动攻击人类。
+
+@S{4}@F{fc=c45}望海川：@D（17-19级）望海川里密布着的@L{t=&apos;珊瑚兽($xz{20331002})&apos;;m=goto:20331002;cfc=c4;hfc=c3}本来极度温顺可爱，但是自从混沌入侵之后就性情大变，跟同样盘踞在此的@L{t=&apos;红爪蝎($xz{20311002})&apos;;m=goto:20311002;cfc=c4;hfc=c3}一般凶残成性。	</content>
+	</item>
+	<item>
+		<id>	11	</id>
+		<index>	8	</index>
+		<parentID>	9	</parentID>
+		<title>	阪泉	</title>
+		<keys>
+			<item>	地图	</item>
+			<item>	地图介绍	</item>
+			<item>	逐鹿原	</item>
+			<item>	阪泉乡	</item>
+			<item>	迎客村	</item>
+			<item>	避世涧	</item>
+			<item>	黄花川	</item>
+			<item>	望乡石	</item>
+			<item>	浊水湖	</item>
+			<item>	黑风岔口	</item>
+			<item>	白虎遗迹	</item>
+			<item>	红藻湖	</item>
+			<item>	逐鹿平原	</item>
+			<item>	赤峰谷	</item>
+			<item>	幽魂坡	</item>
+			<item>	避暑林荫	</item>
+			<item>	练级	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c7}九河渡@D
+@S{4}九河氏的聚居之地，有各种功能NPC，没有怪物的侵袭。
+
+@S{4}@F{fc=c45}黄花川：@D（30—35级）由凤鸣进入逐鹿原后第一个达到的地区便是黄花川，@L{t=&apos;天狗($xz{20341004})&apos;;m=goto:20341004;cfc=c4;hfc=c3}、@L{t=&apos;掠风狼人($xz{20621002})&apos;;m=goto:20621002;cfc=c4;hfc=c3}、@L{t=&apos;火窟先锋($xz{20711003})&apos;;m=goto:20711003;cfc=c4;hfc=c3}、@L{t=&apos;火窟精兵($xz{20751004})&apos;;m=goto:20751004;cfc=c4;hfc=c3}和@L{t=&apos;铁脊护卫($xz{20631002})&apos;;m=goto:20631002;cfc=c4;hfc=c3}的重重围堵会让你感觉到逐鹿原与凤鸣的大不相同。
+
+@S{4}@F{fc=c45}望乡石：@D（35—39级）同处阪泉乡的周围，望乡石的情况也比黄花川好不到哪里去，@L{t=&apos;妖狐($xz{20741001})&apos;;m=goto:20741001;cfc=c4;hfc=c3}、@L{t=&apos;夷狼($xz{20321006})&apos;;m=goto:20321006;cfc=c4;hfc=c3}、@L{t=&apos;噩梦猪怪($xz{20611001})&apos;;m=goto:20611001;cfc=c4;hfc=c3}、@L{t=&apos;喷毒蝎($xz{20331005})&apos;;m=goto:20331005;cfc=c4;hfc=c3}和@L{t=&apos;机关守卫($xz{20221002})&apos;;m=goto:20221002;cfc=c4;hfc=c3}的组合对于想通过此处的人们来说，比黄花川更加危险。
+
+@S{4}@F{fc=c45}浊水湖：@D（39—42级）浊水湖出产的各类水产本来是阪泉乡人的食物之一，可是混沌入侵之后，食物迅速变异成为吞食者，许多阪泉乡居民被@L{t=&apos;食灵龟($xz{20351005})&apos;;m=goto:20351005;cfc=c4;hfc=c3}、@L{t=&apos;食灵蟹($xz{20351004})&apos;;m=goto:20351004;cfc=c4;hfc=c3}、@L{t=&apos;食人巨鳄($xz{20311007})&apos;;m=goto:20311007;cfc=c4;hfc=c3}吞噬，还有@L{t=&apos;黄泉耳语者($xz{20731002})&apos;;m=goto:20731002;cfc=c4;hfc=c3}和@L{t=&apos;铁傀($xz{20251003})&apos;;m=goto:20251003;cfc=c4;hfc=c3}的不断侵袭，使得此处已然断绝了人迹。
+
+	</content>
+	</item>
+	<item>
+		<id>	12	</id>
+		<index>	9	</index>
+		<parentID>	9	</parentID>
+		<title>	金沙村	</title>
+		<keys>
+			<item>	地图	</item>
+			<item>	地图介绍	</item>
+			<item>	新手村	</item>
+			<item>	新手	</item>
+			<item>	出生地	</item>
+			<item>	练级	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c7}金沙村@D（1-10）
+@S{4}安宁幽静的小村庄，也是创世2中混沌斗士的出生地，在村中斗士们能够学会各种生存技能，村子外面分布着不少“黑背金刚”“利爪鹰”等怪物，它们不会主动攻击人类，用来作为初生斗士的练手可是再好也不过了。
+	</content>
+	</item>
+	<item>
+		<id>	708	</id>
+		<index>	10	</index>
+		<parentID>	9	</parentID>
+		<title>	飞云坡	</title>
+		<keys>
+			<item>	飞云坡	</item>
+			<item>	留仙台	</item>
+			<item>	黑风岔口	</item>
+			<item>	绿毒蛙	</item>
+			<item>	裂齿熊	</item>
+			<item>	石魔像	</item>
+			<item>	白虎遗迹	</item>
+			<item>	铁脊剑魔	</item>
+			<item>	红藻湖	</item>
+			<item>	红钳蝎	</item>
+			<item>	盘甲狼人	</item>
+			<item>	逐鹿平原	</item>
+			<item>	火窟法魔	</item>
+			<item>	枯水哨兵	</item>
+			<item>	白头叶猴	</item>
+			<item>	黄泉嘶声者	</item>
+			<item>	练级	</item>
+			<item>	地图	</item>
+			<item>	地图介绍	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c7}留仙台@D
+@S{4}风鸟氏在逐鹿原的聚居点，有各种功能NPC，没有怪物的侵袭。 
+
+@S{4}@F{fc=c45}黑风岔口：@D（42—45级）通过黑风岔口便可到达迎客村，可是@L{t=&apos;绿毒蛙($xz{20331003})&apos;;m=goto:20331003;cfc=c4;hfc=c3}、@L{t=&apos;裂齿熊($xz{20311005})&apos;;m=goto:20311005;cfc=c4;hfc=c3}和@L{t=&apos;石魔像($xz{20651006})&apos;;m=goto:20651006;cfc=c4;hfc=c3}的盘踞让这个岔口可不是那么好通过的。
+
+@S{4}@F{fc=c45}白虎遗迹：@D（45—47级）相传此地有上古白虎国留存下来的遗迹，遗迹之中有着许多惊天的秘密，游历至此的勇士不妨前去一看，可是千万要小心@L{t=&apos;九尾狐($xz{20341005})&apos;;m=goto:20341005;cfc=c4;hfc=c3}和@L{t=&apos;铁脊剑魔($xz{20621003})&apos;;m=goto:20621003;cfc=c4;hfc=c3}。
+
+@S{4}@F{fc=c45}红藻湖：@D（47—49级）红藻湖本来风景清雅优美，可是听说最近有被污染的趋势，也不知道跟在那里的@L{t=&apos;红钳蝎($xz{20321008})&apos;;m=goto:20321008;cfc=c4;hfc=c3}和@L{t=&apos;盘甲狼人($xz{20611002})&apos;;m=goto:20611002;cfc=c4;hfc=c3}有没有关系。
+
+@S{4}@F{fc=c45}逐鹿平原：@D（49—52级）逐鹿平原是当年诸神之战的战场之一，无数战士在此留下了自己的生命，数百年来沧海桑田，如今此地盘踞着的只剩下@L{t=&apos;火窟法魔($xz{20741003})&apos;;m=goto:20741003;cfc=c4;hfc=c3}，@L{t=&apos;枯水哨兵($xz{20511002})&apos;;m=goto:20511002;cfc=c4;hfc=c3}、@L{t=&apos;白头叶猴($xz{20331004})&apos;;m=goto:20331004;cfc=c4;hfc=c3}、@L{t=&apos;黄泉嘶声者($xz{20751001})&apos;;m=goto:20751001;cfc=c4;hfc=c3}之类的怪物。	</content>
+	</item>
+	<item>
+		<id>	709	</id>
+		<index>	11	</index>
+		<parentID>	9	</parentID>
+		<title>	避世山谷	</title>
+		<keys>
+			<item>	避世涧	</item>
+			<item>	避世山谷	</item>
+			<item>	赤峰谷	</item>
+			<item>	狩人	</item>
+			<item>	雷兽	</item>
+			<item>	斧魔	</item>
+			<item>	火窟守卫	</item>
+			<item>	幽魂坡	</item>
+			<item>	黄泉引路人	</item>
+			<item>	黄泉猪怪	</item>
+			<item>	冠羽凶鹰	</item>
+			<item>	雪虎	</item>
+			<item>	避暑林荫	</item>
+			<item>	冰精灵	</item>
+			<item>	雪精灵	</item>
+			<item>	魅魔	</item>
+			<item>	枯水护卫	</item>
+			<item>	练级	</item>
+			<item>	地图	</item>
+			<item>	地图介绍	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c7}避世涧@D
+@S{4}狩人族的避世隐居地，有各种功能NPC，没有怪物的侵袭。
+
+@S{4}@F{fc=c45}赤峰谷：@D（52—54级）赤峰谷是狩人氏避世所居之处，@L{t=&apos;雷兽($xz{20311008})&apos;;m=goto:20311008;cfc=c4;hfc=c3}、@L{t=&apos;斧魔($xz{20751002})&apos;;m=goto:20751002;cfc=c4;hfc=c3}、@L{t=&apos;火窟守卫($xz{20741004})&apos;;m=goto:20741004;cfc=c4;hfc=c3}的盘踞让此地看起来像无人居住的荒山野岭。
+
+@S{4}@F{fc=c45}幽魂坡：@D（54—57级）@L{t=&apos;黄泉引路人($xz{20741002})&apos;;m=goto:20741002;cfc=c4;hfc=c3}、@L{t=&apos;黄泉猪怪($xz{20721001})&apos;;m=goto:20721001;cfc=c4;hfc=c3}、@L{t=&apos;雪虎($xz{20311006})&apos;;m=goto:20311006;cfc=c4;hfc=c3}和@L{t=&apos;冠羽凶鹰($xz{20341006})&apos;;m=goto:20341006;cfc=c4;hfc=c3}的盘踞让幽魂坡多了许多无辜幽魂，路过的勇士请千万小心。
+
+@S{4}@F{fc=c45}避暑林荫：@D（57—60级）此地本来是极好的避暑之处，不过现在最好别去那里寻找阴凉，因为@L{t=&apos;冰精灵($xz{20641001})&apos;;m=goto:20641001;cfc=c4;hfc=c3}和@L{t=&apos;雪精灵($xz{20631004})&apos;;m=goto:20631004;cfc=c4;hfc=c3}会让你变成冰雕，然后@L{t=&apos;魅魔($xz{20731001})&apos;;m=goto:20731001;cfc=c4;hfc=c3}和@L{t=&apos;枯水护卫($xz{20521001})&apos;;m=goto:20521001;cfc=c4;hfc=c3}会将变成冰雕的你击碎成冰块。	</content>
+	</item>
+	<item>
+		<id>	732	</id>
+		<index>	12	</index>
+		<parentID>	9	</parentID>
+		<title>	飞来石	</title>
+		<keys>
+			<item>	飞来石	</item>
+			<item>	三危坡	</item>
+			<item>	高阳台	</item>
+			<item>	补天之野	</item>
+			<item>	应龙湾	</item>
+			<item>	娲皇古道	</item>
+			<item>	狼兵先锋	</item>
+			<item>	凶狼	</item>
+			<item>	猪怪	</item>
+			<item>	木傀哨兵	</item>
+			<item>	木傀战士	</item>
+			<item>	石怪	</item>
+			<item>	奎木狼兵	</item>
+			<item>	山鬼	</item>
+			<item>	地图	</item>
+			<item>	地图介绍	</item>
+			<item>	练级	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c7}飞来石@D
+
+@S{4}@F{fc=c45}三危坡@D（19-20）：与飞来石隔河相望，此处长期驻扎着@L{t=&apos;狼兵先锋($xz{20651005})&apos;;m=goto:20651005;cfc=c4;hfc=c3}，对飞来石虎视眈眈，以期攻打飞来石进军凤鸣城。同时也是@L{t=&apos;凶狼($xz{20321004})&apos;;m=goto:20321004;cfc=c4;hfc=c3}、@L{t=&apos;野猪($xz{20311003})&apos;;m=goto:20311003;cfc=c4;hfc=c3}的聚居地，他们的存在时刻威胁着飞来石的安全，三危坡由此得名。
+
+@S{4}@F{fc=c45}补天之野@D（24-25）：补天之野是凤鸣较为危险的一处地方，@L{t=&apos;木傀哨兵($xz{20221001})&apos;;m=goto:20221001;cfc=c4;hfc=c3}、@L{t=&apos;木傀战士($xz{20251001})&apos;;m=goto:20251001;cfc=c4;hfc=c3}和@L{t=&apos;巫法木傀($xz{20241001})&apos;;m=goto:20241001;cfc=c4;hfc=c3}的出没让此地基本没有人迹。
+
+@S{4}@F{fc=c45}应龙湾@D（26-27）：应龙湾中落魂处@L{t=&apos;石怪($xz{20631001})&apos;;m=goto:20631001;cfc=c4;hfc=c3}便正是让人落魂的罪魁祸首。
+
+@S{4}@F{fc=c45}娲皇古道@D（28-29）：娲皇古道是通往阪泉的必经之地，可是@L{t=&apos;奎木狼兵($xz{20621001})&apos;;m=goto:20621001;cfc=c4;hfc=c3}和@L{t=&apos;山鬼($xz{20441002})&apos;;m=goto:20441002;cfc=c4;hfc=c3}占据几乎让凤鸣与板泉断绝了联系。	</content>
+	</item>
+	<item>
+		<id>	13	</id>
+		<index>	13	</index>
+		<parentID>	-1	</parentID>
+		<title>	新手问答	</title>
+		<keys>
+			<item>	新手	</item>
+			<item>	新人	</item>
+			<item>	新手指导	</item>
+			<item>	新手帮助	</item>
+			<item>	新人指导	</item>
+			<item>	新人帮助	</item>
+			<item>	移动	</item>
+			<item>	如何移动	</item>
+			<item>	视角	</item>
+			<item>	变视角	</item>
+			<item>	选择目标	</item>
+			<item>	与NPC对话	</item>
+			<item>	NPC	</item>
+			<item>	交互	</item>
+			<item>	任务	</item>
+			<item>	交任务	</item>
+			<item>	接任务	</item>
+			<item>	任务目标	</item>
+			<item>	买卖物品	</item>
+			<item>	装备	</item>
+			<item>	装备道具	</item>
+			<item>	拾取	</item>
+			<item>	如何拾取	</item>
+			<item>	战斗	</item>
+			<item>	如何战斗	</item>
+			<item>	怪物	</item>
+			<item>	技能	</item>
+			<item>	使用技能	</item>
+			<item>	如何使用技能	</item>
+			<item>	自动寻路	</item>
+			<item>	如何自动寻路	</item>
+			<item>	自动寻路功能	</item>
+			<item>	任务	</item>
+			<item>	自动	</item>
+			<item>	拾取	</item>
+			<item>	捡	</item>
+			<item>	买卖	</item>
+			<item>	耐久度	</item>
+		</keys>
+		<content>	@S{4}这里给第一次玩创世2的玩家介绍一些必要的、基本的帮助信息。
+
+@B@F{fc=c26}Q:我该如何操作我的人物进行移动？@D
+A：您可以使用鼠标和键盘两种方式来操作您的人物进行移动。
+@S{4}第一、鼠标点击地面会出现黄色目的地标记，角色将取捷径到达目的地。
+@S{4}第二、在@L{t=键位;m=srch:键位;cfc=255,128,64;hfc=255,169,128}默认的状态下，按“W”不放角色将向当前@L{t=视角;m=srch:视角;cfc=255,128,64;hfc=255,169,128}下的正前方移动；按“A” 不放角色在当前视角下向左平向移动；按“D” 不放角色在当前视角下向右平向移动；按“S” 不放角色将向当前视角下的正后方移动。当松开按键移动停止。
+
+@B@F{fc=c26}Q: 我怎么样才能变换视角？@D
+A：在@L{t=默认键位;m=srch:默认键位;cfc=255,128,64;hfc=255,169,128}状态下按鼠标右键不放向任意方向旋转，视角将按此方向发生变化。
+
+@B@F{fc=c26}Q：我该如何选定目标？@D
+A：在@L{t=默认键位;m=srch:默认键位;cfc=255,128,64;hfc=255,169,128}状态下，目标在角色可视范围内，鼠标左键单击目标，或者按键盘“Tab”键选取，就可以完成选择目标功能了。
+
+@B@F{fc=c26}Q：我如何与NPC对话？@D
+A：首先将想进行对话的NPC作为当前被@L{t=选择目标;m=srch:选择目标;cfc=255,128,64;hfc=255,169,128}。用鼠标右键单击目标对话开始。
+
+@B@F{fc=c26}Q:我如何才能接到或者提交任务？@D
+A：当NPC或物品上出现亮绿色“！”叹号标记表示有可以执行任务。@L{t=与NPC对话;m=srch:与NPC对话;cfc=255,128,64;hfc=255,169,128}并点击想要做的任务名称选项将弹出任务界面，点击“接受”此@L{t=任务;m=srch:任务;cfc=255,128,64;hfc=255,169,128}将出现在当前角色的任务列表中。此时NPC上标记变为暗绿色“？”，@L{t=地图;m=srch:地图;cfc=255,128,64;hfc=255,169,128}上出现灰色问号。
+
+@S{4}当任务已经完成，系统会给予提示，此时相应NPC会在地图上出现金色闪烁问号。回到NPC附近，与NPC对话并点击想要交的@L{t=任务;m=srch:任务;cfc=255,128,64;hfc=255,169,128}名称选项，点击“完成任务”，任务完成。
+
+@B@F{fc=c26}Q：如何买卖物品？@D
+A：首先选择有买卖功能的NPC，@L{t=与NPC对话;m=srch:与NPC对话;cfc=255,128,64;hfc=255,169,128}，选择对应的购买选项。在欲购买或卖出的物品图标上单击鼠标右键或左键拖动将进行买卖，如果当前被交易物品数量不为一，会弹出数量选择菜单，填写数量之后交易成功。
+
+@B@F{fc=c26}Q：我应该如何装备物品？@D
+A：打开物品@L{t=背包;m=srch:背包;cfc=255,128,64;hfc=255,169,128}，找到想要穿上的装备（@L{t=耐久度;m=srch:耐久度;cfc=255,128,64;hfc=255,169,128}不能为0），用右键点击或者使用左键拖动到相应装备位置，新@L{t=装备;m=srch:装备;cfc=255,128,64;hfc=255,169,128}将穿戴在角色身上，旧装备被替换。
+
+@B@F{fc=c26}Q：我怎样才能拾取物品？@D
+A：在@L{t=默认键位;m=srch:默认键位;cfc=255,128,64;hfc=255,169,128}情况下，鼠标放置在物品上，鼠标变成“手”状。鼠标放置在物品上，鼠标变成“手”状。鼠标左键点击物品打开拾取界面进行拾取。按“Z”键为自动全部拾取。
+
+@B@F{fc=c26}Q：如何与敌人进行战斗？@D
+A：@L{t=选择目标;m=srch:选择目标;cfc=255,128,64;hfc=255,169,128}，在@L{t=默认键位;m=srch:默认键位;cfc=255,128,64;hfc=255,169,128}前提下使用右键再次点击选择的目标，角色开始对目标发起攻击。如果在选定目标的前提下按@L{t=技能快捷栏;m=srch:技能快捷栏;cfc=255,128,64;hfc=255,169,128}中快捷按钮，角色将对目标施展相应技能。
+
+@B@F{fc=c26}Q：我应该怎么使用技能？@D
+A：打开人物@L{t=技能窗口;m=srch:技能窗口;cfc=255,128,64;hfc=255,169,128}，里边分别列出了当前人物所有学会的@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}。使用鼠标左键将技能图标拖入下边技能快捷栏就可以使用了。
+
+@B@F{fc=c26}Q:自动寻路应当如何使用？@D
+A：@L{t=打开大地图;m=srch:打开大地图;cfc=255,128,64;hfc=255,169,128}窗口，用鼠标左键单击地图上可以到达的一点，人物将@L{t=自动;m=srch:自动;cfc=255,128,64;hfc=255,169,128}选择捷径到达目的地。
+
+@B@F{fc=c26}注意，任何移动类指令都会中断自动寻路，包括@L{t=跳跃;m=srch:跳跃;cfc=255,128,64;hfc=255,169,128}，@L{t=移动;m=srch:移动;cfc=255,128,64;hfc=255,169,128}，重复点击大地图等。@D	</content>
+	</item>
+	<item>
+		<id>	41	</id>
+		<index>	14	</index>
+		<parentID>	-1	</parentID>
+		<title>	操作介绍	</title>
+		<keys>
+			<item>	操作介绍	</item>
+			<item>	操作	</item>
+			<item>	界面	</item>
+			<item>	基本	</item>
+			<item>	快捷键	</item>
+		</keys>
+		<content>	@S{4}本条目将为大家介绍创世2online中游戏界面中各窗口的使用说明。包括游戏的基本操作、快捷键组合、各种窗口等。
+
+@S{4}请点开左侧指引条目的“@F{fc=c39}+@D”号展开查看。	</content>
+	</item>
+	<item>
+		<id>	56	</id>
+		<index>	15	</index>
+		<parentID>	41	</parentID>
+		<title>	目标状态栏	</title>
+		<keys>
+			<item>	目标	</item>
+			<item>	目标状态	</item>
+			<item>	目标状态栏	</item>
+			<item>	游戏操作	</item>
+		</keys>
+		<content>	@B@S{10}@I{p=maps/help_icons/monsterHand.gui}
+
+@S{4}@L{t=选择目标;m=srch:选择目标;cfc=255,128,64;hfc=255,169,128}后，在屏幕正中间会出现目标状态栏。上边记录了目标头像，名字，等级和@L{t=生命;m=srch:生命;cfc=255,128,64;hfc=255,169,128}条。	</content>
+	</item>
+	<item>
+		<id>	58	</id>
+		<index>	16	</index>
+		<parentID>	41	</parentID>
+		<title>	聊天及系统信息窗口	</title>
+		<keys>
+			<item>	聊天	</item>
+			<item>	系统信息	</item>
+			<item>	聊天信息	</item>
+			<item>	聊天显示窗口	</item>
+			<item>	聊天及系统信息窗口	</item>
+			<item>	游戏操作	</item>
+		</keys>
+		<content>	@S{4}在屏幕左下方为聊天及系统信息窗口。
+
+@S{4}聊天及系统信息栏分为4部分。最下面的一排为功能区。在功能区中，最左边为频道选择按钮，点击可选择所需频道。中间为聊天信息输入框，可在此输入聊天信息，最右边边一个笑脸按钮为表情发送按钮，点此按钮可以打开表情窗口，选择表情将会出现在发送栏中。上面一大块则为信息显示区，各种信息都将在此显示。
+
+@I{p=maps/help_icons/liaotian3.gui}
+
+@S{14}@F{fc=c45}1：@D聊天分页
+@S{14}@F{fc=c45}2：@D分页设置
+@S{14}@F{fc=c45}3：@D发送广播
+@S{14}@F{fc=c45}4：@D聊天记录
+@S{14}@F{fc=c45}5：@D频道设置
+@S{14}@F{fc=c45}6：@D聊天记录翻页
+@S{14}@F{fc=c45}7：@D聊天记录翻至底部
+@S{14}@F{fc=c45}8：@D隐藏聊天窗口
+@S{14}@F{fc=c45}9：@D频道选择
+@S{14}@F{fc=c45}10：@D密语频道
+@S{14}@F{fc=c45}11：@D输入内容
+@S{14}@F{fc=c45}12：@D表情
+@S{14}@F{fc=c45}13：@D人物行为栏
+
+@S{4}好友之间还可以用单独的窗口聊天。	</content>
+	</item>
+	<item>
+		<id>	43	</id>
+		<index>	17	</index>
+		<parentID>	41	</parentID>
+		<title>	基本操作	</title>
+		<keys>
+			<item>	基本操作	</item>
+			<item>	移动	</item>
+			<item>	行走	</item>
+			<item>	人物行走	</item>
+			<item>	自动寻路功能	</item>
+			<item>	自动寻路	</item>
+			<item>	跳跃	</item>
+			<item>	跳	</item>
+			<item>	背包	</item>
+			<item>	打开背包	</item>
+			<item>	消耗品	</item>
+			<item>	使用物品	</item>
+			<item>	摧毁物品	</item>
+			<item>	快捷方式	</item>
+			<item>	游戏操作	</item>
+			<item>	丢弃物品	</item>
+			<item>	丢弃	</item>
+			<item>	视角	</item>
+			<item>	道具	</item>
+		</keys>
+		<content>	@F{fc=c26}一、人物行走@D
+@S{4}@L{t=如何移动;m=srch:如何移动;cfc=255,128,64;hfc=255,169,128}，创世为玩家提供了多种移动方式。
+@S{4}a)鼠标点击地面会出现黄色目的地标记，角色将取捷径到达目的地。
+@S{4}b)在@L{t=键位;m=srch:键位;cfc=255,128,64;hfc=255,169,128}默认的状态下，按“@F{fc=c45}W@D”不放角色将向当前@L{t=视角;m=srch:视角;cfc=255,128,64;hfc=255,169,128}下的正前方移动；按“@F{fc=c45}A@D” 不放角色在当前视角下向左平向移动；按“@F{fc=c45}D@D” 不放角色在当前视角下向右平向移动；按“@F{fc=c45}S@D” 不放角色将向当前视角下的正后方移动。当松开按键移动停止。在行走过程中可能会遇到一些障碍，人物就会停止行走。
+@S{4}c)大开大地图，可以使用@L{t=自动寻路;m=srch:自动寻路;cfc=255,128,64;hfc=255,169,128}功能进行行走。
+
+@F{fc=c26}二、跳跃介绍@D
+@S{4}在@L{t=默认键位;m=srch:默认键位;cfc=255,128,64;hfc=255,169,128}的前提下，按空格键就是跳跃。跳跃可以帮助角色翻越一下较矮的障碍，或跨过一些较窄的河流。
+
+@F{fc=c26}三、拾取物品@D
+@S{4}@L{t=如何拾取物品;m=srch:如何拾取物品;cfc=255,128,64;hfc=255,169,128}，创世为我们提供了两种拾取方式。
+@S{4}可以使用鼠标点击物品打开拾取界面进行@L{t=拾取;m=srch:拾取;cfc=255,128,64;hfc=255,169,128}；
+@S{4}在@L{t=默认键位;m=srch:默认键位;cfc=255,128,64;hfc=255,169,128}的前提下按自动拾取按键“@F{fc=c45}Z@D”将就近依次拾取一定范围内所有物品。
+@S{4}如果背包已满或没有权限拾取当前物品时系统会给予提示。
+
+@F{fc=c26}四、打开背包@D
+@S{4}游戏为玩家提供了完善的@L{t=背包仓库;m=srch:背包仓库;cfc=255,128,64;hfc=255,169,128}功能。在默认键位前提下按“B”或点击游戏界面右下@L{t=功能按钮栏;m=srch:功能按钮栏;cfc=255,128,64;hfc=255,169,128}的背包按钮，就可以打开@L{t=背包窗口;m=srch:背包窗口;cfc=255,128,64;hfc=255,169,128}了。
+
+@F{fc=c26}五、使用物品@D
+@S{4}如何装备@L{t=道具;m=srch:道具;cfc=255,128,64;hfc=255,169,128}道具、如何使用@L{t=消耗品;m=srch:消耗品;cfc=255,128,64;hfc=255,169,128}？
+@S{4}首先@L{t=打开背包;m=srch:打开背包;cfc=255,128,64;hfc=255,169,128}。在背包中找到希望使用的物品图标。点击鼠标右键或用左键拖动到@L{t=技能快捷栏;m=srch:技能快捷栏;cfc=255,128,64;hfc=255,169,128}中点击对应按钮就可以完成操作。
+
+@F{fc=c26}六、丢弃物品@D
+@S{4}有不想要的物品是我们可以扔掉它。
+@S{4}首先@L{t=打开背包;m=srch:打开背包;cfc=255,128,64;hfc=255,169,128}。在背包中找到想要丢弃的物品图标。按压鼠标左键不放，将物品拖出物品栏在空地上松开鼠标。这时系统会提示“确定要摧毁XX么？”点击“确认”，将摧毁此物品，点击“取消”放弃此次操作。	</content>
+	</item>
+	<item>
+		<id>	59	</id>
+		<index>	18	</index>
+		<parentID>	41	</parentID>
+		<title>	技能快捷栏使用	</title>
+		<keys>
+			<item>	技能快捷栏	</item>
+			<item>	技能快捷键	</item>
+			<item>	技能快捷栏使用	</item>
+			<item>	快捷栏	</item>
+			<item>	快捷键	</item>
+			<item>	快捷方式	</item>
+			<item>	默认按键	</item>
+			<item>	游戏操作	</item>
+			<item>	技能	</item>
+		</keys>
+		<content>	@S{4}技能快捷栏位于屏幕的下方。
+@S{4}前边十个空格对应键盘数字键1-0。将技能或物品放置在技能栏中，然后点击对应按钮就会触发此技能或物品。在技能快捷栏右边有@I{p=maps/help_icons/jiantouup2.gui}、@I{p=maps/help_icons/jiantoudown2.gui} 翻滚箭头，用来选择技能栏。一共可以配置3排技能栏，通过上下翻箭头按钮完成选择。
+
+@S{4}同时，屏幕最右侧有一排隐藏快捷栏，玩家也可以把常用的一些技能或物品拖至此处使用。
+
+@S{6}@I{p=maps/help_icons/QuickKey2.gui}	</content>
+	</item>
+	<item>
+		<id>	50	</id>
+		<index>	19	</index>
+		<parentID>	41	</parentID>
+		<title>	游戏设置	</title>
+		<keys>
+			<item>	游戏设置	</item>
+			<item>	快捷键	</item>
+			<item>	快捷方式	</item>
+			<item>	快捷栏	</item>
+		</keys>
+		<content>	@S{4}按“@F{fc=c45}Ese@D”键或右下方的“@F{fc=c45}系统@D”按钮，在弹出框中选择“游戏设置”，可对游戏中的信息、操作等进行设置。
+
+@F{fc=c26}显示设置@D
+
+@S{4}根据游戏需要，设置角色信息，过滤掉不需要的显示信息。
+@S{4}根据游戏喜好，设置界面显示，让身边资讯有效保留。
+
+@F{fc=c26}功能设置@D
+
+@S{4}根据游戏和战斗的实际需要，进行战斗相关设置；
+@S{4}根据电脑的配置情况，对视频和音效进行管理。
+
+@F{fc=c26}快捷键设置@D
+
+@S{4}根据习惯调整游戏的快捷键组合。包括行为快捷键、界面快捷栏、战斗快捷键的排序和切换。
+
+@S{4}注意：请避免快捷键重合。	</content>
+	</item>
+	<item>
+		<id>	54	</id>
+		<index>	20	</index>
+		<parentID>	41	</parentID>
+		<title>	默认键位	</title>
+		<keys>
+			<item>	默认键位	</item>
+			<item>	键位	</item>
+			<item>	默认按键	</item>
+			<item>	快捷方式	</item>
+			<item>	快捷键	</item>
+			<item>	快捷	</item>
+		</keys>
+		<content>	@S{4}游戏的功能按键在第一次登陆游戏时已经有了一个默认的设置。
+
+@S{4}如果你认为这些快捷键的组合不符合自己的习惯，还可以在“@F{fc=c45}系统@D—@F{fc=c45}游戏设置@D—@F{fc=c45}快捷键设置@D”中自行设置。
+
+@S{4}具体内容请点开左侧指引条目的“@F{fc=c39}+@D”号展开查看。	</content>
+	</item>
+	<item>
+		<id>	227	</id>
+		<index>	21	</index>
+		<parentID>	54	</parentID>
+		<title>	界面	</title>
+		<keys>
+			<item>	键位	</item>
+			<item>	默认键位	</item>
+			<item>	快捷键	</item>
+			<item>	界面快捷键	</item>
+			<item>	界面	</item>
+			<item>	称号	</item>
+			<item>	装备	</item>
+			<item>	大地图	</item>
+			<item>	经验	</item>
+			<item>	帮助	</item>
+			<item>	系统	</item>
+			<item>	技能	</item>
+			<item>	宠物	</item>
+			<item>	好友	</item>
+			<item>	背包	</item>
+			<item>	摆摊	</item>
+			<item>	快捷方式	</item>
+		</keys>
+		<content>	个人窗口：&quot;C&quot;；
+
+背包窗口：&quot;B&quot;；
+
+技能窗口：&quot;K&quot;；
+
+任务窗口：&quot;L&quot;；
+
+帮会窗口：&quot;J&quot;；
+
+好友窗口：&quot;F&quot;；
+
+系统窗口：&quot;ESC&quot;；
+
+帮助窗口：&quot;H&quot;；
+
+宠物属性窗口：&quot;P&quot;；
+
+大地图：&quot;M&quot;；
+
+显示玩家信息：&quot;CTRL+V&quot;；
+
+摆摊窗口：&quot;V&quot;；
+
+密语频道：“R”；
+
+组队：“T”；
+
+自动战斗设置窗口：“X”；
+
+显示/隐藏界面：&quot;CTRL+G&quot;。	</content>
+	</item>
+	<item>
+		<id>	225	</id>
+		<index>	22	</index>
+		<parentID>	54	</parentID>
+		<title>	移动	</title>
+		<keys>
+			<item>	快捷键	</item>
+			<item>	键位	</item>
+			<item>	默认键位	</item>
+			<item>	移动	</item>
+			<item>	移动快捷键	</item>
+			<item>	移动键位设置	</item>
+			<item>	移动操作	</item>
+		</keys>
+		<content>	前进：&quot;W&quot;
+
+后退：&quot;S&quot;
+
+左平移：&quot;A&quot;
+
+右平移：&quot;D&quot;
+
+自动行走：&quot;`&quot;（大键盘&quot;1&quot;左边）
+
+奔跑/行走切换：&quot;NumLock&quot;
+
+跳跃：&quot;SPACE&quot;（空格键）
+
+
+	</content>
+	</item>
+	<item>
+		<id>	226	</id>
+		<index>	23	</index>
+		<parentID>	54	</parentID>
+		<title>	视角	</title>
+		<keys>
+			<item>	键位	</item>
+			<item>	默认键位	</item>
+			<item>	快捷键	</item>
+			<item>	视角	</item>
+			<item>	视角快捷键	</item>
+			<item>	视角操作	</item>
+			<item>	视角按键设置	</item>
+			<item>	视角按键	</item>
+			<item>	鼠标右键	</item>
+		</keys>
+		<content>	视角旋转：点击鼠标右键，通过移动右键来对视角进行调整。	</content>
+	</item>
+	<item>
+		<id>	228	</id>
+		<index>	24	</index>
+		<parentID>	54	</parentID>
+		<title>	选择目标	</title>
+		<keys>
+			<item>	选择目标	</item>
+			<item>	选择目标操作	</item>
+			<item>	快捷键	</item>
+			<item>	键位	</item>
+			<item>	默认键位	</item>
+		</keys>
+		<content>	自动选择怪物（或可攻击的敌人）：&quot;Tab&quot;；
+
+选择目标、移动：鼠标左键。	</content>
+	</item>
+	<item>
+		<id>	229	</id>
+		<index>	25	</index>
+		<parentID>	54	</parentID>
+		<title>	拾捡道具	</title>
+		<keys>
+			<item>	道具	</item>
+			<item>	拾取快捷键	</item>
+			<item>	快捷键	</item>
+			<item>	键位	</item>
+			<item>	默认键位	</item>
+			<item>	拾取	</item>
+		</keys>
+		<content>	拾取物品：直接按“@F{fc=c45}Z@D”键及可自动@L{t=拾取;m=srch:拾取;cfc=255,128,64;hfc=255,169,128}玩家周围的物品。	</content>
+	</item>
+	<item>
+		<id>	230	</id>
+		<index>	26	</index>
+		<parentID>	54	</parentID>
+		<title>	宠物	</title>
+		<keys>
+			<item>	键位	</item>
+			<item>	默认键位	</item>
+			<item>	快捷键	</item>
+			<item>	宠物	</item>
+			<item>	宠物操作	</item>
+			<item>	宠物快捷键	</item>
+			<item>	宠物控制	</item>
+			<item>	控制宠物	</item>
+			<item>	快捷方式	</item>
+		</keys>
+		<content>	宠物攻击：&quot;F5&quot;；
+
+宠物跟随：&quot;F6&quot;；
+
+宠物停留：&quot;F7&quot;；
+
+宠物技能1：&quot;F1&quot;；
+
+宠物技能2：&quot;F2&quot;；
+
+宠物技能3：&quot;F3&quot;；
+
+宠物技能4：&quot;F4&quot;；
+
+注：以上快捷键在宠物出战状态下才可使用。	</content>
+	</item>
+	<item>
+		<id>	231	</id>
+		<index>	27	</index>
+		<parentID>	54	</parentID>
+		<title>	快捷栏	</title>
+		<keys>
+			<item>	默认键位	</item>
+			<item>	键位	</item>
+			<item>	快捷键	</item>
+			<item>	快捷栏	</item>
+			<item>	快捷栏操作	</item>
+			<item>	默认按键	</item>
+			<item>	快捷方式	</item>
+		</keys>
+		<content>	@S{4}快捷栏位于屏幕的下方。角色和宠物都有快捷栏，用于拖放指定的技能或物品。
+
+@S{4}同时，屏幕最右侧有一排隐藏快捷栏，玩家也可以把常用的一些技能或物品拖至此处使用。
+
+@S{4}更多内容可以查询@L{t=快捷栏;m=srch:快捷栏;cfc=255,128,64;hfc=255,169,128}。
+
+@S{6}@I{p=maps/help_icons/QuickKey2.gui}	</content>
+	</item>
+	<item>
+		<id>	232	</id>
+		<index>	28	</index>
+		<parentID>	54	</parentID>
+		<title>	战斗	</title>
+		<keys>
+			<item>	键位	</item>
+			<item>	默认键位	</item>
+			<item>	快捷键	</item>
+			<item>	自动战斗	</item>
+			<item>	战斗操作	</item>
+		</keys>
+		<content>	自动战斗：&quot;CTRL+Z&quot;；	</content>
+	</item>
+	<item>
+		<id>	55	</id>
+		<index>	29	</index>
+		<parentID>	41	</parentID>
+		<title>	人物状态栏	</title>
+		<keys>
+			<item>	人物状态	</item>
+			<item>	人物状态栏	</item>
+			<item>	游戏操作	</item>
+			<item>	生命	</item>
+			<item>	法力	</item>
+			<item>	名字	</item>
+			<item>	等级	</item>
+			<item>	组队	</item>
+		</keys>
+		<content>	@S{4}在游戏界面左上角为人物状态栏。
+
+@S{4}在状态栏最左边有一个头像，为当前角色头像。
+
+@S{4}环绕着头像有三个圆圈，头像左边的旗帜代表组队情况，玩家可以点击查看当前的队伍情况。
+
+@S{4}下方左边的旗帜图标是角色的@L{t=组队;m=srch:组队;cfc=255,128,64;hfc=255,169,128}按钮；圆圈显示角色的职业图标；下方右边的圆圈显示角色当前的PK状态。头像右边纵向分了3个项目。
+
+@S{4}最上边显示角色的@L{t=名字;m=srch:名字;cfc=255,128,64;hfc=255,169,128}和@L{t=等级;m=srch:等级;cfc=255,128,64;hfc=255,169,128}。
+
+@S{4}第二栏红色横条为角色@L{t=生命;m=srch:生命;cfc=255,128,64;hfc=255,169,128}。
+
+@S{4}第三栏蓝色横条为角色@L{t=法力;m=srch:法力;cfc=255,128,64;hfc=255,169,128}。
+	</content>
+	</item>
+	<item>
+		<id>	61	</id>
+		<index>	30	</index>
+		<parentID>	41	</parentID>
+		<title>	宠物控制栏	</title>
+		<keys>
+			<item>	宠物控制栏	</item>
+			<item>	快乐度	</item>
+			<item>	宠物技能	</item>
+			<item>	自动战斗	</item>
+			<item>	技能	</item>
+			<item>	游戏操作	</item>
+			<item>	自动	</item>
+		</keys>
+		<content>	@S{4}宠物控制栏在@L{t=快捷栏;m=srch:快捷栏;cfc=255,128,64;hfc=255,169,128}上方。提供了对@L{t=宠物战斗;m=srch:宠物战斗;cfc=255,128,64;hfc=255,169,128}的操作功能。该界面在宠物出战状态下显示。
+
+@S{4}前5个按钮为@L{t=宠物技能;m=srch:宠物技能;cfc=255,128,64;hfc=255,169,128}快捷按钮。可以将@L{t=宠物属性界面;m=srch:宠物属性界面;cfc=255,128,64;hfc=255,169,128}中的宠物技能拖放进来。点击放有技能的按钮宠物就会施放对应的技能。在默认键位时使用键盘上的@F{fc=c45}F1-F4@D也可以施放对应的技能。
+
+@S{4}技能按钮后的两个空格用于拖放宠物药品图标。如果放置的是可以自动使用的增值药品并且在@L{t=自动战斗;m=srch:自动战斗;cfc=255,128,64;hfc=255,169,128}中设置了相关功能，那么宠物在战斗中可以自动使用。
+
+@S{4}放置宠物药品后面的按钮用于切换宠物攻击模式。
+@S{4}“主动”状态开启表示宠物自动攻击周围一定范围内敌意目标。
+@S{4}“被动”状态开启表示宠物没有任何自主权，完全听从角色指挥。@S{4}“防御”状态开启表示有敌意目标对角色构成威胁时就会对其发动进攻。
+
+@S{4}最后4个按钮分别“@L{t=攻击;m=srch:攻击;cfc=255,128,64;hfc=255,169,128}”、“跟随”、“停留”、“驯养”。选择目标（可以按Tab键）后——
+@S{4}点“驯养”（@F{fc=c45}F5@D）可以查看当前出战宠物的快乐度并使用驯养道具对出战宠物进行驯养提升其@L{t=快乐度;m=srch:快乐度;cfc=255,128,64;hfc=255,169,128}。
+@S{4}点“攻击”@L{t=宠物;m=srch:宠物;cfc=255,128,64;hfc=255,169,128}（@F{fc=c45}F6@D）开始攻击此目标。
+@S{4}点“停留”（@F{fc=c45}F7@D）按钮的功能是让宠物停留在当前的位置不跟随角色进行移动。
+@S{4}点“跟随”（@F{fc=c45}F8@D）可以保证宠物跟随角色进行移动。
+	</content>
+	</item>
+	<item>
+		<id>	57	</id>
+		<index>	31	</index>
+		<parentID>	41	</parentID>
+		<title>	小地图窗口	</title>
+		<keys>
+			<item>	小地图	</item>
+			<item>	小地图窗口	</item>
+			<item>	打开大地图	</item>
+			<item>	道具商城	</item>
+			<item>	等级	</item>
+			<item>	自动寻路	</item>
+			<item>	地图	</item>
+			<item>	坐标	</item>
+			<item>	游戏操作	</item>
+		</keys>
+		<content>	@S{4}在游戏界面右上角为小地图窗口。@F{fc=c5}蓝色圆点@D为当前人物位置，蓝色渐淡扇型为人物当前视角方向。@F{fc=c41}绿色圆点@D为NPC，当鼠标悬停在小绿点上时会显示出次NPC名字及功能。@F{fc=c6}黄色圆点@D为队友。
+
+@S{8}@I{p=maps/help_icons/littleMap.gui}
+
+@S{4}这块区域包含两部分功能：
+
+@F{fc=c26}地图指示@D
+@S{4}显示玩家当前所在的区域@L{t=地图;m=srch:地图;cfc=255,128,64;hfc=255,169,128}、坐标、几线等基本信息。
+@S{4}按下“M”键或点击放大镜形状的按钮可以@L{t=打开大地图;m=srch:打开大地图;cfc=255,128,64;hfc=255,169,128}。
+
+@F{fc=c26}功能按钮@D
+@S{4}小地图界面外围一圈的功能按钮包括@L{t=道具商城;m=srch:道具商城;cfc=255,128,64;hfc=255,169,128}、寄售查询、系统帮助、活动日程、队伍伤害统计、以及最常用的@L{t=自动寻路;m=srch:自动寻路;cfc=255,128,64;hfc=255,169,128}等。	</content>
+	</item>
+	<item>
+		<id>	60	</id>
+		<index>	32	</index>
+		<parentID>	41	</parentID>
+		<title>	功能按钮栏使用	</title>
+		<keys>
+			<item>	功能按钮	</item>
+			<item>	功能按钮栏	</item>
+			<item>	角色	</item>
+			<item>	窗口	</item>
+			<item>	关系	</item>
+			<item>	包裹	</item>
+		</keys>
+		<content>	@S{4}功能按钮栏中一共有9个按钮，从上到下依次是打开@L{t=组队系统;m=srch:组队系统;cfc=255,128,64;hfc=255,169,128}、打开@L{t=角色窗口;m=srch:角色窗口;cfc=255,128,64;hfc=255,169,128}、打开@L{t=包裹窗口;m=srch:包裹窗口;cfc=255,128,64;hfc=255,169,128}、打开@L{t=技能窗口;m=srch:技能窗口;cfc=255,128,64;hfc=255,169,128}、打开@L{t=宠物窗口;m=srch:宠物窗口;cfc=255,128,64;hfc=255,169,128}、打开@L{t=任务窗口;m=srch:任务窗口;cfc=255,128,64;hfc=255,169,128}、打开@L{t=关系窗口;m=srch:关系窗口;cfc=255,128,64;hfc=255,169,128}、打开@L{t=帮会窗口;m=srch:帮会窗口;cfc=255,128,64;hfc=255,169,128}、打开@L{t=系统窗口;m=srch:系统窗口;cfc=255,128,64;hfc=255,169,128}。
+	</content>
+	</item>
+	<item>
+		<id>	223	</id>
+		<index>	33	</index>
+		<parentID>	41	</parentID>
+		<title>	自动战斗快捷栏	</title>
+		<keys>
+			<item>	自动战斗快捷栏	</item>
+			<item>	自动战斗	</item>
+			<item>	自动战斗设置	</item>
+			<item>	设置自动战斗	</item>
+			<item>	生命	</item>
+			<item>	法力	</item>
+			<item>	技能	</item>
+			<item>	快捷栏	</item>
+			<item>	快捷	</item>
+			<item>	生命恢复	</item>
+			<item>	法力恢复	</item>
+			<item>	自动	</item>
+		</keys>
+		<content>	@S{4}在技能快捷栏上方是自动战斗快捷栏。
+
+@S{4}前5个格子中放置@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}，这些技能就是在自动战斗中可以被主动施放的。
+
+@S{4}第6个格子中需要放置@L{t=生命恢复;m=srch:生命恢复;cfc=255,128,64;hfc=255,169,128}的药剂。在角色生命低于设定的额度时，会自动使用放置在这个格子里的药剂。
+
+@S{4}第7个格子中需要放置@L{t=法力恢复;m=srch:法力恢复;cfc=255,128,64;hfc=255,169,128}的药剂。当角色法力低于设定的额度时，会自动使用放置在这个格子里的药剂。但是只能放置的药品需是@L{t=增值道具;m=srch:增值道具;cfc=255,128,64;hfc=255,169,128}，否则不能使用。
+
+@S{4}与角色一样，在宠物出战状态下，右下方会显示宠物战斗控制栏，用于摆放宠物技能和放置恢复宠物生命的@L{t=药剂;m=srch:药剂;cfc=255,128,64;hfc=255,169,128}。宠物战斗控制栏前5个格子用于摆放宠物技能，第6和第7个格子分别放置恢复生命和法力的药剂。
+
+@S{4}跟在角色自动战斗栏药品后面有两个按钮，分别为自动@L{t=战斗;m=srch:战斗;cfc=255,128,64;hfc=255,169,128}设置，及自动战斗的开启/关闭。
+
+@S{4}在@L{t=快捷栏;m=srch:快捷栏;cfc=255,128,64;hfc=255,169,128}最右侧有一个下三角箭头按钮，如果点击这个按钮，自动战斗快捷栏将被隐藏。如果想再开启这个快捷栏，再次点击一下就能再次开启自动战斗快捷栏了。
+	</content>
+	</item>
+	<item>
+		<id>	62	</id>
+		<index>	34	</index>
+		<parentID>	-1	</parentID>
+		<title>	界面说明	</title>
+		<keys>
+			<item>	界面说明	</item>
+			<item>	窗口说明	</item>
+		</keys>
+		<content>	@S{4}说明一些弹出窗口的功能。	</content>
+	</item>
+	<item>
+		<id>	746	</id>
+		<index>	35	</index>
+		<parentID>	62	</parentID>
+		<title>	角色窗口	</title>
+		<keys>
+			<item>	个人窗口	</item>
+			<item>	基础属性	</item>
+			<item>	声望	</item>
+			<item>	称号	</item>
+			<item>	装备	</item>
+			<item>	界面	</item>
+			<item>	快捷键	</item>
+		</keys>
+		<content>	@S{4}角色的各种信息。按快捷键“C”打开。
+@S{4}包括角色的基础属性界面、声望界面、称号界面等。
+
+@S{4}请点开左侧指引条目的“@F{fc=c39}+@D”号展开查看。	</content>
+	</item>
+	<item>
+		<id>	747	</id>
+		<index>	36	</index>
+		<parentID>	746	</parentID>
+		<title>	装备界面	</title>
+		<keys>
+			<item>	装备界面	</item>
+			<item>	装备窗口	</item>
+			<item>	属性窗口	</item>
+			<item>	属性界面	</item>
+			<item>	属性	</item>
+		</keys>
+		<content>	@S{4}按下E键，或在@L{t=功能按钮栏;m=srch:功能按钮栏;cfc=255,128,64;hfc=255,169,128}中打开角色窗口，就会进入人物装备界面了。个人装备界面中包括角色所穿的装备和一些@L{t=基本属性;m=srch:基本属性;cfc=255,128,64;hfc=255,169,128}。
+
+@S{2}@I{p=maps/help_icons/zhuangbeijiemian3.gui}
+@S{4}装备栏下为基本@L{t=属性;m=srch:属性栏;cfc=255,128,64;hfc=255,169,128}列表。分为基本信息、个人信息、物理属性、法术属性4项。
+
+@S{2}@I{p=maps/help_icons/jueseInformation2.gui}
+@S{4}分页按钮：点击下边的“装备”、“称号”、“声望”等分页按钮，可以切换界面。查看各种属性。	</content>
+	</item>
+	<item>
+		<id>	748	</id>
+		<index>	37	</index>
+		<parentID>	746	</parentID>
+		<title>	声望界面	</title>
+		<keys>
+			<item>	声望	</item>
+			<item>	声望界面	</item>
+			<item>	声望窗口	</item>
+			<item>	任务	</item>
+			<item>	称号	</item>
+		</keys>
+		<content>	@S{4}通过点击装备窗口中的分页符“@L{t=声望;m=srch:声望;cfc=255,128,64;hfc=255,169,128}”就可以进入声望界面，查看角色当前的声望信息。
+
+@S{4}@I{p=maps/help_icons/shengwanglan2.gui}
+
+@S{4}声望主要由完成@L{t=任务;m=srch:任务;cfc=255,128,64;hfc=255,169,128}获得。任何一个势力的声望都拥有它自己专属的@L{t=称号;m=srch:称号;cfc=255,128,64;hfc=255,169,128}。	</content>
+	</item>
+	<item>
+		<id>	750	</id>
+		<index>	38	</index>
+		<parentID>	746	</parentID>
+		<title>	称号界面	</title>
+		<keys>
+			<item>	称号	</item>
+			<item>	称号界面	</item>
+			<item>	称号窗口	</item>
+			<item>	称号更换	</item>
+			<item>	属性	</item>
+			<item>	声望	</item>
+			<item>	活动	</item>
+			<item>	功勋	</item>
+		</keys>
+		<content>	@S{4}玩家在游戏中通过完成指定@L{t=任务;m=srch:任务;cfc=255,128,64;hfc=255,169,128}、参加各种活动、通过指定挑战、达到某势力的一定@L{t=声望;m=srch:声望;cfc=255,128,64;hfc=255,169,128}、具有某种成就（例如功勋值）等等途径，可以获得不同的@L{t=称号;m=srch:称号;cfc=255,128,64;hfc=255,169,128}。
+
+@S{4}称号显示在玩家名字前面。不同的称号有不同的含义，有些称号还具有一定的特殊效果，可以提高玩家@L{t=属性;m=srch:属性;cfc=255,128,64;hfc=255,169,128}，增强玩家实力。
+
+@S{4}玩家可以在称号面板中根据自己需要选择哪个称号显示在自己名字前。	</content>
+	</item>
+	<item>
+		<id>	67	</id>
+		<index>	39	</index>
+		<parentID>	62	</parentID>
+		<title>	背包窗口	</title>
+		<keys>
+			<item>	背包	</item>
+			<item>	背包窗口	</item>
+			<item>	背包界面	</item>
+			<item>	包囊位置	</item>
+			<item>	神机匣	</item>
+			<item>	扩展背包	</item>
+			<item>	包裹	</item>
+			<item>	扩展包裹	</item>
+			<item>	拆分	</item>
+			<item>	摆摊	</item>
+		</keys>
+		<content>	@S{4}按下@L{t=快捷键;m=srch:快捷键;cfc=255,128,64;hfc=255,169,128}“B”或单击系统按钮“包裹”都可打开人物临时存放物品的背包。
+
+
+@I{p=maps/help_icons/bag2.gui}
+
+@S{14}@F{fc=c45}1：@D背包默认物品栏
+@S{14}@F{fc=c45}2：@D元宝
+@S{14}@F{fc=c45}3：@D游戏币
+@S{14}@F{fc=c45}4：@D扩展背包
+@S{14}@F{fc=c45}5：@D按照物品种类整理背包
+@S{14}@F{fc=c45}6：@D物品拆分
+@S{14}@F{fc=c45}7：@D密码锁
+@S{14}@F{fc=c45}8：@D摆摊
+@S{14}@F{fc=c45}9：@D神机匣
+
+@S{4}扩展包裹由玩家拖放至扩展位置，装备后右键使用，有多种不同规格的容积，满足不同需求的玩家使用。
+
+@S{4}@L{t=神机匣;m=srch:神机匣;cfc=255,128,64;hfc=255,169,128}用于@L{t=强化;m=srch:强化;cfc=255,128,64;hfc=255,169,128}装备等。同样是装备后右键使用。平时也可以作为扩展包裹临时存放物品。
+	</content>
+	</item>
+	<item>
+		<id>	68	</id>
+		<index>	40	</index>
+		<parentID>	62	</parentID>
+		<title>	技能及技能学习窗口	</title>
+		<keys>
+			<item>	技能	</item>
+			<item>	学习技能	</item>
+			<item>	技能窗口	</item>
+			<item>	帮会技能	</item>
+			<item>	生活技能	</item>
+			<item>	职业	</item>
+			<item>	采集	</item>
+		</keys>
+		<content>	@S{4}打开技能窗口。在技能窗口中分四个栏目。
+@S{4}前两个是@L{t=职业技能;m=srch:职业技能;cfc=255,128,64;hfc=255,169,128}，其中第一个显示该角色拥有的主动职业技能，第二个显示被动技能。第三个为行为技能，第四个是采集技能。
+
+@S{4}在技能导师处可以学习到技能。
+
+@S{4}@I{p=maps/help_icons/skillStudy2.gui}
+@S{8}@F{fc=c45}1：@D可学习技能
+@S{8}@F{fc=c45}2：@D未达到条件学习的技能
+@S{8}@F{fc=c45}3：@D技能描述和学习需求
+@S{8}@F{fc=c45}4：@D角色当前拥有潜能
+
+@S{4}任何技能项目中都显示了技能图标，技能等级，技能名字。将鼠标悬停在技能图标上时，会列出这技能的所有相关信息。
+
+@S{4}玩家所在的帮会还可以研发自己的@L{t=帮会;m=srch:帮会;cfc=255,128,64;hfc=255,169,128}技能。
+
+@S{4}想获得更好装备的玩家，也应该掌握必要的@L{t=采集;m=srch:采集;cfc=255,128,64;hfc=255,169,128}技能。	</content>
+	</item>
+	<item>
+		<id>	69	</id>
+		<index>	41	</index>
+		<parentID>	62	</parentID>
+		<title>	任务窗口	</title>
+		<keys>
+			<item>	任务	</item>
+			<item>	任务窗口	</item>
+			<item>	任务追踪	</item>
+		</keys>
+		<content>	@S{4}按快捷键“L”可以打开@L{t=任务;m=srch:任务;cfc=255,128,64;hfc=255,169,128}窗口。
+
+@S{4}任务窗口有三个分页。分别显示“已接任务”、“可接任务”、以及“查询”。
+
+@S{2}@I{p=maps/help_icons/questinterface.gui}
+
+@F{fc=c26}已接任务@D
+@S{4}已接任务显示当前角色接到的所有任务。
+@S{4}已接任务界面的左侧显示当前的任务列表。并按照角色所接到的所有任务按任务种类进行分类，同类任务按任务等级由低至高排列，任务名称前显示任务等级，已完成的任务在任务名称后有“（完成）”的标记。
+@S{4}右边部分为任务的详细内容。包括任务内容、任务条件、以及任务奖励。
+
+
+@S{4}在最下边有“任务追踪”“放弃任务”两个按钮以及显示追踪的选定框。
+@S{4}按Shift左键单击任务名，可以进行@L{t=任务追踪;m=srch:任务追踪;cfc=255,128,64;hfc=255,169,128}。在屏幕上显示有关任务的信息。
+
+@S{4}选定任务后点击“放弃任务”按钮可以放弃当前被选中的任务。
+	</content>
+	</item>
+	<item>
+		<id>	70	</id>
+		<index>	42	</index>
+		<parentID>	62	</parentID>
+		<title>	帮会窗口	</title>
+		<keys>
+			<item>	帮会界面	</item>
+			<item>	帮会窗口	</item>
+			<item>	公会窗口	</item>
+			<item>	公会	</item>
+			<item>	公会界面	</item>
+			<item>	帮会信息	</item>
+			<item>	帮会	</item>
+		</keys>
+		<content>	@S{4}按快捷键“@F{fc=c45}J@D”或点击“@F{fc=c45}帮会@D”系统功能按钮打开帮会窗口。
+
+@S{4}在帮会窗口的最上面显示着当前角色加入的帮会名称。
+
+@S{4}正中间为帮会成员列表，表头分为名字、等级、职业及一个包括家族、地区、职务、备注的下拉菜单。用以显示帮会成员的种种信息。
+
+@S{4}在帮会成员列表下面有添加成员、删除成员、组队邀请、发送消息，帮会控制五个按钮，用以进行帮会的各种操作。
+	</content>
+	</item>
+	<item>
+		<id>	753	</id>
+		<index>	43	</index>
+		<parentID>	62	</parentID>
+		<title>	关系窗口	</title>
+		<keys>
+			<item>	关系	</item>
+			<item>	好友	</item>
+			<item>	结拜	</item>
+			<item>	黑名单	</item>
+			<item>	仇人	</item>
+			<item>	师徒	</item>
+		</keys>
+		<content>	@S{4}按“F”键或点击系统按钮“关系”可以打开关系界面。
+@S{4}在关系界面中，玩家可以依照规则查看、添加、删除自己在游戏中的社会关系，包括好友、师徒、不友好、黑名单、结拜。
+
+@S{4}@I{p=maps/help_icons/friendsInterface.gui}	</content>
+	</item>
+	<item>
+		<id>	73	</id>
+		<index>	44	</index>
+		<parentID>	62	</parentID>
+		<title>	系统窗口	</title>
+		<keys>
+			<item>	系统窗口	</item>
+			<item>	系统界面	</item>
+			<item>	游戏设置	</item>
+			<item>	设置	</item>
+			<item>	游戏操作	</item>
+		</keys>
+		<content>	@S{4}按快捷键“@F{fc=c45}Esc@D”或者点击“@F{fc=c45}系统@D”按钮可以打开系统窗口。这里用于设置游戏的各种参数。
+
+@S{4}第一项为“游戏设置”按钮。点击此按钮后可以进行@L{t=游戏操作;m=srch:游戏操作;cfc=255,128,64;hfc=255,169,128}（各种自定义快捷键）、战斗行为和@L{t=视频;m=srch:视频;cfc=255,128,64;hfc=255,169,128}、@L{t=音频;m=srch:音频;cfc=255,128,64;hfc=255,169,128}等方面的设置。
+
+@S{4}第二项为“返回选择”按钮。点击此按钮后将返回“人物选择”界面。
+
+@S{4}第三项为“退出游戏”按钮。点击此按钮后将退出游戏。
+
+@S{4}第四项为“返回游戏”按钮。点击此按钮后将关闭@L{t=系统窗口;m=srch:系统窗口;cfc=255,128,64;hfc=255,169,128}返回游戏界面。	</content>
+	</item>
+	<item>
+		<id>	74	</id>
+		<index>	45	</index>
+		<parentID>	62	</parentID>
+		<title>	帮助窗口	</title>
+		<keys>
+			<item>	帮助	</item>
+			<item>	帮助窗口	</item>
+			<item>	系统帮助	</item>
+		</keys>
+		<content>	@S{4}按下快捷键“@F{fc=c45}H@D”或者点击小地图外围的“@F{fc=c45}？@D”按钮，可以打开帮助窗口。
+
+@S{4}帮助窗口分6部分，左边一部分为提示和指引，右边一部分为详细提示。帮助索引为树型结构，点击前边的“@F{fc=c45}+@D”可以打开下一级目录选择更详细帮助主题。选择帮助主题之后右边会显示被选中帮助的内容。
+
+@S{4}点击“指引查询”分页按钮，在文本框中输入想要查询的帮助关键字，点击搜索按钮，将会列出全部有关的帮助主题。选择需要的主题，右边会显示帮助内容。	</content>
+	</item>
+	<item>
+		<id>	75	</id>
+		<index>	46	</index>
+		<parentID>	62	</parentID>
+		<title>	地图窗口	</title>
+		<keys>
+			<item>	地图	</item>
+			<item>	地图窗口	</item>
+			<item>	大地图	</item>
+			<item>	大地图窗口	</item>
+			<item>	自动寻路	</item>
+			<item>	坐标	</item>
+			<item>	NPC	</item>
+		</keys>
+		<content>	@S{4}打开@L{t=大地图;m=srch:大地图;cfc=255,128,64;hfc=255,169,128}窗口。在@L{t=大地图;m=srch:大地图;cfc=255,128,64;hfc=255,169,128}上所有标记和@L{t=小地图;m=srch:小地图;cfc=255,128,64;hfc=255,169,128}一样，@F{fc=c7}蓝色圆点@D为当前人物位置，蓝色渐淡扇型为人物当前视角方向。@F{fc=c41}绿色圆点@D为NPC，当鼠标悬停在小绿点上时会显示出次NPC名字及功能。@F{fc=c6}黄色圆点@D为队友。
+
+@I{p=maps/help_icons/BigMap.gui}
+
+@S{4}大地图窗口中最上边用红色填充的条为角色@L{t=生命;m=srch:生命;cfc=255,128,64;hfc=255,169,128}条。防止玩家在看地图时由于进入攻击状态而造成的不必要伤亡。
+
+@S{4}“NPC查询”按钮可以在大地图上弹出NPC查询界面。可以用鼠标进行选择，输入NPC名字用文字查询，点击下边的“搜索”按钮也可以帮助玩家在列表中选中NPC。如果搜索的NPC不在当前显示的地图，系统会给予提示。当选中列表中某NPC之后，点击下边的“显示”按钮。地图会以此NPC为中心居中显示。
+
+@S{4}“世界地图”按钮放在“NPC查询”按钮旁边。点击此按钮将会打开世界地图。
+@S{4}在右上方有一个地区选择下拉列表。点击向下箭头，可以在弹出的下拉列表中选择需要查看的地图。
+
+@S{4}鼠标左键单击大地图上可以移动到的位置时，将开启@L{t=自动寻路;m=srch:自动寻路;cfc=255,128,64;hfc=255,169,128}功能，角色将自动到达指定位置。
+@S{4}在大地图右边有“+（放大）”按钮和“-（缩小）”按钮。点击这两个按钮可以调整地图的比例尺。
+
+@S{4}在大地图窗口最下边指示了当前角色所在地图的位置和坐标，以及鼠标所在的位置坐标。	</content>
+	</item>
+	<item>
+		<id>	700	</id>
+		<index>	47	</index>
+		<parentID>	62	</parentID>
+		<title>	宠物窗口	</title>
+		<keys>
+			<item>	宠物窗口	</item>
+			<item>	宠物信息	</item>
+			<item>	宠物界面	</item>
+			<item>	宠物	</item>
+			<item>	属性	</item>
+			<item>	宝宝	</item>
+		</keys>
+		<content>	@S{4}宠物窗口的界面里包含着宠物信息和对宠物进行的各种动作操作按钮。更多简要介绍请查看@L{t=宠物;m=srch:宠物;cfc=255,128,64;hfc=255,169,128}分页。
+
+@S{2}@I{p=maps/help_icons/petInterface2.gui}
+@S{14}@F{fc=c45}1：@D技能栏
+@S{14}@F{fc=c45}2：@D各项属性
+@S{14}@F{fc=c45}3：@D各种操作按钮
+
+	</content>
+	</item>
+	<item>
+		<id>	701	</id>
+		<index>	48	</index>
+		<parentID>	62	</parentID>
+		<title>	骑宠窗口	</title>
+		<keys>
+			<item>	骑宠	</item>
+			<item>	骑宠窗口	</item>
+			<item>	坐骑	</item>
+		</keys>
+		<content>	@S{4}骑宠窗口的界面里包含着宠物信息和对宠物进行的各种动作操作按钮。我们可以把骑宠界面分作两部分来看。
+
+@S{4}上半部分主要显示骑宠的各类属性。
+@S{6}@I{p=maps/help_icons/qichonglan1.gui}
+
+@S{4}下半部分主要显示拥有的骑宠列表。
+@S{6}@I{p=maps/help_icons/qichonglan2.gui}	</content>
+	</item>
+	<item>
+		<id>	79	</id>
+		<index>	49	</index>
+		<parentID>	-1	</parentID>
+		<title>	道具说明	</title>
+		<keys>
+			<item>	道具说明	</item>
+			<item>	装备属性	</item>
+			<item>	装备	</item>
+			<item>	道具	</item>
+		</keys>
+		<content>	@S{4}对武器、防具、消耗品的各种属性的简要说明。	</content>
+	</item>
+	<item>
+		<id>	89	</id>
+		<index>	50	</index>
+		<parentID>	79	</parentID>
+		<title>	道具分类	</title>
+		<keys>
+			<item>	道具	</item>
+			<item>	道具分类	</item>
+			<item>	武器	</item>
+			<item>	饰品	</item>
+			<item>	装备	</item>
+			<item>	药品	</item>
+			<item>	材料	</item>
+		</keys>
+		<content>	@S{4}在游戏中，道具有很多种，例如：
+
+@S{4}@F{fc=c26}装备@D：用以装备来提高自身属性的道具。人物和骑宠都有装备。
+
+@S{4}@F{fc=c26}任务道具@D：用以完成任务的道具。
+
+@S{4}@F{fc=c26}丹丸@D：用来在一段时间，改变角色的某些属性。如清心丹。
+
+@S{4}@F{fc=c26}伤药@D：补充角色或宠物的生命值和法力值。
+
+@S{4}@F{fc=c26}传送道具@D：使用后到达指定地点的道具。如引路蜂、定位符。
+
+@S{4}@F{fc=c26}制作卷@D：制作道具需要的凭证。制作需要的道具之一。
+
+@S{4}@F{fc=c26}包裹@D：用来放入扩展包裹位的道具。以此向用户提供更多的存储空间。
+
+@S{4}@F{fc=c26}杂物@D：游戏中没有用途的道具，主要用来向商人NPC换取游戏币。
+
+@S{4}@F{fc=c26}材料@D：游戏中制作装备需要用到的道具。如打造材料、制作材料、强化材料等。
+
+@S{4}@F{fc=c26}收集品@D：各种怪物掉落的有特色的专属物品。有些可能有用。如声望道具。
+
+@S{4}@F{fc=c26}活动道具@D：游戏中各种活动中临时给予的道具。
+
+@S{4}此外，游戏中还有大量其他功能道具，不再一一列举，留给您在游戏中慢慢探索。	</content>
+	</item>
+	<item>
+		<id>	80	</id>
+		<index>	51	</index>
+		<parentID>	79	</parentID>
+		<title>	人物装备	</title>
+		<keys>
+			<item>	武器说明	</item>
+			<item>	装备	</item>
+			<item>	剑客	</item>
+			<item>	战士	</item>
+			<item>	射手	</item>
+			<item>	法师	</item>
+			<item>	防具	</item>
+			<item>	武器	</item>
+			<item>	首饰	</item>
+			<item>	耐久度	</item>
+			<item>	耐久	</item>
+			<item>	修理装备	</item>
+			<item>	修理	</item>
+		</keys>
+		<content>	@S{4}在创世之中，人物装备主要分为@L{t=武器;m=srch:武器;cfc=255,128,64;hfc=255,169,128}、@L{t=防具;m=srch:防具;cfc=255,128,64;hfc=255,169,128}、@L{t=饰品;m=srch:饰品;cfc=255,128,64;hfc=255,169,128}三个大类。
+@B@S{4}其中武器和防具属于各职业专有，即为每一种职业都有自己专属的武器和防具，其中@L{t=战士;m=srch:战士;cfc=255,128,64;hfc=255,169,128}使用枪；@L{t=剑客;m=srch:剑客;cfc=255,128,64;hfc=255,169,128}使用剑；@L{t=射手;m=srch:射手;cfc=255,128,64;hfc=255,169,128}使用弓；@L{t=法师;m=srch:法师;cfc=255,128,64;hfc=255,169,128}使用杖。而首饰则属于各职业通用，但一个角色只能佩带2枚戒指和一枚项链。
+@B@S{4}在创世之中，装备以十级为一个阶段，等级提升之后，可以装备使用更为强大外形也更为华丽的武器，而装备本身又分为五个档次，@F{fc=c23}白@D、@F{fc=c7}蓝@D、@F{fc=c33}黄@D、@F{fc=c45}粉@D、@F{fc=c41}绿@D，通过装备名称的颜色来表示，我们可以以此来判定装备本身的优劣。档次越高的装备对角色的帮助也就越大。
+@B@S{4}另外，装备还有一个非常重要的特殊属性——@L{t=耐久度;m=srch:耐久度;cfc=255,128,64;hfc=255,169,128}，不同的装备的耐久更不相同，但是有一点是相同的，那便是当装备的耐久度消耗完毕为零时便不能再被使用，不过我们可以通过@L{t=修理;m=srch:修理;cfc=255,128,64;hfc=255,169,128}来恢复装备的耐久。
+@B@S{4}爱美的玩家还可以装配“时装”来改变自己的外形。^_^	</content>
+	</item>
+	<item>
+		<id>	106	</id>
+		<index>	52	</index>
+		<parentID>	79	</parentID>
+		<title>	增值道具	</title>
+		<keys>
+			<item>	增值	</item>
+			<item>	人民币	</item>
+			<item>	增值道具	</item>
+			<item>	道具商城	</item>
+			<item>	商城	</item>
+			<item>	元宝	</item>
+		</keys>
+		<content>	@S{4}本栏目简要介绍游戏中需要消耗元宝购买的@L{t=增值道具;m=srch:增值道具;cfc=255,128,64;hfc=255,169,128}及相关功能。	</content>
+	</item>
+	<item>
+		<id>	107	</id>
+		<index>	53	</index>
+		<parentID>	106	</parentID>
+		<title>	增值道具分类	</title>
+		<keys>
+			<item>	增值道具	</item>
+			<item>	增值道具分类	</item>
+			<item>	收费道具	</item>
+			<item>	商城	</item>
+			<item>	元宝	</item>
+			<item>	师徒	</item>
+			<item>	功勋	</item>
+		</keys>
+		<content>	@S{4}游戏中目前提供上百种@L{t=增值道具;m=srch:增值道具;cfc=255,128,64;hfc=255,169,128}。
+@S{4}按照功能，大致可以分为灵丹妙药、珍宠、坐骑、时装、天材地宝等；
+@S{4}按照支付途径，可以分为不绑定道具和绑定道具；
+@S{4}按照使用时间，可以分为永久型道具和有时间限制的道具。
+
+@S{4}元宝是一种特殊功能的货币，@L{t=元宝;m=srch:元宝;cfc=255,128,64;hfc=255,169,128}有两种：@F{fc=c6}金元宝@D和@F{fc=c26}银元宝@D。在游戏中，金元宝购买的物品，大多数都可以交易和出售；而银元宝购买的物品通常为绑定不可以出售。
+@S{4}元宝除了玩家付费充值获得外，游戏中通过等级奖励、节日活动、师徒功勋的工资兑换等途径也可以获得元宝。	</content>
+	</item>
+	<item>
+		<id>	109	</id>
+		<index>	54	</index>
+		<parentID>	106	</parentID>
+		<title>	增值道具购买	</title>
+		<keys>
+			<item>	增值道具购买	</item>
+			<item>	增值道具	</item>
+			<item>	付费	</item>
+			<item>	商城	</item>
+			<item>	付费充值	</item>
+			<item>	元宝	</item>
+		</keys>
+		<content>	@S{4}1、进入游戏后，“道具商城”按钮位于游戏界面右上方小地图的外围。
+@S{4}左键点击元宝标志按钮，即可打开道具商城界面。
+@B@S{4}2、进入在线商城后，可在不同种类的道具界面间进行切换，界面列表中会列出所有可以购买的道具。（点击 [@F{fc=c45} 快速充值@D ] 按钮，即可直接进入充值页面对帐号充值）
+@B@S{4}3、选中需要的道具，然后左键拖动该道具图标到自己包裹（或者直接点右键），系统便会弹出购买道具确认框。确认后，如果玩家身上有足够的@L{t=元宝;m=srch:元宝;cfc=255,128,64;hfc=255,169,128}可以支付所要购买的物品，则购买物品成功，物品进入玩家的包裹。
+@B@S{4}4、请根据支付途径种类勾选元宝种类（选择用@F{fc=c6}金元宝@D还是@F{fc=c26}银元宝@D支付）。
+@B@S{4}5、在包裹中，右键点击所购买的道具即可使用。	</content>
+	</item>
+	<item>
+		<id>	108	</id>
+		<index>	55	</index>
+		<parentID>	106	</parentID>
+		<title>	增值道具功能	</title>
+		<keys>
+			<item>	增值道具	</item>
+			<item>	增值道具功能	</item>
+		</keys>
+		<content>	@S{4}具有一些特定功能的特殊道具，用来方便玩家更快更好地游戏。这些道具除了在道具商城购买外，在游戏的活动和副本中都有大量掉落（可参见“产出提示”或通过官方网站查询更多详细内容）。
+
+@S{4}增值道具给玩家提供普通道具达不到的功能，可以让玩家的游戏变得更轻松更方便。	</content>
+	</item>
+	<item>
+		<id>	93	</id>
+		<index>	56	</index>
+		<parentID>	-1	</parentID>
+		<title>	装备扩展功能	</title>
+		<keys>
+			<item>	装备扩展功能	</item>
+			<item>	物品扩展功能	</item>
+		</keys>
+		<content>	@S{4}装备扩展功能就是强化装备。	</content>
+	</item>
+	<item>
+		<id>	94	</id>
+		<index>	57	</index>
+		<parentID>	93	</parentID>
+		<title>	神机匣及相关功能	</title>
+		<keys>
+			<item>	神机匣	</item>
+			<item>	装备扩展功能	</item>
+			<item>	物品扩展功能	</item>
+			<item>	装备打造	</item>
+			<item>	打造	</item>
+			<item>	认主	</item>
+		</keys>
+		<content>	@S{4}神机匣是用来完成@L{t=装备扩展功能;m=srch:装备扩展功能;cfc=255,128,64;hfc=255,169,128}的基本道具。神机匣又是一个有特殊功能的背包。它有一定的使用次数限制。每成功使用神机匣，剩余次数就会减1。当剩余次数减少为0的时候将变为一个普通背包。
+@B{2}@S{4}神机匣中有12个位置，可以存放物品。同时它也为玩家提供了6种不同的功能分别为@L{t=装备打造;m=srch:装备打造;cfc=255,128,64;hfc=255,169,128}、@L{t=属性抽取;m=srch:属性抽取;cfc=255,128,64;hfc=255,169,128}、@L{t=属性灌注;m=srch:属性灌注;cfc=255,128,64;hfc=255,169,128}、@L{t=装备强化;m=srch:装备强化;cfc=255,128,64;hfc=255,169,128}、@L{t=装备认主;m=srch:装备认主;cfc=255,128,64;hfc=255,169,128}、@L{t=特殊合成;m=srch:特殊合成;cfc=255,128,64;hfc=255,169,128}等等功能。
+
+@B{2}@I{p=maps/help_icons/shenjixia2.gui}
+@S{6}@F{fc=c45}1：@D选定所需功能
+@S{6}@F{fc=c45}2：@D放入所需材料，也可充当暂时存蓄物品的包裹
+@S{6}@F{fc=c45}3：@D所选功能的相关说明，如有疑问，可在此查看
+
+	</content>
+	</item>
+	<item>
+		<id>	96	</id>
+		<index>	59	</index>
+		<parentID>	94	</parentID>
+		<title>	装备制造	</title>
+		<keys>
+			<item>	装备制造	</item>
+			<item>	装备扩展功能	</item>
+			<item>	制造	</item>
+			<item>	物品扩展功能	</item>
+			<item>	装备打造	</item>
+			<item>	材料	</item>
+		</keys>
+		<content>	@S{4}在创世中，除了在游戏中获得装备之外，我们也可以运用材料自行制造。自行制造的装备不但可能会比在游戏中获得的装备有更好的属性之外，更重要的是每一件自行制造的装备都会标上制造者的大名，想一想，一整套全部由您自行制造并标注上您的名字的武器装备，那将是一件多么令人兴奋的事情。
+@B@S{4}在装备打造商人处进行@L{t=装备打造;m=srch:装备打造;cfc=255,128,64;hfc=255,169,128}，在装备制造商人处打造的话材料的种类和数量虽然是固定的，但是你可以放入任意等级的材料进行打造，当然，最终获得的装备的好与坏，与材料等级的关系也是相当大的。
+@B@S{4}介绍这么多，你是否也手痒痒，想自行打造一套专属于自己的装备呢，去吧，装备制造商@L{t=&apos;符离($xz{10131016})&apos;;m=goto:10131016;cfc=c4;hfc=c3}正在凤鸣城中等着你呢。
+	</content>
+	</item>
+	<item>
+		<id>	703	</id>
+		<index>	60	</index>
+		<parentID>	96	</parentID>
+		<title>	如何使用制作卷	</title>
+		<keys>
+			<item>	装备卷轴	</item>
+			<item>	制作卷	</item>
+			<item>	装备制作	</item>
+			<item>	装备	</item>
+			<item>	声望	</item>
+		</keys>
+		<content>	@S{4}在游戏中，我们可以有多种途径获得用以打造武器装备的@F{fc=c45}制作卷轴@D，将卷轴和卷轴上所需材料一起放入神机匣中，选择@L{t=特殊合成;m=srch:特殊合成;cfc=255,128,64;hfc=255,169,128}功能进行合成，便可以得到卷轴上所记载的装备了。
+
+@S{4}@I{p=maps/help_icons/2.6.3.1.gui}
+
+@S{4}获得装备制作卷的途径除了特殊奖励外，在游戏中累积某一势力的@L{t=声望;m=srch:声望;cfc=255,128,64;hfc=255,169,128}后，在声望商人处也可以购买到。	</content>
+	</item>
+	<item>
+		<id>	696	</id>
+		<index>	61	</index>
+		<parentID>	96	</parentID>
+		<title>	如何打造装备	</title>
+		<keys>
+			<item>	装备制造	</item>
+			<item>	如何打造装备	</item>
+			<item>	装备	</item>
+			<item>	材料	</item>
+			<item>	品质	</item>
+		</keys>
+		<content>	@S{4}选择有制造装备功能的NPC@L{t=&apos;符离($xz{10131016})&apos;;m=goto:10131016;cfc=c4;hfc=c3}，@L{t=与NPC对话;m=srch:与NPC对话;cfc=255,128,64;hfc=255,169,128}，选择“装备制造”选项。会弹出装备制造界面。
+@B@S{4}进入装备制造界面之后，在界面的左下角，我们可以选定我们所需要打造的装备。
+
+@S{8}@B@I{p=maps/help_icons/equipmentMake2.gui}
+
+@S{18}@F{fc=c45}1：@D需要制造的装备
+@S{18}@F{fc=c45}2：@D职业防具选项
+@S{18}@F{fc=c45}3：@D装备部位选项
+
+@B@S{4}选定好我们所需要打造的装备之后，在制造界面的右侧会出现打造配方，按照配方放入材料后，点击确定，便可以完成打造，获得所需的装备。	</content>
+	</item>
+	<item>
+		<id>	697	</id>
+		<index>	62	</index>
+		<parentID>	96	</parentID>
+		<title>	如何获得材料	</title>
+		<keys>
+			<item>	材料	</item>
+			<item>	道具商城	</item>
+			<item>	如何获得材料	</item>
+			<item>	采集	</item>
+			<item>	任务	</item>
+			<item>	装备	</item>
+		</keys>
+		<content>	@S{4}材料的获得方法有很多种，比如打怪掉落，@L{t=任务;m=srch:任务;cfc=255,128,64;hfc=255,169,128}奖励，@L{t=采集;m=srch:采集;cfc=255,128,64;hfc=255,169,128}，在神机匣中将低级材料@L{t=合成;m=srch:合成;cfc=255,128,64;hfc=255,169,128}为高级材料，但是一般来说，材料最快捷的获得方式是采集技能收集。	</content>
+	</item>
+	<item>
+		<id>	698	</id>
+		<index>	63	</index>
+		<parentID>	96	</parentID>
+		<title>	如何打造更强装备	</title>
+		<keys>
+			<item>	如何打造更强装备	</item>
+			<item>	打造	</item>
+			<item>	装备	</item>
+			<item>	品质	</item>
+			<item>	前缀	</item>
+			<item>	材料	</item>
+		</keys>
+		<content>	@S{4}想获得更高级的装备吗？经常参加竞技类活动，可以获得极品绿装。同时还可以通过打造装备获得绿装。
+@B@S{4}一般来说一级材料打造出来的装备以蓝色品质为主，二级材料打造出来的装备以黄色品质为主，三级材料打造出来的装备以粉色品质为主，四级与五级材料打造出来的装备以绿色品质为主，如果使用不同等级的材料打造装备，品质又会有变化。
+@B@S{4}而我们同一品质的装备又有不同的前缀名，同一品质不同前缀名的装备又有优劣之分，越高级的材料打出前缀名越佳的几率也就越高。
+@B@S{4}譬如绿色装备有传说的、神话的、逆天的三种前缀名，其中逆天的为最佳前缀名。
+@B@S{4}在制造造界面内放入配方上所需的全部材料之后，在界面的左上部会显现将被制造出的装备的各品质出现几率。
+@B@S{4}如下图，所表示的就是即将被制造出来的物品有100%的几率，也就是说，一定会是绿色品质的装备。
+
+@B@S{12}@I{p=maps/help_icons/equipmentMake.gui}
+	</content>
+	</item>
+	<item>
+		<id>	97	</id>
+		<index>	64	</index>
+		<parentID>	94	</parentID>
+		<title>	装备强化	</title>
+		<keys>
+			<item>	装备强化	</item>
+			<item>	装备扩展功能	</item>
+			<item>	强化	</item>
+			<item>	物品扩展功能	</item>
+			<item>	装备	</item>
+		</keys>
+		<content>	@S{4}装备强化就是使用@L{t=神机匣;m=srch:神机匣;cfc=255,128,64;hfc=255,169,128}和龙珠来提高装备@L{t=基本属性;m=srch:基本属性;cfc=255,128,64;hfc=255,169,128}。不同的龙珠，所能强化的装备@L{t=需求等级;m=srch:需求等级;cfc=255,128,64;hfc=255,169,128}不同。
+
+@S{4}@F{fc=c23}白色龙珠@D，能够强化1-30级的装备。
+@S{4}@F{fc=c19}蓝色龙珠@D，能够强化31-50级的装备。
+@S{4}@F{fc=c6}黄色龙珠@D，能够强化51-90级的装备。
+@S{4}@F{fc=c45}粉色龙珠@D，能够强化91-120级的装备。
+@S{4}@F{fc=c4}绿色龙珠@D，能够强化121-150级的装备。
+
+@B@S{4}装备强化是有一定成功率的，1级成功率为100%，随后成功率依次递减。可以使用幸运宝石来提高成功率。无论成功与否都会消耗龙珠和幸运宝石。
+@B@S{4}装备强化到+3以下时，失败后，强化等级会降低为0；强化到+3以后，即使失败也最低只降到+3这个保底等级。
+@B@S{4}打开神机匣，点击“装备强化”按钮，进入装备强化界面。将需要强化的装备、所使用的龙珠、幸运宝石放入其中。这时会在“开始”按钮旁边显示成功率。点击开始按钮，在条件符合时将完成装备强化功能。
+@B@S{4}装备强化每次只能强化一件装备，如果放入神机匣中物品不正确系统会给予提示。	</content>
+	</item>
+	<item>
+		<id>	232	</id>
+		<index>	66	</index>
+		<parentID>	94	</parentID>
+		<title>	特殊合成	</title>
+		<keys>
+			<item>	合成	</item>
+			<item>	特殊合成	</item>
+			<item>	物品拓展	</item>
+		</keys>
+		<content>	@S{4}特殊合成是合成各种必要的任务物品、特殊道具和特殊装备的功能。
+@B@S{4}将配方和材料放进@L{t=神机匣;m=srch:神机匣;cfc=255,128,64;hfc=255,169,128}，选择“确定”，就可以进行合成。配方有可能是NPC传授，也有可能需要玩家自己摸索。特殊合成可能使用各种材料，除了正规的铁、玉、丝绸等还有可能使用各种看似没用的杂物或任务物品。
+@B@S{4}大部分材料和杂物由怪物掉落，还有部分需要在道具商城中购买。
+
+	</content>
+	</item>
+	<item>
+		<id>	105	</id>
+		<index>	70	</index>
+		<parentID>	94	</parentID>
+		<title>	装备认主	</title>
+		<keys>
+			<item>	装备绑定	</item>
+			<item>	绑定	</item>
+			<item>	物品扩展功能	</item>
+			<item>	装备认主	</item>
+			<item>	PK	</item>
+		</keys>
+		<content>	@S{4}装备认主就是玩家支付一定的费用，使用“灵魂锁链”将装备和角色进行绑定。绑定之后此装备的属性会得到增强，同时该装备将不能@L{t=交易;m=srch:交易;cfc=255,128,64;hfc=255,169,128}，也不会掉落。
+@B@S{4}首先打开@L{t=神机匣;m=srch:神机匣;cfc=255,128,64;hfc=255,169,128}，选择“装备绑定”按钮进入装备绑定界面。将需要进行绑定的装备和“@F{fc=c45}灵魂锁链@D”放入神机匣中。在“开始”按钮旁边会提示需要支付的费用，当玩家拥有足够费用时，点“开始”装备将与此角色进行绑定。
+
+@S{4}@F{fc=c7}注意@D：
+@S{4}1、绑定不能被解除。也就是说一旦绑定装备将永远与玩家绑定在一起。
+@S{4}2、一次只能进行一件装备的绑定。每条灵魂锁链只能使用一次。
+@S{4}3、认主后绑定后的装备，分解所得的材料也将是绑定的。
+@S{4}4、认主后的装备，其属性会获得增强。
+@S{4}5、认主的装备，可以大大降低@L{t=PK;m=srch:PK;cfc=255,128,64;hfc=255,169,128}时装备掉落的几率。	</content>
+	</item>
+	<item>
+		<id>	760	</id>
+		<index>	71	</index>
+		<parentID>	93	</parentID>
+		<title>	装备修理	</title>
+		<keys>
+			<item>	装备	</item>
+			<item>	修理	</item>
+			<item>	耐久度	</item>
+			<item>	帮会	</item>
+			<item>	帮会领地	</item>
+			<item>	红名	</item>
+			<item>	与NPC对话	</item>
+		</keys>
+		<content>	@S{4}所有的装备都具有@L{t=耐久度;m=srch:耐久度;cfc=255,128,64;hfc=255,169,128}。耐久度会随着玩家使用的过程时间降低。如果玩家是@L{t=红名;m=srch:红名;cfc=255,128,64;hfc=255,169,128}，死亡后装备的耐久度损失得更多。当耐久度降为0点，就会消失。
+
+@S{4}装备耐久度降低后，可以在具有商人功能的NPC处@L{t=修理;m=srch:修理;cfc=255,128,64;hfc=255,169,128}。与NPC对话后，在界面中选择“小锤子”符号的按钮，然后选择要修理的装备，点击修复耐久。
+
+@S{4}修理装备有两种：
+@S{4}@F{fc=c26}普通修理@D花费较低，可以增加装备当前的耐久度，但是会损耗耐久上限，这种修理方式适合升级中的玩家。
+@S{4}@F{fc=c26}特殊修理@D花费较高，但是不会损失装备的耐久上限，比较适合满级或装备较好的玩家。
+
+@S{4}如果玩家在自己的@L{t=帮会领地;m=srch:帮会领地;cfc=255,128,64;hfc=255,169,128}找铁匠铺、以及在自己@L{t=帮会;m=srch:帮会;cfc=255,128,64;hfc=255,169,128}所占领城市中的NPC处修理装备，都可以获得折扣。
+	</content>
+	</item>
+	<item>
+		<id>	766	</id>
+		<index>	72	</index>
+		<parentID>	93	</parentID>
+		<title>	一键换装	</title>
+		<keys>
+			<item>	一键换装	</item>
+			<item>	换装	</item>
+			<item>	装备	</item>
+		</keys>
+		<content>	@F{fc=c7}一键换装@D
+
+@S{4}玩家在游戏中可能同时拥有多套装备，比如用于PK的可能有攻击装、防御装；用于不同心法职业的职业分支装等等，当装备太多时，更换装备就会变得很繁琐。
+
+@S{4}“@L{t=一键换装;m=srch:一键换装;cfc=255,128,64;hfc=255,169,128}”功能可以保存玩家当前的装备组合，最多保存5套。换装按钮在角色头像旁。
+
+@S{10}@I{p=maps/help_icons/yijianhuanzhuang.gui}
+
+@F{fc=c7}注意事项@D
+
+@S{4}1、无法保存时装和魂魄石。
+@S{4}2、玩家只有在正常状态（非战斗、非摆摊、非死亡、背包未锁定等状态）下才能使用一键换装功能。
+@S{4}3、当保存的组合有装备不存在在玩家背包中时，无法进行换装。
+@S{4}4、当保存的组合有装备的@L{t=耐久度;m=srch:耐久度;cfc=255,128,64;hfc=255,169,128}为0时无法使用。
+@S{4}5、每次换装后，需要间隔10秒才能再次换装。	</content>
+	</item>
+	<item>
+		<id>	129	</id>
+		<index>	73	</index>
+		<parentID>	-1	</parentID>
+		<title>	战斗	</title>
+		<keys>
+			<item>	战斗	</item>
+			<item>	等级	</item>
+			<item>	PK	</item>
+			<item>	攻击	</item>
+			<item>	技能	</item>
+			<item>	宠物	</item>
+			<item>	切磋	</item>
+		</keys>
+		<content>	@S{4}战斗是游戏的核心内容。创世2online的战斗无处不在：打怪、PK、@L{t=切磋;m=srch:切磋;cfc=255,128,64;hfc=255,169,128}、竞技。
+
+@S{4}无论是哪一种，战斗的过程都不仅仅是惊险刺激而充满变化的操作过程，而且还是玩家与宠物、玩家与团队配合的过程，更是玩家之间实力和技能的较量。
+
+	</content>
+	</item>
+	<item>
+		<id>	727	</id>
+		<index>	74	</index>
+		<parentID>	129	</parentID>
+		<title>	自动战斗	</title>
+		<keys>
+			<item>	自动战斗	</item>
+			<item>	快捷栏	</item>
+			<item>	技能	</item>
+			<item>	技能	</item>
+			<item>	收费药品	</item>
+			<item>	自动	</item>
+			<item>	拾取	</item>
+		</keys>
+		<content>	@S{4}创世2Online为玩家提供了一个@L{t=自动战斗;m=srch:自动战斗;cfc=255,128,64;hfc=255,169,128}的功能。通过开启这个功能可以让角色@L{t=自动;m=srch:自动;cfc=255,128,64;hfc=255,169,128}杀怪，让游戏更轻松。
+
+@S{8}@I{p=maps/help_icons/zidongdaguai.gui}
+
+@F{fc=c26}功能设置：@D
+@S{4}点击自动战斗快捷栏中的“设置”按钮，弹出设置窗口。
+@S{4}1、自动战斗功能需要玩家设置默认@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}，可以供使用的@L{t=恢复生命的药剂;m=srch:恢复生命的药剂;cfc=255,128,64;hfc=255,169,128}，及可以被使用的@L{t=恢复法力的药剂;m=srch:恢复法力的药剂;cfc=255,128,64;hfc=255,169,128}。并可以选择为宠物设置@L{t=宠物技能;m=srch:宠物技能;cfc=255,128,64;hfc=255,169,128}，可以被使用的自动回复药品。
+@S{4}2、设置选择可以自动进行的其他辅助功能，例如选择是否进行自动@L{t=拾取;m=srch:拾取;cfc=255,128,64;hfc=255,169,128}。如果取消自动拾取，杀死怪物后就不再拾取掉落的物品而直接选择下一个目标进行攻击。
+
+@F{fc=c26}开启/关闭自动战斗：@D
+@S{4}通过默认快捷键@F{fc=c45}ctrl+z@D或者是自动战斗快捷栏中的“开启”/“关闭”按钮，即可开启/关闭自动战斗功能。
+@S{4}自动战斗功能开启后，屏幕中央会出现一个醒目的持续提示，表示你当前正在自动战斗中。自动战斗时会使用自动战斗快捷栏中的技能，攻击附近的怪物，杀死一个后，自动拾取其掉落的物品，然后再寻找下一个目标，如此循环。
+@S{4}自动战斗可以随时开启，每次开启都只能战斗30分钟，并且在自动战斗栏上边显示自动战斗的倒计时。
+@S{4}无论自动战斗是否停止，玩家都可以随时开启自动战斗，再进行自动战斗30分钟，倒计时提示也会刷新为从30分钟开始。
+
+@F{fc=c26}自动战斗快捷栏@D
+@S{4}自动战斗的快捷栏在角色主快捷栏的上方，有5个快捷位，从左到右，前3个为角色技能、后2个分别为角色生命药剂、角色法力药剂。
+@S{4}自动战斗的倒计时提示会显示在自动战斗栏的上方。
+@S{4}角色技能按钮中放入常用的攻击技能；生命药剂和法力药剂分别放入恢复生命和恢复法力的物品；宠物生命和法力药剂位置放入宠物使用的生命和法力药剂。（一般情况下，需要放入的为道具商城出售的伤药，在特殊情况下，允许放入普通丹药，需要“灵药”的使用）。
+@S{4}如果您关闭了自动战斗，又不想使用收费药品进行自动恢复的话，请记得把伤药从自动战斗快捷栏中取出来，不然的话，即使您未处于自动战斗状态，还是会使用自动战斗快捷栏中的伤药进行自动恢复的。
+@S{4}角色在开启自动战斗前，需要设置自动拾取功能的开启/关闭。关闭自动战斗时，自动拾取功能被同时关闭。
+@S{4}注：在队伍的队长开启自动战斗功能时，分配方式将被强制更改为“队伍分配”。	</content>
+	</item>
+	<item>
+		<id>	728	</id>
+		<index>	75	</index>
+		<parentID>	129	</parentID>
+		<title>	灵药	</title>
+		<keys>
+			<item>	灵药	</item>
+			<item>	灵药秘术	</item>
+			<item>	自动战斗	</item>
+			<item>	自动	</item>
+		</keys>
+		<content>	@S{4}系统每天会免费为大家提供一个绑定的灵药，可以在凤鸣城广场中央@L{t=&apos;创世之光($xz{10111227})&apos;;m=goto:10111227;cfc=c4;hfc=c3}处领取，使用后将获得一个“灵药秘术”的BUFF，BUFF时间为半个小时。
+
+@S{4}获得BUFF后，可以把游戏里普通的角色和宠物用生命恢复药品和法力恢复药品，放入自动战斗栏的对应位置（见@L{t=自动战斗;m=srch:自动战斗;cfc=255,128,64;hfc=255,169,128}），这样不论是否开启自动战斗功能，都将可以自动补充角色和出战宠物的生命值和法力值。
+
+@S{4}绑定的灵药最多携带7个。每使用一个可以获得半小时的“灵药秘术”的BUFF。时间可相互累积。
+@S{4}灵药也可以通过打怪掉落，打怪掉的不绑定，可以互相交易。 
+	</content>
+	</item>
+	<item>
+		<id>	758	</id>
+		<index>	76	</index>
+		<parentID>	129	</parentID>
+		<title>	PK	</title>
+		<keys>
+			<item>	PK	</item>
+			<item>	红名	</item>
+			<item>	战斗	</item>
+			<item>	战场	</item>
+			<item>	PK值	</item>
+			<item>	黄名	</item>
+			<item>	蓝名	</item>
+			<item>	善良值	</item>
+			<item>	死亡	</item>
+			<item>	耐久度	</item>
+			<item>	快捷键	</item>
+		</keys>
+		<content>	@S{4}PK是指玩家之间的战斗。PK会增加@L{t=PK值;m=srch:PK值;cfc=255,128,64;hfc=255,169,128}，用来辨别杀人多少。PK值大于0，名字会变为@F{fc=c33}黄名@D，PK值越高，颜色越深，恶意杀人过多会显示为@F{fc=c44}红名@D，PK值为正。
+
+
+@F{fc=c7}PK模式切换@D
+@S{4}1、点击角色头像右下角的PK模式按钮手动切换；
+@S{4}2、按快捷键“@F{fc=c45}Ctrl+H@D”在几个PK模式之间顺序切换。
+
+
+@F{fc=c7}PK条件@D
+@S{4}1、玩家等级至少达到30级；
+@S{4}2、PK双方处于非安全区（安全区包括各补给点、活动副本、监狱）；
+@S{4}3、满足PK模式。
+
+
+@F{fc=c7}PK后果@D
+@S{4}1、PK时随时有可能导致@L{t=死亡;m=srch:死亡;cfc=255,128,64;hfc=255,169,128}，玩家会被平时掉落更多的金钱和装备@L{t=耐久度;m=srch:耐久度;cfc=255,128,64;hfc=255,169,128}，甚至掉落身上装备；
+@S{4}2、PK杀人会有PK惩罚，PK值越高，惩罚越严厉。PK值达到60会被送入监狱。	</content>
+	</item>
+	<item>
+		<id>	759	</id>
+		<index>	77	</index>
+		<parentID>	129	</parentID>
+		<title>	名字颜色与PK的关系	</title>
+		<keys>
+			<item>	名字	</item>
+			<item>	名字颜色	</item>
+			<item>	PK	</item>
+			<item>	PK值	</item>
+			<item>	红名	</item>
+			<item>	蓝名	</item>
+			<item>	白名	</item>
+			<item>	黄名	</item>
+			<item>	善良值	</item>
+		</keys>
+		<content>	@S{4}在非特殊活动或战场的条件下，玩家名字的颜色会与PK值及善良值有关。
+
+@S{4}PK值大于等于18时，为@F{fc=c44}红名@D。
+@S{4}PK值大于0小于18时，为@F{fc=c33}黄名@D。
+@S{4}PK值等于0时且善良值小于100时，为@F{fc=c23}白名@D。
+@S{4}PK值等于0且善良值等于100时，为@F{fc=c7}蓝名@D。
+@S{4}玩家低于30级不能PK，为@F{fc=c34}绿名@D。
+@S{4}处于攻击中的玩家，名字暂时变为@F{fc=c22}褐色@D。
+
+@S{4}已经处于红名的玩家并不是颜色永远不边，玩家持续挂机每20分钟，减少1点@L{t=PK值;m=srch:PK值;cfc=255,128,64;hfc=255,169,128}。服用“清心丹”也可以减少PK值。
+
+@S{4}当PK值为0的时候，每在线满10分钟，增加1点@L{t=善良值;m=srch:善良值;cfc=255,128,64;hfc=255,169,128}。当善良值到达100时，您便成为善人。名字显示为蓝色。	</content>
+	</item>
+	<item>
+		<id>	763	</id>
+		<index>	78	</index>
+		<parentID>	129	</parentID>
+		<title>	切磋	</title>
+		<keys>
+			<item>	切磋	</item>
+			<item>	PK	</item>
+			<item>	比武	</item>
+			<item>	战斗	</item>
+			<item>	死亡	</item>
+		</keys>
+		<content>	@S{4}切磋是玩家之间互相交流、比试武艺的一种方式。
+
+@S{4}切磋是双方都必须同意的战斗。玩家需选择距离自己附近的比武对象，在头像右键菜单中选择“@L{t=切磋;m=srch:切磋;cfc=255,128,64;hfc=255,169,128}”，如果对方同意，那么双方才可以开始切磋。
+
+@S{4}切磋的目的是以武会友，因此不会获得额外的奖励，也不会造成@L{t=死亡;m=srch:死亡;cfc=255,128,64;hfc=255,169,128}、增加@L{t=PK值;m=srch:PK值;cfc=255,128,64;hfc=255,169,128}等状况。	</content>
+	</item>
+	<item>
+		<id>	116	</id>
+		<index>	79	</index>
+		<parentID>	-1	</parentID>
+		<title>	技能说明	</title>
+		<keys>
+			<item>	技能说明	</item>
+			<item>	技能	</item>
+		</keys>
+		<content>	@F{fc=c7}神奇的技能@D 
+
+@S{4}有的用于战斗，有的用于生存；
+@S{4}有的属于人物，有的属于宠物；
+@S{4}有的可以升级，有的不能升级；
+@S{4}有的属于法术攻击，有的属于物理攻击；
+@S{4}有的天生掌握，有的后天才可以学习；
+@S{4}有的需要消耗法力，有的不消耗法力；
+@S{4}有的具有强大破坏力，有的却是带来好处；
+@S{4}有的需要手动使用，有的可以自动使用……^_^	</content>
+	</item>
+	<item>
+		<id>	117	</id>
+		<index>	80	</index>
+		<parentID>	116	</parentID>
+		<title>	潜能	</title>
+		<keys>
+			<item>	潜能	</item>
+			<item>	潜能值	</item>
+			<item>	潜能的获得	</item>
+			<item>	潜能导师	</item>
+			<item>	技能	</item>
+			<item>	技能说明	</item>
+			<item>	技能升级	</item>
+			<item>	潜能任务	</item>
+			<item>	潜能副本	</item>
+			<item>	师徒	</item>
+			<item>	组队	</item>
+		</keys>
+		<content>	@S{4}角色拥有的潜能值在@L{t=人物窗口;m=srch:人物窗口;cfc=255,128,64;hfc=255,169,128}中显示。
+
+
+@F{fc=c26}潜能的作用@D：
+
+@S{4}用来学习角色@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}和提升技能等级。
+
+
+@F{fc=c26}获得潜能的途径@D：
+
+@S{4}1、独自或组队接取@L{t=潜能任务;m=srch:潜能任务;cfc=255,128,64;hfc=255,169,128}，挑战潜能副本。
+@S{4}2、参加可以获得潜能的活动，例如潜能乱斗等。
+@S{4}3、拥有@L{t=师徒;m=srch:师徒;cfc=255,128,64;hfc=255,169,128}关系的玩家，@L{t=组队;m=srch:组队;cfc=255,128,64;hfc=255,169,128}挑战师徒副本，可以获得潜能奖励。
+@S{4}4、除此之外，凤鸣城的各职业导师，也给玩家提供用“经验换潜能”的服务。	</content>
+	</item>
+	<item>
+		<id>	120	</id>
+		<index>	81	</index>
+		<parentID>	116	</parentID>
+		<title>	技能修炼	</title>
+		<keys>
+			<item>	技能说明	</item>
+			<item>	技能	</item>
+			<item>	技能修炼	</item>
+			<item>	技能学习	</item>
+			<item>	学习技能	</item>
+			<item>	技能升级	</item>
+			<item>	升级技能	</item>
+		</keys>
+		<content>	@F{fc=c7}职业技能@D 
+@S{4}玩家通过技能NPC可以学习技能。
+@S{4}玩家@L{t=等级;m=srch:等级;cfc=255,128,64;hfc=255,169,128}提升后，除了可以学习新技能之外还可以找技能NPC提升原有技能等级。
+@S{4}提升技能等级需要角色等级，同时也需要消耗@L{t=潜能;m=srch:潜能;cfc=255,128,64;hfc=255,169,128}。
+@S{4}技能等级提高之后效果也会随之提高。技能最高等级不尽相同。有些高级技能学习条件是某些低级技能达到一定等级。
+
+
+@F{fc=c7}只有人物角色才有技能吗？@D
+@S{4}帮会技能需要帮会研究所研发；
+@S{4}宠物技能需要消耗宠物技能书。	</content>
+	</item>
+	<item>
+		<id>	121	</id>
+		<index>	82	</index>
+		<parentID>	116	</parentID>
+		<title>	技能效果	</title>
+		<keys>
+			<item>	技能效果	</item>
+			<item>	技能	</item>
+		</keys>
+		<content>	@S{4}技能有多种，有些是给对方带来伤害，有些是给自己增加能力，有些是为了施放某种动作或者行为……
+@S{4}在系统帮助中，为大家先简要介绍技能的增益或减损效果。请点开旁边树状目录的“@F{fc=c45}+@D”查看。	</content>
+	</item>
+	<item>
+		<id>	122	</id>
+		<index>	83	</index>
+		<parentID>	121	</parentID>
+		<title>	增益效果	</title>
+		<keys>
+			<item>	技能	</item>
+			<item>	技能说明	</item>
+			<item>	技能效果	</item>
+			<item>	增益效果	</item>
+			<item>	BUFF	</item>
+			<item>	状态	</item>
+			<item>	属性	</item>
+		</keys>
+		<content>	@S{4}增益效果是指能提高自身或队友属性、能力的有益效果。
+
+@S{4}主要包括增加@L{t=力量;m=srch:力量;cfc=255,128,64;hfc=255,169,128}、增加@L{t=敏捷;m=srch:敏捷;cfc=255,128,64;hfc=255,169,128}、增加@L{t=智力;m=srch:智力;cfc=255,128,64;hfc=255,169,128}、增加@L{t=闪避;m=srch:闪避;cfc=255,128,64;hfc=255,169,128}、增加@L{t=防御;m=srch:防御;cfc=255,128,64;hfc=255,169,128}等等。例如同时影响战斗的效果有：
+
+@S{4}@F{fc=c26}反弹@D：可以反弹对方的伤害，让对方受到伤害。
+@S{4}@F{fc=c26}护盾@D：可以吸收对方攻击带来的伤害。
+@S{4}@F{fc=c26}加速@D：使移动速度提高。
+@S{4}@F{fc=c26}法术加速@D：使施放技能速度提高。
+@S{4}@F{fc=c26}溅射@D：攻击同时带给目标周围另一个目标伤害。	</content>
+	</item>
+	<item>
+		<id>	123	</id>
+		<index>	84	</index>
+		<parentID>	121	</parentID>
+		<title>	减损效果	</title>
+		<keys>
+			<item>	技能	</item>
+			<item>	技能效果	</item>
+			<item>	技能说明	</item>
+			<item>	减损效果	</item>
+			<item>	DEBUFF	</item>
+			<item>	眩晕	</item>
+			<item>	定身	</item>
+			<item>	沉默	</item>
+			<item>	睡眠	</item>
+			<item>	流血	</item>
+			<item>	状态	</item>
+		</keys>
+		<content>	@S{4}减损效果是指能对对方带来各种不便的持续性效果。例如以下效果：
+
+@S{4}@F{fc=c26}沉默@D：使目标无法使用技能。但是其他能力不受任何影响。
+@S{4}@F{fc=c26}定身@D：让对方无法移动和跳跃，其他能力不受影响。
+@S{4}@F{fc=c26}昏睡@D：使对方睡眠，不能进行任何动作。但是只要受到任何伤害就会清醒。
+@S{4}@F{fc=c26}减速@D：使对方移动速度减慢。
+@S{4}@F{fc=c26}减缓@D：使对方施放技能速度减慢。
+@S{4}@F{fc=c26}失血@D：持续减血效果，在一定时间内目标生命不断减少。
+@S{4}@F{fc=c26}眩晕@D：在眩晕状态下，目标不能进行任何动作。
+@S{4}@F{fc=c26}治疗效果降低@D：使目标在被治疗时的效果被减少，不能达到应有效果。
+@S{4}@F{fc=c26}伤害易伤效果@D：是目标更容易受到伤害，各种对他的伤害效果增加。	</content>
+	</item>
+	<item>
+		<id>	733	</id>
+		<index>	85	</index>
+		<parentID>	116	</parentID>
+		<title>	各职业技能简介	</title>
+		<keys>
+			<item>	职业	</item>
+			<item>	技能	</item>
+			<item>	战士	</item>
+			<item>	剑客	</item>
+			<item>	射手	</item>
+			<item>	法师	</item>
+		</keys>
+		<content>	@S{4}创世2online为玩家提供了4个可以选择的职业，包括@L{t=战士;m=srch:战士;cfc=255,128,64;hfc=255,169,128}、@L{t=剑客;m=srch:剑客;cfc=255,128,64;hfc=255,169,128}、@L{t=射手;m=srch:射手;cfc=255,128,64;hfc=255,169,128}、@L{t=法师;m=srch:法师;cfc=255,128,64;hfc=255,169,128}。这四种职业的技能各具特点。
+
+@S{4}所有职业在有足够潜能的条件下可以在技能导师处可以学习到技能。
+
+@S{4}@I{p=maps/help_icons/skillStudy2.gui}
+@S{8}@F{fc=c45}1：@D可学习技能
+@S{8}@F{fc=c45}2：@D未达到条件学习的技能
+@S{8}@F{fc=c45}3：@D技能描述和学习需求
+@S{8}@F{fc=c45}4：@D角色当前拥有潜能
+	</content>
+	</item>
+	<item>
+		<id>	734	</id>
+		<index>	86	</index>
+		<parentID>	733	</parentID>
+		<title>	战士	</title>
+		<keys>
+			<item>	战士	</item>
+			<item>	技能	</item>
+			<item>	技能说明	</item>
+			<item>	职业	</item>
+		</keys>
+		<content>	@F{fc=c26}猛击@D：对敌人造成额外伤害。
+
+@F{fc=c26}横扫@D：对以自身为中心的周围敌人造成伤害。
+
+@F{fc=c26}二连击@D：对敌人进行两次攻击，造成大量伤害。
+
+@F{fc=c26}顺势二连斩@D：对周围所有敌人造成大量伤害。
+
+@F{fc=c26}冲锋@D：可以迅速拉近与敌人的距离。
+
+@F{fc=c26}盾墙@D：可以大幅度增加自身@L{t=防御;m=srch:防御;cfc=255,128,64;hfc=255,169,128}，减少伤害。
+
+@F{fc=c26}生存意志@D：可以提高@L{t=生命;m=srch:生命;cfc=255,128,64;hfc=255,169,128}维持生命力。
+
+@F{fc=c26}痛苦思维@D：可以提高@L{t=法力;m=srch:法力;cfc=255,128,64;hfc=255,169,128}保证战斗力。
+
+@F{fc=c26}嘲讽@D：保护队友，让敌人强制攻击自己。
+
+@F{fc=c26}强健@D：为己方人员增加@L{t=力量;m=srch:力量;cfc=255,128,64;hfc=255,169,128}。
+	</content>
+	</item>
+	<item>
+		<id>	735	</id>
+		<index>	87	</index>
+		<parentID>	733	</parentID>
+		<title>	剑客	</title>
+		<keys>
+			<item>	剑客	</item>
+			<item>	技能	</item>
+			<item>	剑客技能	</item>
+			<item>	职业	</item>
+		</keys>
+		<content>	@F{fc=c26}快剑@D：对敌人造成额外伤害。
+
+@F{fc=c26}连绵剑@D：对前方扇形区域敌人造成额外伤害。
+
+@F{fc=c26}无影剑@D：对敌人造成多次伤害。
+
+@F{fc=c26}连击剑技类@D：流云过峰，碧空剑海，惊魂夺魄，升龙击等等。
+
+@F{fc=c26}谈笑风生@D：30秒内抵抗沉默的几率增加。
+
+@F{fc=c26}幻步@D：提升自身闪避几率，持续15秒。
+
+@F{fc=c26}包扎@D：驱除友方人员身上的@L{t=减损状态;m=srch:减损效果;cfc=255,128,64;hfc=255,169,128}。
+
+@F{fc=c26}卓越@D：为友好目标增加@L{t=敏捷;m=srch:敏捷;cfc=255,128,64;hfc=255,169,128}、@L{t=智力;m=srch:智力;cfc=255,128,64;hfc=255,169,128}、@L{t=力量;m=srch:力量;cfc=255,128,64;hfc=255,169,128}。
+
+@F{fc=c26}隐身类@D：进入潜行状态，隐藏自己的身形令人难以察觉。包括隐蔽千军、遁形及一些必须在潜行状态下才可使用的技能。
+	</content>
+	</item>
+	<item>
+		<id>	736	</id>
+		<index>	88	</index>
+		<parentID>	733	</parentID>
+		<title>	射手	</title>
+		<keys>
+			<item>	射手	</item>
+			<item>	技能	</item>
+			<item>	射手技能	</item>
+			<item>	职业	</item>
+		</keys>
+		<content>	@F{fc=c26}劲射@D：对敌人造成额外伤害。
+
+@F{fc=c26}乱射@D：对目标周围额外的敌人造成伤害。
+
+@F{fc=c26}流血射击@D：使敌人@L{t=流血;m=srch:流血;cfc=255,128,64;hfc=255,169,128}，造成持续性伤害。
+
+@F{fc=c26}瞄准射击@D：对敌人造成大量伤害。
+
+@F{fc=c26}落日@D：对敌人造成多次伤害。
+
+@F{fc=c26}震荡射击@D：减缓敌人移动。群体震荡射击可以对多个敌人造成效果。
+
+@F{fc=c26}幸运@D：减少敌人攻击自己的几率。
+
+@F{fc=c26}百步穿杨@D：对敌人造成多次伤害。
+
+@F{fc=c26}百鸟朝凤@D：对敌人造成多次伤害。	</content>
+	</item>
+	<item>
+		<id>	737	</id>
+		<index>	89	</index>
+		<parentID>	733	</parentID>
+		<title>	法师	</title>
+		<keys>
+			<item>	法师	</item>
+			<item>	技能	</item>
+			<item>	法师技能	</item>
+			<item>	职业	</item>
+		</keys>
+		<content>	@F{fc=c26}火球术@D：对敌人造成额外伤害。
+
+@F{fc=c26}连锁电击@D：对目标周围额外的敌人造成伤害。
+
+@F{fc=c26}爆裂火球@D：造成持续性伤害。
+
+@F{fc=c26}雷爆@D：对敌人造成大量伤害。
+
+@F{fc=c26}破空指@D：对敌人造成多次伤害。
+
+@F{fc=c26}玄冰劫@D：对敌人造成多次伤害。
+
+@F{fc=c26}法力盾@D：消耗法力牺牲伤害。
+
+@F{fc=c26}冰锥术@D：减缓敌人移动。
+
+@F{fc=c26}变性@D：将目标变成小动物。
+
+@F{fc=c26}回魂@D：复活目标。
+
+@F{fc=c26}神还之术@D：治疗一个单体目标。
+
+@F{fc=c26}药神术@D：强大的单体治疗法术。
+
+@F{fc=c26}天霖咒法@D：群体治疗法术。	</content>
+	</item>
+	<item>
+		<id>	740	</id>
+		<index>	90	</index>
+		<parentID>	116	</parentID>
+		<title>	生活技能简介	</title>
+		<keys>
+			<item>	生活技能	</item>
+			<item>	采集	</item>
+			<item>	采集技能	</item>
+			<item>	熟练度	</item>
+			<item>	活力值	</item>
+			<item>	资源	</item>
+			<item>	材料	</item>
+			<item>	活力	</item>
+			<item>	技能	</item>
+		</keys>
+		<content>	@S{4}游戏中的生活技能主要是采集。已学习了采集@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}的玩家需要消耗一定活力值，使用@L{t=采集;m=srch:采集;cfc=255,128,64;hfc=255,169,128}工具，在对应的资源点进行采集。
+
+
+@F{fc=c26}采集技能学习@D：
+@S{4}玩家可以根据需要在凤鸣城采集技能导师@L{t=&apos;寒天($xz{10111330})&apos;;m=goto:10111330;cfc=c4;hfc=c3}处，花费一定金钱学习一项或全部采集技能。同时玩家还可以在寒天处选择遗忘或升级采集采集。已经学习的采集技能在可技能栏中点击下方的“生活”选项查看。
+
+
+@F{fc=c26}技能熟练度@D：
+@S{4}每一个采集技能都拥有熟练度，初始为0/50。
+@S{4}提升采集技能熟练度需要玩家反复使用该采集技能。每次成功采集符合熟练度增长条件的资源点，熟练度增长1点。
+
+
+@F{fc=c26}活力值@D：
+@S{4}活力值是玩家的属性。包括活力值和活力值上限。活力值上限和玩家等级有关，@L{t=活力;m=srch:活力;cfc=255,128,64;hfc=255,169,128}值初始为5点，玩家等级越高，活力值上限越大。每次成功使用采集技能会消耗1点活力值，当活力值为0时无法使用采集技能。
+@S{4}活力值每天凌晨4点恢复。
+
+
+@F{fc=c26}采集工具@D：
+@S{4}采集工具可在凤鸣城采集商人@L{t=&apos;柔云($xz{10111331})&apos;;m=goto:10111331;cfc=c4;hfc=c3}处购买。每个采集工具可使用20次。
+
+
+@F{fc=c26}资源点@D：
+@S{4}根据采集技能不同，资源点分为铁矿、亚麻、兽皮堆、玉石矿、树木五种。每种资源点根据自身产出的@L{t=材料;m=srch:材料;cfc=255,128,64;hfc=255,169,128}好坏和采集需求，分为10级。低级材料分布在低级地图，高级资源分布在更高级的地图，一张地图中会平衡分布5种资源。
+@S{4}高级资源点产出材料多，需要技能熟练度高，同时分布点相对较少，刷新也慢。
+
+
+@F{fc=c26}具体的对应关系如下@D：
+采集技能@F{fc=c45}|@D　资源点　　@F{fc=c45}|@D采集工具@F{fc=c45}|@D产出材料@F{fc=c45}|@D　副产品
+　采矿　@F{fc=c45}|@D1-10级铁矿　@F{fc=c45}|@D矿工锄　@F{fc=c45}|@D　原铁　@F{fc=c45}|@D　铁针
+　抽丝　@F{fc=c45}|@D1-10级亚麻　@F{fc=c45}|@D　梭针　@F{fc=c45}|@D　丝绸　@F{fc=c45}|@D　丝线
+　剥皮　@F{fc=c45}|@D1-10级兽皮堆@F{fc=c45}|@D剥皮小刀@F{fc=c45}|@D　皮草　@F{fc=c45}|@D　皮膏
+　选玉　@F{fc=c45}|@D1-10级玉石矿@F{fc=c45}|@D选玉镜　@F{fc=c45}|@D　玉石　@F{fc=c45}|@D　煤
+　伐木　@F{fc=c45}|@D1-10级树木　@F{fc=c45}|@D伐木锯　@F{fc=c45}|@D　原木　@F{fc=c45}|@D　树脂	</content>
+	</item>
+	<item>
+		<id>	111	</id>
+		<index>	91	</index>
+		<parentID>	-1	</parentID>
+		<title>	背包和仓库	</title>
+		<keys>
+			<item>	背包	</item>
+			<item>	包裹	</item>
+			<item>	包囊	</item>
+			<item>	仓库	</item>
+			<item>	背包和仓库	</item>
+			<item>	背包仓库	</item>
+		</keys>
+		<content>	@S{4}背包和仓库是供玩家存放物品的地方。背包是可以移动的存储工具，仓库则是通过仓库管理员NPC来进行管理。	</content>
+	</item>
+	<item>
+		<id>	112	</id>
+		<index>	92	</index>
+		<parentID>	111	</parentID>
+		<title>	背包功能	</title>
+		<keys>
+			<item>	背包	</item>
+			<item>	背包功能	</item>
+			<item>	包裹	</item>
+			<item>	包囊	</item>
+			<item>	物品背包	</item>
+			<item>	默认背包	</item>
+			<item>	背包放置栏	</item>
+			<item>	背包容量	</item>
+			<item>	包囊位置	</item>
+		</keys>
+		<content>	@S{4}@L{t=打开背包;m=srch:打开背包;cfc=255,128,64;hfc=255,169,128}。会弹出@L{t=背包窗口;m=srch:背包窗口;cfc=255,128,64;hfc=255,169,128}（参见背包界面相关介绍）。背包功能为每个角色都提供了一个默认的背包。默认背包为42格。
+@B{2}@S{4}通过很多途径游戏人物都可以获得其他额外的背包。要希望其发挥作用，就需要将额外的背包放置到包囊位。每个角色拥有3个额外的包囊位和一个@L{t=神机匣;m=srch:神机匣;cfc=255,128,64;hfc=255,169,128}位。将包囊拖放入空的包裹位时，此包囊就可以使用了。点击一下就会打开，被打开的包囊内物品显示在包囊位下边。
+@B{2}@S{4}如果想更换包囊，需要确定原位的包囊为空或新包囊位置大于原包囊，则可以进行更换。如果想将一件物品从一个包囊移动到另一个包囊，只需要拖动物品至包囊位中包囊图标上放手，如果包囊中有空位则移动成功，如果没有空位物品会自动被放回原位。
+@B{2}@S{4}背包中最多可以携带四十万金的游戏币，超过上限将无法再获得更多的游戏币。	</content>
+	</item>
+	<item>
+		<id>	113	</id>
+		<index>	93	</index>
+		<parentID>	111	</parentID>
+		<title>	仓库功能	</title>
+		<keys>
+			<item>	仓库功能	</item>
+			<item>	仓库	</item>
+			<item>	背包仓库	</item>
+			<item>	背包和仓库	</item>
+			<item>	银行	</item>
+			<item>	寄存	</item>
+			<item>	钱庄	</item>
+		</keys>
+		<content>	@S{4}创世2online为玩家提供物品寄存功能。玩家可以将暂时不用的物品放入钱庄。
+
+@S{4}创世各地都有钱庄老板。例如凤鸣的钱庄老板@L{t=&apos;房静($xz{10142002})&apos;;m=goto:10142002;cfc=c4;hfc=c3}。
+@S{4}首先选择NPC，@L{t=与NPC对话;m=srch:与NPC对话;cfc=255,128,64;hfc=255,169,128}，选择“打开仓库”按钮。
+@S{4}进入仓库界面。会有一个默认仓库，为玩家提供了28个存放物品的位置。
+@S{4}仓库可以扩展很多页，增加新的仓库存放位置需要消耗指定的@L{t=增值道具;m=srch:增值道具;cfc=255,128,64;hfc=255,169,128}金丝木。金丝木在游戏中很多地方都有掉落。
+@B{2}@S{2}@I{p=maps/help_icons/depository2.gui}
+@S{8}@F{fc=c45}1：@D仓库分页，最多可拥有7个分页
+@S{8}@F{fc=c45}2：@D功能区
+@S{8}@F{fc=c45}3：@D存储区
+@S{8}@F{fc=c45}4：@D排序功能
+@S{8}@F{fc=c45}5：@D已存入仓库的金额
+	</content>
+	</item>
+	<item>
+		<id>	114	</id>
+		<index>	94	</index>
+		<parentID>	111	</parentID>
+		<title>	密码锁	</title>
+		<keys>
+			<item>	密码锁	</item>
+			<item>	安全	</item>
+		</keys>
+		<content>	@S{4}玩家可以给背包和仓库上锁加密。通过这种方法保护虚拟物品的安全。如果锁定，物品将无法进行任何操作。
+@B{2}@S{4}背包和仓库的密码锁是相互独立互不影响的。在背包窗口和仓库窗口中都有各自的“密码锁”按钮。点击“密码锁”按钮就可以打开“密码锁界面”了。这里为玩家提供了一个“小键盘”用来输入密码。第一次使用“密码锁”功能时直接弹出“设置界面”，提示玩家输入密码及确认密码。确定后密码生效。
+@B{2}@S{4}角色下线就会自动开启密码锁，需要使用物品时就需要进行开锁操作。点击“密码锁”按钮，输入密码点“开锁”此次在线物品密码被解除，可以正常使用物品。如果玩家确定不需要密码时，可以选择“永久开锁”选项永久性的解除密码。需要更换密码可以选择提示框下方“设置”分页按钮，在其中按操作提示完成密码修改功能。	</content>
+	</item>
+	<item>
+		<id>	115	</id>
+		<index>	95	</index>
+		<parentID>	111	</parentID>
+		<title>	拆分物品	</title>
+		<keys>
+			<item>	拆分物品	</item>
+			<item>	物品拆分	</item>
+			<item>	拆分	</item>
+		</keys>
+		<content>	@S{4}很多物品可以在一个物品格中保存多个。当我们需要的不是全部而是其中几个的时候我们可以使用@L{t=背包窗口;m=srch:背包窗口;cfc=255,128,64;hfc=255,169,128}下方的“拆分”按钮打开拆分界面进行物品数量的拆分。
+@B{2}@S{4}将要进行拆分的物品拖放入拆分界面的空格中。在旁边输入需要拆分的数量，点击“确定”按钮，如果背包中还有剩余空位时，物品将按输入的数量分开，如果没有空位，则系统会给予提示。	</content>
+	</item>
+	<item>
+		<id>	219	</id>
+		<index>	96	</index>
+		<parentID>	111	</parentID>
+		<title>	货币	</title>
+		<keys>
+			<item>	货币	</item>
+			<item>	钱	</item>
+			<item>	游戏币	</item>
+			<item>	元宝	</item>
+		</keys>
+		<content>	@S{4}创世2Online为玩家提供了两种记录财富的方式。一种是@L{t=游戏币;m=srch:游戏币;cfc=255,128,64;hfc=255,169,128}、一种是@L{t=元宝;m=srch:元宝;cfc=255,128,64;hfc=255,169,128}。
+@B{2}@S{4}游戏币用金币，银币、铜币划分。其中1金币=100银币；1银币=100铜币。他们是自动进位的，当角色拥有100铜币会自动进位为银币。
+@B{2}@S{4}在很多地方会使用游戏币，它是游戏中货币之一。
+@B{2}@S{4}付费玩家通过@L{t=付费冲值;m=srch:付费冲值;cfc=255,128,64;hfc=255,169,128}可以获得元宝。元宝是游戏中另一种货币的单位。它可以用来购买很多@L{t=增值道具;m=srch:增值道具;cfc=255,128,64;hfc=255,169,128}，完成很多增值功能。	</content>
+	</item>
+	<item>
+		<id>	134	</id>
+		<index>	97	</index>
+		<parentID>	-1	</parentID>
+		<title>	任务系统	</title>
+		<keys>
+			<item>	任务	</item>
+			<item>	任务系统	</item>
+		</keys>
+		<content>	@S{4}游戏中NPC会给予玩家各种任务。帮助NPC解决困难的同时，自己也可以获得很多奖励。	</content>
+	</item>
+	<item>
+		<id>	147	</id>
+		<index>	98	</index>
+		<parentID>	134	</parentID>
+		<title>	任务分类	</title>
+		<keys>
+			<item>	任务	</item>
+			<item>	任务系统	</item>
+			<item>	主线任务	</item>
+			<item>	蓝装换绿装	</item>
+			<item>	帮会	</item>
+			<item>	潜能	</item>
+			<item>	环任务	</item>
+			<item>	指引	</item>
+			<item>	支线	</item>
+			<item>	收集	</item>
+			<item>	师徒	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c45}新手任务@D：游戏角色刚一诞生就会自动进入新手任务环节，用来了解游戏的基本操作。
+@B@S{4}@F{fc=c45}主线任务@D：主线任务贯穿整个游戏的主要故事情节。主线任务会指引玩家一步步探索这个世界。
+@B@S{4}@F{fc=c45}支线任务@D：在升级过程中，会遇到很多NPC，他们需要你帮助，热心地帮助他们，他们会给予你很多意外的回报。
+@B@S{4}@F{fc=c45}指引任务@D：在角色级别到达一定程度后，会获得许多指引任务，用以指引玩家了解并接触许多特色系统。
+@B@S{4}@F{fc=c45}商会任务@D：很多地方你都会看见商会，他们会根据市场需求向你所要一些材料。和他们做生意，你的收益一定不错的。
+@B@S{4}@F{fc=c45}每日任务@D：每日任务一般是杀怪或者收集特定材料， 完成后可以获得非常丰厚的回报，但是每日任务一般都有次数限制。例如讨伐任务、材料任务。
+@B@S{4}@F{fc=c45}环任务@D：不同等级段的玩家可在对应等级环任务NPC处接取循环的环任务。每完成一个环任务都能获得丰富的奖励。
+@B@S{4}@F{fc=c45}潜能任务@D：潜能任务主要是指完成潜能副本获得潜能。各地有不同的NPC发放这样的任务。
+@B@S{4}@F{fc=c45}收集任务@D：不同等级的玩家在对应等级补给点的武器师匠处可以接到关于书卷传记的收集任务。集够传记可以用来获得绿装奖励。
+@B@S{4}@F{fc=c45}声望任务@D：玩家在对应等级补给点接受声望杀怪任务或声望升级任务，完成后可获得该势力的声望、经验和金钱奖励。当声望达到某个阶段，可以在声望商人处购买有声望需求的装备。
+@B@S{4}@F{fc=c45}师徒任务@D：师徒一起修炼获得高额经验和潜能回报的任务。
+@B@S{4}@F{fc=c45}副本任务@D：玩家接取后，需要在副本内完成的任务。
+@B@S{4}@F{fc=c45}帮会任务@D：有帮会的玩家都可以在游戏中的帮会军师处接取帮会任务，帮会任务有许多种，例如帮会建设任务、帮会祭祀任务等。	</content>
+	</item>
+	<item>
+		<id>	222	</id>
+		<index>	99	</index>
+		<parentID>	134	</parentID>
+		<title>	任务追踪	</title>
+		<keys>
+			<item>	任务	</item>
+			<item>	任务系统	</item>
+			<item>	任务追踪	</item>
+			<item>	任务提示	</item>
+			<item>	任务显示	</item>
+			<item>	任务目标	</item>
+		</keys>
+		<content>	@S{4}打开@L{t=任务窗口;m=srch:任务窗口;cfc=255,128,64;hfc=255,169,128}，按Shift左键单击任务名，可以进行任务追踪。在屏幕右边显示有关任务的信息。任务交付之后这个任务的追踪会自动消失。追踪信息包括任务名称、任务目标、完成程度。
+
+@B@S{4}@I{p=maps/help_icons/QuestTrackinterface.gui}	</content>
+	</item>
+	<item>
+		<id>	717	</id>
+		<index>	100	</index>
+		<parentID>	134	</parentID>
+		<title>	可接任务	</title>
+		<keys>
+			<item>	任务查询	</item>
+			<item>	可接任务	</item>
+			<item>	任务	</item>
+		</keys>
+		<content>	@S{4}可接任务是一个任务查询界面，角色可以在这个界面上查询到当前等级下可以接到的任务信息。
+@B@S{4}可接任务页面位于任务界面中，通过“可接任务”分页按钮进入。
+@B@S{4}@I{p=maps/help_icons/kejieQuest2.gui}
+@B@S{4}在可接任务页面之中，左侧为可接任务列表，列表之中显示了角色当前可以接取的所有任务。右侧为任务详细信息，其中包括任务名称，任务所在地，发布NPC，任务等级，并且提供自动寻路及使用引路蜂按钮，帮助玩家快速到达发布NPC处接取任务。
+
+	</content>
+	</item>
+	<item>
+		<id>	151	</id>
+		<index>	101	</index>
+		<parentID>	-1	</parentID>
+		<title>	交际系统	</title>
+		<keys>
+			<item>	人际	</item>
+			<item>	人际关系	</item>
+			<item>	关系	</item>
+			<item>	交际	</item>
+		</keys>
+		<content>	@S{4}网络游戏是个人际的圈子，每一个人都会有自己的人际关系，创世Online为玩家提供了各种与人交际的系统。	</content>
+	</item>
+	<item>
+		<id>	185	</id>
+		<index>	102	</index>
+		<parentID>	151	</parentID>
+		<title>	组队	</title>
+		<keys>
+			<item>	组队	</item>
+			<item>	队伍	</item>
+			<item>	经验	</item>
+			<item>	结拜	</item>
+			<item>	人际关系	</item>
+			<item>	师徒	</item>
+			<item>	拾取	</item>
+		</keys>
+		<content>	@S{4}很多时候要完成一个人无法完成的事情的时候，就需要大家配合完成。创世2为我们提供了一套组队系统。
+@S{4}组队按钮位于玩家头像的圆圈处。
+
+@S{4}组队后大家是可以共享经验，同时可以共享部分任务物品。并且杀怪享受组队经验加成。
+
+@S{12}@I{p=maps/help_icons/MakeTeams.gui}
+
+@S{4}除了参加副本等活动需要，游戏中建立各种@L{t=人际关系;m=srch:人际关系;cfc=255,128,64;hfc=255,169,128}也都需要组队进行，例如@L{t=师徒;m=srch:师徒;cfc=255,128,64;hfc=255,169,128}、@L{t=结拜;m=srch:结拜;cfc=255,128,64;hfc=255,169,128}等等。
+
+@S{4}队长可以设置物品拾取原则，物品可以按照自由拾取、轮流拾取或队长分配。自由拾取任何队伍中角色均可以拾取战利品。轮流拾取则是队伍中角色轮流拥有拾取战利品权限。队长分配是由队长负责将队伍战利品分配给队伍中的成员。
+
+@S{4}如果想离开队伍，可以右键点击自己头像选择“离开队伍”。如果你是队长也可以选择“解散队伍”将队伍解散。
+
+@S{4}如果作为队长想要要求某一位队员离开队伍，可以在这个角色右键菜单中选择“开除队员”让他离开。如果队长有事需要将队长转交，也可以在这个角色右键菜单中选择“提升队长”。	</content>
+	</item>
+	<item>
+		<id>	152	</id>
+		<index>	103	</index>
+		<parentID>	151	</parentID>
+		<title>	人际关系	</title>
+		<keys>
+			<item>	好友	</item>
+			<item>	好友系统	</item>
+			<item>	朋友	</item>
+			<item>	师徒	</item>
+			<item>	拜师	</item>
+			<item>	收徒	</item>
+			<item>	结拜	</item>
+			<item>	黑名单	</item>
+			<item>	仇人	</item>
+			<item>	组队	</item>
+			<item>	增值道具	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c45}好友@D：游戏中遇到了合得来的人，如何结交@L{t=好友;m=srch:好友;cfc=255,128,64;hfc=255,169,128}？创世为我们提供了交友系统。通过添加和删除好友建立好友关系。同时也可以通过添加和删除屏蔽列表中的人完成屏蔽功能。建立自己的好友圈子，为游戏带类更多乐趣。
+
+@S{4}@F{fc=c45}友好度@D：在游戏中结成的好友，会彼此拥有友好度。一起组队杀怪或者互赠玫瑰都可以增加友好度。友好度的大小会关系是否可以结拜。
+@S{4}想知道你与好友的友好度有多少吗？请在好友列表中右键查询信息。
+@S{4}友好度可以通过使用指定@L{t=增值道具;m=srch:增值道具;cfc=255,128,64;hfc=255,169,128}来增加。
+
+@S{4}@F{fc=c45}师徒@D：为了帮助低级玩家快速升级，创世Online为玩家提供了师徒系统。通过建立师徒关系可以帮助低级玩家更快提升等级，同时高级玩家作为师父也可以获得很多奖励。
+@S{4}建立师徒关系要求师父等级大于60级，徒弟等级在10到30级之间。每个角色只能拥有一个师父，一个师父只能同时带3个徒弟。师徒一起练级时，徒弟可以获得额外的经验奖励。徒弟每升级师父就会获得奖励。
+@S{4}师徒关系各种功能都在师徒NPC@L{t=&apos;礼相($xz{10111012})&apos;;m=goto:10111012;cfc=c4;hfc=c3}处完成。
+@S{4}师徒关系不能存在一辈子，到了50-55级徒弟就需要出师了。
+
+@S{4}@F{fc=c45}结拜@D：志同道合的好友，可以在NPC@L{t=&apos;骄杰($xz{10111398})&apos;;m=goto:10111398;cfc=c4;hfc=c3}这里结义金兰。游戏中每个角色只能拥有一个这样的集体，集体中最多有5人。结拜的人将获得特殊称号和组队经验奖励。
+@S{4}@F{fc=c45}不友好@D：游戏中恶意攻击你并击败你的人，会被列入不友好名单。当他/她上线时，你会收到消息。
+
+@S{4}@F{fc=c45}黑名单@D：游戏里如果不想收到某人的消息，那么可以将此人归入黑名单一列。	</content>
+	</item>
+	<item>
+		<id>	161	</id>
+		<index>	104	</index>
+		<parentID>	151	</parentID>
+		<title>	帮会系统	</title>
+		<keys>
+			<item>	帮会	</item>
+			<item>	帮会系统	</item>
+		</keys>
+		<content>	@S{4}庞大的玩家团体，是参加帮会活动、完成帮会任务、学习帮会技能、开展帮会战争的基础。	</content>
+	</item>
+	<item>
+		<id>	163	</id>
+		<index>	105	</index>
+		<parentID>	161	</parentID>
+		<title>	帮会介绍	</title>
+		<keys>
+			<item>	加入帮会	</item>
+			<item>	帮会职务	</item>
+			<item>	帮会	</item>
+			<item>	帮会系统	</item>
+			<item>	帮会技能	</item>
+			<item>	任务	</item>
+			<item>	声望	</item>
+			<item>	技能	</item>
+			<item>	行动力	</item>
+			<item>	建设度	</item>
+			<item>	研究度	</item>
+			<item>	生产度	</item>
+			<item>	贡献度	</item>
+		</keys>
+		<content>	@F{fc=c7}什么是帮会？@D　
+
+@S{4}@F{fc=c45}帮会简介@D
+@S{4}志同道合的玩家走到一起，可以组成一个帮会。
+@S{4}帮会的功能要比家族庞大很多，需要花费很多心思去打理。在帮会中需要合理安排帮会资金和行动力。合理建设、研究、生产等。
+@S{4}帮会可以开启各种活动，例如帮会祭祀，魔物来袭等等。
+
+@S{4}@F{fc=c45}帮会功能@D
+@S{4}在帮会中，大家可以完成帮会日常@L{t=任务;m=srch:任务;cfc=255,128,64;hfc=255,169,128}。可以参与进行帮会建设@L{t=任务;m=srch:任务;cfc=255,128,64;hfc=255,169,128}。可以购买各种帮会产品。可以使用帮会@L{t=仓库;m=srch:仓库;cfc=255,128,64;hfc=255,169,128}。可以学习帮会@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}等等。
+@S{4}这是一个需要所有成员共同创造奇迹的集体。大家付出的同时，也会给大家带来收获。
+
+
+@F{fc=c7}帮会主要参数介绍@D
+
+@S{4}@F{fc=c45}帮会等级：@D根据帮会议事大厅的等级，帮会分为5级。帮会等级标志着帮会的势力。帮会等级是进行某些活动、研发特定技能、吸收更多人员的条件。
+
+@S{4}@F{fc=c45}帮会声望：@D帮会的@L{t=声望;m=srch:声望;cfc=255,128,64;hfc=255,169,128}会决定该帮会的排名、决定该帮会是否具有参与指定活动的资格。完成帮会任务、赢得帮会战争等都可以获得帮会声望。如果有玩家退出帮会或者在帮会战争中失利也将导致帮会声望下降。
+
+@S{4}@F{fc=c45}帮会行动力：@D帮会声望直接影响帮会行动力的获得。帮会声望越高，每天获得的帮会@L{t=行动力;m=srch:行动力;cfc=255,128,64;hfc=255,169,128}就会越多。而帮会行动力的存储上限则和帮会等级有关：帮会行动力是帮会进行建设、生产、研究、开启活动等所消耗的重要数值。
+
+@S{4}@F{fc=c45}帮会贡献度：@D帮会贡献度是“可以在帮会中使用的金钱”，代表一个成员对帮会贡献的多少。使用帮会@L{t=贡献度;m=srch:贡献度;cfc=255,128,64;hfc=255,169,128}可以在帮会商店中购买物品，可以修理装备等等。如果你离开帮会的时候，帮会贡献度也会折合成遣散费发放给你。通过帮助帮会进行建设，参与各种帮会活动可以获得帮会贡献度。
+
+@S{4}@F{fc=c45}帮会建设度：@D当帮会有建筑正在建造或者升级时，建筑建造的速度由“@L{t=建设度;m=srch:建设度;cfc=255,128,64;hfc=255,169,128}”决定。建设度达到满值，建筑升级。
+
+@S{4}@F{fc=c45}帮会研究度：@D当帮会正在学习或升级帮会技能时，学习速度由“@L{t=研究度;m=srch:研究度;cfc=255,128,64;hfc=255,169,128}”决定。研究度达到满值，技能提高。
+
+@S{4}@F{fc=c45}帮会生产度：@D当帮会正在制造某帮会物品时，制造速度由“@L{t=生产度;m=srch:生产度;cfc=255,128,64;hfc=255,169,128}”决定。生产度达到满值，制造完毕。
+	</content>
+	</item>
+	<item>
+		<id>	162	</id>
+		<index>	106	</index>
+		<parentID>	161	</parentID>
+		<title>	帮会管理	</title>
+		<keys>
+			<item>	创建帮会	</item>
+			<item>	会长	</item>
+			<item>	帮会	</item>
+			<item>	帮会系统	</item>
+			<item>	称号	</item>
+			<item>	跑商	</item>
+			<item>	任务	</item>
+			<item>	与NPC对话	</item>
+			<item>	帮会频道	</item>
+		</keys>
+		<content>	@F{fc=c26}帮会的创建和解散@D
+
+@S{4}@F{fc=c45}创建帮会@D
+@S{4}符合条件的玩家在凤鸣帮会管理员@L{t=肖业($xz{10111003});m=goto:10111003;cfc=c4;hfc=c3}。
+@S{4}与NPC对话选择“我要创建帮会”。
+
+
+@S{4}@F{fc=c45}解散帮会@D
+@S{4}如果你是帮主的话，在帮会界面的成员列表中找到自己，右键单击可以打开菜单。选择“解散帮会”后，帮会将会被解散。
+@S{4}如果帮会解散，将意味所有家族各奔东西。成员在帮会中的贡献度将折合成遣散费。如果解散帮会的时候有些成员不在线，系统会用邮件的方式通知他们，并将遣散费一并送出。
+
+
+@F{fc=c26}帮会的管理和发展@D
+
+@S{4}@F{fc=c45}成员管理@D
+@S{4}此项用于用于招收新开除成员。
+@S{4}有权限的帮会成员亦可右键符合招收条件的玩家头像，在弹出菜单中操作。
+
+@S{4}@F{fc=c45}同盟管理@D
+@S{4}打开“同盟管理”界面，在其中输入对方帮会名字可以进行添加、删除同盟的操作。每个帮会只能拥有两个个同盟帮会。
+@S{6}@I{p=maps/help_icons/tongManage3.gui}
+
+@S{4}@F{fc=c45}权限设置@D
+@S{4}帮会成员是否具有招新、宣战、仓库使用、跑商权力等都由权限控制。此项功能由帮主在“权限设置”中设定。
+@S{4}@I{p=maps/help_icons/tongManage4.gui}
+
+@S{4}@F{fc=c45}职务设置@D
+@S{4}在帮会界面中点击“职务设置”按钮。
+@S{4}不同的职务拥有的权力不同，例如可以接取帮会@L{t=跑商;m=srch:跑商;cfc=255,128,64;hfc=255,169,128}任务的，必须拥有帮会的“商人”@L{t=称号;m=srch:称号;cfc=255,128,64;hfc=255,169,128}。
+@S{4}除了职务外，还可以为给指定的成员编写备注。
+
+@S{4}@F{fc=c45}帮会公告@D
+@S{4}在帮会界面中点“帮会公告”按钮则打开公告界面。有帮会权限的成员可以修改其中的信息，点“确定”后，帮会公告将被修改为当前内容。
+
+@S{4}@F{fc=c45}帮会频道@D
+@S{4}有帮会聊天权限的成员可以使用帮会频道进行沟通。
+	</content>
+	</item>
+	<item>
+		<id>	171	</id>
+		<index>	107	</index>
+		<parentID>	161	</parentID>
+		<title>	帮会领地	</title>
+		<keys>
+			<item>	帮会	</item>
+			<item>	帮会系统	</item>
+			<item>	帮会NPC	</item>
+			<item>	修理装备	</item>
+			<item>	修理	</item>
+			<item>	仓库	</item>
+		</keys>
+		<content>	@S{4}每个帮会都会有一个帮会领地，是帮会的根据地，帮会成员们在其中进行建设，生产以及开展各种活动。
+
+@F{fc=c26}在帮会领地中可以修建以下建筑：@D
+@S{4}@F{fc=c45}议事大厅@D：帮会的核心建筑，可在此接受建筑任务和日常任务。这个建筑等级越高，代表帮会等级越高。提高这个建筑等级，是修建其他各种高级建筑的前提条件。最高等级5级。
+@S{4}@F{fc=c45}金库@D：帮会资金存储地方，商人可在此接受跑商任务。提高这个建筑的等级，可以存放帮会资金的上限就会增多。最高等级5级。
+@S{4}@F{fc=c45}神兽殿@D：帮会中供奉神兽的地方。提高这个建筑的等级，可以提高神兽的等级。神兽等级提升，可以明显提高神兽能力。最高等级10级。
+@S{4}@F{fc=c45}仓库@D：帮会中存储物品的地方。建筑等级越高，@L{t=仓库;m=srch:仓库;cfc=255,128,64;hfc=255,169,128}可以存放物品的位置越多。最高等级10级。
+@S{4}@F{fc=c45}铁匠铺@D：享受折扣@L{t=修理;m=srch:修理;cfc=255,128,64;hfc=255,169,128}装备的地方。这个建筑等级越高，享受的折扣越多。最高等级10级。
+@S{4}@F{fc=c45}研究院@D：研究各种帮会技能，使用帮会贡献度学习帮会技能的地方。这个建筑等级越高，可以研究的@L{t=技能;m=srch:技能;cfc=255,128,64;hfc=255,169,128}越多，研究出技能的等级越高。最高等级10级。
+
+@I{p=maps/help_icons/banghuilingdi.gui}
+
+@S{4}升级帮会建筑需要消耗帮会行动力和帮会资金，建筑的建成需要帮会建设度达到要求。	</content>
+	</item>
+	<item>
+		<id>	712	</id>
+		<index>	108	</index>
+		<parentID>	161	</parentID>
+		<title>	帮会任务	</title>
+		<keys>
+			<item>	帮会	</item>
+			<item>	帮会任务	</item>
+		</keys>
+		<content>	@S{4}帮会领地的@F{fc=c39}帮会军师@D会发放一批不同形式的帮会任务。
+
+@S{4}成员完成这些任务，帮会将获得相应的资源增加，如帮会建设度、帮会资金等。同时成员还将获得一定的帮会贡献度及其他奖励。帮会任务包括帮会日常任务，帮会建设任务，帮会跑商任务、帮会祭祀任务等。
+
+	</content>
+	</item>
+	<item>
+		<id>	715	</id>
+		<index>	109	</index>
+		<parentID>	712	</parentID>
+		<title>	帮会建设任务	</title>
+		<keys>
+			<item>	帮会	</item>
+			<item>	帮会任务	</item>
+			<item>	建设任务	</item>
+			<item>	任务	</item>
+			<item>	建设度	</item>
+			<item>	贡献度	</item>
+		</keys>
+		<content>	@S{4}帮会领地中建设新建筑的时候帮会成员可以领到帮会建设任务。玩家通过帮会建设任务，提高该建筑的完成度，直到这个建筑完成。
+
+@F{fc=c26}任务规则@D
+@S{4}帮会领地内当前有建筑正在建造；
+
+@F{fc=c26}任务奖励@D
+@S{4}玩家完成帮会建设任务能获得帮会@L{t=贡献度;m=srch:贡献度;cfc=255,128,64;hfc=255,169,128}与金钱奖励；
+@S{4}帮会会获得不固定的帮会@L{t=建设度;m=srch:建设度;cfc=255,128,64;hfc=255,169,128}奖励。
+	</content>
+	</item>
+	<item>
+		<id>	714	</id>
+		<index>	110	</index>
+		<parentID>	712	</parentID>
+		<title>	帮会跑商任务	</title>
+		<keys>
+			<item>	帮会	</item>
+			<item>	帮会任务	</item>
+			<item>	跑商	</item>
+			<item>	任务	</item>
+			<item>	称号	</item>
+		</keys>
+		<content>	@S{4}帮会@L{t=跑商;m=srch:跑商;cfc=255,128,64;hfc=255,169,128}任务是职位为帮会商人的玩家才可接受并完成的积累帮会资金的任务，商人可在金库的NPC“金库管理员”处接受任务。
+
+@F{fc=c26}任务规则@D
+@S{4}1、玩家拥有“商人”@L{t=称号;m=srch:称号;cfc=255,128,64;hfc=255,169,128}；
+@S{4}2、玩家接受在金库管理员处接受跑商任务之后，需要缴纳一定数量的押金，同时金库管理员也会给予玩家一张银票，银票中有一定数目的金额，玩家使用银票在各地@F{fc=c39}特产商@D之间进行倒买倒卖，当在特产商处购买物品时，将花费银票中的金额，当在特产商处卖出物品时，将增加这个金额，当银票中的金额达到任务要求的金额后，任务完成。
+@S{4}3、跑商任务一共分为5种等级，1级商到5级商。每级商都有不同的等级要求和完成奖励。
+@S{4}4、每个帮会每天允许的跑商次数是固定的。帮会等级越高，每天可完成的跑商次数越多。
+
+@F{fc=c26}任务奖励@D
+@S{4}玩家完成跑商任务后可获得大量的金钱奖励，而帮会也会因此获得帮会资金。
+
+@F{fc=c26}注意事项@D
+@S{4}跑商可能会遇到“劫匪”。	</content>
+	</item>
+	<item>
+		<id>	768	</id>
+		<index>	111	</index>
+		<parentID>	712	</parentID>
+		<title>	帮会祭祀任务	</title>
+		<keys>
+			<item>	帮会	</item>
+			<item>	任务	</item>
+			<item>	祭祀任务	</item>
+			<item>	帮会任务	</item>
+			<item>	行动力	</item>
+			<item>	建设度	</item>
+			<item>	生产度	</item>
+			<item>	贡献度	</item>
+		</keys>
+		<content>	@S{4}帮会祭祀是全体帮会成员上下一心共同对帮会成长做出贡献的任务，每周一次。
+
+
+@F{fc=c26}任务规则@D
+@S{4}1、每周日，帮主花费30点帮会行动力，申请开启帮会祭祀活动。
+@S{4}2、活动开始之后，帮会中所有成员需要齐心合力一起完成200个任务。
+
+
+@F{fc=c26}任务奖励@D
+@S{4}1、活动成功结束后，帮会领地中将出现易宝仙人。帮会成员可以用装备和他交换帮会@L{t=贡献度;m=srch:贡献度;cfc=255,128,64;hfc=255,169,128}。而且有很大几率可以获得装备强化道具。
+@S{4}2、帮会可以随机获得一周的增益状态。包括@L{t=建设度;m=srch:建设度;cfc=255,128,64;hfc=255,169,128}加速增长、@L{t=生产度;m=srch:生产度;cfc=255,128,64;hfc=255,169,128}加速增长、@L{t=行动力;m=srch:行动力;cfc=255,128,64;hfc=255,169,128}加速恢复等。	</content>
+	</item>
+	<item>
+		<id>	172	</id>
+		<index>	112	</index>
+		<parentID>	-1	</parentID>
+		<title>	聊天功能	</title>
+		<keys>
+			<item>	聊天	</item>
+			<item>	聊天功能	</item>
+		</keys>
+		<content>	@S{4}游戏也是小世界，玩家之间有各种@L{t=人际关系;m=srch:人际关系;cfc=255,128,64;hfc=255,169,128}。玩家之间的在线交流主要是通过聊天功能实现的。
+@S{4}屏幕左下方为@L{t=聊天;m=srch:聊天;cfc=255,128,64;hfc=255,169,128}及系统信息窗口。聊天及系统信息栏分为4部分。最下面的一排为功能区。在功能区中，最左边为频道选择按钮，点击可选择所需频道。中间为聊天信息输入框，可在此输入聊天信息，最右边边一个笑脸按钮为表情发送按钮，点此按钮可以打开表情窗口，选择表情将会出现在发送栏中。上面一大块则为信息显示区，各种信息都将在此显示。
+
+@I{p=maps/help_icons/liaotian3.gui}
+@S{14}@F{fc=c45}1：@D聊天分页
+@S{14}@F{fc=c45}2：@D分页设置
+@S{14}@F{fc=c45}3：@D发送广播
+@S{14}@F{fc=c45}4：@D聊天记录
+@S{14}@F{fc=c45}5：@D频道设置
+@S{14}@F{fc=c45}6：@D聊天记录翻页
+@S{14}@F{fc=c45}7：@D聊天记录翻至底部
+@S{14}@F{fc=c45}8：@D隐藏聊天窗口
+@S{14}@F{fc=c45}9：@D频道选择
+@S{14}@F{fc=c45}10：@D密语频道
+@S{14}@F{fc=c45}11：@D输入内容
+@S{14}@F{fc=c45}12：@D表情
+@S{14}@F{fc=c45}13：@D人物行为栏
+
+	</content>
+	</item>
+	<item>
+		<id>	761	</id>
+		<index>	113	</index>
+		<parentID>	172	</parentID>
+		<title>	聊天频道	</title>
+		<keys>
+			<item>	聊天	</item>
+			<item>	聊天频道	</item>
+			<item>	地图	</item>
+			<item>	队伍	</item>
+			<item>	组队	</item>
+			<item>	帮会	</item>
+		</keys>
+		<content>	@S{4}玩家按回车后键入文字，发送的信息都将在屏幕左下方的聊天及系统信息窗口处显示。
+
+@F{fc=c26}附近频道@D
+@S{4}附近聊天就是指说话给周围的人听。所以能接收到的范围是发言角色周围50米内。聊天的字体的白色，可以添加表情。不过不能重复相同的发言多次，否则会被禁止聊天。这是最频繁使用的聊天频道，也是进入游戏之后的默认频道。点击输入框最左边下拉列表选择可以切换频道。
+
+@F{fc=c26}队伍频道@D
+@S{4}队伍频道就是指一个@L{t=队伍;m=srch:队伍;cfc=255,128,64;hfc=255,169,128}中的玩家互相交流的频道。当然首先要在一个组队中，发言时全队伍中的人都能听到。在同一个组队中的人可以发言并且可以看到队友发言，但是其他人就不能看到了。加入组队中，点击输入框最左边下拉列表选择可以切换频道。
+
+@F{fc=c26}帮会频道@D
+@S{4}帮会频道为同一个@L{t=帮会;m=srch:帮会;cfc=255,128,64;hfc=255,169,128}的人提供交流的频道。如果玩家没有加入任何帮会将不能参与帮会聊天。如果加入了一个帮会之后，点击输入框最左边下拉列表选择可以切换频道，就可以进行帮会聊天了。帮会频道中的信息只能是本帮会人能看到，其他帮会成员不能看到。
+
+@F{fc=c26}家族频道@D
+@S{4}家族频道为同一个家族的人提供交流的频道。如果玩家没有加入任何家族将不能参与家族聊天。如果加入了一个家族之后，点击输入框最左边下拉列表选择可以切换频道，就可以进行家族聊天了。家族频道中的信息只能是本家族人能看到，其他家族成员不能看到。
+
+@F{fc=c26}世界频道@D
+@S{4}在世界频道里的发言可以传送到世界每一个角落。我们可以在这里发布@L{t=组队;m=srch:组队;cfc=255,128,64;hfc=255,169,128}信息，交易信息等。角色大于20级才能在世界频道中发言。在世界频道发言每次需要消耗5银。
+
+@F{fc=c26}密语频道@D
+@S{4}如果需要和某一位玩家进行对话，又不希望其他人打扰，我们可以使用私聊频道。在聊天输入框左边，有一个输入其他角色名字的地方。在这里输入希望能对话的角色名字，在后边输入聊天内容，发送之后对方就可以看到了。同时你也可以随时接收其他角色发给你的私聊内容。私聊没有距离限制，而且其他角色也不能看见，只要对方在线就可以进行。
+@S{4}一次在线，游戏会自动保存这次在线的私聊角色名列表。可以通过私聊角色名旁边的下拉列表选择曾经进行过对话的角色再次进行聊天，方便输入。
+@S{4}@L{t=好友;m=srch:好友;cfc=255,128,64;hfc=255,169,128}之间还可以用单独的窗口私聊。
+
+@F{fc=c26}本地频道@D
+@S{4}使用本地频道可以使同一@L{t=地图;m=srch:地图;cfc=255,128,64;hfc=255,169,128}的所有玩家都看到你发的消息。
+
+@F{fc=c26}玩家广播@D
+@S{4}玩家向全世界发送的不可屏蔽信息。发送需要消耗天音号角或地音号角。
+
+@S{4}@F{fc=c45}提示：玩家可以根据自己喜好随意更换聊天频道的字体颜色。@D	</content>
+	</item>
+	<item>
+		<id>	762	</id>
+		<index>	114	</index>
+		<parentID>	172	</parentID>
+		<title>	聊天设置	</title>
+		<keys>
+			<item>	聊天	</item>
+			<item>	设置	</item>
+			<item>	界面	</item>
+		</keys>
+		<content>	@S{4}@L{t=聊天;m=srch:聊天;cfc=255,128,64;hfc=255,169,128}面板可以根据个人喜好进行@L{t=设置;m=srch:设置;cfc=255,128,64;hfc=255,169,128}。
+
+
+@F{fc=c26}界面设置@D
+
+@S{4}1、将鼠标移动至聊天界面边缘，会出现左右箭头符号，拖动箭头可以调整大小。
+@S{4}2、在聊天界面中右键鼠标，可以在弹出菜单中设置字体显示颜色和界面底色。
+
+
+@F{fc=c26}内容过滤@D
+
+@S{4}1、玩家可以自行设置标签页，在不同的标签页中选择不同的收听内容。
+@S{4}2、在任意标签页中可以选择只显示一个或多个频道的聊天内容。
+
+
+@F{fc=c26}聊天记录@D
+
+@S{4}1、玩家可以将本次在线的聊天内容保存到本地。
+@S{4}2、保存内容可以根据自己选择的频道进行过滤，只选择有用的信息。
+	</content>
+	</item>
+	<item>
+		<id>	181	</id>
+		<index>	115	</index>
+		<parentID>	-1	</parentID>
+		<title>	交易	</title>
+		<keys>
+			<item>	交易	</item>
+			<item>	买卖东西	</item>
+		</keys>
+		<content>	@S{4}游戏中很多时候要进行物品交换。创世Online为大家提供了2种交易方式：直接交易、在摆摊区开店@L{t=买卖东西;m=srch:寄买卖东西;cfc=255,128,64;hfc=255,169,128}。摆摊还可以使用“@L{t=寄售替身卡;m=srch:寄售替身卡;cfc=255,128,64;hfc=255,169,128}”代替自己开店。	</content>
+	</item>
+	<item>
+		<id>	182	</id>
+		<index>	116	</index>
+		<parentID>	181	</parentID>
+		<title>	直接交易	</title>
+		<keys>
+			<item>	交易	</item>
+			<item>	直接交易	</item>
+			<item>	宠物交易	</item>
+			<item>	物品交易	</item>
+		</keys>
+		<content>	@S{4}直接交易分为物品交易和宠物交易。
+
+@S{4}@F{fc=c26}物品交易@D：在对方角色右键菜单中选择“请求物品交易”。交易开始，交易窗口打开。交易窗口分为两部分，一部分是对方窗口，展示对方放入金钱和物品；另一边为自己放入金钱和物品的窗口。
+@S{4}双方放入金钱和物品，首先要锁定交易。交易锁定之后将不能改变交易窗口中的物品。在锁定之后确认自己希望交易的物品没有错误之后点交易，交易成功。如果在交易期间任何一方发生意外，或取消交易，本次交易作废，物品和金钱返还。
+@S{4}绑定的物品不可以用于交易。
+
+@S{4}@F{fc=c26}宠物交易@D：在对方角色右键菜单中选择“请求宠物交易”。交易开始，宠物交易窗口打开。选择自己希望交易的宠物，玩家可以在交易窗口中看到该宠物的详细信息。和普通交易一样，选择锁定、交易，交易完成。
+@S{4}绑定的宠物不可以交易。	</content>
+	</item>
+	<item>
+		<id>	183	</id>
+		<index>	117	</index>
+		<parentID>	181	</parentID>
+		<title>	摆摊交易	</title>
+		<keys>
+			<item>	交易	</item>
+			<item>	摆摊交易	</item>
+			<item>	摆摊	</item>
+			<item>	摆摊功能	</item>
+			<item>	寄售替身	</item>
+			<item>	收购	</item>
+			<item>	与NPC对话	</item>
+			<item>	出售	</item>
+			<item>	店铺查询	</item>
+		</keys>
+		<content>	@S{4}玩家可以在特定地点开设商店，等待顾客上门。
+
+
+@F{fc=c26}我是卖家@D
+
+@S{4}@F{fc=c45}如何开店@D
+@S{4}1、开店需要在指定的摆摊区。
+@S{4}2、点击@L{t=包裹;m=srch:包裹;cfc=255,128,64;hfc=255,169,128}下方的“摆摊”按钮或按“@F{fc=c45}V@D”键，摆摊界面和包裹界面会同时打开。
+@S{4}3、出售物品。将想要@L{t=出售;m=srch:出售;cfc=255,128,64;hfc=255,169,128}的物品拖放（或右键点击）放入摆摊界面中并输入价格。
+@S{4}4、出售宠物。在宠物出售分页中，选择要出售的宠物并点选上架。
+
+@S{4}@F{fc=c45}价格输入@D
+@S{4}输入的价格为总价，不是单价。请各位注意。
+
+@S{4}@F{fc=c45}如何关店@D
+@S{4}1、点击摆摊界面的“收摊走人”，物品将被放回包囊中。
+@S{4}2、如果在摆摊过程中角色进行任何动作，摆摊将结束。
+
+
+
+@F{fc=c26}我是买家@D
+
+@S{4}@F{fc=c45}逛街浏览@D
+@S{4}如果你现在希望光顾别人的商店，你可以点击他，就像@L{t=与NPC对话;m=srch:与NPC对话;cfc=255,128,64;hfc=255,169,128}一样。这时候就会弹出商品栏。鼠标悬停在物品上时就会自动弹出物品属性和价格。和在NPC@L{t=买卖东西;m=srch:买卖东西;cfc=255,128,64;hfc=255,169,128}一样购买其中物品。
+
+@S{4}@F{fc=c45}开店收购@D
+@S{4}1、只能@L{t=收购;m=srch:收购;cfc=255,128,64;hfc=255,169,128}可以交易的物品。
+@S{4}2、在摆摊界面中，选择“物品收购”，根据类别选择物品，设定价格后上架。
+
+@S{4}@F{fc=c45}店铺查询@D
+@S{4}专为懒人准备的一站式便捷仓储货运一条龙服务。通过店铺查询功能直接通览当前所有开张中的店铺信息。
+
+
+
+@F{fc=c26}想开店却又无法摆摊@D
+
+@S{4}如果不想自己摆摊，可以购买商城道具“@F{fc=c45}寄售替身卡@D”使用替身为自己摆摊。	</content>
+	</item>
+	<item>
+		<id>	764	</id>
+		<index>	118	</index>
+		<parentID>	181	</parentID>
+		<title>	NPC寄售	</title>
+		<keys>
+			<item>	寄售	</item>
+			<item>	寄售替身	</item>
+			<item>	收购	</item>
+		</keys>
+		<content>	@F{fc=c26}寄售有什么用？@D
+
+@S{4}想处理手里大量的精品，但又杂务缠身抽不出时间来摆摊怎么办？想收购必需的道具，但是自己不愿意一直挂机等待卖家怎么办？？让NPC来帮你吧，雇个NPC来帮你摆摊叫卖，而你自己可以想去哪去哪，想做什么做什么，两全齐美，谁说鱼和熊掌不可兼得？
+
+@S{4}强大的寄售替身卡，解放你的双手和四肢，随便去打怪升级玩乐吧，把该卖的、该买的东西交给你的“替身”NPC，它会在24小时内为你看管好你的店铺。
+@S{4}而你要做的，只是在72小时内，领取自己的商品和金钱。
+	</content>
+	</item>
+	<item>
+		<id>	765	</id>
+		<index>	119	</index>
+		<parentID>	181	</parentID>
+		<title>	店铺查询	</title>
+		<keys>
+			<item>	店铺查询	</item>
+			<item>	开店	</item>
+			<item>	寄售	</item>
+		</keys>
+		<content>	@S{4}想买东西又懒得上街怎么办？
+@S{4}想买东西可以店铺太多，看得头昏眼花怎么办？
+@S{4}一切好办！交给“店铺查询”！
+
+@S{4}点击小地图外面一圈左上角第一个按钮，选择“店铺查询”。
+@S{4}在相应选项中选择自己想买的商品类型，然后搜索~同类商品还可以按照价格、品质等进行排序，绝不让你吃亏上当。
+@S{4}你还可以使用“店主查询”功能关注指定玩家的商店。
+
+@S{4}@F{fc=c7}注意：此按钮也是玩家使用寄售替身卡开店时，领取寄售所得的功能键。@D	</content>
+	</item>
+	<item>
+		<id>	741	</id>
+		<index>	120	</index>
+		<parentID>	181	</parentID>
+		<title>	元宝寄售	</title>
+		<keys>
+			<item>	交易	</item>
+			<item>	元宝	</item>
+			<item>	元宝交易	</item>
+			<item>	寄售	</item>
+		</keys>
+		<content>	@S{4}玩家可在商城界面中点击“元宝交易”就能看到元宝交易界面。元宝交易系统中有5个分页，分别是寄售列表、求购列表、订单发布、交易记录和订单操作。
+
+@F{fc=c26}寄售列表@D:
+@S{4}玩家可在列表中查看@L{t=元宝;m=srch:元宝;cfc=255,128,64;hfc=255,169,128}寄售的所有订单，选择合适的订单购买需要的元宝。
+
+@F{fc=c26}求购列表@D：
+@S{4}玩家可在列表中查看元宝求购的所有订单，选择合适的订单出售自己的元宝。
+
+@F{fc=c26}订单发布@D：
+@S{4}玩家可在此栏对寄售元宝和购买元宝进行设置，设置完毕点击下方的确认按钮，即在在“ 寄售列表 / 求购列表 ”中看到你的订单信息。
+
+@F{fc=c26}交易记录@D：
+@S{4}玩家可在此栏中查看自己的交易记录。
+
+@F{fc=c26}订单操作@D：
+@S{4}玩家可在此栏对自己正在挂单状态的订单进行操作。
+
+@S{4}@F{fc=c45}本功能开放时间请关注官网！@D 
+	</content>
+	</item>
+	<item>
+		<id>	193	</id>
+		<index>	121	</index>
+		<parentID>	-1	</parentID>
+		<title>	宠物	</title>
+		<keys>
+			<item>	宠物	</item>
+			<item>	宠物系统	</item>
+			<item>	宝宝	</item>
+		</keys>
+		<content>	@S{4}宠物是游戏中必不可少的忠诚伴侣。
+
+@S{4}它们不仅仅可以给我们提供共同成长的乐趣，同时也跟随我们一起战斗。通过@L{t=宠物控制栏;m=srch:宠物控制栏;cfc=255,128,64;hfc=255,169,128}、@L{t=宠物窗口;m=srch:宠物窗口;cfc=255,128,64;hfc=255,169,128}来管理我们的宠物。	</content>
+	</item>
+	<item>
+		<id>	194	</id>
+		<index>	122	</index>
+		<parentID>	193	</parentID>
+		<title>	宠物分类	</title>
+		<keys>
+			<item>	宠物分类	</item>
+			<item>	宠物种类	</item>
+			<item>	宠物	</item>
+			<item>	宝宝	</item>
+		</keys>
+		<content>	@S{4}宠物分为成年宠物、宠物宝宝。
+
+@F{fc=c7}从属性角度@D
+@S{4}分为类似@L{t=战士;m=srch:战士;cfc=255,128,64;hfc=255,169,128}的“力量型”、类似@L{t=射手;m=srch:射手;cfc=255,128,64;hfc=255,169,128}的“敏捷型”、类似@L{t=法师;m=srch:法师;cfc=255,128,64;hfc=255,169,128}的“智慧型”和类似@L{t=剑客;m=srch:剑客;cfc=255,128,64;hfc=255,169,128}的“均衡型”。
+
+@F{fc=c7}从性格角度@D
+@S{4}分为稳重、聪慧、精明、勇敢、活泼。
+
+@F{fc=c7}从攻击模式角度@D
+@S{4}分为物理攻击型和法术攻击型。	</content>
+	</item>
+	<item>
+		<id>	195	</id>
+		<index>	123	</index>
+		<parentID>	193	</parentID>
+		<title>	捕捉宠物	</title>
+		<keys>
+			<item>	宠物获得	</item>
+			<item>	捕捉宠物	</item>
+			<item>	获得宠物	</item>
+			<item>	捕捉宠物	</item>
+			<item>	宠物	</item>
+			<item>	宝宝	</item>
+		</keys>
+		<content>	@F{fc=c26}野生宠物的捕捉方式@D
+
+@S{4}@F{fc=c45}捕捉：@D只要玩家的等级高于怪物携带等级，使用对应等级的捕捉工具，就可以捕捉了。不同等级的野生宠物需要使用不同的捕捉道具。
+
+@S{4}@F{fc=c45}交易：@D通过宠物交易，对方将宠物直接交易给你。通过交易获得的宠物如果等级比角色本身高5级以上，则不能出战。
+
+
+@F{fc=c26}珍宠的获得方式@D
+
+@S{4}副本及活动都会产出珍宠。珍宠无法被捕捉，游戏中不同的珍宠，获得途径也各不相同。
+
+
+@F{fc=c26}宠物携带@D
+
+@S{4}每位角色初始阶段只能携带3只宠物。购买使用“@F{fc=c45}驾御神典@D”可以提高一个宠物携带数量，“驾御神典”最多可以使用3本，也就是说每个角色最多可以携带6个宠物。	</content>
+	</item>
+	<item>
+		<id>	199	</id>
+		<index>	124	</index>
+		<parentID>	193	</parentID>
+		<title>	宠物战斗	</title>
+		<keys>
+			<item>	宠物战斗	</item>
+			<item>	宠物	</item>
+			<item>	宝宝	</item>
+		</keys>
+		<content>	@S{4}宠物战斗可以根据主人在@L{t=宠物控制栏;m=srch:宠物控制栏;cfc=255,128,64;hfc=255,169,128}中的设置分为3种。
+
+@F{fc=c26}主动姿态：@D
+@S{4}主人给宠物最大的权限，让他可以主动攻击主人周围一定范围内的敌意生物。如果一个目标死亡，将主动寻找下一个目标。直到主人下达明确停止的指令。
+
+@F{fc=c26}防御姿态：@D
+@S{4}处于防御姿态的宠物只会攻击对主人有敌意的目标。主要是指攻击主人的目标或主人正在攻击的目标。
+
+@F{fc=c26}被动姿态：@D
+@S{4}当宠物处于被动姿态时，它将仅仅执行主人的命令，不会有任何主动行为。
+
+@S{4}通过调整宠物姿态可以改变宠物攻击的主动性。同时选择目标之后使用@L{t=宠物快捷键;m=srch:宠物快捷键;cfc=255,128,64;hfc=255,169,128}使用“攻击”也可以让宠物进行有效的战斗。	</content>
+	</item>
+	<item>
+		<id>	197	</id>
+		<index>	125	</index>
+		<parentID>	193	</parentID>
+		<title>	宠物技能	</title>
+		<keys>
+			<item>	宠物	</item>
+			<item>	宝宝	</item>
+			<item>	宠物技能	</item>
+		</keys>
+		<content>	@S{4}宠物技能分为主动技能和天赋技能。
+
+@F{fc=c26}主动技能@D
+@S{4}主动技能都是可以自动释放和手动释放的攻击技能。主动技能与宠物职业有关，宠物无法学习不同职业的主动技能。
+
+@F{fc=c26}天赋技能@D
+@S{4}天赋技能是宠物的自身特性技能，属于被动技能，只在出生时产生。天赋技能影响到自己的属性和战斗结果，宠物在出战状态下自动生效。
+
+
+@S{4}宠物技能有很多，你可以在与你的宠物相处中慢慢发现。主要可以分为攻击敌人，保护主人。	</content>
+	</item>
+	<item>
+		<id>	198	</id>
+		<index>	126	</index>
+		<parentID>	193	</parentID>
+		<title>	宠物操作	</title>
+		<keys>
+			<item>	宠物	</item>
+			<item>	宠物操作	</item>
+			<item>	宝宝	</item>
+		</keys>
+		<content>	@S{4}@L{t=选择目标;m=srch:选择目标;cfc=255,128,64;hfc=255,169,128}，点@L{t=宠物快捷键;m=srch:宠物快捷键;cfc=255,128,64;hfc=255,169,128}宠物就会按照指示进行动作了。
+
+@S{4}详情请点击@L{t=宠物控制栏;m=srch:宠物控制栏;cfc=255,128,64;hfc=255,169,128}查看。
+	</content>
+	</item>
+	<item>
+		<id>	196	</id>
+		<index>	127	</index>
+		<parentID>	193	</parentID>
+		<title>	宠物属性	</title>
+		<keys>
+			<item>	宠物	</item>
+			<item>	宝宝	</item>
+			<item>	宠物属性	</item>
+			<item>	宠物状态	</item>
+		</keys>
+		<content>	@S{4}宠物具有的特殊属性是灵性、根骨、寿命和快乐。
+
+@S{2}@I{p=maps/help_icons/petInterface2.gui}
+@S{8}@F{fc=c45}1：@D技能栏
+@S{8}@F{fc=c45}2：@D各项属性
+@S{8}@F{fc=c45}3：@D各种操作按钮
+
+@S{4}灵性是衡量宠物等级的另一个标准，灵性高基本属性就比较高。通过捕捉其他宠物进行合成可以提高宠物灵性。
+
+@S{4}根骨就相当于灵性的经验值。当根骨升级时，灵性也将提升一个等级。
+
+@S{4}每次宠物战败都会使寿命降低，寿命为0时宠物将真正死亡永远不能出战。不过可以通过购买@F{fc=c45}延寿丹@D来延长宠物寿命。
+
+@S{4}宠物快乐表现为宠物是否乐意为玩家作战。快乐度比较高的时候宠物攻击力会有提升，快乐度太低宠物可是会罢工的哦。通过驯养可以提高快乐度（宠物驯养使用@F{fc=c45}布娃娃@D），所以要随时注意宠物的状态啊。	</content>
+	</item>
+	<item>
+		<id>	201	</id>
+		<index>	128	</index>
+		<parentID>	193	</parentID>
+		<title>	宠物代练	</title>
+		<keys>
+			<item>	宠物	</item>
+			<item>	宝宝	</item>
+			<item>	宝石	</item>
+			<item>	宠物喂养	</item>
+			<item>	宠物代练	</item>
+		</keys>
+		<content>	@S{4}宠物代练功能主要依托与@L{t=代练界面;m=srch:代练宝石界面;cfc=c29;hfc=c7}实现。主要是使用宠物代练，将经验喂养给宠物快速提高宠物等级的功能。
+
+@S{4}角色20级之后可以在宠物保育员NPC那里开启经验代练界面，开启之后付费玩家可以点击@L{t=宠物代练界面;m=srch:宠物代练界面;cfc=c29;hfc=c7}中的“冲值”按钮，给经验代练冲入时间。如果代练界面中有剩余时间就可以开始代练了。无论角色是否在线，只需要选择“普通代练”和“刻苦代练”就可以开始给冲经验了。“普通代练”消耗时间比“刻苦代练”消耗时间少，但是收获也相对较少。
+
+@S{4}如果经验代练界面中有经验的时候，可以通过“吸经验”选项将经验喂给宠物。点击“吸经验”按钮，选择宠物之后宠物就可以得到经验了。
+
+@S{4}宠物每级可通过代练获得该级经验的10%。	</content>
+	</item>
+	<item>
+		<id>	200	</id>
+		<index>	129	</index>
+		<parentID>	193	</parentID>
+		<title>	宠物道具	</title>
+		<keys>
+			<item>	宠物	</item>
+			<item>	宠物道具	</item>
+			<item>	宝宝	</item>
+			<item>	宠物药品	</item>
+			<item>	道具	</item>
+		</keys>
+		<content>	@F{fc=c26}宠物药品@D
+@S{4}宠物在战斗中会损失生命和法力。就像人物使用物品一样可以使用药剂进行补充。我们可以用游戏币在宠物商人处购买一些普通药剂，也可以通过收费商人，购买高级药剂。
+
+
+@F{fc=c26}技能书@D
+@S{4}宠物需要获得技能就要在宠物商人处购买技能卷轴。如果希望忘记技能就需要购买忘忧丹。合理使用@L{t=宠物技能;m=srch:宠物技能;cfc=255,128,64;hfc=255,169,128}才能发挥宠物真正的力量。
+
+
+@F{fc=c26}还童道具@D
+@S{4}使用之后可以使宠物重生重新培养、或遗忘技能重新学习的一系列道具。
+
+
+@F{fc=c26}驾御宝典@D
+@S{4}使用驾御宝典之后玩家可以增加一个宠物携带量。但是每个角色最多使用3个。
+
+
+@F{fc=c26}强化道具@D
+@S{4}帮助提高强化宠物属性点的道具。例如强化符、魂魄石、点化符、精炼符等。
+
+
+@F{fc=c26}喂养道具@D
+@S{4}宠物的快乐度会随着出战时间逐渐降低，宠物的寿命也会逐渐降低，因此需要对宠物不断地进行喂养。
+@S{4}当宠物快乐度降低时，需要给宠物使用“布娃娃”。
+@S{4}当宠物寿命不足时，需要给宠物使用“延寿丹”。	</content>
+	</item>
+	<item>
+		<id>	206	</id>
+		<index>	130	</index>
+		<parentID>	193	</parentID>
+		<title>	宠物交易与寄存	</title>
+		<keys>
+			<item>	宠物交易	</item>
+			<item>	交易	</item>
+			<item>	宠物	</item>
+			<item>	宝宝	</item>
+		</keys>
+		<content>	@F{fc=c26}宠物交易@D 
+
+@S{4}在@L{t=交易;m=srch:交易;cfc=255,128,64;hfc=255,169,128}界面中，点击“宠物交易”按钮就会弹出宠物交易菜单了。和普通物品一样进行@L{t=直接交易;m=srch:直接交易;cfc=255,128,64;hfc=255,169,128}就可以了。
+@S{4}绑定的宠物的不可以交易和出售。
+
+
+@F{fc=c26}宠物寄存@D 
+
+@S{4}在@L{t=&apos;宠物保育员($xz{10111013})&apos;;m=goto:10111013;cfc=c4;hfc=c3}处花费一定元宝就可以租得一个@L{t=仓库;m=srch:仓库;cfc=255,128,64;hfc=255,169,128}，仓库有大有小，玩家可以将宠物寄存在仓库中。
+@S{4}仓库有一定期限，过期之后便只能取不能存。	</content>
+	</item>
+	<item>
+		<id>	203	</id>
+		<index>	131	</index>
+		<parentID>	193	</parentID>
+		<title>	宠物的合成和强化	</title>
+		<keys>
+			<item>	宠物	</item>
+			<item>	宠物合成	</item>
+			<item>	灵性	</item>
+			<item>	宝宝	</item>
+			<item>	宠物强化	</item>
+		</keys>
+		<content>	@S{4}宠物并不是一成不变的，我们可以通过多种途径培养我们的宠物，使之迅速成长，对我们的帮助也会越来越大，最终成为我们不可或缺的伙伴。
+@S{4}宠物能力的提升有四种途径：一是自然升级，二是提升技能，三是宠物合成，四是宠物强化。
+
+
+@F{fc=c26}自然升级@D
+@S{4}宠物升级主要的途径是让宠物与你一起战斗，获得经验而升级，当你完成任务时将宠物带在身边的话，宠物也能获得经验升级，或者还可以使用宠物代练功能让宠物快速升级。
+
+
+@F{fc=c26}提升技能@D
+@S{4}不同职业的宠物可以学习不同的技能。所有的技能都有等级之分。高等级的技能只有高等级的宠物才可掌握。
+
+
+@F{fc=c26}宠物合成@D
+@S{4}1、所有宠物（成年宠物、宠物宝宝）都可以通过合成来提高根骨值。
+@S{4}2、只有最高灵性等级不为0的成年宠物才可以作为合成材料，宠物宝宝不能用做合成材料。
+@S{4}3、要提升根骨的宠物必须处在出战状态。
+@S{4}4、材料宠物不能低于合成对象5级以上。例如，要提升根骨的宠物是25级，则材料宠物必须大于等于20级。
+
+
+@F{fc=c26}宠物强化@D
+@S{4}1、宠物的四项基本属性（力量、智力、敏捷、体质）可以通过使用“魂魄石”进行强化。
+@S{4}2、魂魄石是进行宠物强化的必需道具。魂魄石装备在玩家身上后，会随着打怪的经验逐渐吸满。
+@S{4}3、在宠物界面中使用充满的魂魄石可以进行宠物强化。强化之后的宠物属性会有提高。但是宠物每个属性强化次数是有限制的。
+
+	</content>
+	</item>
+	<item>
+		<id>	189	</id>
+		<index>	132	</index>
+		<parentID>	-1	</parentID>
+		<title>	邮件	</title>
+		<keys>
+			<item>	邮件	</item>
+			<item>	信件	</item>
+			<item>	邮箱	</item>
+			<item>	信	</item>
+		</keys>
+		<content>	</content>
+	</item>
+	<item>
+		<id>	190	</id>
+		<index>	133	</index>
+		<parentID>	189	</parentID>
+		<title>	邮件收发	</title>
+		<keys>
+			<item>	邮件收发	</item>
+			<item>	邮件	</item>
+			<item>	邮箱	</item>
+			<item>	写信	</item>
+			<item>	发信	</item>
+			<item>	发送邮件	</item>
+			<item>	收信	</item>
+			<item>	收邮件	</item>
+			<item>	邮寄	</item>
+		</keys>
+		<content>	@S{4}各地会有邮箱，提供邮件的收发。@L{t=与NPC对话;m=srch:与NPC对话;cfc=255,128,64;hfc=255,169,128}一样打开邮箱。首先看到的是收件箱。收件箱中列出了一个列表，列出了现存的所有邮件。第一列为邮件名称，第二列为发信人名字，第三列为还会保存的日期。点击某邮件名就会打开这封信。
+
+@S{4}在“查看信件”窗口中，首先是邮件主题和发信人，发信内容。随后列出了保存时间。后边2个物品格为邮寄物品或金钱欲留位置。最下边有一个“删除”按钮，可以将此封邮件删除。删除时如果邮件中还包含了未提取出来的物品，那物品也将删除。
+
+@S{4}点邮箱下方的分页按钮，选择“写信”进入写信界面。在这个界面里，分别填写收信人名字，邮件主题，内容。如果需要可以在下边物品位放置想要发送的物品、金钱，点击“发送”即可。	</content>
+	</item>
+	<item>
+		<id>	192	</id>
+		<index>	134	</index>
+		<parentID>	189	</parentID>
+		<title>	邮件保存及过期	</title>
+		<keys>
+			<item>	保存时间	</item>
+			<item>	邮件	</item>
+			<item>	邮件保存时间以及处理办法	</item>
+			<item>	垃圾邮件	</item>
+			<item>	收件箱	</item>
+			<item>	邮箱	</item>
+		</keys>
+		<content>	@S{4}邮件发送到对方接收一般需要一小时。当收到新邮件之后在小地图旁边会有提示。玩家可以在邮箱进行收取。
+
+@S{4}有附件的邮件保存期为7天。如果7天玩家没有阅读过此邮件，那么在7天之后将邮件退回。如果已经阅读或者是GM或寄售系统发来的邮件，保存7天后将被自动删除。
+
+@S{4}没有附件的邮件，阅读过保留两小时。	</content>
+	</item>
+	<item>
+		<id>	730	</id>
+		<index>	135	</index>
+		<parentID>	-1	</parentID>
+		<title>	在线商城	</title>
+		<keys>
+			<item>	商城	</item>
+			<item>	元宝	</item>
+			<item>	交易	</item>
+		</keys>
+		<content>	@S{4}欢迎各位光临《创世2》在线商城！在线商城里精心设计了大量以丰富游戏内容、增加游戏乐趣为目的的辅助性道具，供玩家朋友们在游戏中购买使用，十分方便快捷。目前，在线商场作为一种线上增值服务，需要玩家对帐号进行充值并兑换为创世元宝后方可使用。具体的元宝兑换方法与商城使用流程我们将在下面为大家一一介绍。 
+
+@F{fc=c26}什么是在线商城？@D 
+@S{4}“在线商城”是《创世2》中开设的一个全新的游戏增值服务系统，玩家在游戏中可以随时通过“在线商城”购买各种有趣且实用的游戏辅助道具。 
+
+@F{fc=c26}什么是光宇一卡通？@D
+@S{4}“光宇一卡通”是光宇华夏推出的一种在线游戏充值卡。使用“光宇一卡通”对帐号进行充值后，可消费光宇华夏旗下所有网络游戏产品中需用点数付费的增值性服务。
+
+@F{fc=c26}什么是光宇币？@D
+@S{4}“光宇币”是光宇华夏旗下所有游戏的通用充值货币，玩家使用“光宇一卡通”等方式对帐号进行充值后即转换为相应数量的光宇币（1元人民币＝1光宇币）。玩家可随时在光宇游戏社区中（http://www.gyyx.cn）将帐号内的光宇币分别兑换为创世元宝、希望币、问道元宝或平台游戏币，以购买不同游戏中的付费增值服务。 
+
+@F{fc=c26}什么是创世元宝？@D 
+@S{4}“创世元宝”是《创世2》在线商城中的通用货币。玩家在光宇游戏社区中（http://www.gyyx.cn）将帐号内的光宇币兑换为创世元宝 （1 光宇币＝100创世元宝） ，使用创世元宝在游戏中购买各种游戏辅助道具。
+
+@F{fc=c26}创世元宝的兑换@D
+@S{4}1、首先，玩家需要登陆光宇游戏社区充值页面，对帐号进行光宇币充值。目前开放的充值方式主要包括实卡充值 、银行卡充值以及通过其他方式充值。 实卡充值即指传统的于点卡零售点购买“光宇一卡通”对帐号进行充值；银行卡充值即指用银行卡通过网上支付平台直接购买光宇币充值（此种方式需要玩家已开通网络银行）；其他方式充值主要包括 手机短信充值、骏网充值、Q币冲值（暂未开放）等。 
+@S{6}（充值页面： http://www.gyyx.cn/pay） 
+@S{4}2、玩家充值光宇币后，可登陆光宇游戏社区创世元宝兑换界面，按页面提示选择所在服务器，输入需要兑换为元宝的光宇币数量，确认后提交即成功兑换元宝。 （1光宇币＝100创世元宝） 
+@S{4}3、帐号中拥有元宝后，即可登陆游戏内的在线商城购买各种心仪的道具啦。
+
+@F{fc=c45}更多内容请查询光宇官方网站！@D	</content>
+	</item>
+	<item>
+		<id>	214	</id>
+		<index>	136	</index>
+		<parentID>	-1	</parentID>
+		<title>	常用信息	</title>
+		<keys>
+			<item>	信息	</item>
+			<item>	系统	</item>
+			<item>	服务	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c26}详见官网相关内容。@D	</content>
+	</item>
+	<item>
+		<id>	215	</id>
+		<index>	137	</index>
+		<parentID>	214	</parentID>
+		<title>	常见问题	</title>
+		<keys>
+			<item>	问题	</item>
+			<item>	常见问题	</item>
+		</keys>
+		<content>	@S{4}@F{fc=c26}详见官网相关内容。@D	</content>
+	</item>
+	<item>
+		<id>	216	</id>
+		<index>	138	</index>
+		<parentID>	214	</parentID>
+		<title>	游戏配置	</title>
+		<keys>
+			<item>	游戏配置	</item>
+			<item>	最低配置	</item>
+			<item>	建议配置	</item>
+		</keys>
+		<content>	@F{fc=c26}最低配置@D
+@S{4}操作系统：Windows XP (SP1/SP2)
+@S{4}CPU处理器：P4 2.8GHz
+@S{4}内存：1G
+@S{4}显卡：Geforce 6600 / Radeon X1500 带128M显存 ( 普通的低端集成显卡一般不支持，中端以上集成显卡需设置128M以上的共享显存)
+@S{4}声卡：标准兼容声卡
+@S{4}硬盘：20GB
+@S{4}DirectX：9.0C
+
+@F{fc=c26}推荐配置@D
+@S{4}操作系统：Windows XP (SP1/SP2)
+@S{4}CPU处理器：Intel Pentium Core 2 Duo E6550 或者 AMD Athlon64 X2 5200+
+@S{4}内存：2G
+@S{4}显卡：Geforce 7600GT / Radeon X1650XT
+@S{4}声卡：标准兼容声卡
+@S{4}硬盘：20GB
+@S{4}DirectX：9.0c
+
+@F{fc=c26}温馨提示@D
+@S{4}为达到最好的显示效率和显示效果，请使用显卡厂商提供的最新显示驱动程序。
+@S{4}同时，玩家可以根据自己机器的实际情况，进行适当的视频音效@L{t=游戏;m=srch:游戏设置;cfc=255,128,64;hfc=255,169,128}。	</content>
+	</item>
+	<item>
+		<id>	217	</id>
+		<index>	139	</index>
+		<parentID>	214	</parentID>
+		<title>	客户服务	</title>
+		<keys>
+			<item>	服务	</item>
+			<item>	客服	</item>
+		</keys>
+		<content>	@F{fc=c45}@S{4}玩家在游戏中遇到任何问题都可以登录光宇游戏玩家论坛向在线版主和其他网友提问。祝您游戏愉快！@D	</content>
+	</item>
+</root>

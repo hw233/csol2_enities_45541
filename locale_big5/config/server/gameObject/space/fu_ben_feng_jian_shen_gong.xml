@@ -1,0 +1,17 @@
+<root>
+		<spaceName>	封劍神宮	</spaceName>
+		<EntityType>	SpaceCopyFJSG	</EntityType>
+		<DomainType>	SpaceDomainFJSG	</DomainType>
+		<script>	SpaceCopyFJSG	</script>
+		<SpaceType>	SPACE_TYPE_FJSG	</SpaceType>
+		<className>	fu_ben_feng_jian_shen_gong	</className>
+		<dirMapping>	universes/fu_ben_feng_jian_shen_gong_001 	</dirMapping>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+		<TimeOfDay>	45000	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_feng_jian_shen_gong.xml </spawnFile>
+		<maxPlayer>	5	</maxPlayer>
+		<canArrest/>	<!-->是否可逮捕入獄<-->
+		<Space>
+		</Space>
+</root>

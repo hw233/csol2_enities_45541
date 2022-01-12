@@ -1,0 +1,17 @@
+<root>
+	<EntityType>SpaceCopyShuijing</EntityType>
+	<DomainType>SpaceDomainShuijing</DomainType>
+	<script>SpaceCopyShuijing</script>
+	<SpaceType>	SPACE_TYPE_SHUIJING	</SpaceType>
+	<className>shuijing</className>
+	<dirMapping> universes/shui_jing_jing_ling </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+	<TimeOfDay>	51000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/shui_jing_jing_ling.xml </spawnFile>
+	<waitingCycle>	10	</waitingCycle>
+	<maxPlayer>	5	</maxPlayer>
+	<canArrest/>	<!-->是否可逮捕入獄<-->
+	<Space>
+	</Space>
+</root>

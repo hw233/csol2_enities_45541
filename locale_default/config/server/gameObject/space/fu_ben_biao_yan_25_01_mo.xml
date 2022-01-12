@@ -1,0 +1,23 @@
+<root>
+	<EntityType>SpaceCopyStarMap</EntityType>
+	<DomainType>SpaceDomainCopy</DomainType>
+	<script>SpaceCopyStarMap</script>
+	<className>fu_ben_biao_yan_25_01_mo</className>
+	<dirMapping> universes/fu_ben_xuan_tian_huan_jie </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<playerAoI>	30	</playerAoI>				<!--玩家的视野范围-->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_biao_yan_25_01_mo.xml		</spawnFile>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<Space>
+		<spaceBBoxMin>	-2000,-100,-2000	</spaceBBoxMin>
+		<spaceBBoxMax>	2000,1000,2000	</spaceBBoxMax>
+		<deathDepth>	-250	</deathDepth>
+	</Space>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>                                  		
+	<initLine>1</initLine>
+	<maxPlayerAmount>525</maxPlayerAmount>                           
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 	
+</root>

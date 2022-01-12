@@ -1,0 +1,16 @@
+<root>
+	<EntityType>SpaceNormal</EntityType>
+	<DomainType>SpaceDomain</DomainType>
+	<script>Space</script>
+	<className>50modao_ya_yu_shen_yan</className>
+	<dirMapping> universes/liu_wang_mu_006 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/50modao_ya_yu_shen_yan.xml		</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<CalcPkValue/>
+	<Space>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

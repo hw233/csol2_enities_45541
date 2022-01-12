@@ -1,0 +1,21 @@
+<root>
+	<Parent>	Monster			</Parent>
+
+	<Properties>
+		<belong>
+			<Type>		DATABASE_ID			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+		</belong>
+		<monsterType>
+			<Type>		INT16					</Type>
+			<Flags>		CELL_PUBLIC				</Flags>
+		</monsterType>
+		<damageToIntegral>
+			<Type>		INT32					</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+		</damageToIntegral>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+</root>

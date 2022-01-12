@@ -1,0 +1,69 @@
+<root>
+	<Properties>
+		<lotteryItem>			<!-- 玩家开启锦囊目前会得到的物品,由于要求掉线后能够下次将物品补上，所以做成了属性 -->
+			<Type>			ITEM				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false				</Persistent>
+		</lotteryItem>
+
+		<lotteryUid>			<!-- 锦囊的位置,因为需要在物品给出后再删除锦囊，所以需要存储锦囊的位置 -->
+			<Type>			UID				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false				</Persistent>
+		</lotteryUid>
+
+		<AllLotteryItems> 		<!-- 所有的锦囊随机出的物品 -->
+			<Type>			ITEMS				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false				</Persistent>
+		</AllLotteryItems>
+
+		<_LotteryItem__ItemDropAmount>	<!-- 记录目前随机的各种物品的数量和上限，避免重复出现过多的同种等级的物品 -->
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false				</Persistent>
+		</_LotteryItem__ItemDropAmount>
+
+		<lotterytimes>			<!-- 累计开启锦囊的次数，该次数达到50次后会激活一次高暴率掉落 -->
+			<Type>			UINT16				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+			<Persistent>	false				</Persistent>
+		</lotterytimes>
+
+		<lotteryState>			<!-- 开启锦囊的状态 -->
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		false					</Default>
+			<Persistent>	false				</Persistent>
+		</lotteryState>
+
+	</Properties>
+
+	<CellMethods>
+		<!-- 锦囊-->
+		<getlotteryItem>	<!-- 发消息让玩家领奖 -->
+			<Exposed/>
+		</getlotteryItem>
+
+		<changelotteryItem> <!-- 通知服务器玩家启动了抽取 -->
+			<Exposed/>
+		</changelotteryItem>
+	</CellMethods>
+
+	<ClientMethods>
+	    <updateLotterItems>		<!-- 让客户端去显示锦囊发送到客户端的物品到界面里 -->
+	    	<Arg>  ITEM    </Arg>	<!-- 要显示的物品 -->
+	    	<Arg>  UINT16   </Arg>	<!-- 物品的位置   -->
+	    </updateLotterItems>
+
+		<lotteryABIndex>	<!-- 通知客户端1,2号物品的位置,并启动第一次的旋转-->
+			<Arg> UINT16   </Arg>
+			<Arg> UINT16   </Arg>
+		</lotteryABIndex>
+
+		<showlotteryWindow>		<!-- 通知客户端显示界面 -->
+		</showlotteryWindow>
+	</ClientMethods>
+
+</root>

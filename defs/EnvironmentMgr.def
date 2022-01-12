@@ -1,0 +1,13 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<addToMgr>
+			<Arg>   MAILBOX		</Arg>  <!-- playerMB -->
+			<Arg>	STRING		</Arg>  <!-- key -->
+		</addToMgr>
+		<onNewYearEnvShowStart/>
+		<onNewYearEnvShowEnd/>
+	</BaseMethods>
+</root>

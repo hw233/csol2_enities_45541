@@ -1,0 +1,22 @@
+<root>
+	<Parent>	NPC	</Parent>
+
+	<Properties>	
+		<isTransportDoor>
+			<Type>		INT8		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+		</isTransportDoor>
+		<enterRange>
+			<Type>		FLOAT		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+		</enterRange>
+		<transportSign>
+			<Type>		INT64		</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+		</transportSign>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

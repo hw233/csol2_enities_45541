@@ -1,0 +1,36 @@
+<root>
+	<Properties>
+		<currentModelNumber>
+			<Type>	STRING	</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<DatabaseLength>	255	</DatabaseLength>
+		</currentModelNumber>
+		<currentModelScale>
+			<Type>	FLOAT	</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+		</currentModelScale>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<begin_body_changing> <!--进入变身状态-->
+			<Exposed/>
+			<Arg>		STRING			</Arg> <!--ModelNumber-->
+			<Arg>		FLOAT			</Arg> <!--ModelScale-->
+		</begin_body_changing>
+		<end_body_changing> <!--离开变身状态-->
+			<Exposed/>
+			<Arg>		STRING			</Arg> <!--ModelNumber-->
+		</end_body_changing>
+		<remove_bc_cards> <!--没收玩家身上的变身纸牌-->
+			<Arg>	ARRAY <of> STRING </of>		</Arg>	<!--_reqireItems-->
+		</remove_bc_cards>
+		<enterCopyBeforeNirvanaBodyChanging/>
+		<enterCopyYeZhanFengQiBodyChanging/>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

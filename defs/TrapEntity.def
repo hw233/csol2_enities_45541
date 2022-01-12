@@ -1,0 +1,25 @@
+<root>
+	<Properties>
+		<buffID>				<!-- ¹ØÁªbuff -->
+			<Type>		STRING		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	false		</Persistent>
+		</buffID>
+		<trapRange>
+			<Type>		INT8		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	true		</Editable>
+			<Persistent>	false		</Persistent>
+		</trapRange>
+		<trapOnly>
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Editable>		false				</Editable>
+			<Persistent>		false				</Persistent>
+			<Default>		false				</Default>
+		</trapOnly>
+	</Properties>
+	<Parent> 				NPCObject				</Parent>
+	<ClientName> 				NPCObject				</ClientName>
+</root>

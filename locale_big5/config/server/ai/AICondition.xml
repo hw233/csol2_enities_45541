@@ -1,0 +1,1237 @@
+<root>
+	<row>
+		<id>	12	</id>
+		<name>	戰鬥開始後X秒內	</name>
+		<scriptName>	AIConditions:AICnd1	</scriptName>
+		<group>	1	</group>
+		<param1>	秒	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	從AI個體本身進入戰鬥時開始記時，X秒之內	</comment>
+	</row>
+	<row>
+		<id>	13	</id>
+		<name>	戰鬥開始後X秒後	</name>
+		<scriptName>	AIConditions:AICnd2	</scriptName>
+		<group>	1	</group>
+		<param1>	秒	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	從AI個體本身進入戰鬥時開始記時，X秒之後	</comment>
+	</row>
+	<row>
+		<id>	15	</id>
+		<name>	戰鬥開始後每隔X秒	</name>
+		<scriptName>	AIConditions:AICnd3	</scriptName>
+		<group>	1	</group>
+		<param1>	秒	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	從AI個體本身進入戰鬥時開始記時，每隔X秒	</comment>
+	</row>
+	<row>
+		<id>	16	</id>
+		<name>	戰鬥列表中的單位數量達到某個值	</name>
+		<scriptName>	AIConditions:AICnd4	</scriptName>
+		<group>	2	</group>
+		<param1>	單位數量	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	戰鬥列表中所有單位的總數量	</comment>
+	</row>
+	<row>
+		<id>	17	</id>
+		<name>	戰鬥列表為空	</name>
+		<scriptName>	AIConditions:AICnd5	</scriptName>
+		<group>	2	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	18	</id>
+		<name>	傷害列表中的單位數量達到某個值	</name>
+		<scriptName>	AIConditions:AICnd6	</scriptName>
+		<group>	2	</group>
+		<param1>	數量	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	傷害列表中所有單位的總數量	</comment>
+	</row>
+	<row>
+		<id>	19	</id>
+		<name>	傷害列表為空	</name>
+		<scriptName>	AIConditions:AICnd7	</scriptName>
+		<group>	2	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	20	</id>
+		<name>	治療列表中的單位數量達到某個值	</name>
+		<scriptName>	AIConditions:AICnd8	</scriptName>
+		<group>	2	</group>
+		<param1>	數量	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	治療列表中所有單位的總數量	</comment>
+	</row>
+	<row>
+		<id>	21	</id>
+		<name>	治療列表為空	</name>
+		<scriptName>	AIConditions:AICnd9	</scriptName>
+		<group>	2	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	22	</id>
+		<name>	治療列表中某個單位的治療總量超過某值	</name>
+		<scriptName>	AIConditions:AICnd10	</scriptName>
+		<group>	2	</group>
+		<param1>	治療值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	23	</id>
+		<name>	戰鬥列表中的某類職業的數量超過某個值	</name>
+		<scriptName>	AIConditions:AICnd11	</scriptName>
+		<group>	2	</group>
+		<param1>	職業類別	</param1>
+		<param2>	數量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	24	</id>
+		<name>	處於非戰鬥狀態	</name>
+		<scriptName>	AIConditions:AICnd13	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	25	</id>
+		<name>	處於戰鬥狀態	</name>
+		<scriptName>	AIConditions:AICnd14	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	26	</id>
+		<name>	處於逃跑狀態(子狀態)	</name>
+		<scriptName>	AIConditions:AICnd15	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	27	</id>
+		<name>	處於追擊狀態(子狀態)	</name>
+		<scriptName>	AIConditions:AICnd16	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	28	</id>
+		<name>	處於復位狀態(子狀態)	</name>
+		<scriptName>	AIConditions:AICnd17	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	29	</id>
+		<name>	自身生命高於某個百分比值	</name>
+		<scriptName>	AIConditions:AICnd21	</scriptName>
+		<group>	6	</group>
+		<param1>	生值（百分比）使用整型,32%就是32	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	30	</id>
+		<name>	自身生命值低於某個百分比值	</name>
+		<scriptName>	AIConditions:AICnd22	</scriptName>
+		<group>	6	</group>
+		<param1>	生命值（百分比）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	31	</id>
+		<name>	自身存在某BUFF/DEBUFF時	</name>
+		<scriptName>	AIConditions:AICnd23	</scriptName>
+		<group>	6	</group>
+		<param1>	BUFF/DEBUFF編號	</param1>
+		<param2>	等級	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	等級為-1 表示不檢查等級 只查編號	</comment>
+	</row>
+	<row>
+		<id>	33	</id>
+		<name>	自身不存在某BUFF/DEBUFF時	</name>
+		<scriptName>	AIConditions:AICnd24	</scriptName>
+		<group>	6	</group>
+		<param1>	BUFF/DEBUFF編號	</param1>
+		<param2>	等級	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	39	</id>
+		<name>	上一個使用的技能是某技能	</name>
+		<scriptName>	AIConditions:AICnd25	</scriptName>
+		<group>	7	</group>
+		<param1>	技能編號	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	42	</id>
+		<name>	在一定範圍內沒有戰鬥列表中的單位時	</name>
+		<scriptName>	AIConditions:AICnd26	</scriptName>
+		<group>	8	</group>
+		<param1>	範圍半徑（米）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	43	</id>
+		<name>	當前目標處於一定範圍內	</name>
+		<scriptName>	AIConditions:AICnd27	</scriptName>
+		<group>	8	</group>
+		<param1>	範圍半徑（米）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	44	</id>
+		<name>	當前目標處於一定範圍之外	</name>
+		<scriptName>	AIConditions:AICnd28	</scriptName>
+		<group>	8	</group>
+		<param1>	範圍半徑（米）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	45	</id>
+		<name>	一定範圍內的己方單位數量大於某值	</name>
+		<scriptName>	AIConditions:AICnd29	</scriptName>
+		<group>	8	</group>
+		<param1>	範圍半徑（米）	</param1>
+		<param2>	己方單位數量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	46	</id>
+		<name>	一定範圍內的己方單位數量小於某值	</name>
+		<scriptName>	AIConditions:AICnd30	</scriptName>
+		<group>	8	</group>
+		<param1>	範圍半徑（米）	</param1>
+		<param2>	己方單位數量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	47	</id>
+		<name>	一定範圍內的戰鬥列表中的單位數量大於某值	</name>
+		<scriptName>	AIConditions:AICnd31	</scriptName>
+		<group>	8	</group>
+		<param1>	範圍半徑（米）	</param1>
+		<param2>	單數量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	48	</id>
+		<name>	一定範圍內的戰鬥列表中的單位數量小於某值	</name>
+		<scriptName>	AIConditions:AICnd32	</scriptName>
+		<group>	8	</group>
+		<param1>	範圍半徑	</param1>
+		<param2>	單位數量	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	49	</id>
+		<name>	參與戰鬥的某一指定己方單位生命低於某值	</name>
+		<scriptName>	AIConditions:AICnd33	</scriptName>
+		<group>	9	</group>
+		<param1>	NPCID	</param1>
+		<param2>	生命值（百分比）	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	50	</id>
+		<name>	參與戰鬥的任意己方單位生命值低於某值	</name>
+		<scriptName>	AIConditions:AICnd34	</scriptName>
+		<group>	9	</group>
+		<param1>	生命值（百分比）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	53	</id>
+		<name>	當前目標生命值低於某個百分比值	</name>
+		<scriptName>	AIConditions:AICnd35	</scriptName>
+		<group>	11	</group>
+		<param1>	生命值（百分比）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	54	</id>
+		<name>	目標等級低於某值	</name>
+		<scriptName>	AIConditions:AICnd36	</scriptName>
+		<group>	11	</group>
+		<param1>	等級	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	55	</id>
+		<name>	目標等級高於某值	</name>
+		<scriptName>	AIConditions:AICnd37	</scriptName>
+		<group>	11	</group>
+		<param1>	等級	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	56	</id>
+		<name>	當前目標為某職業	</name>
+		<scriptName>	AIConditions:AICnd38	</scriptName>
+		<group>	11	</group>
+		<param1>	職業類別	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	57	</id>
+		<name>	當前目標存在某BUFF/DEBUFF時	</name>
+		<scriptName>	AIConditions:AICnd39	</scriptName>
+		<group>	11	</group>
+		<param1>	BUFF/DEBUFF編號	</param1>
+		<param2>	等級	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	58	</id>
+		<name>	當前目標不存在某BUFF/DEBUFF時	</name>
+		<scriptName>	AIConditions:AICnd40	</scriptName>
+		<group>	11	</group>
+		<param1>	BUFF/DEBUFF編號	</param1>
+		<param2>	等級	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	74	</id>
+		<name>	當前目標不是某職業時	</name>
+		<scriptName>	AIConditions:AICnd41	</scriptName>
+		<group>	11	</group>
+		<param1>	職業類別	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	62	</id>
+		<name>	當前目標正在吟唱一個法術時	</name>
+		<scriptName>	AIConditions:AICnd42	</scriptName>
+		<group>	11	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	63	</id>
+		<name>	當前目標生命值高於某個百分比值	</name>
+		<scriptName>	AIConditions:AICnd43	</scriptName>
+		<group>	11	</group>
+		<param1>	生命值（百分比）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	66	</id>
+		<name>	傷害列表中某個單位的傷害總量超過某值	</name>
+		<scriptName>	AIConditions:AICnd12	</scriptName>
+		<group>	2	</group>
+		<param1>	傷害值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	67	</id>
+		<name>	AI命令是否合法	</name>
+		<scriptName>	AIConditions:AICnd44	</scriptName>
+		<group>	12	</group>
+		<param1>	NPCID列表(逗號間隔)	</param1>
+		<param2>	AI命令列表 uint16(逗號間隔)	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	在事件“收到其他單位的AI信息時”，判斷NPCID已確定是誰發來的什麼消息	</comment>
+	</row>
+	<row>
+		<id>	70	</id>
+		<name>	脫離追擊狀態（子狀態改變事件）	</name>
+		<scriptName>	AIConditions:AICnd18	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	71	</id>
+		<name>	脫離逃跑狀態（子狀態改變事件）	</name>
+		<scriptName>	AIConditions:AICnd19	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	72	</id>
+		<name>	處於死亡狀態	</name>
+		<scriptName>	AIConditions:AICnd20	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	73	</id>
+		<name>	戰鬥列表增加時（事件：戰鬥列表被被改變）	</name>
+		<scriptName>	AIConditions:AICnd45	</scriptName>
+		<group>	2	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	59	</id>
+		<name>	當前最終作用對象為某類型	</name>
+		<scriptName>	AIConditions:AICnd46	</scriptName>
+		<group>	11	</group>
+		<param1>	類型（怪物，寵物，Role）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	1		# 角色
+2		# NPC
+3		# 怪物
+4		# 寵物
+6		# 掉下物品
+7		# 出生點
+8		# 傳送門
+9		# 傳送點
+10	# 傳送師
+11	# 天氣系統
+12	# 任務箱子
+13	# ？
+14	# 雜物（其它沒有特殊需要判斷的類型都歸為此類）	</comment>
+	</row>
+	<row>
+		<id>	60	</id>
+		<name>	當前目標為某類型	</name>
+		<scriptName>	AIConditions:AICnd47	</scriptName>
+		<group>	11	</group>
+		<param1>	類型（怪物，寵物，Role）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	1		# 角色
+2		# NPC
+3		# 怪物
+4		# 寵物
+6		# 掉下物品
+7		# 出生點
+8		# 傳送門
+9		# 傳送點
+10	# 傳送師
+11	# 天氣系統
+12	# 任務箱子
+13	# ？
+14	# 雜物（其它沒有特殊需要判斷的類型都歸為此類）	</comment>
+	</row>
+	<row>
+		<id>	61	</id>
+		<name>	傷害列表增加時（事件：傷害列表被被改變）	</name>
+		<scriptName>	AIConditions:AICnd48	</scriptName>
+		<group>	2	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	75	</id>
+		<name>	指定技能可對當前目標使用	</name>
+		<scriptName>	AIConditions:AICnd49	</scriptName>
+		<group>	7	</group>
+		<param1>	技能完整ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	76	</id>
+		<name>	指定自身等級技能可對當前目標使用	</name>
+		<scriptName>	AIConditions:AICnd50	</scriptName>
+		<group>	7	</group>
+		<param1>	技能未展開編號	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	參數中的技能指未展開的技能ID，需要配上該NPC的等級成為展開後的技能ID。
+如：NPC等級為32，技能ID為123456，需要判斷的技能ID應為123456032	</comment>
+	</row>
+	<row>
+		<id>	77	</id>
+		<name>	檢測嘲諷施放者有效性	</name>
+		<scriptName>	AIConditions:AICnd51	</scriptName>
+		<group>	11	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	檢查對我使用嘲諷技能的目標 當前的有效性（可否對其攻擊）	</comment>
+	</row>
+	<row>
+		<id>	78	</id>
+		<name>	脫離重置狀態(子狀態)	</name>
+		<scriptName>	AIConditions:AICnd52	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	79	</id>
+		<name>	某記錄時間是否到達	</name>
+		<scriptName>	AIConditions:AICnd53	</scriptName>
+		<group>	1	</group>
+		<param1>	記錄標簽名	</param1>
+		<param2>	到達X秒	</param2>
+		<param3>	第0次是否返回為假	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	主要用於一些時間查詢等操作：
+如 一段時間內 NPC沒有做什麼就怎麼樣。
+
+要實現這個當然還需要配合一個相關動作：
+”記錄當前時間“   參數是和該標簽名一樣的
+
+
+param3:是否和未初始化值計算
+如果你計劃設置了一個標簽去存儲時間， 當這個標簽還未被寫入的時候 也就是說你未初始化一個時間到你的標簽裡， 這個時候默認值為0，  當條件
+某記錄時間是否到達   被判斷的時候 如果這個參數設置為1他就會用當前時間和這個0做計算得到時間差， 否則發現未被初始化時 則返回時間未到達， 做這個參數的原因是 某些功能可能希望未被初始化的時候不去響應， 某些功能可能希望 未被初始化時間時 默認當作時間到達.	</comment>
+	</row>
+	<row>
+		<id>	80	</id>
+		<name>	NPC擁有者與NPC之間距離是否小等於某值	</name>
+		<scriptName>	AIConditions:AICnd54	</scriptName>
+		<group>	30	</group>
+		<param1>	半徑大小	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	81	</id>
+		<name>	NPC擁有者與NPC之間距離是否大等於某值	</name>
+		<scriptName>	AIConditions:AICnd55	</scriptName>
+		<group>	30	</group>
+		<param1>	半徑大小	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	82	</id>
+		<name>	NPC是否到達指定範圍內	</name>
+		<scriptName>	AIConditions:AICnd56	</scriptName>
+		<group>	30	</group>
+		<param1>	坐標	</param1>
+		<param2>	半徑	</param2>
+		<param3>	地圖名稱	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	83	</id>
+		<name>	NPC是否未到達指定範圍	</name>
+		<scriptName>	AIConditions:AICnd57	</scriptName>
+		<group>	30	</group>
+		<param1>	坐標	</param1>
+		<param2>	半徑	</param2>
+		<param3>	地圖名稱	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	84	</id>
+		<name>	檢測NPC是否可以變成Monster	</name>
+		<scriptName>	AIConditions:AICnd58	</scriptName>
+		<group>	30	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	85	</id>
+		<name>	從屬怪物和主人大於某一設定距離	</name>
+		<scriptName>	AIConditions:AICnd59	</scriptName>
+		<group>	31	</group>
+		<param1>	距離	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	86	</id>
+		<name>	從屬怪物和主人小於某一設定距離	</name>
+		<scriptName>	AIConditions:AICnd60	</scriptName>
+		<group>	31	</group>
+		<param1>	距離	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	87	</id>
+		<name>	從屬怪物找不到主人	</name>
+		<scriptName>	AIConditions:AICnd61	</scriptName>
+		<group>	31	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	從屬怪物找不到主人	</comment>
+	</row>
+	<row>
+		<id>	88	</id>
+		<name>	處於休閑狀態	</name>
+		<scriptName>	AIConditions:AICnd62	</scriptName>
+		<group>	3	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	89	</id>
+		<name>	從屬怪物和主人不在一個空間中	</name>
+		<scriptName>	AIConditions:AICnd63	</scriptName>
+		<group>	31	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	90	</id>
+		<name>	主人進入戰鬥狀態	</name>
+		<scriptName>	AIConditions:AICnd64	</scriptName>
+		<group>	31	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	91	</id>
+		<name>	和主人失去聯繫大於某一個設定時間	</name>
+		<scriptName>	AIConditions:AICnd65	</scriptName>
+		<group>	31	</group>
+		<param1>	時間	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	92	</id>
+		<name>	任務完成	</name>
+		<scriptName>	AIConditions:AICnd66	</scriptName>
+		<group>	30	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	94	</id>
+		<name>	記錄某個時間段完成某事情	</name>
+		<scriptName>	AIConditions:AICnd68	</scriptName>
+		<group>	1	</group>
+		<param1>	對象的臨時key	</param1>
+		<param2>	間隔時間	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	95	</id>
+		<name>	鏢車能否找到運鏢者	</name>
+		<scriptName>	AIConditions:AICnd69	</scriptName>
+		<group>	31	</group>
+		<param1>	與運鏢者距離	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	鏢車能否找到運鏢者	</comment>
+	</row>
+	<row>
+		<id>	93	</id>
+		<name>	(城戰AI)進入視野的玩家是否為敵對幫會	</name>
+		<scriptName>	AIConditions:AICnd67	</scriptName>
+		<group>	12	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	96	</id>
+		<name>	NPC擁有者的某任務的某TASK是否未完成	</name>
+		<scriptName>	AIConditions:AICnd70	</scriptName>
+		<group>	30	</group>
+		<param1>	任務ID	</param1>
+		<param2>	任務目標索引	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	97	</id>
+		<name>	NPC的擁有者是否被殺死了或者下線了	</name>
+		<scriptName>	AIConditions:AICnd71	</scriptName>
+		<group>	12	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	98	</id>
+		<name>	自身等級在指定範圍內	</name>
+		<scriptName>	AIConditions:AICnd72	</scriptName>
+		<group>	6	</group>
+		<param1>	等級下限	</param1>
+		<param2>	等級上限	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	判斷自身等級是否在指定的等級上下限範圍中（包括上下限）。	</comment>
+	</row>
+	<row>
+		<id>	99	</id>
+		<name>	是否處於某狀態下達到某時間	</name>
+		<scriptName>	AIConditions:AICnd73	</scriptName>
+		<group>	12	</group>
+		<param1>	處於某狀態下	</param1>
+		<param2>	多長時間	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	100	</id>
+		<name>	水晶存活時間	</name>
+		<scriptName>	AIConditions:AICnd74	</scriptName>
+		<group>	12	</group>
+		<param1>	存活時間值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	101	</id>
+		<name>	怪物血量少於某百分比	</name>
+		<scriptName>	AIConditions:AICnd75	</scriptName>
+		<group>	12	</group>
+		<param1>	百分比	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	102	</id>
+		<name>	是否大於NPC發言後一定時間	</name>
+		<scriptName>	AIConditions:AICnd76	</scriptName>
+		<group>	1	</group>
+		<param1>	間隔時間	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	是否大於NPC發言後一定時間	</comment>
+	</row>
+	<row>
+		<id>	103	</id>
+		<name>	存在某標記時	</name>
+		<scriptName>	AIConditions:AICnd77	</scriptName>
+		<group>	12	</group>
+		<param1>	標記名稱	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	是否存在某標記	</comment>
+	</row>
+	<row>
+		<id>	104	</id>
+		<name>	一定範圍內是否有特定類型的怪物	</name>
+		<scriptName>	AIConditions:AICnd78	</scriptName>
+		<group>	12	</group>
+		<param1>	範圍	</param1>
+		<param2>	怪物id	</param2>
+		<param3>	怪物類型EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	一定範圍內是否有特定類型的怪物	</comment>
+	</row>
+	<row>
+		<id>	105	</id>
+		<name>	一定範圍內特定類型的怪物，血量是否在特定範圍內	</name>
+		<scriptName>	AIConditions:AICnd79	</scriptName>
+		<group>	12	</group>
+		<param1>	範圍	</param1>
+		<param2>	怪物id	</param2>
+		<param3>	血量範圍值(10:80)	</param3>
+		<param4>	怪物類型EntityType	</param4>
+		<param5>	</param5>
+		<comment>	一定範圍內特定類型的怪物，血量是否在特定範圍內
+參數三為血量範圍（最小：最大）	</comment>
+	</row>
+	<row>
+		<id>	106	</id>
+		<name>	指定範圍內是否有pk值大於某數的玩家	</name>
+		<scriptName>	AIConditions:AICnd80	</scriptName>
+		<group>	12	</group>
+		<param1>	搜索半徑	</param1>
+		<param2>	搜索pk值在多少以上	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	107	</id>
+		<name>	指定技能可對自身使用	</name>
+		<scriptName>	AIConditions:AICnd81	</scriptName>
+		<group>	7	</group>
+		<param1>	技能完整ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	把技能的使用分為對當前目標和對自身兩個部分。	</comment>
+	</row>
+	<row>
+		<id>	108	</id>
+		<name>	指定自身等級技能可對自身使用	</name>
+		<scriptName>	AIConditions:AICnd82	</scriptName>
+		<group>	7	</group>
+		<param1>	技能未展開編號	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	把等級技能使用區分來 對自身和當前目標	</comment>
+	</row>
+	<row>
+		<id>	110	</id>
+		<name>	不存在某標記時	</name>
+		<scriptName>	AIConditions:AICnd83	</scriptName>
+		<group>	12	</group>
+		<param1>	標記名稱	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	111	</id>
+		<name>	（城戰AI）進入視野的entity是否為戰場塔樓	</name>
+		<scriptName>	AIConditions:AICnd84	</scriptName>
+		<group>	12	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	112	</id>
+		<name>	當範圍內有某類型的怪物	</name>
+		<scriptName>	AIConditions:AICnd85	</scriptName>
+		<group>	12	</group>
+		<param1>	搜索半徑	</param1>
+		<param2>	怪物類型EntityType	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	113	</id>
+		<name>	當範圍內沒有某類型的怪物	</name>
+		<scriptName>	AIConditions:AICnd86	</scriptName>
+		<group>	12	</group>
+		<param1>	搜索半徑	</param1>
+		<param2>	怪物類型EntityType	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	114	</id>
+		<name>	一定範圍內沒有特定類型的怪物	</name>
+		<scriptName>	AIConditions:AICnd87	</scriptName>
+		<group>	12	</group>
+		<param1>	範圍	</param1>
+		<param2>	className	</param2>
+		<param3>	怪物EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	115	</id>
+		<name>	戰鬥列表中有某className的怪物	</name>
+		<scriptName>	AIConditions:AICnd88	</scriptName>
+		<group>	12	</group>
+		<param1>	className	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	116	</id>
+		<name>	一定範圍內是否有特定類型的有特定buff的entity	</name>
+		<scriptName>	AIConditions:AICnd89	</scriptName>
+		<group>	12	</group>
+		<param1>	範圍	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	117	</id>
+		<name>	一定範圍內是否沒有特定類型的有特定buff的entity	</name>
+		<scriptName>	AIConditions:AICnd90	</scriptName>
+		<group>	12	</group>
+		<param1>	範圍	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	118	</id>
+		<name>	一定範圍內是否有特定類型的entity	</name>
+		<scriptName>	AIConditions:AICnd91	</scriptName>
+		<group>	12	</group>
+		<param1>	範圍	</param1>
+		<param2>	EntityType	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	119	</id>
+		<name>	一定範圍內是否沒有特定類型的entity	</name>
+		<scriptName>	AIConditions:AICnd92	</scriptName>
+		<group>	12	</group>
+		<param1>	範圍	</param1>
+		<param2>	EntityType	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	120	</id>
+		<name>	一定範圍內有特定類型的特定className的有特定buff的entity	</name>
+		<scriptName>	AIConditions:AICnd93	</scriptName>
+		<group>	12	</group>
+		<param1>	範圍	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType	</param3>
+		<param4>	className	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	121	</id>
+		<name>	一定範圍內沒有特定類型的特定className的有特定buff的entity	</name>
+		<scriptName>	AIConditions:AICnd94	</scriptName>
+		<group>	12	</group>
+		<param1>	範圍	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType	</param3>
+		<param4>	className	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	122	</id>
+		<name>	對方是否是兔子	</name>
+		<scriptName>	AIConditions:AICnd96	</scriptName>
+		<group>	12	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	123	</id>
+		<name>	血量減少值大於%時（要配合動作中的記錄當前血量一起使用）	</name>
+		<scriptName>	AIConditions:AICnd95	</scriptName>
+		<group>	12	</group>
+		<param1>	變化值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	124	</id>
+		<name>	指定怪物不處於死亡狀態	</name>
+		<scriptName>	AIConditions:AICnd97	</scriptName>
+		<group>	12	</group>
+		<param1>	範圍	</param1>
+		<param2>	EntityType	</param2>
+		<param3>	ClassName	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	125	</id>
+		<name>	是否不具有某個標誌位	</name>
+		<scriptName>	AIConditions:AICnd98	</scriptName>
+		<group>	12	</group>
+		<param1>	標誌位	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	126	</id>
+		<name>	由某狀態切換到特定狀態	</name>
+		<scriptName>	AIConditions:AICnd99	</scriptName>
+		<group>	12	</group>
+		<param1>	老狀態	</param1>
+		<param2>	新狀態	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	127	</id>
+		<name>	判斷自身是否有所有者	</name>
+		<scriptName>	AIConditions:AICnd101	</scriptName>
+		<group>	12	</group>
+		<param1>	不需要填任何參數，只作為判斷是否擁有權的條件	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+</root>

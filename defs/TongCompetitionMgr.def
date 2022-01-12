@@ -1,0 +1,58 @@
+<root>
+	<Properties>
+		<_signUpTime>
+			<Type>		INT32			</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	false			</Persistent>
+		</_signUpTime>
+		<_enterTime>
+			<Type>		INT32			</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	false			</Persistent>
+		</_enterTime>
+	</Properties>
+
+	<BaseMethods>
+		<onStartNotice/>
+		<onStart/>
+		<onEnd/>
+
+		<onRequestCompetition>
+			<Arg>	MAILBOX		</Arg>	<!-- 帮主或副帮主的base mailbox -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- tongDBID -->
+		</onRequestCompetition>
+
+		<teleportEntity>
+			<Arg>	MAILBOX		</Arg>	<!-- space domain base -->
+			<Arg>	MAILBOX		</Arg>	<!-- space base -->
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</teleportEntity>
+		<onEnterSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- space domain base -->
+			<Arg>	MAILBOX		</Arg>	<!-- space base -->
+
+			<Arg>	DATABASE_ID	</Arg>	<!-- tongDBID -->
+		</onEnterSpace>
+		<onLevelSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- space domain base -->
+			<Arg>	MAILBOX		</Arg>	<!-- space base -->
+		</onLevelSpace>
+		<setSignUpTime>
+			<Arg>	INT32		</Arg>	<!-- space signUpTime -->
+		</setSignUpTime>
+		<saveTongMemberInfo>
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	DATABASE_ID	</Arg>	<!-- tongDBID -->
+		</saveTongMemberInfo>
+		<saveLeaveTongMember>
+			<Arg>	STRING		</Arg>	<!-- playerName -->
+		</saveLeaveTongMember>
+		<sendChampionBox>
+			<Arg>	DATABASE_ID	</Arg>	<!-- tongDBID -->
+		</sendChampionBox>
+	</BaseMethods>
+</root>

@@ -1,0 +1,39 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<fengHuo_onStartNotify/>
+		<fengHuo_onSignUpStart/>
+		<fengHuo_onStart/>
+		<fengHuo_onEnd/>
+		<onRequestCampFengHuoSignUp>
+			<Arg>	UINT8	</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</onRequestCampFengHuoSignUp>
+		<onRequestCampFengHuoQuitSignUp>
+			<Arg>	UINT8	</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</onRequestCampFengHuoQuitSignUp>
+		<onRoleRequestEnterCampFHLT>
+			<Arg>	UINT8	</Arg>
+			<Arg>	DATABASE_ID		</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</onRoleRequestEnterCampFHLT>
+		<onEnterCampFengHuoSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- spaceDomain base -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterCampFengHuoSpace>
+		<registerCampFengHuoDomain>
+			<Arg>	MAILBOX		</Arg>
+		</registerCampFengHuoDomain>
+		<campFHLTReward>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UINT8	</Arg>
+			<Arg>	STRING	</Arg>
+		</campFHLTReward>
+	</BaseMethods>
+</root>

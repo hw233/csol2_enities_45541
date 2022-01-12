@@ -1,0 +1,18 @@
+<root>
+	<EntityType>SpaceCopyGumigong</EntityType>
+	<DomainType>SpaceDomainGumigong</DomainType>
+	<script>SpaceCopyGumigong</script>
+
+	<className>gumigong</className>
+	<dirMapping> universes/fu_ben_gu_mi_gong </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<TimeOfDay>	39600	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_gu_mi_gong.xml </spawnFile>
+	<waitingCycle>	10	</waitingCycle>
+	<maxPlayer>	5	</maxPlayer>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<Space>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

@@ -1,0 +1,3548 @@
+<root>
+	<entity_1>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258817 0.000000 0.965923	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.965923 0.000000 0.258817	</row2>
+			<row3>	-230.164749 43.738110 -132.667328	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_sha_yu_002.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_1>
+	<entity_2>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.258882 0.006226 0.965882	</row0>
+			<row1>	-0.022204 0.999670 -0.012394	</row1>
+			<row2>	-0.965646 -0.024656 -0.258660	</row2>
+			<row3>	-202.961319 -1.691100 145.198471	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_006.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_2>
+	<entity_3>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258891 -0.006631 -0.965877	</row0>
+			<row1>	-0.021890 0.999673 -0.012731	</row1>
+			<row2>	0.965652 0.024440 0.258663	</row2>
+			<row3>	-205.818665 -25.822664 148.929688	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hai_gui_001.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_3>
+	<entity_4>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.707111 0.000000 0.707088	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	-0.707088 0.000000 -0.707111	</row2>
+			<row3>	-141.611328 12.183706 -51.538666	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hai_gui_001.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_4>
+	<entity_5>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.999995 0.000000 -0.000001	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.000001 0.000000 -0.999995	</row2>
+			<row3>	-172.102188 14.920662 -34.733414	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_5>
+	<entity_6>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965652 -0.024438 -0.258663	</row0>
+			<row1>	-0.021890 0.999674 -0.012731	</row1>
+			<row2>	0.258891 -0.006631 -0.965878	</row2>
+			<row3>	-177.714676 30.364544 -73.188858	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_004.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_6>
+	<entity_7>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499997 0.000000 0.866022	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.866022 0.000000 0.499997	</row2>
+			<row3>	-153.444443 62.881447 -4.384506	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_sha_yu_002.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_7>
+	<entity_8>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.707103 0.000000 0.707099	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	-0.707099 0.000000 -0.707103	</row2>
+			<row3>	-147.873932 48.455017 -25.772308	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_8>
+	<entity_9>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.865743 -0.025322 -0.499837	</row0>
+			<row1>	-0.021890 0.999674 -0.012731	</row1>
+			<row2>	0.499999 -0.000080 -0.866020	</row2>
+			<row3>	-149.454102 14.197991 -61.320553	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_004.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_9>
+	<entity_10>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866020 -0.000092 0.499997	</row0>
+			<row1>	-0.000009 0.999994 0.000202	</row1>
+			<row2>	-0.499997 -0.000179 0.866020	</row2>
+			<row3>	-117.934563 0.105776 -0.045616	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_10>
+	<entity_11>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965400 0.029920 -0.259024	</row0>
+			<row1>	-0.031744 0.999486 -0.002863	</row1>
+			<row2>	0.258807 0.010987 0.965859	</row2>
+			<row3>	-143.317856 10.293105 55.189636	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_010.model	</modelFile>
+			<amount>	8	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_11>
+	<entity_12>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.707111 0.000000 -0.707089	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.707089 0.000000 0.707111	</row2>
+			<row3>	-119.253670 4.649866 41.605343	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_012.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_12>
+	<entity_13>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258831 0.000000 -0.965912	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.965912 0.000000 0.258831	</row2>
+			<row3>	-114.715508 30.551561 16.611599	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_009.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_13>
+	<entity_14>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.866019 0.000000 -0.499998	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.499998 0.000000 -0.866019	</row2>
+			<row3>	-175.417587 40.384453 31.878855	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_14>
+	<entity_15>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499852 0.018356 0.865909	</row0>
+			<row1>	-0.031744 0.999486 -0.002863	</row1>
+			<row2>	-0.865521 -0.026056 0.500181	</row2>
+			<row3>	-151.535370 5.650273 91.911568	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_009.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_15>
+	<entity_16>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.000141 0.012736 0.999912	</row0>
+			<row1>	-0.021878 0.999673 -0.012735	</row1>
+			<row2>	-0.999753 -0.021878 0.000138	</row2>
+			<row3>	-110.808334 10.146780 39.242733	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_012.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_16>
+	<entity_17>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965917 0.000000 -0.258819	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.258819 0.000000 -0.965917	</row2>
+			<row3>	-186.912064 69.105377 20.949657	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_17>
+	<entity_18>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.865646 -0.028924 -0.499809	</row0>
+			<row1>	-0.031744 0.999487 -0.002863	</row1>
+			<row2>	0.499637 0.013388 -0.866124	</row2>
+			<row3>	-126.526703 12.296230 92.950577	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_010.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_18>
+	<entity_19>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866021 -0.000093 0.499997	</row0>
+			<row1>	-0.000009 0.999995 0.000202	</row1>
+			<row2>	-0.499997 -0.000179 0.866021	</row2>
+			<row3>	-113.200218 0.105608 2.702357	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_19>
+	<entity_20>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.866022 0.000077 0.499998	</row0>
+			<row1>	0.000006 0.999997 -0.000143	</row1>
+			<row2>	-0.499998 -0.000121 -0.866023	</row2>
+			<row3>	-117.733925 0.105719 19.326937	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_20>
+	<entity_21>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.866021 0.000077 0.499998	</row0>
+			<row1>	0.000006 0.999996 -0.000143	</row1>
+			<row2>	-0.499998 -0.000120 -0.866021	</row2>
+			<row3>	-113.312149 0.105713 17.114292	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_21>
+	<entity_22>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.000000 -0.000142 -0.999992	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	0.999992 -0.000004 0.000000	</row2>
+			<row3>	-111.444374 -1.480469 43.343006	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_22>
+	<entity_23>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.707102 0.000098 0.707102	</row0>
+			<row1>	0.000006 0.999995 -0.000143	</row1>
+			<row2>	-0.707102 0.000107 0.707102	</row2>
+			<row3>	-136.162445 -1.480469 44.784172	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_23>
+	<entity_24>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.499996 -0.000120 -0.866018	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	0.866018 -0.000075 -0.499996	</row2>
+			<row3>	-112.651100 -1.480469 58.244549	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_24>
+	<entity_25>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.499996 0.000128 0.866019	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	-0.866019 -0.000065 -0.499996	</row2>
+			<row3>	-143.036575 -1.470703 41.599979	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_25>
+	<entity_26>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866018 -0.000075 -0.499995	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	0.499995 0.000123 0.866018	</row2>
+			<row3>	-139.532318 -1.455078 57.877991	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_26>
+	<entity_27>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999991 -0.000004 0.000000	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	0.000000 0.000145 0.999991	</row2>
+			<row3>	-131.313156 -1.478515 51.198498	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_27>
+	<entity_28>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.707101 -0.000104 -0.707101	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	0.707101 0.000099 0.707101	</row2>
+			<row3>	-124.637123 -1.509765 45.557812	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_28>
+	<entity_29>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866017 -0.000075 -0.499995	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	0.499995 0.000123 0.866017	</row2>
+			<row3>	-124.816597 -1.480469 56.050835	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_29>
+	<entity_30>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.499996 -0.000125 -0.866018	</row0>
+			<row1>	0.000006 0.999993 -0.000143	</row1>
+			<row2>	0.866018 0.000068 0.499996	</row2>
+			<row3>	-117.704285 -1.572265 51.122925	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_30>
+	<entity_31>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.499996 -0.000127 -0.866020	</row0>
+			<row1>	0.000006 0.999995 -0.000143	</row1>
+			<row2>	0.866020 0.000067 0.499996	</row2>
+			<row3>	-152.725098 -1.480469 56.309597	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_31>
+	<entity_32>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.499996 -0.000125 -0.866017	</row0>
+			<row1>	0.000006 0.999992 -0.000143	</row1>
+			<row2>	0.866017 0.000068 0.499996	</row2>
+			<row3>	-153.576859 -1.480469 45.657707	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_32>
+	<entity_33>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.499997 -0.000126 -0.866020	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	0.866020 0.000067 0.499997	</row2>
+			<row3>	-145.282379 -1.480469 50.213943	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_33>
+	<entity_34>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866020 -0.000076 -0.499997	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	0.499997 0.000122 0.866020	</row2>
+			<row3>	-101.605286 -1.480469 54.764706	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_34>
+	<entity_35>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.499997 0.000128 0.866019	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	-0.866019 -0.000066 -0.499997	</row2>
+			<row3>	-103.611076 -1.480469 43.289806	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_35>
+	<entity_36>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.866020 -0.000066 -0.499996	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	0.499996 -0.000126 -0.866020	</row2>
+			<row3>	-109.398842 -1.492187 50.557430	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_36>
+	<entity_37>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.965913 -0.000192 -0.258816	</row0>
+			<row1>	0.000202 0.999989 0.000009	</row1>
+			<row2>	0.258817 -0.000061 0.965913	</row2>
+			<row3>	-120.434494 -2.132812 89.582443	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_37>
+	<entity_38>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866015 -0.000169 -0.499994	</row0>
+			<row1>	0.000202 0.999989 0.000009	</row1>
+			<row2>	0.499994 -0.000108 0.866015	</row2>
+			<row3>	-123.749153 -2.587890 95.915451	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_38>
+	<entity_39>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.965913 -0.000196 0.258815	</row0>
+			<row1>	0.000202 0.999988 0.000009	</row1>
+			<row2>	-0.258814 0.000044 0.965913	</row2>
+			<row3>	-115.007805 -2.712890 92.280457	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_39>
+	<entity_40>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.965913 -0.000043 0.258815	</row0>
+			<row1>	-0.000009 0.999990 0.000202	</row1>
+			<row2>	-0.258815 -0.000197 0.965914	</row2>
+			<row3>	-101.832718 -2.671875 80.474457	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_40>
+	<entity_41>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.000000 -0.000285 -0.999994	</row0>
+			<row1>	0.000013 0.999995 -0.000286	</row1>
+			<row2>	0.999995 -0.000012 0.000000	</row2>
+			<row3>	-113.034248 0.105481 9.700880	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20742030	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	206B57DC.43C955BB.179D919D.7DF9B662	</patrolList>
+			<patrolPathNode>	242BB6B4.4B2994EB.3E9559BA.835970A4	</patrolPathNode>
+		</properties>
+	</entity_41>
+	<entity_42>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.000000 0.000203 -0.999995	</row0>
+			<row1>	-0.000009 0.999995 0.000202	</row1>
+			<row2>	0.999995 0.000010 0.000000	</row2>
+			<row3>	-116.150864 0.105656 9.665308	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20714007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	206B57DC.43C955BB.179D919D.7DF9B662	</patrolList>
+			<patrolPathNode>	242BB6B4.4B2994EB.3E9559BA.835970A4	</patrolPathNode>
+		</properties>
+	</entity_42>
+	<entity_43>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965917 0.000000 -0.258814	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	0.258814 0.000000 0.965917	</row2>
+			<row3>	-171.174744 14.311565 106.450058	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_43>
+	<entity_44>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499997 0.000000 -0.866015	</row0>
+			<row1>	0.000000 0.999990 0.000000	</row1>
+			<row2>	0.866015 0.000000 0.499997	</row2>
+			<row3>	-166.330338 21.554348 193.660126	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_44>
+	<entity_45>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.000002 0.000000 0.999989	</row0>
+			<row1>	0.000000 0.999990 0.000000	</row1>
+			<row2>	-0.999989 0.000000 -0.000002	</row2>
+			<row3>	-145.791489 48.001648 130.192688	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_45>
+	<entity_46>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.999990 0.000000 -0.000016	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	0.000016 0.000000 -0.999990	</row2>
+			<row3>	-100.127747 29.344963 109.877380	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_012.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_46>
+	<entity_47>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.865742 0.025315 0.499837	</row0>
+			<row1>	-0.021878 0.999673 -0.012735	</row1>
+			<row2>	-0.499998 0.000090 0.866018	</row2>
+			<row3>	-90.438469 19.918522 33.329269	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_012.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_47>
+	<entity_48>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.865742 -0.025313 -0.499837	</row0>
+			<row1>	-0.021878 0.999673 -0.012735	</row1>
+			<row2>	0.499998 -0.000090 -0.866018	</row2>
+			<row3>	-50.025829 41.130886 73.875145	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_012.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_48>
+	<entity_49>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.865522 0.026057 -0.500181	</row0>
+			<row1>	-0.031744 0.999486 -0.002863	</row1>
+			<row2>	0.499853 0.018356 0.865909	</row2>
+			<row3>	-93.284729 12.731256 85.223686	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_009.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_49>
+	<entity_50>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965919 0.000000 0.258815	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	-0.258815 0.000000 -0.965919	</row2>
+			<row3>	-36.963375 62.406639 36.532200	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_50>
+	<entity_51>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.258815 0.000000 -0.965917	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	0.965917 0.000000 -0.258815	</row2>
+			<row3>	-71.350311 10.182323 36.737724	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_51>
+	<entity_52>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.866020 0.000077 0.499997	</row0>
+			<row1>	0.000006 0.999995 -0.000143	</row1>
+			<row2>	-0.499997 -0.000120 -0.866020	</row2>
+			<row3>	-66.965546 -50.568352 31.227030	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20722016	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	2.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_52>
+	<entity_53>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866015 -0.000093 0.499993	</row0>
+			<row1>	-0.000009 0.999990 0.000202	</row1>
+			<row2>	-0.499994 -0.000179 0.866016	</row2>
+			<row3>	-94.434639 -3.214843 86.053772	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_53>
+	<entity_54>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.707098 -0.000136 0.707098	</row0>
+			<row1>	-0.000009 0.999990 0.000202	</row1>
+			<row2>	-0.707098 -0.000149 0.707099	</row2>
+			<row3>	-96.098221 -2.699218 78.812073	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_54>
+	<entity_55>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.499996 0.000127 0.866021	</row0>
+			<row1>	0.000006 0.999995 -0.000143	</row1>
+			<row2>	-0.866021 -0.000065 -0.499997	</row2>
+			<row3>	-84.916550 -1.480469 42.202461	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_55>
+	<entity_56>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.000001 0.000143 0.999994	</row0>
+			<row1>	0.000006 0.999994 -0.000143	</row1>
+			<row2>	-0.999994 0.000007 0.000000	</row2>
+			<row3>	-83.494926 -1.480469 37.456413	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_56>
+	<entity_57>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.706834 -0.024480 -0.706948	</row0>
+			<row1>	-0.021890 0.999674 -0.012731	</row1>
+			<row2>	0.707033 0.006477 -0.707144	</row2>
+			<row3>	-26.021339 17.921877 111.285187	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_004.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_57>
+	<entity_58>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.706834 -0.024473 -0.706948	</row0>
+			<row1>	-0.031744 0.999486 -0.002863	</row1>
+			<row2>	0.706658 0.020418 -0.707252	</row2>
+			<row3>	-67.103104 7.815254 139.660217	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_009.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_58>
+	<entity_59>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965919 0.000000 0.258801	</row0>
+			<row1>	0.000000 0.999990 0.000000	</row1>
+			<row2>	-0.258801 0.000000 -0.965919	</row2>
+			<row3>	-97.887222 2.551786 103.904663	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_012.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_59>
+	<entity_60>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965465 -0.031403 -0.258609	</row0>
+			<row1>	-0.031744 0.999486 -0.002863	</row1>
+			<row2>	0.258566 0.005446 -0.965970	</row2>
+			<row3>	-75.121292 29.294874 156.432617	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_010.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_60>
+	<entity_61>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.500009 0.000000 0.866009	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	-0.866009 0.000000 -0.500009	</row2>
+			<row3>	-59.935314 2.237219 129.074036	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_012.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_61>
+	<entity_62>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499996 0.000000 0.866021	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	-0.866021 0.000000 0.499996	</row2>
+			<row3>	-46.652679 3.783369 148.393097	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_62>
+	<entity_63>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.707104 0.000000 0.707103	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.707103 0.000000 -0.707104	</row2>
+			<row3>	-30.400009 47.127220 195.357208	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_sha_yu_002.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_63>
+	<entity_64>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.707096 0.000138 0.707097	</row0>
+			<row1>	0.000202 0.999987 0.000009	</row1>
+			<row2>	-0.707098 0.000150 -0.707095	</row2>
+			<row3>	-98.185188 -3.589843 112.651558	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_64>
+	<entity_65>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.258814 0.000045 0.965911	</row0>
+			<row1>	0.000202 0.999986 0.000009	</row1>
+			<row2>	-0.965912 0.000198 -0.258813	</row2>
+			<row3>	-90.648941 -3.621093 101.679237	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_65>
+	<entity_66>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.499991 0.000095 0.866012	</row0>
+			<row1>	0.000202 0.999986 0.000009	</row1>
+			<row2>	-0.866012 0.000180 -0.499991	</row2>
+			<row3>	-42.876526 -6.257812 138.782135	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_66>
+	<entity_67>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.499992 0.000095 0.866012	</row0>
+			<row1>	0.000202 0.999986 0.000009	</row1>
+			<row2>	-0.866012 0.000180 -0.499992	</row2>
+			<row3>	-49.896832 -6.564452 148.765228	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_67>
+	<entity_68>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.997942 -0.000285 0.064023	</row0>
+			<row1>	0.000286 0.999994 0.000013	</row1>
+			<row2>	-0.064023 0.000006 0.997943	</row2>
+			<row3>	-36.030651 -6.638671 151.010651	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20742030	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	5C836150.43EF6A6D.4ED7C2A2.6F3EAC47	</patrolList>
+			<patrolPathNode>	A0D813E4.4973247E.25FA1485.FDDB6D23	</patrolPathNode>
+		</properties>
+	</entity_68>
+	<entity_69>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.998930 0.000203 0.046114	</row0>
+			<row1>	-0.000202 0.999994 -0.000009	</row1>
+			<row2>	-0.046114 0.000001 0.998930	</row2>
+			<row3>	-35.907944 -6.574218 147.740753	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20714007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	5C836150.43EF6A6D.4ED7C2A2.6F3EAC47	</patrolList>
+			<patrolPathNode>	A0D813E4.4973247E.25FA1485.FDDB6D23	</patrolPathNode>
+		</properties>
+	</entity_69>
+	<entity_70>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.500000 0.000000 0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866024 0.000000 -0.500000	</row2>
+			<row3>	-90.136047 -3.773437 109.015465	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20712020	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_70>
+	<entity_71>
+		<type>	SpawnPointDoor	</type>
+		<transform>
+			<row0>	0.500000 0.000000 -0.866025	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.866025 0.000000 0.500000	</row2>
+			<row3>	-82.084991 -4.046262 114.808998	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	30111344	</entityName>
+			<rediviousTime>	9999.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_71>
+	<entity_72>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.499998 0.000081 0.866016	</row0>
+			<row1>	-0.021890 0.999670 -0.012731	</row1>
+			<row2>	-0.865738 -0.025322 -0.499836	</row2>
+			<row3>	-47.147366 0.952106 202.218689	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_002.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_72>
+	<entity_73>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.000141 0.012732 0.999909	</row0>
+			<row1>	-0.021890 0.999669 -0.012731	</row1>
+			<row2>	-0.999749 -0.021889 0.000137	</row2>
+			<row3>	-33.394791 51.086945 228.286942	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_002.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_73>
+	<entity_74>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.965911 -0.000060 0.258815	</row0>
+			<row1>	-0.000009 0.999988 0.000202	</row1>
+			<row2>	-0.258815 0.000193 -0.965912	</row2>
+			<row3>	-51.125244 -9.189451 215.691040	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_74>
+	<entity_75>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999983 -0.000201 -0.000001	</row0>
+			<row1>	0.000202 0.999985 0.000009	</row1>
+			<row2>	0.000001 -0.000009 0.999983	</row2>
+			<row3>	-53.264236 -9.187498 203.955765	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_75>
+	<entity_76>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.258816 0.000194 -0.965911	</row0>
+			<row1>	-0.000009 0.999989 0.000202	</row1>
+			<row2>	0.965912 0.000061 -0.258816	</row2>
+			<row3>	-58.057507 -9.189451 210.824448	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_76>
+	<entity_77>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.258816 -0.000192 0.965912	</row0>
+			<row1>	-0.000009 0.999989 0.000202	</row1>
+			<row2>	-0.965913 -0.000061 0.258816	</row2>
+			<row3>	-47.107906 -9.140623 208.060776	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_77>
+	<entity_78>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-52.133862 -9.189451 209.275925	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20251050	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_78>
+	<entity_79>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.706658 0.020419 -0.707251	</row0>
+			<row1>	-0.031744 0.999487 -0.002863	</row1>
+			<row2>	0.706834 0.024475 0.706947	</row2>
+			<row3>	29.498055 15.876449 57.207958	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_011.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_79>
+	<entity_80>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.866021 0.000000 -0.499997	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.499997 0.000000 0.866021	</row2>
+			<row3>	9.261959 9.402233 56.287598	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_80>
+	<entity_81>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.999994 0.000000 -0.000017	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.000017 0.000000 -0.999994	</row2>
+			<row3>	81.580109 12.876923 133.266632	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_004.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_81>
+	<entity_82>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.865742 -0.025322 -0.499837	</row0>
+			<row1>	-0.021890 0.999673 -0.012731	</row1>
+			<row2>	0.499999 -0.000080 -0.866019	</row2>
+			<row3>	37.414356 13.246257 159.093170	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_004.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_82>
+	<entity_83>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258625 0.017719 0.965808	</row0>
+			<row1>	-0.022204 0.999670 -0.012394	</row1>
+			<row2>	-0.965715 -0.018241 0.258934	</row2>
+			<row3>	22.559551 10.983980 159.129089	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_006.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_83>
+	<entity_84>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499999 -0.000089 -0.866020	</row0>
+			<row1>	-0.021878 0.999674 -0.012735	</row1>
+			<row2>	0.865742 0.025314 0.499836	</row2>
+			<row3>	28.857922 13.279816 135.171936	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_007.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_84>
+	<entity_85>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.707103 0.000000 -0.707104	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.707104 0.000000 -0.707103	</row2>
+			<row3>	53.324310 48.548855 109.551071	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_85>
+	<entity_86>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.707111 0.000000 0.707089	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	-0.707089 0.000000 -0.707111	</row2>
+			<row3>	33.903191 4.638347 143.042572	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_010.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_86>
+	<entity_87>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.866010 0.000000 -0.500009	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.500009 0.000000 -0.866010	</row2>
+			<row3>	16.263147 12.018057 129.226715	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_010.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_87>
+	<entity_88>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.965714 0.018240 -0.258934	</row0>
+			<row1>	-0.022204 0.999669 -0.012394	</row1>
+			<row2>	0.258624 0.017717 0.965807	</row2>
+			<row3>	53.472088 30.551155 179.143951	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_006.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_88>
+	<entity_89>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.000000 0.000203 -0.999983	</row0>
+			<row1>	-0.000009 0.999987 0.000202	</row1>
+			<row2>	0.999984 0.000010 0.000000	</row2>
+			<row3>	41.764767 -3.447265 189.510986	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_89>
+	<entity_90>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866011 -0.000169 -0.499993	</row0>
+			<row1>	0.000202 0.999986 0.000009	</row1>
+			<row2>	0.499993 -0.000109 0.866012	</row2>
+			<row3>	44.049160 -3.078125 183.787262	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_90>
+	<entity_91>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.965910 0.000045 -0.258815	</row0>
+			<row1>	-0.000009 0.999988 0.000202	</row1>
+			<row2>	0.258815 0.000198 -0.965911	</row2>
+			<row3>	46.849533 -3.144531 194.981323	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_91>
+	<entity_92>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866010 -0.000092 0.499991	</row0>
+			<row1>	-0.000009 0.999986 0.000202	</row1>
+			<row2>	-0.499991 -0.000178 0.866011	</row2>
+			<row3>	51.438648 -2.888671 183.680084	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_92>
+	<entity_93>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.499989 -0.000135 0.866008	</row0>
+			<row1>	-0.000061 0.999984 0.000193	</row1>
+			<row2>	-0.866009 -0.000148 0.499990	</row2>
+			<row3>	88.749367 0.611328 144.438446	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_93>
+	<entity_94>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.965905 0.000010 0.258814	</row0>
+			<row1>	-0.000061 0.999984 0.000193	</row1>
+			<row2>	-0.258815 -0.000201 0.965907	</row2>
+			<row3>	89.978462 0.560547 139.544922	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_94>
+	<entity_95>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.866008 -0.000148 0.499989	</row0>
+			<row1>	-0.000061 0.999984 0.000193	</row1>
+			<row2>	-0.499990 0.000137 -0.866009	</row2>
+			<row3>	86.926941 0.451172 136.165375	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_95>
+	<entity_96>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.000001 -0.000059 0.999981	</row0>
+			<row1>	0.000193 0.999983 0.000061	</row1>
+			<row2>	-0.999981 0.000193 0.000001	</row2>
+			<row3>	85.352097 0.605469 141.023529	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_96>
+	<entity_97>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.707093 0.000137 -0.707093	</row0>
+			<row1>	-0.000009 0.999986 0.000202	</row1>
+			<row2>	0.707093 0.000150 -0.707093	</row2>
+			<row3>	0.828802 -3.109375 123.765686	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_97>
+	<entity_98>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.999980 -0.000008 0.000000	</row0>
+			<row1>	-0.000009 0.999985 0.000202	</row1>
+			<row2>	0.000000 0.000204 -0.999981	</row2>
+			<row3>	6.164656 -3.382812 126.199554	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_98>
+	<entity_99>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.258815 0.000045 0.965910	</row0>
+			<row1>	0.000202 0.999986 0.000009	</row1>
+			<row2>	-0.965910 0.000198 -0.258815	</row2>
+			<row3>	14.531406 -3.150390 120.931091	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_99>
+	<entity_100>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.866008 -0.000108 0.499991	</row0>
+			<row1>	-0.000009 0.999984 0.000202	</row1>
+			<row2>	-0.499991 0.000172 -0.866009	</row2>
+			<row3>	11.279288 -3.365234 125.135925	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_100>
+	<entity_101>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.109628 -0.000282 -0.993965	</row0>
+			<row1>	0.000013 0.999993 -0.000286	</row1>
+			<row2>	0.993966 -0.000043 -0.109628	</row2>
+			<row3>	24.249475 -2.900390 143.508514	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20742030	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	2623A310.42DA8DFD.B43301BE.7C209D28	</patrolList>
+			<patrolPathNode>	1149DB13.46416690.B433B1BE.A68BC939	</patrolPathNode>
+		</properties>
+	</entity_101>
+	<entity_102>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.126628 0.000200 -0.991944	</row0>
+			<row1>	-0.000009 0.999994 0.000202	</row1>
+			<row2>	0.991944 0.000035 -0.126628	</row2>
+			<row3>	21.085222 -2.962890 143.986603	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20714007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	2623A310.42DA8DFD.B43301BE.7C209D28	</patrolList>
+			<patrolPathNode>	1149DB13.46416690.B433B1BE.A68BC939	</patrolPathNode>
+		</properties>
+	</entity_102>
+	<entity_103>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	47.516373 -2.943359 188.255432	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20251050	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_103>
+	<entity_104>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	7.761799 -2.882812 120.658302	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20251050	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_104>
+	<entity_105>
+		<type>	SpawnPointDoor	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	64.755882 -0.163941 145.484283	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20251051	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_105>
+	<entity_106>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.965925 0.000000 0.258819	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.258819 0.000000 0.965925	</row2>
+			<row3>	9.925403 -1.021484 100.128326	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754013	</entityName>
+			<rediviousTime>	1000000000.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_106>
+	<entity_107>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258819 0.000000 -0.965921	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.965921 0.000000 0.258819	</row2>
+			<row3>	92.282776 49.064537 230.931335	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_107>
+	<entity_108>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.865740 -0.025322 -0.499836	</row0>
+			<row1>	-0.021890 0.999671 -0.012731	</row1>
+			<row2>	0.499998 -0.000080 -0.866017	</row2>
+			<row3>	1.711845 8.179771 228.283981	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_002.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_108>
+	<entity_109>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.499996 0.000000 0.866020	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	-0.866020 0.000000 0.499996	</row2>
+			<row3>	43.624409 43.978191 274.923767	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_109>
+	<entity_110>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965651 -0.024438 -0.258663	</row0>
+			<row1>	-0.021890 0.999672 -0.012731	</row1>
+			<row2>	0.258891 -0.006632 -0.965875	</row2>
+			<row3>	47.573269 39.404945 216.937225	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_004.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_110>
+	<entity_111>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.000001 -0.000202 0.999983	</row0>
+			<row1>	-0.000009 0.999987 0.000202	</row1>
+			<row2>	-0.999984 -0.000009 0.000000	</row2>
+			<row3>	15.336656 -6.619140 229.088928	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_111>
+	<entity_112>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.000001 0.000203 -0.999984	</row0>
+			<row1>	-0.000009 0.999988 0.000202	</row1>
+			<row2>	0.999985 0.000009 0.000000	</row2>
+			<row3>	3.046543 -7.044921 229.936371	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_112>
+	<entity_113>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866010 -0.000169 -0.499992	</row0>
+			<row1>	0.000202 0.999985 0.000009	</row1>
+			<row2>	0.499992 -0.000109 0.866010	</row2>
+			<row3>	6.723048 -6.746093 224.789459	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_113>
+	<entity_114>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866012 -0.000092 0.499991	</row0>
+			<row1>	-0.000009 0.999987 0.000202	</row1>
+			<row2>	-0.499992 -0.000179 0.866013	</row2>
+			<row3>	12.592604 -6.566405 224.260559	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754018	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_114>
+	<entity_115>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	9.755016 -6.640624 229.538589	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20251050	</entityName>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	3.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_115>
+	<entity_116>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.707114 0.000000 -0.707090	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.707090 0.000000 0.707114	</row2>
+			<row3>	190.268204 9.774576 179.643112	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_004.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_116>
+	<entity_117>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.706658 0.020419 -0.707251	</row0>
+			<row1>	-0.031744 0.999486 -0.002863	</row1>
+			<row2>	0.706833 0.024474 0.706946	</row2>
+			<row3>	146.849518 37.821362 107.883606	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_010.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_117>
+	<entity_118>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965651 -0.024438 -0.258663	</row0>
+			<row1>	-0.021890 0.999673 -0.012731	</row1>
+			<row2>	0.258891 -0.006631 -0.965877	</row2>
+			<row3>	177.569122 8.055550 145.807617	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_hai_gui_001.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_118>
+	<entity_119>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999489 0.031745 -0.000215	</row0>
+			<row1>	-0.031744 0.999486 -0.002863	</row1>
+			<row2>	0.000125 0.002868 0.999988	</row2>
+			<row3>	118.347557 9.943762 122.880066	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_010.model	</modelFile>
+			<amount>	5	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_119>
+	<entity_120>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.258807 -0.010985 -0.965859	</row0>
+			<row1>	-0.031744 0.999485 -0.002863	</row1>
+			<row2>	0.965400 0.029920 -0.259025	</row2>
+			<row3>	130.165192 15.772533 179.770538	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_011.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_120>
+	<entity_121>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.707089 0.000000 0.707111	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	-0.707111 0.000000 0.707089	</row2>
+			<row3>	110.455605 31.765781 145.665375	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_012.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_121>
+	<entity_122>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.258816 0.000000 -0.965919	</row0>
+			<row1>	0.000000 0.999994 0.000000	</row1>
+			<row2>	0.965919 0.000000 -0.258816	</row2>
+			<row3>	137.053772 17.895235 164.469849	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_001.model	</modelFile>
+			<amount>	4	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_122>
+	<entity_123>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999981 -0.000200 -0.000001	</row0>
+			<row1>	0.000202 0.999983 0.000009	</row1>
+			<row2>	0.000001 -0.000009 0.999981	</row2>
+			<row3>	117.604271 2.755859 109.126518	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_123>
+	<entity_124>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999981 -0.000200 -0.000001	</row0>
+			<row1>	0.000202 0.999983 0.000009	</row1>
+			<row2>	0.000001 -0.000009 0.999981	</row2>
+			<row3>	107.410011 2.267578 108.864113	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_124>
+	<entity_125>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999981 -0.000200 -0.000001	</row0>
+			<row1>	0.000202 0.999983 0.000009	</row1>
+			<row2>	0.000001 -0.000009 0.999981	</row2>
+			<row3>	112.410187 2.564453 108.944130	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_125>
+	<entity_126>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999981 -0.000200 -0.000001	</row0>
+			<row1>	0.000202 0.999984 0.000009	</row1>
+			<row2>	0.000001 -0.000009 0.999981	</row2>
+			<row3>	122.580475 2.630859 109.214653	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_126>
+	<entity_127>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.866010 0.000000 -0.500010	</row0>
+			<row1>	0.000000 0.999992 0.000000	</row1>
+			<row2>	0.500010 0.000000 -0.866010	</row2>
+			<row3>	147.388000 44.198112 215.473160	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_004.model	</modelFile>
+			<amount>	3	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	10.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.500000	</collisionFraction>
+			<influenceRadius>	10.000000	</influenceRadius>
+			<speed>	0.200000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_127>
+	<entity_128>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	-0.965652 -0.024438 -0.258663	</row0>
+			<row1>	-0.021890 0.999673 -0.012731	</row1>
+			<row2>	0.258891 -0.006631 -0.965878	</row2>
+			<row3>	272.089172 4.852962 153.082764	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_yu_004.model	</modelFile>
+			<amount>	10	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_128>
+	<entity_129>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.258817 0.000000 0.965922	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.965922 0.000000 0.258817	</row2>
+			<row3>	269.064636 -19.150963 169.015625	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<maxFlightTime>	200.000000	</maxFlightTime>
+			<modelFile>	space/tong_yong/dong_wu/dong_wu/ty_sha_yu_002.model	</modelFile>
+			<amount>	1	</amount>
+			<modelScale>	1.000000	</modelScale>
+			<radius>	20.000000	</radius>
+			<approachRadius>	10.000000	</approachRadius>
+			<collisionFraction>	0.700000	</collisionFraction>
+			<influenceRadius>	15.000000	</influenceRadius>
+			<speed>	0.100000	</speed>
+			<stopRadius>	1.000000	</stopRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_129>
+	<entity_130>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999981 -0.000200 -0.000001	</row0>
+			<row1>	0.000202 0.999983 0.000009	</row1>
+			<row2>	0.000001 -0.000009 0.999981	</row2>
+			<row3>	114.812630 1.463626 33.481510	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754014	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_130>
+	<entity_131>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.000000 0.000000 0.999997	</row2>
+			<row3>	114.791161 1.463622 13.203514	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111273	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_131>
+	<entity_132>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.402455 0.000000 0.915436	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.915436 0.000000 0.402455	</row2>
+			<row3>	135.111343 1.463624 25.078548	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111274	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_132>
+	<entity_133>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.646494 0.000000 0.762909	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.762909 0.000000 -0.646494	</row2>
+			<row3>	132.076263 1.463622 45.562508	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111275	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_133>
+	<entity_134>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	-0.762910 0.000000 -0.646494	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.646494 0.000000 -0.762910	</row2>
+			<row3>	96.763489 1.463619 45.908524	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111276	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_134>
+	<entity_135>
+		<type>	QuestBox	</type>
+		<transform>
+			<row0>	0.427010 0.000000 -0.904241	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.904241 0.000000 0.427010	</row2>
+			<row3>	94.804085 1.463627 25.915203	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<className>	30111277	</className>
+			<rediviousTime>	60.000000	</rediviousTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_135>
+	<entity_136>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.000001 0.000012 -0.999974	</row0>
+			<row1>	0.000201 0.999978 0.000009	</row1>
+			<row2>	0.999975 -0.000202 0.000000	</row2>
+			<row3>	-108.127914 8.180372 -57.638435	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20742031	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_136>
+	<entity_137>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.000001 -0.000010 -0.999974	</row0>
+			<row1>	-0.000287 0.999978 -0.000013	</row1>
+			<row2>	0.999974 0.000286 0.000000	</row2>
+			<row3>	-101.842163 6.739246 -63.651585	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20714006	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_137>
+	<entity_138>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999973 0.000434 0.000001	</row0>
+			<row1>	-0.000431 0.999978 -0.000020	</row1>
+			<row2>	0.000000 0.000019 0.999974	</row2>
+			<row3>	-85.191231 6.492431 -64.929840	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_138>
+	<entity_139>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999973 0.000292 0.000001	</row0>
+			<row1>	-0.000289 0.999978 -0.000015	</row1>
+			<row2>	0.000000 0.000014 0.999973	</row2>
+			<row3>	-78.645920 6.492431 -65.122269	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_139>
+	<entity_140>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999973 0.000436 0.000001	</row0>
+			<row1>	-0.000433 0.999978 -0.000023	</row1>
+			<row2>	0.000000 0.000022 0.999973	</row2>
+			<row3>	-71.226822 6.492437 -65.248108	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_140>
+	<entity_141>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999973 -0.000253 0.000001	</row0>
+			<row1>	0.000256 0.999978 0.000014	</row1>
+			<row2>	0.000000 -0.000015 0.999973	</row2>
+			<row3>	-65.307709 6.492441 -65.253845	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_141>
+	<entity_142>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.999972 -0.000229 -0.000001	</row0>
+			<row1>	-0.000232 0.999977 -0.000014	</row1>
+			<row2>	-0.000000 -0.000015 -0.999972	</row2>
+			<row3>	-65.352798 6.492461 -50.055473	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_142>
+	<entity_143>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.999972 -0.000087 -0.000001	</row0>
+			<row1>	-0.000090 0.999977 -0.000006	</row1>
+			<row2>	-0.000000 -0.000007 -0.999972	</row2>
+			<row3>	-71.311089 6.492452 -49.696163	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_143>
+	<entity_144>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.999972 -0.000087 -0.000001	</row0>
+			<row1>	-0.000090 0.999977 -0.000006	</row1>
+			<row2>	-0.000000 -0.000007 -0.999972	</row2>
+			<row3>	-78.570320 6.492445 -49.658787	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_144>
+	<entity_145>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.999972 -0.000087 -0.000001	</row0>
+			<row1>	-0.000090 0.999977 -0.000006	</row1>
+			<row2>	-0.000000 -0.000007 -0.999972	</row2>
+			<row3>	-85.151024 6.492439 -49.755566	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_145>
+	<entity_146>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.965903 0.000002 -0.258815	</row0>
+			<row1>	0.000000 0.999980 0.000000	</row1>
+			<row2>	0.258815 0.000000 0.965904	</row2>
+			<row3>	146.252594 2.789997 -28.435625	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_146>
+	<entity_147>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.707091 -0.000290 -0.707091	</row0>
+			<row1>	-0.000396 0.999981 -0.000017	</row1>
+			<row2>	0.707091 0.000267 -0.707091	</row2>
+			<row3>	146.214508 2.790001 -34.060802	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_147>
+	<entity_148>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.499988 0.000134 -0.866006	</row0>
+			<row1>	-0.000286 0.999980 -0.000013	</row1>
+			<row2>	0.866006 0.000253 0.499988	</row2>
+			<row3>	139.889374 2.789995 -28.756432	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_148>
+	<entity_149>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.707091 0.000002 0.707088	</row0>
+			<row1>	0.000000 0.999979 0.000000	</row1>
+			<row2>	-0.707089 0.000000 0.707092	</row2>
+			<row3>	143.094238 2.789997 -31.787270	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_149>
+	<entity_150>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.000000 0.000020 0.999975	</row0>
+			<row1>	-0.000396 0.999981 -0.000017	</row1>
+			<row2>	-0.999977 -0.000398 0.000001	</row2>
+			<row3>	85.366623 2.789998 -17.914104	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_150>
+	<entity_151>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.965901 0.000091 0.258813	</row0>
+			<row1>	0.000092 0.999981 0.000004	</row1>
+			<row2>	-0.258814 0.000026 -0.965903	</row2>
+			<row3>	84.976883 2.790001 -23.819225	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_151>
+	<entity_152>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.866003 -0.000348 -0.499987	</row0>
+			<row1>	-0.000396 0.999981 -0.000017	</row1>
+			<row2>	0.499987 0.000181 -0.866006	</row2>
+			<row3>	80.879135 2.790003 -20.268463	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_152>
+	<entity_153>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.866003 -0.000331 0.499987	</row0>
+			<row1>	-0.000396 0.999981 -0.000017	</row1>
+			<row2>	-0.499989 -0.000215 -0.866004	</row2>
+			<row3>	81.506058 2.790002 -27.044094	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_153>
+	<entity_154>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.866002 0.000130 0.499985	</row0>
+			<row1>	-0.000143 0.999981 -0.000006	</row1>
+			<row2>	-0.499986 -0.000069 0.866004	</row2>
+			<row3>	101.132347 2.791511 -73.650269	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_154>
+	<entity_155>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.965898 0.000276 -0.258813	</row0>
+			<row1>	-0.000286 0.999981 -0.000013	</row1>
+			<row2>	0.258814 0.000083 0.965900	</row2>
+			<row3>	101.576332 2.791507 -77.129562	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_155>
+	<entity_156>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.707087 0.000196 -0.707088	</row0>
+			<row1>	-0.000286 0.999981 -0.000013	</row1>
+			<row2>	0.707090 0.000209 0.707087	</row2>
+			<row3>	93.777771 2.791509 -75.190430	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_156>
+	<entity_157>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.499987 -0.000150 -0.866001	</row0>
+			<row1>	-0.000286 0.999980 -0.000013	</row1>
+			<row2>	0.866003 0.000238 -0.499989	</row2>
+			<row3>	97.755127 2.791507 -79.272400	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_157>
+	<entity_158>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.258812 0.000121 0.965902	</row0>
+			<row1>	-0.000396 0.999979 -0.000017	</row1>
+			<row2>	-0.965902 -0.000380 0.258814	</row2>
+			<row3>	113.439674 2.366449 -34.228523	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_158>
+	<entity_159>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.499988 -0.000114 0.866003	</row0>
+			<row1>	-0.000253 0.999979 -0.000011	</row1>
+			<row2>	-0.866004 -0.000227 -0.499986	</row2>
+			<row3>	117.115974 2.366447 -30.641819	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_159>
+	<entity_160>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.999974 -0.000249 -0.000001	</row0>
+			<row1>	-0.000253 0.999979 -0.000011	</row1>
+			<row2>	-0.000001 -0.000013 -0.999974	</row2>
+			<row3>	118.571121 2.366451 -34.451462	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_160>
+	<entity_161>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.999974 0.000095 -0.000001	</row0>
+			<row1>	0.000092 0.999979 0.000004	</row1>
+			<row2>	-0.000001 0.000002 -0.999975	</row2>
+			<row3>	112.313309 2.366451 -28.465685	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_161>
+	<entity_162>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.258812 -0.000084 0.965905	</row0>
+			<row1>	-0.000396 0.999981 -0.000017	</row1>
+			<row2>	-0.965905 -0.000388 -0.258813	</row2>
+			<row3>	123.013947 2.790005 -57.015968	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_162>
+	<entity_163>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.499989 -0.000181 0.866007	</row0>
+			<row1>	-0.000396 0.999981 -0.000017	</row1>
+			<row2>	-0.866007 -0.000353 -0.499989	</row2>
+			<row3>	127.750229 2.790001 -60.738224	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_163>
+	<entity_164>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.965905 0.000090 0.258814	</row0>
+			<row1>	0.000092 0.999981 0.000004	</row1>
+			<row2>	-0.258814 0.000027 -0.965905	</row2>
+			<row3>	127.856300 2.789999 -55.112316	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_164>
+	<entity_165>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.999978 0.000094 0.000001	</row0>
+			<row1>	0.000092 0.999980 0.000004	</row1>
+			<row2>	-0.000001 0.000002 -0.999978	</row2>
+			<row3>	122.890083 2.789997 -61.657459	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_165>
+	<entity_166>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.707087 0.000071 -0.707088	</row0>
+			<row1>	0.000092 0.999979 0.000004	</row1>
+			<row2>	0.707087 -0.000064 -0.707088	</row2>
+			<row3>	97.493492 2.366447 -53.596367	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_166>
+	<entity_167>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.866001 0.000084 -0.499988	</row0>
+			<row1>	0.000092 0.999979 0.000004	</row1>
+			<row2>	0.499986 -0.000045 -0.866002	</row2>
+			<row3>	91.264297 2.789999 -52.645920	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_167>
+	<entity_168>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.965899 0.000250 0.258813	</row0>
+			<row1>	-0.000253 0.999979 -0.000011	</row1>
+			<row2>	-0.258811 -0.000057 0.965900	</row2>
+			<row3>	91.900162 2.789997 -48.023678	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_168>
+	<entity_169>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.499989 0.000003 -0.866000	</row0>
+			<row1>	0.000000 0.999980 0.000000	</row1>
+			<row2>	0.866002 -0.000003 0.499986	</row2>
+			<row3>	96.618706 2.366449 -48.136192	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20754019	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_169>
+	<entity_170>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.258817 -0.000285 -0.965920	</row0>
+			<row1>	-0.000061 0.999995 -0.000280	</row1>
+			<row2>	0.965921 -0.000012 -0.258818	</row2>
+			<row3>	61.314125 2.789917 -72.421867	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20742030	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	935599F5.4A803D14.625C1D92.C621BA84	</patrolList>
+			<patrolPathNode>	7917F505.46C11629.1BEB99A0.DD950343	</patrolPathNode>
+		</properties>
+	</entity_170>
+	<entity_171>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.258818 0.000203 -0.965921	</row0>
+			<row1>	0.000044 0.999995 0.000197	</row1>
+			<row2>	0.965921 0.000010 -0.258818	</row2>
+			<row3>	58.294502 2.790093 -71.649597	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20714007	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	935599F5.4A803D14.625C1D92.C621BA84	</patrolList>
+			<patrolPathNode>	7917F505.46C11629.1BEB99A0.DD950343	</patrolPathNode>
+		</properties>
+	</entity_171>
+	<entity_172>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.999974 -0.000141 -0.000001	</row0>
+			<row1>	-0.000144 0.999978 -0.000006	</row1>
+			<row2>	0.000000 -0.000007 -0.999975	</row2>
+			<row3>	10.518184 2.790007 -64.669281	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20714005	</entityName>
+			<rediviousTime>	3600.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_172>
+	<entity_173>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.999973 -0.000198 0.000001	</row0>
+			<row1>	0.000201 0.999977 0.000009	</row1>
+			<row2>	0.000000 -0.000010 0.999974	</row2>
+			<row3>	17.764000 2.790003 -56.188004	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20251049	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_173>
+	<entity_174>
+		<type>	AreaRestrictTransducer	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	17.774778 2.790000 -56.188000	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<radius>	1.000000	</radius>
+			<enterSpell>	313100008	</enterSpell>
+			<leaveSpell>	313100009	</leaveSpell>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_174>
+	<entity_175>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.258813 0.000065 -0.965900	</row0>
+			<row1>	-0.000287 0.999977 -0.000013	</row1>
+			<row2>	0.965901 0.000279 0.258812	</row2>
+			<row3>	6.302002 2.790004 -46.062000	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20251049	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_175>
+	<entity_176>
+		<type>	AreaRestrictTransducer	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	6.302002 2.790007 -46.062000	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<radius>	1.000000	</radius>
+			<enterSpell>	313100008	</enterSpell>
+			<leaveSpell>	313100009	</leaveSpell>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_176>
+	<entity_177>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.866000 -0.000251 -0.499987	</row0>
+			<row1>	-0.000287 0.999976 -0.000011	</row1>
+			<row2>	0.499986 0.000134 -0.866001	</row2>
+			<row3>	10.960001 2.790004 -30.730001	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20251049	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_177>
+	<entity_178>
+		<type>	AreaRestrictTransducer	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	10.960001 2.790005 -30.730001	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<radius>	1.000000	</radius>
+			<enterSpell>	313100008	</enterSpell>
+			<leaveSpell>	313100009	</leaveSpell>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_178>
+	<entity_179>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	-0.499987 0.000096 0.866001	</row0>
+			<row1>	0.000201 0.999976 0.000008	</row1>
+			<row2>	-0.866001 0.000178 -0.499987	</row2>
+			<row3>	30.136002 2.790009 -29.344004	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20251049	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_179>
+	<entity_180>
+		<type>	AreaRestrictTransducer	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	30.136002 2.790004 -29.344002	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<radius>	1.000000	</radius>
+			<enterSpell>	313100008	</enterSpell>
+			<leaveSpell>	313100009	</leaveSpell>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_180>
+	<entity_181>
+		<type>	AreaRestrictTransducer	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	34.643997 2.790006 -46.888000	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<radius>	1.000000	</radius>
+			<enterSpell>	313100008	</enterSpell>
+			<leaveSpell>	313100009	</leaveSpell>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_181>
+	<entity_182>
+		<type>	SpawnPointCopyRevival	</type>
+		<transform>
+			<row0>	0.499985 0.000080 0.866002	</row0>
+			<row1>	-0.000144 0.999976 -0.000006	</row1>
+			<row2>	-0.866002 -0.000122 0.499986	</row2>
+			<row3>	34.643997 2.790004 -46.888000	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<entityName>	20251049	</entityName>
+			<rediviousTime>	3.000000	</rediviousTime>
+			<rediviousTotal>	1	</rediviousTotal>
+			<randomWalkRange>	0.000000	</randomWalkRange>
+			<patrolList>	</patrolList>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+	</entity_182>
+</root>

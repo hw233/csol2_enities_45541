@@ -1,0 +1,46 @@
+<root>
+	<Parent> 				SpawnPointActivity			</Parent>
+
+	<Properties>
+		<level>
+			<Type>			UINT8			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+			<Persistent>		false			</Persistent>
+			<Editable>		true			</Editable>
+		</level>
+		<camp>
+			<Type>			UINT16			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+			<Persistent>		false			</Persistent>
+			<Editable>		true			</Editable>
+		</camp>
+		<activityTypes>	<!-- 阵营活动类型 -->
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>	true			</Editable>
+		</activityTypes>
+		<spawnTimer>
+			<Type>		CONTROLLER_ID				</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false					</Persistent>
+		</spawnTimer>
+		<spawnTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	60.0			</Default>
+			<Persistent>	false			</Persistent>
+			<Editable>	true			</Editable>
+		</spawnTime>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>

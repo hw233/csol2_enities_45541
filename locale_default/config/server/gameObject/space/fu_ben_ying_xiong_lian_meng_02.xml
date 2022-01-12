@@ -1,0 +1,29 @@
+<root>
+	<EntityType>SpaceMultiLine</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceMultiLine</script>
+	<className>fu_ben_ying_xiong_lian_meng_02</className>
+	<dirMapping> universes/fu_ben_ying_xiong_lian_meng_02 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<CanQieCuo>	1	</CanQieCuo>		<!-- 允许切磋 -->
+	<TimeOfDay>	52200	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_ying_xiong_lian_meng_02.xml	</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>
+	<maxPlayerAmount>525</maxPlayerAmount>
+	<initLine>1</initLine>
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 		
+	<Space>
+		<spaceBBoxMin>	-160,-100,-532	</spaceBBoxMin>
+		<spaceBBoxMax>	927,600,885	</spaceBBoxMax>
+		<Tomb>
+			<fengming01>
+				<SpaceName>fengming</SpaceName>
+				<Position>910.364 208.160 213.759</Position>
+				<Direction>	0.0 0.0 -180.0	</Direction>	<!-- 复活后的面向方向，暂未实现 -->
+			</fengming01>
+		</Tomb>
+		<deathDepth>	-80	</deathDepth>
+	</Space>
+</root>

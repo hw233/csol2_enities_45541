@@ -1,0 +1,127 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+		<ybt_switch>
+			<Arg>		UINT8		</Arg>
+		</ybt_switch>
+
+		<buyYBRequest>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</buyYBRequest>
+		<unBuyYB>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</unBuyYB>
+		<buyYB>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</buyYB>
+
+		<sellYBRequest>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</sellYBRequest>
+		<unSellYB>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</unSellYB>
+		<sellYB>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</sellYB>
+
+		<establishBuyBillRequest>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</establishBuyBillRequest>
+		<establishBuyBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</establishBuyBill>
+
+		<establishSellBillRequest>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</establishSellBillRequest>
+		<establishSellBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</establishSellBill>
+
+		<cancleBillRequest>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</cancleBillRequest>
+		<cancleBill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT64		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</cancleBill>
+
+		<drawYB>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</drawYB>
+
+		<drawMoney>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</drawMoney>
+
+		<getBuyBillsInfo>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</getBuyBillsInfo>
+		<getSellBillsInfo>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</getSellBillsInfo>
+		<getMyBillsInfo>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</getMyBillsInfo>
+		<getAllMyBills>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</getAllMyBills>
+		<getBalanceMoney>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</getBalanceMoney>
+		<getBalanceYB>
+			<Arg>		INT32		</Arg>
+			<Arg>		MAILBOX	</Arg>
+		</getBalanceYB>
+	</BaseMethods>
+</root>

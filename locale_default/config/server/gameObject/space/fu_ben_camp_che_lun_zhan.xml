@@ -1,0 +1,25 @@
+<root>
+		<spaceName>	帮会车轮战	</spaceName>
+		<EntityType>	SpaceCopyCampTurnWar	</EntityType>
+		<DomainType>	SpaceDomainCampTurnWar	</DomainType>
+		<script>	SpaceCopyCampTurnWar	</script>
+		<SpaceType>	SPACE_TYPE_CAMP_TURN_WAR	</SpaceType>
+		<className>	fu_ben_camp_che_lun_zhan	</className>
+		<dirMapping>	universes/fu_ben_che_lun_zhan	</dirMapping>
+		<CanPk>	1	</CanPk>
+		<TimeOn>	0	</TimeOn>
+		<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+		<playerAoI>	150	</playerAoI>
+		<TimeOfDay>	56700	</TimeOfDay>
+		<spawnFile>	config/server/spawn/fu_ben_che_lun_zhan.xml </spawnFile>
+		<canArrest/>	<!-->是否可逮捕入狱<-->
+		<Space>
+			<deathDepth>	-90	</deathDepth>
+			<leftTeam_fightPoint>	-44.032757, 27.949744, 32.309045	</leftTeam_fightPoint>
+			<leftTeam_watchPoint>	-44.032757, 29.949744, 38.309045	</leftTeam_watchPoint>
+			<rightTeam_fightPoint>	-44.596, 27.525, 8.188	</rightTeam_fightPoint>
+			<rightTeam_watchPoint>	-44.521, 29.13, 1.525	</rightTeam_watchPoint>
+			<loser_watchPoint> -63.863, 28.778, 19.621 </loser_watchPoint>
+			<centerPoint> -44.374374, 27.385345, 20.254559	</centerPoint>
+		</Space>
+</root>

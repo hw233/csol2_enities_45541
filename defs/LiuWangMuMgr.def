@@ -1,0 +1,37 @@
+<root>
+	<Properties>
+	</Properties>
+	<Implements>
+		<Interface>	NormalActivityManager			</Interface>
+	</Implements>
+	<BaseMethods>
+		<sendReward>
+			<Arg>		INT8		</Arg>
+			<Arg> 	ARRAY<of>	STRING	</of>	</Arg>
+			<Arg> 	ARRAY<of>	STRING	</of>	</Arg>
+			<Arg>	PYTHON		</Arg>
+		</sendReward>	
+		<registerSpace>
+			<Arg>	MAILBOX			</Arg>
+			<Arg>	STRING			</Arg>
+		</registerSpace>
+		<set_floorTimeLimit>
+			<Arg>	INT32			</Arg>
+		</set_floorTimeLimit>
+		<set_openFloor>
+			<Arg>		UINT8		</Arg>
+		</set_openFloor>
+		<sendLiuWangMuRewardToTongChief>
+			<Arg>		INT8		</Arg>
+			<Arg>		INT8		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</sendLiuWangMuRewardToTongChief>
+		<onBossDied>
+		</onBossDied>
+		<onNoticeBossDiJiang>
+		</onNoticeBossDiJiang>
+		<onNoticeBossWuDangShenMu>
+		</onNoticeBossWuDangShenMu>
+	</BaseMethods>
+</root>

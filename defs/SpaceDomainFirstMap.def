@@ -1,0 +1,15 @@
+<root>
+	<Parent>	SpaceDomainCopy	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<incPlayerAmount>
+			<Arg>	INT32		</Arg>
+		</incPlayerAmount>
+		<decPlayerAmount>
+			<Arg>	INT32		</Arg>
+		</decPlayerAmount>
+	</BaseMethods>
+</root>

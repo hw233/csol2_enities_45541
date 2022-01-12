@@ -1,0 +1,16 @@
+<root>
+	<Implements>
+		<Interface>	CombatUnit		</Interface>
+	</Implements>
+
+	<Properties>
+
+	</Properties>
+
+	<CellMethods>
+		<cureToEnemy>	<!-- 告诉所有对我有意见的怪物，把“entityID”这家伙的仇恨度加“enmity” -->
+			<Arg>	MAILBOX		</Arg>	<!-- cell entity -->
+			<Arg>	INT32		</Arg>	<!-- enmity -->
+		</cureToEnemy>
+	</CellMethods>
+</root>

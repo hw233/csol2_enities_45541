@@ -1,0 +1,1791 @@
+<root>
+	<row>
+		<id>	-1	</id>
+		<name>	將當前目標從己方單位列表中移出	</name>
+		<scriptName>	AIActions:AIAction13	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	1	</id>
+		<name>	戰鬥列表清空	</name>
+		<scriptName>	AIActions:AIAction1	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將傷害列表、治療列表中的單位全部移出	</comment>
+	</row>
+	<row>
+		<id>	5	</id>
+		<name>	傷害列表增加	</name>
+		<scriptName>	AIActions:AIAction2	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將指定目標加入傷害列表	</comment>
+	</row>
+	<row>
+		<id>	6	</id>
+		<name>	傷害列表刪減	</name>
+		<scriptName>	AIActions:AIAction3	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將指定目標移出傷害列表	</comment>
+	</row>
+	<row>
+		<id>	7	</id>
+		<name>	清空傷害列表	</name>
+		<scriptName>	AIActions:AIAction4	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將傷害列表中所有單位移出	</comment>
+	</row>
+	<row>
+		<id>	8	</id>
+		<name>	治療列表增加	</name>
+		<scriptName>	AIActions:AIAction5	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將指定目標加入治療列表	</comment>
+	</row>
+	<row>
+		<id>	9	</id>
+		<name>	治療列表刪減	</name>
+		<scriptName>	AIActions:AIAction6	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將指定目標移出傷害列表	</comment>
+	</row>
+	<row>
+		<id>	10	</id>
+		<name>	清空治療列表	</name>
+		<scriptName>	AIActions:AIAction7	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將治療列表中所有單位移出	</comment>
+	</row>
+	<row>
+		<id>	11	</id>
+		<name>	清空戰鬥列表中除當前目標外的所有單位	</name>
+		<scriptName>	AIActions:AIAction8	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	12	</id>
+		<name>	清空傷害列表中除當前目標外的所有單位	</name>
+		<scriptName>	AIActions:AIAction9	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	13	</id>
+		<name>	清空治療列表中除當前目標外的所有單位	</name>
+		<scriptName>	AIActions:AIAction10	</scriptName>
+		<group>	13	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	14	</id>
+		<name>	進入戰鬥狀態	</name>
+		<scriptName>	AIActions:AIAction14	</scriptName>
+		<group>	14	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	NPC自身進入戰鬥狀態，將當前目標作為攻擊目標	</comment>
+	</row>
+	<row>
+		<id>	15	</id>
+		<name>	脫離戰鬥狀態	</name>
+		<scriptName>	AIActions:AIAction15	</scriptName>
+		<group>	14	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	NPC自身脫離戰鬥狀態	</comment>
+	</row>
+	<row>
+		<id>	16	</id>
+		<name>	將傷害列表首位作為當前目標	</name>
+		<scriptName>	AIActions:AIAction16	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將傷害列表中傷害值最高的單位作為當前目標	</comment>
+	</row>
+	<row>
+		<id>	17	</id>
+		<name>	將治療列表首位作為當前目標	</name>
+		<scriptName>	AIActions:AIAction17	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將治療列表中治療值最高的單位作為當前目標	</comment>
+	</row>
+	<row>
+		<id>	18	</id>
+		<name>	等級最低選擇	</name>
+		<scriptName>	AIActions:AIAction18	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將戰鬥列表中等級最低的單位作為當前目標	</comment>
+	</row>
+	<row>
+		<id>	19	</id>
+		<name>	等級最高選擇	</name>
+		<scriptName>	AIActions:AIAction19	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將戰鬥列表中等級最高的單位作為當前目標	</comment>
+	</row>
+	<row>
+		<id>	20	</id>
+		<name>	生命最低選擇	</name>
+		<scriptName>	AIActions:AIAction20	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將戰鬥列表中生命最低的單位做為當前目標	</comment>
+	</row>
+	<row>
+		<id>	21	</id>
+		<name>	生命最高選擇	</name>
+		<scriptName>	AIActions:AIAction21	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	將戰鬥列表中生命最高的單位做為當前目標	</comment>
+	</row>
+	<row>
+		<id>	22	</id>
+		<name>	</name>
+		<scriptName>	AIActions:AIAction22	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	23	</id>
+		<name>	復位	</name>
+		<scriptName>	AIActions:AIAction23	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	回到進入戰鬥之前的位置	</comment>
+	</row>
+	<row>
+		<id>	24	</id>
+		<name>	完全恢復	</name>
+		<scriptName>	AIActions:AIAction24	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	恢復為出生時狀態。HP/MP補滿，取消所有DEBUFF。	</comment>
+	</row>
+	<row>
+		<id>	25	</id>
+		<name>	強製攻擊目標	</name>
+		<scriptName>	AIActions:AIAction25	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	對目標攻擊	</comment>
+	</row>
+	<row>
+		<id>	26	</id>
+		<name>	對目標使用技能	</name>
+		<scriptName>	AIActions:AIAction26	</scriptName>
+		<group>	16	</group>
+		<param1>	技能完整ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	28	</id>
+		<name>	逃跑	</name>
+		<scriptName>	AIActions:AIAction27	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	放棄攻擊目標，開始逃跑	</comment>
+	</row>
+	<row>
+		<id>	29	</id>
+		<name>	停止逃跑	</name>
+		<scriptName>	AIActions:AIAction28	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	停止逃跑，對當前目標攻擊	</comment>
+	</row>
+	<row>
+		<id>	30	</id>
+		<name>	當前AI系統運行級別調整	</name>
+		<scriptName>	AIActions:AIAction29	</scriptName>
+		<group>	17	</group>
+		<param1>	級值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	臨時改變本次AI運行級別級	</comment>
+	</row>
+	<row>
+		<id>	31	</id>
+		<name>	默認AI系統運行級別調整	</name>
+		<scriptName>	AIActions:AIAction30	</scriptName>
+		<group>	17	</group>
+		<param1>	級數值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	在本次戰鬥內更改默認的AI系統運行級別	</comment>
+	</row>
+	<row>
+		<id>	36	</id>
+		<name>	NPC發言	</name>
+		<scriptName>	AIActions:AIAction33	</scriptName>
+		<group>	18	</group>
+		<param1>	要說的話	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	37	</id>
+		<name>	指定S級AI所對應的目標	</name>
+		<scriptName>	AIActions:AIAction31	</scriptName>
+		<group>	17	</group>
+		<param1>	aiID (特殊AI中的ID)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	39	</id>
+		<name>	向指定類型NPC發送AI命令	</name>
+		<scriptName>	AIActions:AIAction34	</scriptName>
+		<group>	18	</group>
+		<param1>	npcID	</param1>
+		<param2>	命令uint16	</param2>
+		<param3>	搜索半徑	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	40	</id>
+		<name>	指定E級AI所對應的目標	</name>
+		<scriptName>	AIActions:AIAction32	</scriptName>
+		<group>	17	</group>
+		<param1>	aiID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	42	</id>
+		<name>	將指定單位加入戰鬥己方單位列表	</name>
+		<scriptName>	AIActions:AIAction11	</scriptName>
+		<group>	13	</group>
+		<param1>	NPCID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	43	</id>
+		<name>	將指定單位移出戰鬥己方單位列表	</name>
+		<scriptName>	AIActions:AIAction12	</scriptName>
+		<group>	13	</group>
+		<param1>	NPCID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	44	</id>
+		<name>	戰鬥列表增加	</name>
+		<scriptName>	AIActions:AIAction37	</scriptName>
+		<group>	13	</group>
+		<param1>	當前目標entityID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	45	</id>
+		<name>	清理不在視野範圍類的敵人	</name>
+		<scriptName>	AIActions:AIAction35	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	46	</id>
+		<name>	檢測當前攻擊目標的有效性	</name>
+		<scriptName>	AIActions:AIAction36	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	47	</id>
+		<name>	將最先進入敵人列表的作為當前目標	</name>
+		<scriptName>	AIActions:AIAction38	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	49	</id>
+		<name>	改變當前目標為最終作用對象	</name>
+		<scriptName>	AIActions:AIAction40	</scriptName>
+		<group>	27	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	其他所有地方的當前對象都是指AI的臨時對象。
+如：由事件經過的或者是SAI選擇出的一個對象AI必須將其選擇進入最終對象 才可以對其進行作用（攻擊，加血等.）。	</comment>
+	</row>
+	<row>
+		<id>	50	</id>
+		<name>	呼叫同伴	</name>
+		<scriptName>	AIActions:AIAction41	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	進入戰鬥時呼叫周圍的同伴，共同攻擊當前目標。
+呼叫範圍及呼叫同伴ID由數據中的callRange和callList決定。
+被呼叫者不會再次呼叫其他同伴。
+被呼叫的同伴如果在戰鬥中，則不理會呼叫。	</comment>
+	</row>
+	<row>
+		<id>	51	</id>
+		<name>	對目標使用自身等級的技能	</name>
+		<scriptName>	AIActions:AIAction42	</scriptName>
+		<group>	16	</group>
+		<param1>	技能未展開編號	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	使用變量中的技能，技能編號為技能的前六位，技能的等級由該AI的使用者的等級決定。
+如：32級的怪物A使用技能B（編號123456），實際使用的技能展開編號應該是123456032。	</comment>
+	</row>
+	<row>
+		<id>	55	</id>
+		<name>	對自身使用技能	</name>
+		<scriptName>	AIActions:AIAction43	</scriptName>
+		<group>	16	</group>
+		<param1>	技能完整ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	對自身使用一個指定的技能，不會更換當前目標	</comment>
+	</row>
+	<row>
+		<id>	56	</id>
+		<name>	對自身使用自身等級的技能	</name>
+		<scriptName>	AIActions:AIAction44	</scriptName>
+		<group>	16	</group>
+		<param1>	技能未展開編號	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	對自身使用一個與自身等級相同的指定技能，不會改變當前目標	</comment>
+	</row>
+	<row>
+		<id>	57	</id>
+		<name>	將對我施放嘲諷技能的人做為最終作用對象	</name>
+		<scriptName>	AIActions:AIAction45	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	58	</id>
+		<name>	停止巡邏	</name>
+		<scriptName>	AIActions:AIAction46	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	停止巡邏, 具有巡邏功能的NPC才可以使用, 使改NPC處於停止巡邏狀態	</comment>
+	</row>
+	<row>
+		<id>	59	</id>
+		<name>	開始巡邏	</name>
+		<scriptName>	AIActions:AIAction47	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	開始巡邏, 具有巡邏功能的NPC才可以使用, 使改NPC處於巡邏狀態	</comment>
+	</row>
+	<row>
+		<id>	60	</id>
+		<name>	108星：怪物變成NPC	</name>
+		<scriptName>	AIActions:AIAction49	</scriptName>
+		<group>	28	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	61	</id>
+		<name>	108星：NPC變成怪物	</name>
+		<scriptName>	AIActions:AIAction48	</scriptName>
+		<group>	28	</group>
+		<param1>	改變到指定等級	</param1>
+		<param2>	改變到目標等級偏移值	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	1：改變到指定等級
+如果這個選項被填寫， 那麼NPC只會改變到指定等級
+
+2：改變到目標等級偏移值
+如果填寫了這個選項 NPC將改變到自己當前目標的等級+這個偏移值。  注意使用這個選項必須要爭NPC已經選擇了一個攻擊目標	</comment>
+	</row>
+	<row>
+		<id>	62	</id>
+		<name>	NPC自身銷毀	</name>
+		<scriptName>	AIActions:AIAction50	</scriptName>
+		<group>	18	</group>
+		<param1>	隔多長時間後銷毀（不填寫則為默認值）	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	NPC/MONSTER 自身銷毀	</comment>
+	</row>
+	<row>
+		<id>	63	</id>
+		<name>	NPC通知擁有者完成一個事件型任務	</name>
+		<scriptName>	AIActions:AIAction51	</scriptName>
+		<group>	28	</group>
+		<param1>	任務ID	</param1>
+		<param2>	任務目標索引	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	64	</id>
+		<name>	記錄當前時間（如已記錄則不進行記錄，請自行清空記錄）	</name>
+		<scriptName>	AIActions:AIAction52	</scriptName>
+		<group>	29	</group>
+		<param1>	記錄標簽名	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	記錄當前的時間，  到一個標簽名中。
+主要用於一些時間查詢等操作：
+如 一段時間內 NPC沒有做什麼就怎麼樣。
+
+要實現這個當然還需要配合一個相關條件：
+”某記錄時間是否到達“   參數是和該標簽名一樣的	</comment>
+	</row>
+	<row>
+		<id>	65	</id>
+		<name>	NPC停止移動	</name>
+		<scriptName>	AIActions:AIAction53	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	66	</id>
+		<name>	NPC跟隨任務擁有者	</name>
+		<scriptName>	AIActions:AIAction54	</scriptName>
+		<group>	28	</group>
+		<param1>	保持距離	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	NPC跟隨任務擁有者
+
+保持距離 既NPC始終與擁有者所保持的一段距離.	</comment>
+	</row>
+	<row>
+		<id>	67	</id>
+		<name>	清除某記錄時間	</name>
+		<scriptName>	AIActions:AIAction55	</scriptName>
+		<group>	29	</group>
+		<param1>	記錄標簽名	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	68	</id>
+		<name>	向任務擁有者發送一個系統信息	</name>
+		<scriptName>	AIActions:AIAction56	</scriptName>
+		<group>	28	</group>
+		<param1>	系統信息宏定義	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	70	</id>
+		<name>	家族控制NPC持續給周圍家族成員經驗	</name>
+		<scriptName>	AIActions:AIAction57	</scriptName>
+		<group>	18	</group>
+		<param1>	半徑	</param1>
+		<param2>	經驗數值最大	</param2>
+		<param3>	經驗數值最小	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	71	</id>
+		<name>	清除某EAI標記	</name>
+		<scriptName>	AIActions:AIAction58	</scriptName>
+		<group>	17	</group>
+		<param1>	aiID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	72	</id>
+		<name>	從屬怪物攻擊主人的敵人	</name>
+		<scriptName>	AIActions:AIAction59	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	73	</id>
+		<name>	從屬怪物跟隨主人	</name>
+		<scriptName>	AIActions:AIAction60	</scriptName>
+		<group>	32	</group>
+		<param1>	和主人保持距離	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	怪物跟隨主人	</comment>
+	</row>
+	<row>
+		<id>	74	</id>
+		<name>	向主人發出飛到主人所在位置的請求	</name>
+		<scriptName>	AIActions:AIAction61	</scriptName>
+		<group>	28	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	75	</id>
+		<name>	任務實體跟隨玩家	</name>
+		<scriptName>	AIActions:AIAction62	</scriptName>
+		<group>	28	</group>
+		<param1>	和玩家保持最短距離	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	76	</id>
+		<name>	發出飛到主人身邊的請求（主要用於主人可能已經到了別的space的情況，也可以用於主人和自己不在一個cell時，請求飛到他身邊）	</name>
+		<scriptName>	AIActions:AIAction61	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	77	</id>
+		<name>	飛到主人身邊（用於和主人之間的距離比較遠，需要飛到他旁邊,也可以用於飛到不同的space）	</name>
+		<scriptName>	AIActions:AIAction62	</scriptName>
+		<group>	28	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	78	</id>
+		<name>	重新建立自身和主人的關聯	</name>
+		<scriptName>	AIActions:AIAction63	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	79	</id>
+		<name>	消失	</name>
+		<scriptName>	AIActions:AIAction64	</scriptName>
+		<group>	32	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	80	</id>
+		<name>	招怪	</name>
+		<scriptName>	AIActions:AIAction65	</scriptName>
+		<group>	18	</group>
+		<param1>	怪物列表臨時變量key	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	81	</id>
+		<name>	記錄鏢車目標ID	</name>
+		<scriptName>	AIActions:AIAction66	</scriptName>
+		<group>	28	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	82	</id>
+		<name>	到達任務目標，通知任務完成，消失	</name>
+		<scriptName>	AIActions:AIAction67	</scriptName>
+		<group>	28	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	83	</id>
+		<name>	向目標移動	</name>
+		<scriptName>	AIActions:AIAction68	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	84	</id>
+		<name>	發送私聊信息	</name>
+		<scriptName>	AIActions:AIAction69	</scriptName>
+		<group>	32	</group>
+		<param1>	csstatus中宏定義值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	鏢車向擁有者發送一個私聊信息	</comment>
+	</row>
+	<row>
+		<id>	85	</id>
+		<name>	鏢車死亡處理	</name>
+		<scriptName>	AIActions:AIAction70	</scriptName>
+		<group>	28	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	86	</id>
+		<name>	NPC通知擁有者一個事件型任務失敗	</name>
+		<scriptName>	AIActions:AIAction71	</scriptName>
+		<group>	28	</group>
+		<param1>	任務ID	</param1>
+		<param2>	任務目標索引	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	87	</id>
+		<name>	怪物脫離戰鬥後消失	</name>
+		<scriptName>	AIActions:AIAction72	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	88	</id>
+		<name>	水晶召喚怪物	</name>
+		<scriptName>	AIActions:AIAction73	</scriptName>
+		<group>	18	</group>
+		<param1>	怪物ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	89	</id>
+		<name>	水晶釋放技能	</name>
+		<scriptName>	AIActions:AIAction74	</scriptName>
+		<group>	18	</group>
+		<param1>	技能ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	90	</id>
+		<name>	走向某個坐標	</name>
+		<scriptName>	AIActions:AIAction75	</scriptName>
+		<group>	18	</group>
+		<param1>	坐標	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	走向某個坐標	</comment>
+	</row>
+	<row>
+		<id>	91	</id>
+		<name>	通知副本到達指定位置	</name>
+		<scriptName>	AIActions:AIAction76	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	92	</id>
+		<name>	從戰鬥列表中隨機選取一個，對其施放自身等級技能	</name>
+		<scriptName>	AIActions:AIAction77	</scriptName>
+		<group>	16	</group>
+		<param1>	未展開技能編號	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	從戰鬥列表中隨機選取一個，對其施放自身等級技能	</comment>
+	</row>
+	<row>
+		<id>	93	</id>
+		<name>	召喚怪物	</name>
+		<scriptName>	AIActions:AIAction78	</scriptName>
+		<group>	18	</group>
+		<param1>	數量	</param1>
+		<param2>	怪物className	</param2>
+		<param3>	位置（如果不填寫，則在怪物所在位置）	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	召喚怪物	</comment>
+	</row>
+	<row>
+		<id>	94	</id>
+		<name>	NPC發言，並且記錄發言時間	</name>
+		<scriptName>	AIActions:AIAction79	</scriptName>
+		<group>	18	</group>
+		<param1>	發言內容	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	NPC發言，並且記錄發言時間	</comment>
+	</row>
+	<row>
+		<id>	95	</id>
+		<name>	尋找指定範圍內特定類型目標，目標血量低於指定值，對其施放指定技能	</name>
+		<scriptName>	AIActions:AIAction80	</scriptName>
+		<group>	16	</group>
+		<param1>	尋找範圍	</param1>
+		<param2>	尋找目標className	</param2>
+		<param3>	未展開技能編號	</param3>
+		<param4>	血量限製	</param4>
+		<param5>	</param5>
+		<comment>	尋找指定範圍內特定類型目標，目標血量低於指定值，對其施放指定技能	</comment>
+	</row>
+	<row>
+		<id>	96	</id>
+		<name>	隨機選取戰鬥列表，作為當前目標	</name>
+		<scriptName>	AIActions:AIAction81	</scriptName>
+		<group>	15	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	隨機選取戰鬥列表，作為當前目標	</comment>
+	</row>
+	<row>
+		<id>	97	</id>
+		<name>	設置標記	</name>
+		<scriptName>	AIActions:AIAction82	</scriptName>
+		<group>	18	</group>
+		<param1>	標記名稱	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	設置標記	</comment>
+	</row>
+	<row>
+		<id>	98	</id>
+		<name>	移除標記	</name>
+		<scriptName>	AIActions:AIAction83	</scriptName>
+		<group>	18	</group>
+		<param1>	標記名稱	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	移除標記	</comment>
+	</row>
+	<row>
+		<id>	99	</id>
+		<name>	選取一定範圍內特定類型的怪物，作為當前目標	</name>
+		<scriptName>	AIActions:AIAction84	</scriptName>
+		<group>	15	</group>
+		<param1>	範圍	</param1>
+		<param2>	怪物id	</param2>
+		<param3>	怪物類型EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	選取一定範圍內特定類型的怪物，作為當前目標	</comment>
+	</row>
+	<row>
+		<id>	100	</id>
+		<name>	對自身使用隨機的一個技能	</name>
+		<scriptName>	AIActions:AIAction85	</scriptName>
+		<group>	16	</group>
+		<param1>	技能1;技能2	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	對自身使用隨機的一個技能	</comment>
+	</row>
+	<row>
+		<id>	101	</id>
+		<name>	怪物頭領死亡	</name>
+		<scriptName>	AIActions:AIAction86	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	102	</id>
+		<name>	自身獲得飛翔傳送buff	</name>
+		<scriptName>	AIActions:AIAction87	</scriptName>
+		<group>	18	</group>
+		<param1>	終點地圖	</param1>
+		<param2>	終點坐標	</param2>
+		<param3>	終點朝向	</param3>
+		<param4>	巡邏路徑	</param4>
+		<param5>	巡邏路徑文件名(不帶擴展名)	</param5>
+		<comment>	當玩家和NPC對話後就開始按照巡邏路徑飛翔， 飛到一個傳送點後，也就是當前地圖的最後一個巡邏路徑節點觸發了這個AI，這個AI應該清除掉舊的傳送BUFF(可以技能裡設置中斷碼)，因為那個buff的巡邏路徑是本地圖的，  玩家將傳送到下一個地圖後，使用這個新加的buff的巡邏路徑繼續巡邏，到達終點後會自動停止巡邏，玩家開始獲得控制權.	</comment>
+	</row>
+	<row>
+		<id>	103	</id>
+		<name>	傳送到指定地圖	</name>
+		<scriptName>	AIActions:AIAction88	</scriptName>
+		<group>	18	</group>
+		<param1>	地圖名	</param1>
+		<param2>	目的位置	</param2>
+		<param3>	朝向	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	104	</id>
+		<name>	飛翔傳送動作與速度控制	</name>
+		<scriptName>	AIActions:AIAction89	</scriptName>
+		<group>	18	</group>
+		<param1>	動作名稱	</param1>
+		<param2>	速度	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	動作名稱為美術所製作的動畫文件不帶擴展名。
+速度： 這個值是對玩家原有的移動速度進行增加或減慢的速度。	</comment>
+	</row>
+	<row>
+		<id>	105	</id>
+		<name>	飛翔傳送結束	</name>
+		<scriptName>	AIActions:AIAction90	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	到達飛翔最後一個點觸發該ai後，飛翔模式將關閉，角色恢復正常狀態。	</comment>
+	</row>
+	<row>
+		<id>	106	</id>
+		<name>	飛翔傳送(多條路徑隨機)	</name>
+		<scriptName>	AIActions:AIAction91	</scriptName>
+		<group>	18	</group>
+		<param1>	多個路徑節點開始	</param1>
+		<param2>	多個路徑文件名	</param2>
+		<param3>	多個終點地圖名稱	</param3>
+		<param4>	多個終點坐標	</param4>
+		<param5>	多個傳送數據	</param5>
+		<comment>	使用|分隔多個數據
+
+多個傳送數據
+表示要傳送到的地圖， 我們會在裡面填入類似
+fengming&amp;11,112,0|fengming&amp;101,12,20	</comment>
+	</row>
+	<row>
+		<id>	107	</id>
+		<name>	尋找到PK值大於某數玩家則加入戰鬥列表	</name>
+		<scriptName>	AIActions:AIAction92	</scriptName>
+		<group>	18	</group>
+		<param1>	搜索半徑	</param1>
+		<param2>	搜索pk值在多少點以上	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	108	</id>
+		<name>	改變自身朝向到記錄的朝向	</name>
+		<scriptName>	AIActions:AIAction94	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	109	</id>
+		<name>	記錄自身朝向	</name>
+		<scriptName>	AIActions:AIAction93	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	110	</id>
+		<name>	拯救猰貐BOSS 特殊AI	</name>
+		<scriptName>	AIActions:AIAction95	</scriptName>
+		<group>	0	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	111	</id>
+		<name>	拯救猰貐爆烈紅魔特殊AI	</name>
+		<scriptName>	AIActions:AIAction96	</scriptName>
+		<group>	0	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	112	</id>
+		<name>	拯救猰貐硬甲藍魔特殊AI	</name>
+		<scriptName>	AIActions:AIAction97	</scriptName>
+		<group>	0	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	113	</id>
+		<name>	把敵人加入到自己的僕從敵人列表中	</name>
+		<scriptName>	AIActions:AIAction98	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	114	</id>
+		<name>	把敵人加入自己的主人敵人列表中	</name>
+		<scriptName>	AIActions:AIAction99	</scriptName>
+		<group>	16	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	115	</id>
+		<name>	（城戰AI）選定最近的塔樓為攻擊目標	</name>
+		<scriptName>	AIActions:AIAction100	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	116	</id>
+		<name>	改變當前Entity狀態到某狀態	</name>
+		<scriptName>	AIActions:AIAction101	</scriptName>
+		<group>	14	</group>
+		<param1>	狀態值	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	0	# 自由狀態
+1	# 死亡狀態
+3	# 戰鬥狀態	</comment>
+	</row>
+	<row>
+		<id>	117	</id>
+		<name>	對自身周圍目標施放技能最多X個受術者	</name>
+		<scriptName>	AIActions:AIAction102	</scriptName>
+		<group>	18	</group>
+		<param1>	技能完整ID	</param1>
+		<param2>	受術者個數	</param2>
+		<param3>	搜索半徑	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	這種AI 可以實現： 同時對周圍每個敵人都放一個群體技能， 技能不能受到任何的CD時間影響，注意配置。
+
+此AI消耗比較大， 鄭重使用！	</comment>
+	</row>
+	<row>
+		<id>	118	</id>
+		<name>	（城戰AI）選定最近的塔樓並為塔樓加血	</name>
+		<scriptName>	AIActions:AIAction103	</scriptName>
+		<group>	18	</group>
+		<param1>	搜索範圍	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	119	</id>
+		<name>	NPC喊話（屏幕中央出現）	</name>
+		<scriptName>	AIActions:AIAction104	</scriptName>
+		<group>	18	</group>
+		<param1>	cschannel_msgs 定義宏ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	120	</id>
+		<name>	向特定的坐標移動，坐標記錄讀取自身temp	</name>
+		<scriptName>	AIActions:AIAction105	</scriptName>
+		<group>	0	</group>
+		<param1>	指定的坐標記錄	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	121	</id>
+		<name>	從戰鬥列表中隨機選取一個，對其施放指定技能	</name>
+		<scriptName>	AIActions:AIAction109	</scriptName>
+		<group>	16	</group>
+		<param1>	技能編號	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	122	</id>
+		<name>	隨機召喚帶陷阱的怪物	</name>
+		<scriptName>	AIActions:AIAction110	</scriptName>
+		<group>	18	</group>
+		<param1>	召喚怪物數量	</param1>
+		<param2>	召喚怪物className(className1;className2;className3)	</param2>
+		<param3>	陷阱半徑as like : className1:radius1;className2:radius2	</param3>
+		<param4>	進入陷阱施放的技能as like : className1:skill1;className2:skill2	</param4>
+		<param5>	離開陷阱施放的技能as like : className1:skill1;className2:skill2	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	123	</id>
+		<name>	把周圍若干米內玩家加入戰鬥列表	</name>
+		<scriptName>	AIActions:AIAction111	</scriptName>
+		<group>	13	</group>
+		<param1>	搜索的半徑	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	124	</id>
+		<name>	與一定範圍內特定類型的怪物，互換位置	</name>
+		<scriptName>	AIActions:AIAction107	</scriptName>
+		<group>	13	</group>
+		<param1>	範圍	</param1>
+		<param2>	className	</param2>
+		<param3>	怪物EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	125	</id>
+		<name>	清除某buff	</name>
+		<scriptName>	AIActions:AIAction108	</scriptName>
+		<group>	13	</group>
+		<param1>	buffID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	126	</id>
+		<name>	找一定範圍內特定類型的怪物，如果其有特定的buff，則都死亡	</name>
+		<scriptName>	AIActions:AIAction112	</scriptName>
+		<group>	13	</group>
+		<param1>	範圍	</param1>
+		<param2>	className	</param2>
+		<param3>	怪物EntityType	</param3>
+		<param4>	buff的id	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	127	</id>
+		<name>	將戰鬥列表中某className的怪物從敵人列表中刪除	</name>
+		<scriptName>	AIActions:AIAction113	</scriptName>
+		<group>	13	</group>
+		<param1>	className	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	128	</id>
+		<name>	隨機召喚怪物	</name>
+		<scriptName>	AIActions:AIAction114	</scriptName>
+		<group>	18	</group>
+		<param1>	召喚怪物數量	</param1>
+		<param2>	召喚怪物className(className1;className2;className3)	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	129	</id>
+		<name>	開/關門	</name>
+		<scriptName>	AIActions:AIAction115	</scriptName>
+		<group>	13	</group>
+		<param1>	門的className	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	130	</id>
+		<name>	選取一定範圍內特定類型的有特定buff的entity，作為當前目標	</name>
+		<scriptName>	AIActions:AIAction116	</scriptName>
+		<group>	13	</group>
+		<param1>	範圍	</param1>
+		<param2>	buffID	</param2>
+		<param3>	EntityType	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	131	</id>
+		<name>	城市管理員心跳	</name>
+		<scriptName>	AIActions:AIAction117	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	132	</id>
+		<name>	播放特定聲音	</name>
+		<scriptName>	AIActions:AIAction118	</scriptName>
+		<group>	0	</group>
+		<param1>	指定聲音編號	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	133	</id>
+		<name>	把最高傷害者設置為所有者	</name>
+		<scriptName>	AIActions:AIAction119	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	134	</id>
+		<name>	怪物攻城BOSS死亡特殊說話	</name>
+		<scriptName>	AIActions:AIAction121	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	135	</id>
+		<name>	進入戰鬥即記錄開戰時刻	</name>
+		<scriptName>	AIActions:AIAction122	</scriptName>
+		<group>	28	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	136	</id>
+		<name>	釋放一次技能即增加技能使用計數	</name>
+		<scriptName>	AIActions:AIAction123	</scriptName>
+		<group>	28	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	137	</id>
+		<name>	同步相關者血條（夸父神殿），這個AI暫時只能用於副本	</name>
+		<scriptName>	AIActions:AIAction124	</scriptName>
+		<group>	18	</group>
+		<param1>	className | className...	</param1>
+		<param2>	範圍	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	138	</id>
+		<name>	改變指定怪物AI等級	</name>
+		<scriptName>	AIActions:AIAction125	</scriptName>
+		<group>	18	</group>
+		<param1>	className | className ...	</param1>
+		<param2>	範圍	</param2>
+		<param3>	ai等級	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	139	</id>
+		<name>	死亡	</name>
+		<scriptName>	AIActions:AIAction126	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	140	</id>
+		<name>	把自身的攻擊目標改為特定怪物的攻擊目標	</name>
+		<scriptName>	AIActions:AIAction127	</scriptName>
+		<group>	18	</group>
+		<param1>	className	</param1>
+		<param2>	範圍	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	141	</id>
+		<name>	讓怪物播放動作	</name>
+		<scriptName>	AIActions:AIAction128	</scriptName>
+		<group>	18	</group>
+		<param1>	動作名	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	142	</id>
+		<name>	怪物變為環境物件	</name>
+		<scriptName>	AIActions:AIAction129	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	143	</id>
+		<name>	環境物件（其實是怪物）變為怪物	</name>
+		<scriptName>	AIActions:AIAction129	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	144	</id>
+		<name>	對進入陷阱的玩家使用技能（小兔快跑使用）	</name>
+		<scriptName>	AIActions:AIAction133	</scriptName>
+		<group>	18	</group>
+		<param1>	技能ID列表，用&quot;|&quot;隔開	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	147	</id>
+		<name>	記錄當前血量	</name>
+		<scriptName>	AIActions:AIAction131	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	148	</id>
+		<name>	打斷引導技能	</name>
+		<scriptName>	AIActions:AIAction132	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	149	</id>
+		<name>	對目標位置釋放技能	</name>
+		<scriptName>	AIActions:AIAction134	</scriptName>
+		<group>	16	</group>
+		<param1>	完整技能id	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	150	</id>
+		<name>	給所在的space發送事件	</name>
+		<scriptName>	AIActions:AIAction136	</scriptName>
+		<group>	18	</group>
+		<param1>	事件編號	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	151	</id>
+		<name>	神樹通知所在Space血量	</name>
+		<scriptName>	AIActions:AIAction135	</scriptName>
+		<group>	18	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	152	</id>
+		<name>	觸發一個任務	</name>
+		<scriptName>	AIActions:AIAction137	</scriptName>
+		<group>	28	</group>
+		<param1>	任務ID	</param1>
+		<param2>	任務目標索引	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	153	</id>
+		<name>	播放指定鏡頭軌跡	</name>
+		<scriptName>	AIActions:AIAction139	</scriptName>
+		<group>	18	</group>
+		<param1>	路徑的ID	</param1>
+		<param2>	範圍	</param2>
+		<param3>	開始節點坐標	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	154	</id>
+		<name>	對進入陷阱的目標使用自身等級的技能	</name>
+		<scriptName>	AIActions:AIAction140	</scriptName>
+		<group>	27	</group>
+		<param1>	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	155	</id>
+		<name>	改變固定位置周圍環境物件的模型（限於副本）	</name>
+		<scriptName>	AIActions:AIAction141	</scriptName>
+		<group>	18	</group>
+		<param1>	老的模型	</param1>
+		<param2>	新的模型	</param2>
+		<param3>	範圍	</param3>
+		<param4>	位置	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	156	</id>
+		<name>	對entity所在位置使用自身等級的技能	</name>
+		<scriptName>	AIActions:AIAction142	</scriptName>
+		<group>	16	</group>
+		<param1>	技能ID	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	157	</id>
+		<name>	把自身的所有者分享給指定ID的怪物	</name>
+		<scriptName>	AIActions:AIAction143	</scriptName>
+		<group>	18	</group>
+		<param1>	className	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	158	</id>
+		<name>	移除怪物（NPC）一個標誌位	</name>
+		<scriptName>	AIActions:AIAction144	</scriptName>
+		<group>	18	</group>
+		<param1>	標誌位	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	160	</id>
+		<name>	增加怪物（NPC）一個標誌位	</name>
+		<scriptName>	AIActions:AIAction146	</scriptName>
+		<group>	18	</group>
+		<param1>	標誌位	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	161	</id>
+		<name>	刪除一組EAI標記	</name>
+		<scriptName>	AIActions:AIAction147	</scriptName>
+		<group>	18	</group>
+		<param1>	標記用“|”隔開	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	162	</id>
+		<name>	向客戶端發送一個劇情提示消息	</name>
+		<scriptName>	AIActions:AIAction148	</scriptName>
+		<group>	18	</group>
+		<param1>	提示消息文本	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	163	</id>
+		<name>	顯示/隱藏客戶端的界面	</name>
+		<scriptName>	AIActions:AIAction149	</scriptName>
+		<group>	18	</group>
+		<param1>	填“False”表示隱藏客戶端界面，“True”表示顯示客戶端界面	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+	<row>
+		<id>	164	</id>
+		<name>	改變自身朝向	</name>
+		<scriptName>	AIActions:AIAction150	</scriptName>
+		<group>	18	</group>
+		<param1>	朝向 格式如： (1，2，3)	</param1>
+		<param2>	</param2>
+		<param3>	</param3>
+		<param4>	</param4>
+		<param5>	</param5>
+		<comment>	</comment>
+	</row>
+</root>

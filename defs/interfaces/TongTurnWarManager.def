@@ -1,0 +1,57 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<registerSpaceBase>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	ARRAY <of> OBJECT_ID </of>	</Arg>
+		</registerSpaceBase>
+		<unRegisterSpaceBase>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	ARRAY <of> OBJECT_ID </of>	</Arg>
+		</unRegisterSpaceBase>
+		<onSignUpStart/>
+		<onStartNotify/>
+		<allWarOver/>
+		<signUp>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</signUp>
+		<onTeamMemberPrepared>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</onTeamMemberPrepared>
+		<onEnterTongTurnWarSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- domain base -->
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterTongTurnWarSpace>
+		<onPlayerLeaveTeam>
+			<Arg>	OBJECT_ID	</Arg>
+		</onPlayerLeaveTeam>
+		<requestEnterSpace>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	STRING		</Arg>
+		</requestEnterSpace>
+		<onOneSpaceWarOver>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	BOOL		</Arg>
+		</onOneSpaceWarOver>
+		<updateTongTurnWarPoint>
+			<Arg>	DATABASE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT16	</Arg>
+		</updateTongTurnWarPoint>
+		<getTurnWarPointTopTable/>
+	</BaseMethods>
+</root>

@@ -1,0 +1,16 @@
+<root>
+	<EntityType>SpaceNormal</EntityType>
+	<DomainType>SpaceDomain</DomainType>
+	<script>Space</script>
+
+	<className>liu_wang_mu_006</className>
+	<dirMapping> universes/liu_wang_mu_006 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/liu_wang_mu_006.xml		</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入獄<-->
+	<CalcPkValue/>
+	<Space>
+	</Space>
+</root>

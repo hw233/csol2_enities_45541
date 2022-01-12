@@ -1,0 +1,33 @@
+<root>
+	<Parent> 				NPC					</Parent>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+
+	<Properties>
+	</Properties>
+
+	<CellMethods>
+		<sendTrainInfoToPlayer>	<!-- 告诉client的训练师NPC，有哪些技能可学 -->
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UINT8		</Arg>
+		</sendTrainInfoToPlayer>
+
+		<trainPlayer>	<!-- 教技能给玩家 -->
+			<Exposed/>
+			<Arg> INT64	</Arg>	<!-- skillID -->
+		</trainPlayer>
+	</CellMethods>
+
+	<ClientMethods>
+		<receiveTrainInfos>
+			<Arg>	ARRAY <of> INT64 </of>	</Arg>	<!-- skillIDs, 接收技能列表 -->
+		</receiveTrainInfos>
+	</ClientMethods>
+
+</root>
+

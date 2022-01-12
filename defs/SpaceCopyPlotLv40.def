@@ -1,0 +1,84 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+		<_bt_killCommit>					<!--本次杀怪目标是否已完成-->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	false			</Default>
+			<Persistent>	false			</Persistent>
+		</_bt_killCommit>
+		<_bt_killDict>						<!--本次杀怪数据-->
+			<Type>		PY_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</_bt_killDict>
+		<_bt_spawnDict>						<!--本次刷怪数据-->
+			<Type>		PY_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</_bt_spawnDict>
+		<_bt_normalTimerID>					<!--刷普通怪物的TimerID-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</_bt_normalTimerID>
+		<_bt_specialTimerID>					<!--刷特殊怪物的TimerID-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</_bt_specialTimerID>
+		<_bt_normalSpawnCounter>				<!--普通刷怪间隔计数器-->
+			<Type>		INT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</_bt_normalSpawnCounter>
+		<monsterPositions>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</monsterPositions>
+		<startTime>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</startTime>
+		<intervalTime>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</intervalTime>
+		<monsterNumLists>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</monsterNumLists>
+		<monsterIDLists>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</monsterIDLists>
+		<_bt_monsterTimerIDList>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</_bt_monsterTimerIDList>
+		<_bt_monsterDict>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</_bt_monsterDict>
+	</Properties>
+
+	<BaseMethods>
+		<addSpawnPointControl>
+			<Arg>	MAILBOX	</Arg>
+		</addSpawnPointControl>
+		<destroySpawnPointControl>
+		</destroySpawnPointControl>
+	</BaseMethods>
+
+</root>

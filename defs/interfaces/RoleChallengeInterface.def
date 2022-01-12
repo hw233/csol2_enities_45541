@@ -1,0 +1,399 @@
+<root>
+	<Properties>
+		<challengeGatherFlags>		<!-- 集合标志-->
+			<Type>		UINT32			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+		</challengeGatherFlags>
+		<turnWar_isJoin>
+			<Type>		BOOL			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	false			</Default>
+		</turnWar_isJoin>
+		<campFengHuo_signUpFlag>
+			<Type>		INT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</campFengHuo_signUpFlag>
+	</Properties>
+
+	<ClientMethods>
+		<challengeTeamGather>
+			<Arg> UINT16 </Arg>
+		</challengeTeamGather>
+		<roleCompetition_SignUp>
+			<Arg> UINT16 </Arg>
+		</roleCompetition_SignUp>
+		<onRoleCompetitionEnd/>
+		<challengeTeamSignUp>
+		</challengeTeamSignUp>
+		<teamChallengeOnCRecruit>
+		</teamChallengeOnCRecruit>
+		<challengeTeamOnCancelSub/>
+		<teamChallengeUpLevel>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT16		</Arg>
+		</teamChallengeUpLevel>
+		<teamChallengeUpInfo>
+			<Arg>	UINT16		</Arg>
+		</teamChallengeUpInfo>
+		<teamChallengeClose>
+		</teamChallengeClose>
+		<teamChallengeOnRecruit>
+		</teamChallengeOnRecruit>
+		<challengeTeamBeRecruit>
+			<Arg> OBJECT_ID </Arg>
+		</challengeTeamBeRecruit>
+		<challengeTeamBeRecruitComplete/>
+		<teamChallengeRecruitComplete>
+		</teamChallengeRecruitComplete>
+		<teamCompetitionNotify>
+			<Arg> 	UINT16 		</Arg>
+		</teamCompetitionNotify>
+		<teamChallengeMember>
+			<Arg> 	UINT16 		</Arg>
+			<Arg> 	UINT16 		</Arg>
+		</teamChallengeMember>
+		<wuDaoUpLevel>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT16		</Arg>
+		</wuDaoUpLevel>
+		<wuDaoUpInfo>
+			<Arg>	UINT16		</Arg>
+		</wuDaoUpInfo>
+		<wuDaoClose>
+		</wuDaoClose>
+		<wuDaoGather>
+			<Arg>	INT8		</Arg>
+		</wuDaoGather>
+		<teamCompetitionCheck>
+			<Arg>	UINT8			</Arg>	<!-- minLevel -->
+		</teamCompetitionCheck>
+		<teamCompetitionGather/>
+		<tongAbaGather>
+			<Arg>	INT8		</Arg>
+		</tongAbaGather>
+		
+		<receiveAbaRound>
+			<Arg>		UINT8		</Arg>	<!--擂台赛轮次-->
+		</receiveAbaRound>
+		<roleCompetitionSignUp/>
+		<roleCompetitionGather/>
+		<tongCompetitionSignUp/>
+		<tongCompetitionGather/>
+		<receiveRoleCompetitionScore>
+			<Arg>	PYTHON		</Arg>
+		</receiveRoleCompetitionScore>
+		<roleCompetitionStart/>
+		<roleCompetitionOver/>
+		<updateRestDiedTimes>
+			<Arg>		UINT8		</Arg>	<!--剩余死亡次数-->
+		</updateRestDiedTimes>
+		<remainRevivalCount>
+			<Arg>	PYTHON		</Arg>
+		</remainRevivalCount>
+		<onWatchOrRevive/>
+		<challengeOnDie>
+			<Arg>		UINT8		</Arg>	<!--弹出框的类型-->
+		</challengeOnDie>
+		<onTongCompDeathTimes>
+			<Arg>		UINT8		</Arg>	<!--剩余死亡次数-->
+		</onTongCompDeathTimes>
+		<turnWar_signUpCheck>
+			<Arg>		STRING		</Arg>
+			<Arg>		UINT8		</Arg>
+		</turnWar_signUpCheck>
+		<turnWar_onSignUpTong/>
+		<turnWar_onTeamMemPrepared>
+			<Arg>		STRING		</Arg>
+		</turnWar_onTeamMemPrepared>
+		<turnWar_onReceiveEnemyInfo>
+			<Arg> ARRAY <of> PY_DICT </of> </Arg>
+		</turnWar_onReceiveEnemyInfo>
+		<turnWar_onReceiveSelfInfo>
+			<Arg> ARRAY <of> PY_DICT </of> </Arg>
+		</turnWar_onReceiveSelfInfo>
+		<turnWar_onLeaveTeam/>
+		<turnWar_showPlayerOrder>
+			<Arg> ARRAY <of> STRING </of> </Arg>
+			<Arg> ARRAY <of> STRING </of> </Arg>
+		</turnWar_showPlayerOrder>
+		<turnWar_showTelportTime>
+			<Arg>		UINT8		</Arg>
+		</turnWar_showTelportTime>
+		<turnWar_updatePointShow>
+			<Arg>		OBJECT_ID		</Arg>
+		</turnWar_updatePointShow>
+		<turnWar_showPrepareTime>
+			<Arg>		UINT8		</Arg>
+		</turnWar_showPrepareTime>
+		<turnWar_onPlayerEnter>
+			<Arg>		STRING		 </Arg>
+		</turnWar_onPlayerEnter>
+		<turnWar_onPlayerLose>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		STRING			 </Arg>
+		</turnWar_onPlayerLose>
+		
+		<!--阵营车轮战-->
+		<campTurnWar_signUpCheck>
+			<Arg>		STRING		</Arg>
+			<Arg>		UINT8		</Arg>
+		</campTurnWar_signUpCheck>
+		<campTurnWar_onSignUp/>
+		<campTurnWar_onTeamMemPrepared>
+			<Arg>		STRING		</Arg>
+		</campTurnWar_onTeamMemPrepared>
+		<campTurnWar_onReceiveEnemyInfo>
+			<Arg> ARRAY <of> PY_DICT </of> </Arg>
+		</campTurnWar_onReceiveEnemyInfo>
+		<campTurnWar_onReceiveSelfInfo>
+			<Arg> ARRAY <of> PY_DICT </of> </Arg>
+		</campTurnWar_onReceiveSelfInfo>
+		<campTurnWar_onLeaveTeam/>
+		<campTurnWar_showPlayerOrder>
+			<Arg> ARRAY <of> STRING </of> </Arg>
+			<Arg> ARRAY <of> STRING </of> </Arg>
+		</campTurnWar_showPlayerOrder>
+		<campTurnWar_showTelportTime>
+			<Arg>		UINT8		</Arg>
+		</campTurnWar_showTelportTime>
+		<campTurnWar_updatePointShow>
+			<Arg>		OBJECT_ID		</Arg>
+		</campTurnWar_updatePointShow>
+		<campTurnWar_showPrepareTime>
+			<Arg>		UINT8		</Arg>
+		</campTurnWar_showPrepareTime>
+		<campTurnWar_onPlayerEnter>
+			<Arg>		STRING		 </Arg>
+		</campTurnWar_onPlayerEnter>
+		<campTurnWar_onPlayerLose>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		STRING			 </Arg>
+		</campTurnWar_onPlayerLose>
+		
+		<!--鏖战群雄-->
+		<aoZhan_showSignUpWindows>
+			<Arg>	ARRAY <of> AO_ZHAN_PLAYER_DATA </of>	</Arg>
+		</aoZhan_showSignUpWindows>
+		<aoZhan_startSignUp/>
+		<aoZhan_onEnd/>
+		<aoZhan_onSignUp/>
+		<aoZhan_warStart/>
+		<aoZhan_showBattlefield>
+			<Arg> AO_ZHAN_MGR_DATA </Arg>
+			<Arg> UINT16	</Arg>
+		</aoZhan_showBattlefield>
+		<aoZhan_enterNofity/>
+		<aoZhan_setIsJoin>
+			<Arg>	BOOL	</Arg>
+		</aoZhan_setIsJoin>
+		<aoZhan_countDown>
+			<Arg> UINT32	</Arg>
+		</aoZhan_countDown>
+		<camp_onFengHuoLianTianOver/>
+		<camp_onEnterFengHuoLianTianSpace>
+			<Arg>	FLOAT				</Arg>
+			<Arg>	PYTHON				</Arg>
+		</camp_onEnterFengHuoLianTianSpace>
+		<campFHLTProtectTime>
+			<Arg>	UINT16		</Arg>
+		</campFHLTProtectTime>
+		<camp_onFHLTReport>
+			<Arg>		DATABASE_ID			</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		UINT16				</Arg>
+			<Arg>		UINT16				</Arg>
+			<Arg>		BOOL				</Arg>
+		</camp_onFHLTReport>
+		<camp_onUpdateFHLTPoint>
+			<Arg>	DATABASE_ID  </Arg>
+			<Arg>	UINT32  </Arg>
+		</camp_onUpdateFHLTPoint>
+		<camp_onLeaveFengHuoLianTianSpace/>
+		<onCampFengHuoSelectTransportOrNot/>
+		<setCampFengHuoBattleInfo>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</setCampFengHuoBattleInfo>
+		<setCampFengHuo_signUpFlag>
+			<Arg>	INT8	</Arg>
+		</setCampFengHuo_signUpFlag>
+	</ClientMethods>
+
+	<CellMethods>
+		<changePosAndDir>
+			<Arg>	VECTOR3			</Arg>
+			<Arg>	VECTOR3			</Arg>
+		</changePosAndDir>
+		<challengeActivityTransmit>
+			<Arg> UINT16 </Arg>
+		</challengeActivityTransmit>
+		<challengeSetFlagGather>
+			<Arg>	INT8	</Arg>
+		</challengeSetFlagGather>
+		<challengeRemoveFlagGather>
+			<Arg>	INT8	</Arg>
+		</challengeRemoveFlagGather>
+		<!-- team challenge -->
+		<challengeTeamSignUp>
+			<Exposed/>
+		</challengeTeamSignUp>
+		<challengeTeamRequestSub>
+			<Exposed/>
+		</challengeTeamRequestSub>
+		<challengeTeamCancelSub>
+			<Exposed/>
+		</challengeTeamCancelSub>
+		<challengeTeamRecruit>
+			<Exposed/>
+		</challengeTeamRecruit>
+		<challengeTeamCancelRecruit>
+			<Exposed/>
+		</challengeTeamCancelRecruit>
+		<challengeTeamRecruitResult>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	BOOL		</Arg>
+		</challengeTeamRecruitResult>
+		<challengeTeamReward>
+			<Arg> UINT16 </Arg>
+			<Arg> UINT16 </Arg>
+		</challengeTeamReward>
+		<teamChallengeSetChampion>
+			<Arg> UINT32 </Arg>
+		</teamChallengeSetChampion>
+		<teamChallengeGather>
+			<Exposed/>
+		</teamChallengeGather>
+		<teamChallengeOnDieResult>
+			<Exposed/>
+			<Arg>	BOOL		</Arg>
+		</teamChallengeOnDieResult>
+		<!-- wudao -->
+		<wuDaoSignUp>
+			<Exposed/>		
+		</wuDaoSignUp>
+		<wuDaoReward>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+			<Arg>	BOOL	</Arg>
+		</wuDaoReward>
+		<wuDaoNoticeChampion>
+			<Arg> UINT16 </Arg>
+			<Arg> UINT32 </Arg>
+		</wuDaoNoticeChampion>
+		<wuDaoGather>
+			<Exposed/>
+		</wuDaoGather>
+		<tongAbaGather>
+			<Exposed/>
+		</tongAbaGather>
+		<teamCompetitionGather>
+			<Exposed/>
+		</teamCompetitionGather>
+		<tongCompetitionGather>
+			<Exposed/>
+		</tongCompetitionGather>
+		<tongCompetitionSignUp>
+			<Exposed/>
+		</tongCompetitionSignUp>
+		<roleCompetitionGather>
+			<Exposed/>
+		</roleCompetitionGather>
+		<teamCompetitionCheckOK>
+			<Exposed/>
+		</teamCompetitionCheckOK>
+		<teamCompetitionSignUp>
+			<Exposed/>
+		</teamCompetitionSignUp>
+		<tongAbaSignUp>
+			<Exposed/>
+		</tongAbaSignUp>
+		<roleCompetitionSignUp>
+			<Exposed/>
+		</roleCompetitionSignUp>
+		<roleCompetitionOnDieResult>
+			<Exposed/>
+			<Arg>	BOOL	</Arg>
+		</roleCompetitionOnDieResult>
+		<onLeaveWatchMode/>
+		<turnWar_signUp>
+			<Exposed/>
+			<Arg>	UINT8			</Arg>
+			<Arg>	STRING			</Arg>
+		</turnWar_signUp>
+		<turnWar_onPrepared>
+			<Exposed/>
+		</turnWar_onPrepared>
+		<turnWar_onEnterSpace>
+			<Exposed/>
+		</turnWar_onEnterSpace>
+		<turnWar_setJoinFlag>
+			<Arg>	BOOL			</Arg>
+		</turnWar_setJoinFlag>
+		
+		<campTurnWar_signUp>
+			<Exposed/>
+			<Arg>	UINT8			</Arg>
+			<Arg>	STRING			</Arg>
+		</campTurnWar_signUp>
+		<campTurnWar_onPrepared>
+			<Exposed/>
+		</campTurnWar_onPrepared>
+		<campTurnWar_onEnterSpace>
+			<Exposed/>
+		</campTurnWar_onEnterSpace>
+		<campTurnWar_setJoinFlag>
+			<Arg>	BOOL			</Arg>
+		</campTurnWar_setJoinFlag>
+		<!--鏖战群雄-->
+		<aoZhan_signup>
+			<Exposed/>
+		</aoZhan_signup>
+		<aoZhan_setJoinFlag>
+			<Arg>	STRING			</Arg>
+		</aoZhan_setJoinFlag>
+		<aoZhan_removeJoinFlag/>
+		<aoZhan_onSignUp/>
+		<aoZhan_flushBattlefield>
+			<Exposed/>
+		</aoZhan_flushBattlefield>
+		<aoZhan_getSignUpList>
+			<Exposed/>
+		</aoZhan_getSignUpList>
+		<aoZhan_gotoEnterNPC>
+			<Exposed/>
+		</aoZhan_gotoEnterNPC>
+		<onRequestTransportCampFengHuo>
+			<Exposed/>
+		</onRequestTransportCampFengHuo>
+		<camp_onFengHuoLianTianOver/>
+		<camp_leaveFengHuoLianTian/>
+		<activity_gainMoney>
+			<Arg>	INT32	</Arg>
+			<Arg>	UINT16	</Arg>
+		</activity_gainMoney>
+		<setCampFengHuo_signUpFlag>
+			<Arg>	INT8	</Arg>
+		</setCampFengHuo_signUpFlag>
+		<setCampFengHuoBattleInfo>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</setCampFengHuoBattleInfo>
+		<updateCampFengHuoBattleInfo>
+			<Arg>	INT32	</Arg>
+		</updateCampFengHuoBattleInfo>
+		<isOnlineShowCampFengHuoInfo>
+			<Exposed/>
+		</isOnlineShowCampFengHuoInfo>
+		<onRequestQuitCampFengHuoSignUp>
+			<Exposed/>
+		</onRequestQuitCampFengHuoSignUp>
+	</CellMethods>
+	<BaseMethods>
+	</BaseMethods>
+</root>

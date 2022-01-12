@@ -1,0 +1,15 @@
+<root>
+	<Properties>
+	</Properties>
+	<Implements>
+		<Interface>	NormalActivityManager			</Interface>
+	</Implements>
+	<BaseMethods>
+		<regesiterSpaceCopyAudition>
+			<Arg>	MAILBOX		</Arg>
+		</regesiterSpaceCopyAudition>
+		<removeSpaceCopyAudition>
+			<Arg>	MAILBOX		</Arg>
+		</removeSpaceCopyAudition>
+	</BaseMethods>
+</root>

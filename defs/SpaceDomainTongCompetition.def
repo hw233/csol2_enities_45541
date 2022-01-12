@@ -1,0 +1,16 @@
+<root>
+	<Parent>	SpaceDomainCopy	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onSpaceItemEnter>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onSpaceItemEnter>
+	</BaseMethods>
+
+</root>

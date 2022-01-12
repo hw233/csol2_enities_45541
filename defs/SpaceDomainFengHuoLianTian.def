@@ -1,0 +1,17 @@
+<root>
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onEnterWarSpace>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnterWarSpace>
+		<closeFengHuoLianTianRoom>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT8	</Arg>
+		</closeFengHuoLianTianRoom>
+	</BaseMethods>
+</root>

@@ -1,0 +1,35 @@
+<root>
+	<Properties>
+		<shuijingKey>
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	true			</Persistent>
+		</shuijingKey>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<shuijingSpaceOnStart>
+			<Arg>		STRING			</Arg>
+			<Arg>		UINT8			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		VECTOR3			</Arg>
+			<Arg>		VECTOR3			</Arg>
+		</shuijingSpaceOnStart>
+		<shuijingSpaceGoToCheckPoint>
+			<Arg>		UINT8			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		VECTOR3			</Arg>
+			<Arg>		VECTOR3			</Arg>
+		</shuijingSpaceGoToCheckPoint>
+		<shuijingSpaceIsTimeOut>
+		</shuijingSpaceIsTimeOut>
+		<shuijingSpacePassDoor>
+		</shuijingSpacePassDoor>
+		<shuijingSpaceOnEnd>
+		</shuijingSpaceOnEnd>
+	</CellMethods>
+
+</root>

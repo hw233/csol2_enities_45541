@@ -1,0 +1,16 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<yingXiong_req>
+			<Arg> MAILBOX	</Arg>
+			<Arg> MAILBOX	</Arg>
+			<Arg> UINT16	</Arg>
+			<Arg> UINT16	</Arg>
+		</yingXiong_req>
+		<yingXiong_cancel>
+			<Arg> OBJECT_ID	</Arg>
+			<Arg>	BOOL	</Arg>
+		</yingXiong_cancel>
+	</BaseMethods>
+</root>

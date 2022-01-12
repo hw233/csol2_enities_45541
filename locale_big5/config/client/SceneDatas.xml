@@ -1,0 +1,93 @@
+<root>
+	<Scene1>
+		<id>	2	</id>
+		<texture>
+			<path>	maps/scene_textures/scene1	</path>
+			<width>		8349	</width>
+			<height>	512		</height>
+		</texture>
+		<bgMusic> fuben/10jijuqingfubenyinyue </bgMusic>
+		<segments>
+			<row>
+				<startPos>		50	</startPos>
+				<endPos>		1108		</endPos>
+				<content>
+					上古時期，共工與顓頊帝相爭，敗，怒觸天柱不周山。地陷天傾，洪水滔天。
+				</content>
+				<sound>	10jifubenyuyin/1_shangguzhishi	</sound>
+			</row>
+			<row>
+				<startPos>		1120		</startPos>
+				<endPos>		1600		</endPos>
+				<content>
+					魔族混沌氏趁機自天裂處而下，入侵大荒。
+				</content>
+				<sound>	10jifubenyuyin/2_buzhoushanjiqing	</sound>
+			</row>
+			<row>
+				<startPos>		1624		</startPos>
+				<endPos>		2284		</endPos>
+				<content>
+					是日，魔族肆虐，日月無光，萬物幾近滅絕。
+				</content>
+				<sound>	10jifubenyuyin/3_shiri	</sound>
+			</row>
+			<row>
+				<startPos>		2296		</startPos>
+				<endPos>		2900	</endPos>
+				<content>
+					雖偶有邦國部落群起抵抗，然終是螳臂當車。
+				</content>
+				<sound>	10jifubenyuyin/4_qihou	</sound>
+			</row>
+			<row>
+				<startPos>		2968		</startPos>
+				<endPos>		3304	</endPos>
+				<content>
+					世人禱於神靈，以期救贖。
+				</content>
+				<sound>	10jifubenyuyin/5_shirenbukanqiku	</sound>
+			</row>
+			<row>
+				<startPos>		3360		</startPos>
+				<endPos>		4312	</endPos>
+				<content>
+					盤古元神不滅，凝為女媧，女媧斬惡龍，殺璇龜，以全補天之材。
+				</content>
+				<sound>	10jifubenyuyin/6_panguyuanshenbumie	</sound>
+			</row>
+			<row>
+				<startPos>		4368		</startPos>
+				<endPos>	    5308	</endPos>
+				<content>
+					女媧煉靈石，疏積洪，三日而功成。以五色靈石補蒼穹，斷絕魔族後路。
+				</content>
+				<sound>	10jifubenyuyin/7_nvwalianlingshi	</sound>
+			</row>
+			<row>
+				<startPos>		5376		</startPos>
+				<endPos>		6260	</endPos>
+				<content>
+					此後，女媧攜眾神戰混沌於大荒，鏖戰經年，終殲滅混沌魔族大部。
+				</content>
+				<sound>	10jifubenyuyin/8_cihou	</sound>
+			</row>
+			<row>
+				<startPos>		6384		</startPos>
+				<endPos>	    7000    </endPos>
+				<content>
+					混沌無可滅絕。女媧採五方精氣封鎮混沌於大荒諸野。
+				</content>
+				<sound>	10jifubenyuyin/9_hundunnaiyuzhouyuanshizhilin	</sound>
+			</row>
+			<row>
+				<startPos>		7056		</startPos>
+				<endPos>	    8840   </endPos>
+				<content>
+					女媧神力衰減，其封印僅存百年之效。若百年後魔族再出，又有何人方能克之？
+				</content>
+				<sound>	10jifubenyuyin/10_nvwashenlirishuai	</sound>
+			</row>
+		</segments>
+	</Scene1>
+</root>

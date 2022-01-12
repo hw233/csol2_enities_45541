@@ -1,0 +1,16 @@
+<root>
+	<Parent>	SpaceCopy	</Parent>
+
+	<Properties>
+	</Properties>
+	
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<onRoleRelive>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		DATABASE_ID		</Arg>
+		</onRoleRelive>
+	</CellMethods>
+
+</root>

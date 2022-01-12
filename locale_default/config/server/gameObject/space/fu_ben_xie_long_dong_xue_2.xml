@@ -1,0 +1,20 @@
+<root>
+	<spaceName>	邪龙洞穴副本	</spaceName>
+	<EntityType>SpaceCopyXieLongDongXue</EntityType>
+	<DomainType>SpaceDomainXieLongDongXue</DomainType>
+	<script>SpaceCopyXieLongDongXue</script>
+	<SpaceType>	SPACE_TYPE_XIE_LONG_DONG_XUE	</SpaceType>
+	<className>fu_ben_xie_long_dong_xue_2</className>
+	<dirMapping> universes/fu_ben_xie_long_dong_xue </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允许飞行 -->
+	<playerAoI>	100	</playerAoI>				<!--玩家的视野范围-->
+	<canGetAccum>	1	</canGetAccum>				<!-- 允许召唤守护，打怪能获得气运 -->
+	<canConjurePet>	1	</canConjurePet>			<!-- 禁制召唤宠物-->
+	<TimeOfDay>	45000	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_xie_long_dong_xue_2.xml		</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<Space>
+		<deathDepth>	-90	</deathDepth>
+	</Space>
+</root>

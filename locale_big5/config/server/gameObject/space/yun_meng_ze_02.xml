@@ -1,0 +1,25 @@
+<root>
+	<EntityType>SpaceMultiLine</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceMultiLine</script>
+	<className>yun_meng_ze_02</className>
+	<dirMapping> universes/yun_meng_ze_02 </dirMapping>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	0	</canFly>	<!-- 是否允許飛行 -->
+	<TimeOfDay>	50160	</TimeOfDay>
+	<spawnFile>	config/server/spawn/yun_meng_ze_02.xml	</spawnFile>
+	<canArrest/>	<!-->是否可逮捕入獄<-->
+	<maxLine>2</maxLine>
+	<maxPlayerAmount>1050</maxPlayerAmount>    
+	<initLine>2</initLine>
+	<newLineByPlayerAmount>200</newLineByPlayerAmount>
+	<Space>
+		<Tomb>
+			<fengming01>
+				<SpaceName>fengming</SpaceName>
+				<Position>910.364 208.160 213.759</Position>
+				<Direction>	0.0 0.0 -180.0	</Direction>	<!-- 復活後的面向方向，暫未實現 -->
+			</fengming01>
+		</Tomb>
+	</Space>
+</root>

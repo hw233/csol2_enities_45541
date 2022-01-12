@@ -1,0 +1,79 @@
+<root>
+	<Properties>
+		<!-- 模型部分-->
+		<hairNumber>	<!-- 发型编号-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</hairNumber>
+
+		<faceNumber>	<!-- 脸部编号-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</faceNumber>
+
+		<bodyFDict>	<!-- 胸部自定义数据-->
+			<Type>			ARMOR_EFFECT	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</bodyFDict>
+
+		<volaFDict>	<!-- 手部自定义数据-->
+			<Type>			ARMOR_EFFECT	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</volaFDict>
+
+		<breechFDict>	<!-- 腿部自定义数据-->
+			<Type>			ARMOR_EFFECT	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</breechFDict>
+
+		<feetFDict>	<!-- 足部自定义数据-->
+			<Type>			ARMOR_EFFECT	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</feetFDict>
+
+		<lefthandFDict><!-- 左手自定义数据-->
+			<Type>			WEAPON_EFFECT	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</lefthandFDict>
+
+		<righthandFDict><!-- 右手自定义数据-->
+			<Type>			WEAPON_EFFECT	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</righthandFDict>
+
+		<talismanNum>	<!--法宝编号-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</talismanNum>
+
+		<fashionNum>			<!-- 时装编号 -->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		true			</Persistent>
+		</fashionNum>
+
+		<adornNum>			<!-- 饰品编号 -->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		true			</Persistent>
+		</adornNum>
+
+		<weaponAppendState><!-- 武器悬挂激活状态 默认为激活-->
+			<Type>			INT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1				</Default>
+		</weaponAppendState>
+
+	</Properties>
+</root>

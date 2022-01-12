@@ -1,0 +1,17 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<req>
+			<Arg> MAILBOX	</Arg>
+			<Arg> MAILBOX	</Arg>
+			<Arg> UINT16	</Arg>
+		</req>
+		<cancel>
+			<Arg> OBJECT_ID	</Arg>
+			<Arg>	BOOL	</Arg>
+		</cancel>
+	</BaseMethods>
+
+</root>

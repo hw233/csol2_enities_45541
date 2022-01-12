@@ -1,0 +1,3 @@
+# -*- coding: cp950 -*-
+
+SIGNBOARD = "ªº©±¾Q"

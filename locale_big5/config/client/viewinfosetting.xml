@@ -1,0 +1,257 @@
+<!-- type 可以是 int, float, bool, Vector2, Vector3, Vector4 -->
+
+<root>
+	<!-- 角色自身 -->
+	<player>		<!-- 玩家所屬角色自身信息設置 -->
+		<name>										<!-- 是否顯示名稱 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</name>
+		<title>										<!-- 是否顯示稱號 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</title>
+		<guild>										<!-- 是否顯示幫會 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</guild>
+		<HP>										<!-- 是否顯示生命 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</HP>
+		<family>									<!-- 是否顯示家族 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</family>
+	</player>
+	<playerPet>		<!-- 玩家寵物信息設置 -->
+		<name>										<!-- 是否顯示自己寵物的名字 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</name>
+		<HP>										<!-- 是否顯示生命 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</HP>
+	</playerPet>
+
+	<!-- 隊友 -->
+	<teammate>
+		<name>										<!-- 是否顯示名稱 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</name>
+		<title>										<!-- 是否顯示稱號 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</title>
+		<guild>										<!-- 是否顯示幫會 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</guild>
+		<HP>										<!-- 是否顯示生命 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</HP>
+		<family>									<!-- 是否顯示家族 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</family>
+		<model>										<!-- 模型 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</model>
+	</teammate>
+	<teammatePet>
+		<name>										<!-- 是否顯示自己寵物的名字 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</name>
+		<HP>										<!-- 是否顯示生命 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</HP>
+		<model>										<!-- 模型 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</model>
+	</teammatePet>
+
+	<!-- 其他角色 -->
+	<role>	<!-- 其他角色信息設置 -->
+		<name>										<!-- 是否顯示名稱 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</name>
+		<title>										<!-- 是否顯示稱號 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</title>
+		<guild>										<!-- 是否顯示幫會 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默認為顯示 -->
+		</guild>
+		<HP>										<!-- 是否顯示生命 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</HP>
+		<family>									<!-- 是否顯示家族 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</family>
+		<model>										<!-- 模型 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</model>
+	</role>
+
+	<!-- 其他寵物 -->
+	<pet>
+		<name>										<!-- 是否顯示自己寵物的名字 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</name>
+		<HP>										<!-- 是否顯示生命 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</HP>
+		<model>										<!-- 模型 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</model>
+	</pet>
+
+	<!-- NPC 信息設置 -->
+	<npc>
+		<name>										<!-- 是否顯示名稱 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</name>
+		<title>										<!-- 是否顯示頭銜 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</title>
+	</npc>
+
+	<!-- 怪物信息設置 -->
+	<monster>
+		<name>										<!-- 是否顯示名稱 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</name>
+		<profession>								<!-- 是否顯示職業 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</profession>
+		<HP>										<!-- 是否顯示生命 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</HP>
+		<level>										<!-- 是否顯示等級 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</level>
+		<persistence>								<!--是否持續顯示-->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默認為顯示 -->
+		</persistence>
+		<title>										<!--是否顯示標題-->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默認為不顯示 -->
+		</title>
+	</monster>
+
+	<!-- 掉落物品 -->
+	<dropItem>
+		<particle>									<!-- 是否顯示光效 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</particle>
+	</dropItem>
+
+	<!-- 窗口 -->
+	<window>
+		<fadein>									<!-- 漸顯窗口 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為漸顯 -->
+		</fadein>
+	</window>
+	<tipWindow>										<!-- 提示窗口 -->
+		<rightAnchor>								<!-- 是否靠右下角 -->
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默認為 False( 跟隨鼠標 ) -->
+		</rightAnchor>
+	</tipWindow>
+	<hideQuickBar>									<!-- 自動隱藏的快捷欄 -->
+		<valid>										<!-- 是否啟用 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為啟用 -->
+		</valid>
+	</hideQuickBar>
+	<bubble>
+		<visible>
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為啟用 -->
+		</visible>
+		<style>
+			<type>	bool		</type>
+			<def>	false		</def>				<!-- 默認為啟用第一種風格 -->
+		</style>
+	</bubble>
+
+	<!-- 戰斗信息設置 -->
+	<hitedInfo>
+		<enemy>										<!-- 是否在頻道中顯示敵人的受傷信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</enemy>
+		<skill>										<!-- 是否輸出使用技能信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</skill>
+		<revert>
+			<type>	bool		</type>				<!--恢復信息 -->
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</revert>
+		<injured>									<!-- 是否在頻道中顯示受傷信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</injured>
+		<buff>										<!-- 是否在頻道中顯示 buff 信息 -->
+			<type>	bool		</type>
+			<def>	true		</def>				<!-- 默認為顯示 -->
+		</buff>
+	</hitedInfo>
+
+	<!--小地圖圖標顯示設置-->
+	<entitySigns>
+		<npc>
+			<type>	bool		</type>				<!--是否顯示小地圖上的npc圖標-->
+			<def>	true		</def>
+		</npc>
+		<teammate>
+			<type>	bool		</type>				<!--是否顯示小地圖上的隊友圖標-->
+			<def>	true		</def>
+		</teammate>
+		<monster>
+			<type>	bool		</type>				<!--是否顯示小地圖上的怪物圖標-->
+			<def>	false		</def>
+		</monster>
+	</entitySigns>
+
+	<!--角色是否自動反擊設置-->
+	<fightControl>
+		<counter>										<!--是否自動反擊-->
+			<type>	bool	</type>
+			<def>	false		</def>
+		</counter>
+	</fightControl>
+
+	<!--聊天消息-->
+	<chat>
+		<welkinAndTunel>										<!--是否顯示天地音提示框-->
+			<type>	bool	</type>
+			<def>	true		</def>
+		</welkinAndTunel>
+	</chat>
+</root>

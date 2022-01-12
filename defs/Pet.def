@@ -1,0 +1,536 @@
+<root>
+	<Parent>	NPCObject	</Parent>
+
+	<Implements>
+		<Interface>	PetAI  		</Interface>
+		<Interface>	SkillBox	</Interface>
+		<Interface>	AmbulantObject	</Interface>
+	</Implements>
+
+	<!--<ClientName>	Pet		</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<actWord>		<!-- override it in State -->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+		</actWord>
+
+		<!-- base attributes -->
+		<ownerDBID>
+			<Type>			INT64			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<IndexType> Normal </IndexType>
+		</ownerDBID>
+		<className>
+			<Type>			STRING			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Persistent>	true			</Persistent>
+		</className>
+		<baseOwnerID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</baseOwnerID>
+		<mapMonster>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</mapMonster>
+
+		<!-- cell attributes -->
+		<baseOwner>							<!-- 所属玩家的 base mailbox -->
+			<Type>			MAILBOX			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+		</baseOwner>
+		<isDeadWithdraw>					<!-- 标记回收是否是因为死亡 -->
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	true			</Persistent>
+		</isDeadWithdraw>
+
+		<_Pet__heartbeatTimerID>			<!-- 心跳 timerID -->
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</_Pet__heartbeatTimerID>
+		<_Pet__revertTimerID>				<!-- 回血/回蓝 timerID -->
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</_Pet__revertTimerID>
+
+		<lifeDecTime>						<!-- 临时记录寿命递减时间 -->
+			<Type>		INT64				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</lifeDecTime>
+		<joyancyDecTime>					<!-- 临时记录寿命递减时间 -->
+			<Type>		INT64				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</joyancyDecTime>
+
+		<!-- common attributes -->
+		<databaseID>
+			<Type>			DATABASE_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</databaseID>
+		<ownerID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</ownerID>
+		<name>													<!-- 名字 -->
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</name>
+		<gender>												<!-- 性别 -->
+			<Type>			UINT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</gender>
+		<species>												<!-- 规格（辈分和类别的合值） -->
+			<Type>			UINT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</species>
+
+		<EXP>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</EXP>
+
+		<!-- 强化获得的二级属性值 -->
+		<e_corporeity>											<!-- 体质 -->
+			<Type>			UINT16		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</e_corporeity>
+		<e_strength>											<!-- 力量 -->
+			<Type>			UINT16		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</e_strength>
+		<e_intellect>											<!-- 智力 -->
+			<Type>			UINT16		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</e_intellect>
+		<e_dexterity>											<!-- 敏捷 -->
+			<Type>			UINT16		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</e_dexterity>
+
+		<!-- 二级属性强化次数 -->
+		<ec_corporeity>											<!-- 体质强化次数 -->
+			<Type>			UINT8		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</ec_corporeity>
+		<ec_strength>											<!-- 力量强化次数 -->
+			<Type>			UINT8		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</ec_strength>
+		<ec_intellect>											<!-- 智力强化次数 -->
+			<Type>			UINT8		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</ec_intellect>
+		<ec_dexterity>											<!-- 敏捷强化次数 -->
+			<Type>			UINT8		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</ec_dexterity>
+		<ec_free>												<!-- 自由强化次数 -->
+			<Type>			UINT8		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</ec_free>
+		<takeLevel>											<!-- 携带等级 -->
+			<Type>			UINT8		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+		</takeLevel>
+
+		<!-- pet proper attributes -->
+		<ability>											<!-- 成长度 -->
+			<Type>			UINT8		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</ability>
+		<nimbus>												<!-- 灵值 -->
+			<Type>			INT8			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</nimbus>
+		<calcaneus>												<!-- 根骨 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</calcaneus>
+		<character>												<!-- 性格 -->
+			<Type>			UINT8			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</character>
+		<procreated>											<!-- 繁殖状态：是否繁殖 -->
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</procreated>
+		<life>													<!-- 寿命 -->
+			<Type>			UINT16			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		65535			</Default>
+			<Persistent>	true			</Persistent>
+		</life>
+		<joyancy>												<!-- 快乐度 -->
+			<Type>			INT8			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		100				</Default>
+			<Persistent>	true			</Persistent>
+		</joyancy>
+		<stamp>		<!-- 宠物印记，手写或者系统 -->
+			<Type>			UINT8			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		1			</Default>
+			<Persistent>		true			</Persistent>
+		</stamp>
+		<isBinded>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+			<Persistent>		true			</Persistent>
+		</isBinded>
+		<!-- wsf add,关于宠物代练宝石-->
+		<absorbableEXP>	<!-- 当天代练宝石经验吸取上限-->											<!-- 快乐度 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</absorbableEXP>
+		<absorbDate>	<!-- 代练宝石吸取经验上限有效期-->											<!-- 快乐度 -->
+			<Type>			INT64			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</absorbDate>
+		<absorbableEXPLevelValue>	<!-- 代练宝石每级已吸取经验量 by jy -->
+			<Type>			INT64			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</absorbableEXPLevelValue>
+		<tickCount>	<!-- 心跳次数 -->											<!-- 快乐度 -->
+			<Type>			INT64			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</tickCount>
+	</Properties>
+
+	<ClientMethods>
+		<onSetEC_corporeity>
+			<Arg>		UINT8		</Arg>
+		</onSetEC_corporeity>
+
+		<onSetEC_strength>
+			<Arg>		UINT8		</Arg>
+		</onSetEC_strength>
+
+		<onSetEC_dexterity>
+			<Arg>		UINT8		</Arg>
+		</onSetEC_dexterity>
+
+		<onSetEC_intellect>
+			<Arg>		UINT8		</Arg>
+		</onSetEC_intellect>
+
+		<onSetE_corporeity>
+			<Arg>		UINT16		</Arg>
+		</onSetE_corporeity>
+
+		<onSetE_strength>
+			<Arg>		UINT16		</Arg>
+		</onSetE_strength>
+
+		<onSetE_dexterity>
+			<Arg>		UINT16		</Arg>
+		</onSetE_dexterity>
+
+		<onSetE_intellect>
+			<Arg>		UINT16		</Arg>
+		</onSetE_intellect>
+
+		<onSetEC_free>
+			<Arg>		UINT8		</Arg>
+		</onSetEC_free>
+
+		<onSetAbility>
+			<Arg>		UINT8		</Arg>
+		</onSetAbility>
+
+		<onSetNimbus>
+			<Arg>		INT8		</Arg>
+		</onSetNimbus>
+
+		<onSetCalcaneus>
+			<Arg>		INT32		</Arg>
+		</onSetCalcaneus>
+
+		<onSetCharacter>
+			<Arg>		UINT8		</Arg>
+		</onSetCharacter>
+
+		<onSetProcreated>
+			<Arg>		BOOL		</Arg>
+		</onSetProcreated>
+
+		<onSetLife>
+			<Arg>		UINT16		</Arg>
+		</onSetLife>
+
+		<onSetJoyancy>
+			<Arg>		INT8		</Arg>
+		</onSetJoyancy>
+
+		<onSetCorporeity>
+			<Arg>		INT32		</Arg>
+		</onSetCorporeity>
+
+		<onSetStrength>
+			<Arg>		INT32		</Arg>
+		</onSetStrength>
+
+		<onSetIntellect>
+			<Arg>		INT32		</Arg>
+		</onSetIntellect>
+
+		<onSetDexterity>
+			<Arg>		INT32		</Arg>
+		</onSetDexterity>
+
+		<onSetPhyManaVal_value>
+			<Arg>		INT16		</Arg>
+		</onSetPhyManaVal_value>
+
+		<onSetPhyManaVal_percent>
+			<Arg>		INT32		</Arg>
+		</onSetPhyManaVal_percent>
+
+		<onSetMagicManaVal_value>
+			<Arg>		INT16		</Arg>
+		</onSetMagicManaVal_value>
+
+		<onSetMagicManaVal_percent>
+			<Arg>		INT32		</Arg>
+		</onSetMagicManaVal_percent>
+
+		<onSetPhySkillRangeVal_value>
+			<Arg>		INT16		</Arg>
+		</onSetPhySkillRangeVal_value>
+
+		<onSetPhySkillRangeVal_percent>
+			<Arg>		INT32		</Arg>
+		</onSetPhySkillRangeVal_percent>
+
+		<onSetMagicSkillRangeVal_value>
+			<Arg>		INT16		</Arg>
+		</onSetMagicSkillRangeVal_value>
+
+		<onSetMagicSkillRangeVal_percent>
+			<Arg>		INT32		</Arg>
+		</onSetMagicSkillRangeVal_percent>
+
+		<onSetDamageMin>
+			<Arg>		INT32		</Arg>
+		</onSetDamageMin>
+
+		<onSetDamageMax>
+			<Arg>		INT32		</Arg>
+		</onSetDamageMax>
+
+		<onSetMagicDamage>
+			<Arg>		INT32		</Arg>
+		</onSetMagicDamage>
+
+		<onSetArmor>
+			<Arg>		INT32		</Arg>
+		</onSetArmor>
+
+		<onSetMagicArmor>
+			<Arg>		INT32		</Arg>
+		</onSetMagicArmor>
+
+		<onSetDodgeProbability>
+			<Arg>		FLOAT		</Arg>
+		</onSetDodgeProbability>
+
+		<onSetResistHitProbability>
+			<Arg>		FLOAT		</Arg>
+		</onSetResistHitProbability>
+
+		<onSetDoubleHitProbability>
+			<Arg>		FLOAT		</Arg>
+		</onSetDoubleHitProbability>
+
+		<onSetMagicDoubleHitProbability>
+			<Arg>		FLOAT		</Arg>
+		</onSetMagicDoubleHitProbability>
+
+		<onSetResistGiddyProbability>
+			<Arg>		FLOAT		</Arg>
+		</onSetResistGiddyProbability>
+
+		<onSetResistFixProbability>
+			<Arg>		FLOAT		</Arg>
+		</onSetResistFixProbability>
+
+		<onSetResistChenmoProbability>
+			<Arg>		FLOAT		</Arg>
+		</onSetResistChenmoProbability>
+
+		<onSetResistSleepProbability>
+			<Arg>		FLOAT		</Arg>
+		</onSetResistSleepProbability>
+		<onRecievePetData>
+			<Arg>		PYTHON		</Arg>
+		</onRecievePetData>
+		<onSetRange>
+			<Arg>		FLOAT		</Arg>
+		</onSetRange>
+		<onSetHit_speed>
+			<Arg>		FLOAT		</Arg>
+		</onSetHit_speed>
+	</ClientMethods>
+
+	<CellMethods>
+		<rename>						<!-- 重新命名宠物 -->
+			<Arg>		STRING		</Arg>
+		</rename>
+
+		<addEXP>						<!-- 增加 EXP -->
+			<Arg>		INT32	</Arg>
+		</addEXP>
+		<absorbEXP>						<!-- 从代练宝石里吸取 EXP -->
+			<Arg>		INT32	</Arg>
+		</absorbEXP>
+		<withdraw>						<!-- 回收 -->
+			<Arg>		UINT8	</Arg>
+		</withdraw>
+		<free>							<!-- 放生 -->
+		</free>
+		<rejuvenesce>					<!-- 还童 -->
+			<Arg>		UINT8	</Arg>
+		</rejuvenesce>
+		<enhance>						<!-- 强化 -->
+			<Arg>		UINT8	</Arg>
+			<Arg>		STRING	</Arg>
+			<Arg>		INT8	</Arg>
+		</enhance>
+		<combine>						<!-- 合成 -->
+			<Arg>	DATABASE_ID	</Arg>
+		</combine>
+
+		<lifeup>							<!-- 延寿 -->
+			<Arg>		UINT16	</Arg>
+		</lifeup>
+		<domesticate>						<!-- 驯养 -->
+			<Arg>		INT8	</Arg>
+		</domesticate>
+
+		<addQuestEXP>	<!-- 增加任务经验 -->
+			<Arg>	INT32		</Arg>					<!-- 经验值 -->
+			<Arg>	INT16		</Arg>					<!-- 任务等级 -->
+		</addQuestEXP>
+
+		<setAbility>
+			<Arg>	INT32		</Arg>					<!-- 成长度 -->
+		</setAbility>
+
+		<!-- exposed methods -->
+		<requestSkillBox>				<!-- 发送所有的skillID到请求的client -->
+			<Exposed/>
+		</requestSkillBox>
+
+		<removePetBuff>
+			<Arg>	SKILLID		</Arg>					<!-- buffID -->
+			<Arg>	INT8		</Arg>					<!-- index -->
+		</removePetBuff>
+
+		<queryPetNimbus>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryPetNimbus>
+		<queryPetLife>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryPetLife>
+		<queryPetJoyancy>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryPetJoyancy>
+		<queryPetPropagate>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	PY_DICT		</Arg>
+		</queryPetPropagate>
+
+		<onVehicleAddEquips>	<!--宠物召 收受到骑宠装备而改变属性的回调-->
+			<Arg>	ARRAY <of> ITEM_ID </of>	</Arg>		<!-- 影响到宠物属性的骑宠装备 ID 列表 -->
+		</onVehicleAddEquips>
+		<onVehicleRemoveEquips>	<!--宠物召 收受到骑宠装备而改变属性的回调-->
+			<Arg>	ARRAY <of> ITEM_ID </of>	</Arg>		<!-- 影响到宠物属性的骑宠装备 ID 列表 -->
+		</onVehicleRemoveEquips>
+
+		<onVehicleAddSkills>
+			<Arg>	ARRAY <of> SKILLID </of>	</Arg>		<!-- 影响到宠物属性的骑宠技能 ID 列表 -->
+			<Arg>	INT8				</Arg>
+		</onVehicleAddSkills>
+		<onVehicleRemoveSkills>
+			<Arg>	ARRAY <of> SKILLID </of>	</Arg>		<!-- 影响到宠物属性的骑宠技能 ID 列表 -->
+			<Arg>	FLOAT				</Arg>
+		</onVehicleRemoveSkills>
+
+		<calcPropertiesByVehicle>
+		</calcPropertiesByVehicle>
+		<requeryPetDatas>
+			<Exposed/>
+		</requeryPetDatas>
+
+	</CellMethods>
+	<BaseMethods>
+		<withdraw>
+			<Arg>			UINT8			</Arg>				<!-- withdraw mode -->
+		</withdraw>
+	</BaseMethods>
+</root>

@@ -1,0 +1,168 @@
+<root>
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Properties>
+		<!-- Should have a Vector type -->
+		<xorigin>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</xorigin>
+		<yorigin>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</yorigin>
+		<zorigin>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</zorigin>
+
+		<treeGroup>
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</treeGroup>
+
+		<stateChangeTime>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</stateChangeTime>
+
+		<maxFlightTime>
+			<!-- 最大飞行时间，时间到了就会在一个栖息地里停下来
+			（如果有栖息地的话），默认飞行200秒 -->
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		200					</Default>
+			<Editable>		true			</Editable>
+		</maxFlightTime>
+
+		<state>
+			<Type>			INT8				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		0					</Default>
+		</state>
+
+		<modelFile>	<!-- 模型路径 -->
+			<Type>			STRING				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Editable>		true			</Editable>
+		</modelFile>
+
+		<amount>	<!-- 出现的数量 -->
+			<Type>			INT8				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		30					</Default>
+			<Editable>		true			</Editable>
+		</amount>
+		<modelScale>	<!-- 模型放大的倍率 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1.0				</Default>
+			<Editable>		true			</Editable>
+		</modelScale>
+		<!-- -----------------BoidsFilter属性------------------- -->
+		<radius>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		20.0				</Default>
+			<Editable>		true			</Editable>
+		</radius>
+		<approachRadius>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		10.0				</Default>
+		</approachRadius>
+
+		<heightClipMin>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		-10000000		</Default>
+			<Editable>		true			</Editable>
+		</heightClipMin>
+
+		<heightClipMax>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		10000000		</Default>
+			<Editable>		true			</Editable>
+		</heightClipMax>
+
+		<yawEnable>
+			<Type>			BOOL			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1			</Default>
+			<Editable>		true			</Editable>
+		</yawEnable>
+
+		<pitchEnable>
+			<Type>			BOOL			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1			</Default>
+			<Editable>		true			</Editable>
+		</pitchEnable>
+
+		<rollEnable>
+			<Type>			BOOL			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1			</Default>
+			<Editable>		true			</Editable>
+		</rollEnable>
+
+		<collisionFraction>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.5				</Default>
+			<Editable>		true			</Editable>
+		</collisionFraction>
+		<influenceRadius>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		10.0				</Default>
+		</influenceRadius>
+		<speed>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.5				</Default>
+		</speed>
+		<stopRadius>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1.0				</Default>
+		</stopRadius>
+		<waterHeight>	<!-- 水体的高度 -->   
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0				</Default>
+			<Editable>		true			</Editable>
+		</waterHeight>
+		<hardPoint>
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Editable>		true			</Editable>
+		</hardPoint>
+		<effectID>	<!-- 触发的光效ID -->
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Editable>		true			</Editable>
+		</effectID>
+		<triggerLoopTime>	<!-- 光效触发时间间隔 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		12.0				</Default>
+			<Editable>		true			</Editable>
+		</triggerLoopTime>
+		<actionID>	<!-- 触发光效的动作ID -->
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Editable>		true			</Editable>
+		</actionID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

@@ -1,0 +1,24 @@
+<root>
+	<EntityType>SpaceCopySunBath</EntityType>
+	<DomainType>SpaceDomainMultiLine</DomainType>
+	<script>SpaceSunBath</script>
+	<className>fu_ben_yu_xu_gong_mo</className>
+	<dirMapping> universes/zy_yu_xu_gong </dirMapping>
+	<CanPk>	1	</CanPk>
+	<TimeOn> 0 </TimeOn>
+	<canFly>	1	</canFly>	<!-- 是否允许飞行 -->
+	<CanQieCuo>	1	</CanQieCuo>		<!-- 允许切磋 -->
+	<TimeOfDay>	41400	</TimeOfDay>
+	<spawnFile>	config/server/spawn/fu_ben_yu_xu_gong_mo.xml		</spawnFile>
+	<spellRefreshTime>	  60	</spellRefreshTime>	<!-->间隔时间<-->
+	<Space>
+		<spaceBBoxMin>	-1000,-100,-1000	</spaceBBoxMin>
+		<spaceBBoxMax>	1000,700,1000	</spaceBBoxMax>
+		<deathDepth>	-50	</deathDepth>
+	</Space>
+	<canArrest/>	<!-->是否可逮捕入狱<-->
+	<maxLine>1</maxLine>                                  		
+	<initLine>1</initLine>
+	<maxPlayerAmount>525</maxPlayerAmount>                           
+	<newLineByPlayerAmount>400</newLineByPlayerAmount> 	
+</root>
